@@ -12,7 +12,7 @@ ROOT=Path(__file__).resolve().parents[1]
 DATA=ROOT/'data'/'articles.json'
 GERMAN_SOURCES=('Bundesumweltministerium','Deutschland – Wildtiere')
 GERMAN_CUES=(' der ',' die ',' das ',' den ',' dem ',' des ',' und ',' für ',' über ',' in deutschland ',' gegen ',' schutz ',' neue ',' neuen ',' eu-')
-MAX_PER_RUN=120
+MAX_PER_RUN=400
 
 def likely_german(item):
     if any(str(item.get('source','')).startswith(s) for s in GERMAN_SOURCES):return True

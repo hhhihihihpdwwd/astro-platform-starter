@@ -1,6 +1,6 @@
 # Wildlife Command Center – unabhängiger Recherche-Prototyp
 
-**Aktuelle Web-Vorschau (23.11.2026):** https://motley-goal-y9j15.ship.place/
+**Aktuelle Web-Vorschau (23.11.2026):** https://festive-parcel-4gdig.ship.place/
 
 Dieses Projekt ist ein **nicht offiziell freigegebener, öffentlich erreichbarer Prototyp** zur Recherche von öffentlichen Wildtier-, Artenschutz-, Wissenschafts- und Politikmeldungen für IFAW-bezogene Themen. Keine offizielle IFAW-Webanwendung, kein Logo und keine internen Unternehmensdaten.
 

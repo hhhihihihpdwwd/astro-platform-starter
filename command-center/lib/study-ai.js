@@ -61,7 +61,7 @@
       const result=await session.summarize(raw,{
         context:'Schreibe eine quellennahe Zusammenfassung auf Deutsch mit Forschungsfrage, Methoden, Ergebnissen nur wenn explizit belegt, Grenzen der Evidenz und möglichen Kommunikationsfragen. Keine erfundenen Zahlen oder Aussagen.'
       });
-      const txt=short(result);
+      const txt=String(result||'').trim();
       if(txt.length<35)throw new Error('Das Modell hat keine verwertbare Zusammenfassung erzeugt.');
       return {status:'ok',text:txt,basis:study.abstract_origin||'Original-Abstract aus wissenschaftlicher Metadatenquelle'};
     }catch(e){

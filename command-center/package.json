@@ -1,0 +1,7 @@
+{
+  "name": "ifaw-command-center",
+  "version": "0.1.0",
+  "private": true,
+  "type": "commonjs",
+  "description": "Dependency-free public-source monitoring dashboard; no paid APIs"
+}

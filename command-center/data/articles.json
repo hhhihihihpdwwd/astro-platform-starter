@@ -1,7 +1,43 @@
 {
-  "schema_version": 1,
-  "generated_at": "2026-11-23T12:09:15.194592Z",
+  "schema_version": 2,
+  "generated_at": "2026-11-23T14:44:49.908595Z",
   "articles": [
+    {
+      "id": "586975a04b9fad49248c",
+      "title": "Plant-based lunches could cut Australia’s emissions by 15m tonnes, new research shows",
+      "url": "https://www.theguardian.com/environment/2026/nov/23/plant-based-lunches-could-cut-australia-emissions-by-15m-tonnes-new-research-shows",
+      "date": "2026-11-23T13:58:01Z",
+      "summary": "Nationwide change in lunch habits could cut more climate pollution than grounding every domestic flight Get our breaking news email, free app or daily news podcast Australians could collectively cut climate pollution by more than 15m tonnes – more…",
+      "source": "The Guardian – Environment",
+      "kind": "media"
+    },
+    {
+      "id": "dccd17430494fe38e5d4",
+      "title": "Environment Agency and Natural England face axe in Labour quango cull",
+      "url": "https://www.theguardian.com/politics/2026/nov/23/natural-england-could-be-abolished-quango-cull-louise-haigh",
+      "date": "2026-11-23T13:03:42Z",
+      "summary": "Louise Haigh says the two environmental regulators are being reviewed as part of shake-up of arm’s length bodies Ministers are considering abolishing two of England’s biggest environmental regulators in an attempt to give politicians greater control…",
+      "source": "The Guardian – Environment",
+      "kind": "media"
+    },
+    {
+      "id": "d6c2869a44a8f629b09a",
+      "title": "‘We had to reinvent the system completely,’ Brazilian philanthropy leader says",
+      "url": "https://news.mongabay.com/2026/11/we-had-to-reinvent-the-system-completely-brazilian-philanthropy-leader-says/",
+      "date": "2026-11-23T12:50:10Z",
+      "summary": "In November 2025, Indigenous and Afro-descendent peoples, frontline defenders and civil society movements mobilized in unprecedented numbers in Belém, Brazil, to advocate for their demands at the 30th U.N. Climate Change Conference (COP30). One of…",
+      "source": "Mongabay – Conservation News",
+      "kind": "media"
+    },
+    {
+      "id": "0fcbbcfe9a104054a981",
+      "title": "Failure of Cop31 prompts calls for urgent reform of UN climate summits",
+      "url": "https://www.theguardian.com/environment/2026/nov/23/failure-cop31-calls-urgent-reform-un-climate-summits",
+      "date": "2026-11-23T12:21:23Z",
+      "summary": "Former US vice-president Al Gore among climate leaders demanding change to consensus rule after Antalya summit The failure at Cop31 to reach a keystone agreement has exposed the need to reform how the UN’s climate summits make decisions, say…",
+      "source": "The Guardian – Environment",
+      "kind": "media"
+    },
     {
       "id": "b07b6aea5251ab1df2ef",
       "title": "Warming seas threaten South Korea’s iconic squid fishery with collapse by 2040s",
@@ -252,6 +288,15 @@
       "date": "2026-11-20T17:07:44Z",
       "summary": "ANTALYA, Turkey (AP) — Negotiators are still seeking concrete commitments for nations to transition away from fossil fuels, as this year’s U.N. climate summit reaches its final day. Friday marks the official end of this year’s two-week summit, known…",
       "source": "Mongabay – Conservation News",
+      "kind": "media"
+    },
+    {
+      "id": "f7c20060867054d36a57",
+      "title": "Karlsruhe Multiple: Hundert Papageienfiguren für den Artenschutz - Baden TV",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdnVGTEJBZ0VVZkVlTGE1QWFFdlNEdWstbk96VFZzQ1llbzhhNThQQUpEQXVIUTQxODU4RXBxRXdZdVJwOVdPMmJ5SUthbDJJVElPQXZackpwdm5EYmNOdTBYeXphcHFWSUVHUndueHgzOFpMT2I1dGh4MV9ZbG5RNmRYQnhCQVlQenFTcGxMenBWLWM0THBtLUR5c1FUU3NqMXBGZTRnWXJ3QQ?oc=5",
+      "date": "2026-11-20T17:02:00Z",
+      "summary": "Karlsruhe Multiple: Hundert Papageienfiguren für den Artenschutz Baden TV",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
       "kind": "media"
     },
     {
@@ -516,6 +561,15 @@
       "kind": "media"
     },
     {
+      "id": "df8a809d7f83ad2894fb",
+      "title": "Regierungspräsidium Karlsruhe legt für den Artenschutz eine neue Sandrasenfläche in den Oftersheimer Dünen an - Jack News",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPbXpMRDVXTEh6MmdxN1hoR0R2OGxTWXlWWTJ1SEdSNmIzbVkwek1ZVjE0VWdDTVNGbnhKTzlMSC1JZXhDcFVfbGNBM1c5cXcyZFJCdFlNUVAwYk1LMlpQSU5EZ3Z2RG5kN3Rza3FIZkNzUjZZb1NXZ2pwb1FyTi1MUXRKX3B2NW9taVNDdXhOb2J1RklwMXVubDZZYkhjSDMwbWlUOC14YVJtbXl1U3RrdmZpOUQ5amNoNWRFWWw2c05xWjNqdm1nWnpoSUQyNFdz?oc=5",
+      "date": "2026-11-18T11:29:15Z",
+      "summary": "Regierungspräsidium Karlsruhe legt für den Artenschutz eine neue Sandrasenfläche in den Oftersheimer Dünen an Jack News",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
+      "kind": "media"
+    },
+    {
       "id": "72efef3bae5c6c11dcde",
       "title": "After 49 years, Nasa’s Voyager 1 is one light-day away from us. Can we save this ‘pale blue dot’? | Kim Heacox",
       "url": "https://www.theguardian.com/commentisfree/2026/nov/18/nasa-voyager-1-pale-blue-dot",
@@ -525,10 +579,10 @@
       "kind": "media"
     },
     {
-      "id": "3aaaf40778354a745f37",
+      "id": "c89f41e9f27d1e8c908d",
       "title": "Young artists to reimagine people & wildlife sharing the planet - International Fund for Animal Welfare | IFAW",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1mbVRLd2JPc3Q4TmV1dE1mVkJRRi00Q1JNQU5lQ19tdGF6ZEZtY3poMk14LXVLR05UQUJNNFE5UzhUdFZvLW9LR1pyWXdVNDJyMlV6ak9uXzVQMENqazJDMmJOazFMZjBDZmVkOGZ5Z2t6cDBwZmJvUEQwLTk?oc=5",
-      "date": "2026-11-18T10:22:56Z",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUG9zb2FsSFRRbHpzSVZqLWl3WXUyeHFoQjRuWmNTbV9XMG0zWFh2dEs3bnB2M2cyRXZiNEh1b3BHenJuTnpRd2l1ZDJJek5pcnl2NDJNYS1FUWctS2lnSXFiZHdmRGEtQ3dXd1hURDk5Z0hBR3VBOTdwV2F0MkFNVXllUUNHNHRiMEZn?oc=5",
+      "date": "2026-11-18T09:36:32Z",
       "summary": "Young artists to reimagine people & wildlife sharing the planet International Fund for Animal Welfare | IFAW",
       "source": "IFAW – Berichterstattung (News-Aggregation)",
       "kind": "media"
@@ -539,6 +593,15 @@
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSnZsMUFvS0ttMEo1aHpOYUpDZWkxWjdyc3FON2xvQlRBanBTRlhDRmwtamhUWGlLV3RSSGNUaEhDa3NzQ2ZTNjIxZUJVMWNGTGdwSmZqVnN0LWFYOWFfSFgxN2hfQnJKNVhINl92dncyMlNBMHZUUHd0b1JKSkluRWNmSGpXbVNQVkRjU1N1dF9MZ0Q1ejBBNVdFbDQxc0FsN2xYRWxzWlFHWW44aWUzWVA2RdIBuAFBVV95cUxOdmdtZVEydVEtczdfWmVib2lxOWpOZngzeEJmckFBSkd2VlRmdXB0c3BiTTZPWFZ3SEtDNWRDZFVVTmdjUzJuMEx6T0tDZzREVkIyVWRRVmR3U1ZoeVFVNUpsTGRkRUtGdFBJMWluVzRPSmJBNm55SHJUbUFqTlRPNF9LNzJsSGxYRjF3QUlvNzdYZ1lWbHNfQktaVHp3cXNpcjhyVlE2Nnl4VXVteWV2c2J5VzI0aEZf?oc=5",
       "date": "2026-11-18T09:08:52Z",
       "summary": "Wildlife trafficking persists in West, Central Africa despite crackdowns: Report news - Mongabay",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "4e03d1f144e3699dd53d",
+      "title": "Police arrest three suspects linked to illegal wildlife trafficking in Pretoria - SABC News",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWkZMSEZNYWJDbU5RaGhuaW5wNWJvbGc1dmp0SG5Ic3k2UzBlZ3cwamxNZ09zN2t6dUJVcERtLTBFaE54XzcxMmFXay1Hb3VGazBzelFXeXhUMkZlLTBDRkhMdVl2UTE2OFR6NjN0MW10MXZsYk0tcHdlNWZ1V0dETnZzbkpGRlhiUUlZa2ZrS25FNWFIX1hBVVNvRFVzQ203ZmVpOFRkdGVZZlRnT29VUVNMRnA?oc=5",
+      "date": "2026-11-18T08:20:40Z",
+      "summary": "Police arrest three suspects linked to illegal wildlife trafficking in Pretoria SABC News",
       "source": "Wildtierhandel – Medien (News-Aggregation)",
       "kind": "media"
     },
@@ -660,6 +723,15 @@
       "kind": "media"
     },
     {
+      "id": "413f9924adbc50fe00cc",
+      "title": "More than 3,000 tarantulas seized at Peru airport in suspected wildlife trafficking operation - Getaway Magazine",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSkJud3k1S2JVOUpRMGNNei0xZWNZUkJmS1BncnpJb0hmRnFteTkweS1DS0tOaXJHSVRmUXNKeGhiMFZaUEhuRWo5MFJ5TmY4VUhNTXByUVcxdnhYandxSFRWMlg4RFdWNU1WYzEtZW4zbU9vN0xDcWh1M2NSbFBaSWxTRXhnV09lMjVFTDZGZ2ZIUW5WQ0tmc2xFcWJDTkZJNElDc0hielBoaWg3VGlTbS1qZnlqNmpub05Qd3RfWjR3Zw?oc=5",
+      "date": "2026-11-10T08:00:00Z",
+      "summary": "More than 3,000 tarantulas seized at Peru airport in suspected wildlife trafficking operation Getaway Magazine",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
+      "kind": "media"
+    },
+    {
       "id": "c8f05c6f6ffa6693b589",
       "title": "Artenschutz wirkt: Living Planet Report 2026 macht Hoffnung - Good News Magazin",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE80eC1zZHFRa1cxbGtBQjNTSXphb3VNZDNZZ2dFM2dmSEpSWGNxSE9WTmF3b09DeVRVbHZhbER0aUhtQmJIVDBrSmV0alozWl9DVUJOOFNfd19uUl9yVmlBaE1RZXJsdk1NVEI3SnU4Yl9VRTNDTzdZcDFn?oc=5",
@@ -684,6 +756,15 @@
       "date": "2026-11-06T08:00:00Z",
       "summary": "Walhaie als Touristenmagnet: Indonesiens Ringen um den Artenschutz DIE ZEIT",
       "source": "Deutschland – Wildtiere (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "5dbe647a3984712261de",
+      "title": "Montana bighorn sheep case shows why wildlife trafficking laws matter - KTBS 3",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPT2ZCQ1ZqSVlBc0tOVVY2Qkc5T2ZpMFN6N3RwbC04NGJVQk1SaFVkVmxVbnFzNWtHNTN4Zm53N2lNYmhSV2JXR2NNaExCcFFyNWhhVjZtUjczVmY1dmtqSkpkdXBCekZGSjBVa2ZrR0h2di1BSXdLWmRhMFFxdG1qYV94UUQxOEQta09rVDg3N2s2WndWSUpuSTdzcFVTcWtjbl9xc0ZhMXZITkFsYWhiYUxOZkNwbTJwbUNWYTJTU245MUJVOEtEcHVWTTlrVF9xbTRQSk9hN3pxN2JUbWdQald5SzQ5bjRHSUE?oc=5",
+      "date": "2026-11-05T23:21:00Z",
+      "summary": "Montana bighorn sheep case shows why wildlife trafficking laws matter KTBS 3",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
       "kind": "media"
     },
     {
@@ -867,6 +948,17 @@
       "kind": "media"
     },
     {
+      "id": "c9f4714252788cc9dece",
+      "title": "In silico conservation and HLA-binding profiles of HMPV F and G protein epitopes: implications for universal vaccine development.",
+      "date": "2026-10-23T00:00:00Z",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129282",
+      "source": "Europe PMC",
+      "kind": "study",
+      "study_source": "Europe PMC",
+      "abstract_available": true,
+      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Der Abstract nennt eine Modellierung. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
+    },
+    {
       "id": "0c934ad0a890ee6e3b5c",
       "title": "Uncovering “hidden highways” of wildlife trafficking in Mexico - The Wildlife Society",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPWjJRSHFhQWk5TU5RUDdiVTE5YXVUM2c5Y3pkY194b1FEYkZzU1gtS1RoSURRcWY3YW9YcXQ0OFZZeUxpbkkzcWF1aHhTRjNrN01YbGkwNEpOSThIbmNjRWVubktKUFdrbzlHbldUOG9lTFU4OWstaWVMc1dCeVpjZGw2V0R2VkltZGc?oc=5",
@@ -903,6 +995,17 @@
       "kind": "media"
     },
     {
+      "id": "d46ed608dc74ab75b022",
+      "title": "The conserved function of bHLH121 and overexpression of N-terminal bHLH121 fragment suppresses iron deficiency response in Arabidopsis.",
+      "date": "2026-10-21T00:00:00Z",
+      "url": "https://doi.org/10.1016/j.plantsci.2026.113540",
+      "source": "Europe PMC",
+      "kind": "study",
+      "study_source": "Europe PMC",
+      "abstract_available": true,
+      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
+    },
+    {
       "id": "096c7fdf17a1d39c368c",
       "title": "SLOTHS Act aims to protect sloths from wildlife trade - International Fund for Animal Welfare | IFAW",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5qOHlyM1lWMEk2a0J6RkktdUxUWlpDN2Q2SHZfQUV3ZzhKa0RMcTRBazJJY055aGk4X0pJS0hvZEFCOGxQZjVuZlpPTWNqSlN2ZWtsU3ZLdlI2RUZFeWlaVkVhckxqSGhBTWo2MlgydUlVT2xi?oc=5",
@@ -910,6 +1013,17 @@
       "summary": "SLOTHS Act aims to protect sloths from wildlife trade International Fund for Animal Welfare | IFAW",
       "source": "IFAW – Berichterstattung (News-Aggregation)",
       "kind": "media"
+    },
+    {
+      "id": "ac96e62c23d33cd78514",
+      "title": "Evolutionary conservation and regulatory characteristics of SF3B3 in plants.",
+      "date": "2026-10-20T00:00:00Z",
+      "url": "https://doi.org/10.1016/j.plantsci.2026.113536",
+      "source": "Europe PMC",
+      "kind": "study",
+      "study_source": "Europe PMC",
+      "abstract_available": true,
+      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
     },
     {
       "id": "36894a83ec87401aa9e7",
@@ -1036,6 +1150,17 @@
       "summary": "Was tun Zoos für den Artenschutz? MDR.de",
       "source": "Deutschland – Wildtiere (News-Aggregation)",
       "kind": "media"
+    },
+    {
+      "id": "34169419a91f997dd438",
+      "title": "Phylogeny and evolutionary history of the genus Nectogale (Soricidae) inferred from whole-genome analyses, with description of a new species endemic to the Himalayas.",
+      "date": "2026-10-10T00:00:00Z",
+      "url": "https://doi.org/10.1016/j.ympev.2026.108749",
+      "source": "Europe PMC",
+      "kind": "study",
+      "study_source": "Europe PMC",
+      "abstract_available": true,
+      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
     },
     {
       "id": "8fff969af8e7662ba883",
@@ -1405,7 +1530,7 @@
     {
       "name": "EU-Rat – Pressemitteilungen",
       "kind": "policy",
-      "count": 2,
+      "count": 1,
       "ok": true
     },
     {
@@ -1429,7 +1554,7 @@
     {
       "name": "Mongabay – Conservation News",
       "kind": "media",
-      "count": 19,
+      "count": 18,
       "ok": true
     },
     {
@@ -1441,13 +1566,13 @@
     {
       "name": "IFAW – Berichterstattung (News-Aggregation)",
       "kind": "media",
-      "count": 9,
+      "count": 5,
       "ok": true
     },
     {
       "name": "Wildtierhandel – Medien (News-Aggregation)",
       "kind": "media",
-      "count": 35,
+      "count": 11,
       "ok": true
     },
     {
@@ -1465,41 +1590,47 @@
     {
       "name": "Crossref: human wildlife conflict",
       "kind": "study",
-      "count": 0,
-      "ok": false
+      "count": 1,
+      "ok": true
     },
     {
       "name": "Crossref: marine mammal conservation",
-      "kind": "study",
-      "count": 0,
-      "ok": false
-    },
-    {
-      "name": "Crossref: elephant conservation",
       "kind": "study",
       "count": 12,
       "ok": true
     },
     {
+      "name": "Crossref: elephant conservation",
+      "kind": "study",
+      "count": 0,
+      "ok": false
+    },
+    {
       "name": "Crossref: wildlife rescue",
       "kind": "study",
-      "count": 5,
-      "ok": true
+      "count": 0,
+      "ok": false
     },
     {
       "name": "Crossref: illegal wildlife trade",
       "kind": "study",
       "count": 0,
       "ok": false
+    },
+    {
+      "name": "Europe PMC – Studien & Abstracts",
+      "kind": "study",
+      "count": 4,
+      "ok": true
     }
   ],
   "failures": [
     {
-      "source": "Crossref: human wildlife conflict",
+      "source": "Crossref: elephant conservation",
       "error": "HTTP Error 429: Too Many Requests"
     },
     {
-      "source": "Crossref: marine mammal conservation",
+      "source": "Crossref: wildlife rescue",
       "error": "HTTP Error 429: Too Many Requests"
     },
     {
@@ -1508,5 +1639,9 @@
     }
   ],
   "events": [],
-  "notice": "Automatisierte Quellensammlung. Keine Vollständigkeits- oder unabhängige Faktenprüfungs-Garantie."
+  "notice": "Automatisierte Quellensammlung. Keine Vollständigkeits- oder unabhängige Faktenprüfungs-Garantie.",
+  "daily_study": {
+    "date": "2026-11-23",
+    "id": "c9f4714252788cc9dece"
+  }
 }

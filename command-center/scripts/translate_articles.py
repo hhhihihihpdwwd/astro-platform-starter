@@ -24,7 +24,7 @@ def likely_german(item):
 def needs_translation(a):
     if not a.get('title'):return False
     if likely_german(a):return not a.get('title_de')
-    return not a.get('title_de') or (a.get('summary') and not a.get('summary_de'))
+    return not a.get('title_de') or (a.get('summary') and not a.get('summary_de')) or (a.get('abstract_excerpt') and not a.get('abstract_excerpt_de'))
 
 def translate_text(translator,text):
     value=str(text or '').strip()
@@ -73,6 +73,8 @@ def run(file=DATA,translator=None,max_items=MAX_PER_RUN):
         source_german=likely_german(item)
         item['title_de']=str(item.get('title') or '') if source_german else translate_text(translator,item.get('title'))
         item['summary_de']=str(item.get('summary') or '') if source_german else translate_text(translator,item.get('summary'))
+        if item.get('abstract_excerpt'):
+            item['abstract_excerpt_de']=str(item['abstract_excerpt']) if source_german else translate_text(translator,item['abstract_excerpt'])
         item['translation_status']='original' if source_german else 'maschinell'
         item['translated_at']=datetime.now(timezone.utc).isoformat()
         done+=1

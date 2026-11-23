@@ -245,6 +245,12 @@ function render(){
 async function createStudySummary(){
   const study=studyPick();
   if(!study||state.studyAI?.status==='loading')return;
+  if(typeof window.Summarizer?.create!=='function'||!StudyAI.evidence(study)){
+    // Keep a true single-click path when the free local AI or a sufficient abstract is missing.
+    window.open(StudyAI.chatGPTLink(study),'_blank','noopener,noreferrer');
+    state.studyAI={id:study.id,status:'unsupported',message:'Die lokale KI oder ein ausreichend langer DOI-Abstract ist nicht verfügbar. ChatGPT wurde mit dem Studienauftrag in einem neuen Tab geöffnet. Du musst die Anfrage dort gegebenenfalls noch absenden.'};
+    render();return;
+  }
   state.studyAI={id:study.id,status:'loading',message:'Die lokale KI wird vorbereitet …'};
   render();
   const outcome=await StudyAI.summarize(study,{onProgress(message){

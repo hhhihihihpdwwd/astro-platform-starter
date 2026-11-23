@@ -8,6 +8,7 @@ on:
       - 'command-center/app.js'
       - 'command-center/styles.css'
       - 'command-center/lib/**'
+      - 'command-center/tests/test_analysis.cjs'
   workflow_dispatch:
 permissions:
   contents: read
@@ -21,16 +22,36 @@ jobs:
         run: |
           node --check command-center/app.js
           node --check command-center/lib/analysis.js
-          node --check command-center/lib/graph.js
           node command-center/tests/test_analysis.cjs
           python -m py_compile command-center/scripts/collect.py
+      - name: Drei lizenzierte Symbolfotos lokal in die Seite integrieren
+        run: |
+          mkdir -p command-center/assets
+          curl -fLsS --retry 3 --max-time 30 \
+            'https://images.unsplash.com/photo-1760720221487-5a8b332a2078?auto=format&fit=crop&w=1400&q=80' \
+            -o command-center/assets/elephant.jpg
+          curl -fLsS --retry 3 --max-time 30 \
+            'https://images.unsplash.com/photo-1602264985195-52b338cb937b?auto=format&fit=crop&w=750&q=78' \
+            -o command-center/assets/whale.jpg
+          curl -fLsS --retry 3 --max-time 30 \
+            'https://images.unsplash.com/photo-1718360421602-77bd3a3b4da2?auto=format&fit=crop&w=750&q=78' \
+            -o command-center/assets/forest.jpg
+          python - <<'PY'
+          from pathlib import Path
+          for name in ['elephant','whale','forest']:
+              f=Path('command-center/assets')/(name+'.jpg')
+              b=f.read_bytes()
+              if len(b)<10000 or b[:3]!=bytes.fromhex('ffd8ff'):
+                  raise SystemExit('Ungültige Foto-Datei: '+str(f))
+              print(f'{name}: {len(b)} Bytes, JPEG')
+          PY
       - name: Nur oeffentliche Webdateien verpacken
         run: |
           python - <<'PY'
           from pathlib import Path
           from zipfile import ZipFile, ZIP_DEFLATED
           base=Path('command-center')
-          paths=['index.html','styles.css','app.js','favicon.svg','lib/analysis.js','lib/graph.js','data/articles.json']
+          paths=['index.html','styles.css','app.js','favicon.svg','lib/analysis.js','data/articles.json','assets/elephant.jpg','assets/whale.jpg','assets/forest.jpg']
           with ZipFile('/tmp/ifaw-public-app.zip','w',ZIP_DEFLATED) as z:
               for rel in paths:
                   if not (base/rel).is_file(): raise SystemExit('Missing file: '+rel)
@@ -55,7 +76,7 @@ jobs:
           if host.scheme!='https' or not host.hostname or not host.hostname.endswith('.ship.place'):
               raise SystemExit('Unexpected hostname')
           url=url.rstrip('/')+'/'
-          for file,contains in [('',b'IFAW Command Center'),('app.js',b'async function loadFeed'),('styles.css',b'.sidebar'),('data/articles.json',b'"articles"')]:
+          for file,contains in [('',b'IFAW Command Center'),('app.js',b'function hero'),('styles.css',b'.welcome-hero'),('data/articles.json',b'"articles"')]:
               target=urllib.parse.urljoin(url,file)
               last_error=''
               for attempt in range(5):
@@ -68,6 +89,12 @@ jobs:
                   except Exception as e:
                       last_error=str(e);time.sleep(2)
               if last_error: raise SystemExit('Verification failed '+file+': '+last_error)
+          for asset in ('elephant.jpg','whale.jpg','forest.jpg'):
+              target=urllib.parse.urljoin(url,'assets/'+asset)
+              with urllib.request.urlopen(target,timeout=20) as r:
+                  b=r.read(2000000)
+                  if r.status!=200 or len(b)<10000 or b[:3]!=bytes.fromhex('ffd8ff'):
+                      raise SystemExit('Image unavailable or invalid: '+asset)
           print('VERIFIED_LIVE_URL='+url)
           with open(os.environ['GITHUB_STEP_SUMMARY'],'a') as f:
               f.write('## IFAW Command Center: Live-Test erfolgreich\n\n'+url+'\n')

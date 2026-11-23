@@ -59,3 +59,12 @@ def test_study_metadata_not_facts(tmp_path,monkeypatch):
     assert len(data['articles'])==1
     assert data['articles'][0]['kind']=='study'
     assert 'nicht geprüft' in data['articles'][0]['summary']
+
+
+def test_short_german_words_do_not_match_english_substrings():
+    unrelated = 'Tajikistan withdraws from an international criminal court'
+    assert not collect.related_to_wildlife(unrelated)
+    assert collect.related_to_wildlife('Wal vor der deutschen Küste gesichtet')
+    assert collect.related_to_wildlife('Wale und Wildtiere im Fokus')
+    assert collect.related_to_wildlife('Auswirkungen des Wildtierhandels')
+    assert not collect.merge([{'id':'old','title':unrelated,'url':'https://example.org/tajikistan','summary':'Foreign relations','kind':'policy','date':'2026-11-23T10:00:00Z'}], [], NOW)

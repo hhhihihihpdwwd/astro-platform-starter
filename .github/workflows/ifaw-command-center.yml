@@ -1,27 +1,22 @@
-name: Command Center – Quellen aktualisieren und veröffentlichen
+name: IFAW Command Center - Quellen aktualisieren
 on:
   workflow_dispatch:
   push:
     branches: [main]
     paths:
-      - 'command-center/**'
-      - '!command-center/data/articles.json'
+      - 'command-center/scripts/collect.py'
       - '.github/workflows/ifaw-command-center.yml'
   schedule:
     - cron: '13 */6 * * *'
 permissions:
   contents: write
-  pages: write
-  id-token: write
 concurrency:
-  group: ifaw-command-center-pages
+  group: ifaw-command-center-news
   cancel-in-progress: false
 jobs:
-  update-and-deploy:
+  refresh:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+    timeout-minutes: 12
     steps:
       - uses: actions/checkout@v4
         with:
@@ -31,38 +26,18 @@ jobs:
           python-version: '3.13'
       - name: Öffentliche Quellen abrufen
         run: python command-center/scripts/collect.py
-      - name: Nur öffentliche Artikelmetadaten versionieren
+      - name: Datensatz aktualisieren ohne andere Änderungen zu überschreiben
         run: |
           if ! git diff --quiet -- command-center/data/articles.json; then
             git config user.name 'github-actions[bot]'
             git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
             git add command-center/data/articles.json
-            git commit -m 'chore: refresh public news metadata [skip ci]'
-            # Andere Commits seit Start dieses Laufs dürfen nicht verloren gehen.
+            git commit -m 'chore: refresh public wildlife news metadata [skip ci]'
             for attempt in 1 2 3; do
               git fetch origin main
               git rebase origin/main || { git rebase --abort; exit 1; }
-              if git push origin HEAD:main; then
-                break
-              fi
-              if [ "$attempt" -eq 3 ]; then
-                echo "Quellencommit konnte nicht sicher gepusht werden"
-                exit 1
-              fi
+              if git push origin HEAD:main; then break; fi
+              if [ "$attempt" -eq 3 ]; then exit 1; fi
               sleep 2
             done
           fi
-      - name: Statische Seite vorbereiten
-        run: |
-          mkdir -p site/lib site/data
-          cp command-center/index.html command-center/styles.css command-center/favicon.svg site/
-          cp command-center/lib/*.js site/lib/
-          cp command-center/data/articles.json site/data/
-          touch site/.nojekyll
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: site
-      - name: Auf GitHub Pages veröffentlichen
-        id: deployment
-        uses: actions/deploy-pages@v4

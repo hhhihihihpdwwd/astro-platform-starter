@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-23T14:48:19.820944Z",
+  "generated_at": "2026-11-23T14:51:04.257388Z",
   "articles": [
     {
       "id": "586975a04b9fad49248c",
@@ -417,6 +417,28 @@
       "kind": "media"
     },
     {
+      "id": "3ccabb537d0c9c79c047",
+      "title": "Thermal microclimate of linear infrastructure in wildlife corridors: high-resolution modelling of railway and road heat regimes for elephant habitat assessment.",
+      "date": "2026-11-20T00:00:00Z",
+      "url": "https://doi.org/10.1007/s10661-026-16188-y",
+      "source": "Europe PMC",
+      "kind": "study",
+      "study_source": "Europe PMC",
+      "abstract_available": true,
+      "summary": "Die Veröffentlichung behandelt bedrohte Groß- und Wildtiere. Der Abstract nennt eine Modellierung. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
+    },
+    {
+      "id": "fc62581c7a31865751c6",
+      "title": "Assessment of Species Conservation Action Plans for Wildlife Crime Control and CITES Implementation for Four Flagship Faunal Species in Nepal.",
+      "date": "2026-11-20T00:00:00Z",
+      "url": "https://doi.org/10.1007/s00267-026-02644-5",
+      "source": "Europe PMC",
+      "kind": "study",
+      "study_source": "Europe PMC",
+      "abstract_available": true,
+      "summary": "Die Veröffentlichung behandelt bedrohte Groß- und Wildtiere. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
+    },
+    {
       "id": "3f9c061561d295ed54df",
       "title": "The long reach of El Niño impacts on Southeast Asia’s primates",
       "url": "https://news.mongabay.com/2026/11/the-long-reach-of-el-nino-impacts-on-southeast-asias-primates/",
@@ -543,6 +565,28 @@
       "kind": "media"
     },
     {
+      "id": "7a8651dc81613d27db12",
+      "title": "Machine Learning-Enhanced Vibrational Spectroscopy for Mammalian Wildlife: A Critical Review of Conservation and Forensic Applications.",
+      "date": "2026-11-19T00:00:00Z",
+      "url": "https://doi.org/10.1002/ece3.74728",
+      "source": "Europe PMC",
+      "kind": "study",
+      "study_source": "Europe PMC",
+      "abstract_available": true,
+      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
+    },
+    {
+      "id": "290e98b191cd3d5bfc36",
+      "title": "Drivers of biodiversity in mineral extraction sites - a cross-taxa analysis with implications for management and restoration.",
+      "date": "2026-11-19T00:00:00Z",
+      "url": "https://doi.org/10.1016/j.jenvman.2026.131396",
+      "source": "Europe PMC",
+      "kind": "study",
+      "study_source": "Europe PMC",
+      "abstract_available": true,
+      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
+    },
+    {
       "id": "7e9ea93b5c061aeab1b5",
       "title": "Stadtjäger in Schwäbisch Hall quält einen Waschbären – Behörde kehrt den Fall unter den Tisch - Wildtierschutz Deutschland e.V.",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdl9xSE9NamR3TzMwMENGaExSWjhDSXQyTXNKMW13d1lfb1A5Wl9GVTBWOVFvQkFWM0Ryd05ibmJVdWM5THZhQW94UDhWOVFHbWJLSHRncDl6ZzU2SFRJbDJtTUMyRmM2b3JzSjRmOFdsQ3ZvdzgyYlFnM0tHVHVYdm9CSFRTcjBZMzd0c0xRLVBBRVFXZWwtejVYWGtIc2pOQVNpc1l1Yng0aVZ5Y3J6LQ?oc=5",
@@ -624,6 +668,50 @@
       "kind": "media"
     },
     {
+      "id": "390837c0f09c59842384",
+      "title": "Applying Two-Eyed Seeing to Pair Indigenous Ecological Calendars and Community Science Data for Biodiversity Monitoring in Amazonia.",
+      "date": "2026-11-18T00:00:00Z",
+      "url": "https://doi.org/10.1002/ece3.74502",
+      "source": "Europe PMC",
+      "kind": "study",
+      "study_source": "Europe PMC",
+      "abstract_available": true,
+      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
+    },
+    {
+      "id": "a6cc78a90c79818d19a1",
+      "title": "Tropical land-use intensification restructures biodiversity.",
+      "date": "2026-11-18T00:00:00Z",
+      "url": "https://doi.org/10.1038/s41586-026-11298-6",
+      "source": "Europe PMC",
+      "kind": "study",
+      "study_source": "Europe PMC",
+      "abstract_available": true,
+      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
+    },
+    {
+      "id": "920bec17fbff3f61bdb7",
+      "title": "Overlooked biodiversity hotspots revealed by a pluralistic approach for quantifying amphibian biodiscovery needs.",
+      "date": "2026-11-18T00:00:00Z",
+      "url": "https://doi.org/10.1073/pnas.2523162123",
+      "source": "Europe PMC",
+      "kind": "study",
+      "study_source": "Europe PMC",
+      "abstract_available": true,
+      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
+    },
+    {
+      "id": "e6699c73c298d60e4a3a",
+      "title": "Measuring airborne environmental DNA (eDNA) for biosecurity monitoring and biodiversity assessment.",
+      "date": "2026-11-18T00:00:00Z",
+      "url": "https://doi.org/10.1039/d6ay90135b",
+      "source": "Europe PMC",
+      "kind": "study",
+      "study_source": "Europe PMC",
+      "abstract_available": true,
+      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
+    },
+    {
       "id": "95fd76beaefed5cc4be5",
       "title": "Artenschutz in Gütersloh: Fledermaushäuser zeigen erste Wirkung - Die Glocke",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQbENKNE51N3hUTXljVHQ2M1ViQmhCN1hTajdQenM5RU1fOFdtZ0hmREhzd25aeHEtQnFZdVBCSWZhbFZrb2FaNEdGWnR6UllpY3lpMTRlSkpIZEtCUzRuQ0FOZ19YUk1qRWdYcXhfRjVadEJac1ZfXy1ILWR4T1ZvRlZaRmpFZjZEalc2ZDNMYkR0SUZlV2RQcmpwZ2x6MERmUE1vWXg3UzgzRkJ3NnJIZktvcUFORXR6VllVVUk0YTUwN2J6aVBJcHlOVWdCclpyTWpF?oc=5",
@@ -696,6 +784,50 @@
       "kind": "media"
     },
     {
+      "id": "81387b9f83ce0d5acc6e",
+      "title": "Ecosystem Carbon Pools and Fluxes Under Contrasting Land-Use Systems in the Indo-Burma Biodiversity Hotspot of Northeast India: Enhancing Nature-based Solutions (NbS).",
+      "date": "2026-11-15T00:00:00Z",
+      "url": "https://doi.org/10.1007/s00267-026-02649-0",
+      "source": "Europe PMC",
+      "kind": "study",
+      "study_source": "Europe PMC",
+      "abstract_available": true,
+      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
+    },
+    {
+      "id": "a900c24d7a26c216c5d6",
+      "title": "ported significantly lower biodiversity at high-Chl a stations in theSpatial diversity and dynamics of surface phytoplankton and potentially harmful algal bloom species through coastal waters of China in winter 2025.",
+      "date": "2026-11-14T00:00:00Z",
+      "url": "https://doi.org/10.1016/j.marenvres.2026.108555",
+      "source": "Europe PMC",
+      "kind": "study",
+      "study_source": "Europe PMC",
+      "abstract_available": true,
+      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
+    },
+    {
+      "id": "a5169af4fee0580b41b0",
+      "title": "Warming reduces grassland biomass gains from precipitation and biodiversity in arid Central Asia.",
+      "date": "2026-11-14T00:00:00Z",
+      "url": "https://doi.org/10.1016/j.jenvman.2026.131365",
+      "source": "Europe PMC",
+      "kind": "study",
+      "study_source": "Europe PMC",
+      "abstract_available": true,
+      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
+    },
+    {
+      "id": "0236b8747d6f702c1867",
+      "title": "From Multidimensional Biodiversity Patterns to Conservation Features in Systematic Conservation Planning.",
+      "date": "2026-11-14T00:00:00Z",
+      "url": "https://doi.org/10.1111/1749-4877.70243",
+      "source": "Europe PMC",
+      "kind": "study",
+      "study_source": "Europe PMC",
+      "abstract_available": true,
+      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
+    },
+    {
       "id": "ea32354488f67c069685",
       "title": "More Than 3,000 Tarantulas Were Found Hidden in Socks During a Major Wildlife Trafficking Bust at an Airport in Lima, Peru - Smithsonian Magazine",
       "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNanU3UGpmbGhtclRkUjRSZWUzenVRb01PYkQxb3pXaFUwSGNoM2lLMWthcHFEUm1UdDcyNHZITEZzMkZGaWdZZC1lN2VGcWJPVkJwZ01Ld0xYWFRZdU9LckV5aGlBbVRfQURwRW5jeGhEdlRKNnZKc2E0MzJLaE9nWTZ5WF9GZFNzMndyVHZndHJrc1M5V3J6VHpxS1FySWk1djUyd19KUll6LVpJSHNEdWdrT25nNWNMdm83QlJHUm9WdEhkLW1GcW1td1czRThITV9HaGxURW9CQlBXMlUyZi05NVBzWDM5QlVJTnhoaHczTU1DcVI0dldRNTBnTWMtbHpn?oc=5",
@@ -703,6 +835,17 @@
       "summary": "More Than 3,000 Tarantulas Were Found Hidden in Socks During a Major Wildlife Trafficking Bust at an Airport in Lima, Peru Smithsonian Magazine",
       "source": "Wildtierhandel – Medien (News-Aggregation)",
       "kind": "media"
+    },
+    {
+      "id": "b5fa1753bd2469d0687d",
+      "title": "Genetic Structure, Cytonuclear Discordance and Cryptic Biodiversity in the Rare Hawaiian Plants <i>Schiedea stellarioides</i> and <i>Schiedea spergulina</i>.",
+      "date": "2026-11-13T00:00:00Z",
+      "url": "https://doi.org/10.1002/ece3.74639",
+      "source": "Europe PMC",
+      "kind": "study",
+      "study_source": "Europe PMC",
+      "abstract_available": true,
+      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
     },
     {
       "id": "25a7aa9669cb2a0ff101",
@@ -741,6 +884,17 @@
       "kind": "media"
     },
     {
+      "id": "1a9b28fcd7bf9d3cfe61",
+      "title": "Integrating Assisted Reproductive Technologies, Biobanking, and Genomic Rescue for Endangered Wildlife: A Vertebrate-Focused Review.",
+      "date": "2026-11-09T00:00:00Z",
+      "url": "https://doi.org/10.3390/ijms272110050",
+      "source": "Europe PMC",
+      "kind": "study",
+      "study_source": "Europe PMC",
+      "abstract_available": true,
+      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
+    },
+    {
       "id": "c955aded12c2b0002c83",
       "title": "Beef industry quietly squashes part of its own science curriculum after ranchers protest",
       "url": "https://www.theguardian.com/environment/2026/nov/08/beef-industry-climate-impact-education",
@@ -748,6 +902,28 @@
       "summary": "Lesson for teenagers included how cattle’s methane emissions contribute to climate crisis, but it was then scrapped A beef industry-funded effort to teach teenagers about cattle’s climate impact was quietly scrapped following backlash from some…",
       "source": "The Guardian – Environment",
       "kind": "media"
+    },
+    {
+      "id": "9ab20c4ad23c3c156a77",
+      "title": "Molecular Detection of Spotted Fever Group <i>Rickettsia</i> in Ticks Collected From Wildlife Carcasses at a Bushmeat Market in Ghana.",
+      "date": "2026-11-07T00:00:00Z",
+      "url": "https://doi.org/10.1002/puh2.70451",
+      "source": "Europe PMC",
+      "kind": "study",
+      "study_source": "Europe PMC",
+      "abstract_available": true,
+      "summary": "Die Veröffentlichung behandelt Wildtier- und Naturschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
+    },
+    {
+      "id": "0804100d74d282bb28e3",
+      "title": "Bleeding Following Frozen Elephant Trunk Surgery: A Proposed Reporting Dataset and Research Agenda.",
+      "date": "2026-11-07T00:00:00Z",
+      "url": "https://doi.org/10.3390/jcm15218689",
+      "source": "Europe PMC",
+      "kind": "study",
+      "study_source": "Europe PMC",
+      "abstract_available": true,
+      "summary": "Die Veröffentlichung behandelt bedrohte Groß- und Wildtiere. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
     },
     {
       "id": "5d6775e0a5f442c08fa4",
@@ -777,6 +953,28 @@
       "kind": "media"
     },
     {
+      "id": "bfe0edf9be984e53f9ea",
+      "title": "Nested paradoxes around how biodiversity constrains business: Why biodiversity conservation requires paradox thinking.",
+      "date": "2026-11-05T00:00:00Z",
+      "url": "https://doi.org/10.1016/j.isci.2026.118128",
+      "source": "Europe PMC",
+      "kind": "study",
+      "study_source": "Europe PMC",
+      "abstract_available": true,
+      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
+    },
+    {
+      "id": "393e2c76c279093a8c6e",
+      "title": "Influence of prey dynamics on the spatial distribution of a selective batch-feeding baleen whale (Balaenoptera ricei) in an oligotrophic marine ecosystem.",
+      "date": "2026-11-05T00:00:00Z",
+      "url": "https://doi.org/10.1016/j.marenvres.2026.108534",
+      "source": "Europe PMC",
+      "kind": "study",
+      "study_source": "Europe PMC",
+      "abstract_available": true,
+      "summary": "Die Veröffentlichung behandelt Meeressäuger und ihren Schutz. Der Abstract nennt eine Befragung. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
+    },
+    {
       "id": "217cba64d2809538d4ed",
       "title": "Artenschutz - UNO-Biodiversitätskonferenz in Eriwan beendet; Ecuador nächster Austragungsort - Deutschlandfunk",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZGw5aTBWS3Z6bHBJd1JFQk41X0xaRjBnNm1RNVF1R3JiN2RDYjQ4dndMbVhvc2s3WndNMWdEdERsT1JYZDBzeVktT1hDb2ZxNkVZTXAxdy01Z1d6NWd0NHA5MHRBak1QU0hWNG9MbDAxRUM3eFZnU3ktOFlIeXlHTGFrVnBLVlhHVlNtd0xlY1pteHEyRGZCZlY5cW11WmdRX2dnWl9YWTdrem1BSFRWbFhhZXBKMUhoMFZv?oc=5",
@@ -784,6 +982,39 @@
       "summary": "Artenschutz - UNO-Biodiversitätskonferenz in Eriwan beendet; Ecuador nächster Austragungsort Deutschlandfunk",
       "source": "Deutschland – Wildtiere (News-Aggregation)",
       "kind": "media"
+    },
+    {
+      "id": "07255cbbd02ea98486f6",
+      "title": "Biodiversity and Food Security in Sub-Saharan Africa: Evidence From a Dynamic Spatial Durbin Model.",
+      "date": "2026-11-04T00:00:00Z",
+      "url": "https://doi.org/10.1002/pei3.70232",
+      "source": "Europe PMC",
+      "kind": "study",
+      "study_source": "Europe PMC",
+      "abstract_available": true,
+      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
+    },
+    {
+      "id": "d51819e1c6e5c3717bae",
+      "title": "Integrating physiological indicators and Precision Livestock Farming to support European animal welfare frameworks: a systematic review.",
+      "date": "2026-11-04T00:00:00Z",
+      "url": "https://doi.org/10.1080/01652176.2026.2739038",
+      "source": "Europe PMC",
+      "kind": "study",
+      "study_source": "Europe PMC",
+      "abstract_available": true,
+      "summary": "Die Veröffentlichung behandelt Wildtier- und Naturschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
+    },
+    {
+      "id": "49826a53cc63c5d480a6",
+      "title": "Secondary TEVAR After Frozen Elephant Trunk: Indications and Timing.",
+      "date": "2026-11-04T00:00:00Z",
+      "url": "https://doi.org/10.3390/jcm15218585",
+      "source": "Europe PMC",
+      "kind": "study",
+      "study_source": "Europe PMC",
+      "abstract_available": true,
+      "summary": "Die Veröffentlichung behandelt bedrohte Groß- und Wildtiere. Der Abstract nennt eine Modellierung. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
     },
     {
       "id": "392813e0ed69c00d4f80",
@@ -829,6 +1060,83 @@
       "summary": "Brazil Wildlife Trafficking Exposes the Ugly Price of the Perfect Exotic Pet LatinAmerican Post",
       "source": "Wildtierhandel – Medien (News-Aggregation)",
       "kind": "media"
+    },
+    {
+      "id": "3fe898fd77665e61bbbc",
+      "title": "The biodiversity of human dwellings: A dataset of 24,000 observations of indoor life in the United States and Canada.",
+      "date": "2026-11-01T00:00:00Z",
+      "url": "https://doi.org/10.1002/ecy.70628",
+      "source": "Europe PMC",
+      "kind": "study",
+      "study_source": "Europe PMC",
+      "abstract_available": true,
+      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Der Abstract nennt eine Befragung. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
+    },
+    {
+      "id": "1be01b93f6f71cef769f",
+      "title": "The impact of honeybee abundance on wild bees and hoverfly biodiversity in Scottish oilseed rape fields.",
+      "date": "2026-11-01T00:00:00Z",
+      "url": "https://doi.org/10.1093/ee/nvag115",
+      "source": "Europe PMC",
+      "kind": "study",
+      "study_source": "Europe PMC",
+      "abstract_available": true,
+      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Der Abstract nennt eine Befragung. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
+    },
+    {
+      "id": "2226a492ce53cbdd28d4",
+      "title": "Primer on human-wildlife conflict misses the full picture.",
+      "date": "2026-11-01T00:00:00Z",
+      "url": "https://doi.org/10.1016/j.cub.2026.08.025",
+      "source": "Europe PMC",
+      "kind": "study",
+      "study_source": "Europe PMC",
+      "abstract_available": true,
+      "summary": "Die Veröffentlichung behandelt Konflikte zwischen Menschen und Wildtieren. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
+    },
+    {
+      "id": "5f4dfb8b6449d0334e8a",
+      "title": "Problems of geometry, sampling, and scale in gridded biodiversity data, and proposed solutions.",
+      "date": "2026-11-01T00:00:00Z",
+      "url": "https://doi.org/10.1016/j.ecoinf.2026.104112",
+      "source": "Europe PMC",
+      "kind": "study",
+      "study_source": "Europe PMC",
+      "abstract_available": true,
+      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Der Abstract nennt eine Modellierung. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
+    },
+    {
+      "id": "b9f0f92a58030926ea09",
+      "title": "Transformer models in genomics: from sequence analysis to population genetics and biodiversity.",
+      "date": "2026-11-01T00:00:00Z",
+      "url": "https://doi.org/10.1093/bib/bbag628",
+      "source": "Europe PMC",
+      "kind": "study",
+      "study_source": "Europe PMC",
+      "abstract_available": true,
+      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Der Abstract nennt eine Befragung. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
+    },
+    {
+      "id": "ab48c716404460596ed8",
+      "title": "Mining for Microbial Treasure: Recent Therapeutic Leads From Actinobacteria Isolated From the Biodiversity of Australia.",
+      "date": "2026-11-01T00:00:00Z",
+      "url": "https://doi.org/10.1002/cmdc.70569",
+      "source": "Europe PMC",
+      "kind": "study",
+      "study_source": "Europe PMC",
+      "abstract_available": true,
+      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
+    },
+    {
+      "id": "59e1b7dacf746432b084",
+      "title": "Situs Inversus Totalis with Mirror-Image Dextrocardia and Acute Type A Aortic Dissection Treated by Ascending Aorta Replacement Plus Total Arch Replacement and Frozen Elephant Trunk Using an Inverted Four-Branched Graft: A Case Re",
+      "date": "2026-11-01T00:00:00Z",
+      "url": "https://doi.org/10.3390/jcm15218500",
+      "source": "Europe PMC",
+      "kind": "study",
+      "study_source": "Europe PMC",
+      "abstract_available": true,
+      "summary": "Die Veröffentlichung behandelt bedrohte Groß- und Wildtiere. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
     },
     {
       "id": "8e3a0b9ecea0b11a3b90",
@@ -883,6 +1191,17 @@
       "summary": "Vorschau: Unkraut • Artenspürhunde – Schnüffeln für den Artenschutz ARD Mediathek",
       "source": "Deutschland – Wildtiere (News-Aggregation)",
       "kind": "media"
+    },
+    {
+      "id": "23ec1f9ef732107e9abf",
+      "title": "Reducing whale-vessel strikes through multiobjective vessel traffic routing",
+      "date": "2026-10-29T00:00:00Z",
+      "url": "https://doi.org/10.1111/cobi.70388",
+      "source": "Conservation Biology",
+      "kind": "study",
+      "study_source": "Kuratiertes Fachliteraturarchiv",
+      "abstract_available": true,
+      "summary": "Die Veröffentlichung untersucht, wie sich Schifffahrtsrouten unter mehreren Zielgrößen so planen lassen, dass Kollisionen mit Walen reduziert werden können. Zur wissenschaftlichen Bewertung bitte die Originalveröffentlichung heranziehen."
     },
     {
       "id": "9fae7168ae7fa1f4b3b1",
@@ -1083,6 +1402,17 @@
       "kind": "media"
     },
     {
+      "id": "cbee2cfc3b1831dba16d",
+      "title": "Systematic review protocol for evaluating the ecological effects of ground-mounted photovoltaic facilities on faunistic biodiversity in grasslands<sup>✰</sup>.",
+      "date": "2026-10-14T00:00:00Z",
+      "url": "https://doi.org/10.1016/j.mex.2026.104209",
+      "source": "Europe PMC",
+      "kind": "study",
+      "study_source": "Europe PMC",
+      "abstract_available": true,
+      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Autorinnen und Autoren werten laut Abstract vorhandene Forschung aus. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
+    },
+    {
       "id": "dd6c0e2196434247ffb0",
       "title": "Interpol crackdown on illegal mining, logging and wildlife trafficking leads to 233 arrests - Daily Hampshire Gazette",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcl9WS3NfdTVQVjNEZFNoc0VFVzc5N2NtSWV3dDVNcWdRV3pOX01OaHNYRmRRRUxkWEwyclI2OG83dG1FQjJtODNsYnc2cVYwSFFGUG9wOWg3WTF5eXhQT09mLTl0ZWRqZmVwQXI1dWpULXRfUWNZcU9RYUFFbWtxNFduYTlOOTQxaS0yc2Z4dWRlOGFLanRPS0w3bWp3Tk1vVHpGU1NuYVUxbEM0R3l4a2tpTEtKYnY3TjJxWi1XM3JsZjQ?oc=5",
@@ -1108,6 +1438,17 @@
       "summary": "Spider monkeys rescued from wildlife trafficking welcomed to Utah’s Hogle Zoo ABC4 Utah",
       "source": "Wildtierhandel – Medien (News-Aggregation)",
       "kind": "media"
+    },
+    {
+      "id": "e36cd7b83ccebe46a813",
+      "title": "The Relationship Between a Wildlife Conservation Project Involving Scientist-Farmer Collaboration and Farmers' Attitudes and Behaviors Towards Conservation Science and the Environment in Switzerland.",
+      "date": "2026-10-12T00:00:00Z",
+      "url": "https://doi.org/10.1177/00139165261489989",
+      "source": "Europe PMC",
+      "kind": "study",
+      "study_source": "Europe PMC",
+      "abstract_available": true,
+      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Der Abstract nennt eine Befragung. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
     },
     {
       "id": "2ebfa5b83f88ccf21ef6",
@@ -1468,6 +1809,72 @@
       "summary": "Mapping the 'hidden highways' of Mexico's illegal wildlife trade Phys.org",
       "source": "Wildtierhandel – Medien (News-Aggregation)",
       "kind": "media"
+    },
+    {
+      "id": "470d5290e0403ffd1302",
+      "title": "An expanding human footprint drives escalating human–elephant conflict across a transboundary African landscape through 2085",
+      "date": "2026-07-07T00:00:00Z",
+      "url": "https://doi.org/10.1093/pnasnexus/pgag205",
+      "source": "PNAS Nexus",
+      "kind": "study",
+      "study_source": "Kuratiertes Fachliteraturarchiv",
+      "abstract_available": true,
+      "summary": "Die Arbeit modelliert mögliche künftige Mensch-Elefant-Konflikte in einer grenzüberschreitenden afrikanischen Landschaft unter veränderten Landnutzungsbedingungen. Zur wissenschaftlichen Bewertung bitte die Originalveröffentlichung heranziehen."
+    },
+    {
+      "id": "5e6a2eb15c9412692a28",
+      "title": "Ship strikes of fin whales in the north-east atlantic: identifying hotspots and simulating mitigation measures",
+      "date": "2026-03-02T00:00:00Z",
+      "url": "https://doi.org/10.1007/s10531-026-03262-7",
+      "source": "Biodiversity and Conservation",
+      "kind": "study",
+      "study_source": "Kuratiertes Fachliteraturarchiv",
+      "abstract_available": true,
+      "summary": "Die Studie untersucht Kollisionsrisiken für Finnwale im Nordostatlantik und simuliert unterschiedliche Möglichkeiten, diese Risiken zu verringern. Zur wissenschaftlichen Bewertung bitte die Originalveröffentlichung heranziehen."
+    },
+    {
+      "id": "8ee99df671227bd8b0ba",
+      "title": "Two decades of changes in the global network of illegal wildlife trade",
+      "date": "2025-12-13T00:00:00Z",
+      "url": "https://doi.org/10.1111/cobi.70196",
+      "source": "Conservation Biology",
+      "kind": "study",
+      "study_source": "Kuratiertes Fachliteraturarchiv",
+      "abstract_available": true,
+      "summary": "Die Studie analysiert Veränderungen im internationalen illegalen Wildtierhandel zwischen 2000 und 2022 und nutzt dafür Handelsdaten sowie Netzwerkanalysen. Zur wissenschaftlichen Bewertung bitte die Originalveröffentlichung heranziehen."
+    },
+    {
+      "id": "5d44d0a1f12529db7c01",
+      "title": "Promoting human–elephant coexistence through integration of AI, real-time alerts, and rapid response",
+      "date": "2025-11-11T00:00:00Z",
+      "url": "https://doi.org/10.1111/csp2.70186",
+      "source": "Conservation Science and Practice",
+      "kind": "study",
+      "study_source": "Kuratiertes Fachliteraturarchiv",
+      "abstract_available": true,
+      "summary": "Die Veröffentlichung beschreibt einen Ansatz zur Verringerung von Mensch-Elefant-Konflikten, der automatisierte Warnungen mit schnellen Einsätzen vor Ort kombiniert. Zur wissenschaftlichen Bewertung bitte die Originalveröffentlichung heranziehen."
+    },
+    {
+      "id": "bb0591d4b410e25441cc",
+      "title": "A multi-model analysis of global pangolin trade from CITES records (1977–2024): Implications for species conservation",
+      "date": null,
+      "url": "https://doi.org/10.1016/j.gecco.2026.e04117",
+      "source": "Global Ecology and Conservation",
+      "kind": "study",
+      "study_source": "Kuratiertes Fachliteraturarchiv",
+      "abstract_available": true,
+      "summary": "Die Arbeit wertet internationale CITES-Handelsdaten über Schuppentiere von 1977 bis 2024 aus, um Trends und Handelsmuster zu untersuchen. Zur wissenschaftlichen Bewertung bitte die Originalveröffentlichung heranziehen."
+    },
+    {
+      "id": "45cacc46c76cf86e8e6d",
+      "title": "Pangolin hunting in southeast Nigeria is motivated more by local meat consumption than international demand for scales",
+      "date": null,
+      "url": "https://doi.org/10.1038/s41559-025-02734-3",
+      "source": "Nature Ecology & Evolution",
+      "kind": "study",
+      "study_source": "Kuratiertes Fachliteraturarchiv",
+      "abstract_available": true,
+      "summary": "Die Studie untersucht Motive der Schuppentierjagd im Südosten Nigerias und die Rolle lokaler Nachfrage sowie des internationalen Handels. Zur wissenschaftlichen Bewertung bitte die Originalveröffentlichung heranziehen."
     }
   ],
   "sources": [
@@ -1516,8 +1923,8 @@
     {
       "name": "IFAW – öffentliche Meldungen (News-Aggregation)",
       "kind": "ifaw",
-      "count": 1,
-      "ok": true
+      "count": 0,
+      "ok": false
     },
     {
       "name": "IFAW – Berichterstattung (News-Aggregation)",
@@ -1546,8 +1953,8 @@
     {
       "name": "Crossref: human wildlife conflict",
       "kind": "study",
-      "count": 1,
-      "ok": true
+      "count": 0,
+      "ok": false
     },
     {
       "name": "Crossref: marine mammal conservation",
@@ -1564,31 +1971,36 @@
     {
       "name": "Crossref: wildlife rescue",
       "kind": "study",
-      "count": 0,
-      "ok": false
+      "count": 5,
+      "ok": true
     },
     {
       "name": "Crossref: illegal wildlife trade",
       "kind": "study",
-      "count": 0,
-      "ok": false
+      "count": 1,
+      "ok": true
+    },
+    {
+      "name": "Europe PMC – Studien & Abstracts",
+      "kind": "study",
+      "count": 30,
+      "ok": true
     }
   ],
   "failures": [
     {
-      "source": "Crossref: wildlife rescue",
+      "source": "IFAW – öffentliche Meldungen (News-Aggregation)",
       "error": "HTTP Error 429: Too Many Requests"
     },
     {
-      "source": "Crossref: illegal wildlife trade",
+      "source": "Crossref: human wildlife conflict",
       "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "source": "Europe PMC",
-      "error": "The read operation timed out"
     }
   ],
   "events": [],
   "notice": "Automatisierte Quellensammlung. Keine Vollständigkeits- oder unabhängige Faktenprüfungs-Garantie.",
-  "daily_study": null
+  "daily_study": {
+    "date": "2026-11-23",
+    "id": "0236b8747d6f702c1867"
+  }
 }

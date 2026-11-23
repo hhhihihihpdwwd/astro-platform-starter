@@ -19,7 +19,7 @@
   function isOpportunity(a){return a.kind!=='study'&&score(a)>=12}
   function opportunityIdea(a){const tags=tagsFor(a);if(tags.includes('Politik & Recht'))return 'Mögliche politische Einordnung für deutsche Medien prüfen.';if(tags.includes('Wildtierhandel'))return 'Möglichen Aufhänger für Wildtierhandel und Artenschutz prüfen.';if(tags.includes('Meeresschutz'))return 'Mögliche Einordnung für Meeres- und Wissenschaftsredaktionen prüfen.';if(tags.includes('Wildtierrettung'))return 'Mögliche Verbindung zur IFAW-Tierrettungsarbeit prüfen.';if(tags.includes('Elefanten & Großwild'))return 'Möglichen Artenschutz-Aufhänger prüfen.';return 'Mögliche Relevanz für die deutsche Pressearbeit prüfen.'}
   function tokens(q){return fold(q).split(/[^\p{L}\p{N}]+/u).filter(w=>w.length>=3&&!STOP.has(w))}
-  function matchScore(a,q){let tok=tokens(q);if(!tok.length)return 0;const title=fold(a.title),body=fold(`${a.summary||''} ${a.source||''} ${(a.topics||[]).join(' ')}`);return tok.reduce((p,t)=>p+(title.includes(t)?5:0)+(body.includes(t)?2:0),0)}
+  function matchScore(a,q){let tok=tokens(q);if(!tok.length)return 0;const title=fold(`${a.title||''} ${a.title_de||''}`),body=fold(`${a.summary||''} ${a.summary_de||''} ${a.source||''} ${(a.topics||[]).join(' ')}`);return tok.reduce((p,t)=>p+(title.includes(t)?5:0)+(body.includes(t)?2:0),0)}
   function search(items,q){if(!q||!q.trim())return items;return items.map(a=>({...a,_match:matchScore(a,q)})).filter(a=>a._match>0).sort((a,b)=>b._match-a._match||score(b)-score(a))}
   const api={TOPICS,tagsFor,score,isCrisis,isOpportunity,opportunityIdea,tokens,search,matchScore,fold};
   root.CenterAnalysis=api;if(typeof module!=='undefined'&&module.exports)module.exports=api;

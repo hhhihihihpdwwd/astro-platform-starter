@@ -84,6 +84,46 @@ CURATED=[
      '10.1038/s41559-025-02734-3','Nature Ecology & Evolution',None,
      'Die Studie untersucht Motive der Schuppentierjagd im Südosten Nigerias und die Rolle lokaler Nachfrage sowie des internationalen Handels.')
 ]
+# Wissenschaftliche Einordnung: von den verlinkten Publikationen abgeleitete Kurzzusammenfassungen.
+# Keine automatisiert behaupteten Ergebnisse für Studien ohne nachprüfbares Abstract.
+CURATED_DETAILS={
+ '10.1111/cobi.70388':(
+   'Forschungsfrage: Wie können Schifffahrtsrouten so angepasst werden, dass das Risiko von Schiffskollisionen mit Walen sinkt, ohne andere Navigationsziele außer Acht zu lassen?',
+   'Vorgehen: Die Arbeit betrachtet die Streckenplanung als Optimierungsproblem mit mehreren Zielen. Dabei wird berücksichtigt, wo Wale vorkommen und wo Schiffe voraussichtlich fahren.',
+   'Einordnung: Die Resultate können bei der Bewertung von Schifffahrtskorridoren helfen. Ob sich ein vorgeschlagener Verlauf praktisch umsetzen lässt, muss mit den zuständigen Behörden und der Schifffahrt geprüft werden.'
+ ),
+ '10.1093/pnasnexus/pgag205':(
+   'Forschungsfrage: Wie verändern menschliche Nutzung, Bevölkerungsentwicklung und Klimafaktoren das Risiko von Mensch-Elefant-Konflikten bis 2085?',
+   'Vorgehen: Die Autorinnen und Autoren verknüpfen Konfliktaufzeichnungen aus einer grenzüberschreitenden Landschaft im südlichen Afrika mit räumlichen Daten und Zukunftsszenarien.',
+   'Einordnung: Laut Studie spielen unter anderem die Ausweitung von Ackerflächen, Bevölkerungswachstum und zunehmende Trockenheit eine wichtige Rolle. Die Projektionen sind keine Vorhersage einzelner Konflikte.'
+ ),
+ '10.1007/s10531-026-03262-7':(
+   'Forschungsfrage: Wo treten im Nordostatlantik besonders hohe Risiken für Kollisionen zwischen Finnwalen und Schiffen auf?',
+   'Vorgehen: Die Veröffentlichung identifiziert räumliche Risikoschwerpunkte und vergleicht modellierte Möglichkeiten, das Kollisionsrisiko zu verringern.',
+   'Einordnung: Für die Pressearbeit wäre die Verbindung von Meeresarten-Schutz und konkreten Schifffahrtsmaßnahmen relevant. Regionale Übertragbarkeit und Modellannahmen müssen im Original geprüft werden.'
+ ),
+ '10.1111/cobi.70196':(
+   'Forschungsfrage: Wie hat sich das internationale Netzwerk des illegalen Wildtierhandels zwischen 2000 und 2022 verändert?',
+   'Vorgehen: Das Forschungsteam nutzt Daten des Wildlife Trade Portal von TRAFFIC, Daten über legalen Handel aus der CITES-Datenbank als Vergleichsmaßstab sowie Netzwerkanalysen. Untersucht werden Veränderungen bei Handelsbeziehungen und der Rolle einzelner Länder.',
+   'Einordnung: Die Studie betrachtet dokumentierte Handelsdaten, nicht den gesamten unentdeckten illegalen Handel. Meldeverhalten und Datenlücken können die Ergebnisse beeinflussen. Die Originalstudie muss vor einer Pressemitteilung für konkrete Länderangaben und Zahlen geprüft werden.'
+ ),
+ '10.1111/csp2.70186':(
+   'Forschungsfrage: Können KI-Kameras und schnelle Warnmeldungen helfen, gefährliche Begegnungen zwischen Menschen und Elefanten zu verhindern?',
+   'Vorgehen: In Westbengalen in Indien lösten Kameras bei Elefanten-Nachweisen Meldungen an Einsatzteams aus. Im Untersuchungszeitraum wurden laut Studie 266 Elefanten-Ereignisse erfasst; Warnungen erreichten die Empfänger im Mittel nach rund 42 Sekunden.',
+   'Einordnung: Die Autoren berichten von kürzeren Reaktionszeiten. Das ist ein vielversprechender Ansatz, aber keine Garantie für denselben Effekt in anderen Regionen; lokale Bedingungen und die Einbindung von Einsatzteams sind entscheidend.'
+ ),
+ '10.1016/j.gecco.2026.e04117':(
+   'Forschungsfrage: Welche zeitlichen und räumlichen Muster zeigt der internationale Handel mit Schuppentieren?',
+   'Vorgehen: Die Arbeit analysiert Handelsinformationen aus CITES-Aufzeichnungen für den Zeitraum 1977 bis 2024 mit mehreren Auswertungsmodellen.',
+   'Einordnung: Solche Daten helfen, Handelsstrukturen zu beschreiben. Weil gemeldeter Handel nicht mit dem gesamten illegalen Handel gleichzusetzen ist, sollten Aussagen zu Trends immer auf die genauen Definitionen der Studie gestützt werden.'
+ ),
+ '10.1038/s41559-025-02734-3':(
+   'Forschungsfrage: Welche Nachfrage motiviert die Schuppentierjagd im Südosten Nigerias?',
+   'Vorgehen: Die Veröffentlichung untersucht die Rolle lokalen Fleischkonsums im Vergleich zur internationalen Nachfrage nach Schuppen.',
+   'Einordnung: Sie lenkt den Blick auf die regionalen wirtschaftlichen und sozialen Treiber von Wildtierjagd. Aussagen über andere Länder oder den gesamten internationalen Handel lassen sich aus einer regionalen Untersuchung nicht ohne Weiteres ableiten.'
+ )
+}
+
 def curated_studies():
     out=[]
     for title,doi,journal,date,desc in CURATED:
@@ -91,7 +131,8 @@ def curated_studies():
         uid=hashlib.sha256((href+'|'+title.casefold()).encode()).hexdigest()[:20]
         out.append({'id':uid,'title':title,'date':date+'T00:00:00Z' if date else None,
                     'url':href,'source':journal,'kind':'study','study_source':'Kuratiertes Fachliteraturarchiv',
-                    'abstract_available':True,'summary':desc+' Zur wissenschaftlichen Bewertung bitte die Originalveröffentlichung heranziehen.'})
+                    'abstract_available':True,'summary':desc+' Zur wissenschaftlichen Bewertung bitte die Originalveröffentlichung heranziehen.',
+                    'extended_summary':list(CURATED_DETAILS.get(doi,()))})
     return out
 
 def get_europe_pmc(now, fetch=None):
@@ -120,7 +161,9 @@ def get_europe_pmc(now, fetch=None):
         uid=hashlib.sha256((href+'|'+title.casefold()).encode()).hexdigest()[:20]
         items.append({'id':uid,'title':title,'date':date+'T00:00:00Z','url':href,'source':journal or 'Europe PMC',
                       'kind':'study','study_source':'Europe PMC','abstract_available':True,
-                      'summary':summary(title,abstract)})
+                      'summary':summary(title,abstract),
+                      'abstract_excerpt':abstract[:630],
+                      'abstract_note':'Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.'})
     return items[:30]
 def merge_studies(articles, new_studies):
     items={a.get('url'):a for a in articles if a.get('url')}

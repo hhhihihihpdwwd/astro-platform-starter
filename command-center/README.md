@@ -1,6 +1,6 @@
 # Wildlife Command Center – unabhängiger Recherche-Prototyp
 
-**Aktuelle verifizierte Web-Vorschau (23.11.2026):** https://lace-alfalfa-5k2c4.ship.place/
+**Aktuelle verifizierte Web-Vorschau (23.11.2026):** https://roan-peacock-xlc4k.ship.place/
 
 Dieses Projekt ist ein **nicht offiziell freigegebener, öffentlich erreichbarer Prototyp** zur Recherche von öffentlichen Wildtier-, Artenschutz-, Wissenschafts- und Politikmeldungen für IFAW-bezogene Themen. Keine offizielle IFAW-Webanwendung, kein Logo und keine internen Unternehmensdaten.
 

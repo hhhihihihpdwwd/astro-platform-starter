@@ -1,34 +1,55 @@
 <!doctype html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="theme-color" content="#0d2536" />
-  <meta name="description" content="Unabhängiger Recherche-Prototyp mit öffentlichen Quellen. Kein offizielles IFAW-Angebot." />
-  <title>IFAW Command Center · Rechercheprototyp</title>
-  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0d302b">
+  <meta name="description" content="Unabhängiges Recherche-Dashboard für öffentliche Nachrichten zu Tier- und Artenschutz. Kein offizielles IFAW-Angebot.">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>Wildlife Command Center · Rechercheprototyp</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
   <script src="lib/analysis.js" defer></script>
+  <script src="lib/clock.js" defer></script>
   <script src="app.js" defer></script>
 </head>
 <body>
-  <div id="app" class="app-shell">
-    <aside class="sidebar" aria-label="Hauptnavigation">
-      <div class="brand"><div class="brand-symbol" aria-hidden="true">◈</div><div class="wordmark">COMMAND<span>·</span></div><div class="brand-caption">CENTER / IFAW-THEMEN</div></div>
-      <nav id="nav"></nav>
-      <div class="side-bottom"><div class="side-kicker">ÖFFENTLICHE QUELLEN</div><div class="side-note">Unabhängiger, öffentlicher Recherche-Prototyp. Kein offizielles IFAW-Angebot.</div><button type="button" class="nav-settings" id="settingsSide">⚙ <span>Einstellungen</span></button></div>
-    </aside>
-    <div class="main-shell">
-      <header class="topbar">
-        <div class="mobile-brand">COMMAND <span>CENTER</span></div>
-        <div class="top-search"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="10.8" cy="10.8" r="6.7"/><path d="m16 16 5 5"/></svg><input id="globalSearch" type="search" placeholder="Meldungen, Studien und Themen suchen ..." aria-label="Alle Inhalte durchsuchen" autocomplete="off" /></div>
-        <div class="top-status" id="topStatus"><span class="status-dot muted"></span> Lade Quellen ...</div>
-        <button id="refreshBtn" class="icon-btn" type="button" title="Daten neu laden" aria-label="Daten neu laden">↻</button>
-        <div class="avatar" title="Private Arbeitsoberfläche">L</div>
-      </header>
-      <main id="main" tabindex="-1" aria-live="polite"><div class="loading">Lade Dashboard ...</div></main>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="brand-lockup"><span class="brand-icon" aria-hidden="true">◈</span><span class="brand-name">WILDLIFE <span>COMMAND CENTER</span></span></div>
+      <div class="top-actions">
+        <div class="top-status" id="topStatus" role="status"><span class="status-pulse"></span><span>Lade öffentliche Quellen …</span></div>
+        <button type="button" id="refreshBtn" class="refresh-button" aria-label="Nachrichtendaten jetzt aktualisieren" title="Jetzt aktualisieren">↻ <span>Aktualisieren</span></button>
+      </div>
+    </header>
+    <div class="container">
+      <div class="hero">
+        <div class="hero-shade">
+          <p class="eyebrow light">DEIN WILDLIFE NEWSROOM</p>
+          <h1 id="greeting">Guten Tag, Luca.</h1>
+          <p>Aktuelle Entwicklungen in Tierschutz, Artenschutz, Wissenschaft und Politik – auf einen Blick.</p>
+        </div>
+        <div class="hero-credit">Symbolbild · <a href="https://unsplash.com/photos/an-elephant-walks-through-dry-grass-in-savanna-giucwGEgRsE" target="_blank" rel="noopener noreferrer">Foto: Eric Dekker</a></div>
+      </div>
+      <section class="clock-deck" aria-label="Weltuhren und Sonnenstand">
+        <div class="clock-main">
+          <div class="clock-head"><span class="tiny-marker"></span> LOKALZEIT · HAMBURG <span class="city-pill">MEZ / MESZ</span></div>
+          <div class="hamburg-clock"><time id="clock-hamburg" class="clock-large" aria-label="Uhrzeit Hamburg">--:--:--</time><div id="sunGraphic" class="sun-glyph" aria-hidden="true">☀</div></div>
+          <div id="sunLabel" class="sun-label">Sonnenstand wird berechnet …</div>
+        </div>
+        <div class="world-clock-list" id="worldClocks" aria-label="Internationale Standorte"></div>
+      </section>
+      <div class="navigation-bar">
+        <nav id="nav" aria-label="Themenbereiche"></nav>
+        <label class="search-field"><span aria-hidden="true">⌕</span><input type="search" id="globalSearch" placeholder="Thema oder Schlagwort suchen" aria-label="Nachrichten durchsuchen" autocomplete="off"></label>
+      </div>
+      <main id="main" tabindex="-1" aria-live="polite"><div class="loading">Lade aktuelle Informationen …</div></main>
+      <footer class="site-footer">
+        <span>Unabhängiger öffentlicher Recherche-Prototyp · Kein offizielles IFAW-Angebot</span>
+        <span>Keine interne Daten eingeben · <button type="button" data-view="sources">Quellen & Datenschutz</button></span>
+      </footer>
     </div>
   </div>
-  <div id="toast" class="toast" aria-live="polite" role="status"></div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
 </body>
 </html>

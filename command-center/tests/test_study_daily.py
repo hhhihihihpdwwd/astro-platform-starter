@@ -22,8 +22,8 @@ def test_europe_pmc_abstract_and_doi():
     assert items[0]['url']=='https://doi.org/10.1234/example'
     assert 'Journal' in items[0]['source']
 def test_daily_pick_stable():
-    a={'id':'one','kind':'study','url':'https://doi.org/10.1/one','date':'2026-11-22T00:00:00Z','abstract_available':True}
-    b={'id':'two','kind':'study','url':'https://doi.org/10.1/two','date':'2026-11-23T00:00:00Z','abstract_available':True}
+    a={'id':'one','title':'Elephant wildlife conservation, study one','kind':'study','url':'https://doi.org/10.1/one','date':'2026-11-22T00:00:00Z','abstract_available':True}
+    b={'id':'two','title':'Whale conservation, study two','kind':'study','url':'https://doi.org/10.1/two','date':'2026-11-23T00:00:00Z','abstract_available':True}
     first=sd.choose([a,b],None,NOW)
     assert first['id'] in ('one','two')
     assert sd.choose([a,b],{'date':'2026-11-23','id':'one'},NOW)['id']=='one'

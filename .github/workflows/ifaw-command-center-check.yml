@@ -30,4 +30,4 @@ jobs:
           node --check lib/clock.js
           node tests/test_analysis.cjs
           node tests/test_clock.cjs
-          python -m pytest -q tests/test_collect.py tests/test_study_daily.py tests/test_browser.py
+          python -m pytest -q tests/test_collect.py tests/test_study_daily.py tests/test_translate_articles.py tests/test_browser.py

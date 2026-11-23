@@ -5,7 +5,7 @@ const Clock=window.CenterClock;
 const $=(q)=>document.querySelector(q);
 const esc=(value)=>String(value??'').replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
 const safeUrl=(value)=>{try{const u=new URL(value);return u.protocol==='https:'||u.protocol==='http:'?u.href:'#'}catch{return '#'}};
-const fmtDate=(value,options={})=>{const date=new Date(value);return Number.isNaN(date.getTime())?'Datum unbekannt':new Intl.DateTimeFormat('de-DE',{timeZone:'Europe/Berlin',day:'2-digit',month:'short',year:'numeric',...options}).format(date)};
+const fmtDate=(value,options={})=>{if(!value)return 'Datum unbekannt';const date=new Date(value);return Number.isNaN(date.getTime())?'Datum unbekannt':new Intl.DateTimeFormat('de-DE',{timeZone:'Europe/Berlin',day:'2-digit',month:'short',year:'numeric',...options}).format(date)};
 const truncated=(value,length=180)=>{const v=String(value||'').replace(/\s+/g,' ').trim();return v.length<=length?v:v.slice(0,length).replace(/\s+\S*$/,'')+' …'};
 const link=(item,label)=>'<a href="'+esc(safeUrl(item.url))+'" target="_blank" rel="noopener noreferrer">'+esc(label||item.title)+'</a>';
 const NAV=[['dashboard','Übersicht'],['news','Global News'],['pr','PR-Chancen'],['crisis','Crisis Watch'],['studies','Studien'],['policy','Politik'],['ifaw','IFAW-News'],['sources','Quellen']];
@@ -95,8 +95,14 @@ function feature(a,i){
     '<img loading="lazy" class="photo" src="'+imageFor(a,i)+'" alt="Symbolbild aus der Tier- und Naturwelt">'+
     '<h3>'+esc(truncated(a.title,91))+'</h3></a><div class="byline">'+esc(truncated(a.source,29))+' · '+esc(fmtDate(a.date))+'</div><div class="symbol-note">Symbolbild, nicht vom berichteten Ereignis</div></article>';
 }
+function worthyStudy(x){
+  const title=String(x.title||'').toLowerCase();
+  const allow=['wildlife','elephant','whale','rhino','pangolin','poaching','animal welfare','human-wildlife','human wildlife','marine mammal','endangered species','wild animal','biodiversity','wildlife trade','habitat restoration','habitat loss','wild mammal','animal conservation','wildlife conservation'];
+  const deny=['vaccine','epitope','protein','hla-binding','arabidopsis','iron deficiency response','gene regulation'];
+  return allow.some(s=>title.includes(s))&&!deny.some(s=>title.includes(s));
+}
 function studyPick(){
-  const studies=byDate(articles().filter(x=>x.kind==='study'&&x.url.startsWith('https://doi.org/')));
+  const studies=byDate(articles().filter(x=>x.kind==='study'&&x.url.startsWith('https://doi.org/')&&worthyStudy(x)));
   if(!studies.length)return null;
   const berlinDate=Clock.cityTime(new Date(),'Europe/Berlin').day;
   const declared=state.feed.daily_study;

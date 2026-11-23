@@ -2,11 +2,10 @@
 (function(root){
   'use strict';
   const CITIES=[
-    {id:'hamburg',name:'Hamburg',zone:'Europe/Berlin'},
-    {id:'washington',name:'Washington, D.C.',zone:'America/New_York'},
-    {id:'capecod',name:'Cape Cod',zone:'America/New_York'},
-    {id:'london',name:'UK · London',zone:'Europe/London'},
-    {id:'sydney',name:'Australien · Sydney',zone:'Australia/Sydney'}
+    {id:'hamburg',name:'Hamburg',zone:'Europe/Berlin',lat:53.5511,lon:9.9937},
+    {id:'washington',name:'Washington D.C.',zone:'America/New_York',lat:38.9072,lon:-77.0369},
+    {id:'london',name:'UK · London',zone:'Europe/London',lat:51.5074,lon:-0.1278},
+    {id:'sydney',name:'Australien · Sydney',zone:'Australia/Sydney',lat:-33.8688,lon:151.2093}
   ];
   function parts(date,zone){
     const items=new Intl.DateTimeFormat('en-GB',{timeZone:zone,year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',second:'2-digit',hourCycle:'h23'}).formatToParts(date);
@@ -27,8 +26,28 @@
     const cosZen=Math.sin(lat*rad)*Math.sin(dec)+Math.cos(lat*rad)*Math.cos(dec)*Math.cos(ha*rad);
     return Math.asin(Math.min(1,Math.max(-1,cosZen)))/rad;
   }
+
+  function solarDay(date,lat=53.5511,lon=9.9937){
+    // NOAA approximate sunrise/sunset, 90.833° refracted solar disk.
+    const p=parts(date,'Europe/Berlin');
+    const year=Number(p.year),month=Number(p.month),day=Number(p.day);
+    const utcMidnight=Date.UTC(year,month-1,day);
+    const n=Math.round((utcMidnight-Date.UTC(year,0,1))/86400000)+1;
+    const gamma=2*Math.PI/365*(n-1);
+    const eq=229.18*(.000075+.001868*Math.cos(gamma)-.032077*Math.sin(gamma)-.014615*Math.cos(2*gamma)-.040849*Math.sin(2*gamma));
+    const dec=.006918-.399912*Math.cos(gamma)+.070257*Math.sin(gamma)-.006758*Math.cos(2*gamma)+.000907*Math.sin(2*gamma)-.002697*Math.cos(3*gamma)+.00148*Math.sin(3*gamma);
+    const rad=Math.PI/180,zen=90.833*rad;
+    const cosH=(Math.cos(zen)-Math.sin(lat*rad)*Math.sin(dec))/(Math.cos(lat*rad)*Math.cos(dec));
+    const H=Math.acos(Math.max(-1,Math.min(1,cosH)))/rad;
+    const noon=720-4*lon-eq;
+    const sunrise=new Date(utcMidnight+(noon-4*H)*60000);
+    const sunset=new Date(utcMidnight+(noon+4*H)*60000);
+    const progress=(date.getTime()-sunrise.getTime())/(sunset.getTime()-sunrise.getTime());
+    const altitude=solarElevation(date,lat,lon);
+    return {sunrise,sunset,progress,altitude,daylight:progress>=0&&progress<=1&&altitude>=-1};
+  }
   function greeting(date){const h=cityTime(date,'Europe/Berlin').hour;return h>=5&&h<11?'Guten Morgen':h>=11&&h<18?'Guten Tag':'Guten Abend'}
   function sunMood(date){const altitude=solarElevation(date);return {altitude,icon:altitude>=0?'☀':'☾',label:altitude>=0?'Sonne':'Nacht',visible:altitude>=-1}}
-  const API={CITIES,cityTime,solarElevation,greeting,sunMood};
+  const API={CITIES,cityTime,solarElevation,solarDay,greeting,sunMood};
   root.CenterClock=API;if(typeof module!=='undefined'&&module.exports)module.exports=API;
 })(typeof window!=='undefined'?window:globalThis);

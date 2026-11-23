@@ -62,8 +62,13 @@ def enrich(feed,fetch=None,limit=8):
 def run(path=DATA,fetch=None,limit=8):
     path=Path(path)
     data=json.loads(path.read_text('utf8'))
+    cleaned=0
+    for item in data.get('articles',[]):
+        for key in ('title_de','summary_de','abstract_excerpt_de','translation_status','translated_at'):
+            if key in item:item.pop(key);cleaned+=1
+    data.pop('translation_updated_at',None)
     result=enrich(data,fetch,limit)
-    if result['attempted']:path.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
+    if result['attempted'] or cleaned:path.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
     print('Source abstracts:',result)
     return result
 

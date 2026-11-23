@@ -5,9 +5,10 @@ on:
     branches: [main]
     paths:
       - 'command-center/scripts/collect.py'
+      - 'command-center/scripts/study_daily.py'
       - '.github/workflows/ifaw-command-center.yml'
   schedule:
-    - cron: '13 */6 * * *'
+    - cron: '17 * * * *'
 permissions:
   contents: write
 concurrency:
@@ -25,13 +26,15 @@ jobs:
         with:
           python-version: '3.13'
       - name: Öffentliche Quellen abrufen
-        run: python command-center/scripts/collect.py
+        run: |
+          python command-center/scripts/collect.py
+          python command-center/scripts/study_daily.py
       - name: Datensatz aktualisieren ohne andere Änderungen zu überschreiben
         run: |
-          if ! git diff --quiet -- command-center/data/articles.json; then
+          if ! git diff --quiet -- command-center/data/articles.json command-center/data/daily_study.json; then
             git config user.name 'github-actions[bot]'
             git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-            git add command-center/data/articles.json
+            git add command-center/data/articles.json command-center/data/daily_study.json
             git commit -m 'chore: refresh public wildlife news metadata [skip ci]'
             for attempt in 1 2 3; do
               git fetch origin main

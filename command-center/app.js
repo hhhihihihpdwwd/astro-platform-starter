@@ -7,16 +7,16 @@ const esc=(value)=>String(value??'').replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&
 const safeUrl=(value)=>{try{const u=new URL(value);return u.protocol==='https:'||u.protocol==='http:'?u.href:'#'}catch{return '#'}};
 const fmtDate=(value,options={})=>{if(!value)return 'Datum unbekannt';const date=new Date(value);return Number.isNaN(date.getTime())?'Datum unbekannt':new Intl.DateTimeFormat('de-DE',{timeZone:'Europe/Berlin',day:'2-digit',month:'short',year:'numeric',...options}).format(date)};
 const truncated=(value,length=180)=>{const v=String(value||'').replace(/\s+/g,' ').trim();return v.length<=length?v:v.slice(0,length).replace(/\s+\S*$/,'')+' …'};
-const link=(item,label)=>'<a href="'+esc(safeUrl(item.url))+'" target="_blank" rel="noopener noreferrer">'+esc(label||item.title)+'</a>';
+const link=(item,label)=>'<a href="'+esc(safeUrl(item.url))+'" target="_blank" rel="noopener noreferrer" title="Original: '+esc(item.title)+'">'+esc(label||item.title_de||item.title)+'</a>';
 const NAV=[['dashboard','Übersicht'],['news','Global News'],['pr','PR-Chancen'],['crisis','Crisis Watch'],['studies','Studien'],['policy','Politik'],['ifaw','IFAW-News'],['sources','Quellen']];
 let saved=new Set();
 try{saved=new Set(JSON.parse(localStorage.getItem('wc_saved_v4')||'[]'))}catch{}
-const state={view:'dashboard',search:'',feed:{articles:[],sources:[],failures:[],generated_at:null},fetchError:'',fetching:false,lastFetchAt:0,saved,onlySaved:false};
+const state={view:'dashboard',search:'',feed:{articles:[],sources:[],failures:[],generated_at:null},fetchError:'',fetching:false,lastFetchAt:0,saved,onlySaved:false,studyExpanded:false};
 let toastTimer;
 function toast(message){const node=$('#toast');if(!node)return;node.textContent=message;node.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>node.classList.remove('show'),3300)}
 function storeSaved(){try{localStorage.setItem('wc_saved_v4',JSON.stringify([...state.saved]))}catch{toast('Merkliste konnte nicht gespeichert werden.')}} 
 function articles(){
-  return (state.feed.articles||[]).filter(x=>x&&x.title&&safeUrl(x.url)!=='#').map(x=>({...x,topics:A.tagsFor(x)}));
+  return (state.feed.articles||[]).filter(x=>x&&x.title&&safeUrl(x.url)!=='#').map(x=>({...x,topics:A.tagsFor(x),displayTitle:x.title_de||x.title,displaySummary:x.summary_de||x.summary}));
 }
 function byDate(list){return [...list].sort((x,y)=>(Date.parse(y.date)||0)-(Date.parse(x.date)||0))}
 function byRelevance(list){return [...list].sort((x,y)=>A.score(y)-A.score(x)||(Date.parse(y.date)||0)-(Date.parse(x.date)||0))}
@@ -95,8 +95,8 @@ function panelTop(icon,title,destination){
   return '<div class="panel-top"><h3 class="panel-title"><span class="picon" aria-hidden="true">'+icon+'</span>'+esc(title)+'</h3>'+(destination?'<button class="soft-link" data-view="'+destination+'">Alle ansehen ↗</button>':'')+'</div>';
 }
 function smallStory(a,desc=true){
-  return '<div class="compact-story"><div>'+link(a,truncated(a.title,126))+'</div>'+
-    (desc&&a.summary?'<div class="desc">'+esc(truncated(a.summary,178))+'</div>':'')+
+  return '<div class="compact-story"><div>'+link(a,truncated(a.displayTitle,126))+'</div>'+
+    (desc&&a.displaySummary?'<div class="desc">'+esc(truncated(a.displaySummary,178))+'</div>':'')+
     '<div class="meta">'+esc(a.source||'Quelle')+' · '+esc(fmtDate(a.date))+'</div></div>';
 }
 function imageFor(a,i){
@@ -108,7 +108,7 @@ function imageFor(a,i){
 function feature(a,i){
   return '<article class="feature-story"><a href="'+esc(safeUrl(a.url))+'" target="_blank" rel="noopener noreferrer">'+
     '<img loading="lazy" class="photo" src="'+imageFor(a,i)+'" alt="Symbolbild aus der Tier- und Naturwelt">'+
-    '<h3>'+esc(truncated(a.title,91))+'</h3></a><div class="byline">'+esc(truncated(a.source,29))+' · '+esc(fmtDate(a.date))+'</div><div class="symbol-note">Symbolbild, nicht vom berichteten Ereignis</div></article>';
+    '<h3>'+esc(truncated(a.displayTitle,91))+'</h3></a><div class="byline">'+esc(truncated(a.source,29))+' · '+esc(fmtDate(a.date))+'</div><div class="symbol-note">Symbolbild, nicht vom berichteten Ereignis</div></article>';
 }
 function worthyStudy(x){
   const title=String(x.title||'').toLowerCase();
@@ -128,17 +128,30 @@ function studyPick(){
   }
   return studies.find(x=>x.abstract_available)||studies[0];
 }
+function studyDetails(study){
+  const curated=Array.isArray(study.extended_summary)?study.extended_summary.filter(Boolean):[];
+  const translatedAbstract=study.abstract_excerpt_de||'';
+  const paragraphs=curated.length?curated:
+    translatedAbstract?[study.summary_de||study.summary,'Vertiefender Auszug aus dem wissenschaftlichen Abstract (maschinell übersetzt): '+translatedAbstract]:
+    [study.summary_de||study.summary,'Eine weitergehende Ergebniseinordnung ist anhand des vorhandenen Quellenbestands nicht belastbar möglich. Bitte die Originalstudie öffnen.'];
+  const text=paragraphs.map((p,i)=>'<p>'+esc(p)+'</p>').join('');
+  return '<div id="studyDetails" class="study-expanded" role="region" aria-label="Ausführliche Zusammenfassung">'+
+    '<h4>Ausführlichere Einordnung</h4>'+text+
+    '<p class="note">Quellenbasierte Darstellung – keine unabhängig validierte wissenschaftliche Bewertung. Für Methodik, Ergebnisse und Zahlen die Originalpublikation lesen.</p></div>';
+}
 function dailyStudy(){
   const study=studyPick();
-  if(!study)return '<section class="daily-study" id="dailyStudy"><div><p class="eyebrow">STUDIE DES TAGES</p><h3 class="study-title">Heute keine belegte Studie verfügbar</h3><p class="study-summary">Der wissenschaftliche Quellenabruf hat derzeit keinen geeigneten Eintrag mit Original-Link geliefert. Hier werden keine Studien oder Forschungsergebnisse erfunden.</p></div><div class="study-aside"><div class="meta-label">Aktualisierung</div><div class="meta-value">Automatisch morgens, sofern die wissenschaftlichen Quellen verfügbar sind.</div></div></section>';
-  const method=study.abstract_available?'Auf Basis von Abstract und Metadaten':'Nur bibliografische Metadaten verfügbar';
+  if(!study)return '<section class="daily-study" id="dailyStudy"><div><p class="eyebrow">STUDIE DES TAGES</p><h3 class="study-title">Heute keine belegte Studie verfügbar</h3><p class="study-summary">Keine geeignete Studie mit DOI im aktuellen Quellenbestand. Es werden keine Forschungsdaten erfunden.</p></div></section>';
+  const method=study.abstract_available?'Abstract / bibliografische Metadaten':'Nur bibliografische Metadaten';
   return '<section class="daily-study" id="dailyStudy"><div><p class="eyebrow">STUDIE DES TAGES · '+esc(fmtDate(new Date()))+'</p>'+
-    '<h3 class="study-title">'+esc(study.title)+'</h3>'+
-    '<p class="study-summary">'+esc(study.summary||'Nur bibliografische Metadaten verfügbar. Ergebnisse nicht geprüft.')+'</p>'+
-    '<a class="small-button" href="'+esc(safeUrl(study.url))+'" target="_blank" rel="noopener noreferrer">Originalstudie ansehen ↗</a></div>'+
+    '<h3 class="study-title">'+esc(study.displayTitle)+'</h3>'+
+    '<p class="study-summary">'+esc(study.displaySummary||'Nur bibliografische Metadaten verfügbar. Ergebnisse nicht geprüft.')+'</p>'+
+    '<div class="study-actions"><button id="toggleStudyDetails" type="button" class="small-button study-toggle" aria-expanded="'+(state.studyExpanded?'true':'false')+'" aria-controls="studyDetails">'+(state.studyExpanded?'Weniger anzeigen ↑':'Längere Zusammenfassung ↓')+'</button>'+
+    '<a class="small-button" href="'+esc(safeUrl(study.url))+'" target="_blank" rel="noopener noreferrer">Originalstudie ↗</a></div></div>'+
     '<aside class="study-aside"><span class="meta-label">Journal / Quelle</span><span class="meta-value">'+esc(study.source||'Wissenschaftliche Quelle')+'</span>'+
-    '<span class="meta-label">Veröffentlichung</span><span class="meta-value">'+esc(fmtDate(study.date))+'</span>'+
-    '<span class="badge">'+esc(method)+'</span><span class="mini-note">Automatisch ausgewählt und vorsichtig zusammengefasst. Kein Ersatz für eine vollständige Studienprüfung.</span></aside></section>';
+    '<span class="meta-label">Veröffentlicht</span><span class="meta-value">'+esc(fmtDate(study.date))+'</span>'+
+    '<span class="badge">'+esc(method)+'</span><span class="mini-note">Die deutsche Einordnung beruht auf vorhandenen Quellen, nicht auf generierten Forschungsergebnissen.</span></aside>'+
+    (state.studyExpanded?studyDetails(study):'')+'</section>';
 }
 function dashboard(){
   const all=articles();
@@ -153,7 +166,7 @@ function dashboard(){
     (hasWarn?'<div class="notice warn">Der Nachrichtenbestand ist älter als geplant. Der stündliche Quellenabruf kann verzögert sein oder ausfallen. Bitte prüfe Veröffentlichungsdaten und Originalquellen.</div>':'')+
     '<div class="dashboard-grid"><div class="column">'+
     '<section class="panel"><div class="panel-inner">'+panelTop('☀','Morning Briefing','news')+
-    (brief.length?'<ul class="brief-lines">'+brief.map(a=>'<li><span class="dot"></span><div>'+link(a,truncated(a.title,115))+'<div class="muted">'+esc(truncated(a.summary||'',135))+'</div></div></li>').join('')+'</ul>':empty('Noch kein Briefing verfügbar','Neue Nachrichten erscheinen nach einem erfolgreichen Quellenabruf.'))+
+    (brief.length?'<ul class="brief-lines">'+brief.map(a=>'<li><span class="dot"></span><div>'+link(a,truncated(a.displayTitle,115))+'<div class="muted">'+esc(truncated(a.displaySummary||'',135))+'</div></div></li>').join('')+'</ul>':empty('Noch kein Briefing verfügbar','Neue Nachrichten erscheinen nach einem erfolgreichen Quellenabruf.'))+
     '</div></section>'+
     '<section class="panel"><div class="panel-inner">'+panelTop('◎','Global News Radar','news')+
     (pictures.length?'<div class="feature-grid">'+pictures.map(feature).join('')+'</div>':empty('Keine Nachrichten vorhanden','Die App zeigt ausschließlich echte Quellen.'))+
@@ -172,8 +185,8 @@ function dashboard(){
 function articleCard(a){
   const saved=state.saved.has(a.id);
   return '<article class="article-card"><div><span class="badge">'+esc(a.kind==='study'?'Studie':a.kind==='policy'?'Politik':a.kind==='ifaw'?'IFAW-News':'Meldung')+'</span>'+
-    '<h3>'+link(a)+'</h3><p>'+esc(truncated(a.summary||'Kein Teaser verfügbar. Bitte die Originalquelle aufrufen.',360))+'</p>'+
-    '<div class="article-meta"><span>'+esc(a.source||'Quelle unbekannt')+'</span><span>'+esc(fmtDate(a.date))+'</span><span>'+esc(a.topics.slice(0,2).join(' · '))+'</span></div></div>'+
+    '<h3>'+link(a)+'</h3><p>'+esc(truncated(a.displaySummary||'Kein Teaser verfügbar. Bitte die Originalquelle aufrufen.',360))+'</p>'+
+    '<div class="article-meta"><span>'+esc(a.title_de&&a.translation_status==='maschinell'?'Maschinell übersetzt · Original prüfen':'Originalsprache / Quelle')+'</span><span>'+esc(a.source||'Quelle unbekannt')+'</span><span>'+esc(fmtDate(a.date))+'</span><span>'+esc(a.topics.slice(0,2).join(' · '))+'</span></div></div>'+
     '<div class="article-actions"><button type="button" data-bookmark="'+esc(a.id)+'" class="bookmark '+(saved?'saved':'')+'">'+(saved?'✓ Gemerkt':'☆ Merken')+'</button>'+
     '<a class="small-button" href="'+esc(safeUrl(a.url))+'" target="_blank" rel="noopener noreferrer">Quelle ↗</a></div></article>';
 }
@@ -218,6 +231,7 @@ function bindEvents(){
     if(nav){event.preventDefault();go(nav.dataset.view);return}
     const mark=event.target.closest('[data-bookmark]');
     if(mark){const id=mark.dataset.bookmark;state.saved.has(id)?state.saved.delete(id):state.saved.add(id);storeSaved();render();return}
+    if(event.target.closest('#toggleStudyDetails')){state.studyExpanded=!state.studyExpanded;render();return}
     if(event.target.closest('#filterSaved')){state.onlySaved=!state.onlySaved;render();return}
     if(event.target.closest('#clearSaved')){if(confirm('Gesamte Merkliste löschen?')){state.saved.clear();storeSaved();render()}return}
   });

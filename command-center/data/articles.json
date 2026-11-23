@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-23T11:53:08.175908Z",
+  "generated_at": "2026-11-23T12:01:11.738315Z",
   "articles": [
     {
       "id": "13cb6011f103cd869671",
@@ -1120,7 +1120,7 @@
     {
       "name": "BBC – Wissenschaft & Umwelt",
       "kind": "media",
-      "count": 21,
+      "count": 20,
       "ok": true
     },
     {
@@ -1132,7 +1132,7 @@
     {
       "name": "Mongabay – Conservation News",
       "kind": "media",
-      "count": 19,
+      "count": 18,
       "ok": true
     },
     {
@@ -1156,7 +1156,7 @@
     {
       "name": "Deutschland – Wildtiere (News-Aggregation)",
       "kind": "media",
-      "count": 45,
+      "count": 8,
       "ok": true
     },
     {
@@ -1168,8 +1168,8 @@
     {
       "name": "Crossref: human wildlife conflict",
       "kind": "study",
-      "count": 1,
-      "ok": true
+      "count": 0,
+      "ok": false
     },
     {
       "name": "Crossref: marine mammal conservation",
@@ -1180,14 +1180,14 @@
     {
       "name": "Crossref: elephant conservation",
       "kind": "study",
-      "count": 0,
-      "ok": false
+      "count": 12,
+      "ok": true
     },
     {
       "name": "Crossref: wildlife rescue",
       "kind": "study",
-      "count": 5,
-      "ok": true
+      "count": 0,
+      "ok": false
     },
     {
       "name": "Crossref: illegal wildlife trade",
@@ -1198,11 +1198,15 @@
   ],
   "failures": [
     {
+      "source": "Crossref: human wildlife conflict",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
       "source": "Crossref: marine mammal conservation",
       "error": "HTTP Error 429: Too Many Requests"
     },
     {
-      "source": "Crossref: elephant conservation",
+      "source": "Crossref: wildlife rescue",
       "error": "HTTP Error 429: Too Many Requests"
     },
     {

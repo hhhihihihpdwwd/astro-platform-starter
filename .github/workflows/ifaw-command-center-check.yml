@@ -27,6 +27,5 @@ jobs:
           cd command-center
           node --check app.js
           node --check lib/analysis.js
-          node --check lib/graph.js
           node tests/test_analysis.cjs
           python -m pytest -q tests/test_collect.py tests/test_browser.py

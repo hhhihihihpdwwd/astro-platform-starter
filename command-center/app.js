@@ -34,7 +34,15 @@ function itemsFor(view){
   return view==='pr'?byRelevance(list):byDate(list);
 }
 function renderClocksShell(){
-  $('#worldClocks').innerHTML=Clock.CITIES.slice(1).map(c=>'<div class="world-clock"><span class="city">'+esc(c.name)+'</span><time class="clock-time" id="clock-'+c.id+'">--:--:--</time><span class="clock-date" id="date-'+c.id+'">–</span></div>').join('');
+  $('#worldClocks').innerHTML=Clock.CITIES.slice(1).map(c=>{
+    const left=((c.lon+180)/360*100).toFixed(2),top=((85-c.lat)*.92/158*100).toFixed(2);
+    return '<div class="world-clock"><span class="city">'+esc(c.name)+'</span>'+
+      '<time class="clock-time" id="clock-'+c.id+'">--:--:--</time><span class="clock-date" id="date-'+c.id+'">–</span>'+
+      '<div class="clock-map" role="img" aria-label="Weltkarte: '+esc(c.name)+' markiert">'+
+        '<img src="assets/world-map.svg" width="360" height="158" alt="" decoding="async">'+
+        '<span class="map-pin" style="left:'+left+'%;top:'+top+'%" aria-hidden="true"></span>'+
+      '</div></div>';
+  }).join('');
 }
 function updateClocks(now=new Date()){
   if(!Clock)return;
@@ -42,16 +50,23 @@ function updateClocks(now=new Date()){
   $('#greeting').textContent=Clock.greeting(now)+', Luca.';
   $('#clock-hamburg').textContent=h.time;
   $('#clock-hamburg').dateTime=now.toISOString();
-  const s=Clock.sunMood(now);
-  const icon=$('#sunGraphic');icon.textContent=s.icon;icon.classList.toggle('night',s.altitude<0);
-  const elevation=Math.abs(s.altitude).toFixed(1).replace('.',',');
-  $('#sunLabel').textContent=s.altitude>=0?'Sonne '+elevation+'° über dem Horizont · Näherungswert':'Sonne '+elevation+'° unter dem Horizont · Näherungswert';
+  const solar=Clock.solarDay(now);
+  const t=x=>new Intl.DateTimeFormat('de-DE',{hour:'2-digit',minute:'2-digit',timeZone:'Europe/Berlin'}).format(x);
+  $('#sunriseTime').textContent=t(solar.sunrise);
+  $('#sunsetTime').textContent=t(solar.sunset);
+  const progress=Math.max(0,Math.min(1,solar.progress));
+  // The quadratic Bézier M20 86 Q160 -45 300 86: point at t∈[0,1].
+  const px=20+280*progress,py=86-131*2*progress*(1-progress);
+  for(const id of ['sunDot','sunHalo']){const el=$('#'+id);el.setAttribute('cx',px.toFixed(1));el.setAttribute('cy',py.toFixed(1))}
+  $('#sunMarker').classList.toggle('below-horizon',!solar.daylight);
+  $('#sunStatus').textContent=solar.daylight?'☀ Tag':'☾ Nacht';
+  const absolute=Math.abs(solar.altitude).toFixed(1).replace('.',',');
+  $('#sunLabel').textContent='Sonnenhöhe: '+(solar.altitude>=0?'+':'−')+absolute+'° · astronomischer Näherungswert';
   for(const city of Clock.CITIES.slice(1)){
-    const t=Clock.cityTime(now,city.zone);
-    $('#clock-'+city.id).textContent=t.time;
+    const time=Clock.cityTime(now,city.zone);
+    $('#clock-'+city.id).textContent=time.time;
     $('#clock-'+city.id).dateTime=now.toISOString();
-    const date=new Intl.DateTimeFormat('de-DE',{timeZone:city.zone,weekday:'short',day:'2-digit',month:'short'}).format(now);
-    $('#date-'+city.id).textContent=date;
+    $('#date-'+city.id).textContent=new Intl.DateTimeFormat('de-DE',{timeZone:city.zone,weekday:'short',day:'2-digit',month:'short'}).format(now);
   }
 }
 function renderNav(){

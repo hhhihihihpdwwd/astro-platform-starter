@@ -46,7 +46,7 @@ jobs:
         run: python -m pip install --disable-pip-version-check 'argostranslate>=1.10,<2'
       - name: Öffentliche Kurztexte ins Deutsche übersetzen
         if: steps.translations.outputs.needed == 'true'
-        run: python command-center/scripts/translate_articles.py --limit 120
+        run: python command-center/scripts/translate_articles.py --limit 400
       - name: Datensatz aktualisieren ohne andere Änderungen zu überschreiben
         run: |
           if ! git diff --quiet -- command-center/data/articles.json command-center/data/daily_study.json; then

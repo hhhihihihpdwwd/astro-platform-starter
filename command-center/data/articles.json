@@ -1,16 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-23T11:48:28.585297Z",
+  "generated_at": "2026-11-23T11:53:08.175908Z",
   "articles": [
-    {
-      "id": "23eee54e9438aad5cfb1",
-      "title": "Tajikistan: Statement by the High Representative on behalf of the European Union on Tajikistan’s withdrawal from the Rome Statute of the International Criminal Court",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/23/tajikistan-statement-by-the-high-representative-on-behalf-of-the-european-union-on-tajikistan-s-withdrawal-from-the-rome-statute-of-the-international-criminal-court/",
-      "date": "2026-11-23T11:35:00Z",
-      "summary": "The High Representative issued a statement on behalf of the European Union on Tajikistan’s withdrawal from the Rome Statute of the International Criminal Court.",
-      "source": "EU-Rat – Pressemitteilungen",
-      "kind": "policy"
-    },
     {
       "id": "13cb6011f103cd869671",
       "title": "How a tiny rare frog became an ecological warning sign for Madagascar",
@@ -120,15 +111,6 @@
       "kind": "media"
     },
     {
-      "id": "f94dc82481b48b01cef1",
-      "title": "Weltklimakonferenz in Antalya: Keine Abschlusserklärung, aber konkrete Fortschritte bei Umsetzung",
-      "url": "https://www.bundesumweltministerium.de/pressemitteilung/weltklimakonferenz-in-antalya-keine-abschlusserklaerung-aber-konkrete-fortschritte-bei-umsetzung",
-      "date": "2026-11-22T15:41:00Z",
-      "summary": "Die 31. Weltklimakonferenz in Antalya endet ohne gemeinsame Abschlusserklärung. Deutschland, die EU und weitere ambitionierter Staaten waren nicht bereit, die seitens der Präsidentschaften vorgelegten Textentwürfe zu akzeptieren.",
-      "source": "Bundesumweltministerium – Naturschutz",
-      "kind": "policy"
-    },
-    {
       "id": "be4216e13a2d75b8ffea",
       "title": "Briton swims length of strait of Hormuz to highlight environmental cost of war",
       "url": "https://www.theguardian.com/world/2026/nov/22/briton-lewis-pugh-swims-strait-of-hormuz-environment-war",
@@ -180,15 +162,6 @@
       "date": "2026-11-21T16:12:31Z",
       "summary": "Ocean campaigner Lewis Pugh completes Hormuz challenge and warns of lasting environmental damage.",
       "source": "BBC – Wissenschaft & Umwelt",
-      "kind": "media"
-    },
-    {
-      "id": "a3a127a4c2655aeed1c8",
-      "title": "‘Hell dorm’: Florida prisoners testify about 119F heat indexes and walls that sweat",
-      "url": "https://www.theguardian.com/us-news/2026/nov/21/florida-prisoner-lawsuit-extreme-heat",
-      "date": "2026-11-21T14:38:58Z",
-      "summary": "Temperatures in a concrete facility contributed to one man’s death after he struggled to breathe, prisoners allege On Tuesday afternoon Dwayne Wilson, 69, a thin Black man dressed in a light gray prison uniform, testified about the stifling heat he…",
-      "source": "The Guardian – Environment",
       "kind": "media"
     },
     {
@@ -498,6 +471,15 @@
       "kind": "media"
     },
     {
+      "id": "c15fbf00a2b38c4efff2",
+      "title": "Wie schützt man Elefanten und die Ernte? - deutschland.de",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPUWFRUUw5QnJmVEVZR0FkOXJSay16WllSQ01IRzZSV1lnTXpfdjBuQV9HaXVQLXBDMW5oNUs2RlpFNmpvWi1iWnRpQkE0RlVJYVVxbFU5czl1MTJmZGtSaW1HSUpGUE55QVNmdF8zSlprRUlwdHM5OHh1cDZFTXdSd09R?oc=5",
+      "date": "2026-11-18T15:25:02Z",
+      "summary": "Wie schützt man Elefanten und die Ernte? deutschland.de",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
+      "kind": "media"
+    },
+    {
       "id": "72efef3bae5c6c11dcde",
       "title": "After 49 years, Nasa’s Voyager 1 is one light-day away from us. Can we save this ‘pale blue dot’? | Kim Heacox",
       "url": "https://www.theguardian.com/commentisfree/2026/nov/18/nasa-voyager-1-pale-blue-dot",
@@ -633,12 +615,66 @@
       "kind": "media"
     },
     {
+      "id": "b0c35ca92413725a84da",
+      "title": "Vorschau: Unkraut • Kreuzotter, Kammmolch & Co – Im Einsatz für den Artenschutz - ARD Mediathek",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE44SG1vRXRBeDNXdFp1VjJTR0tvZXc5Q2ZDSERxQmIxcXVrTFp0OUFLOVctQXl4YUFxZFRmMjd1Z082OVpNNGV5RWxIZ3dJUC1KZ01QQWk2ZnFRU2FCRnVwYkJuRFJHYVpNTkkxZ0phU3JDUQ?oc=5",
+      "date": "2026-11-12T04:45:00Z",
+      "summary": "Vorschau: Unkraut • Kreuzotter, Kammmolch & Co – Im Einsatz für den Artenschutz ARD Mediathek",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "c8f05c6f6ffa6693b589",
+      "title": "Artenschutz wirkt: Living Planet Report 2026 macht Hoffnung - Good News Magazin",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE80eC1zZHFRa1cxbGtBQjNTSXphb3VNZDNZZ2dFM2dmSEpSWGNxSE9WTmF3b09DeVRVbHZhbER0aUhtQmJIVDBrSmV0alozWl9DVUJOOFNfd19uUl9yVmlBaE1RZXJsdk1NVEI3SnU4Yl9VRTNDTzdZcDFn?oc=5",
+      "date": "2026-11-09T08:00:00Z",
+      "summary": "Artenschutz wirkt: Living Planet Report 2026 macht Hoffnung Good News Magazin",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
+      "kind": "media"
+    },
+    {
       "id": "c955aded12c2b0002c83",
       "title": "Beef industry quietly squashes part of its own science curriculum after ranchers protest",
       "url": "https://www.theguardian.com/environment/2026/nov/08/beef-industry-climate-impact-education",
       "date": "2026-11-08T15:00:43Z",
       "summary": "Lesson for teenagers included how cattle’s methane emissions contribute to climate crisis, but it was then scrapped A beef industry-funded effort to teach teenagers about cattle’s climate impact was quietly scrapped following backlash from some…",
       "source": "The Guardian – Environment",
+      "kind": "media"
+    },
+    {
+      "id": "5d6775e0a5f442c08fa4",
+      "title": "Walhaie als Touristenmagnet: Indonesiens Ringen um den Artenschutz - DIE ZEIT",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQaDNHRVhicHVvem85aUlTdlAxMy11cFd2WXZXUHVJMVJ6VG5YTThZR05vdWo4a01yMjZya3QtVjhWMnZrOVF0VG5UZUIyTS12WURDY2RyS3NLS0pfOUNubTVuLVBuNUtocXBoLU1yUW1lbE54VC0wTi1lU245eWNMQk5Yd0FsZklmN3JZUFZkRzRXV2hwOFlLM0JSLWJmM0lZ?oc=5",
+      "date": "2026-11-06T08:00:00Z",
+      "summary": "Walhaie als Touristenmagnet: Indonesiens Ringen um den Artenschutz DIE ZEIT",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "217cba64d2809538d4ed",
+      "title": "Artenschutz - UNO-Biodiversitätskonferenz in Eriwan beendet; Ecuador nächster Austragungsort - Deutschlandfunk",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZGw5aTBWS3Z6bHBJd1JFQk41X0xaRjBnNm1RNVF1R3JiN2RDYjQ4dndMbVhvc2s3WndNMWdEdERsT1JYZDBzeVktT1hDb2ZxNkVZTXAxdy01Z1d6NWd0NHA5MHRBak1QU0hWNG9MbDAxRUM3eFZnU3ktOFlIeXlHTGFrVnBLVlhHVlNtd0xlY1pteHEyRGZCZlY5cW11WmdRX2dnWl9YWTdrem1BSFRWbFhhZXBKMUhoMFZv?oc=5",
+      "date": "2026-11-04T08:00:00Z",
+      "summary": "Artenschutz - UNO-Biodiversitätskonferenz in Eriwan beendet; Ecuador nächster Austragungsort Deutschlandfunk",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "999d48a3bcd1a8a92195",
+      "title": "Das hat die COP17-Konferenz für den Artenschutz gebracht - SWR",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPS08tYUVCaDBfalZxSllfR0V1YjJCZUJldzk3TGRSZFg5R2JyQ0xmOGJfUnB4XzVzaHp2Z1p4Q2VDRXd1cEdKMVQ3T0kxV1hUcEloSmRPdkRfUVduamR1T3pOckZ1NE1CTmctdkRhM1BrdWlLOTF3Q0FuNTgyUFdHVjBJMEdsUUVDR2JpQ0h5dk01Qk9tLTJmemE3cGFVWUlwZDNteQ?oc=5",
+      "date": "2026-11-02T08:00:00Z",
+      "summary": "Das hat die COP17-Konferenz für den Artenschutz gebracht SWR",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "ece7c82d2ccbfab5759a",
+      "title": "Fortschritte beim Artenschutz, Nachfrage nach E-Autos - Good News Magazin",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1WUEFvSUszaWZSRnZpcExQb0lnV2tjamVRWmRFMzQyWlVFdkUwLWVwbXhGMkxtUmZnOWYtMnI3dW5tUVlKb0hkQWRoTnFpZDlTZnhjek9INHNZVHE0dktldG9LZGpCcFlSZ3c?oc=5",
+      "date": "2026-11-02T08:00:00Z",
+      "summary": "Fortschritte beim Artenschutz, Nachfrage nach E-Autos Good News Magazin",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
       "kind": "media"
     },
     {
@@ -651,12 +687,48 @@
       "kind": "policy"
     },
     {
+      "id": "3acbb4ec018dcba4a088",
+      "title": "Biodiversität: Schneller beim Artenschutz? Weltnaturkonferenz endet - DIE ZEIT",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPamw2SHp1d25OMmxITFN5M3RaMG9JRlg5Z0h5aDk5cGVTUVBZaFFacHFrR0R0emRNQ0JfZmZYazBxOGIzYnd4VE9vcWdDQUtJLVItMVZrVWtyLWFtalR2UUtHSmozcVdTSXBWT3NvRzZpTzAzejIwZkRaSDdNNk5xeUpfRlRPb3lLZHB5Vmcwams?oc=5",
+      "date": "2026-10-31T07:00:00Z",
+      "summary": "Biodiversität: Schneller beim Artenschutz? Weltnaturkonferenz endet DIE ZEIT",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "d737f26ace750efb7c06",
+      "title": "UN-Biodiversitätskonferenz COP17: 200 Staaten einigen sich auf Beschlüsse zum Artenschutz - DIE ZEIT",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPb1B1UmV0aDltbTFsTWk4bW5FcTZ0eGtManhHTm4zQ0JCaFhhUURqY3d2UHZDSnpHU0JpZHZCUjg2SlVjMzFFNmU5dk9XeVhmaVRDZXJmd2hka1RpSzB3M3BodkduVkdpc201cmdVRzc0T1d3N0ZERjBRclJsckVsR2VGNDYtNmVCN3FBZ18wOXJ5VXVVSmNJVFBRTENBdFg5YVVpdnlQZGFPcWV3Y0E?oc=5",
+      "date": "2026-10-31T07:00:00Z",
+      "summary": "UN-Biodiversitätskonferenz COP17: 200 Staaten einigen sich auf Beschlüsse zum Artenschutz DIE ZEIT",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
+      "kind": "media"
+    },
+    {
       "id": "856ae59d5fe26be8122b",
       "title": "BBC Inside Science",
       "url": "https://www.bbc.co.uk/sounds/play/w3ct978j?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-29T21:00:00Z",
       "summary": "Time is running out for one of the most ambitious environmental pledges in history.",
       "source": "BBC – Wissenschaft & Umwelt",
+      "kind": "media"
+    },
+    {
+      "id": "cc6dd7a578f8995f65cc",
+      "title": "Vorschau: Unkraut • Artenspürhunde – Schnüffeln für den Artenschutz - ARD Mediathek",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5aeENCdzRBUHp2cEZuRUt3dFA2N1NQUlVtNWhpOV85V1VQQTlNbXpFdDFUZnJ4cUhreFNwdTV2UThNSW5hVlZ6ekxnanYyRU9FVl9vTVJ3UjFKbzU0ZVFtb0JLNFhjUHZBMzVVTkZuMWpKQQ?oc=5",
+      "date": "2026-10-29T03:40:00Z",
+      "summary": "Vorschau: Unkraut • Artenspürhunde – Schnüffeln für den Artenschutz ARD Mediathek",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "9fae7168ae7fa1f4b3b1",
+      "title": "500 Apfelbäume für den Klima- und Artenschutz - Kreis Warendorf",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSWV6WXdaZGZmTllsUDZfcnROUDhCZVZkczZka3VpRFRPdjJZZmxpZVBFaEFpLXlHZnliTWRzU0o1QXM0U1pfZmRHSDZyV0ZLTlp6VWFwcmowOUpTYlBUa0llVEFkdDNBRWZJZ01zaU4tX3JzQUJwM19XM2pBSkR4QXFKOXJBUjA?oc=5",
+      "date": "2026-10-27T09:51:30Z",
+      "summary": "500 Apfelbäume für den Klima- und Artenschutz Kreis Warendorf",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
       "kind": "media"
     },
     {
@@ -669,12 +741,30 @@
       "kind": "policy"
     },
     {
-      "id": "06bdf9ab755189ca5244",
-      "title": "‘It’s all God’s creation’: farmers continue a ‘Jewishly inspired’ agrarian tradition",
-      "url": "https://www.theguardian.com/world/ng-interactive/2026/oct/22/jewish-farmers-tradition-agriculture",
-      "date": "2026-10-22T19:18:11Z",
-      "summary": "In the US, a growing number of Jewish people are seeking purpose and community through farming Wendy Rhein is trying to round up the sheep hanging out among the hazelnut and walnut trees of her Chutzpah Hollow farm in Tryon, North Carolina. “Hi,…",
-      "source": "The Guardian – Environment",
+      "id": "bbe4f9f2a49d03ae0939",
+      "title": "Artenschutz: Theo Pagel: Wie Zoos Arten retten sollen | BR.de - BR",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaEVYMEVFMExRLTJXTjlSZEdMZTRlTDZ4eFF5YWhiSDkxR2RicWRkUEVmWmhEaDlNVktQT3hDakZGX0wxVnNTYlhYa0duWjhEVWJVQ3IyekNWX1pWZFphV1o4TGhfWDZTcEtNMm9TVkttd1BkdTd2NGFjWFJSb2R1THR0WVRKamF3aFZ1aW0zZ1FxamNobUIwaVJWSVAtRnJURFpIbC1WTkw?oc=5",
+      "date": "2026-10-26T07:00:00Z",
+      "summary": "Artenschutz: Theo Pagel: Wie Zoos Arten retten sollen | BR.de BR",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "2bb9efbf525a2716fbdc",
+      "title": "Artenschutz auf dem Acker: 53 Hektar für den Feldhamster angesät - Mynewsdesk",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOb2hhQWdRdVBiNHVDNTFKcHpKdDJpM3V2RUR0N25zSzdnVTVvamhvVDMwemlDOGFYQXpxNjZDWjVsZjQwamkxQ1ZMTUlvNWtkZFV0NEVzVFJWTFlCQW5lNTljT2pxNThKc0tTd01IY2hPYm9BQ29oNWI3UEktOUtvRjZjY3V1RXJUWEFVNDU5c2E3dWxaZGdHOE5yYW9oNzRwQ1oybWpMWC1lLXhjc1RqN3hseXNpaER2OE5CZ0ZSTUdycE5yVHln?oc=5",
+      "date": "2026-10-23T07:00:00Z",
+      "summary": "Artenschutz auf dem Acker: 53 Hektar für den Feldhamster angesät Mynewsdesk",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "c09a491681f2de38f776",
+      "title": "Die Wildkatze ist zurück – Wie Artenschutz gelingt - SWR",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOY0RNS3lUUmEzUDdwM3diMGpKTWdGVzRLNUtsX2thVFlqN1dwWDlKeGxBWGtSZkp1R0pWZGJ2YnZHR25vcDVYRjFSLVBKNGhuQ3lSaHlqazNjRWg2c29RSGJsXzZ0LXRhX3dudGNsNmpBRnNHdTFyanlZMnBGSFpnZnR4U3Q4bVczZElnbmpReU5OaktXbWFrUVVrbzNaSmp6RWNSWVE3SFhiSWVxV0VRY1dwQXhRZ1U?oc=5",
+      "date": "2026-10-21T07:00:00Z",
+      "summary": "Die Wildkatze ist zurück – Wie Artenschutz gelingt SWR",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
       "kind": "media"
     },
     {
@@ -705,6 +795,24 @@
       "kind": "policy"
     },
     {
+      "id": "0261ddc7cb7e97b05b95",
+      "title": "Birdwatching boomt: Social Media trifft Artenschutz - DW.com",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZUt6SU8zZ2NGTmZUWDNpbEhZY2NyLVg0NEZIZUc3RERuSU5UNGduSUlDcVJqUTVJYWVXMHVhdkVHaU9PVzNGWWx6RFE4MzVNVmVBNVJvT0JjYVB6ckcxRy0tVVQyVHZncnZVbXNLU3djTmVXalN2UUhBMzhRcXNuNTIxVVllZ0MzT09PcXNqWlI?oc=5",
+      "date": "2026-10-19T07:00:00Z",
+      "summary": "Birdwatching boomt: Social Media trifft Artenschutz DW.com",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "87c422f4f7f9802d1d31",
+      "title": "UN-Biodiversitätskonferenz in Eriwan zieht Zwischenbilanz bei Artenschutz-Zusagen - STERN.de",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNOUpMa3labm1GeXJza2tBanRvTjY3TGhlb1VaeTNWdVJRck5PYklHQ1FKd0VjWm15QWZfakN4SkFkVTdRS0RFb3IzdE1LV0FZX2htUkI3THFiSXBOUUpzTmwyTnhNVWpGNmlka3JidTRSZVdSNGhreWZ5TTNaU21OTGRQQmVhTzI2LXJtTWVJRTg2UFRUT0JrczFDdnBaNXc0Y2NwTHBRM0VMUjdVQm5UVTN2bzFGZDdsT0ZnSzJhcw?oc=5",
+      "date": "2026-10-19T07:00:00Z",
+      "summary": "UN-Biodiversitätskonferenz in Eriwan zieht Zwischenbilanz bei Artenschutz-Zusagen STERN.de",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
+      "kind": "media"
+    },
+    {
       "id": "ba5c4a87c7279d82d555",
       "title": "Weltnaturkonferenz: Erste globale Bilanz zur Umsetzung der Naturschutzziele bis 2030",
       "url": "https://www.bundesumweltministerium.de/pressemitteilung/weltnaturkonferenz-erste-globale-bilanz-zur-umsetzung-der-naturschutzziele-bis-2030",
@@ -723,6 +831,24 @@
       "kind": "policy"
     },
     {
+      "id": "ecf7121714d4704c28a0",
+      "title": "Filme über Waldbrände und Artenschutz gewinnen Hauptpreise - Naturschutz und Landschaftsplanung",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxONVdUcmFOaFhEVkVHMkhXT3U3a0ZVODh4NV92aTJ3LVFDdW5uR3VJRmJibFdXQXNrSm5LcG12ZnVaZjl0Z3VCMVN3R2gyYkY1VHhTTHdLSmR3QW1iUndfbkQ0cDJlQ1dRZjJMMS1hSDRYS2xIcG1VM2J0OHZZOWdjdWRmakJLSkxOd21xeDd6QUhxM3E5WVVrNE5oNWZZUEYtMUxTNEhXTG5Sam4tZG96Y0pVSkNxX0ZyMF9rNjRwcTIzbURJTVZ2QVFScw?oc=5",
+      "date": "2026-10-14T07:00:00Z",
+      "summary": "Filme über Waldbrände und Artenschutz gewinnen Hauptpreise Naturschutz und Landschaftsplanung",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "eb4994d0044c17682af1",
+      "title": "WWF-Report: Diese Arten zeigen, dass Artenschutz funktionieren kann - Utopia.de",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNU0tWVDluRHBYR2c4V0ZRREVnaU1tNWl4YVFPTXhHb25Xb013Z3phdFdpemdwVlEyOWI3cWpmTE5xdmdPQ3NFWWdvUzloUzJfTTBWaVpGNlprUS1aeTZHdUhwYXBaUWV6a1FkZmprMGM3VFZzVkZDWmQ2eXpVdWFqdjE4YzRlblFpcjJ5R3dqY2swejJiaDVkaUgycUk?oc=5",
+      "date": "2026-10-14T07:00:00Z",
+      "summary": "WWF-Report: Diese Arten zeigen, dass Artenschutz funktionieren kann Utopia.de",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
+      "kind": "media"
+    },
+    {
       "id": "8b1fa7a929c60967e86e",
       "title": "Environment Council",
       "url": "https://www.consilium.europa.eu/en/meetings/env/2026/10/12/",
@@ -730,6 +856,24 @@
       "summary": "The Council discussed the proposed review of the EU’s emissions trading system. It also approved conclusions on the EU’s main negotiating positions ahead of the United Nations climate change (COP31) and biodiversity (COP17) summits.",
       "source": "EU-Rat – Umweltrat",
       "kind": "policy"
+    },
+    {
+      "id": "2ebfa5b83f88ccf21ef6",
+      "title": "Was tun Zoos für den Artenschutz? - MDR.de",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5idmpobVVWMnV6TmdXY0pUN1R2OFB2QlZtbmMwVDNEUkRodnQ1Sl94MGhCRGZOa0ZJdzNQWjM5cFhVWTZRdnJ3d2NaU19oUlJXTTdFWE5QVHZSMzBQNXBBUEln?oc=5",
+      "date": "2026-10-11T07:00:00Z",
+      "summary": "Was tun Zoos für den Artenschutz? MDR.de",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "8fff969af8e7662ba883",
+      "title": "Artenschutz: Was kommt nach dem Brutrekord der Kakapos? - Spektrum der Wissenschaft",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUm9GSDB0NF9ablI0b2VSSEozTlNFR3RzRTdrN0RMdnRsTzd2NzRJUFJhZWhWdkhTUlJ3bm9HNVdXS055QUxNd0tCcktSXzVjOVNJNkpMc1ljZGxuX2JWR1VJQmpsSWhXSjQtdEpqOEV3R3FWLVM1QnVEc3NTRERhdGhya29aSzZScG1YdTcyTlE3YUJG?oc=5",
+      "date": "2026-10-09T07:00:00Z",
+      "summary": "Artenschutz: Was kommt nach dem Brutrekord der Kakapos? Spektrum der Wissenschaft",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
+      "kind": "media"
     },
     {
       "id": "b4c99e61b84800e001e7",
@@ -741,13 +885,58 @@
       "kind": "media"
     },
     {
-      "id": "4258f46c5061dfd2db81",
-      "title": "Schneider: Deutschland braucht neuen Umgang mit Wasser",
-      "url": "https://www.bundesumweltministerium.de/pressemitteilung/schneider-deutschland-braucht-neuen-umgang-mit-wasser",
-      "date": "2026-10-05T09:00:00Z",
-      "summary": "Bundesumweltminister Schneider hat beim Forum \"Zukunft Wasser\" zusammen mit EU-Umweltkommissarin Roswall seine wasserpolitischen Prioritäten skizziert. Zu den Kernaufgaben gehören Investitionen in Wasservorsorge und -qualität.",
-      "source": "Bundesumweltministerium – Naturschutz",
-      "kind": "policy"
+      "id": "eb95cf7355b276dd18f9",
+      "title": "WWF-Bericht: Schaut auf die Tiger - Artenschutz funktioniert - Meinung - SZ.de - SZ.de",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNek43RUlwQ0MxMjhHTnZoNFdYNU13RXN1Zi1OVTQ2eXduVkNEWUtldFJQVHdnczQ0MWdMenZ5bDQzOWlUenJSV1plWFdfOTlHOVFCNDZPRFZFWUlBckx0YlgtendRTV9GNzBDaUJuNUJ6cGFLMW9vdFIzRV9NRDV6VTBiTjc?oc=5",
+      "date": "2026-10-08T07:00:00Z",
+      "summary": "WWF-Bericht: Schaut auf die Tiger - Artenschutz funktioniert - Meinung - SZ.de SZ.de",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "c3e90abfa2ff6b52309e",
+      "title": "Artenvielfalt: Wildtierbestände nehmen laut WWF weiter stark ab - DIE ZEIT",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNSXVQX2pFcmFudy15V0Z0ZTRpQnNtc2xZclBBV0gtdDZaOE9fOGZaeVBNQlYwZ3drTW9mSkxUdEVENUhlQlFORXpXVUtnaE9DLWJOb3A2b1d6TE16QmFvV2RlOFctQU50MlBlRzhRS2lYRUI5eE9PeC1NemtFcVQxLXNqMThISC1VakZwai1Ua0lnV05TcUZpeFN3cWxUU19BaWF1bUNSS19PX1JHVHc?oc=5",
+      "date": "2026-10-08T07:00:00Z",
+      "summary": "Artenvielfalt: Wildtierbestände nehmen laut WWF weiter stark ab DIE ZEIT",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "2aa736381d3bc07c996e",
+      "title": "Artenschutz: Luchs-Nachwuchs bei Ilmenau gesichtet - DIE ZEIT",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1hN1VPMGRSU1JHZmp3NUR5T0xqMnItRkxOUi03N3NvdWhpVk81R01VcEVick5sZnhiaHdrM3Z4emFNNkprWmlrMnVWTE92aS1waDZzZnhnOEUyOEF0bW80S1Z1bU5Yclp4R1NVNWxXeVJic1kyZElib3lHY1lQdw?oc=5",
+      "date": "2026-10-08T07:00:00Z",
+      "summary": "Artenschutz: Luchs-Nachwuchs bei Ilmenau gesichtet DIE ZEIT",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "cca2832aebaf37e4f882",
+      "title": "Artenschutz: Unverzichtbar fürs Ökosystem - KI hilft bei Fledermausschutz - DIE ZEIT",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcEV4TmpIU1FtTkhCODA1VTM5QWE2bjY1Nmd5WGpyMmVXVzZ6V0x4cU9LUEZ4Y19mRFVHRUtubTAzdW4zRXhtV0lJVjhrcTN1Qk5tOC1DQmg1Nnhkb1NlaTRyeUlJbzdpcDA1THgwT3E5TC04SmRoRDNtUG14NTlpcENSWVZLbExsa1U4NXF5RDFhRi1MVFlIZndyeGk?oc=5",
+      "date": "2026-09-29T07:00:00Z",
+      "summary": "Artenschutz: Unverzichtbar fürs Ökosystem - KI hilft bei Fledermausschutz DIE ZEIT",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "e2b19fd9d6ef9010fee9",
+      "title": "NABU Projekt Mensch.Natur: Kirchenquartiere für den Artenschutz - EKIBA | Evangelische Landeskirche in Baden",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQblBaZ3NBbUFDSlBIRTYtUVFQdXRlSXJXc3RWMGpXaFlUc0c5eFNVYlNHeHkyeTlvc003WVNWLWNkU2VkcHBvN3drM3pwNFVSQnZEa25uSkU1RE4yc21kNHVDMGdDWFNkaFBYWTJCWERKaDlra29walVVbTJLeHFUeHY0SXJ2a3Q5NTlTdWNQZDFzaVBqbGw1WENlaFhlT1ZHc2phMlZxbWxhMVBTVFVtZDNweW5kdG85YkxsMHAwQWZFUQ?oc=5",
+      "date": "2026-09-24T07:00:00Z",
+      "summary": "NABU Projekt Mensch.Natur: Kirchenquartiere für den Artenschutz EKIBA | Evangelische Landeskirche in Baden",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "9f8209d26578ed2f835e",
+      "title": "„Artenschutz ist Menschenschutz“ – Großer Artenschutztag auf der Burg Falkenberg - Oberpfalz TV",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVjUxNk1ockRKemROd1I3OWJYcW5GeFg1RXlIOERYV1NnM05CQmdvay1OT1FOU0Y4OEMzVndxOEZtdklfWm8xRnpwaktnV0ZOZDVHcks4bkdGRXMxM1BlZVlVaGxGd0dQQVlPcEFLWWlneDA4dHI0YXNEUjZNdWJPdXpRVXd3amdkbGc0V09rQkRodnM?oc=5",
+      "date": "2026-09-22T07:00:00Z",
+      "summary": "„Artenschutz ist Menschenschutz“ – Großer Artenschutztag auf der Burg Falkenberg Oberpfalz TV",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
+      "kind": "media"
     },
     {
       "id": "c666d4bd38ed271af796",
@@ -759,13 +948,22 @@
       "kind": "media"
     },
     {
-      "id": "28101fea1af94511b9a5",
-      "title": "200 Millionen Euro für den klimaangepassten Waldumbau",
-      "url": "https://www.bundesumweltministerium.de/pressemitteilung/200-millionen-euro-fuer-den-klimaangepassten-waldumbau",
-      "date": "2026-09-17T14:11:00Z",
-      "summary": "Die Fördermittel für das Förderprogramm \"Klimaangepasstes Waldmanagement\" werden ab Januar 2027 auf 200 Millionen Euro jährlich aufgestockt. Waldbesitzende können ab dem 1. Oktober 2026 wieder Erstanträge stellen.",
-      "source": "Bundesumweltministerium – Naturschutz",
-      "kind": "policy"
+      "id": "626823e33a6d22d55814",
+      "title": "USA wollen Artenschutz lockern - STERN.de",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1GMWxfTmVTcTFpbUN0LTZZMlBFeGtXQU5hdnQwT3ZVVF9DRmhWWHhzLUdwQVFKaTAzMzdvcmhrMHFGLTNXZVpCRGNIbmQxd1Ztenh4dV9tMl8wTEtiWXF2dVFySXBNZ29XajM5Y3ZrWHdMNTJkR2dGS1VB?oc=5",
+      "date": "2026-09-17T07:00:00Z",
+      "summary": "USA wollen Artenschutz lockern STERN.de",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "35ba0bd48158deabff67",
+      "title": "Teneriffa wird zum weltweiten Zentrum für Papageienforschung und Artenschutz - Loro Parque",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMEhBbzJ5R0Ixb3k3RUQ1ZW1TUUp0OE5peEJsdW9meWlkWmhNcWhDUXlLcHRMZW96dTg0NTVudjVRazFIbHVzTHVHT0VVSUF2V0xuTFo3RWRpbTN0YlFrQjI1NE0yaDhxYVltb0NTWTBBSmxqWlhVOVktRTBCNTBlUkh2b05oSTg?oc=5",
+      "date": "2026-09-16T18:32:10Z",
+      "summary": "Teneriffa wird zum weltweiten Zentrum für Papageienforschung und Artenschutz Loro Parque",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
+      "kind": "media"
     },
     {
       "id": "b7f23ee48e1927c56781",
@@ -774,6 +972,51 @@
       "date": "2026-09-15T07:00:00Z",
       "summary": "IFAW expands support as wildlife rescue centers remain under pressure in France International Fund for Animal Welfare | IFAW",
       "source": "IFAW – Berichterstattung (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "8149c605ea467a13a643",
+      "title": "Lernen und Schlemmen in außergewöhnlichem Ambiente: „Artenschutz für die Zukunft“ - Tiergarten Nürnberg",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPU0hfZlJxcW5CcU56TWFjZnRJR0FfWmxyS0FPMmJfNjdlWFJneURlckNZOUJWQU9vMG9BLW53Z3dfWkJ0cjN6OHV5LXJ4RUdTTGJBSXR2VDB6UndtNnhIb2pRYWdGX3FDSDgwbUlLbVh5a3FBRWxYRVhEanBOQXBTbXBrR3lOc3B4NmtsZVlpMXFYekY5a0V0LUZFZmpiaEYtdkl0b0NIVjVEZmVlTk5pRnMwUm4yVnowYTFDNmZCc0U0MWRreV9ING9PLUhQMFJGNnYzRFV2VndfU28?oc=5",
+      "date": "2026-09-14T10:20:14Z",
+      "summary": "Lernen und Schlemmen in außergewöhnlichem Ambiente: „Artenschutz für die Zukunft“ Tiergarten Nürnberg",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "b30977831ed00f4464d7",
+      "title": "Hoffnungsschimmer für den Artenschutz: Island erwägt Verbot kommerziellen Walfangs - taz.de",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBQelRaTkVHekZyRk1DZ3NpYjdBbVJGbUEyNk9NaTRsRHM1YVdzdjk4c3RQcVZ4V1dvRlluZjVKcTdPVXJmc1RMMTVDOFJJM2lfUDk4SHFWQk5KZWNrRVpmbmdlUi0tT19sUGw4Z3JDQkY?oc=5",
+      "date": "2026-09-13T07:00:00Z",
+      "summary": "Hoffnungsschimmer für den Artenschutz: Island erwägt Verbot kommerziellen Walfangs taz.de",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "84f92e67358b97159a32",
+      "title": "Ministerpräsident Rhein lobt Opel-Zoo als Partner für Artenschutz, Forschung und Bildung - HESSEN Landesregierung",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVjhnck1nQXVET0kyaTBCQ0hrTFFvZjNxSE95TmxLVTU3R1YxSFZpSEJtMHotLTdqdHBvM2pGd3AzWjRvV2tQb2V4LVJFdFNBUUJCVWlReTRFSXBHQkRQWnA5czdfUDRxOXZ4MUczOV9aNHFsZ1pjMlFwUEFaRkVuaDBkTnZNb1Npa3NjMGxqR2hyN3ZXOXlTcEZBM0VUVUcxNUk1VTVXSVpNVVdkYy03RXFQcw?oc=5",
+      "date": "2026-09-10T14:10:30Z",
+      "summary": "Ministerpräsident Rhein lobt Opel-Zoo als Partner für Artenschutz, Forschung und Bildung HESSEN Landesregierung",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "ad3657f202f9d282eb3c",
+      "title": "Artenschutz: Artensterben in Sachsen: Rebhuhn und Kiebitz stark bedroht - DIE ZEIT",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQzZwOGFQcU1mRFZjSXZvMzlDZThIeVFyQ1RxdjZMQmFGZzdtY05LLTNVdzc5MXQ4SVZXYXB4TGVYOGttVzFpanU2UEFnOGUxVmtMSmpxdWhvd0ZzVGptdkpLMnNPOVR3U2h1Z1Y3VWVoWmh0d092c2F5MmMtdVNza2FXZHE2eTZoamY5YWRjdmg0QmdkbUhCLQ?oc=5",
+      "date": "2026-09-10T07:00:00Z",
+      "summary": "Artenschutz: Artensterben in Sachsen: Rebhuhn und Kiebitz stark bedroht DIE ZEIT",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "ae34a07b8caa93422443",
+      "title": "Meeresschutz: Meeresschutzgebiete ermöglichen weniger Vorteile für den Artenschutz als gedacht - energiezukunft",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdEVnaExySEVNQ1FOMTFlN1BkRmxFWFZqNTFzcHdfMmdQMThmWTlnVGs0cUJBQ2t4M0ZkZlgtNVJNNXJKLW5odzhFU0RoMVJ2NUtZVGJHS3BIaHgyNHJOenNtNUU0SnBRNnNqY1U4SUtsdjlPTUc2STZEWnE0cVI2b0lJd0MzYU94MjhTajlQVmgtWDZEY2JQRFJmY0tWdS1IUDRFSkZNUkwzMy1IVGJYaDdn?oc=5",
+      "date": "2026-09-10T04:03:59Z",
+      "summary": "Meeresschutz: Meeresschutzgebiete ermöglichen weniger Vorteile für den Artenschutz als gedacht energiezukunft",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
       "kind": "media"
     },
     {
@@ -786,12 +1029,48 @@
       "kind": "media"
     },
     {
+      "id": "4446b92e575b27b622da",
+      "title": "Artenschutz: Warum Luchs «Nero» besonders ist - und welche Mission er hat - DIE ZEIT",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNU25aVndNRHJSXzZMaHphTEVEUWNtNXNBaEYyUGYxSXF3N2VvT3JtVW9pUGJaMGdMZGFWQ3hLTlJqZ3NwOEJiZU1ERHNRVmd6cXYwcFhCMWZ4TWJDZUJVdjRGbklKQllXRHZzZU9RM1hJY3lrdDNkQ0I5c1RPYWtTNUNNdlhBTHJyVDBvTnlITjV5dTdteEFB?oc=5",
+      "date": "2026-09-09T07:00:00Z",
+      "summary": "Artenschutz: Warum Luchs «Nero» besonders ist - und welche Mission er hat DIE ZEIT",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "1e8dd5bae9c45a618195",
+      "title": "Artenschutz: Erst ausgewildert, dann ausgeflogen – darum sind Wisente plötzlich unerwünscht - WELT",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxObmFENFdUVlFrampwV2RZeTIxUTd2b2xJRm5GcmtocERad3FBazJiZVdWREttbEk5RE1wTFY5eGhtSXlsWFpjcHhFNjR3VUg4b0dRbWlpZm4tazRsbjlJMFBkUEJ3MDE1eVY3WkxnZEtLTzY1Nmg1dXpoVTR4N1lfU184T1VYUXhVdGFHTTk3LXpaOWZIcy1ueGZ4X0tXTVNTSk03ZTNNTFlQVURqdTYyUkRWZVVicHJTT2RKU003OVF5c3VockQ3UFlGT0hkY0lmdmhGRlVXY21tZXRPQlJTNFdKektFTW8?oc=5",
+      "date": "2026-09-09T07:00:00Z",
+      "summary": "Artenschutz: Erst ausgewildert, dann ausgeflogen – darum sind Wisente plötzlich unerwünscht WELT",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
+      "kind": "media"
+    },
+    {
       "id": "055e0d928d6c875ccb9b",
       "title": "How cleaning up the air is speeding up global warming - and revealing a bigger problem",
       "url": "https://www.bbc.co.uk/news/articles/c20917w25n4o?at_medium=RSS&at_campaign=rss",
       "date": "2026-09-08T23:11:52Z",
       "summary": "A curious online row over this summer's heatwaves points to a wider - and worrying - shift in climate science.",
       "source": "BBC – Wissenschaft & Umwelt",
+      "kind": "media"
+    },
+    {
+      "id": "baffbeac7445b049cd62",
+      "title": "Artenschutzkonferenz 2026 - Umwelt NRW",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9Wam1xUHFfekJMaXNUWk1haVMwV1J6R2s1RTVsMFdZUkVmVHRIRTl5ZkdXbHk5a1ZpNnBQT2hQVUpINnQxZGZZSkJ6d2lwNnpxSWQ4QlczeGVUSzU1bXdENQ?oc=5",
+      "date": "2026-09-03T07:00:00Z",
+      "summary": "Artenschutzkonferenz 2026 Umwelt NRW",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "0b47cec88e856150e5c8",
+      "title": "Artenschutz in NRW | WDR aktuell - WDR",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTklvcTF4TEU4VmRRT19YSUN1RnZpN0FxcTl5WGVTTWdRaWROSmEwTVgxVVg4Z3l0czdFdnh6eDFoaVp0UmNpV0t0WVJONnVPOW1rdkNPallmRy1ObHhQWk1wekg2M01jeTNzU1pIVDRhNUVJbmxqaTI5YlhTYnBmaUNRa3BnVWfSAYYBQVVfeXFMT2o3U2JQMWhlQjByeGR0V08zOUkyRWlWaFhXNG9OSTM1b1RDZmtDdkNIWWtNejdWcnVCZ0xnQ3lIdkRDXzhVeHVfMEVfN3FOZ1ZMQUV4cW90RWtwVURubGlLeGpjUVc2Nms0aEFIcEJtWkxrNnp4aWVoMDJTNWQ3ckVLUGtGUmc?oc=5",
+      "date": "2026-09-03T07:00:00Z",
+      "summary": "Artenschutz in NRW | WDR aktuell WDR",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
       "kind": "media"
     },
     {
@@ -817,7 +1096,7 @@
     {
       "name": "Bundesumweltministerium – Naturschutz",
       "kind": "policy",
-      "count": 7,
+      "count": 4,
       "ok": true
     },
     {
@@ -829,7 +1108,7 @@
     {
       "name": "EU-Rat – Pressemitteilungen",
       "kind": "policy",
-      "count": 3,
+      "count": 2,
       "ok": true
     },
     {
@@ -847,7 +1126,7 @@
     {
       "name": "The Guardian – Environment",
       "kind": "media",
-      "count": 22,
+      "count": 20,
       "ok": true
     },
     {
@@ -877,7 +1156,7 @@
     {
       "name": "Deutschland – Wildtiere (News-Aggregation)",
       "kind": "media",
-      "count": 8,
+      "count": 45,
       "ok": true
     },
     {
@@ -895,8 +1174,8 @@
     {
       "name": "Crossref: marine mammal conservation",
       "kind": "study",
-      "count": 12,
-      "ok": true
+      "count": 0,
+      "ok": false
     },
     {
       "name": "Crossref: elephant conservation",
@@ -907,8 +1186,8 @@
     {
       "name": "Crossref: wildlife rescue",
       "kind": "study",
-      "count": 0,
-      "ok": false
+      "count": 5,
+      "ok": true
     },
     {
       "name": "Crossref: illegal wildlife trade",
@@ -919,11 +1198,11 @@
   ],
   "failures": [
     {
-      "source": "Crossref: elephant conservation",
+      "source": "Crossref: marine mammal conservation",
       "error": "HTTP Error 429: Too Many Requests"
     },
     {
-      "source": "Crossref: wildlife rescue",
+      "source": "Crossref: elephant conservation",
       "error": "HTTP Error 429: Too Many Requests"
     },
     {

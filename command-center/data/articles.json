@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-23T15:06:43.562207Z",
+  "generated_at": "2026-11-23T15:12:01.222232Z",
   "articles": [
     {
       "id": "36c70ce5114dac6e9fd9",
@@ -9,7 +9,11 @@
       "date": "2026-11-23T14:48:00Z",
       "summary": "Karlsruhe Multiple: Hundert Papageienfiguren für den Artenschutz Baden TV",
       "source": "Deutschland – Wildtiere (News-Aggregation)",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Karlsruhe Multiple: Hundert Papageienfiguren für den Artenschutz - Baden TV",
+      "summary_de": "Karlsruhe Multiple: Hundert Papageienfiguren für den Artenschutz Baden TV",
+      "translation_status": "original",
+      "translated_at": "2026-11-23T15:14:07.419520+00:00"
     },
     {
       "id": "586975a04b9fad49248c",
@@ -18,7 +22,11 @@
       "date": "2026-11-23T13:58:01Z",
       "summary": "Nationwide change in lunch habits could cut more climate pollution than grounding every domestic flight Get our breaking news email, free app or daily news podcast Australians could collectively cut climate pollution by more than 15m tonnes – more…",
       "source": "The Guardian – Environment",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Pflanzenbasierte Mittagessen könnten die Emissionen Australiens um 15 Millionen Tonnen senken, neue Forschungsergebnisse zeigen",
+      "summary_de": "Eine landesweite Änderung der Mittagsgewohnheiten könnte mehr Klimaverschmutzung reduzieren als jeden Inlandsflug zu ersticken Holen Sie sich unsere E-Mail, kostenlose App oder täglichen Nachrichten-Podcast Australier könnten gemeinsam die Klimaverschmutzung um mehr als 15 Millionen Tonnen reduzieren.",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:10.468202+00:00"
     },
     {
       "id": "dccd17430494fe38e5d4",
@@ -27,7 +35,11 @@
       "date": "2026-11-23T13:03:42Z",
       "summary": "Louise Haigh says the two environmental regulators are being reviewed as part of shake-up of arm’s length bodies Ministers are considering abolishing two of England’s biggest environmental regulators in an attempt to give politicians greater control…",
       "source": "The Guardian – Environment",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Environment Agency und Natural England Gesicht Axt in Labour Quango Keulung",
+      "summary_de": "Louise Haigh sagt, dass die beiden Umweltregulierungsbehörden im Rahmen der Umgestaltung der Körper von Armlängen überprüft werden, erwägen die Minister, zwei der größten Umweltregulierungsbehörden Englands abzuschaffen, um den Politikern mehr Kontrolle zu geben.",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:11.163079+00:00"
     },
     {
       "id": "d6c2869a44a8f629b09a",
@@ -36,7 +48,11 @@
       "date": "2026-11-23T12:50:10Z",
       "summary": "In November 2025, Indigenous and Afro-descendent peoples, frontline defenders and civil society movements mobilized in unprecedented numbers in Belém, Brazil, to advocate for their demands at the 30th U.N. Climate Change Conference (COP30). One of…",
       "source": "Mongabay – Conservation News",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "\"Wir mussten das System komplett neu erfinden\", sagt der brasilianische Philanthropie-Chef",
+      "summary_de": "Im November 2025 mobilisierten indigene und afro-absteigende Völker, Frontverteidiger und zivilgesellschaftliche Bewegungen in beispielloser Zahl in Belém, Brasilien, um sich auf der 30. UN-Klimakonferenz (COP30) für ihre Forderungen einzusetzen. Einer von...",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:11.982600+00:00"
     },
     {
       "id": "0fcbbcfe9a104054a981",
@@ -45,7 +61,11 @@
       "date": "2026-11-23T12:21:23Z",
       "summary": "Former US vice-president Al Gore among climate leaders demanding change to consensus rule after Antalya summit The failure at Cop31 to reach a keystone agreement has exposed the need to reform how the UN’s climate summits make decisions, say…",
       "source": "The Guardian – Environment",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Scheitern von Cop31 fordert dringende Reform der UN-Klimagipfel",
+      "summary_de": "Ehemaliger US-Vizepräsident Al Gore unter den Klimaführern fordert Änderung der Konsensregel nach dem Antalya-Gipfel Das Versagen bei Cop31, ein Eckpfeilerabkommen zu erreichen, hat die Notwendigkeit offenbart, die Art und Weise zu reformieren, wie die Klimagipfel der Vereinten Nationen Entscheidungen treffen, sagen wir...",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:12.796887+00:00"
     },
     {
       "id": "b07b6aea5251ab1df2ef",
@@ -54,7 +74,11 @@
       "date": "2026-11-23T12:02:44Z",
       "summary": "Rapidly warming sea temperatures and marine heat waves could eliminate South Korea’s domestic catch of the Pacific flying squid by the 2040s, according to a recent study, reports contributor Kelly Kasulis Cho for Mongabay. The Pacific flying squid…",
       "source": "Mongabay – Conservation News",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Erwärmende Meere bedrohen Südkoreas ikonische Tintenfischfischerei mit Zusammenbruch bis 2040",
+      "summary_de": "Eine rasche Erwärmung der Meerestemperaturen und marinen Hitzewellen könnte Südkoreas Inlandsfang des Pazifik-Flugkalmars in den 2040er Jahren eliminieren, so eine aktuelle Studie, berichtet Kelly Kasulis Cho für Mongabay. Der Pazifikflieger Tintenfisch...",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:13.604263+00:00"
     },
     {
       "id": "13cb6011f103cd869671",
@@ -63,7 +87,11 @@
       "date": "2026-11-23T11:00:54Z",
       "summary": "The golden mantella is said to be found wherever gold is, making its habitat a target for illegal mining, which is destroying fragile ecosystems across the country As Albert Rakotoarisoa emerges from the forest into a clearing in Mangabe reserve in…",
       "source": "The Guardian – Environment",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Wie ein winziger seltener Frosch zum ökologischen Warnzeichen für Madagaskar wurde",
+      "summary_de": "Die goldene Mantella soll überall dort gefunden werden, wo sich Gold befindet, was ihren Lebensraum zu einem Ziel für den illegalen Bergbau macht, der fragile Ökosysteme im ganzen Land zerstört, während Albert Rakotoarisoa aus dem Wald in ein Lichtungsgebiet im Mangabe-Reservat im Land aufsteigt.",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:14.407999+00:00"
     },
     {
       "id": "b76deecd933e661455b8",
@@ -72,7 +100,11 @@
       "date": "2026-11-23T10:24:10Z",
       "summary": "Customs seizes pangolins, warns against illegal wildlife trade in Ogun Peoples Gazette Nigeria",
       "source": "Wildtierhandel – Medien (News-Aggregation)",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Zoll beschlagnahmt Pangolins, warnt vor illegalem Wildtierhandel in Ogun - Peoples Gazette Nigeria",
+      "summary_de": "Zoll beschlagnahmt pangolins, warnt vor illegalem Handel mit Wildtieren in Ogun Peoples Gazette Nigeria",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:14.900285+00:00"
     },
     {
       "id": "f65281e362da05d857c1",
@@ -81,7 +113,11 @@
       "date": "2026-11-23T08:39:02Z",
       "summary": "Audi-Azubis packen für den Artenschutz an: So helfen sie seltenen Schmetterlingen Augsburger Allgemeine",
       "source": "Deutschland – Wildtiere (News-Aggregation)",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Audi-Azubis packen für den Artenschutz an: So helfen sie seltenen Schmetterlingen - Augsburger Allgemeine",
+      "summary_de": "Audi-Azubis packen für den Artenschutz an: So helfen sie seltenen Schmetterlingen Augsburger Allgemeine",
+      "translation_status": "original",
+      "translated_at": "2026-11-23T15:14:14.900310+00:00"
     },
     {
       "id": "27a7aa409592f152d89d",
@@ -90,7 +126,11 @@
       "date": "2026-11-23T07:27:00Z",
       "summary": "Klimaschutz-Offensive in der Verbandsgemeinde Unkel fördert Kühlung und Artenschutz Blick aktuell",
       "source": "Deutschland – Wildtiere (News-Aggregation)",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Klimaschutz-Offensive in der Verbandsgemeinde Unkel fördert Kühlung und Artenschutz - Blick aktuell",
+      "summary_de": "Klimaschutz-Offensive in der Verbandsgemeinde Unkel fördert Kühlung und Artenschutz Blick aktuell",
+      "translation_status": "original",
+      "translated_at": "2026-11-23T15:14:14.900315+00:00"
     },
     {
       "id": "cfc60dc74cc92b63e4d2",
@@ -99,7 +139,11 @@
       "date": "2026-11-23T06:33:50Z",
       "summary": "The COP31 summit in Antalya was the longest-running climate talks in UN history.",
       "source": "BBC – Wissenschaft & Umwelt",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Fünf Erkenntnisse aus den gescheiterten Klimagesprächen COP31",
+      "summary_de": "Der COP31-Gipfel in Antalya war der am längsten laufende Klimagipfel in der Geschichte der Vereinten Nationen.",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:15.266571+00:00"
     },
     {
       "id": "0caa40a32bf53693fffd",
@@ -108,7 +152,11 @@
       "date": "2026-11-23T05:27:42Z",
       "summary": "An Indonesian company has sought to register a captive-breeding facility with the Secretariat of CITES, the global wildlife trade treaty, to commercially breed and export rare Asian golden cats as pets, report Mongabay’s Spoorthy Raman and Fernanda…",
       "source": "Mongabay – Conservation News",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Plan, seltene asiatische Goldkatzen für Haustiere zu züchten, wirft Bedenken hinsichtlich der Erhaltung auf",
+      "summary_de": "Ein indonesisches Unternehmen hat versucht, eine Zuchtanlage für Gefangenschaft beim CITES-Sekretariat, dem globalen Wildtierhandelsabkommen, zu registrieren, um seltene asiatische Goldkatzen als Haustiere kommerziell zu züchten und zu exportieren, berichten Spoorthy Raman und Fernanda von Mongabay.",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:16.200855+00:00"
     },
     {
       "id": "857c0a612f255581d7d4",
@@ -117,7 +165,11 @@
       "date": "2026-11-23T05:15:06Z",
       "summary": "The prime minister of Australia, which co-hosted COP31, attributed the failure to \"difficult geopolitical times\".",
       "source": "BBC – Wissenschaft & Umwelt",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Die längsten UN-Klimagespräche aller Zeiten enden ohne Abkommen, da tiefe Spaltungen aufgedeckt werden",
+      "summary_de": "Der Premierminister von Australien, die Co-Gastgeber COP31, schrieb das Scheitern zu \"schwierigen geopolitischen Zeiten\".",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:16.710646+00:00"
     },
     {
       "id": "aa44aba1474c2cb17856",
@@ -126,7 +178,11 @@
       "date": "2026-11-23T04:00:45Z",
       "summary": "Scientific and satellite findings warn of widespread contamination in Gaza, posing grave threats to public health ‘for generations to come’ Israel’s destruction of Gaza has left a devastating environmental legacy with poisoned water, contaminated…",
       "source": "The Guardian – Environment",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Israels Zerstörung von Gaza hat ein \"giftiges Ödland\" geschaffen, finden Experten",
+      "summary_de": "Wissenschaftliche und Satelliten-Ergebnisse warnen vor einer weit verbreiteten Kontamination in Gaza, die schwerwiegende Bedrohungen für die öffentliche Gesundheit \"für kommende Generationen\" darstellt Israels Zerstörung von Gaza hat ein verheerendes Umwelterbe mit vergiftetem Wasser hinterlassen.",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:17.493680+00:00"
     },
     {
       "id": "d4cd0a47d7fda1402c05",
@@ -135,7 +191,11 @@
       "date": "2026-11-22T22:30:48Z",
       "summary": "Co-chairing global climate talks is clearly not something to be repeated, certainly not by Australia, which is exporting climate pain The failure of Cop31 in Antalya was a line in the sand moment, a victory for multilateralism as countries stood up…",
       "source": "The Guardian – Environment",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Die gute Nachricht von Cop31? Dass die meisten Regierungen der Welt Nein zu einem Abkommen gesagt haben, das seiner Bedeutung beraubt ist",
+      "summary_de": "Der Co-Vorsitzende der globalen Klimagespräche ist eindeutig nicht etwas, das wiederholt werden muss, schon gar nicht von Australien, das Klimaschmerzen exportiert. Das Scheitern von Cop31 in Antalya war eine Linie im Sand, ein Sieg für den Multilateralismus, als die Länder aufstanden ...",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:18.377077+00:00"
     },
     {
       "id": "4e9428841cdf4660c9b7",
@@ -144,7 +204,11 @@
       "date": "2026-11-22T18:28:48Z",
       "summary": "The COP31 climate summit in Turkey has formally come to an end after countries failed to agree a deal.",
       "source": "BBC – Wissenschaft & Umwelt",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Was kommt als nächstes nach keinem Abkommen auf dem COP31-Klimagipfel?",
+      "summary_de": "Der COP31-Klimagipfel in der Türkei ist offiziell zu Ende gegangen, nachdem die Länder keine Einigung erzielt hatten.",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:18.795599+00:00"
     },
     {
       "id": "c59118f905b144f53051",
@@ -153,7 +217,11 @@
       "date": "2026-11-22T16:45:37Z",
       "summary": "Countries failed to reach consensus on a key deal that did not mention fossil fuels Full report: Cop31 climate talks set to end in deep division as key deal rejected Mohamed Adow, director of Power Shift Africa, has been looking through the text and…",
       "source": "The Guardian – Environment",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Cop31 wie es passiert ist: EU und andere lehnen Abkommen ab, da der längste Klimagipfel zu einem zerrütteten Ende kommt",
+      "summary_de": "Vollständiger Bericht: Cop31-Klimagespräche, die in tiefer Spaltung enden sollen, als wichtige Vereinbarung abgelehnt wurde Mohamed Adow, Direktor von Power Shift Africa, hat den Text durchgesehen und...",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:19.493918+00:00"
     },
     {
       "id": "dcd13da0415078ae70a8",
@@ -162,7 +230,11 @@
       "date": "2026-11-22T16:08:20Z",
       "summary": "The Cop31 climate talks fell into disarray as the EU, UK and allies in the developing world rejected what they called an unacceptable deal on the future of the climate. Ireland's climate minister, Darragh O'Brien, said the EU could not support the…",
       "source": "The Guardian – Environment",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "EU-Beamte lehnen Cop31-Deal ab, da es \"nicht zur Realität der Klimakrise spricht\" - Video",
+      "summary_de": "Die Cop31-Klimagespräche gerieten in Unordnung, als die EU, Großbritannien und die Verbündeten in den Entwicklungsländern das ablehnten, was sie ein inakzeptables Abkommen über die Zukunft des Klimas nannten. Irlands Klimaministerin Darragh O'Brien sagte, die EU könne die...",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:20.400669+00:00"
     },
     {
       "id": "be4216e13a2d75b8ffea",
@@ -171,7 +243,11 @@
       "date": "2026-11-22T13:36:01Z",
       "summary": "UN patron Lewis Pugh saw ships ablaze and fighter jets overhead during three-day swim as Iran conflict continues A British endurance swimmer has completed a three-day swim through the strait of Hormuz to highlight the environmental cost of the Iran…",
       "source": "The Guardian – Environment",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Brite schwimmt die Länge der Straße von Hormuz, um die Umweltkosten des Krieges hervorzuheben",
+      "summary_de": "UN-Patron Lewis Pugh sah Schiffe in Flammen und Kampfjets während des dreitägigen Schwimmens, während der Iran-Konflikt weitergeht Ein britischer Ausdauerschwimmer hat ein dreitägiges Schwimmen durch die Straße von Hormuz absolviert, um die Umweltkosten des Iran hervorzuheben.",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:21.243207+00:00"
     },
     {
       "id": "83d9ad3014ecc740a48d",
@@ -180,7 +256,11 @@
       "date": "2026-11-22T06:54:06Z",
       "summary": "The UN COP31 meeting in Turkey enters a second day of overtime as countries struggle to reach an agreement.",
       "source": "BBC – Wissenschaft & Umwelt",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Neuer Entwurf des Abkommens zielt darauf ab, ein Scheitern der Gespräche auf dem COP31-Klimagipfel zu verhindern",
+      "summary_de": "Das UN COP31-Treffen in der Türkei beginnt einen zweiten Tag der Überstunden, da die Länder um eine Einigung kämpfen.",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:21.756936+00:00"
     },
     {
       "id": "d5121bc9f384ac2221a9",
@@ -189,7 +269,11 @@
       "date": "2026-11-22T05:05:00Z",
       "summary": "Artenschutz in der Region: Diese Hilfe brauchen gefährdete Vögel dringender als Körner Schwarzwälder Bote",
       "source": "Deutschland – Wildtiere (News-Aggregation)",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Artenschutz in der Region: Diese Hilfe brauchen gefährdete Vögel dringender als Körner - Schwarzwälder Bote",
+      "summary_de": "Artenschutz in der Region: Diese Hilfe brauchen gefährdete Vögel dringender als Körner Schwarzwälder Bote",
+      "translation_status": "original",
+      "translated_at": "2026-11-23T15:14:21.756963+00:00"
     },
     {
       "id": "e03861efe077f26836c8",
@@ -198,7 +282,11 @@
       "date": "2026-11-21T22:44:52Z",
       "summary": "BBC Climate editor Justin Rowlatt reports from the COP 31 UN climate summit in Antalya, Turkey.",
       "source": "BBC – Wissenschaft & Umwelt",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Wird COP31 mit einem neuen globalen Klimaabkommen enden?",
+      "summary_de": "BBC-Klimaredakteur Justin Rowlatt berichtet vom COP 31 UN-Klimagipfel in Antalya, Türkei.",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:22.172923+00:00"
     },
     {
       "id": "0f075ba79a2fc8f37bb7",
@@ -207,7 +295,11 @@
       "date": "2026-11-21T22:19:43Z",
       "summary": "Countries from nearly 200 countries are in a deadlock to try and get a new global climate agreement.",
       "source": "BBC – Wissenschaft & Umwelt",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Kampf um fossile Brennstoffe lässt COP31-Klimagespräche in eine Sackgasse geraten",
+      "summary_de": "Länder aus fast 200 Ländern sind in einer Sackgasse, um zu versuchen, ein neues globales Klimaabkommen zu bekommen.",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:22.619630+00:00"
     },
     {
       "id": "9c3bf8e87c521fcaa201",
@@ -216,7 +308,11 @@
       "date": "2026-11-21T16:12:31Z",
       "summary": "Ocean campaigner Lewis Pugh completes Hormuz challenge and warns of lasting environmental damage.",
       "source": "BBC – Wissenschaft & Umwelt",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Hormuz Schwimmen unterstreicht die Umweltkosten des Krieges",
+      "summary_de": "Ocean-Aktivist Lewis Pugh schließt die Hormuz-Herausforderung ab und warnt vor nachhaltigen Umweltschäden.",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:22.995497+00:00"
     },
     {
       "id": "b33808a31864ea9520d8",
@@ -225,7 +321,11 @@
       "date": "2026-11-21T12:18:55Z",
       "summary": "Conservationists say that, with red squirrels dwindling in the UK, Jersey is an \"important refuge\".",
       "source": "BBC – Wissenschaft & Umwelt",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Wie rote Eichhörnchen die Insel zu ihrem Zuhause machten",
+      "summary_de": "Naturschützer sagen, dass Jersey mit roten Eichhörnchen, die in Großbritannien schwinden, ein \"wichtiges Refugium\" ist.",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:23.430213+00:00"
     },
     {
       "id": "25b8187d8a6c4ed49df3",
@@ -234,7 +334,11 @@
       "date": "2026-11-21T11:00:57Z",
       "summary": "A heatwave in the Bering Sea that killed 10bn snow crabs has led to a new hybrid emerging that has no fishing quotas Somewhere out on the Bering Sea, hundreds of miles off the coast of Alaska, a group of researchers onboard the trawler Alaska Knight…",
       "source": "The Guardian – Environment",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "\"Legal existieren sie nicht\": Die Hybridkrabben rätseln Biologen und Fischer",
+      "summary_de": "Eine Hitzewelle im Beringmeer, die 10 Milliarden Schneekrebse tötete, hat zu einem neuen Hybrid geführt, der keine Fangquoten hat Irgendwo auf dem Beringmeer, Hunderte von Meilen vor der Küste von Alaska, eine Gruppe von Forschern an Bord des Trawlers Alaska Knight.",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:24.268089+00:00"
     },
     {
       "id": "eef0dfa244a7462bda08",
@@ -243,7 +347,11 @@
       "date": "2026-11-21T09:10:37Z",
       "summary": "LUNDY ISLAND — United Kingdom. Out in the Bristol Channel, nestled between Wales and England, the rugged island of Lundy is one of the UK’s most pioneering conservation stories. From the return of thousands of seabirds to thriving marine life…",
       "source": "Mongabay – Conservation News",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Die britische Insel, die einen Deal mit der Natur gemacht hat",
+      "summary_de": "LUNDY ISLAND — Vereinigtes Königreich. Draußen im Bristol Channel, eingebettet zwischen Wales und England, ist die zerklüftete Insel Lundy eine der wegweisendsten Naturschutzgeschichten Großbritanniens. Von der Rückkehr von Tausenden von Seevögeln zum florierenden Meeresleben ...",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:24.940918+00:00"
     },
     {
       "id": "e2afe720fd225339567f",
@@ -252,7 +360,11 @@
       "date": "2026-11-20T22:57:26Z",
       "summary": "Hundreds of young birds were also rescued from the fire, which comes as foie gras is under renewed scrutiny over animal welfare concerns.",
       "source": "BBC – Wissenschaft & Umwelt",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Vögel in Flammen auf einer der größten Foie Gras Farmen in den USA getötet",
+      "summary_de": "Hunderte von Jungvögeln wurden auch aus dem Feuer gerettet, das kommt, da Foie Gras unter neuer Kontrolle über Tierschutz Bedenken ist.",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:25.394294+00:00"
     },
     {
       "id": "68cd764eddf744cbf907",
@@ -261,7 +373,11 @@
       "date": "2026-11-20T19:59:10Z",
       "summary": "For many people a trip to the zoo is an opportunity to see favorite animals like gorillas, giraffes and lions. But in Alburquerque, New Mexico, U.S., visitors can add spiders, scorpions and ants to their must-see list at the ABQ BioPark BUGarium.…",
       "source": "Mongabay – Conservation News",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Renovierte BUGarium in den USA zielt darauf ab, Menschen und Insekten zu verbinden",
+      "summary_de": "Für viele Menschen ist ein Ausflug in den Zoo eine Gelegenheit, Lieblingstiere wie Gorillas, Giraffen und Löwen zu sehen. Aber in Alburquerque, New Mexico, USA, können Besucher Spinnen, Skorpione und Ameisen zu ihrer Must-See-Liste im ABQ BioPark BUGarium hinzufügen.",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:26.235047+00:00"
     },
     {
       "id": "ea6eebaea84175ebd976",
@@ -270,7 +386,11 @@
       "date": "2026-11-20T18:26:08Z",
       "summary": "Environmental groups are aghast, but supporters say bill might be only chance to speed up clean energy projects The US Senate has passed a bill to fast-track energy and datacenter projects by removing environmental and legal guardrails. The…",
       "source": "The Guardian – Environment",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Was Sie über das US-Genehmigungsgesetz wissen sollten, von Rechenzentren bis zu Trumps Bogen",
+      "summary_de": "Umweltgruppen sind entsetzt, aber Unterstützer sagen, dass das Gesetz nur eine Chance sein könnte, saubere Energieprojekte zu beschleunigen Der US-Senat hat ein Gesetz verabschiedet, um Energie- und Rechenzentrumsprojekte zu beschleunigen, indem er ökologische und rechtliche Leitplanken entfernt. Die...",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:27.054314+00:00"
     },
     {
       "id": "5ff66ea091226c9cb8a6",
@@ -279,7 +399,11 @@
       "date": "2026-11-20T17:48:02Z",
       "summary": "COP17 ended in Armenia amid disappointment over the lack of concrete measures to reduce biodiversity loss by 2030. Finance was a sore point. Philanthropy is only a small part of that picture, but foundations can take risks that public agencies often…",
       "source": "Mongabay – Conservation News",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Wo Familienstiftungen zum Meeresschutz beitragen können",
+      "summary_de": "Die COP17 endete in Armenien inmitten der Enttäuschung über das Fehlen konkreter Maßnahmen zur Verringerung des Biodiversitätsverlusts bis 2030. Finanzen waren ein wunden Punkt. Philanthropie ist nur ein kleiner Teil dieses Bildes, aber Stiftungen können Risiken eingehen, die öffentliche Stellen oft eingehen.",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:27.823564+00:00"
     },
     {
       "id": "361ca564df7ac7342443",
@@ -288,7 +412,11 @@
       "date": "2026-11-20T17:30:56Z",
       "summary": "There is no body. No genetic evidence — yet. There are just photos, but some scientists say those photos show a distinct enough primate to declare it a new species: the short-tailed langur, or Trachypithecus brevicaudus. The proposed species was…",
       "source": "Mongabay – Conservation News",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Könnte ein kurzer Schwanz eine neue Affenart in Laos bedeuten? Einige Wissenschaftler denken, dass",
+      "summary_de": "Es gibt keinen Körper. Keine genetischen Beweise - noch nicht. Es gibt nur Fotos, aber einige Wissenschaftler sagen, dass diese Fotos einen ausgeprägten Primaten zeigen, der genug ist, um ihn zu einer neuen Spezies zu erklären: den Short-tailed Langur oder Trachypithecus brevicaudus. Die vorgeschlagene Art war...",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:28.631901+00:00"
     },
     {
       "id": "9c887c39b3bb5d9ea3c7",
@@ -297,7 +425,11 @@
       "date": "2026-11-20T17:07:44Z",
       "summary": "ANTALYA, Turkey (AP) — Negotiators are still seeking concrete commitments for nations to transition away from fossil fuels, as this year’s U.N. climate summit reaches its final day. Friday marks the official end of this year’s two-week summit, known…",
       "source": "Mongabay – Conservation News",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "UN-Klimagespräche, die von Aktivisten und Führern zugeschlagen werden, da fossile Brennstoffe im Entwurf des Abkommens nicht erwähnt werden",
+      "summary_de": "ANTALYA, Türkei (AP) – Die Verhandlungsführer suchen immer noch nach konkreten Verpflichtungen für die Nationen, um den Übergang von fossilen Brennstoffen zu beenden, da der diesjährige UN-Klimagipfel seinen letzten Tag erreicht. Freitag markiert das offizielle Ende des diesjährigen zweiwöchigen Gipfels, bekannt...",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:29.561874+00:00"
     },
     {
       "id": "c5dbf4528ca614e14967",
@@ -306,7 +438,11 @@
       "date": "2026-11-20T15:18:42Z",
       "summary": "It’s a little-known, nascent sustainable technology on the verge of commercialization: Floating wind turbines deployed across deep ocean waters could unlock vast amounts of renewable energy in the coming decades. For some countries (including China,…",
       "source": "Mongabay – Conservation News",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Schwimmender Wind baut \"eine Menge Dynamik\" in Richtung Kommerzialisierung auf",
+      "summary_de": "Es ist eine wenig bekannte, im Entstehen begriffene nachhaltige Technologie am Rande der Kommerzialisierung: Schwimmende Windkraftanlagen, die in tiefen Ozeangewässern eingesetzt werden, könnten in den kommenden Jahrzehnten große Mengen an erneuerbarer Energie freisetzen. Für einige Länder (einschließlich China,...)",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:30.357910+00:00"
     },
     {
       "id": "7e5fe61c0a2e2ffa7edb",
@@ -315,7 +451,11 @@
       "date": "2026-11-20T15:09:09Z",
       "summary": "Bipartisan legislation now goes to the House amid concerns by some Democrats and environmental groups The Senate approved bipartisan legislation on Thursday aimed at speeding up permitting reviews to build power plants, transmission lines and other…",
       "source": "The Guardian – Environment",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "US-Senat genehmigt Gesetz zur Beschleunigung der Genehmigung von Überprüfungen für Energieprojekte und Rechenzentren",
+      "summary_de": "Bipartisan Gesetzgebung geht jetzt an das Haus unter Bedenken von einigen Demokraten und Umweltgruppen Der Senat genehmigte am Donnerstag eine parteiübergreifende Gesetzgebung, die darauf abzielt, die Überprüfungen für den Bau von Kraftwerken, Übertragungsleitungen und anderen Kraftwerken zu beschleunigen.",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:31.111419+00:00"
     },
     {
       "id": "f21bb3e058a31feca787",
@@ -324,7 +464,11 @@
       "date": "2026-11-20T14:30:00Z",
       "summary": "Main agenda items, approximate timing, public sessions and press opportunities.",
       "source": "EU-Rat – Pressemitteilungen",
-      "kind": "policy"
+      "kind": "policy",
+      "title_de": "Medienberatung - Rat Landwirtschaft und Fischerei vom 23. November 2026",
+      "summary_de": "Hauptpunkte der Tagesordnung, ungefährer Zeitplan, öffentliche Sitzungen und Gelegenheiten für die Presse.",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:31.418115+00:00"
     },
     {
       "id": "f10acf8616337e68ccee",
@@ -333,7 +477,11 @@
       "date": "2026-11-20T14:00:31Z",
       "summary": "Despite the president’s attacks, Sea Services is training New England fishers in offshore wind construction and providing them with a second income stream On a rainy September morning, the Pamela Ann, a rusty, 86ft (26-metre) scallop boat, docked in…",
       "source": "The Guardian – Environment",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Diese US-Fischer sehen Offshore-Wind als \"Gottesgeschenk\". Trump will es schließen",
+      "summary_de": "Trotz der Angriffe des Präsidenten bildet Sea Services New England-Fischer im Offshore-Windbau aus und versorgt sie mit einem zweiten Einkommensstrom An einem regnerischen Septembermorgen ist die Pamela Ann, ein rostiges, 26 Meter langes Jakobsmuschelboot, an...",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:32.244709+00:00"
     },
     {
       "id": "da3d31f8cf5c5bfa4223",
@@ -342,7 +490,11 @@
       "date": "2026-11-20T12:30:07Z",
       "summary": "JAKARTA — Indonesian lawmakers and environmental groups are urging the government to revoke a mining map covering part of the waters around Ujung Kulon National Park, home to the world’s last surviving Javan rhinos. The calls were in response to a…",
       "source": "Mongabay – Conservation News",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Letzter Javan Rhino Habitat zwischen Bergbauplänen und Umsiedlung Debatte gefangen",
+      "summary_de": "Indonesische Gesetzgeber und Umweltgruppen fordern die Regierung auf, eine Bergbaukarte zu widerrufen, die einen Teil der Gewässer um den Ujung Kulon National Park bedeckt, in dem die letzten Javan Nashörner der Welt leben. Die Anrufe waren eine Reaktion auf eine...",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:33.023837+00:00"
     },
     {
       "id": "f746d0294f562e6a8629",
@@ -351,7 +503,11 @@
       "date": "2026-11-20T12:00:38Z",
       "summary": "The war between the US, Israel and Iran has turned the strait of Hormuz, one of the world’s busiest oil shipping routes, into a battlefield, but also the centre of a deepening environmental disaster. Tankers struck by missiles or sea mines are…",
       "source": "The Guardian – Environment",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Wie der Krieg im Iran den Golf in eine Klimakatastrophe verwandelte – Video-Erklärer",
+      "summary_de": "Der Krieg zwischen den USA, Israel und dem Iran hat die Straße von Hormuz, eine der verkehrsreichsten Öltransportrouten der Welt, zu einem Schlachtfeld, aber auch zum Zentrum einer sich verschärfenden Umweltkatastrophe gemacht. Tanker, die von Raketen oder Seeminen getroffen werden, sind...",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:33.870536+00:00"
     },
     {
       "id": "14a5fcfad233c3448e19",
@@ -360,7 +516,11 @@
       "date": "2026-11-20T11:04:15Z",
       "summary": "More than a quarter of the world’s land reptiles depend on rocky habitats, yet these areas are often overlooked in conservation efforts, according to a recent study. For cold-blooded lizards, snakes, and worm lizards (legless lizards), rocks often…",
       "source": "Mongabay – Conservation News",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Eines von vier Landreptilien ist von Felslebensräumen abhängig. Mangel an Schutz lässt sie an einem schwierigen Ort zurück",
+      "summary_de": "Mehr als ein Viertel der Landreptilien der Welt sind von felsigen Lebensräumen abhängig, doch diese Gebiete werden laut einer aktuellen Studie bei den Erhaltungsbemühungen oft übersehen. Für kaltblütige Echsen, Schlangen und Wurm-Echsen (beinlose Echsen), Felsen oft ...",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:34.813981+00:00"
     },
     {
       "id": "9f324d1d0187871b65c1",
@@ -369,7 +529,11 @@
       "date": "2026-11-20T10:59:38Z",
       "summary": "As the 2026 edition of the annual U.N. Climate Change Conference reaches its conclusion in Antalya, Türkiye, on Nov. 20, African governments are arguing for increased financial and technical support to respond to climate change. Top priorities…",
       "source": "Mongabay – Conservation News",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Die Rolle fossiler Brennstoffe bei der Energiewende in Afrika ist umstritten, da die UN-Klimakonferenz endet",
+      "summary_de": "Während die jährliche UN-Klimakonferenz 2026 am 20. November in Antalya, Türkiye, ihren Abschluss findet, plädieren afrikanische Regierungen für eine verstärkte finanzielle und technische Unterstützung, um auf den Klimawandel zu reagieren. Oberste Prioritäten...",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:35.570069+00:00"
     },
     {
       "id": "8b184c7bb8a9adb525a5",
@@ -378,7 +542,11 @@
       "date": "2026-11-20T10:51:23Z",
       "summary": "Two companies approved for trading nickel on the London Metal Exchange (LME) could be linked to supply chains that have cleared primary rainforest in Indonesia, according to a report published by the NGO Environmental Investigation Agency (EIA). The…",
       "source": "Mongabay – Conservation News",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Nickel im Zusammenhang mit Entwaldung in Indonesien gehandelt an der London Metal Exchange, sagt Bericht",
+      "summary_de": "Zwei Unternehmen, die für den Handel mit Nickel an der London Metal Exchange (LME) zugelassen sind, könnten mit Lieferketten verbunden sein, die den primären Regenwald in Indonesien gerodet haben, so ein Bericht der NGO Environmental Investigation Agency (EIA). Die...",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:36.327797+00:00"
     },
     {
       "id": "bf963e5b855f92a30d8c",
@@ -387,7 +555,11 @@
       "date": "2026-11-20T08:00:25Z",
       "summary": "This week’s best wildlife photographs from around the world Continue reading...",
       "source": "The Guardian – Environment",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Woche in der Tierwelt: Weihnachtskrabben, ein schüchterner Possum und Paviane, die sich Freiheiten nehmen",
+      "summary_de": "Die besten Tierfotos dieser Woche aus aller Welt Weiterlesen...",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:36.768034+00:00"
     },
     {
       "id": "135958d97ef2d0026cea",
@@ -396,7 +568,11 @@
       "date": "2026-11-20T06:21:50Z",
       "summary": "The project aims to create and restore habitats for amphibians and lizards at sites in Yorkshire.",
       "source": "BBC – Wissenschaft & Umwelt",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Cash-Ziele für den Wildtierschutz ab Colliering-Standorten",
+      "summary_de": "Das Projekt zielt darauf ab, Lebensräume für Amphibien und Echsen an Standorten in Yorkshire zu schaffen und wiederherzustellen.",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:37.256749+00:00"
     },
     {
       "id": "ff8688aec32b4bd6b93e",
@@ -405,7 +581,11 @@
       "date": "2026-11-20T05:33:03Z",
       "summary": "Every year around the Hindu festival of Diwali, or Deepavali, residents in Nepal observe Kaag Tihar, an annual festival day dedicated to worshipping house crows as divine messengers. However, in the country’s capital, rapid urban sprawl, habitat…",
       "source": "Mongabay – Conservation News",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Wie Nepal feiert die Krähe, Zersiedelung und Abfallantrieb Belastung",
+      "summary_de": "Jedes Jahr rund um das Hindu-Festival von Diwali oder Deepavali beobachten die Einwohner von Nepal Kaag Tihar, einen jährlichen Festivaltag, der der Anbetung von Hauskrähen als göttliche Boten gewidmet ist. Doch in der Hauptstadt des Landes, schnelle Zersiedelung, Lebensraum...",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:38.088103+00:00"
     },
     {
       "id": "d894ebc9548ea39d26e6",
@@ -414,7 +594,11 @@
       "date": "2026-11-20T05:03:43Z",
       "summary": "African countries at the UN climate summit in Turkey are demanding more funding from developed nations to help them cope with climate change.",
       "source": "BBC – Wissenschaft & Umwelt",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Mehr Klimageld für Afrika? Europa sagt nutzen, was bereits zugesagt ist",
+      "summary_de": "Die afrikanischen Länder beim UN-Klimagipfel in der Türkei fordern mehr Mittel von den entwickelten Ländern, um ihnen bei der Bewältigung des Klimawandels zu helfen.",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:38.522049+00:00"
     },
     {
       "id": "3ccabb537d0c9c79c047",
@@ -425,7 +609,14 @@
       "kind": "study",
       "study_source": "Europe PMC",
       "abstract_available": true,
-      "summary": "Die Veröffentlichung behandelt bedrohte Groß- und Wildtiere. Der Abstract nennt eine Modellierung. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
+      "summary": "Die Veröffentlichung behandelt bedrohte Groß- und Wildtiere. Der Abstract nennt eine Modellierung. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt": "This study focuses on the quantification of spatio-temporal thermal characteristics associated with linear transportation infrastructure (railways and roadways) within the ecologically fragile corridor of Dharamjaigarh forest range, Chhattisgarh. Conventional assessments of infrastructure-driven thermal landscape modifications are often limited by the coarse spatial and temporal resolution of satellite-derived land surface temperature (LST). To overcome this, the study employed a random forest-based downscaling algorithm to generate synthetic 10 m LST data, integrating it with diurnal surface energy balance modelling for r",
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "title_de": "Thermisches Mikroklima linearer Infrastruktur in Wildtierkorridoren: Hochauflösende Modellierung von Eisenbahn- und Straßenwärmesystemen für die Bewertung des Lebensraums von Elefanten.",
+      "summary_de": "Die Veröffentlichung behandelt bedrohte Groß- und Wildtiere. Der Abstract nennt eine Modellierung. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt_de": "Diese Studie konzentriert sich auf die Quantifizierung der räumlich-zeitlichen thermischen Eigenschaften, die mit der linearen Transportinfrastruktur (Eisenbahnen und Straßen) innerhalb des ökologisch fragilen Korridors der Dharamjaigarh-Waldkette, Chhattisgarh, verbunden sind. Herkömmliche Bewertungen von infrastrukturbedingten thermischen Landschaftsmodifikationen sind oft durch die grobe räumliche und zeitliche Auflösung der von Satelliten abgeleiteten Landoberflächentemperatur (LST) begrenzt. Um dies zu überwinden, verwendete die Studie einen zufälligen waldbasierten Downskalierungsalgorithmus, um synthetische 10-m-LST-Daten zu erzeugen und mit der täglichen Oberflächenenergiebilanzmodellierung für r zu integrieren.",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:40.744055+00:00"
     },
     {
       "id": "fc62581c7a31865751c6",
@@ -436,7 +627,14 @@
       "kind": "study",
       "study_source": "Europe PMC",
       "abstract_available": true,
-      "summary": "Die Veröffentlichung behandelt bedrohte Groß- und Wildtiere. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
+      "summary": "Die Veröffentlichung behandelt bedrohte Groß- und Wildtiere. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt": "Conservation Action Plans (CAPs) are generally developed as policy documents for systematic conservation practices conducted at the species level over a given period. The Government of Nepal has extensively invested in producing CAPs for four flagship species: Bengal tiger (Panthera tigris tigris), one-horned rhinoceros (Rhinoceros unicornis), Asian elephant (Elephas maximus), and snow leopard (Panthera uncia) since 90 s. The current CAPs of these species review the completion status of previous plans and comprise various actions related to species conservation for specific time periods. Here, we assessed the actions assoc",
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "title_de": "Bewertung der Aktionspläne zum Artenschutz zur Bekämpfung der Wildtierkriminalität und CITES-Umsetzung für vier Flaggschiff-Tierarten in Nepal.",
+      "summary_de": "Die Veröffentlichung behandelt bedrohte Groß- und Wildtiere. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt_de": "Naturschutzaktionspläne (CAPs) werden im Allgemeinen als politische Dokumente für systematische Erhaltungspraktiken entwickelt, die auf Artenebene über einen bestimmten Zeitraum durchgeführt werden. Die Regierung Nepals hat umfassend in die Herstellung von CAPs für vier Flaggschiffarten investiert: Bengalischer Tiger (Panthera tigris tigris), Einhornnashorn (Rhinoceros unicornis), asiatischer Elefant (Elephas maximus) und Schneeleopard (Panthera uncia) seit 90 Jahren. Die derzeitigen GAPs für diese Arten überprüfen den Abschlussstatus früherer Pläne und umfassen verschiedene Maßnahmen zum Artenschutz für bestimmte Zeiträume. Hier bewerteten wir die Aktionen assoc",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:42.943901+00:00"
     },
     {
       "id": "3f9c061561d295ed54df",
@@ -445,7 +643,11 @@
       "date": "2026-11-19T21:25:02Z",
       "summary": "As Indonesia’s El-Niño driven fires spark a race to save endangered orangutans and other wildlife, a recent review paper, published in the journal Oryx, is raising concerns about both the short- and long-term impacts on primates of such climatic…",
       "source": "Mongabay – Conservation News",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Die große Reichweite von El Niño wirkt sich auf die Primaten Südostasiens aus",
+      "summary_de": "Während die indonesischen El-Niño-Brände ein Rennen zur Rettung gefährdeter Orang-Utans und anderer Wildtiere auslösen, wirft ein kürzlich in der Zeitschrift Oryx veröffentlichtes Review-Papier Bedenken sowohl hinsichtlich der kurz- als auch der langfristigen Auswirkungen auf Primaten solcher klimatischen...",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:43.778889+00:00"
     },
     {
       "id": "a5d978efc289c5e551bd",
@@ -454,7 +656,11 @@
       "date": "2026-11-19T19:22:12Z",
       "summary": "PORT LOKO, Sierra Leone — On a rainy Saturday morning, 57-year-old fisher Sheriff Kamara sat among other community members inside a wooden makeshift shelter in Sierra Leone’s Mahera Beach, waiting for the weather to improve. Along the shoreline,…",
       "source": "Mongabay – Conservation News",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Fangen Sie mehr Plastik als Fisch in Sierra Leone Küsten Mahera",
+      "summary_de": "PORT LOKO, Sierra Leone — An einem regnerischen samstagmorgen saß der 57-jährige fischer sheriff kamara unter anderen gemeindemitgliedern in einem hölzernen provisorischen unterstand in sierra leones mahera beach und wartete darauf, dass sich das wetter verbesserte. Entlang der Küste...",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:44.657305+00:00"
     },
     {
       "id": "4a0f8760d46d7688c4c2",
@@ -463,7 +669,11 @@
       "date": "2026-11-19T19:11:03Z",
       "summary": "Peruvian authorities have updated the number of tarantulas seized in a recent wildlife trafficking case from 3,000 to more than 12,000, according to South American media reports. The final count of 12,796 seized spiders was reportedly announced by…",
       "source": "Mongabay – Conservation News",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Peruvian officials reportedly increase tally to more than 12,000 tarantulas in recent seizure",
+      "summary_de": "Peruvian authorities have updated the number of tarantulas seized in a recent wildlife trafficking case from 3,000 to more than 12,000, according to South American media reports. The final count of 12,796 seized spiders was reportedly announced by…",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:45.415262+00:00"
     },
     {
       "id": "3a2713035b2968a39d8a",
@@ -472,7 +682,11 @@
       "date": "2026-11-19T18:19:49Z",
       "summary": "CITES SC81 outcomes and the future of wildlife protection International Fund for Animal Welfare | IFAW",
       "source": "IFAW – Berichterstattung (News-Aggregation)",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "CITES SC81 Ergebnisse und die Zukunft des Tierschutzes - Internationaler Tierschutzfonds | IFAW",
+      "summary_de": "CITES SC81 Ergebnisse und die Zukunft des Tierschutzes Internationaler Fonds für Tierschutz | IFAW",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:45.859682+00:00"
     },
     {
       "id": "4b9d4fd45470ff8e6779",
@@ -481,7 +695,11 @@
       "date": "2026-11-19T18:18:34Z",
       "summary": "COLOMBO – It was a surprise for Mohamed Fareed, a resident of Jawatte, an upscale neighborhood in Sri Lanka’s commercial capital Colombo, to find a peacock near his house back in 2020. Today, there are at least 12 peacocks, including peahens roaming…",
       "source": "Mongabay – Conservation News",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "In Sri Lanka treiben menschliche Handlungen wilde Tiere in Städte und Vororte.",
+      "summary_de": "Es war eine Überraschung für Mohamed Fareed, ein Bewohner von Jawatte, einem gehobenen Viertel in Sri Lankas kommerzieller Hauptstadt Colombo, im Jahr 2020 einen Pfau in der Nähe seines Hauses zu finden. Heute gibt es mindestens 12 Pfauen, einschließlich Peahens Roaming ...",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:46.669517+00:00"
     },
     {
       "id": "74251a68229531374113",
@@ -490,7 +708,11 @@
       "date": "2026-11-19T15:13:44Z",
       "summary": "LONDON — On Nov. 10, Mongabay went to the site of the annual meeting of the body that regulates fishing in the northeastern Atlantic, where a little-known geopolitical dispute over marine resources was playing out behind closed doors. The North-East…",
       "source": "Mongabay – Conservation News",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Geopolitische Spannungen behindern Bemühungen zur Eindämmung der Überfischung in Gewässern in der Nähe von Europa",
+      "summary_de": "Am 10. November ging Mongabay zum Ort des jährlichen Treffens des Gremiums, das die Fischerei im Nordostatlantik reguliert, wo sich hinter verschlossenen Türen ein wenig bekannter geopolitischer Streit über Meeresressourcen abspielte. Der Nordosten...",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:47.388546+00:00"
     },
     {
       "id": "0c2830f0fe7918b816eb",
@@ -499,7 +721,11 @@
       "date": "2026-11-19T13:35:29Z",
       "summary": "A bird has astonished conservationists by completing a 6,800-mile round trip to Siberia and back.",
       "source": "BBC – Wissenschaft & Umwelt",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Wadenvogel namens Phil verfolgt in epischen Migration nach Sibirien und zurück",
+      "summary_de": "A bird has astonished conservationists by completing a 6,800-mile round trip to Siberia and back.",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:47.842068+00:00"
     },
     {
       "id": "a343fc84804a22f2ee09",
@@ -508,7 +734,11 @@
       "date": "2026-11-19T12:34:42Z",
       "summary": "Out in the Bristol Channel, nestled between Wales and England, the rugged island of Lundy is one of the UK’s most pioneering conservation stories. Watch the full story.",
       "source": "Mongabay – Conservation News",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Wie eine kleine Insel Naturschutzarbeit machte",
+      "summary_de": "Draußen im Bristol Channel, eingebettet zwischen Wales und England, ist die zerklüftete Insel Lundy eine der wegweisendsten Naturschutzgeschichten Großbritanniens. Sehen Sie sich die ganze Geschichte an.",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:48.389745+00:00"
     },
     {
       "id": "e3f5a72ed02a2a73080a",
@@ -517,7 +747,11 @@
       "date": "2026-11-19T11:03:24Z",
       "summary": "The trees, intended for an unnamed buyer in Georgia, were reportedly dug up without the necessary permits Environmentalists in South Africa are racing to replant five centuries-old baobabs after the 20-tonne trees were dug up by an exporter, who…",
       "source": "The Guardian – Environment",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Rennen um fünf südafrikanische Baobabs nach dem Export blockiert",
+      "summary_de": "Die Bäume, die für einen ungenannten Käufer in Georgien bestimmt sind, wurden Berichten zufolge ohne die notwendigen Genehmigungen ausgegraben Umweltschützer in Südafrika rasen darum, fünf Jahrhunderte alte Baobabs neu zu pflanzen, nachdem die 20-Tonnen-Bäume von einem Exporteur ausgegraben wurden.",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:49.268250+00:00"
     },
     {
       "id": "1db137d22d5e89537c35",
@@ -526,7 +760,11 @@
       "date": "2026-11-19T11:03:00Z",
       "summary": "Race to replant five South African baobabs after export blocked | Illegal wildlife trade The Guardian",
       "source": "Wildtierhandel – Medien (News-Aggregation)",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Rennen um die Wiederbepflanzung von fünf südafrikanischen Baobabs nach dem Export blockiert | Illegaler Wildtierhandel - The Guardian",
+      "summary_de": "Rennen um die Wiederbepflanzung von fünf südafrikanischen Baobabs nach dem Export blockiert",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:49.800426+00:00"
     },
     {
       "id": "3a46ad92ec71c5b4fd10",
@@ -535,7 +773,11 @@
       "date": "2026-11-19T10:57:05Z",
       "summary": "JAKARTA — In Muncar, a busy fishing port on the southeastern coast of Indonesia’s East Java province, sharks can fetch as much as 1.5 million rupiah each, or about $82. However, their value to fishing communities comes at a cost to conservation:…",
       "source": "Mongabay – Conservation News",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Bedrohte Arten machen die Hälfte der Haifänge im indonesischen Fischereihafen aus, findet Studie",
+      "summary_de": "JAKARTA — In Muncar, a busy fishing port on the southeastern coast of Indonesia’s East Java province, sharks can fetch as much as 1.5 million rupiah each, or about $82. However, their value to fishing communities comes at a cost to conservation:…",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:50.640279+00:00"
     },
     {
       "id": "ad529c47c983782701a4",
@@ -544,7 +786,11 @@
       "date": "2026-11-19T09:30:00Z",
       "summary": "The Council has approved conclusions aimed at empowering young people in an evolving information environment.",
       "source": "EU-Rat – Pressemitteilungen",
-      "kind": "policy"
+      "kind": "policy",
+      "title_de": "Rat fordert Maßnahmen zur Stärkung junger Menschen in einem sich entwickelnden Informationsumfeld",
+      "summary_de": "Der Rat hat Schlussfolgerungen angenommen, die darauf abzielen, junge Menschen in einem sich entwickelnden Informationsumfeld zu stärken.",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:51.030553+00:00"
     },
     {
       "id": "9a88fddfe9aba2a4008e",
@@ -553,7 +799,11 @@
       "date": "2026-11-19T08:00:00Z",
       "summary": "IFAW: 25 countries backed wildlife declaration at COP31 Denkstrom",
       "source": "IFAW – Berichterstattung (News-Aggregation)",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "IFAW: 25 Länder unterstützen Wildtierdeklaration bei COP31 - Denkstrom",
+      "summary_de": "IFAW: 25 Länder unterstützen Wildtierdeklaration bei COP31 Denkstrom",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:51.388811+00:00"
     },
     {
       "id": "475b911f2db379b20e01",
@@ -562,7 +812,11 @@
       "date": "2026-11-19T04:50:10Z",
       "summary": "UAE shuts down 600,000 websites in wildlife trafficking crackdown Gulf News",
       "source": "Wildtierhandel – Medien (News-Aggregation)",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "UAE shuts down 600,000 websites in wildlife trafficking crackdown - Gulf News",
+      "summary_de": "UAE shuts down 600,000 websites in wildlife trafficking crackdown Gulf News",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:51.853334+00:00"
     },
     {
       "id": "7a8651dc81613d27db12",
@@ -573,7 +827,14 @@
       "kind": "study",
       "study_source": "Europe PMC",
       "abstract_available": true,
-      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
+      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt": "Mammalian species differ in the biochemical composition of their tissues and fluids-subtle but statistically discriminable variation that vibrational spectroscopy can detect and machine learning can decode for applications spanning forensic investigation, conservation monitoring, and physiological assessment. This review critically examines machine learning applications across near-infrared (NIR), mid-infrared (MIR/FTIR), and Raman spectroscopy specifically for mammalian wildlife samples. We examine unsupervised and supervised learning methods, from principal component analysis and hierarchical clustering to partial least ",
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "title_de": "Machine Learning-Enhanced Vibrationsspektroskopie für Säugetiere: Eine kritische Überprüfung der Erhaltung und forensische Anwendungen.",
+      "summary_de": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt_de": "Säugetierarten unterscheiden sich in der biochemischen Zusammensetzung ihrer Gewebe und Flüssigkeiten - subtile, aber statistisch unterscheidbare Variationen, die die Vibrationsspektroskopie erkennen und maschinelles Lernen für Anwendungen dekodieren kann, die forensische Untersuchungen, Konservierungsüberwachung und physiologische Bewertung umfassen. Diese Überprüfung untersucht Anwendungen für maschinelles Lernen in Nahinfrarot (NIR), Mittelinfrarot (MIR/FTIR) und Raman-Spektroskopie speziell für Säugetierproben. Wir untersuchen unüberwachte und überwachte Lernmethoden, von der Hauptkomponentenanalyse und dem hierarchischen Clustering bis hin zu teilweisen",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:53.830218+00:00"
     },
     {
       "id": "290e98b191cd3d5bfc36",
@@ -584,7 +845,14 @@
       "kind": "study",
       "study_source": "Europe PMC",
       "abstract_available": true,
-      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
+      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt": "Extraction sites are often considered sources of environmental damage. However, in intensively used and nutrient-enriched landscapes they may also provide exceptional secondary habitats, shaped by disturbance and nutrient depletion. Their contribution to biodiversity across taxonomic groups remains insufficiently understood, and integrated guidelines for managing biodiversity during active extraction are needed. We examined terrestrial and aquatic biodiversity across twelve active German extraction sites of limestone, gypsum, sand and gravel. Data on vascular plants, soil parameters and six insect groups were collected via",
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "title_de": "Treiber der biologischen Vielfalt in Mineralgewinnungsstätten - eine steuerübergreifende Analyse mit Auswirkungen auf Management und Wiederherstellung.",
+      "summary_de": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt_de": "Extraktionsstätten werden oft als Quellen von Umweltschäden betrachtet. In intensiv genutzten und nährstoffangereicherten Landschaften können sie jedoch auch außergewöhnliche sekundäre Lebensräume bieten, die durch Störungen und Nährstoffmangel geprägt sind. Ihr Beitrag zur biologischen Vielfalt in taxonomischen Gruppen ist nach wie vor unzureichend verstanden, und es sind integrierte Leitlinien für das Management der biologischen Vielfalt während der aktiven Extraktion erforderlich. Wir untersuchten die terrestrische und aquatische Biodiversität an zwölf aktiven deutschen Extraktionsstätten von Kalkstein, Gips, Sand und Kies. Daten zu Gefäßpflanzen, Bodenparametern und sechs Insektengruppen wurden über",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:55.451424+00:00"
     },
     {
       "id": "7e9ea93b5c061aeab1b5",
@@ -593,7 +861,11 @@
       "date": "2026-11-18T17:47:15Z",
       "summary": "Stadtjäger in Schwäbisch Hall quält einen Waschbären – Behörde kehrt den Fall unter den Tisch Wildtierschutz Deutschland e.V.",
       "source": "Deutschland – Wildtiere (News-Aggregation)",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Stadtjäger in Schwäbisch Hall quält einen Waschbären – Behörde kehrt den Fall unter den Tisch - Wildtierschutz Deutschland e.V.",
+      "summary_de": "Stadtjäger in Schwäbisch Hall quält einen Waschbären – Behörde kehrt den Fall unter den Tisch Wildtierschutz Deutschland e.V.",
+      "translation_status": "original",
+      "translated_at": "2026-11-23T15:14:55.451449+00:00"
     },
     {
       "id": "c15fbf00a2b38c4efff2",
@@ -602,7 +874,11 @@
       "date": "2026-11-18T15:25:02Z",
       "summary": "Wie schützt man Elefanten und die Ernte? deutschland.de",
       "source": "Deutschland – Wildtiere (News-Aggregation)",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Wie schützt man Elefanten und die Ernte? - deutschland.de",
+      "summary_de": "Wie schützt man Elefanten und die Ernte? deutschland.de",
+      "translation_status": "original",
+      "translated_at": "2026-11-23T15:14:55.451455+00:00"
     },
     {
       "id": "df8a809d7f83ad2894fb",
@@ -611,7 +887,11 @@
       "date": "2026-11-18T11:29:15Z",
       "summary": "Regierungspräsidium Karlsruhe legt für den Artenschutz eine neue Sandrasenfläche in den Oftersheimer Dünen an Jack News",
       "source": "Deutschland – Wildtiere (News-Aggregation)",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Regierungspräsidium Karlsruhe legt für den Artenschutz eine neue Sandrasenfläche in den Oftersheimer Dünen an - Jack News",
+      "summary_de": "Regierungspräsidium Karlsruhe legt für den Artenschutz eine neue Sandrasenfläche in den Oftersheimer Dünen an Jack News",
+      "translation_status": "original",
+      "translated_at": "2026-11-23T15:14:55.451458+00:00"
     },
     {
       "id": "72efef3bae5c6c11dcde",
@@ -620,7 +900,11 @@
       "date": "2026-11-18T11:00:56Z",
       "summary": "Since the spacecraft’s 1977 launch, our wonderful and terrible species has done great damage to our planet. Voyager has offered us a clear view of ourselves Imagine traveling nonstop for 49 years, alone in the dark with no destination in sight,…",
       "source": "The Guardian – Environment",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Nach 49 Jahren ist NASAs Voyager 1 einen Lichttag von uns entfernt. Können wir diesen \"blassblauen Punkt\" retten? von Kim Heacox",
+      "summary_de": "Seit dem Start der Raumsonde 1977 hat unsere wunderbare und schreckliche Spezies unserem Planeten großen Schaden zugefügt. Voyager hat uns eine klare Sicht auf uns selbst geboten Stellen Sie sich vor, Sie reisen 49 Jahre lang nonstop, allein im Dunkeln ohne Ziel in Sicht,...",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:56.348384+00:00"
     },
     {
       "id": "c89f41e9f27d1e8c908d",
@@ -629,7 +913,11 @@
       "date": "2026-11-18T09:36:32Z",
       "summary": "Young artists to reimagine people & wildlife sharing the planet International Fund for Animal Welfare | IFAW",
       "source": "IFAW – Berichterstattung (News-Aggregation)",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Junge Künstler, um Menschen und Wildtiere, die den Planeten teilen, neu zu erfinden - Internationaler Tierschutzfonds",
+      "summary_de": "Junge Künstler werden Menschen und Wildtiere neu erfinden, die den Planeten teilen Internationaler Fonds für Tierschutz",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:56.843592+00:00"
     },
     {
       "id": "cf403857590b45eed359",
@@ -638,7 +926,11 @@
       "date": "2026-11-18T09:08:52Z",
       "summary": "Wildlife trafficking persists in West, Central Africa despite crackdowns: Report news - Mongabay",
       "source": "Wildtierhandel – Medien (News-Aggregation)",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Wildtierhandel besteht in West-, Zentralafrika trotz Razzien: Bericht - Nachrichten - Mongabay",
+      "summary_de": "Wildtierhandel besteht weiterhin in West-, Zentralafrika trotz Razzien: Bericht Nachrichten - Mongabay",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:57.274844+00:00"
     },
     {
       "id": "4e03d1f144e3699dd53d",
@@ -647,7 +939,11 @@
       "date": "2026-11-18T08:20:40Z",
       "summary": "Police arrest three suspects linked to illegal wildlife trafficking in Pretoria SABC News",
       "source": "Wildtierhandel – Medien (News-Aggregation)",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Polizei verhaftet drei Verdächtige im Zusammenhang mit illegalem Wildtierhandel in Pretoria - SABC News",
+      "summary_de": "Polizei verhaftet drei Verdächtige im Zusammenhang mit illegalem Wildtierhandel in Pretoria SABC News",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:57.690656+00:00"
     },
     {
       "id": "9e615a83da2c07a78849",
@@ -656,7 +952,11 @@
       "date": "2026-11-18T05:29:00Z",
       "summary": "Eleven animals rescued following bust for illegal wildlife trade Algoa FM",
       "source": "Wildtierhandel – Medien (News-Aggregation)",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Elf Tiere nach Büste für illegalen Wildtierhandel gerettet - Algoa FM",
+      "summary_de": "Elf Tiere gerettet nach Büste für illegalen Wildtierhandel Algoa FM",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:58.070810+00:00"
     },
     {
       "id": "24ae933dcbce21aba558",
@@ -665,7 +965,11 @@
       "date": "2026-11-18T02:20:00Z",
       "summary": "Kim Min brings wildlife trafficking documentary to viewers after rising TV profile Chosunbiz",
       "source": "Wildtierhandel – Medien (News-Aggregation)",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Kim Min bringt Wildtier-Traffic-Dokumentation zu den Zuschauern nach steigenden TV-Profil - Chosunbiz",
+      "summary_de": "Kim Min bringt Wildtier-Traffic-Dokumentation zu den Zuschauern nach steigenden TV-Profil Chosunbiz",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:14:58.595246+00:00"
     },
     {
       "id": "a6cc78a90c79818d19a1",
@@ -676,7 +980,14 @@
       "kind": "study",
       "study_source": "Europe PMC",
       "abstract_available": true,
-      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
+      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt": "Tropical land-use intensification threatens global biodiversity, yet most assessments of tropical agricultural landscapes focus on local-scale biodiversity, overlooking how land use restructures biodiversity across space and multiple taxa. Here we provide an ecosystem-wide assessment of 24 taxonomic groups across all domains of life-encompassing 40,049 species-along a land-use intensification gradient from lowland forests to intensively managed smallholder cash-crop monocultures in Indonesian landscapes. Despite widespread losses of landscape and local multidiversity 1 in monocultures (approximately 78% and 50%, respective",
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "title_de": "Intensivierung der tropischen Landnutzung restrukturiert die Biodiversität.",
+      "summary_de": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt_de": "Tropical land-use intensification threatens global biodiversity, yet most assessments of tropical agricultural landscapes focus on local-scale biodiversity, overlooking how land use restructures biodiversity across space and multiple taxa. Here we provide an ecosystem-wide assessment of 24 taxonomic groups across all domains of life-encompassing 40,049 species-along a land-use intensification gradient from lowland forests to intensively managed smallholder cash-crop monocultures in Indonesian landscapes. Despite widespread losses of landscape and local multidiversity 1 in monocultures (approximately 78% and 50%, respective",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:15:00.444920+00:00"
     },
     {
       "id": "95fd76beaefed5cc4be5",
@@ -685,7 +996,11 @@
       "date": "2026-11-17T23:00:00Z",
       "summary": "Artenschutz in Gütersloh: Fledermaushäuser zeigen erste Wirkung Die Glocke",
       "source": "Deutschland – Wildtiere (News-Aggregation)",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Artenschutz in Gütersloh: Fledermaushäuser zeigen erste Wirkung - Die Glocke",
+      "summary_de": "Artenschutz in Gütersloh: Fledermaushäuser zeigen erste Wirkung Die Glocke",
+      "translation_status": "original",
+      "translated_at": "2026-11-23T15:15:00.444942+00:00"
     },
     {
       "id": "b34111e9ebde703da31e",
@@ -694,7 +1009,11 @@
       "date": "2026-11-17T19:08:05Z",
       "summary": "Poor countries are paying creditors instead of preparing for climate disasters. The international financial system must stop deepening their vulnerability The catastrophe that struck Nepal’s Himalayas in August began with a collapsing glacier. An…",
       "source": "The Guardian – Environment",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Der Guardian-Blick auf Klima und Schulden: Ein Teufelskreis, den die Welt bei Cop31 durchbrechen muss",
+      "summary_de": "Arme Länder zahlen Gläubiger, anstatt sich auf Klimakatastrophen vorzubereiten. Das internationale Finanzsystem muss aufhören, seine Anfälligkeit zu vertiefen Die Katastrophe, die Nepals Himalaya im August traf, begann mit einem zusammenbrechenden Gletscher. Ein...",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:15:01.114959+00:00"
     },
     {
       "id": "a0e37d3f41dca227d34d",
@@ -703,7 +1022,11 @@
       "date": "2026-11-17T13:32:44Z",
       "summary": "I am at Cop31 – concerned about the crisis around the world, but mindful that voters want jobs, warmer homes and cheaper prices Miatta Fahnbulleh is the UK secretary of state for energy security and net zero In this cold weather, it is easy to…",
       "source": "The Guardian – Environment",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Wo wollen die Menschen den britischen Klimaschutzplan sehen? Vor der eigenen Haustür | Miatta Fahnbulleh",
+      "summary_de": "Ich bin bei Cop31 - besorgt über die Krise auf der ganzen Welt, aber bewusst, dass die Wähler Arbeitsplätze, wärmere Häuser und günstigere Preise wollen Miatta Fahnbulleh ist die britische Staatssekretärin für Energiesicherheit und Netto-Null Bei diesem kalten Wetter ist es leicht...",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:15:01.891684+00:00"
     },
     {
       "id": "d99162bda34daa76cd6a",
@@ -712,7 +1035,11 @@
       "date": "2026-11-17T13:04:00Z",
       "summary": "Städte und Gemeinden können Fördermittel für kommunale Biodiversitätsstrategien und beispielhafte Naturschutzmaßnahmen beantragen. Projektskizzen für neue Strategien müssen bis zum 1. März 2027 eingereicht werden.",
       "source": "Bundesumweltministerium – Naturschutz",
-      "kind": "policy"
+      "kind": "policy",
+      "title_de": "Förderung für kommunale Biodiversitätsstrategien im Bundesprogramm Biologische Vielfalt",
+      "summary_de": "Städte und Gemeinden können Fördermittel für kommunale Biodiversitätsstrategien und beispielhafte Naturschutzmaßnahmen beantragen. Projektskizzen für neue Strategien müssen bis zum 1. März 2027 eingereicht werden.",
+      "translation_status": "original",
+      "translated_at": "2026-11-23T15:15:01.891709+00:00"
     },
     {
       "id": "fffe335f1f4a210c23dc",
@@ -721,7 +1048,11 @@
       "date": "2026-11-17T10:00:25Z",
       "summary": "Sinsheim bewilligt 5000 Euro für Fuchsfallen Wildtierschutz Deutschland e.V.",
       "source": "Deutschland – Wildtiere (News-Aggregation)",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Sinsheim bewilligt 5000 Euro für Fuchsfallen - Wildtierschutz Deutschland e.V.",
+      "summary_de": "Sinsheim bewilligt 5000 Euro für Fuchsfallen Wildtierschutz Deutschland e.V.",
+      "translation_status": "original",
+      "translated_at": "2026-11-23T15:15:01.891714+00:00"
     },
     {
       "id": "8f81816a17856dff8575",
@@ -730,7 +1061,11 @@
       "date": "2026-11-16T15:23:06Z",
       "summary": "Indonesia urges international action against wildlife trafficking ANTARA News",
       "source": "Wildtierhandel – Medien (News-Aggregation)",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Indonesien fordert internationale Maßnahmen gegen Wildtierhandel - ANTARA News",
+      "summary_de": "Indonesien fordert internationale Maßnahmen gegen Wildtierhandel ANTARA News",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:15:02.188696+00:00"
     },
     {
       "id": "2c4c6b6483697e8028c5",
@@ -739,7 +1074,11 @@
       "date": "2026-11-16T12:00:58Z",
       "summary": "The unfamiliar mollusk first turned up in this harvester’s haul in 2023. He asked a scientist to identify it, and together they realized they were seeing a potentially harmful, non-native species Send us your climate questions for the next Stateside…",
       "source": "The Guardian – Environment",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "In Cape Cods Gewässern sah er eine ungewöhnliche Muschel. Es war der Beginn einer Invasion",
+      "summary_de": "Die unbekannte Molluske tauchte erstmals im Jahr 2023 in dieser Ernte auf. Er bat einen Wissenschaftler, es zu identifizieren, und zusammen erkannten sie, dass sie eine potenziell schädliche, nicht einheimische Spezies sahen.",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:15:02.948380+00:00"
     },
     {
       "id": "6030e13c3b79ef88ac1f",
@@ -748,7 +1087,11 @@
       "date": "2026-11-16T05:06:10Z",
       "summary": "2024 wurden die Pläne für das Artenschutz-Aquarium präsentiert. Heute",
       "source": "Deutschland – Wildtiere (News-Aggregation)",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "2024 wurden die Pläne für das Artenschutz-Aquarium präsentiert. - Heute",
+      "summary_de": "2024 wurden die Pläne für das Artenschutz-Aquarium präsentiert. Heute",
+      "translation_status": "original",
+      "translated_at": "2026-11-23T15:15:02.948404+00:00"
     },
     {
       "id": "ab32a2ef56134512631b",
@@ -757,7 +1100,11 @@
       "date": "2026-11-16T05:00:34Z",
       "summary": "Along the coasts of the Netherlands, Germany and Denmark, its intertidal flats host a wealth of marine life and birds. But extraction industries, tourism and fishing are taking their toll Stand on the coastline at high tide and you look out over…",
       "source": "The Guardian – Environment",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Europas Wattenmeer ist ein Naturwunder. Warum könnte es also zum Weltkulturerbe in der Gefahrenliste gehören?",
+      "summary_de": "Entlang der Küsten der Niederlande, Deutschlands und Dänemarks beherbergen seine Gezeitenebenen eine Fülle von Meereslebewesen und Vögeln. Aber die Gewinnungsindustrie, der Tourismus und die Fischerei fordern bei Flut ihren Tribut an der Küste und Sie blicken auf ...",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:15:03.690402+00:00"
     },
     {
       "id": "81387b9f83ce0d5acc6e",
@@ -768,7 +1115,14 @@
       "kind": "study",
       "study_source": "Europe PMC",
       "abstract_available": true,
-      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
+      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt": "Land-use change profoundly affects carbon (C) stocks and sequestration potential, yet integrated assessments across natural forests, plantations, fallows, degraded forests, and agricultural fields remain scarce in the Indo-Burma Biodiversity Hotspot. We quantified C stocks (biomass and SOC) and sequestration-related processes (litter dynamics, NPP, and carbon turnover) in five contrasting land-use systems (e.g., pine plantation, PP; community-managed watershed, CMWs; fallow land, FL; degraded forest, DF, and paddy field, PF) in Manipur, Northeast India. Total vegetation C stock was highest in PP (124.51 Mg C ha⁻¹) and CMWs",
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "title_de": "Ökosysteme Kohlenstoffpools und -ströme unter kontrastierenden Landnutzungssystemen im indisch-burmesischen Biodiversitäts-Hotspot im Nordosten Indiens: Verbesserung naturbasierter Lösungen (NbS).",
+      "summary_de": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt_de": "Land-use change profoundly affects carbon (C) stocks and sequestration potential, yet integrated assessments across natural forests, plantations, fallows, degraded forests, and agricultural fields remain scarce in the Indo-Burma Biodiversity Hotspot. We quantified C stocks (biomass and SOC) and sequestration-related processes (litter dynamics, NPP, and carbon turnover) in five contrasting land-use systems (e.g., pine plantation, PP; community-managed watershed, CMWs; fallow land, FL; degraded forest, DF, and paddy field, PF) in Manipur, Northeast India. Total vegetation C stock was highest in PP (124.51 Mg C ha⁻¹) and CMWs",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:15:06.281229+00:00"
     },
     {
       "id": "0236b8747d6f702c1867",
@@ -779,7 +1133,14 @@
       "kind": "study",
       "study_source": "Europe PMC",
       "abstract_available": true,
-      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
+      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt": "Systematic conservation planning (SCP) provides a rigorous framework for addressing conservation prioritization by combining explicit objectives, conservation features, representation targets, costs, and implementation constraints. In this article, we advocate incorporating multidimensional indices into the determination of planning-unit weights or soft penalties. Rather than directly treating the spatial patterns of multidimensional biodiversity as features within the SCP framework, this approach ensures that areas with high local genetic, phylogenetic, or functional diversity values are explicitly favored among solutions",
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "title_de": "Von multidimensionalen Biodiversitätsmustern bis hin zu Erhaltungsmerkmalen in der systematischen Erhaltungsplanung.",
+      "summary_de": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt_de": "Systematische Konservierungsplanung (SCP) bietet einen strengen Rahmen für die Priorisierung von Konservierung, indem explizite Ziele, Konservierungsmerkmale, Repräsentationsziele, Kosten und Implementierungsbeschränkungen kombiniert werden. In diesem Artikel befürworten wir die Einbeziehung multidimensionaler Indizes in die Bestimmung von Gewichten von Planungseinheiten oder sanften Strafen. Anstatt die räumlichen Muster der multidimensionalen Biodiversität direkt als Merkmale innerhalb des SCP-Rahmens zu behandeln, stellt dieser Ansatz sicher, dass Bereiche mit hohen lokalen genetischen, phylogenetischen oder funktionellen Diversitätswerten explizit unter den Lösungen bevorzugt werden.",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:15:08.048633+00:00"
     },
     {
       "id": "ea32354488f67c069685",
@@ -788,7 +1149,11 @@
       "date": "2026-11-13T08:00:00Z",
       "summary": "More Than 3,000 Tarantulas Were Found Hidden in Socks During a Major Wildlife Trafficking Bust at an Airport in Lima, Peru Smithsonian Magazine",
       "source": "Wildtierhandel – Medien (News-Aggregation)",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "More Than 3,000 Tarantulas Were Found Hidden in Socks During a Major Wildlife Trafficking Bust at an Airport in Lima, Peru - Smithsonian Magazine",
+      "summary_de": "More Than 3,000 Tarantulas Were Found Hidden in Socks During a Major Wildlife Trafficking Bust at an Airport in Lima, Peru Smithsonian Magazine",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:15:08.847741+00:00"
     },
     {
       "id": "db6fa911b4cfc178b50a",
@@ -799,7 +1164,14 @@
       "kind": "study",
       "study_source": "Europe PMC",
       "abstract_available": true,
-      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Der Abstract nennt eine Befragung. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
+      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Der Abstract nennt eine Befragung. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt": "Wildfire is an escalating threat to forest ecosystem health, yet post-fire management still lacks the timely and systematic consideration of biodiversity loss and biotic disruption. Here, we present an integrative eDNA-satellite-AI monitoring framework that combines environmental DNA (eDNA) metabarcoding, satellite-derived burn-severity mapping, and explainable AI (XAI) to quantify post-fire ecosystem changes. Using Sentinel-2 imagery, we first quantitatively assessed the wildfire severity at study sites differentiated by the extent of fire damage (control, damaged, and extremely damaged). eDNA was then collected from wate",
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "title_de": "Überwachung der biologischen Vielfalt und Interaktion von Ökosystemen nach Waldbränden: Ein Rahmenwerk für die Modellierung von künstlicher Intelligenz mit DNA-Daten.",
+      "summary_de": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Der Abstract nennt eine Befragung. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt_de": "Waldbrände stellen eine eskalierende Bedrohung für die Gesundheit der Waldökosysteme dar, aber dem Post-Brand-Management fehlt es immer noch an der rechtzeitigen und systematischen Berücksichtigung des Verlusts der biologischen Vielfalt und der biotischen Störungen. Hier stellen wir ein integratives eDNA-Satelliten-AI-Monitoring-Framework vor, das Umwelt-DNA (eDNA) Metabarcoding, satellitengestützte Verbrennungsschwerekartierung und erklärbare KI (XAI) kombiniert, um Veränderungen des Ökosystems nach einem Brand zu quantifizieren. Mithilfe von Sentinel-2-Bildern haben wir zunächst den Schweregrad von Waldbränden an Untersuchungsstandorten quantitativ bewertet, differenziert nach dem Ausmaß des Brandschadens (Kontrolle, beschädigt und extrem beschädigt). eDNA wurde dann von wate gesammelt",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:15:11.210309+00:00"
     },
     {
       "id": "d98531e9b7f0f734391c",
@@ -810,7 +1182,14 @@
       "kind": "study",
       "study_source": "Europe PMC",
       "abstract_available": true,
-      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
+      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt": "The Culicidae exhibits broad taxonomic diversity and significant ecological importance, especially in phytotelm habitats provided by bromeliads. This study investigated the diversity of mosquitoes associated with bromeliads in two Atlantic Forest fragments in Sergipe State, northeastern Brazil: the Morro do Urubu Environmental Protection Area (Morro do Urubu APA), a more disturbed site, and the Mata do Crasto Private Natural Heritage Reserve (Mata do Crasto RPPN), a more preserved area. Collections were carried out during the rainy season and included 26 groups of epiphytic and terrestrial bromeliads. A total of 2,400 spec",
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "title_de": "Biodiversität der Moskitofauna (Diptera: Culicidae), assoziiert mit Bromelien in Fragmenten des Atlantischen Waldes im Bundesstaat Sergipe, Brasilien.",
+      "summary_de": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt_de": "The Culicidae exhibits broad taxonomic diversity and significant ecological importance, especially in phytotelm habitats provided by bromeliads. This study investigated the diversity of mosquitoes associated with bromeliads in two Atlantic Forest fragments in Sergipe State, northeastern Brazil: the Morro do Urubu Environmental Protection Area (Morro do Urubu APA), a more disturbed site, and the Mata do Crasto Private Natural Heritage Reserve (Mata do Crasto RPPN), a more preserved area. Collections were carried out during the rainy season and included 26 groups of epiphytic and terrestrial bromeliads. A total of 2,400 spec",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:15:13.381690+00:00"
     },
     {
       "id": "25a7aa9669cb2a0ff101",
@@ -819,7 +1198,11 @@
       "date": "2026-11-12T11:00:47Z",
       "summary": "Proponents argue ocean carbon removal is necessary to counteract the effects of the climate crisis but critics say more research is needed A cluster of candy cane-striped smoke stacks dots the horizon of Tufts Cove in Nova Scotia, Canada. Deep in…",
       "source": "The Guardian – Environment",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Erste Richtlinien zu Versuchen, den Ozean zu manipulieren, rücken die Geo-Engineering-Industrie in den Fokus",
+      "summary_de": "Befürworter argumentieren, dass die Entfernung von Kohlenstoff aus den Ozeanen notwendig ist, um den Auswirkungen der Klimakrise entgegenzuwirken, aber Kritiker sagen, dass mehr Forschung erforderlich ist Eine Gruppe von Zuckerrohr gestreiften Rauchstapeln markiert den Horizont von Tufts Cove in Nova Scotia, Kanada. Tief in...",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:15:14.265135+00:00"
     },
     {
       "id": "b0c35ca92413725a84da",
@@ -828,7 +1211,11 @@
       "date": "2026-11-12T04:45:00Z",
       "summary": "Vorschau: Unkraut • Kreuzotter, Kammmolch & Co – Im Einsatz für den Artenschutz ARD Mediathek",
       "source": "Deutschland – Wildtiere (News-Aggregation)",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Vorschau: Unkraut • Kreuzotter, Kammmolch & Co – Im Einsatz für den Artenschutz - ARD Mediathek",
+      "summary_de": "Vorschau: Unkraut • Kreuzotter, Kammmolch & Co – Im Einsatz für den Artenschutz ARD Mediathek",
+      "translation_status": "original",
+      "translated_at": "2026-11-23T15:15:14.265159+00:00"
     },
     {
       "id": "740bbe2110e0773fa74e",
@@ -839,7 +1226,14 @@
       "kind": "study",
       "study_source": "Europe PMC",
       "abstract_available": true,
-      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Der Abstract nennt eine Befragung. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
+      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Der Abstract nennt eine Befragung. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt": "Agricultural expansion threatens tropical ecosystems worldwide. Oil palm is cultivated primarily in Southeast Asia, but production in West Africa (its native range) is increasing rapidly. Here, oil palm is cultivated under traditional and industrial management, and the impacts on native West African ecosystems are poorly understood. Working within the framework of the Sustainable Oil Palm in West Africa (SOPWA) Project in Sinoe County, Liberia, we derived bird occurrence data using point count surveys across 54 plots in January-February 2023, spanning rainforest ('forest'), traditionally managed oil palm ('country palm'), ",
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "title_de": "Auswirkungen traditioneller und industrieller Ansätze für den Ölpalmenanbau auf die Artenvielfalt und den Schutz der Vögel in einer westafrikanischen Regenwaldlandschaft.",
+      "summary_de": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Der Abstract nennt eine Befragung. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt_de": "Die landwirtschaftliche Expansion bedroht tropische Ökosysteme weltweit. Ölpalme wird hauptsächlich in Südostasien angebaut, aber die Produktion in Westafrika (seinem heimischen Sortiment) nimmt schnell zu. Hier wird Ölpalme unter traditionellem und industriellem Management angebaut, und die Auswirkungen auf die einheimischen westafrikanischen Ökosysteme sind schlecht verstanden. Im Rahmen des Projekts \"Sustainable Oil Palm in West Africa\" (SOPWA) in Sinoe County, Liberia, haben wir anhand von Punktzahlerhebungen in 54 Parzellen im Januar bis Februar 2023 Daten zum Vorkommen von Vögeln abgeleitet, die den Regenwald (\"Wald\") und die traditionell bewirtschaftete Ölpalme (\"Landpalme\") umfassen.",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:15:16.336677+00:00"
     },
     {
       "id": "e7c46ca46e0f38927534",
@@ -850,7 +1244,14 @@
       "kind": "study",
       "study_source": "Europe PMC",
       "abstract_available": true,
-      "summary": "Die Veröffentlichung behandelt Konflikte zwischen Menschen und Wildtieren. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
+      "summary": "Die Veröffentlichung behandelt Konflikte zwischen Menschen und Wildtieren. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt": "Wild boar (Sus scrofa) intrusions in agricultural environments cause severe crop damage and economic losses and have become an increasingly prominent human-wildlife conflict. Effective wildlife monitoring is therefore essential for sustainable agricultural ecosystem management. However, wild boar detection in real-world scenarios remains challenging due to frequent occlusion and complex backgrounds. Meanwhile, edge devices deployed in farmland environments typically have limited computational resources, imposing strict requirements on lightweight model design and inference efficiency. To address these challenges, this stud",
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "title_de": "Ein leichtes Edge-basiertes Wildschweinerkennungs-Framework für Wildtierüberwachung und Entscheidungsunterstützung in Agrarökosystemen.",
+      "summary_de": "Die Veröffentlichung behandelt Konflikte zwischen Menschen und Wildtieren. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt_de": "Eindringlinge von Wildschweinen (Sus scrofa) in landwirtschaftliche Umgebungen verursachen schwere Ernteschäden und wirtschaftliche Verluste und sind zu einem zunehmend prominenten Konflikt zwischen Mensch und Tier geworden. Eine effektive Überwachung von Wildtieren ist daher für ein nachhaltiges Management landwirtschaftlicher Ökosysteme unerlässlich. Die Erkennung von Wildschweinen in realen Szenarien bleibt jedoch aufgrund häufiger Okklusionen und komplexer Hintergründe eine Herausforderung. Inzwischen verfügen Edge-Geräte, die in landwirtschaftlichen Umgebungen eingesetzt werden, typischerweise über begrenzte Rechenressourcen, die strenge Anforderungen an das leichte Modelldesign und die Inferenzeffizienz stellen. Um diese Herausforderungen anzugehen, ist dieses Gestüt",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:15:18.235503+00:00"
     },
     {
       "id": "a6ee0eaa5091671684d0",
@@ -861,7 +1262,14 @@
       "kind": "study",
       "study_source": "Europe PMC",
       "abstract_available": true,
-      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
+      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt": "Crevices and overhangs are characteristic features of historic masonry in coastal structures including seawalls, harbours and breakwaters. By providing shelter from heat and desiccation, these features may act as important refuges for colonising wildlife during prolonged periods of aerial exposure. However, unlike natural rock and modern coastal infrastructure, the thermal characteristics of historic masonry structures and their associated microhabitats have not been quantitatively assessed. Temperature logging and infrared thermography were used to compare external (exposed surface) and internal (crevice) thermal regimes ",
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "title_de": "Alt, aber cool: Historische Mauerwerksmauern bieten thermische Vorteile für Meerestiere entlang urbanisierter Küsten.",
+      "summary_de": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt_de": "Spalten und Überhänge sind charakteristische Merkmale des historischen Mauerwerks in Küstenstrukturen wie Meeresmauern, Häfen und Wellenbrechern. Durch die Bereitstellung von Schutz vor Hitze und Austrocknung können diese Merkmale als wichtige Zufluchtsorte für die Besiedlung von Wildtieren während längerer Exposition aus der Luft dienen. Im Gegensatz zu natürlichem Gestein und moderner Küsteninfrastruktur wurden die thermischen Eigenschaften historischer Mauerwerksstrukturen und der damit verbundenen Mikrohabitate jedoch nicht quantitativ bewertet. Temperaturprotokollierung und Infrarot-Thermographie wurden verwendet, um externe (exponierte Oberfläche) und interne thermische Regime zu vergleichen.",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:15:20.131730+00:00"
     },
     {
       "id": "f8f75f8e7795852e5ecd",
@@ -872,7 +1280,14 @@
       "kind": "study",
       "study_source": "Europe PMC",
       "abstract_available": true,
-      "summary": "Die Veröffentlichung behandelt Wildtier- und Naturschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
+      "summary": "Die Veröffentlichung behandelt Wildtier- und Naturschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt": "Background Crimean-Congo hemorrhagic fever (CCHF) is caused by an arthropod-borne virus, Crimean-Congo hemorrhagic fever virus (CCHFV), which can infect a wide range of species, including humans, and is endemic in domestic and wild animals in Africa. Materials and methods Sera were collected from livestock (cattle n = 423, goats n = 167), companion animals (dogs n = 152), and wild animals (impala antelope n = 182) in the Mnisi community (Mpumalanga Province, South Africa), an area characterized by frequent interactions between humans and animals susceptible to CCHFV infection. The presence of CCHFV-specifc antibodies was d",
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "title_de": "Circulation of Crimean-Congo Hemorrhagic Fever Virus at the Domestic-Wildlife Interface of the Mnisi Community, Mpumalanga Province, Südafrika.",
+      "summary_de": "Die Veröffentlichung behandelt Wildtier- und Naturschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt_de": "Das Krim-Kongo-hämorrhagische Fieber (CCHF) wird durch ein durch Arthropoden übertragenes Virus, das Krim-Kongo-hämorrhagische Fiebervirus (CCHFV), verursacht, das eine Vielzahl von Arten, einschließlich Menschen, infizieren kann und bei Haustieren und Wildtieren in Afrika endemisch ist. Materialien und Methoden Sera wurden von Nutztieren (Rinder n = 423, Ziegen n = 167), Haustieren (Hunde n = 152) und Wildtieren (Impala-Antilope n = 182) in der Mnisi-Gemeinschaft (Provinz Mpumalanga, Südafrika) gesammelt, einem Gebiet, das durch häufige Interaktionen zwischen Menschen und Tieren gekennzeichnet ist, die für CCHFV-Infektionen anfällig sind. Das Vorhandensein von CCHFV-spezifischen Antikörpern war d",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:15:22.691009+00:00"
     },
     {
       "id": "f3806b0b37f295674dd7",
@@ -883,7 +1298,14 @@
       "kind": "study",
       "study_source": "Europe PMC",
       "abstract_available": true,
-      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
+      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt": "Plastic pollution is a defining feature of the Anthropocene 1 , and microplastics are dispersed by air and water into even remote terrestrial habitats 2-7 , yet the ecological and landscape-level processes that shape microplastic accumulation in terrestrial ecosystems remain poorly understood. Human land-use change is rapidly transforming landscapes worldwide, but the influence of this expanding human footprint on the microplastic burdens in wildlife remains largely unknown. This knowledge gap is particularly pressing in regions that are facing escalating environmental pressures, such as Brazil. Here we pair in vivo microp",
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "title_de": "Menschliche Landnutzung treibt Mikroplastik Fülle in terrestrischen Wildtieren.",
+      "summary_de": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt_de": "Die Verschmutzung durch Plastik ist ein bestimmendes Merkmal des Anthropozäns 1 , und Mikroplastik wird durch Luft und Wasser in sogar abgelegene terrestrische Lebensräume 2-7 dispergiert, doch die ökologischen und landschaftlichen Prozesse, die die Anhäufung von Mikroplastik in terrestrischen Ökosystemen prägen, sind nach wie vor schlecht verstanden. Menschliche Landnutzungsänderungen verändern Landschaften weltweit rasant, aber der Einfluss dieses wachsenden menschlichen Fußabdrucks auf die Mikroplastikbelastungen in der Tierwelt ist weitgehend unbekannt. Diese Wissenslücke ist besonders in Regionen, die mit zunehmenden Umweltbelastungen konfrontiert sind, wie Brasilien, dringend. Hier paaren wir in vivo microp",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:15:24.587738+00:00"
     },
     {
       "id": "fa2600c3d794ade906cf",
@@ -894,7 +1316,14 @@
       "kind": "study",
       "study_source": "Europe PMC",
       "abstract_available": true,
-      "summary": "Die Veröffentlichung behandelt Wildtierhandel und Wilderei. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
+      "summary": "Die Veröffentlichung behandelt Wildtierhandel und Wilderei. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt": "Elephant poaching remains a major threat to African forest elephants (Loxodonta cyclotis) in the Congo Basin, driven by transnational factors such as accessibility, conflict, and weak governance. We developed a basin-wide spatial model of poaching risk using six standardized predictors: human population density, poverty, armed conflict intensity, travel time to cities, elevation, and forest canopy height. Model performance was evaluated using Proportion of Illegally Killed Elephants (PIKE) data from ten (Monitoring the Illegal Killing of Elephants) MIKE sites: Dzanga-Sangha, Bangassou, Garamba, Okapi, Salonga, Virunga, Nou",
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "title_de": "Kartierung des Wildereirisikos afrikanischer Waldelefanten im gesamten Kongobecken: Auswirkungen auf die grenzüberschreitende Naturschutzplanung.",
+      "summary_de": "Die Veröffentlichung behandelt Wildtierhandel und Wilderei. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt_de": "Elefantenwilderei ist nach wie vor eine große Bedrohung für afrikanische Waldelefanten (Loxodonta cyclotis) im Kongobecken, angetrieben von transnationalen Faktoren wie Zugänglichkeit, Konflikten und schwacher Regierungsführung. Wir entwickelten ein beckenweites räumliches Modell des Wildereirisikos unter Verwendung von sechs standardisierten Prädiktoren: Bevölkerungsdichte, Armut, Intensität bewaffneter Konflikte, Reisezeit in die Städte, Höhe und Baumkronenhöhe. Die Modellleistung wurde anhand der Daten des Anteils illegal getöteter Elefanten (PIKE) von zehn MIKE-Standorten (Monitoring the Illegal Killing of Elephants) bewertet: Dzanga-Sangha, Bangassou, Garamba, Okapi, Salonga, Virunga, Nou",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:15:26.810853+00:00"
     },
     {
       "id": "413f9924adbc50fe00cc",
@@ -903,7 +1332,11 @@
       "date": "2026-11-10T08:00:00Z",
       "summary": "More than 3,000 tarantulas seized at Peru airport in suspected wildlife trafficking operation Getaway Magazine",
       "source": "Wildtierhandel – Medien (News-Aggregation)",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "More than 3,000 tarantulas seized at Peru airport in suspected wildlife trafficking operation - Getaway Magazine",
+      "summary_de": "More than 3,000 tarantulas seized at Peru airport in suspected wildlife trafficking operation Getaway Magazine",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:15:27.255008+00:00"
     },
     {
       "id": "2445604f233ce8f96a63",
@@ -914,7 +1347,14 @@
       "kind": "study",
       "study_source": "Europe PMC",
       "abstract_available": true,
-      "summary": "Die Veröffentlichung behandelt Wildtier- und Naturschutz. Der Abstract nennt eine Befragung. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
+      "summary": "Die Veröffentlichung behandelt Wildtier- und Naturschutz. Der Abstract nennt eine Befragung. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt": "Biosecurity is widely recognized as a cornerstone of disease prevention and animal health management. Organic, extensive and small-scale farming systems face several challenges related to biosecurity that are different to more conventional farming settings. This study investigates how farmers, veterinarians and advisors across six European countries view standard biosecurity measures, their effectiveness and their relationship with animal welfare in alternative farms. On the basis of survey data from 243 respondents, we found high awareness of biosecurity but significant concerns about the practicality and suitability of s",
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "title_de": "Leben wert leben oder gesundes Leben? Die Interessenträger sind der Ansicht, dass Biosicherheit und Tierschutz in ökologischen, extensiven und kleinen Schweine- und Geflügelhaltungssystemen der EU gelten.",
+      "summary_de": "Die Veröffentlichung behandelt Wildtier- und Naturschutz. Der Abstract nennt eine Befragung. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt_de": "Biosicherheit ist weithin als Eckpfeiler der Krankheitsprävention und des Tiergesundheitsmanagements anerkannt. Ökologische, extensive und kleine landwirtschaftliche Systeme stehen vor mehreren Herausforderungen im Zusammenhang mit der Biosicherheit, die sich von konventionelleren Anbauumgebungen unterscheiden. Diese Studie untersucht, wie Landwirte, Tierärzte und Berater in sechs europäischen Ländern Standard-Biosicherheitsmaßnahmen, ihre Wirksamkeit und ihre Beziehung zum Tierschutz in alternativen Betrieben sehen. Auf der Grundlage von Umfragedaten von 243 Befragten fanden wir ein hohes Bewusstsein für Biosicherheit, aber erhebliche Bedenken hinsichtlich der Praktikabilität und Eignung von s",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:15:29.184994+00:00"
     },
     {
       "id": "655a12309d216d4cf37e",
@@ -925,7 +1365,14 @@
       "kind": "study",
       "study_source": "Europe PMC",
       "abstract_available": true,
-      "summary": "Die Veröffentlichung behandelt Wildtier- und Naturschutz. Die Autorinnen und Autoren werten laut Abstract vorhandene Forschung aus. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
+      "summary": "Die Veröffentlichung behandelt Wildtier- und Naturschutz. Die Autorinnen und Autoren werten laut Abstract vorhandene Forschung aus. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt": "Zoonotic tuberculosis (zTB), caused by animal-adapted members of the Mycobacterium tuberculosis complex (MTBC), is classically attributed to M. bovis but is increasingly linked to M. orygis across South Asia. Species-level MTBC identification is rarely performed in low- and middle-income countries (LMICs), leaving the zTB burden poorly defined. Bangladesh has endemic bovine tuberculosis, a growing dairy sector, unpasteurised-milk consumption, and expanding captive wildlife collections, yet the evidence has not been synthesised by diagnostic reliability. This systematic evidence map aimed to collate the evidence on zTB in B",
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "title_de": "Zoonotische Tuberkulose an der Schnittstelle zwischen Vieh und Mensch in Gefangenschaft in Bangladesch: Eine systematische Evidenzkarte.",
+      "summary_de": "Die Veröffentlichung behandelt Wildtier- und Naturschutz. Die Autorinnen und Autoren werten laut Abstract vorhandene Forschung aus. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt_de": "Zoonotische Tuberkulose (zTB), verursacht durch tieradaptierte Mitglieder des Mycobacterium tuberculosis complex (MTBC), wird klassisch M. bovis zugeschrieben, wird aber zunehmend mit M. orygis in Südasien in Verbindung gebracht. MTBC-Identifizierung auf Artenebene wird in Ländern mit niedrigem und mittlerem Einkommen (LMICs) selten durchgeführt, so dass die Belastung durch zTB schlecht definiert ist. Bangladesch hat endemische Rindertuberkulose, einen wachsenden Milchsektor, den Verbrauch von nicht pasteurisierter Milch und die Ausweitung der Sammlungen in Gefangenschaft, aber die Beweise wurden nicht durch diagnostische Zuverlässigkeit synthetisiert. Diese systematische Evidenzkarte zielte darauf ab, die Beweise für zTB in B zu sammeln",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:15:31.357631+00:00"
     },
     {
       "id": "c8f05c6f6ffa6693b589",
@@ -934,7 +1381,11 @@
       "date": "2026-11-09T08:00:00Z",
       "summary": "Artenschutz wirkt: Living Planet Report 2026 macht Hoffnung Good News Magazin",
       "source": "Deutschland – Wildtiere (News-Aggregation)",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Artenschutz wirkt: Living Planet Report 2026 macht Hoffnung - Good News Magazin",
+      "summary_de": "Artenschutz wirkt: Living Planet Report 2026 macht Hoffnung Good News Magazin",
+      "translation_status": "original",
+      "translated_at": "2026-11-23T15:15:31.357655+00:00"
     },
     {
       "id": "1a9b28fcd7bf9d3cfe61",
@@ -945,7 +1396,14 @@
       "kind": "study",
       "study_source": "Europe PMC",
       "abstract_available": true,
-      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
+      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt": "Assisted reproductive technologies (ART) provide opportunities for conservation of endangered wildlife, but their use is still limited by species-specific reproductive physiology, variable gamete competence, cryoinjury, and lack of validation of new approaches. This narrative review covers ART, biobanking, somatic cell nuclear transfer (SCNT), induced pluripotent stem cells (iPSCs), in vitro gametogenesis (IVG) and conservation genomics in vertebrates. Key molecular barriers include oxidative and mitochondrial damage, aberrant embryonic genome activation, incomplete epigenetic reprogramming, nuclear-mitochondrial incompati",
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "title_de": "Integrating Assisted Reproductive Technologies, Biobanking und Genomic Rescue for Endangered Wildlife: A Vertebrate-Focused Review.",
+      "summary_de": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt_de": "Assistierte Reproduktionstechnologien (ART) bieten Möglichkeiten zur Erhaltung gefährdeter Wildtiere, aber ihre Verwendung ist immer noch durch artspezifische Reproduktionsphysiologie, variable Gametenkompetenz, Kryoinjury und mangelnde Validierung neuer Ansätze begrenzt. Diese Erzählung umfasst ART, Biobanking, somatischen Zellkerntransfer (SCNT), induzierte pluripotente Stammzellen (iPSC), In-vitro-Gametogenese (IVG) und Erhaltungsgenomik bei Wirbeltieren. Zu den wichtigsten molekularen Barrieren gehören oxidative und mitochondriale Schäden, abnorme embryonale Genomaktivierung, unvollständige epigenetische Reprogrammierung, nuklear-mitochondriale Inkompati",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:15:33.487143+00:00"
     },
     {
       "id": "4b5ae3c8810b32f3c087",
@@ -956,7 +1414,14 @@
       "kind": "study",
       "study_source": "Europe PMC",
       "abstract_available": true,
-      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
+      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt": "Wildlife-vehicle collisions (WVCs) represent a global challenge for human safety and biodiversity conservation. This study investigates the environmental and road characteristics that influence WVC risk, using the province of Parma (Northern Italy) as a representative case study. We analysed 693 collision events recorded between 2013 and 2018, most of which involving roe deer (Capreolus capreolus, 86%) and wild boar (Sus scrofa, 10%). Spatial and temporal analysis revealed how collisions are not randomly distributed, peaking on busy major roads where high average speeds coincide with fragmented landscapes. Higher collision",
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "title_de": "Sollten wir Kollisions-Hotspots von Wildtieren und Fahrzeugen anhand von Straßen- und Landschaftsmerkmalen vorhersagen?",
+      "summary_de": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt_de": "Kollisionen von Wildtieren mit Fahrzeugen (WVC) stellen eine globale Herausforderung für die Sicherheit des Menschen und den Erhalt der biologischen Vielfalt dar. Diese Studie untersucht die Umwelt- und Straßenmerkmale, die das WVC-Risiko beeinflussen, und verwendet die Provinz Parma (Norditalien) als repräsentative Fallstudie. Wir analysierten 693 Kollisionsereignisse, die zwischen 2013 und 2018 aufgezeichnet wurden, von denen die meisten Rogen (Capreolus capreolus, 86%) und Wildschweine (Sus scrofa, 10%) betrafen. Die räumliche und zeitliche Analyse ergab, dass Kollisionen nicht zufällig verteilt sind und ihren Höhepunkt auf stark frequentierten Hauptstraßen erreichen, wo hohe Durchschnittsgeschwindigkeiten mit fragmentierten Landschaften übereinstimmen. Höhere Kollision",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:15:35.559606+00:00"
     },
     {
       "id": "c955aded12c2b0002c83",
@@ -965,7 +1430,11 @@
       "date": "2026-11-08T15:00:43Z",
       "summary": "Lesson for teenagers included how cattle’s methane emissions contribute to climate crisis, but it was then scrapped A beef industry-funded effort to teach teenagers about cattle’s climate impact was quietly scrapped following backlash from some…",
       "source": "The Guardian – Environment",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Rindfleischindustrie quetscht leise einen Teil ihres eigenen wissenschaftlichen Lehrplans, nachdem Viehzüchter protestiert haben",
+      "summary_de": "Die Lektion für Jugendliche beinhaltete, wie die Methanemissionen von Rindern zur Klimakrise beitragen, aber es wurde dann verschrottet Eine von der Rindfleischindustrie finanzierte Anstrengung, Teenager über die Klimaauswirkungen von Rindern zu unterrichten, wurde leise verschrottet, nachdem einige...",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:15:36.435978+00:00"
     },
     {
       "id": "9ab20c4ad23c3c156a77",
@@ -976,7 +1445,14 @@
       "kind": "study",
       "study_source": "Europe PMC",
       "abstract_available": true,
-      "summary": "Die Veröffentlichung behandelt Wildtier- und Naturschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
+      "summary": "Die Veröffentlichung behandelt Wildtier- und Naturschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt": "Despite extensive bushmeat consumption in Ghana, data on tick-borne zoonotic risks remain limited. This study investigated ticks collected from wildlife carcasses at the Atwemonom Bushmeat Market in Kumasi from April 2020 to April 2021 to assess the presence of zoonotic pathogens. Ticks were morphologically identified using standard taxonomic keys and screened for selected bacterial pathogens using PCR and Sanger sequencing. A total of 211 ticks were recovered from the 46 wildlife carcasses, with Ixodes aulacodi (49.76%) as the predominant species. Ticks were pooled (total pools = 94) by species and host; pool sizes ranged",
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "title_de": "Molecular Detection of Spotted Fever Group <i>Rickettsia</i> in Ticks, die von Wildtierkadavern auf einem Buschfleischmarkt in Ghana gesammelt wurden.",
+      "summary_de": "Die Veröffentlichung behandelt Wildtier- und Naturschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt_de": "Despite extensive bushmeat consumption in Ghana, data on tick-borne zoonotic risks remain limited. This study investigated ticks collected from wildlife carcasses at the Atwemonom Bushmeat Market in Kumasi from April 2020 to April 2021 to assess the presence of zoonotic pathogens. Ticks were morphologically identified using standard taxonomic keys and screened for selected bacterial pathogens using PCR and Sanger sequencing. A total of 211 ticks were recovered from the 46 wildlife carcasses, with Ixodes aulacodi (49.76%) as the predominant species. Ticks were pooled (total pools = 94) by species and host; pool sizes ranged",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:15:38.929151+00:00"
     },
     {
       "id": "de28ab3e40f9e008a4a4",
@@ -987,7 +1463,14 @@
       "kind": "study",
       "study_source": "Europe PMC",
       "abstract_available": true,
-      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Autorinnen und Autoren werten laut Abstract vorhandene Forschung aus. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
+      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Autorinnen und Autoren werten laut Abstract vorhandene Forschung aus. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt": "As systematic reviews on the effects of anthropogenic noise on wildlife increasingly inform policy, a critical evaluation of this secondary evidence is essential. We assessed the scope, quality, and policy attention of existing syntheses in this field. Following a preregistered protocol, we conducted a systematic search in Scopus, Web of Science, and Google Scholar, identifying 50 syntheses (systematic reviews, maps, and meta-analyses). We included all 50 syntheses in the systematic map, critical appraisal, and policy-attention analysis, and found that 23 had received policy citations. We included 47 syntheses in the bibli",
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "title_de": "Eine systematische Karte von Synthesen über anthropogene Lärmauswirkungen auf Wildtiere: Evidenzlücken, politische Aufmerksamkeit und Qualitätsbewertung.",
+      "summary_de": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Autorinnen und Autoren werten laut Abstract vorhandene Forschung aus. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt_de": "Da systematische Überprüfungen der Auswirkungen von anthropogenem Lärm auf Wildtiere zunehmend die Politik informieren, ist eine kritische Bewertung dieser sekundären Beweise unerlässlich. Wir haben den Umfang, die Qualität und die politische Aufmerksamkeit bestehender Synthesen in diesem Bereich bewertet. Nach einem vorregistrierten Protokoll führten wir eine systematische Suche in Scopus, Web of Science und Google Scholar durch und identifizierten 50 Synthesen (systematische Reviews, Karten und Meta-Analysen). Wir haben alle 50 Synthesen in die systematische Karte, kritische Bewertung und politische Aufmerksamkeitsanalyse aufgenommen und festgestellt, dass 23 politische Zitate erhalten hatten. Wir haben 47 Synthesen in das bibli aufgenommen",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:15:40.922677+00:00"
     },
     {
       "id": "5d6775e0a5f442c08fa4",
@@ -996,7 +1479,11 @@
       "date": "2026-11-06T08:00:00Z",
       "summary": "Walhaie als Touristenmagnet: Indonesiens Ringen um den Artenschutz DIE ZEIT",
       "source": "Deutschland – Wildtiere (News-Aggregation)",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Walhaie als Touristenmagnet: Indonesiens Ringen um den Artenschutz - DIE ZEIT",
+      "summary_de": "Walhaie als Touristenmagnet: Indonesiens Ringen um den Artenschutz DIE ZEIT",
+      "translation_status": "original",
+      "translated_at": "2026-11-23T15:15:40.922700+00:00"
     },
     {
       "id": "5dbe647a3984712261de",
@@ -1005,7 +1492,11 @@
       "date": "2026-11-05T23:21:00Z",
       "summary": "Montana bighorn sheep case shows why wildlife trafficking laws matter KTBS 3",
       "source": "Wildtierhandel – Medien (News-Aggregation)",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Montana Bighorn Schaf Fall zeigt, warum Wildtierhandel Gesetze wichtig - KTBS 3",
+      "summary_de": "Montana Bighorn Schafe Fall zeigt, warum Wildtierhandel Gesetze wichtig KTBS 3",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:15:41.332427+00:00"
     },
     {
       "id": "8c8b795bdb2d0d117a84",
@@ -1014,7 +1505,11 @@
       "date": "2026-11-05T08:00:00Z",
       "summary": "Montana bighorn sheep case shows why wildlife trafficking laws matter Nonstop Local News Montana",
       "source": "Wildtierhandel – Medien (News-Aggregation)",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Montana Bighorn Schaf Fall zeigt, warum Wildtierhandel Gesetze wichtig - Nonstop Local News Montana",
+      "summary_de": "Montana Bighorn Schafe Fall zeigt, warum Wildtierhandel Gesetze wichtig sind Nonstop Lokale Nachrichten Montana",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:15:41.770029+00:00"
     },
     {
       "id": "bfe0edf9be984e53f9ea",
@@ -1025,7 +1520,14 @@
       "kind": "study",
       "study_source": "Europe PMC",
       "abstract_available": true,
-      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
+      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt": "Mounting evidence of nature degradation has led governmental and non-governmental actors to put pressure on companies to address their impact on biodiversity, as their economic value creation contributes directly or indirectly to biodiversity loss. However, designing effective mitigation measures requires acknowledging the complex interplay of political, social, and economic constraints that shape corporate decision-making. We elucidate how a paradox perspective provides a productive way of understanding corporate biodiversity engagement, or the absence thereof. Specifically, we illuminate how corporate biodiversity engage",
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "title_de": "Verschachtelte Paradoxien darüber, wie Biodiversität das Geschäft einschränkt: Warum Biodiversitätsschutz paradoxes Denken erfordert.",
+      "summary_de": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt_de": "Zunehmende Beweise für Naturzerstörung haben staatliche und nichtstaatliche Akteure dazu veranlasst, Druck auf Unternehmen auszuüben, um ihre Auswirkungen auf die biologische Vielfalt anzugehen, da ihre wirtschaftliche Wertschöpfung direkt oder indirekt zum Verlust der biologischen Vielfalt beiträgt. Um wirksame Minderungsmaßnahmen zu entwickeln, muss jedoch das komplexe Zusammenspiel politischer, sozialer und wirtschaftlicher Zwänge anerkannt werden, die die Entscheidungsfindung von Unternehmen beeinflussen. Wir erklären, wie eine paradoxe Perspektive eine produktive Möglichkeit bietet, das Engagement von Unternehmen für Biodiversität oder deren Abwesenheit zu verstehen. Konkret beleuchten wir, wie sich die Biodiversität von Unternehmen engagiert",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:15:43.653360+00:00"
     },
     {
       "id": "393e2c76c279093a8c6e",
@@ -1036,7 +1538,14 @@
       "kind": "study",
       "study_source": "Europe PMC",
       "abstract_available": true,
-      "summary": "Die Veröffentlichung behandelt Meeressäuger und ihren Schutz. Der Abstract nennt eine Befragung. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
+      "summary": "Die Veröffentlichung behandelt Meeressäuger und ihren Schutz. Der Abstract nennt eine Befragung. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt": "Understanding how prey dynamics influence the spatial ecology of vulnerable marine predators is crucial for conservation management, particularly for highly selective species with narrow trophic niches. The Rice's whale (Balaenoptera ricei) is listed as Critically Endangered on the IUCN Red List of Threatened Species and Endangered under the US Endangered Species Act. It is the only baleen whale species endemic to the Gulf of America with its known habitat restricted to the outer continental shelf and shelf-break waters. Although the distribution of Rice's whales has been linked to abiotic conditions, the influence of prey",
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "title_de": "Einfluss der Beutedynamik auf die räumliche Verteilung eines Ballenwals (Balaenoptera ricei) in einem oligotrophen marinen Ökosystem.",
+      "summary_de": "Die Veröffentlichung behandelt Meeressäuger und ihren Schutz. Der Abstract nennt eine Befragung. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt_de": "Zu verstehen, wie die Beutedynamik die räumliche Ökologie empfindlicher Meeresräuber beeinflusst, ist für das Naturschutzmanagement von entscheidender Bedeutung, insbesondere für hochselektive Arten mit engen trophischen Nischen. Der Reiswal (Balaenoptera ricei) ist auf der Roten Liste der bedrohten Arten der IUCN als kritisch gefährdet aufgeführt und nach dem US Endangered Species Act gefährdet. Es ist die einzige im Golf von Amerika endemische Bartenwalart, deren bekannter Lebensraum auf das äußere Festlandsockel und die schelfbrechenden Gewässer beschränkt ist. Obwohl die Verteilung von Reiswalen mit abiotischen Bedingungen verbunden ist, ist der Einfluss der Beute",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:15:45.726788+00:00"
     },
     {
       "id": "879b7b9b9fae2d94e43b",
@@ -1047,7 +1556,14 @@
       "kind": "study",
       "study_source": "Europe PMC",
       "abstract_available": true,
-      "summary": "Die Veröffentlichung behandelt Wildtier- und Naturschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
+      "summary": "Die Veröffentlichung behandelt Wildtier- und Naturschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt": "Interfaces among humans, wildlife and domestic animals represent critical hotspots for the emergence and spread of infectious agents. The gray wolf ( Canis lupus ) and the golden jackal ( Canis aureus ) are expanding wild canid populations in Italy, whose increasing overlap with anthropized environments may facilitate pathogen transmission. This study investigated mammalian orthoreovirus (MRV), rotavirus A (RVA), canine coronavirus (CCoV), canine parvovirus (CPV2) and feline parvovirus (FPV) in wild canids from north-eastern Italy. The 101 carcasses (83 gray wolves and 18 golden jackals) obtained through passive wildlife s",
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "title_de": "Wildlife Surveillance in North-Eastern Italy: Diagnostische Einblicke und Viral Detection in Grauen Wölfen und Goldenen Schakalen.",
+      "summary_de": "Die Veröffentlichung behandelt Wildtier- und Naturschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt_de": "Schnittstellen zwischen Menschen, Wildtieren und Haustieren stellen kritische Hotspots für die Entstehung und Verbreitung von Infektionserregern dar. Der graue Wolf (Canis lupus) und der goldene Schakal (Canis aureus) erweitern wilde Canidenpopulationen in Italien, deren zunehmende Überlappung mit anthropisierten Umgebungen die Übertragung von Krankheitserregern erleichtern kann. Diese Studie untersuchte Säugetierorthoreovirus (MRV), Rotavirus A (RVA), Canine Coronavirus (CCoV), Canine Parvovirus (CPV2) und Feline Parvovirus (FPV) in Wildkaninen aus Nordostitalien. Die 101 Kadaver (83 graue Wölfe und 18 goldene Schakale) wurden durch passive Wildtiere gewonnen",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:15:48.000337+00:00"
     },
     {
       "id": "217cba64d2809538d4ed",
@@ -1056,7 +1572,11 @@
       "date": "2026-11-04T08:00:00Z",
       "summary": "Artenschutz - UNO-Biodiversitätskonferenz in Eriwan beendet; Ecuador nächster Austragungsort Deutschlandfunk",
       "source": "Deutschland – Wildtiere (News-Aggregation)",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Artenschutz - UNO-Biodiversitätskonferenz in Eriwan beendet; Ecuador nächster Austragungsort - Deutschlandfunk",
+      "summary_de": "Artenschutz - UNO-Biodiversitätskonferenz in Eriwan beendet; Ecuador nächster Austragungsort Deutschlandfunk",
+      "translation_status": "original",
+      "translated_at": "2026-11-23T15:15:48.000360+00:00"
     },
     {
       "id": "9fe12c069a3f53c57a3f",
@@ -1067,7 +1587,14 @@
       "kind": "study",
       "study_source": "Europe PMC",
       "abstract_available": true,
-      "summary": "Die Veröffentlichung behandelt bedrohte Groß- und Wildtiere. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
+      "summary": "Die Veröffentlichung behandelt bedrohte Groß- und Wildtiere. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt": "Pangolins are among the world's most trafficked and endangered mammals, yet their exposure to emerging organic contaminants (EOCs) remains largely uncharacterized. Their keratinous scales represent an untapped matrix for potentially non-invasive biomonitoring. This study developed and validated a modified QuEChERS-based extraction coupled with liquid chromatography-quadrupole time-of-flight mass spectrometry (LC-QTOF/MS) for suspect screening and targeted quantification of EOCs in pangolin scales. The workflow was applied to scales collected from 18 deceased wild Formosan pangolins (Manis pentadactyla pentadactyla) with an",
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "title_de": "Pangolin skaliert als potenzielle retrospektive Biomonitoring-Matrix für umwelt- und rettungsbedingte chemische Expositionen in gefährdeten Wildtieren.",
+      "summary_de": "Die Veröffentlichung behandelt bedrohte Groß- und Wildtiere. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt_de": "Pangolinen gehören zu den am häufigsten gehandelten und vom Aussterben bedrohten Säugetieren der Welt, doch ihre Exposition gegenüber neu auftretenden organischen Kontaminanten (EOC) bleibt weitgehend unbekannt. Ihre Keratin-Skalen stellen eine unerschlossene Matrix für potenziell nicht-invasives Biomonitoring dar. Diese Studie entwickelte und validierte eine modifizierte QuEChERS-basierte Extraktion in Verbindung mit Flüssigchromatographie-Quadrupol-Zeit-of-Flugmassenspektrometrie (LC-QTOF/MS) für das verdächtige Screening und die gezielte Quantifizierung von EOC im Pangolin-Skala. Der Workflow wurde auf Waagen angewendet, die von 18 verstorbenen wilden Formosanpangolinen (Manis pentadactyla pentadactyla) mit einem",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:15:50.445166+00:00"
     },
     {
       "id": "392813e0ed69c00d4f80",
@@ -1076,7 +1603,11 @@
       "date": "2026-11-03T08:00:00Z",
       "summary": "Montana man fined $20,000 in wildlife trafficking case involving bighorn sheep NBC Montana",
       "source": "Wildtierhandel – Medien (News-Aggregation)",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Montana man fined $20,000 in wildlife trafficking case involving bighorn sheep - NBC Montana",
+      "summary_de": "Montana man fined $20,000 in wildlife trafficking case involving bighorn sheep NBC Montana",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:15:50.939118+00:00"
     },
     {
       "id": "666fcee10d20d4a59ab7",
@@ -1085,7 +1616,11 @@
       "date": "2026-11-03T08:00:00Z",
       "summary": "ODPP warns wildlife trafficking is fuelling transnational organised crime Capital FM Africa",
       "source": "Wildtierhandel – Medien (News-Aggregation)",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "ODPP warnt davor, dass der Wildtierhandel die transnationale organisierte Kriminalität anheizt - Capital FM Africa",
+      "summary_de": "ODPP warnt davor, dass der Wildtierhandel die transnationale organisierte Kriminalität anheizt Kapital FM Afrika",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:15:51.414806+00:00"
     },
     {
       "id": "498f1dc6971c0ba4395a",
@@ -1094,7 +1629,11 @@
       "date": "2026-11-02T18:42:25Z",
       "summary": "Hidden in plain sight: the role of women in the illegal wildlife trade United Nations Office on Drugs and Crime",
       "source": "Wildtierhandel – Medien (News-Aggregation)",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Verborgen in Sichtweite: Die Rolle der Frauen im illegalen Handel mit Wildtieren - Büro der Vereinten Nationen für Drogen- und Verbrechensbekämpfung",
+      "summary_de": "Verborgen in Sichtweite: Die Rolle der Frauen im illegalen Wildtierhandel Büro der Vereinten Nationen für Drogen und Kriminalität",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:15:51.961907+00:00"
     },
     {
       "id": "999d48a3bcd1a8a92195",
@@ -1103,7 +1642,11 @@
       "date": "2026-11-02T08:00:00Z",
       "summary": "Das hat die COP17-Konferenz für den Artenschutz gebracht SWR",
       "source": "Deutschland – Wildtiere (News-Aggregation)",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Das hat die COP17-Konferenz für den Artenschutz gebracht - SWR",
+      "summary_de": "Das hat die COP17-Konferenz für den Artenschutz gebracht SWR",
+      "translation_status": "original",
+      "translated_at": "2026-11-23T15:15:51.961931+00:00"
     },
     {
       "id": "ece7c82d2ccbfab5759a",
@@ -1112,7 +1655,11 @@
       "date": "2026-11-02T08:00:00Z",
       "summary": "Fortschritte beim Artenschutz, Nachfrage nach E-Autos Good News Magazin",
       "source": "Deutschland – Wildtiere (News-Aggregation)",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Fortschritte beim Artenschutz, Nachfrage nach E-Autos - Good News Magazin",
+      "summary_de": "Fortschritte beim Artenschutz, Nachfrage nach E-Autos Good News Magazin",
+      "translation_status": "original",
+      "translated_at": "2026-11-23T15:15:51.961936+00:00"
     },
     {
       "id": "47940d2ec7b92375ea9f",
@@ -1121,7 +1668,11 @@
       "date": "2026-11-01T16:22:44Z",
       "summary": "Brazil Wildlife Trafficking Exposes the Ugly Price of the Perfect Exotic Pet LatinAmerican Post",
       "source": "Wildtierhandel – Medien (News-Aggregation)",
-      "kind": "media"
+      "kind": "media",
+      "title_de": "Brasilien Wildlife Trafficking enthüllt den hässlichen Preis des perfekten exotischen Haustieres - LatinAmerican Post",
+      "summary_de": "Brasilien Wildlife Trafficking enthüllt den hässlichen Preis des perfekten exotischen Haustieres LatinAmerican Post",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:15:52.361792+00:00"
     },
     {
       "id": "2226a492ce53cbdd28d4",
@@ -1132,7 +1683,14 @@
       "kind": "study",
       "study_source": "Europe PMC",
       "abstract_available": true,
-      "summary": "Die Veröffentlichung behandelt Konflikte zwischen Menschen und Wildtieren. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
+      "summary": "Die Veröffentlichung behandelt Konflikte zwischen Menschen und Wildtieren. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt": "The Current Biology primer on Human-wildlife conflict by Kaitlyn Gaynor and Jennifer Green 1 has many strengths. We agree with much of the content but highlight omissions of some important alternative hypotheses and worldviews. We call attention to a worldview that individual non-humans deserve consideration neglected in the primer. Also, we call attention to omissions of alternative hypotheses and fore-grounding a non-leading hypothesis about tolerance for wildlife. The improvements to the primer we suggest would enhance the inclusivity of work on human-wildlife conflicts and also recognize the plurality of the scientific",
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "title_de": "Primer auf Mensch-Wildtier-Konflikt verfehlt das volle Bild.",
+      "summary_de": "Die Veröffentlichung behandelt Konflikte zwischen Menschen und Wildtieren. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt_de": "Die aktuelle Biologie-Primer auf Mensch-Wildtier-Konflikt von Kaitlyn Gaynor und Jennifer Green 1 hat viele Stärken. Wir stimmen einem Großteil des Inhalts zu, heben jedoch Auslassungen einiger wichtiger alternativer Hypothesen und Weltanschauungen hervor. Wir machen auf eine Weltanschauung aufmerksam, dass einzelne Nicht-Menschen es verdienen, in der Grundierung vernachlässigt zu werden. Außerdem machen wir auf Auslassungen alternativer Hypothesen aufmerksam und stellen eine nicht führende Hypothese über die Toleranz gegenüber Wildtieren in den Vordergrund. Die von uns vorgeschlagenen Verbesserungen der Grundierung würden die Inklusivität der Arbeit zu Konflikten zwischen Mensch und Tierwelt verbessern und auch die Pluralität der wissenschaftlichen",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:15:54.308160+00:00"
     },
     {
       "id": "3bc0759c528697540625",
@@ -1143,7 +1701,9 @@
       "kind": "study",
       "study_source": "Europe PMC",
       "abstract_available": true,
-      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
+      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt": "The restoration of degraded ecosystems is critical for mitigating climate change and reversing biodiversity loss. Depending on the primary objective-such as maximizing carbon sequestration or protecting threatened species-and within the boundaries of budget limitations, different spatial priorities have been identified at global and regional scales. Funding mechanisms to support such work comprise public sources, philanthropy, and the private sector, including the sale of carbon and biodiversity credits. However, effectively exploring trade-offs among restoration objectives and estimating the price of biodiversity and carb",
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung."
     },
     {
       "id": "7b9f97e584bdf4f3ccce",
@@ -1154,7 +1714,9 @@
       "kind": "study",
       "study_source": "Europe PMC",
       "abstract_available": true,
-      "summary": "Die Veröffentlichung behandelt Wildtier- und Naturschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
+      "summary": "Die Veröffentlichung behandelt Wildtier- und Naturschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt": "Background Cryptosporidium spp. and Giardia duodenalis are important parasitic protozoa infecting humans and a wide range of animal species. Some species and assemblages have zoonotic potential and pose health risks to both humans and animals. Objectives This study aimed to molecularly detect and characterize Cryptosporidium spp. and G. duodenalis and assess their zoonotic potential in pigs, cattle, cats and wildlife. Materials and methods Nested PCR and sequence analyses of the small subunit ribosomal RNA (ssu rRNA) gene for Cryptosporidium spp. and ssu rRNA, β-giardin (bg), glutamate dehydrogenase (gdh) and triosephospha",
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung."
     },
     {
       "id": "8e3a0b9ecea0b11a3b90",
@@ -1192,7 +1754,9 @@
       "kind": "study",
       "study_source": "Europe PMC",
       "abstract_available": true,
-      "summary": "Die Veröffentlichung behandelt bedrohte Groß- und Wildtiere. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
+      "summary": "Die Veröffentlichung behandelt bedrohte Groß- und Wildtiere. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt": "Steatocystoma multiplex is characterised by skin-coloured papules and nodules over various parts of body. Hidradenitis suppurativa is a chronic inflammatory disorder characterised by nodules, discharging sinuses and scarring. Aquagenic keratoderma is characterised by thickened skin of palms and soles with white translucent papules which increases on water exposure. A 28-year-old male presented with progressively increasing asymptomatic yellowish papules and nodules without punctum or discharge over his face for 10 years. He also developed recurrent painful nodules with discharging sinuses and puckering of skin over bilater",
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung."
     },
     {
       "id": "856ae59d5fe26be8122b",
@@ -1230,7 +1794,12 @@
       "kind": "study",
       "study_source": "Kuratiertes Fachliteraturarchiv",
       "abstract_available": true,
-      "summary": "Die Veröffentlichung untersucht, wie sich Schifffahrtsrouten unter mehreren Zielgrößen so planen lassen, dass Kollisionen mit Walen reduziert werden können. Zur wissenschaftlichen Bewertung bitte die Originalveröffentlichung heranziehen."
+      "summary": "Die Veröffentlichung untersucht, wie sich Schifffahrtsrouten unter mehreren Zielgrößen so planen lassen, dass Kollisionen mit Walen reduziert werden können. Zur wissenschaftlichen Bewertung bitte die Originalveröffentlichung heranziehen.",
+      "extended_summary": [
+        "Forschungsfrage: Wie können Schifffahrtsrouten so angepasst werden, dass das Risiko von Schiffskollisionen mit Walen sinkt, ohne andere Navigationsziele außer Acht zu lassen?",
+        "Vorgehen: Die Arbeit betrachtet die Streckenplanung als Optimierungsproblem mit mehreren Zielen. Dabei wird berücksichtigt, wo Wale vorkommen und wo Schiffe voraussichtlich fahren.",
+        "Einordnung: Die Resultate können bei der Bewertung von Schifffahrtskorridoren helfen. Ob sich ein vorgeschlagener Verlauf praktisch umsetzen lässt, muss mit den zuständigen Behörden und der Schifffahrt geprüft werden."
+      ]
     },
     {
       "id": "06d4f55556b12a2dafdd",
@@ -1502,7 +2071,9 @@
       "kind": "study",
       "study_source": "Europe PMC",
       "abstract_available": true,
-      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Der Abstract nennt eine Befragung. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
+      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Der Abstract nennt eine Befragung. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt": "Considering agriculture's significant contribution to the environmental crisis, farmers play a crucial role in conservation. It is thus important to explore the drivers motivating them towards sustainable practices. Farmer-scientist collaboration is a promising tool to promote pro-environmental practices, yet empirical evidence on the outcomes of such collaborations remains sparse. In this study, we aim to assess the association between a long-term scientist-farmer collaboration and farmers' attitudes and behaviors towards conservation science and the environment. Using three consecutive annual surveys and a longitudinal s",
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung."
     },
     {
       "id": "2ebfa5b83f88ccf21ef6",
@@ -1981,7 +2552,12 @@
       "kind": "study",
       "study_source": "Kuratiertes Fachliteraturarchiv",
       "abstract_available": true,
-      "summary": "Die Arbeit modelliert mögliche künftige Mensch-Elefant-Konflikte in einer grenzüberschreitenden afrikanischen Landschaft unter veränderten Landnutzungsbedingungen. Zur wissenschaftlichen Bewertung bitte die Originalveröffentlichung heranziehen."
+      "summary": "Die Arbeit modelliert mögliche künftige Mensch-Elefant-Konflikte in einer grenzüberschreitenden afrikanischen Landschaft unter veränderten Landnutzungsbedingungen. Zur wissenschaftlichen Bewertung bitte die Originalveröffentlichung heranziehen.",
+      "extended_summary": [
+        "Forschungsfrage: Wie verändern menschliche Nutzung, Bevölkerungsentwicklung und Klimafaktoren das Risiko von Mensch-Elefant-Konflikten bis 2085?",
+        "Vorgehen: Die Autorinnen und Autoren verknüpfen Konfliktaufzeichnungen aus einer grenzüberschreitenden Landschaft im südlichen Afrika mit räumlichen Daten und Zukunftsszenarien.",
+        "Einordnung: Laut Studie spielen unter anderem die Ausweitung von Ackerflächen, Bevölkerungswachstum und zunehmende Trockenheit eine wichtige Rolle. Die Projektionen sind keine Vorhersage einzelner Konflikte."
+      ]
     },
     {
       "id": "5e6a2eb15c9412692a28",
@@ -1992,7 +2568,12 @@
       "kind": "study",
       "study_source": "Kuratiertes Fachliteraturarchiv",
       "abstract_available": true,
-      "summary": "Die Studie untersucht Kollisionsrisiken für Finnwale im Nordostatlantik und simuliert unterschiedliche Möglichkeiten, diese Risiken zu verringern. Zur wissenschaftlichen Bewertung bitte die Originalveröffentlichung heranziehen."
+      "summary": "Die Studie untersucht Kollisionsrisiken für Finnwale im Nordostatlantik und simuliert unterschiedliche Möglichkeiten, diese Risiken zu verringern. Zur wissenschaftlichen Bewertung bitte die Originalveröffentlichung heranziehen.",
+      "extended_summary": [
+        "Forschungsfrage: Wo treten im Nordostatlantik besonders hohe Risiken für Kollisionen zwischen Finnwalen und Schiffen auf?",
+        "Vorgehen: Die Veröffentlichung identifiziert räumliche Risikoschwerpunkte und vergleicht modellierte Möglichkeiten, das Kollisionsrisiko zu verringern.",
+        "Einordnung: Für die Pressearbeit wäre die Verbindung von Meeresarten-Schutz und konkreten Schifffahrtsmaßnahmen relevant. Regionale Übertragbarkeit und Modellannahmen müssen im Original geprüft werden."
+      ]
     },
     {
       "id": "8ee99df671227bd8b0ba",
@@ -2003,7 +2584,12 @@
       "kind": "study",
       "study_source": "Kuratiertes Fachliteraturarchiv",
       "abstract_available": true,
-      "summary": "Die Studie analysiert Veränderungen im internationalen illegalen Wildtierhandel zwischen 2000 und 2022 und nutzt dafür Handelsdaten sowie Netzwerkanalysen. Zur wissenschaftlichen Bewertung bitte die Originalveröffentlichung heranziehen."
+      "summary": "Die Studie analysiert Veränderungen im internationalen illegalen Wildtierhandel zwischen 2000 und 2022 und nutzt dafür Handelsdaten sowie Netzwerkanalysen. Zur wissenschaftlichen Bewertung bitte die Originalveröffentlichung heranziehen.",
+      "extended_summary": [
+        "Forschungsfrage: Wie hat sich das internationale Netzwerk des illegalen Wildtierhandels zwischen 2000 und 2022 verändert?",
+        "Vorgehen: Das Forschungsteam nutzt Daten des Wildlife Trade Portal von TRAFFIC, Daten über legalen Handel aus der CITES-Datenbank als Vergleichsmaßstab sowie Netzwerkanalysen. Untersucht werden Veränderungen bei Handelsbeziehungen und der Rolle einzelner Länder.",
+        "Einordnung: Die Studie betrachtet dokumentierte Handelsdaten, nicht den gesamten unentdeckten illegalen Handel. Meldeverhalten und Datenlücken können die Ergebnisse beeinflussen. Die Originalstudie muss vor einer Pressemitteilung für konkrete Länderangaben und Zahlen geprüft werden."
+      ]
     },
     {
       "id": "5d44d0a1f12529db7c01",
@@ -2014,7 +2600,12 @@
       "kind": "study",
       "study_source": "Kuratiertes Fachliteraturarchiv",
       "abstract_available": true,
-      "summary": "Die Veröffentlichung beschreibt einen Ansatz zur Verringerung von Mensch-Elefant-Konflikten, der automatisierte Warnungen mit schnellen Einsätzen vor Ort kombiniert. Zur wissenschaftlichen Bewertung bitte die Originalveröffentlichung heranziehen."
+      "summary": "Die Veröffentlichung beschreibt einen Ansatz zur Verringerung von Mensch-Elefant-Konflikten, der automatisierte Warnungen mit schnellen Einsätzen vor Ort kombiniert. Zur wissenschaftlichen Bewertung bitte die Originalveröffentlichung heranziehen.",
+      "extended_summary": [
+        "Forschungsfrage: Können KI-Kameras und schnelle Warnmeldungen helfen, gefährliche Begegnungen zwischen Menschen und Elefanten zu verhindern?",
+        "Vorgehen: In Westbengalen in Indien lösten Kameras bei Elefanten-Nachweisen Meldungen an Einsatzteams aus. Im Untersuchungszeitraum wurden laut Studie 266 Elefanten-Ereignisse erfasst; Warnungen erreichten die Empfänger im Mittel nach rund 42 Sekunden.",
+        "Einordnung: Die Autoren berichten von kürzeren Reaktionszeiten. Das ist ein vielversprechender Ansatz, aber keine Garantie für denselben Effekt in anderen Regionen; lokale Bedingungen und die Einbindung von Einsatzteams sind entscheidend."
+      ]
     },
     {
       "id": "bb0591d4b410e25441cc",
@@ -2025,7 +2616,12 @@
       "kind": "study",
       "study_source": "Kuratiertes Fachliteraturarchiv",
       "abstract_available": true,
-      "summary": "Die Arbeit wertet internationale CITES-Handelsdaten über Schuppentiere von 1977 bis 2024 aus, um Trends und Handelsmuster zu untersuchen. Zur wissenschaftlichen Bewertung bitte die Originalveröffentlichung heranziehen."
+      "summary": "Die Arbeit wertet internationale CITES-Handelsdaten über Schuppentiere von 1977 bis 2024 aus, um Trends und Handelsmuster zu untersuchen. Zur wissenschaftlichen Bewertung bitte die Originalveröffentlichung heranziehen.",
+      "extended_summary": [
+        "Forschungsfrage: Welche zeitlichen und räumlichen Muster zeigt der internationale Handel mit Schuppentieren?",
+        "Vorgehen: Die Arbeit analysiert Handelsinformationen aus CITES-Aufzeichnungen für den Zeitraum 1977 bis 2024 mit mehreren Auswertungsmodellen.",
+        "Einordnung: Solche Daten helfen, Handelsstrukturen zu beschreiben. Weil gemeldeter Handel nicht mit dem gesamten illegalen Handel gleichzusetzen ist, sollten Aussagen zu Trends immer auf die genauen Definitionen der Studie gestützt werden."
+      ]
     },
     {
       "id": "45cacc46c76cf86e8e6d",
@@ -2036,7 +2632,12 @@
       "kind": "study",
       "study_source": "Kuratiertes Fachliteraturarchiv",
       "abstract_available": true,
-      "summary": "Die Studie untersucht Motive der Schuppentierjagd im Südosten Nigerias und die Rolle lokaler Nachfrage sowie des internationalen Handels. Zur wissenschaftlichen Bewertung bitte die Originalveröffentlichung heranziehen."
+      "summary": "Die Studie untersucht Motive der Schuppentierjagd im Südosten Nigerias und die Rolle lokaler Nachfrage sowie des internationalen Handels. Zur wissenschaftlichen Bewertung bitte die Originalveröffentlichung heranziehen.",
+      "extended_summary": [
+        "Forschungsfrage: Welche Nachfrage motiviert die Schuppentierjagd im Südosten Nigerias?",
+        "Vorgehen: Die Veröffentlichung untersucht die Rolle lokalen Fleischkonsums im Vergleich zur internationalen Nachfrage nach Schuppen.",
+        "Einordnung: Sie lenkt den Blick auf die regionalen wirtschaftlichen und sozialen Treiber von Wildtierjagd. Aussagen über andere Länder oder den gesamten internationalen Handel lassen sich aus einer regionalen Untersuchung nicht ohne Weiteres ableiten."
+      ]
     }
   ],
   "sources": [
@@ -2097,7 +2698,7 @@
     {
       "name": "Wildtierhandel – Medien (News-Aggregation)",
       "kind": "media",
-      "count": 11,
+      "count": 12,
       "ok": true
     },
     {
@@ -2115,14 +2716,14 @@
     {
       "name": "Crossref: human wildlife conflict",
       "kind": "study",
-      "count": 1,
-      "ok": true
+      "count": 0,
+      "ok": false
     },
     {
       "name": "Crossref: marine mammal conservation",
       "kind": "study",
-      "count": 0,
-      "ok": false
+      "count": 12,
+      "ok": true
     },
     {
       "name": "Crossref: elephant conservation",
@@ -2133,8 +2734,8 @@
     {
       "name": "Crossref: wildlife rescue",
       "kind": "study",
-      "count": 0,
-      "ok": false
+      "count": 5,
+      "ok": true
     },
     {
       "name": "Crossref: illegal wildlife trade",
@@ -2151,11 +2752,7 @@
   ],
   "failures": [
     {
-      "source": "Crossref: marine mammal conservation",
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "source": "Crossref: wildlife rescue",
+      "source": "Crossref: human wildlife conflict",
       "error": "HTTP Error 429: Too Many Requests"
     },
     {
@@ -2168,5 +2765,6 @@
   "daily_study": {
     "date": "2026-11-23",
     "id": "8ee99df671227bd8b0ba"
-  }
+  },
+  "translation_updated_at": "2026-11-23T15:15:54.308180+00:00"
 }

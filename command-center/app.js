@@ -2,6 +2,7 @@
 /* Public-source-only newsroom: no paid AI API, private accounts, geolocation or task/chat storage. */
 const A=window.CenterAnalysis;
 const Clock=window.CenterClock;
+const StudyAI=window.CenterStudyAI;
 const $=(q)=>document.querySelector(q);
 const esc=(value)=>String(value??'').replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
 const safeUrl=(value)=>{try{const u=new URL(value);return u.protocol==='https:'||u.protocol==='http:'?u.href:'#'}catch{return '#'}};
@@ -11,7 +12,7 @@ const link=(item,label)=>'<a href="'+esc(safeUrl(item.url))+'" target="_blank" r
 const NAV=[['dashboard','Übersicht'],['news','Global News'],['pr','PR-Chancen'],['crisis','Crisis Watch'],['studies','Studien'],['policy','Politik'],['ifaw','IFAW-News'],['sources','Quellen']];
 let saved=new Set();
 try{saved=new Set(JSON.parse(localStorage.getItem('wc_saved_v4')||'[]'))}catch{}
-const state={view:'dashboard',search:'',feed:{articles:[],sources:[],failures:[],generated_at:null},fetchError:'',fetching:false,lastFetchAt:0,saved,onlySaved:false,studyExpanded:false};
+const state={view:'dashboard',search:'',feed:{articles:[],sources:[],failures:[],generated_at:null},fetchError:'',fetching:false,lastFetchAt:0,saved,onlySaved:false,studyAI:null};
 let toastTimer;
 function toast(message){const node=$('#toast');if(!node)return;node.textContent=message;node.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>node.classList.remove('show'),3300)}
 function storeSaved(){try{localStorage.setItem('wc_saved_v4',JSON.stringify([...state.saved]))}catch{toast('Merkliste konnte nicht gespeichert werden.')}} 
@@ -138,30 +139,36 @@ function studyPick(){
   }
   return studies.find(x=>x.abstract_available)||studies[0];
 }
-function studyDetails(study){
-  const curated=Array.isArray(study.extended_summary)?study.extended_summary.filter(Boolean):[];
-  const translatedAbstract=study.abstract_excerpt_de||'';
-  const paragraphs=curated.length?curated:
-    translatedAbstract?[study.summary_de||study.summary,'Vertiefender Auszug aus dem wissenschaftlichen Abstract (maschinell übersetzt): '+translatedAbstract]:
-    [study.summary_de||study.summary,'Eine weitergehende Ergebniseinordnung ist anhand des vorhandenen Quellenbestands nicht belastbar möglich. Bitte die Originalstudie öffnen.'];
-  const text=paragraphs.map((p,i)=>'<p>'+esc(p)+'</p>').join('');
-  return '<div id="studyDetails" class="study-expanded" role="region" aria-label="Ausführliche Zusammenfassung">'+
-    '<h4>Ausführlichere Einordnung</h4>'+text+
-    '<p class="note">Quellenbasierte Darstellung – keine unabhängig validierte wissenschaftliche Bewertung. Für Methodik, Ergebnisse und Zahlen die Originalpublikation lesen.</p></div>';
+function studyAIView(study){
+  const result=state.studyAI?.id===study.id?state.studyAI:null;
+  if(!result)return '<p class="mini-note">Die KI erzeugt erst nach deinem Klick eine neue Zusammenfassung – soweit ein wissenschaftliches Abstract verfügbar ist. Keine vorausgefüllten Textbausteine.</p>';
+  const message=result.message||'';
+  const label=result.status==='ok'?'Neue KI-Zusammenfassung':result.status==='loading'?'KI arbeitet …':'Lokale KI nicht verfügbar';
+  return '<div class="study-ai-response" id="studyAIResult" aria-live="polite">'+
+    '<h4>'+esc(label)+'</h4>'+
+    (result.status==='ok'?'<div class="ai-generated-text">'+esc(result.text||'')+'</div>':'<p>'+esc(message)+'</p>')+
+    (result.status==='ok'?'<p class="mini-note">Quelle: '+esc(result.basis||'Original-Abstract')+'. Automatisch erzeugt, nicht unabhängig überprüft. Für Zahlen, Resultate und Zitate bitte die DOI-Originalstudie prüfen.</p>':'')+
+    '</div>';
 }
 function dailyStudy(){
   const study=studyPick();
   if(!study)return '<section class="daily-study" id="dailyStudy"><div><p class="eyebrow">STUDIE DES TAGES</p><h3 class="study-title">Heute keine belegte Studie verfügbar</h3><p class="study-summary">Keine geeignete Studie mit DOI im aktuellen Quellenbestand. Es werden keine Forschungsdaten erfunden.</p></div></section>';
-  const method=study.abstract_available?'Abstract / bibliografische Metadaten':'Nur bibliografische Metadaten';
+  const hasEvidence=StudyAI.evidence(study).length>=220;
+  const aiBusy=state.studyAI?.id===study.id&&state.studyAI?.status==='loading';
+  const method=hasEvidence?'Wissenschaftliches Abstract als KI-Quelle':study.extended_summary?.length?'Kuratiertes Fachliteraturarchiv':'Nur Metadaten verfügbar';
   return '<section class="daily-study" id="dailyStudy"><div><p class="eyebrow">STUDIE DES TAGES · '+esc(fmtDate(new Date()))+'</p>'+
-    '<h3 class="study-title">'+esc(study.displayTitle)+'</h3>'+
-    '<p class="study-summary">'+esc(study.displaySummary||'Nur bibliografische Metadaten verfügbar. Ergebnisse nicht geprüft.')+'</p>'+
-    '<div class="study-actions"><button id="toggleStudyDetails" type="button" class="small-button study-toggle" aria-expanded="'+(state.studyExpanded?'true':'false')+'" aria-controls="studyDetails">'+(state.studyExpanded?'Weniger anzeigen ↑':'Längere Zusammenfassung ↓')+'</button>'+
-    '<a class="small-button" href="'+esc(safeUrl(study.url))+'" target="_blank" rel="noopener noreferrer">Originalstudie ↗</a></div></div>'+
-    '<aside class="study-aside"><span class="meta-label">Journal / Quelle</span><span class="meta-value">'+esc(study.source||'Wissenschaftliche Quelle')+'</span>'+
+    '<h3 class="study-title">'+esc(study.title)+'</h3>'+
+    '<p class="study-summary">'+esc(study.summary||'Nur bibliografische Angaben verfügbar; Ergebnisse nicht geprüft.')+'</p>'+
+    '<div class="study-actions"><button id="summarizeStudy" type="button" class="small-button study-toggle" '+(aiBusy?'disabled':'')+'>'+
+    (aiBusy?'KI wird ausgeführt …':'✦ Mit KI zusammenfassen')+'</button>'+
+    '<a class="small-button" href="'+esc(StudyAI.chatGPTLink(study))+'" target="_blank" rel="noopener noreferrer">In ChatGPT analysieren ↗</a>'+
+    '<a class="small-button secondary" href="'+esc(safeUrl(study.url))+'" target="_blank" rel="noopener noreferrer">Originalstudie ↗</a></div>'+
+    '<p class="mini-note">Lokale KI: kostenlos im unterstützten Chrome/Edge, möglicherweise erst nach einem Modelldownload. ChatGPT öffnet eine separate Seite und kann eine Anmeldung erfordern.</p>'+
+    '</div>'+
+    '<aside class="study-aside"><span class="meta-label">Journal / Quelle</span><span class="meta-value">'+esc(study.source||'Fachpublikation')+'</span>'+
     '<span class="meta-label">Veröffentlicht</span><span class="meta-value">'+esc(fmtDate(study.date))+'</span>'+
-    '<span class="badge">'+esc(method)+'</span><span class="mini-note">Die deutsche Einordnung beruht auf vorhandenen Quellen, nicht auf generierten Forschungsergebnissen.</span></aside>'+
-    (state.studyExpanded?studyDetails(study):'')+'</section>';
+    '<span class="badge">'+esc(method)+'</span><span class="mini-note">Die Einordnung ist von der eigentlichen, auf Knopfdruck generierten KI-Ausgabe getrennt.</span></aside>'+
+    studyAIView(study)+'</section>';
 }
 function dashboard(){
   const all=articles();
@@ -235,13 +242,26 @@ function render(){
   const view=state.search?'search':state.view;
   $('#main').innerHTML=view==='dashboard'?dashboard():view==='sources'?sourcesView():view==='search'?heading('Suchergebnisse','Passende Artikel aus dem vorhandenen Nachrichtenbestand.')+'<div class="list-view">'+(A.search(articles(),state.search).slice(0,90).map(articleCard).join('')||empty('Keine passenden Quellen','Bitte Suchbegriff ändern.'))+'</div>':archiveView(view);
 }
+async function createStudySummary(){
+  const study=studyPick();
+  if(!study||state.studyAI?.status==='loading')return;
+  state.studyAI={id:study.id,status:'loading',message:'Die lokale KI wird vorbereitet …'};
+  render();
+  const outcome=await StudyAI.summarize(study,{onProgress(message){
+    if(state.studyAI?.id!==study.id)return;
+    state.studyAI.message=message;
+    const el=$('#studyAIResult p');if(el)el.textContent=message;
+  }});
+  state.studyAI={id:study.id,...outcome};
+  render();
+}
 function bindEvents(){
   document.addEventListener('click',event=>{
     const nav=event.target.closest('[data-view]');
     if(nav){event.preventDefault();go(nav.dataset.view);return}
     const mark=event.target.closest('[data-bookmark]');
     if(mark){const id=mark.dataset.bookmark;state.saved.has(id)?state.saved.delete(id):state.saved.add(id);storeSaved();render();return}
-    if(event.target.closest('#toggleStudyDetails')){state.studyExpanded=!state.studyExpanded;render();return}
+    if(event.target.closest('#summarizeStudy')){createStudySummary();return}
     if(event.target.closest('#filterSaved')){state.onlySaved=!state.onlySaved;render();return}
     if(event.target.closest('#clearSaved')){if(confirm('Gesamte Merkliste löschen?')){state.saved.clear();storeSaved();render()}return}
   });

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-23T14:44:49.908595Z",
+  "generated_at": "2026-11-23T14:48:19.820944Z",
   "articles": [
     {
       "id": "586975a04b9fad49248c",
@@ -948,17 +948,6 @@
       "kind": "media"
     },
     {
-      "id": "c9f4714252788cc9dece",
-      "title": "In silico conservation and HLA-binding profiles of HMPV F and G protein epitopes: implications for universal vaccine development.",
-      "date": "2026-10-23T00:00:00Z",
-      "url": "https://doi.org/10.1016/j.vaccine.2026.129282",
-      "source": "Europe PMC",
-      "kind": "study",
-      "study_source": "Europe PMC",
-      "abstract_available": true,
-      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Der Abstract nennt eine Modellierung. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
-    },
-    {
       "id": "0c934ad0a890ee6e3b5c",
       "title": "Uncovering “hidden highways” of wildlife trafficking in Mexico - The Wildlife Society",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPWjJRSHFhQWk5TU5RUDdiVTE5YXVUM2c5Y3pkY194b1FEYkZzU1gtS1RoSURRcWY3YW9YcXQ0OFZZeUxpbkkzcWF1aHhTRjNrN01YbGkwNEpOSThIbmNjRWVubktKUFdrbzlHbldUOG9lTFU4OWstaWVMc1dCeVpjZGw2V0R2VkltZGc?oc=5",
@@ -995,17 +984,6 @@
       "kind": "media"
     },
     {
-      "id": "d46ed608dc74ab75b022",
-      "title": "The conserved function of bHLH121 and overexpression of N-terminal bHLH121 fragment suppresses iron deficiency response in Arabidopsis.",
-      "date": "2026-10-21T00:00:00Z",
-      "url": "https://doi.org/10.1016/j.plantsci.2026.113540",
-      "source": "Europe PMC",
-      "kind": "study",
-      "study_source": "Europe PMC",
-      "abstract_available": true,
-      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
-    },
-    {
       "id": "096c7fdf17a1d39c368c",
       "title": "SLOTHS Act aims to protect sloths from wildlife trade - International Fund for Animal Welfare | IFAW",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5qOHlyM1lWMEk2a0J6RkktdUxUWlpDN2Q2SHZfQUV3ZzhKa0RMcTRBazJJY055aGk4X0pJS0hvZEFCOGxQZjVuZlpPTWNqSlN2ZWtsU3ZLdlI2RUZFeWlaVkVhckxqSGhBTWo2MlgydUlVT2xi?oc=5",
@@ -1013,17 +991,6 @@
       "summary": "SLOTHS Act aims to protect sloths from wildlife trade International Fund for Animal Welfare | IFAW",
       "source": "IFAW – Berichterstattung (News-Aggregation)",
       "kind": "media"
-    },
-    {
-      "id": "ac96e62c23d33cd78514",
-      "title": "Evolutionary conservation and regulatory characteristics of SF3B3 in plants.",
-      "date": "2026-10-20T00:00:00Z",
-      "url": "https://doi.org/10.1016/j.plantsci.2026.113536",
-      "source": "Europe PMC",
-      "kind": "study",
-      "study_source": "Europe PMC",
-      "abstract_available": true,
-      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
     },
     {
       "id": "36894a83ec87401aa9e7",
@@ -1150,17 +1117,6 @@
       "summary": "Was tun Zoos für den Artenschutz? MDR.de",
       "source": "Deutschland – Wildtiere (News-Aggregation)",
       "kind": "media"
-    },
-    {
-      "id": "34169419a91f997dd438",
-      "title": "Phylogeny and evolutionary history of the genus Nectogale (Soricidae) inferred from whole-genome analyses, with description of a new species endemic to the Himalayas.",
-      "date": "2026-10-10T00:00:00Z",
-      "url": "https://doi.org/10.1016/j.ympev.2026.108749",
-      "source": "Europe PMC",
-      "kind": "study",
-      "study_source": "Europe PMC",
-      "abstract_available": true,
-      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen."
     },
     {
       "id": "8fff969af8e7662ba883",
@@ -1602,8 +1558,8 @@
     {
       "name": "Crossref: elephant conservation",
       "kind": "study",
-      "count": 0,
-      "ok": false
+      "count": 12,
+      "ok": true
     },
     {
       "name": "Crossref: wildlife rescue",
@@ -1616,19 +1572,9 @@
       "kind": "study",
       "count": 0,
       "ok": false
-    },
-    {
-      "name": "Europe PMC – Studien & Abstracts",
-      "kind": "study",
-      "count": 4,
-      "ok": true
     }
   ],
   "failures": [
-    {
-      "source": "Crossref: elephant conservation",
-      "error": "HTTP Error 429: Too Many Requests"
-    },
     {
       "source": "Crossref: wildlife rescue",
       "error": "HTTP Error 429: Too Many Requests"
@@ -1636,12 +1582,13 @@
     {
       "source": "Crossref: illegal wildlife trade",
       "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source": "Europe PMC",
+      "error": "The read operation timed out"
     }
   ],
   "events": [],
   "notice": "Automatisierte Quellensammlung. Keine Vollständigkeits- oder unabhängige Faktenprüfungs-Garantie.",
-  "daily_study": {
-    "date": "2026-11-23",
-    "id": "c9f4714252788cc9dece"
-  }
+  "daily_study": null
 }

@@ -165,7 +165,15 @@ def merge(current:list[dict],new:list[dict],now:datetime)->list[dict]:
             except Exception:pass
         key=re.sub(r'[^\w]+','',a['title'].casefold())[:150]
         if not key:key=a['id']
-        if key not in combined or (new and a in new):combined[key]=a
+        if key not in combined or (new and a in new):
+            previous=combined.get(key)
+            # Preserve costly offline translations only when source content is identical.
+            if previous and previous.get('title')==a.get('title'):
+                for field in ('title_de','translated_at','translation_status'):
+                    if previous.get(field):a[field]=previous[field]
+                if previous.get('summary')==a.get('summary') and previous.get('summary_de') is not None:
+                    a['summary_de']=previous['summary_de']
+            combined[key]=a
     return sorted(combined.values(),key=lambda a:a.get('date') or '',reverse=True)[:650]
 
 def run(out:Path=OUTPUT,request_fn=request,now:datetime|None=None)->dict:

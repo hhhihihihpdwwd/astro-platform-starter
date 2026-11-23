@@ -1,12 +1,12 @@
 # Wildlife Command Center – unabhängiger Recherche-Prototyp
 
-**Aktuelle verifizierte Web-Vorschau (23.11.2026):** https://seed-scissor-qytfq.ship.place/
+**Aktuelle verifizierte Web-Vorschau (23.11.2026):** https://lace-alfalfa-5k2c4.ship.place/
 
 Dieses Projekt ist ein **nicht offiziell freigegebener, öffentlich erreichbarer Prototyp** zur Recherche von öffentlichen Wildtier-, Artenschutz-, Wissenschafts- und Politikmeldungen für IFAW-bezogene Themen. Keine offizielle IFAW-Webanwendung, kein Logo und keine internen Unternehmensdaten.
 
 ## Bedienung
 
-Laptopoptimierte, minimalistische Oberfläche **ohne Seitenleiste oder Chatbot** mit Morning Briefing, Global News Radar, PR-Chancen, Crisis Watch, Studien-Scout und Policy-Meldungen. Eine Hamburger Uhr und drei Weltuhren zeigen sekundengenau die Ortszeit für Washington, London und Sydney sowie jeweils eine Weltkarte mit Standortmarker (Natural Earth, gemeinfrei). Die Hamburger Uhr zeigt einen grafischen Tagesbogen mit Näherungswerten für Sonnenstand, Sonnenauf- und -untergang.
+Laptopoptimierte, minimalistische Oberfläche **ohne Seitenleiste oder Chatbot** mit Morning Briefing, Global News Radar, PR-Chancen, Crisis Watch, Studien-Scout und Policy-Meldungen. Eine Hamburger Uhr und drei Weltuhren zeigen sekundengenau die Ortszeit für Washington, London und Sydney sowie jeweils eine Weltkarte mit Standortmarker (Natural Earth, gemeinfrei). Die Hamburger Uhr zeigt eine grafische, relativ skalierte Sonnenbahn (aus berechneter Sonnenhöhe), Näherungswerte für Sonnenstand sowie Auf- und Untergang.
 
 **To-dos, Microsoft-Verbindungen und der Chatbot sind entfernt.**
 

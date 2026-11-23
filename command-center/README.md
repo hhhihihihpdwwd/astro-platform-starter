@@ -1,5 +1,11 @@
 # IFAW Command Center (unabhängiger Prototyp)
 
+## Direkt öffnen (öffentliche Testversion)
+
+**Web-App:** https://solid-cough-cscoi.ship.place/
+
+Am 23.11.2026 auf einem kostenlosen Webhost veröffentlicht. Der Deployment-Check hat HTML, CSS, JavaScript und News-JSON mit HTTP 200 geprüft. Die App lädt neuere öffentliche Newsdaten aus dem GitHub-Repository. Diese URL ist eine öffentliche Testversion ohne garantierte dauerhafte Verfügbarkeit und ohne Freigabe der IFAW-IT. Keine vertraulichen Daten eingeben. Microsoft To Do benötigt weiterhin eine Entra-App-Registrierung und Freigabe.
+
 **Eine schlanke Desktop-Web-App für öffentliche Tierschutz-/Artenschutzmeldungen, tägliche Briefings, Recherche, Aufgaben und quellenbasierten Command-Chat.** Kein offizieller IFAW-Dienst.
 
 ## Was funktioniert (ohne kostenpflichtige Anbieter)

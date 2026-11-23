@@ -1,0 +1,11 @@
+const assert=require('node:assert/strict');
+const A=require('../lib/analysis.js');
+const whale={title:'New whale protection treaty',summary:'Marine wildlife conservation action',kind:'policy',date:new Date().toISOString()};
+const none={title:'New recipes for lunch',summary:'Home cooking tips',kind:'media',date:new Date().toISOString()};
+assert(A.score(whale)>A.score(none));
+assert(A.tagsFor(whale).includes('Meeresschutz'));
+assert(!A.isCrisis(none));
+assert(A.search([none,whale],'whale').length===1);
+assert(A.search([none,whale],'unbekanntesspezialwort').length===0);
+assert(A.opportunityIdea(whale).includes('prüfen'));
+console.log('OK: 6 Analysetests');

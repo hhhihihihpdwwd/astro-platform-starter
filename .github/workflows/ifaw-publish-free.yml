@@ -24,6 +24,7 @@ jobs:
           node --check command-center/app.js
           node --check command-center/lib/analysis.js
           node --check command-center/lib/clock.js
+          python -m py_compile command-center/scripts/translate_articles.py
           node command-center/tests/test_analysis.cjs
           node command-center/tests/test_clock.cjs
           python -m py_compile command-center/scripts/collect.py command-center/scripts/study_daily.py
@@ -54,7 +55,7 @@ jobs:
           from pathlib import Path
           from zipfile import ZipFile, ZIP_DEFLATED
           base=Path('command-center')
-          paths=['index.html','styles.css','app.js','favicon.svg','lib/analysis.js','lib/clock.js','data/articles.json','assets/elephant.jpg','assets/whale.jpg','assets/forest.jpg']
+          paths=['index.html','styles.css','app.js','favicon.svg','lib/analysis.js','lib/clock.js','data/articles.json','assets/elephant.jpg','assets/whale.jpg','assets/forest.jpg','assets/world-map.svg']
           with ZipFile('/tmp/ifaw-public-app.zip','w',ZIP_DEFLATED) as z:
               for rel in paths:
                   if not (base/rel).is_file(): raise SystemExit('Missing file: '+rel)
@@ -79,7 +80,7 @@ jobs:
           if host.scheme!='https' or not host.hostname or not host.hostname.endswith('.ship.place'):
               raise SystemExit('Unexpected hostname')
           url=url.rstrip('/')+'/'
-          for file,contains in [('',b'Wildlife Command Center'),('app.js',b'function dailyStudy'),('styles.css',b'.clock-deck'),('lib/clock.js',b'solarElevation'),('data/articles.json',b'"articles"')]:
+          for file,contains in [('',b'Wildlife Command Center'),('app.js',b'function dailyStudy'),('styles.css',b'.clock-deck'),('lib/clock.js',b'solarDay'),('assets/world-map.svg',b'<svg'),('app.js',b'function studyDetails'),('data/articles.json',b'"articles"')]:
               target=urllib.parse.urljoin(url,file)
               last_error=''
               for attempt in range(5):

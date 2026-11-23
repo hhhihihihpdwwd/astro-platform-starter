@@ -11,9 +11,9 @@ TODAY=datetime.now(ZoneInfo('Europe/Berlin')).date().isoformat()
 FIXTURE={
   'schema_version':2,'generated_at':NOW,
   'articles':[
-    {'id':'test-wale','title':'Wale erhalten neuen Schutz','summary':'Schutzprogramm für Wale und Delfine.','url':'https://example.org/wale','date':NOW,'source':'Testquelle Wissenschaft','kind':'media'},
+    {'id':'test-wale','title':'New protections for whales','title_de':'Wale erhalten neuen Schutz','translation_status':'maschinell','summary':'Protection programme for whales and dolphins.','summary_de':'Schutzprogramm für Wale und Delfine.','url':'https://example.org/wale','date':NOW,'source':'Testquelle Wissenschaft','kind':'media'},
     {'id':'test-wildtier','title':'Neue Regeln gegen illegalen Wildtierhandel','summary':'CITES und Behörden diskutieren den Wildtierhandel.','url':'https://example.org/trade','date':NOW,'source':'Testquelle EU','kind':'policy'},
-    {'id':'test-studie','title':'Elephant conservation and community conflict','summary':'Die Veröffentlichung behandelt Konflikte zwischen Menschen und Wildtieren. Die Einordnung basiert auf dem wissenschaftlichen Abstract; Ergebnisse bitte im Original prüfen.','url':'https://doi.org/10.1234/abc','date':NOW,'source':'Testjournal','kind':'study','abstract_available':True},
+    {'id':'test-studie','title':'Elephant conservation and community conflict','summary':'Die Veröffentlichung behandelt Konflikte zwischen Menschen und Wildtieren. Die Einordnung basiert auf dem wissenschaftlichen Abstract; Ergebnisse bitte im Original prüfen.','url':'https://doi.org/10.1234/abc','date':NOW,'source':'Testjournal','kind':'study','abstract_available':True,'extended_summary':['Untersuchungsfrage: Was beeinflusst die Mensch-Elefant-Konflikte?','Vorgehen: Ein Forschungsmodell untersucht Naturschutzaspekte und regionale Auswirkungen.']},
     {'id':'test-fire','title':'Wildlife wildfire emergency','summary':'A wildfire is affecting wildlife.','url':'https://example.org/fire','date':NOW,'source':'Testquelle Notfall','kind':'media'},
     {'id':'test-xss','title':'XSS <img src=x onerror="window.XSS=1"> Wildlife','summary':'Wildlife text','url':'javascript:alert(1)','date':NOW,'source':'Malicious','kind':'media'}
   ],
@@ -46,13 +46,22 @@ def test_desktop_dashboard():
         page.get_by_text('Wale erhalten neuen Schutz').first.wait_for()
         assert re.match(r'Guten (Morgen|Tag|Abend), Luca\.',page.locator('#greeting').inner_text())
         assert re.match(r'\d\d:\d\d:\d\d',page.locator('#clock-hamburg').inner_text())
-        assert page.locator('.world-clock').count()==4
+        assert page.locator('.world-clock').count()==3
+        assert page.locator('.clock-map').count()==3
+        assert page.locator('.map-pin').count()==3
+        assert page.locator('#sunGraphic').count()==1
+        assert page.locator('#sunriseTime').inner_text()!='--:--'
+        assert page.locator('#sunsetTime').inner_text()!='--:--'
         assert 'Sonne' in page.locator('#sunLabel').inner_text()
         assert page.locator('.sidebar').count()==0
         assert page.locator('#chatAsk').count()==0
         assert page.locator('#quickTask').count()==0
         assert page.locator('.daily-study').count()==1
         assert 'Elephant conservation' in page.locator('#dailyStudy').inner_text()
+        page.locator('#toggleStudyDetails').click()
+        assert 'Untersuchungsfrage' in page.locator('#studyDetails').inner_text()
+        page.locator('#toggleStudyDetails').click()
+        assert page.locator('#studyDetails').count()==0
         assert page.locator('main a[href="javascript:alert(1)"]').count()==0
         assert page.locator('main img[src="x"]').count()==0
         assert page.evaluate('window.XSS') is None
@@ -74,5 +83,5 @@ def test_desktop_dashboard():
         assert not errors,errors
         page.locator('[data-view="dashboard"]').first.click()
         page.screenshot(path=str(ROOT/'tests'/'screenshot-dashboard.png'),full_page=True)
-        print('Browser OK: desktop, sun, 5 clocks, no chatbot/sidebar/tasks, sourced study, nav, search, XSS, sources')
+        print('Browser OK: German headline, sunset arc, 3 geo maps, expandable study, search, XSS, privacy')
         browser.close()

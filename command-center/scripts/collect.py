@@ -169,10 +169,8 @@ def merge(current:list[dict],new:list[dict],now:datetime)->list[dict]:
             previous=combined.get(key)
             # Preserve costly offline translations only when source content is identical.
             if previous and previous.get('title')==a.get('title'):
-                for field in ('title_de','translated_at','translation_status'):
+                for field in ('abstract_source_text','abstract_origin','abstract_unavailable'):
                     if previous.get(field):a[field]=previous[field]
-                if previous.get('summary')==a.get('summary') and previous.get('summary_de') is not None:
-                    a['summary_de']=previous['summary_de']
             combined[key]=a
     return sorted(combined.values(),key=lambda a:a.get('date') or '',reverse=True)[:650]
 

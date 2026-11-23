@@ -16,7 +16,7 @@ let toastTimer;
 function toast(message){const node=$('#toast');if(!node)return;node.textContent=message;node.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>node.classList.remove('show'),3300)}
 function storeSaved(){try{localStorage.setItem('wc_saved_v4',JSON.stringify([...state.saved]))}catch{toast('Merkliste konnte nicht gespeichert werden.')}} 
 function articles(){
-  return (state.feed.articles||[]).filter(x=>x&&x.title&&safeUrl(x.url)!=='#').map(x=>({...x,topics:A.tagsFor(x),displayTitle:x.title_de||x.title,displaySummary:x.summary_de||x.summary}));
+  return (state.feed.articles||[]).filter(x=>x&&x.title&&safeUrl(x.url)!=='#').map(x=>({...x,topics:A.tagsFor(x),displayTitle:x.title,displaySummary:x.summary}));
 }
 function byDate(list){return [...list].sort((x,y)=>(Date.parse(y.date)||0)-(Date.parse(x.date)||0))}
 function byRelevance(list){return [...list].sort((x,y)=>A.score(y)-A.score(x)||(Date.parse(y.date)||0)-(Date.parse(x.date)||0))}
@@ -196,7 +196,7 @@ function articleCard(a){
   const saved=state.saved.has(a.id);
   return '<article class="article-card"><div><span class="badge">'+esc(a.kind==='study'?'Studie':a.kind==='policy'?'Politik':a.kind==='ifaw'?'IFAW-News':'Meldung')+'</span>'+
     '<h3>'+link(a)+'</h3><p>'+esc(truncated(a.displaySummary||'Kein Teaser verfügbar. Bitte die Originalquelle aufrufen.',360))+'</p>'+
-    '<div class="article-meta"><span>'+esc(a.title_de&&a.translation_status==='maschinell'?'Maschinell übersetzt · Original prüfen':'Originalsprache / Quelle')+'</span><span>'+esc(a.source||'Quelle unbekannt')+'</span><span>'+esc(fmtDate(a.date))+'</span><span>'+esc(a.topics.slice(0,2).join(' · '))+'</span></div></div>'+
+    '<div class="article-meta"><span>'+esc('Originalmeldung')+'</span><span>'+esc(a.source||'Quelle unbekannt')+'</span><span>'+esc(fmtDate(a.date))+'</span><span>'+esc(a.topics.slice(0,2).join(' · '))+'</span></div></div>'+
     '<div class="article-actions"><button type="button" data-bookmark="'+esc(a.id)+'" class="bookmark '+(saved?'saved':'')+'">'+(saved?'✓ Gemerkt':'☆ Merken')+'</button>'+
     '<a class="small-button" href="'+esc(safeUrl(a.url))+'" target="_blank" rel="noopener noreferrer">Quelle ↗</a></div></article>';
 }

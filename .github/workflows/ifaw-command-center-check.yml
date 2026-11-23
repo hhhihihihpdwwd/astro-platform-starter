@@ -28,6 +28,8 @@ jobs:
           node --check app.js
           node --check lib/analysis.js
           node --check lib/clock.js
+          node --check lib/study-ai.js
           node tests/test_analysis.cjs
           node tests/test_clock.cjs
-          python -m pytest -q tests/test_collect.py tests/test_study_daily.py tests/test_translate_articles.py tests/test_browser.py
+          node tests/test_study_ai.cjs
+          python -m pytest -q tests/test_collect.py tests/test_study_daily.py tests/test_enrich_studies.py tests/test_browser.py

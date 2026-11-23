@@ -79,7 +79,7 @@ jobs:
           if host.scheme!='https' or not host.hostname or not host.hostname.endswith('.ship.place'):
               raise SystemExit('Unexpected hostname')
           url=url.rstrip('/')+'/'
-          for file,contains in [('',b'IFAW Command Center'),('app.js',b'function dailyStudy'),('styles.css',b'.clock-deck'),('lib/clock.js',b'solarElevation'),('data/articles.json',b'"articles"')]:
+          for file,contains in [('',b'Wildlife Command Center'),('app.js',b'function dailyStudy'),('styles.css',b'.clock-deck'),('lib/clock.js',b'solarElevation'),('data/articles.json',b'"articles"')]:
               target=urllib.parse.urljoin(url,file)
               last_error=''
               for attempt in range(5):

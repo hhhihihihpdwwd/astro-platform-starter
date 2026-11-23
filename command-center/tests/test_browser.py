@@ -39,19 +39,17 @@ def test_browser_full_workflow():
         }""")
         page.evaluate('(f)=>{window.fetch=async()=>({ok:true,json:async()=>f})}',FIXTURE)
         page.add_script_tag(path=str(ROOT/'lib'/'analysis.js'))
-        page.add_script_tag(path=str(ROOT/'lib'/'graph.js'))
         page.add_script_tag(path=str(ROOT/'app.js'))
         page.wait_for_selector('text=Wale erhalten neuen Schutz')
-        assert 'Guten Morgen' in page.locator('h1').inner_text()
+        assert 'Dein Überblick' in page.locator('h1').inner_text()
         page.screenshot(path=str(ROOT/'tests'/'screenshot-dashboard.png'),full_page=True)
         assert page.locator('main [href="javascript:alert(1)"]').count()==0
         assert page.locator('main img[src="x"]').count()==0
-        page.get_by_placeholder('Aufgabe hinzufügen ...').fill('Presseanfrage vorbereiten')
-        page.locator('#quickTask button').click()
-        page.get_by_text('Presseanfrage vorbereiten').wait_for()
-        assert page.locator('[data-done]').count()==1
-        page.locator('[data-done]').check()
-        assert 'done' in page.locator('[data-task-id]').first.get_attribute('class')
+        assert page.locator('[data-nav="todos"]').count()==0
+        assert page.locator('#quickTask').count()==0
+        assert page.locator('.welcome-hero').count()==1
+        assert page.locator('.featured-story').count()==3
+        assert page.locator('.featured-story img').count()>=1
         page.locator('[data-nav="news"]').first.click()
         page.wait_for_selector('h1:text-is("Global News Radar")')
         assert page.get_by_text('Wale erhalten neuen Schutz').count()>=1
@@ -65,9 +63,8 @@ def test_browser_full_workflow():
         page.locator('#chatAsk button').click()
         assert 'Keine passende Quelle' in page.locator('#chatConvo').inner_text()
         page.locator('#settingsSide').click()
-        assert 'Microsoft To Do' in page.locator('main').inner_text()
+        assert 'Datenschutz & Quellen' in page.locator('main').inner_text()
         assert not errors,errors
-        assert 'Presseanfrage vorbereiten' in page.evaluate('localStorage.getItem("cc_local_tasks_v1")')
-        print('Browser-Test OK: Laden, XSS, To-dos, Suche, Merken, Chatbot, Einstellungen, Speicherung')
+        print('Browser-Test OK: Laden, XSS, keine To-dos, Bilder, Suche, Merken, Chatbot, Datenschutz')
         page.screenshot(path=str(ROOT/'tests'/'screenshot-desktop.png'),full_page=True)
         browser.close()

@@ -203,3 +203,16 @@ main{min-height:460px}
   .clock-map{grid-column:2;grid-row:1/4;margin-top:0;max-height:none}
   .sun-times{font-size:9px}
 }
+
+
+/* v0.6 – explicit user-triggered on-device AI, distinct from research preview */
+.study-actions{display:flex;gap:9px;flex-wrap:wrap;align-items:center;margin:15px 0 12px}
+.study-actions .study-toggle{background:#155f44;border-color:#155f44;color:#fff;font-size:12px}
+.study-actions .study-toggle:hover{background:#0e4934}
+.study-actions .small-button.secondary{background:transparent;border-color:#c9d9cf}
+.study-actions .small-button:disabled{cursor:wait;opacity:.65}
+.study-ai-response{grid-column:1/-1;background:#fff;border:1px solid #cce2d4;border-radius:13px;padding:19px 22px;margin-top:8px;line-height:1.75}
+.study-ai-response h4{margin:0 0 9px;color:#14543b;font-size:14px;letter-spacing:-.2px}
+.study-ai-response p{margin:4px 0 11px;font-size:12px;color:#435c4c}
+.study-ai-response .ai-generated-text{white-space:pre-wrap;overflow-wrap:anywhere;font-size:13px;line-height:1.8;max-width:900px}
+.study-ai-response .mini-note{margin:12px 0 0;font-size:10px;color:#657e6d}

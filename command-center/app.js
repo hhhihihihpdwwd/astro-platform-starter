@@ -1,62 +1,245 @@
 'use strict';
+/* Public-source-only newsroom: no paid AI API, private accounts, geolocation or task/chat storage. */
 const A=window.CenterAnalysis;
-const $=s=>document.querySelector(s);
-const esc=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const url=x=>{try{const u=new URL(x);return /^https?:$/.test(u.protocol)?u.href:'#'}catch{return '#'}};
-const save=(k,x)=>{try{localStorage.setItem(k,JSON.stringify(x))}catch{toast('Browser-Speicher derzeit nicht verfügbar.')}};
-const load=(k,fallback)=>{try{return JSON.parse(localStorage.getItem(k))??fallback}catch{return fallback}};
-const fmtDate=(x,withTime=false)=>{const d=new Date(x);return Number.isNaN(d.getTime())?'Datum nicht verfügbar':new Intl.DateTimeFormat('de-DE',{day:'2-digit',month:'short',year:'numeric',...(withTime?{hour:'2-digit',minute:'2-digit'}:{}),timeZone:'Europe/Berlin'}).format(d)};
-const shortDate=x=>{const d=new Date(x);return Number.isNaN(d.getTime())?'Unbekannt':new Intl.DateTimeFormat('de-DE',{day:'2-digit',month:'short',timeZone:'Europe/Berlin'}).format(d)};
-const eq=(a,b)=>String(a)===String(b);
-const navs=[['dashboard','⌂','Dashboard'],['briefing','☀','Morning Briefing'],['news','◎','Global News Radar'],['opportunities','↗','PR-Chancen'],['media','▤','Medienmonitoring'],['crisis','△','Crisis Watch'],['studies','◇','Studien-Scout'],['policy','⚖','Policy Tracker'],['knowledge','▣','IFAW-Wissen'],['command','◉','Command Chatbot']];
-let state={view:'dashboard',feed:{generated_at:null,articles:[],sources:[],failures:[],events:[]},fetchError:'',search:'',topic:'Alle Themen',period:'30',showSaved:false,saved:new Set(load('cc_saved_v1',[])),seen:new Set(load('cc_seen_v1',[])),chat:[{role:'bot',text:'Ich finde öffentliche Meldungen und Quellen im Command Center. Ich erfinde keine Antworten. Was möchtest du wissen?'}],chatOpen:false,lastStatus:null};
+const Clock=window.CenterClock;
+const $=(q)=>document.querySelector(q);
+const esc=(value)=>String(value??'').replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+const safeUrl=(value)=>{try{const u=new URL(value);return u.protocol==='https:'||u.protocol==='http:'?u.href:'#'}catch{return '#'}};
+const fmtDate=(value,options={})=>{const date=new Date(value);return Number.isNaN(date.getTime())?'Datum unbekannt':new Intl.DateTimeFormat('de-DE',{timeZone:'Europe/Berlin',day:'2-digit',month:'short',year:'numeric',...options}).format(date)};
+const truncated=(value,length=180)=>{const v=String(value||'').replace(/\s+/g,' ').trim();return v.length<=length?v:v.slice(0,length).replace(/\s+\S*$/,'')+' …'};
+const link=(item,label)=>'<a href="'+esc(safeUrl(item.url))+'" target="_blank" rel="noopener noreferrer">'+esc(label||item.title)+'</a>';
+const NAV=[['dashboard','Übersicht'],['news','Global News'],['pr','PR-Chancen'],['crisis','Crisis Watch'],['studies','Studien'],['policy','Politik'],['ifaw','IFAW-News'],['sources','Quellen']];
+let saved=new Set();
+try{saved=new Set(JSON.parse(localStorage.getItem('wc_saved_v4')||'[]'))}catch{}
+const state={view:'dashboard',search:'',feed:{articles:[],sources:[],failures:[],generated_at:null},fetchError:'',fetching:false,lastFetchAt:0,saved,onlySaved:false};
 let toastTimer;
-function toast(message){const t=$('#toast');t.textContent=message;t.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>t.classList.remove('show'),4200)}
-function link(a,label='Originalquelle ↗'){return `<a href="${esc(url(a.url))}" target="_blank" rel="noopener noreferrer">${esc(label)}</a>`}
-function words(a,n=150){let s=String(a||'').replace(/\s+/g,' ').trim();return s.length>n?s.slice(0,n).replace(/\s+\S*$/,'')+' …':s}
-function articles(){return (state.feed.articles||[]).filter(a=>a&&a.title&&url(a.url)!=='#').map(a=>({...a,topics:a.topics||A.tagsFor(a)}))}
-function ordered(list){return [...list].sort((a,b)=>A.score(b)-A.score(a)||(Date.parse(b.date)||0)-(Date.parse(a.date)||0))}
-function relevant(){return ordered(articles().filter(a=>A.score(a)>0))}
-function published(list){return [...list].sort((a,b)=>(Date.parse(b.date)||0)-(Date.parse(a.date)||0))}
-function filterTime(a){if(state.period==='all')return true;const dt=Date.parse(a.date||'');return Number.isFinite(dt)&&(Date.now()-dt)<Number(state.period)*86400000&&dt<Date.now()+86400000}
-function pageList(list){let a=list.filter(filterTime);if(state.topic!=='Alle Themen')a=a.filter(x=>x.topics.includes(state.topic));if(state.showSaved)a=a.filter(x=>state.saved.has(x.id));if(state.search)a=A.search(a,state.search);return a}
-function empty(message,details){return `<div class="empty-state"><span class="emoji">○</span><strong>${esc(message)}</strong><div>${esc(details||'')}</div></div>`}
-function renderNav(){const nav=$('#nav');nav.innerHTML=navs.map(([key,icon,title])=>`<button class="nav-link ${state.view===key?'active':''}" type="button" data-nav="${key}" aria-current="${state.view===key?'page':'false'}"><span class="icon" aria-hidden="true">${icon}</span><span>${title}</span></button>`).join('');nav.querySelectorAll('[data-nav]').forEach(b=>b.addEventListener('click',()=>go(b.dataset.nav)));$('#settingsSide').onclick=()=>go('settings')}
-function go(view){state.view=view;state.showSaved=false;if(view!=='news')state.topic='Alle Themen';state.period='30';if(view!=='command')state.chatOpen=false;state.search='';$('#globalSearch').value='';history.replaceState({},'',location.pathname+location.search+'#'+view);render();$('#main').focus({preventScroll:true});window.scrollTo({top:0,behavior:'instant'})}
-function latest(){const generated=Date.parse(state.feed.generated_at||'');if(!Number.isFinite(generated))return {label:'Noch keine Aktualisierung',status:'muted',stale:true};const age=(Date.now()-generated)/3600000;return age>24?{label:`Stand ${fmtDate(state.feed.generated_at,true)} (veraltet)`,status:'warning',stale:true}:{label:`Aktualisiert ${fmtDate(state.feed.generated_at,true)}`,status:'',stale:false}}
-function renderStatus(){const t=latest();$('#topStatus').innerHTML=`<span class="status-dot ${t.status}"></span>${esc(t.label)}`}
-function title(h,sub,actions=''){return `<div class="page-head"><div><div class="eyebrow">IFAW COMMAND CENTER</div><h1>${esc(h)}</h1><p>${esc(sub||'')}</p></div>${actions?`<div class="page-actions">${actions}</div>`:''}</div>`}
-function panelHead(icon,t,linkTo='',linkText='Alle anzeigen'){return `<div class="panel-head"><div class="panel-heading"><span class="panel-icon">${icon}</span>${esc(t)}</div>${linkTo?`<button class="panel-link" data-nav="${linkTo}">${esc(linkText)} →</button>`:''}</div>`}
-function statusNotice(){let t=latest(),error=state.fetchError;if(error)return `<div class="notice error">Datenabruf fehlgeschlagen: ${esc(error)}. Angezeigt werden nur gegebenenfalls vorhandene lokal geladene Meldungen.</div>`;if(!articles().length)return `<div class="notice warn">Noch keine Meldungen im Datenbestand. Die öffentlich sichtbare Nachrichtensammlung entsteht erst nach einem erfolgreichen GitHub-Actions-Durchlauf. Es werden keine Beispielmeldungen als echte Nachrichten ausgegeben.</div>`;if(t.stale)return `<div class="notice warn">Die Quellen sind derzeit nicht frisch aktualisiert. Bitte Zeitstempel und Originalquelle prüfen. Letzter Stand: ${esc(t.label)}.</div>`;return ''}
-function miniArticle(a){return `<div class="news-item"><a class="news-title" href="${esc(url(a.url))}" target="_blank" rel="noopener noreferrer">${esc(words(a.title,110))}</a><div class="news-sub"><span>${esc(a.source||'Unbekannte Quelle')}</span><span>·</span><span>${esc(shortDate(a.date))}</span></div></div>`}
-function briefingPanel(){let list=relevant().filter(filterTime).slice(0,5);return `<section class="panel briefing"><div class="panel-inner">${panelHead('☀','Morning Briefing','briefing','Ganzes Briefing')}<ul class="briefing-list">${list.length?list.map(a=>`<li><span class="briefing-dot"></span><div>${link(a,words(a.title,125))}<div class="small-muted">${esc(a.source)} · ${esc(shortDate(a.date))}</div></div></li>`).join(''):`<li><span class="briefing-dot"></span><span>Aktuell keine belastbaren Meldungen vorhanden. Bitte Quellenstatus prüfen.</span></li>`}</ul></div></section>`}
-function photoForArticle(a){const s=A.fold([a.title,a.summary,(a.topics||[]).join(' ')].join(' '));if(/\b(wal|wale|walen|whale|whales|delfin|dolphin|meeresschutz|marine|ocean)\b/.test(s))return {src:'assets/whale.jpg',alt:'Symbolfoto: Wal im Meer'};if(/\b(elefant|elefanten|elephant|elephants)\b/.test(s))return {src:'assets/elephant.jpg',alt:'Symbolfoto: Elefant in der Savanne'};if(/\b(wald|wälder|forest|rainforest|habitat|biodivers)\w*/.test(s))return {src:'assets/forest.jpg',alt:'Symbolfoto: tropischer Wald'};return null}
-function newsPanel(){const list=published(relevant()).slice(0,3);return `<section class="panel featured-news"><div class="panel-inner">${panelHead('◎','Global News Radar','news','Alle Meldungen')}${list.length?`<div class="featured-news-grid">${list.map(a=>{const img=photoForArticle(a);return `<article class="featured-story">${img?`<a class="story-image" href="${esc(url(a.url))}" target="_blank" rel="noopener noreferrer"><img src="${img.src}" alt="${esc(img.alt)}" loading="lazy"/><span>Symbolbild</span></a>`:`<div class="story-image no-picture" aria-hidden="true"><span>NEWS</span></div>`}<div class="story-body"><a class="story-title" href="${esc(url(a.url))}" target="_blank" rel="noopener noreferrer">${esc(words(a.title,95))}</a><div class="news-sub">${esc(a.source||'Unbekannte Quelle')} · ${esc(shortDate(a.date))}</div></div></article>`}).join('')}</div>`:`<div class="panel-subtext">Noch keine aktuellen öffentlichen Meldungen.</div>`}</div></section>`}
-function crisisPanel(){let list=published(relevant().filter(A.isCrisis)).slice(0,2);return `<section class="panel alert-panel"><div class="panel-inner">${panelHead('△','Crisis Watch','crisis')}${list.length?list.map(a=>`<div class="news-item">${link(a,words(a.title,100))}<div class="news-sub">${esc(a.source)} · ${esc(shortDate(a.date))}</div><div class="small-muted" style="margin-top:7px">Automatischer Schlagwort-Hinweis – kein bestätigter Krisenstatus.</div></div>`).join(''):`<div class="panel-subtext">Derzeit keine passenden Krisenhinweise in den erfassten Quellen. Das ist keine Entwarnung.</div>`}</div></section>`}
-function opportunityPanel(){let a=relevant().filter(A.isOpportunity).slice(0,2);return `<section class="panel"><div class="panel-inner">${panelHead('↗','PR-Chancen','opportunities')}${a.map(x=>`<div class="news-item"><div>${link(x,words(x.title,95))}</div><p class="news-excerpt">${esc(A.opportunityIdea(x))}</p><div class="news-sub">Regelbasierter Vorschlag · ${esc(x.source)}</div></div>`).join('')||`<div class="panel-subtext">Noch keine Meldung mit ausreichendem Themenbezug für einen Vorschlag.</div>`}</div></section>`}
-function studiesPanel(){let a=published(articles().filter(x=>x.kind==='study')).slice(0,2);return `<section class="panel policy-panel"><div class="panel-inner">${panelHead('◇','Studien-Scout','studies')}${a.map(miniArticle).join('')||`<div class="panel-subtext">Noch keine Studie erfasst.</div>`}</div></section>`}
-function dashChat(){return `<section class="panel chat-panel"><div class="panel-inner">${panelHead('◉','Command Chatbot','command','Chat öffnen')}<div class="chat-convo" id="chatConvo">${chatContent()}</div>${chatForm()}<div class="hint-buttons"><button type="button" data-ask="Was gibt es Neues zum Wildtierhandel?">Neuigkeiten zum Wildtierhandel</button><button type="button" data-ask="Welche neuen Studien gibt es zu Walen?">Neue Studien zu Walen</button></div></div></section>`}
-function hero(){return `<section class="welcome-hero"><div class="hero-content"><span class="hero-kicker">DEIN WILDLIFE NEWSROOM</span><h1>Dein Überblick.<br>Was heute zählt.</h1><p>Nachrichten, Wissenschaft und Politik.<br>Für deine Arbeit auf den Punkt.</p><button class="hero-action" type="button" data-nav="briefing">Morning Briefing ansehen <span aria-hidden="true">↗</span></button></div><a class="hero-credit" href="https://unsplash.com/photos/an-elephant-walks-through-dry-grass-in-savanna-giucwGEgRsE" target="_blank" rel="noopener noreferrer">Foto: Eric Dekker / Unsplash</a></section>`}
-function policyPanel(){const list=published(articles().filter(a=>a.kind==='policy'||a.topics.includes('Politik & Recht'))).slice(0,2);return `<section class="panel policy-panel"><div class="panel-inner">${panelHead('⚖','Policy Tracker','policy')}${list.map(miniArticle).join('')||'<div class="panel-subtext">Keine aktuellen politischen Meldungen im Feed.</div>'}</div></section>`}
-function dashboard(){return `${hero()}${statusNotice()}<div class="dash-intro"><div><span class="dash-eyebrow">HEUTE IM FOKUS</span><h2>Aktuelle Entwicklungen</h2></div><span class="dash-live"><i></i> Öffentliche Quellen · ${esc(String(articles().length))} Einträge</span></div><div class="dash-primary"><div class="dash-main">${briefingPanel()}${newsPanel()}</div><div class="dash-side">${dashChat()}${crisisPanel()}</div></div><div class="dash-bottom">${opportunityPanel()}${studiesPanel()}${policyPanel()}</div>${footer()}`}
-function footer(){return `<div class="footer-note"><span>Unabhängiger Recherche-Prototyp · Kein offizielles IFAW-Angebot. Öffentliche Quellen, keine Vollständigkeits- oder Faktenprüfungsgarantie.</span><span>Symbolbilder: <a href="https://unsplash.com/photos/an-elephant-walks-through-dry-grass-in-savanna-giucwGEgRsE" target="_blank" rel="noopener noreferrer">Eric Dekker</a>, <a href="https://unsplash.com/photos/whale-tail-in-the-middle-of-ocean-larQY4lhbT4" target="_blank" rel="noopener noreferrer">Mike Doherty</a>, <a href="https://unsplash.com/photos/a-lush-green-forest-filled-with-lots-of-trees-GlNSjGRugTE" target="_blank" rel="noopener noreferrer">Maximus Beaumont</a> · <a href="https://unsplash.com/license" target="_blank" rel="noopener noreferrer">Unsplash-Lizenz</a>.</span><button class="privacy-link" type="button" data-nav="settings">Datenschutz & Quellen</button></div>`}
-function filters(showSource=true){const sources=[...new Set(articles().map(a=>a.source))].sort();return `<div class="toolbar"><select id="filterTopic" aria-label="Nach Themen filtern"><option>Alle Themen</option>${A.TOPICS.map(x=>`<option value="${esc(x.name)}" ${state.topic===x.name?'selected':''}>${esc(x.name)}</option>`).join('')}</select><select id="filterPeriod" aria-label="Zeitraum"><option value="7" ${state.period==='7'?'selected':''}>Letzte 7 Tage</option><option value="30" ${state.period==='30'?'selected':''}>Letzte 30 Tage</option><option value="90" ${state.period==='90'?'selected':''}>Letzte 90 Tage</option><option value="all" ${state.period==='all'?'selected':''}>Gesamter Bestand</option></select><button type="button" class="filter-pill ${state.showSaved?'on':''}" id="toggleSaved">☆ Merkliste</button></div>`}
-function articleCard(a,type='generic'){let saved=state.saved.has(a.id);let matched=A.tagsFor(a);let chips=`<span class="tag blue">${esc(a.kind==='study'?'Publikation / Metadaten':a.kind==='ifaw'?'IFAW-Quelle':a.kind==='policy'?'Politik':'Meldung')}</span>`;if(type==='crisis')chips+=` <span class="tag red">Hinweis, nicht verifiziertes Krisenereignis</span>`;if(type==='opportunity')chips+=` <span class="tag green">PR-Potenzial – Vorschlag</span>`;return `<article class="article-card"><div class="meta-line">${chips}<span>${esc(a.source)}</span><span>· ${esc(fmtDate(a.date))}</span></div><h3>${link(a,a.title)}</h3>${a.summary?`<p>${esc(words(a.summary,350))}</p>`:''}${type==='opportunity'?`<div class="notice good" style="margin:12px 0 0"><strong>Idee zur Prüfung:</strong> ${esc(A.opportunityIdea(a))}</div>`:''}${type==='study'?`<div class="small-muted">Nur bibliografische Metadaten: Studie und Methodik im Original überprüfen. Kein automatisch bestätigtes Studienergebnis.</div>`:''}${type==='crisis'?`<div class="small-muted">Schlagwortbasierter Frühwarnhinweis. Ereignis, Ort und Aktualität selbst gegenprüfen.</div>`:''}<div class="view-header-tags">${matched.slice(0,3).map(t=>`<span class="tag">${esc(t)}</span>`).join('')}</div><div class="actions"><button class="bookmark ${saved?'saved':''}" data-bookmark="${esc(a.id)}">${saved?'★ Gespeichert':'☆ Merken'}</button>${link(a,'Original öffnen ↗')}</div></article>`}
-function newsView(view){let config={news:['Global News Radar','Die wichtigsten öffentlichen Meldungen rund um Tierschutz, Artenvielfalt und Politik.'],opportunities:['PR-Chancen','Ideen, die sich möglicherweise für deutsche Pressearbeit eignen. Regelbasiert, nicht KI-generiert.'],media:['Medienmonitoring','Öffentliche Medienfeeds und themenbezogene Meldungen – kein Ersatz für ein professionelles Vollmonitoring.'],crisis:['Crisis Watch','Schlagwortbasierte Hinweise auf potenzielle Krisen. Keine Vorhersage oder automatische Alarmbestätigung.'],studies:['Studien-Scout','Neue bibliografische Einträge aus Crossref. Die Ergebnisse der Studien sind nicht automatisch geprüft.'],policy:['Policy Tracker','Offizielle Politikquellen und relevante politische Themen. Keine vollständige Gesetzes- oder Terminüberwachung.'],knowledge:['IFAW Knowledge Base','Öffentliche IFAW-Inhalte aus der erfassten Quellenauswahl; keine internen Dateien.'],briefing:['Morning Briefing','Die wichtigsten erfassten Nachrichten und möglichen Kommunikationschancen.']};let [h,sub]=config[view];let list=articles();if(view==='opportunities')list=list.filter(A.isOpportunity);if(view==='media')list=list.filter(a=>a.kind==='media');if(view==='crisis')list=list.filter(A.isCrisis);if(view==='studies')list=list.filter(a=>a.kind==='study');if(view==='policy')list=list.filter(a=>a.kind==='policy'||a.topics.includes('Politik & Recht'));if(view==='knowledge')list=list.filter(a=>a.kind==='ifaw');if(view==='briefing')list=list.filter(a=>A.score(a)>=4);list=pageList(view==='briefing'?ordered(list):published(list));const sample=articles();return `${title(h,sub)}${statusNotice()}${view==='briefing'?`<div class="stat-strip"><div class="stat"><strong>${sample.filter(x=>filterTime(x)).length}</strong><span>Meldungen im Zeitraum</span></div><div class="stat"><strong>${sample.filter(A.isOpportunity).filter(filterTime).length}</strong><span>PR-Chancen (Regeln)</span></div><div class="stat"><strong>${sample.filter(A.isCrisis).filter(filterTime).length}</strong><span>Krisen-Schlagworttreffer</span></div><div class="stat"><strong>${sample.filter(x=>x.kind==='study').filter(filterTime).length}</strong><span>Studien-Einträge</span></div></div>`:''}${view==='crisis'?`<div class="notice warn">Crisis Watch zeigt nur Treffer in angebundenen Quellen. Es ist weder eine vollständige Gefahrenlage noch eine zuverlässige Prognose.</div>`:''}${view==='opportunities'?`<div class="notice">Ein Vorschlag bedeutet nicht, dass ein Thema neu, exklusiv oder pressegeeignet ist. Die menschliche Redaktion prüft Nachrichtenwert und Originalbeleg.</div>`:''}${view==='studies'?`<div class="notice">Crossref ist eine Metadaten-Datenbank. Ein DOI allein belegt weder Peer Review noch die Qualität einer Studie.</div>`:''}${view==='knowledge'?`<div class="notice">Keine vertraulichen Unternehmensdokumente hochladen. Hier erscheinen ausschließlich öffentliche IFAW-Quellen aus dem News-Radar.</div>`:''}${filters()}<div class="article-list">${list.slice(0,80).map(a=>articleCard(a,view==='opportunities'?'opportunity':view==='crisis'?'crisis':view==='studies'?'study':'generic')).join('')||empty('Keine Treffer','Passe die Suche oder den Zeitraum an, oder prüfe den Quellenstatus.')}</div>${list.length>80?`<div class="about-date">Erste 80 von ${list.length} Treffern</div>`:''}${footer()}`}
-function chatContent(){return state.chat.map(x=>`<div class="chat-message ${x.role}">${x.role==='bot'&&x.html?x.html:esc(x.text)}</div>`).join('')}
-function chatForm(){return `<form class="chat-ask" id="chatAsk"><input name="question" aria-label="Frage an Command Chatbot" placeholder="Frage stellen ..." maxlength="350" required autocomplete="off"/><button type="submit" title="Frage senden">➤</button></form>`}
-function command(){return `${title('Command Chatbot','Schnelle, quellenbasierte Suche im Command Center – keine halluzinierten Antworten.')}<div class="notice">Dieser Assistent ist bewusst <strong>kein generatives KI-Modell</strong>. Für 0 € durchsucht er den vorhandenen Quellenbestand und zeigt direkte Belege. Er kann keine unbekannten Fakten erfinden oder Informationen außerhalb dieser Datenbank recherchieren.</div><div class="command-full"><section class="panel chat-panel"><div class="panel-inner">${panelHead('◉','Frage dein Command Center')}<div class="chat-convo" id="chatConvo">${chatContent()}</div>${chatForm()}<div class="hint-buttons"><button data-ask="Welche Meldungen gibt es über Wale?">Meldungen zu Walen finden</button><button data-ask="Welche neuen Studien gibt es zum Wildtierhandel?">Neue Studien zum Wildtierhandel</button><button data-ask="Gibt es aktuelle IFAW-Nachrichten?">Öffentliche IFAW-News</button></div></div></section></div>${footer()}`}
-function answer(q){const qs=A.tokens(q),t=A.fold(q),base=articles();let filtered=base;if(/studie|studies|study|forschung|research/.test(t))filtered=base.filter(x=>x.kind==='study');else if(/ifaw/.test(t))filtered=base.filter(x=>x.kind==='ifaw');else if(/policy|politik|gesetze|eu-regel|eu recht|cites/.test(t))filtered=base.filter(x=>x.kind==='policy'||x.topics.includes('Politik & Recht'));
-  const matches=qs.length?A.search(filtered,q):ordered(filtered);
-  if(!matches.length)return `<strong>Keine passende Quelle gefunden.</strong> Ich kann deine Frage aus dem derzeit erfassten Bestand nicht belastbar beantworten. Bitte probiere andere Suchbegriffe oder prüfe die Originalquellen. (${esc(String(base.length))} Einträge insgesamt)`;
-  const chosen=matches.slice(0,5);
-  return `<strong>Das habe ich in ${esc(String(chosen.length))} Quelleneinträgen gefunden:</strong><br>${chosen.map((a,i)=>`<div style="margin-top:10px"><strong>${i+1}. </strong>${link(a,words(a.title,125))}<div class="small-muted">${esc(a.source)} · ${esc(fmtDate(a.date))}</div>${a.summary?`<div>${esc(words(a.summary,195))}</div>`:''}</div>`).join('')}<div class="small-muted" style="margin-top:13px">Dies sind Quellen-Auszüge, keine unabhängig überprüfte Antwort. Bitte Originalartikel lesen.</div>`;
+function toast(message){const node=$('#toast');if(!node)return;node.textContent=message;node.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>node.classList.remove('show'),3300)}
+function storeSaved(){try{localStorage.setItem('wc_saved_v4',JSON.stringify([...state.saved]))}catch{toast('Merkliste konnte nicht gespeichert werden.')}} 
+function articles(){
+  return (state.feed.articles||[]).filter(x=>x&&x.title&&safeUrl(x.url)!=='#').map(x=>({...x,topics:A.tagsFor(x)}));
 }
-function chatSend(q){const trimmed=String(q||'').trim();if(!trimmed)return;state.chat.push({role:'user',text:trimmed});state.chat.push({role:'bot',html:answer(trimmed)});state.chat=state.chat.slice(-22);const box=$('#chatConvo');if(box){box.innerHTML=chatContent();box.scrollTop=box.scrollHeight}}
-function settings(){const sources=state.feed.sources||[],failures=state.feed.failures||[];return `${title('Datenschutz & Quellen','Informationen zum öffentlich erreichbaren Recherche-Prototyp.')}<div class="settings-section panel"><div class="settings-content"><h2>Quellen und Aktualität</h2><p>Öffentliche RSS-/Atom-Feeds und bibliografische Metadaten (Crossref), gesammelt mit GitHub Actions. Die Auswertung ist regelbasiert. Ein Link oder eine Zusammenfassung ist keine unabhängige Faktenprüfung.</p><p><strong>Letzte Sammlung:</strong> ${esc(latest().label)} · ${sources.filter(x=>x.ok).length} von ${sources.length} Quellen erfolgreich.</p>${failures.length?`<div class="notice warn">${failures.length} Quellen nicht erreichbar; dadurch können Meldungen fehlen.</div>`:''}<div class="source-directory">${sources.map(s=>`<div><span class="status-dot ${s.ok?'':'warning'}"></span> ${esc(s.name)} <small>${s.ok?`${s.count} Treffer`:'Abruf fehlgeschlagen'}</small></div>`).join('')}</div></div></div><div class="settings-section panel"><div class="settings-content"><h2>Datenschutz und Betreiber</h2><p>Keine Anmeldung, kein Microsoft To Do und keine kostenpflichtige KI-API. Command Chatbot = lokale regelbasierte Quellensuche; Fragen werden nicht an einen externen KI-Dienst geschickt. Merklisten verbleiben im lokalen Browserspeicher.</p><p>Öffentliches Hosting: ship.page / Cloudflare. Dort fallen technische Zugriffsdaten an (siehe <a href="https://ship.page/privacy" target="_blank" rel="noopener noreferrer">Datenschutz des Hosters ↗</a>). Die App ruft öffentliche JSON-Nachrichtendaten von GitHub ab; GitHub erhält dabei eine Netzwerkanfrage. Bilder liegen auf demselben Webhost und werden nicht bei Unsplash nachgeladen.</p><p><strong>Wichtig:</strong> Keine vertraulichen IFAW- oder personenbezogenen Arbeitsdaten eingeben. Vor produktiver Nutzung müssen die IFAW-Freigabe, die rechtlich verantwortliche Stelle sowie eine mögliche Impressums- und DSGVO-Informationspflicht geklärt werden.</p><button class="danger-button" type="button" id="clearSaved">Merkliste löschen</button></div></div><div class="settings-section panel"><div class="settings-content"><h2>Bildnachweise</h2><p>Die Fotos sind Symbolbilder, keine Aufnahmen der berichteten Ereignisse. Bildnachweise: <a href="https://unsplash.com/photos/an-elephant-walks-through-dry-grass-in-savanna-giucwGEgRsE" target="_blank" rel="noopener noreferrer">Elefant · Eric Dekker</a>, <a href="https://unsplash.com/photos/whale-tail-in-the-middle-of-ocean-larQY4lhbT4" target="_blank" rel="noopener noreferrer">Wal · Mike Doherty</a>, <a href="https://unsplash.com/photos/a-lush-green-forest-filled-with-lots-of-trees-GlNSjGRugTE" target="_blank" rel="noopener noreferrer">Wald · Maximus Beaumont</a> · <a href="https://unsplash.com/license" target="_blank" rel="noopener noreferrer">Unsplash-Lizenz</a>.</p></div></div>${footer()}`}
-function render(){renderNav();renderStatus();const pages={dashboard,news:()=>newsView('news'),briefing:()=>newsView('briefing'),opportunities:()=>newsView('opportunities'),media:()=>newsView('media'),crisis:()=>newsView('crisis'),studies:()=>newsView('studies'),policy:()=>newsView('policy'),knowledge:()=>newsView('knowledge'),command,settings};$('#main').innerHTML=(pages[state.view]||dashboard)();bindView()}
-function bindView(){document.querySelectorAll('[data-nav]').forEach(b=>{if(!b.classList.contains('nav-link'))b.addEventListener('click',()=>go(b.dataset.nav))});document.querySelectorAll('[data-bookmark]').forEach(b=>b.onclick=()=>{const id=b.dataset.bookmark;state.saved.has(id)?state.saved.delete(id):state.saved.add(id);save('cc_saved_v1',[...state.saved]);render()});document.querySelectorAll('[data-ask]').forEach(b=>b.onclick=()=>chatSend(b.dataset.ask));const chat=$('#chatAsk');if(chat)chat.onsubmit=e=>{e.preventDefault();const q=new FormData(chat).get('question');chatSend(q);chat.reset()};const topic=$('#filterTopic'),period=$('#filterPeriod'),saved=$('#toggleSaved');if(topic)topic.onchange=()=>{state.topic=topic.value;render()};if(period)period.onchange=()=>{state.period=period.value;render()};if(saved)saved.onclick=()=>{state.showSaved=!state.showSaved;render()};const clear=$('#clearSaved');if(clear)clear.onclick=()=>{if(confirm('Gesamte Merkliste löschen?')){state.saved.clear();save('cc_saved_v1',[]);render()}}}
-function downloadJSON(filename,data){let blob=new Blob([JSON.stringify(data,null,2)],{type:'application/json'});let u=URL.createObjectURL(blob),a=document.createElement('a');a.href=u;a.download=filename;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),1000)}
-async function loadFeed(){state.fetchError='';let issue='';const urls=[`https://raw.githubusercontent.com/hhhihihihpdwwd/astro-platform-starter/main/command-center/data/articles.json?ts=${Date.now()}`,`data/articles.json?ts=${Date.now()}`];for(const url of urls){try{const r=await fetch(url,{cache:'no-store'});if(!r.ok)throw Error(`HTTP ${r.status}`);const data=await r.json();if(!data||!Array.isArray(data.articles)||!Array.isArray(data.sources))throw Error('Ungültiges Datenformat');state.feed=data;issue='';break}catch(e){issue=e.message}}if(issue)state.fetchError='Die Quellen konnten nicht geladen werden: '+issue;render()}
-async function start(){renderNav();$('#refreshBtn').onclick=()=>loadFeed();$('#globalSearch').addEventListener('input',e=>{state.search=e.target.value.trim();if(!['news','briefing','opportunities','crisis','media','studies','knowledge','policy'].includes(state.view)&&state.search){state.view='news';state.period='all';state.topic='Alle Themen'}render()});const valid=new Set([...navs.map(x=>x[0]),'settings']);const v=location.hash.slice(1);if(valid.has(v))state.view=v;await loadFeed()}
+function byDate(list){return [...list].sort((x,y)=>(Date.parse(y.date)||0)-(Date.parse(x.date)||0))}
+function byRelevance(list){return [...list].sort((x,y)=>A.score(y)-A.score(x)||(Date.parse(y.date)||0)-(Date.parse(x.date)||0))}
+function fresh(list,maxDays=40){const now=Date.now();return list.filter(x=>{const t=Date.parse(x.date);return Number.isFinite(t)&&t<now+86400000&&now-t<=maxDays*86400000})}
+function itemsFor(view){
+  let list=articles();
+  if(view==='news')list=list.filter(x=>x.kind!=='study');
+  if(view==='pr')list=list.filter(x=>A.isOpportunity(x));
+  if(view==='crisis')list=list.filter(x=>A.isCrisis(x));
+  if(view==='studies')list=list.filter(x=>x.kind==='study');
+  if(view==='policy')list=list.filter(x=>x.kind==='policy'||x.topics.includes('Politik & Recht'));
+  if(view==='ifaw')list=list.filter(x=>x.kind==='ifaw');
+  if(state.onlySaved)list=list.filter(x=>state.saved.has(x.id));
+  if(state.search)list=A.search(list,state.search);
+  return view==='pr'?byRelevance(list):byDate(list);
+}
+function renderClocksShell(){
+  $('#worldClocks').innerHTML=Clock.CITIES.slice(1).map(c=>'<div class="world-clock"><span class="city">'+esc(c.name)+'</span><time class="clock-time" id="clock-'+c.id+'">--:--:--</time><span class="clock-date" id="date-'+c.id+'">–</span></div>').join('');
+}
+function updateClocks(now=new Date()){
+  if(!Clock)return;
+  const h=Clock.cityTime(now,'Europe/Berlin');
+  $('#greeting').textContent=Clock.greeting(now)+', Luca.';
+  $('#clock-hamburg').textContent=h.time;
+  $('#clock-hamburg').dateTime=now.toISOString();
+  const s=Clock.sunMood(now);
+  const icon=$('#sunGraphic');icon.textContent=s.icon;icon.classList.toggle('night',s.altitude<0);
+  const elevation=Math.abs(s.altitude).toFixed(1).replace('.',',');
+  $('#sunLabel').textContent=s.altitude>=0?'Sonne '+elevation+'° über dem Horizont · Näherungswert':'Sonne '+elevation+'° unter dem Horizont · Näherungswert';
+  for(const city of Clock.CITIES.slice(1)){
+    const t=Clock.cityTime(now,city.zone);
+    $('#clock-'+city.id).textContent=t.time;
+    $('#clock-'+city.id).dateTime=now.toISOString();
+    const date=new Intl.DateTimeFormat('de-DE',{timeZone:city.zone,weekday:'short',day:'2-digit',month:'short'}).format(now);
+    $('#date-'+city.id).textContent=date;
+  }
+}
+function renderNav(){
+  $('#nav').innerHTML=NAV.map(([key,title])=>'<button type="button" data-view="'+key+'" class="nav-link '+(state.view===key?'active':'')+'" '+(state.view===key?'aria-current="page"':'')+'>'+esc(title)+'</button>').join('');
+}
+function go(view){
+  if(!NAV.some(x=>x[0]===view))view='dashboard';
+  state.view=view;state.search='';state.onlySaved=false;$('#globalSearch').value='';
+  render();document.querySelector('main').focus({preventScroll:true});
+  history.replaceState(null,'',view==='dashboard'?location.pathname:'#'+view);
+}
+function ageMinutes(value){const t=Date.parse(value||'');return Number.isFinite(t)?Math.max(0,Math.round((Date.now()-t)/60000)):Infinity}
+function status(){
+  const host=$('#topStatus'),pulse=host.querySelector('.status-pulse');
+  const age=ageMinutes(state.feed.generated_at);
+  let label='Noch keine Quellen geladen',level='warn';
+  if(state.fetching){label='Prüfe aktuelle Quellen …';level=''}
+  else if(state.fetchError&&!state.feed.generated_at){label='Quellen nicht erreichbar';level='error'}
+  else if(Number.isFinite(age)){label='Quellenstand: '+(age<60?age+' Min.':Math.round(age/60)+' Std.')+' alt';level=age>150?'warn':''}
+  if(state.fetchError&&state.feed.generated_at)label+=' · Ersatzdaten';
+  host.innerHTML='<span class="status-pulse '+level+'"></span><span>'+esc(label)+'</span>';
+}
+function empty(title,sub){return '<div class="empty"><strong>'+esc(title)+'</strong>'+esc(sub||'')+'</div>'}
+function heading(title,sub){return '<div class="dashboard-header"><div><h2 class="page-heading">'+esc(title)+'</h2><p class="page-subtitle">'+esc(sub||'')+'</p></div><div class="update-note">Datenstand: '+esc(fmtDate(state.feed.generated_at,{hour:'2-digit',minute:'2-digit'}))+'</div></div>'}
+function panelTop(icon,title,destination){
+  return '<div class="panel-top"><h3 class="panel-title"><span class="picon" aria-hidden="true">'+icon+'</span>'+esc(title)+'</h3>'+(destination?'<button class="soft-link" data-view="'+destination+'">Alle ansehen ↗</button>':'')+'</div>';
+}
+function smallStory(a,desc=true){
+  return '<div class="compact-story"><div>'+link(a,truncated(a.title,126))+'</div>'+
+    (desc&&a.summary?'<div class="desc">'+esc(truncated(a.summary,178))+'</div>':'')+
+    '<div class="meta">'+esc(a.source||'Quelle')+' · '+esc(fmtDate(a.date))+'</div></div>';
+}
+function imageFor(a,i){
+  const text=(a.title+' '+a.summary).toLowerCase();
+  if(/whale|wale|dolphin|marine|ocean|meer|orca|seal/.test(text))return 'assets/whale.jpg';
+  if(/elephant|elefant|rhino|nashorn|giraffe|lion|tiger/.test(text))return 'assets/elephant.jpg';
+  return ['assets/forest.jpg','assets/whale.jpg','assets/elephant.jpg'][i%3];
+}
+function feature(a,i){
+  return '<article class="feature-story"><a href="'+esc(safeUrl(a.url))+'" target="_blank" rel="noopener noreferrer">'+
+    '<img loading="lazy" class="photo" src="'+imageFor(a,i)+'" alt="Symbolbild aus der Tier- und Naturwelt">'+
+    '<h3>'+esc(truncated(a.title,91))+'</h3></a><div class="byline">'+esc(truncated(a.source,29))+' · '+esc(fmtDate(a.date))+'</div><div class="symbol-note">Symbolbild, nicht vom berichteten Ereignis</div></article>';
+}
+function studyPick(){
+  const studies=byDate(articles().filter(x=>x.kind==='study'&&x.url.startsWith('https://doi.org/')));
+  if(!studies.length)return null;
+  const berlinDate=Clock.cityTime(new Date(),'Europe/Berlin').day;
+  const declared=state.feed.daily_study;
+  if(declared?.date===berlinDate){
+    const item=studies.find(x=>x.id===declared.id);
+    if(item)return item;
+  }
+  return studies.find(x=>x.abstract_available)||studies[0];
+}
+function dailyStudy(){
+  const study=studyPick();
+  if(!study)return '<section class="daily-study" id="dailyStudy"><div><p class="eyebrow">STUDIE DES TAGES</p><h3 class="study-title">Heute keine belegte Studie verfügbar</h3><p class="study-summary">Der wissenschaftliche Quellenabruf hat derzeit keinen geeigneten Eintrag mit Original-Link geliefert. Hier werden keine Studien oder Forschungsergebnisse erfunden.</p></div><div class="study-aside"><div class="meta-label">Aktualisierung</div><div class="meta-value">Automatisch morgens, sofern die wissenschaftlichen Quellen verfügbar sind.</div></div></section>';
+  const method=study.abstract_available?'Auf Basis von Abstract und Metadaten':'Nur bibliografische Metadaten verfügbar';
+  return '<section class="daily-study" id="dailyStudy"><div><p class="eyebrow">STUDIE DES TAGES · '+esc(fmtDate(new Date()))+'</p>'+
+    '<h3 class="study-title">'+esc(study.title)+'</h3>'+
+    '<p class="study-summary">'+esc(study.summary||'Nur bibliografische Metadaten verfügbar. Ergebnisse nicht geprüft.')+'</p>'+
+    '<a class="small-button" href="'+esc(safeUrl(study.url))+'" target="_blank" rel="noopener noreferrer">Originalstudie ansehen ↗</a></div>'+
+    '<aside class="study-aside"><span class="meta-label">Journal / Quelle</span><span class="meta-value">'+esc(study.source||'Wissenschaftliche Quelle')+'</span>'+
+    '<span class="meta-label">Veröffentlichung</span><span class="meta-value">'+esc(fmtDate(study.date))+'</span>'+
+    '<span class="badge">'+esc(method)+'</span><span class="mini-note">Automatisch ausgewählt und vorsichtig zusammengefasst. Kein Ersatz für eine vollständige Studienprüfung.</span></aside></section>';
+}
+function dashboard(){
+  const all=articles();
+  const top=byRelevance(fresh(all.filter(x=>x.kind!=='study'),20)).slice(0,5);
+  const pictures=top.length?top.slice(0,3):byRelevance(all.filter(x=>x.kind!=='study')).slice(0,3);
+  const crisis=byDate(all.filter(x=>A.isCrisis(x))).slice(0,2);
+  const pr=byRelevance(all.filter(x=>A.isOpportunity(x))).slice(0,2);
+  const policy=byDate(all.filter(x=>x.kind==='policy'||x.topics.includes('Politik & Recht'))).slice(0,2);
+  const brief=top.slice(0,4);
+  const hasWarn=ageMinutes(state.feed.generated_at)>150;
+  return heading('Dein Überblick','Wichtige Meldungen, Beobachtungen und Forschung – automatisch aus öffentlichen Quellen zusammengestellt.')+
+    (hasWarn?'<div class="notice warn">Der Nachrichtenbestand ist älter als geplant. Der stündliche Quellenabruf kann verzögert sein oder ausfallen. Bitte prüfe Veröffentlichungsdaten und Originalquellen.</div>':'')+
+    '<div class="dashboard-grid"><div class="column">'+
+    '<section class="panel"><div class="panel-inner">'+panelTop('☀','Morning Briefing','news')+
+    (brief.length?'<ul class="brief-lines">'+brief.map(a=>'<li><span class="dot"></span><div>'+link(a,truncated(a.title,115))+'<div class="muted">'+esc(truncated(a.summary||'',135))+'</div></div></li>').join('')+'</ul>':empty('Noch kein Briefing verfügbar','Neue Nachrichten erscheinen nach einem erfolgreichen Quellenabruf.'))+
+    '</div></section>'+
+    '<section class="panel"><div class="panel-inner">'+panelTop('◎','Global News Radar','news')+
+    (pictures.length?'<div class="feature-grid">'+pictures.map(feature).join('')+'</div>':empty('Keine Nachrichten vorhanden','Die App zeigt ausschließlich echte Quellen.'))+
+    '</div></section></div><div class="column">'+
+    '<section class="panel"><div class="panel-inner">'+panelTop('↗','PR-Chancen','pr')+
+    (pr.length?pr.map(a=>smallStory(a,false)).join('')+'<p class="mini-note">Regelbasierte Themenideen, keine bestätigten Pressechancen.</p>':empty('Keine neuen PR-Chancen erkannt','Keine geeigneten Quellen im aktuellen Bestand.'))+
+    '</div></section>'+
+    '<section class="panel alert-border"><div class="panel-inner">'+panelTop('△','Crisis Watch','crisis')+
+    (crisis.length?crisis.map(a=>smallStory(a,false)).join('')+'<p class="mini-note">Automatische Schlagwortsuche, keine behördliche Gefahrenwarnung.</p>':empty('Keine neuen Hinweise','Das ist keine Garantie, dass keine Krisen bestehen.'))+
+    '</div></section>'+
+    '<section class="panel"><div class="panel-inner">'+panelTop('⚖','Politik im Blick','policy')+
+    (policy.length?policy.map(a=>smallStory(a,false)).join(''):empty('Keine aktuellen Policy-Meldungen','Die verfügbaren Quellen sind möglicherweise unvollständig.'))+
+    '</div></section></div></div>'+
+    dailyStudy()+'<p class="mini-note section-spacer">Alle Meldungen sind automatisch gesammelt. Themengewichtung, Krisen- und PR-Kennzeichnungen sind regelbasierte Hinweise; keine unabhängige Faktenprüfung. Symbolbilder zeigen nicht die konkreten Ereignisse.</p>';
+}
+function articleCard(a){
+  const saved=state.saved.has(a.id);
+  return '<article class="article-card"><div><span class="badge">'+esc(a.kind==='study'?'Studie':a.kind==='policy'?'Politik':a.kind==='ifaw'?'IFAW-News':'Meldung')+'</span>'+
+    '<h3>'+link(a)+'</h3><p>'+esc(truncated(a.summary||'Kein Teaser verfügbar. Bitte die Originalquelle aufrufen.',360))+'</p>'+
+    '<div class="article-meta"><span>'+esc(a.source||'Quelle unbekannt')+'</span><span>'+esc(fmtDate(a.date))+'</span><span>'+esc(a.topics.slice(0,2).join(' · '))+'</span></div></div>'+
+    '<div class="article-actions"><button type="button" data-bookmark="'+esc(a.id)+'" class="bookmark '+(saved?'saved':'')+'">'+(saved?'✓ Gemerkt':'☆ Merken')+'</button>'+
+    '<a class="small-button" href="'+esc(safeUrl(a.url))+'" target="_blank" rel="noopener noreferrer">Quelle ↗</a></div></article>';
+}
+function archiveView(view){
+  const descriptions={
+    news:['Global News Radar','Neue Meldungen aus internationalen Medien und öffentlichen Organisationen.'],
+    pr:['PR-Chancen','Nachrichtenthemen mit möglicher Relevanz für die deutsche Pressearbeit. Keine fertigen Pitches.'],
+    crisis:['Crisis Watch','Automatisch erkannte Meldungen mit möglichen Krisenbegriffen. Keine Echtzeit-Gefahrenwarnung.'],
+    studies:['Studien-Scout','Wissenschaftliche Quellen mit DOI, Metadaten und – soweit verfügbar – zurückhaltender Abstract-Einordnung.'],
+    policy:['Politik & Policy','Öffentliche Politik- und Regulierungsmeldungen mit Originalquellen.'],
+    ifaw:['IFAW weltweit','Öffentliche IFAW-Meldungen aus dem Nachrichtenbestand.']
+  };
+  const [title,description]=descriptions[view]||descriptions.news;
+  const list=itemsFor(view).slice(0,90);
+  const notice=view==='studies'?'<div class="notice">Ein bibliografischer Eintrag belegt nicht die Ergebnisse oder den Peer-Review-Status. Nur verlinkte DOI-Originalquellen verwenden.</div>':'';
+  return heading(title,description)+notice+
+    '<div class="filterbar"><button type="button" id="filterSaved" class="'+(state.onlySaved?'active':'')+'">'+(state.onlySaved?'✓ Merkliste':'☆ Nur Gemerkte')+'</button><span class="muted">'+list.length+' angezeigte Quellen · Neueste zuerst</span></div>'+
+    '<div class="list-view">'+(list.length?list.map(articleCard).join(''):empty('Keine passenden Quellen','Bitte später erneut prüfen oder nach anderen Begriffen suchen.'))+'</div>';
+}
+function sourcesView(){
+  const sources=state.feed.sources||[],fails=state.feed.failures||[];
+  return heading('Quellen & Transparenz','Datenherkunft, Aktualität und Hinweise zur Nutzung des öffentlichen Prototyps.')+
+    '<div class="notice">Die Seite ist öffentlich zugänglich und <strong>kein offizielles IFAW-Angebot</strong>. Keine vertraulichen IFAW-Daten eingeben. Es gibt keine Anmeldung, keine Aufgaben- oder Chatfunktion und keine kostenpflichtige KI-API.</div>'+
+    '<div class="dashboard-grid"><div class="column"><section class="panel"><div class="panel-inner">'+panelTop('◎','Aktualität der Quellen')+
+    '<p class="muted">Letzter erfolgreicher Datensatz: <strong>'+esc(fmtDate(state.feed.generated_at,{hour:'2-digit',minute:'2-digit'}))+'</strong>. Der Browser prüft stündlich auf neuere Daten. GitHub Actions versucht, öffentliche Quellen etwa stündlich abzurufen; geplante Läufe können sich verzögern.</p>'+
+    (fails.length?'<div class="notice warn">'+fails.length+' Quellen lieferten zuletzt Fehler. Der Bestand kann unvollständig sein.</div>':'')+
+    sources.map(s=>'<div class="source-row"><strong>'+esc(s.name)+'</strong><span>'+esc(s.ok?String(s.count)+' Treffer':'Abruf fehlgeschlagen')+'</span></div>').join('')+
+    '</div></section></div><div class="column"><section class="panel"><div class="panel-inner">'+panelTop('ⓘ','Datenschutz & Einordnung')+
+    '<p class="muted">Die App speichert eine freiwillige Merkliste nur im lokalen Browser. Externe Netzwerkzugriffe erfolgen zum Webhost und zu den öffentlichen JSON-Daten auf GitHub; diese Dienstleister verarbeiten technisch notwendige Zugriffsdaten.</p>'+
+    '<p class="muted">Vor einem offiziellen oder produktiven Einsatz: Freigabe durch eure IT, Marken- und Bildrechte, Quellen-Nutzungsbedingungen, Impressum und Datenschutzhinweise klären.</p>'+
+    '<p class="muted">Bildnachweise (Symbolbilder, keine Ereignisfotos): <a href="https://unsplash.com/photos/an-elephant-walks-through-dry-grass-in-savanna-giucwGEgRsE" target="_blank" rel="noopener noreferrer">Elefant – Eric Dekker</a>, <a href="https://unsplash.com/photos/whale-tail-in-the-middle-of-ocean-larQY4lhbT4" target="_blank" rel="noopener noreferrer">Wal – Mike Doherty</a>, <a href="https://unsplash.com/photos/a-lush-green-forest-filled-with-lots-of-trees-GlNSjGRugTE" target="_blank" rel="noopener noreferrer">Wald – Maximus Beaumont</a> (<a href="https://unsplash.com/license" target="_blank" rel="noopener noreferrer">Lizenz</a>).</p>'+
+    '<button type="button" class="small-button" id="clearSaved">Gespeicherte Artikel löschen</button></div></section></div></div>';
+}
+function render(){
+  renderNav();status();
+  const view=state.search?'search':state.view;
+  $('#main').innerHTML=view==='dashboard'?dashboard():view==='sources'?sourcesView():view==='search'?heading('Suchergebnisse','Passende Artikel aus dem vorhandenen Nachrichtenbestand.')+'<div class="list-view">'+(A.search(articles(),state.search).slice(0,90).map(articleCard).join('')||empty('Keine passenden Quellen','Bitte Suchbegriff ändern.'))+'</div>':archiveView(view);
+}
+function bindEvents(){
+  document.addEventListener('click',event=>{
+    const nav=event.target.closest('[data-view]');
+    if(nav){event.preventDefault();go(nav.dataset.view);return}
+    const mark=event.target.closest('[data-bookmark]');
+    if(mark){const id=mark.dataset.bookmark;state.saved.has(id)?state.saved.delete(id):state.saved.add(id);storeSaved();render();return}
+    if(event.target.closest('#filterSaved')){state.onlySaved=!state.onlySaved;render();return}
+    if(event.target.closest('#clearSaved')){if(confirm('Gesamte Merkliste löschen?')){state.saved.clear();storeSaved();render()}return}
+  });
+  $('#globalSearch').addEventListener('input',event=>{state.search=event.target.value.trim();render()});
+  $('#refreshBtn').addEventListener('click',()=>loadFeed(true));
+}
+async function loadFeed(manual=false){
+  if(state.fetching)return;
+  state.fetching=true;state.lastFetchAt=Date.now();status();
+  let failure='';
+  const urls=['https://raw.githubusercontent.com/hhhihihpdwwd/astro-platform-starter/main/command-center/data/articles.json?refresh='+Date.now(),'data/articles.json?refresh='+Date.now()];
+  for(const u of urls){
+    try{
+      const ctrl=new AbortController(),timeout=setTimeout(()=>ctrl.abort(),15000);
+      let response;
+      try{response=await fetch(u,{cache:'no-store',signal:ctrl.signal})}finally{clearTimeout(timeout)}
+      if(!response.ok)throw Error('HTTP '+response.status);
+      const data=await response.json();
+      if(!Array.isArray(data.articles)||!Array.isArray(data.sources))throw Error('Ungültiges Datenformat');
+      state.feed=data;failure='';break;
+    }catch(err){failure=String(err?.message||err)}
+  }
+  state.fetchError=failure;
+  state.fetching=false;
+  render();
+  if(manual)toast(failure?'Aktualisierung nicht verfügbar.':'Quellen geprüft und aktualisiert.');
+}
+function maybeRefresh(){
+  updateClocks();
+  if(!document.hidden&&Date.now()-state.lastFetchAt>=60*60*1000)loadFeed();
+  const today=Clock.cityTime(new Date(),'Europe/Berlin').day;
+  if(today!==startDate){startDate=today;render()}
+}
+let startDate='';
+function start(){
+  renderClocksShell();updateClocks();
+  startDate=Clock.cityTime(new Date(),'Europe/Berlin').day;
+  bindEvents();
+  const hash=location.hash.replace('#','');
+  if(NAV.some(x=>x[0]===hash))state.view=hash;
+  render();loadFeed();
+  setInterval(updateClocks,1000);
+  setInterval(maybeRefresh,60*1000);
+  document.addEventListener('visibilitychange',maybeRefresh);
+  window.addEventListener('focus',maybeRefresh);
+}
 start();

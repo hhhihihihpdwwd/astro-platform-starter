@@ -35,11 +35,15 @@ Die moderne Schrift nutzt die lokal verfügbaren Systemfonts, also **keine exter
 - Die neuesten öffentlichen JSON-Meldungen lädt der Browser aus diesem GitHub-Repository, mit lokalem Snapshot als Fallback.
 - Es werden **keine Besucherdaten oder Chatfragen in eine Datenbank dieser Anwendung** geschrieben (es gibt keinen Chatbot). Eine freiwillige Merkliste verbleibt im Browser; Hoster und GitHub verarbeiten technische Verbindungsdaten.
 
-## Automatische Übersetzungen
+## Originalmeldungen und KI-Studienanalyse
 
-Der stündliche GitHub-Workflow installiert bei Bedarf das freie Offline-Übersetzungssystem **Argos Translate (Englisch → Deutsch)**. Neue öffentlich zugängliche Titel und kurze RSS-Teaser werden übersetzt und als zusätzliche Felder im Quellen-Datensatz gespeichert, während englische Originale und Links unverändert bleiben. Das Verfahren sendet keine Meldung an einen kommerziellen Übersetzungsdienst. Übersetzungen sind maschinell und können Fehler enthalten. Bei Ausfällen wird der Originaltext explizit erkennbar angezeigt. Der erste Durchlauf übersetzt bis zu 120 Einträge; weitere werden in späteren Läufen nachgezogen. Das Quellenmodell muss einmalig auf dem GitHub-Runner installiert und im Cache vorgehalten werden.
+**Meldungen erscheinen wieder mit den Originalüberschriften und Original-Teasern.** Die deutsche Argos-Übersetzung wurde aus dem stündlichen Workflow entfernt; zuvor gespeicherte Übersetzungsfelder werden aus dem öffentlichen Datensatz gelöscht.
 
-**Wichtig:** Anonyme kostenlose `ship.page`-Webseiten laufen laut Betreiber nach **sieben Tagen ab**. Jede neue Veröffentlichung erzeugt eine **neue URL**. Für dauerhaft stabile, kostenlose Veröffentlichung muss GitHub Pages im eigenen Repository freigeschaltet werden; das ist aktuell nicht erfolgt.
+**Studie des Tages – "✦ Mit KI zusammenfassen"** nutzt die offizielle Summarizer-API in unterstützten Desktop-Browsern (Chrome/Edge 138+), mit echter Generierung aus einem DOI-verknüpften wissenschaftlichen Abstract, nicht aus der bisherigen kurzen Einordnung. Das Modell arbeitet lokal, verursacht keine API-Kosten und benötigt gegebenenfalls einen einmaligen, größeren Modelldownload sowie genügend Gerätespeicher. Die Verfügbarkeit hängt von Browser, Hardware und Unternehmensrichtlinien ab.
+
+Fehlt die Browser-KI oder der Quellentext, wird das klar angezeigt. Daneben gibt es den **Link "In ChatGPT analysieren"**, der mit DOI, Quellenangaben und einem vorformulierten Rechercheauftrag zu ChatGPT wechselt. Der Link kann Anmeldung und das Bestätigen der Anfrage erfordern; die Website selbst erhält keine generative Cloud-API ohne eigene Freigabe. Bei Nutzung des ChatGPT-Links wird der öffentlich verfügbare Abstract-Ausschnitt in der Linkadresse an ChatGPT übertragen.
+
+Die wissenschaftliche Datensammlung ergänzt kurze Publikationsangaben soweit verfügbar um DOI-verknüpfte Originalabstracts aus OpenAlex, mit Längenbegrenzung. Diese Abstracts können Quellenbeschränkungen unterliegen und sind kein Volltext. KI-Ausgaben sind Entwürfe und dürfen ohne Gegenprüfung nicht als validierte wissenschaftliche Fakten oder Pressemitteilung verwendet werden.
 
 ## Lokale Tests
 

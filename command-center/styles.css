@@ -161,3 +161,45 @@ main{min-height:460px}
   .site-footer{align-items:flex-start;flex-direction:column}
 }
 @media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+
+
+/* v0.5 · Sun trajectory, geographic world clocks, expandable scientific context */
+.clock-deck{grid-template-columns:minmax(340px,.96fr) minmax(0,2.1fr);gap:14px}
+.clock-main{padding:15px 21px}
+.hamburg-clock{margin-top:4px}
+.sun-badge{font-size:11px;font-weight:700;color:#8b6e3d;border:1px solid #f1e3c6;border-radius:30px;background:#fbf7ec;padding:5px 10px;white-space:nowrap}
+.sun-chart{margin-top:0}
+.sun-chart svg{display:block;width:100%;height:82px}
+.sun-times{display:flex;justify-content:space-between;gap:12px;color:#647b6e;font-size:10px;line-height:1.3;margin-top:-4px}
+.sun-times strong{font-variant-numeric:tabular-nums;color:#244f39}
+#sunMarker{transition:opacity .35s}
+#sunMarker.below-horizon{opacity:.28}
+.world-clock-list{grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.world-clock{padding:15px 16px 11px;justify-content:flex-start}
+.world-clock .clock-time{font-size:clamp(19px,1.9vw,28px);margin:7px 0 1px}
+.world-clock .clock-date{font-size:10px}
+.clock-map{position:relative;margin-top:11px;width:100%;aspect-ratio:360/158;max-height:100px;overflow:hidden;border-radius:8px;background:#edf5f0}
+.clock-map img{display:block;width:100%;height:100%;object-fit:contain;opacity:.91}
+.map-pin{position:absolute;width:12px;height:12px;background:#0c7152;border:2px solid #fff;border-radius:50%;transform:translate(-50%,-50%);box-shadow:0 0 0 4px #218b6550,0 2px 5px #0a382a55}
+.map-pin::after{content:"";position:absolute;inset:-6px;border:1px solid #218b6588;border-radius:50%}
+.study-expanded{grid-column:1/-1;margin-top:4px;border-top:1px solid #d6e6db;padding-top:18px;display:grid;gap:11px;animation:appear .2s ease-out}
+.study-expanded h4{font-size:12px;margin:0;color:#204937}
+.study-expanded p{font-size:12px;line-height:1.75;margin:0;max-width:990px;color:#496253}
+.study-expanded .note{font-size:10px;color:#718a7a}
+.study-toggle{cursor:pointer}
+.source-language{font-size:9px;color:#7b8b7d;display:inline-block;margin-top:3px}
+@keyframes appear{from{opacity:.5;transform:translateY(-5px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:1100px){
+  .clock-deck{grid-template-columns:1fr}
+  .world-clock .clock-time{font-size:26px}
+  .clock-map{max-height:105px}
+}
+@media(max-width:760px){
+  .world-clock-list{grid-template-columns:1fr;gap:8px}
+  .world-clock{display:grid;grid-template-columns:minmax(0,1fr) 138px;grid-template-rows:auto auto auto;align-items:center;padding:11px 14px;gap:0 12px}
+  .world-clock .city{grid-column:1;grid-row:1}
+  .world-clock .clock-time{grid-column:1;grid-row:2;margin:3px 0;font-size:25px}
+  .world-clock .clock-date{grid-column:1;grid-row:3}
+  .clock-map{grid-column:2;grid-row:1/4;margin-top:0;max-height:none}
+  .sun-times{font-size:9px}
+}

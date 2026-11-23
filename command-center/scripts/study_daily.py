@@ -170,12 +170,8 @@ def merge_studies(articles, new_studies):
     for a in new_studies:
         prev=items.get(a['url'])
         if prev and prev.get('title')==a.get('title'):
-            for key in ('title_de','translation_status','translated_at'):
+            for key in ('abstract_source_text','abstract_origin','abstract_unavailable'):
                 if prev.get(key):a[key]=prev[key]
-            if prev.get('summary')==a.get('summary') and prev.get('summary_de') is not None:
-                a['summary_de']=prev['summary_de']
-            if prev.get('abstract_excerpt')==a.get('abstract_excerpt') and prev.get('abstract_excerpt_de'):
-                a['abstract_excerpt_de']=prev['abstract_excerpt_de']
         items[a['url']]=a
     return sorted(items.values(),key=lambda a:a.get('date') or '',reverse=True)[:650]
 def choose(items, previous, now):

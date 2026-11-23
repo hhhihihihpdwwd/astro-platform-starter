@@ -1,18 +1,20 @@
 # Wildlife Command Center – unabhängiger Recherche-Prototyp
 
-**Aktuelle verifizierte Web-Vorschau (23.11.2026):** https://global-caravan-3gpyi.ship.place/
+**Aktuelle verifizierte Web-Vorschau (23.11.2026):** https://seed-scissor-qytfq.ship.place/
 
 Dieses Projekt ist ein **nicht offiziell freigegebener, öffentlich erreichbarer Prototyp** zur Recherche von öffentlichen Wildtier-, Artenschutz-, Wissenschafts- und Politikmeldungen für IFAW-bezogene Themen. Keine offizielle IFAW-Webanwendung, kein Logo und keine internen Unternehmensdaten.
 
 ## Bedienung
 
-Laptopoptimierte, minimalistische Oberfläche **ohne Seitenleiste oder Chatbot** mit Morning Briefing, Global News Radar, PR-Chancen, Crisis Watch, Studien-Scout und Policy-Meldungen. Eine Hamburger Uhr und vier Weltuhren zeigen sekundengenau die Ortszeit für Hamburg, Washington, Cape Cod, London und Sydney. Der Sonnenstand wird mit einer NOAA-Näherungsformel aus Datum, Uhrzeit und den Koordinaten Hamburgs berechnet.
+Laptopoptimierte, minimalistische Oberfläche **ohne Seitenleiste oder Chatbot** mit Morning Briefing, Global News Radar, PR-Chancen, Crisis Watch, Studien-Scout und Policy-Meldungen. Eine Hamburger Uhr und drei Weltuhren zeigen sekundengenau die Ortszeit für Washington, London und Sydney sowie jeweils eine Weltkarte mit Standortmarker (Natural Earth, gemeinfrei). Die Hamburger Uhr zeigt einen grafischen Tagesbogen mit Näherungswerten für Sonnenstand, Sonnenauf- und -untergang.
 
 **To-dos, Microsoft-Verbindungen und der Chatbot sind entfernt.**
 
 ## Tägliche Studie
 
 Der stündliche Quellenlauf versucht, aus öffentlichen Europe-PMC-Abstracts relevante Tier- und Artenschutzpublikationen mit DOI zu übernehmen. Bei API-Ausfällen stehen **sieben anhand der Originalpublikationen geprüfte Fachartikel** bereit, die täglich wechseln können. Die Entscheidung für den aktuellen Hamburger Kalendertag wird separat gespeichert und bleibt während des Tages stabil. Themenbeschreibungen sind bewusst zurückhaltend formuliert; keine behauptete LLM-Faktenprüfung oder erfundene Forschungsergebnisse. Veröffentlichungsdaten werden angezeigt; die Rubrik beansprucht nicht, dass eine ältere Studie neu erschienen sei.
+
+Bei der **Studie des Tages** ist eine längere, ausklappbare Darstellung verfügbar: für kuratierte Arbeiten stehen an den Originalpublikationen orientierte Absätze zu Forschungsfrage, Vorgehen und Einordnung bereit; für andere Arbeiten erscheint eine klar als maschinell übersetzt gekennzeichnete Abstract-Passage, falls vorhanden. Keine frei erfundenen Studienergebnisse.
 
 ## Bilder & Gestaltung
 
@@ -32,6 +34,10 @@ Die moderne Schrift nutzt die lokal verfügbaren Systemfonts, also **keine exter
 - Website wird durch `.github/workflows/ifaw-publish-free.yml` auf einen kostenlosen statischen Host veröffentlicht. Dort werden HTML/CSS/JS/News-JSON und **drei lokale JPEG-Bilddateien** auf gültige HTTP-200-Antworten geprüft.
 - Die neuesten öffentlichen JSON-Meldungen lädt der Browser aus diesem GitHub-Repository, mit lokalem Snapshot als Fallback.
 - Es werden **keine Besucherdaten oder Chatfragen in eine Datenbank dieser Anwendung** geschrieben (es gibt keinen Chatbot). Eine freiwillige Merkliste verbleibt im Browser; Hoster und GitHub verarbeiten technische Verbindungsdaten.
+
+## Automatische Übersetzungen
+
+Der stündliche GitHub-Workflow installiert bei Bedarf das freie Offline-Übersetzungssystem **Argos Translate (Englisch → Deutsch)**. Neue öffentlich zugängliche Titel und kurze RSS-Teaser werden übersetzt und als zusätzliche Felder im Quellen-Datensatz gespeichert, während englische Originale und Links unverändert bleiben. Das Verfahren sendet keine Meldung an einen kommerziellen Übersetzungsdienst. Übersetzungen sind maschinell und können Fehler enthalten. Bei Ausfällen wird der Originaltext explizit erkennbar angezeigt. Der erste Durchlauf übersetzt bis zu 120 Einträge; weitere werden in späteren Läufen nachgezogen. Das Quellenmodell muss einmalig auf dem GitHub-Runner installiert und im Cache vorgehalten werden.
 
 **Wichtig:** Anonyme kostenlose `ship.page`-Webseiten laufen laut Betreiber nach **sieben Tagen ab**. Jede neue Veröffentlichung erzeugt eine **neue URL**. Für dauerhaft stabile, kostenlose Veröffentlichung muss GitHub Pages im eigenen Repository freigeschaltet werden; das ist aktuell nicht erfolgt.
 

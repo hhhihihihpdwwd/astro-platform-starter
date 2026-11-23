@@ -55,13 +55,23 @@ function updateClocks(now=new Date()){
   $('#sunriseTime').textContent=t(solar.sunrise);
   $('#sunsetTime').textContent=t(solar.sunset);
   const progress=Math.max(0,Math.min(1,solar.progress));
-  // The quadratic Bézier M20 86 Q160 -45 300 86: point at t∈[0,1].
-  const px=20+280*progress,py=86-131*2*progress*(1-progress);
+  // Map real computed solar elevations to a daily-relative plot; 86 is the horizon.
+  // The visual is schematic in scale, while the numerical height below is in degrees.
+  const samples=Array.from({length:49},(_,i)=>{
+    const moment=new Date(solar.sunrise.getTime()+(solar.sunset-solar.sunrise)*i/48);
+    return Math.max(0,Clock.solarElevation(moment));
+  });
+  const maxElevation=Math.max(1,...samples);
+  const solarPoint=(p,elevation)=>({x:20+280*p,y:86-64*Math.max(0,elevation)/maxElevation});
+  const path=samples.map((e,i)=>{const point=solarPoint(i/48,e);return(i?'L':'M')+point.x.toFixed(1)+' '+point.y.toFixed(1)}).join(' ');
+  $('#sunPath').setAttribute('d',path);
+  $('#sunArea').setAttribute('d',path+' L300 86 L20 86 Z');
+  const {x:px,y:py}=solarPoint(progress,Math.max(0,solar.altitude));
   for(const id of ['sunDot','sunHalo']){const el=$('#'+id);el.setAttribute('cx',px.toFixed(1));el.setAttribute('cy',py.toFixed(1))}
   $('#sunMarker').classList.toggle('below-horizon',!solar.daylight);
   $('#sunStatus').textContent=solar.daylight?'☀ Tag':'☾ Nacht';
   const absolute=Math.abs(solar.altitude).toFixed(1).replace('.',',');
-  $('#sunLabel').textContent='Sonnenhöhe: '+(solar.altitude>=0?'+':'−')+absolute+'° · astronomischer Näherungswert';
+  $('#sunLabel').textContent='Sonnenhöhe: '+(solar.altitude>=0?'+':'−')+absolute+'° · Verlauf relativ skaliert, astronomischer Näherungswert';
   for(const city of Clock.CITIES.slice(1)){
     const time=Clock.cityTime(now,city.zone);
     $('#clock-'+city.id).textContent=time.time;

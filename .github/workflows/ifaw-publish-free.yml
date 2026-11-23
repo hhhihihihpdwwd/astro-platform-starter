@@ -9,6 +9,7 @@ on:
       - 'command-center/styles.css'
       - 'command-center/lib/**'
       - 'command-center/tests/test_analysis.cjs'
+      - 'command-center/tests/test_clock.cjs'
   workflow_dispatch:
 permissions:
   contents: read
@@ -22,8 +23,10 @@ jobs:
         run: |
           node --check command-center/app.js
           node --check command-center/lib/analysis.js
+          node --check command-center/lib/clock.js
           node command-center/tests/test_analysis.cjs
-          python -m py_compile command-center/scripts/collect.py
+          node command-center/tests/test_clock.cjs
+          python -m py_compile command-center/scripts/collect.py command-center/scripts/study_daily.py
       - name: Drei lizenzierte Symbolfotos lokal in die Seite integrieren
         run: |
           mkdir -p command-center/assets
@@ -51,7 +54,7 @@ jobs:
           from pathlib import Path
           from zipfile import ZipFile, ZIP_DEFLATED
           base=Path('command-center')
-          paths=['index.html','styles.css','app.js','favicon.svg','lib/analysis.js','data/articles.json','assets/elephant.jpg','assets/whale.jpg','assets/forest.jpg']
+          paths=['index.html','styles.css','app.js','favicon.svg','lib/analysis.js','lib/clock.js','data/articles.json','assets/elephant.jpg','assets/whale.jpg','assets/forest.jpg']
           with ZipFile('/tmp/ifaw-public-app.zip','w',ZIP_DEFLATED) as z:
               for rel in paths:
                   if not (base/rel).is_file(): raise SystemExit('Missing file: '+rel)
@@ -76,7 +79,7 @@ jobs:
           if host.scheme!='https' or not host.hostname or not host.hostname.endswith('.ship.place'):
               raise SystemExit('Unexpected hostname')
           url=url.rstrip('/')+'/'
-          for file,contains in [('',b'IFAW Command Center'),('app.js',b'function hero'),('styles.css',b'.welcome-hero'),('data/articles.json',b'"articles"')]:
+          for file,contains in [('',b'IFAW Command Center'),('app.js',b'function dailyStudy'),('styles.css',b'.clock-deck'),('lib/clock.js',b'solarElevation'),('data/articles.json',b'"articles"')]:
               target=urllib.parse.urljoin(url,file)
               last_error=''
               for attempt in range(5):

@@ -1,9 +1,936 @@
 {
   "schema_version": 1,
-  "generated_at": null,
-  "articles": [],
-  "sources": [],
-  "failures": [],
+  "generated_at": "2026-11-23T11:48:28.585297Z",
+  "articles": [
+    {
+      "id": "23eee54e9438aad5cfb1",
+      "title": "Tajikistan: Statement by the High Representative on behalf of the European Union on Tajikistan’s withdrawal from the Rome Statute of the International Criminal Court",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/23/tajikistan-statement-by-the-high-representative-on-behalf-of-the-european-union-on-tajikistan-s-withdrawal-from-the-rome-statute-of-the-international-criminal-court/",
+      "date": "2026-11-23T11:35:00Z",
+      "summary": "The High Representative issued a statement on behalf of the European Union on Tajikistan’s withdrawal from the Rome Statute of the International Criminal Court.",
+      "source": "EU-Rat – Pressemitteilungen",
+      "kind": "policy"
+    },
+    {
+      "id": "13cb6011f103cd869671",
+      "title": "How a tiny rare frog became an ecological warning sign for Madagascar",
+      "url": "https://www.theguardian.com/environment/2026/nov/23/tiny-rare-frog-warning-sign-madagascar-illegal-gold-mining-aoe",
+      "date": "2026-11-23T11:00:54Z",
+      "summary": "The golden mantella is said to be found wherever gold is, making its habitat a target for illegal mining, which is destroying fragile ecosystems across the country As Albert Rakotoarisoa emerges from the forest into a clearing in Mangabe reserve in…",
+      "source": "The Guardian – Environment",
+      "kind": "media"
+    },
+    {
+      "id": "b76deecd933e661455b8",
+      "title": "Customs seizes pangolins, warns against illegal wildlife trade in Ogun - Peoples Gazette Nigeria",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNldUZmsxWEc4WlNuZWlqSnFOTG5ESGZCN1pCc1JDSFRWcktkUDhXRGNIQklBWVZhajZJVXdodVdNenNmVVE0MFo5MkxzUjd0akdNa0NheVh3Q2p4VHBObjlIcENnQWZ4ZnZnVkMzMFhFdzhsMkE5dTRzd3pMMUQxaldxbjRFMEpWVW5sY1VZWm5YNm1wdnhrVQ?oc=5",
+      "date": "2026-11-23T10:24:10Z",
+      "summary": "Customs seizes pangolins, warns against illegal wildlife trade in Ogun Peoples Gazette Nigeria",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "f65281e362da05d857c1",
+      "title": "Audi-Azubis packen für den Artenschutz an: So helfen sie seltenen Schmetterlingen - Augsburger Allgemeine",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNamJ3RkpBVVB3amVIaXktbWxvTHpkX2xLUHh3VkRXaUd3bkRndFhyejdrRVVJeURWSVVGWWoxTS1tYmFmMldLaldJYk92dFVSNlVuc09WWjlYVUxCbklqWWdnQzFDNTRvOUhsTWkybWljZUE1ZlFkRExzYWRtTms5YzBaYmFFSkhXYk9IY1NVdmNZXzMwRlk5MjVoV1dUaEEzZGk2bmt2cWxnME5UUktra2U3UFNTaEpMdjZXYzVJRzNsd00yc1EyNzNn?oc=5",
+      "date": "2026-11-23T08:39:02Z",
+      "summary": "Audi-Azubis packen für den Artenschutz an: So helfen sie seltenen Schmetterlingen Augsburger Allgemeine",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "27a7aa409592f152d89d",
+      "title": "Klimaschutz-Offensive in der Verbandsgemeinde Unkel fördert Kühlung und Artenschutz - Blick aktuell",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPSVVrV25YcWVvUUFJVmprOGxpVmZHa1d3cW43aVgyNWdTRFN4cTFsWGhIV1YybzRMa0RTdmFrRHNGY2dqUlpxOFptd09vRzI4WGFjenBTNnBwb2xFSzUtS0hSMkJ5c2N0VXlMXzBoV3Fuc2ZTRTdXcEpzQ29KWGVMZU9MVGM3UzNRNnA3cjBCSjZGaC02N2lyNFAxOFpuWGFIVWpHRGZvTkVJMFJpdEVLWnhtYzh2ZVRKWkt0RGZmS05hRlUxRFpFNUNPVWFRdFE?oc=5",
+      "date": "2026-11-23T07:27:00Z",
+      "summary": "Klimaschutz-Offensive in der Verbandsgemeinde Unkel fördert Kühlung und Artenschutz Blick aktuell",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "cfc60dc74cc92b63e4d2",
+      "title": "Five takeaways from the failed climate talks COP31",
+      "url": "https://www.bbc.co.uk/news/articles/cm75237wlp3lo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-23T06:33:50Z",
+      "summary": "The COP31 summit in Antalya was the longest-running climate talks in UN history.",
+      "source": "BBC – Wissenschaft & Umwelt",
+      "kind": "media"
+    },
+    {
+      "id": "0caa40a32bf53693fffd",
+      "title": "Plan to breed rare Asian golden cats for pets raises conservation concerns",
+      "url": "https://news.mongabay.com/short-article/2026/11/plan-to-breed-rare-asian-golden-cats-for-pets-raises-conservation-concerns/",
+      "date": "2026-11-23T05:27:42Z",
+      "summary": "An Indonesian company has sought to register a captive-breeding facility with the Secretariat of CITES, the global wildlife trade treaty, to commercially breed and export rare Asian golden cats as pets, report Mongabay’s Spoorthy Raman and Fernanda…",
+      "source": "Mongabay – Conservation News",
+      "kind": "media"
+    },
+    {
+      "id": "857c0a612f255581d7d4",
+      "title": "Longest-ever UN climate talks end with no deal as deep divisions exposed",
+      "url": "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-23T05:15:06Z",
+      "summary": "The prime minister of Australia, which co-hosted COP31, attributed the failure to \"difficult geopolitical times\".",
+      "source": "BBC – Wissenschaft & Umwelt",
+      "kind": "media"
+    },
+    {
+      "id": "aa44aba1474c2cb17856",
+      "title": "Israel’s destruction of Gaza has created a ‘toxic wasteland’, experts find",
+      "url": "https://www.theguardian.com/world/2026/nov/23/israel-gaza-destruction-created-toxic-wasteland-oxfam-report",
+      "date": "2026-11-23T04:00:45Z",
+      "summary": "Scientific and satellite findings warn of widespread contamination in Gaza, posing grave threats to public health ‘for generations to come’ Israel’s destruction of Gaza has left a devastating environmental legacy with poisoned water, contaminated…",
+      "source": "The Guardian – Environment",
+      "kind": "media"
+    },
+    {
+      "id": "d4cd0a47d7fda1402c05",
+      "title": "The good news out of Cop31? That most of the world’s governments said no to an agreement stripped of meaning | Bill Hare",
+      "url": "https://www.theguardian.com/environment/commentisfree/2026/nov/23/cop31-climate-summit-no-agreement",
+      "date": "2026-11-22T22:30:48Z",
+      "summary": "Co-chairing global climate talks is clearly not something to be repeated, certainly not by Australia, which is exporting climate pain The failure of Cop31 in Antalya was a line in the sand moment, a victory for multilateralism as countries stood up…",
+      "source": "The Guardian – Environment",
+      "kind": "media"
+    },
+    {
+      "id": "4e9428841cdf4660c9b7",
+      "title": "What's next after no deal at COP31 climate summit?",
+      "url": "https://www.bbc.co.uk/news/videos/cx987g7q019go?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-22T18:28:48Z",
+      "summary": "The COP31 climate summit in Turkey has formally come to an end after countries failed to agree a deal.",
+      "source": "BBC – Wissenschaft & Umwelt",
+      "kind": "media"
+    },
+    {
+      "id": "c59118f905b144f53051",
+      "title": "Cop31 as it happened: EU and others reject deal as longest climate summit comes to fractious end",
+      "url": "https://www.theguardian.com/environment/live/2026/nov/22/cop31-climate-crisis-talks-turkey-latest-news-updates",
+      "date": "2026-11-22T16:45:37Z",
+      "summary": "Countries failed to reach consensus on a key deal that did not mention fossil fuels Full report: Cop31 climate talks set to end in deep division as key deal rejected Mohamed Adow, director of Power Shift Africa, has been looking through the text and…",
+      "source": "The Guardian – Environment",
+      "kind": "media"
+    },
+    {
+      "id": "dcd13da0415078ae70a8",
+      "title": "EU officials reject Cop31 deal as it 'doesn't speak to reality of the climate crisis' – video",
+      "url": "https://www.theguardian.com/environment/video/2026/nov/22/eu-officials-reject-cop31-deal-as-it-doesnt-speak-to-reality-of-the-climate-crisis-video",
+      "date": "2026-11-22T16:08:20Z",
+      "summary": "The Cop31 climate talks fell into disarray as the EU, UK and allies in the developing world rejected what they called an unacceptable deal on the future of the climate. Ireland's climate minister, Darragh O'Brien, said the EU could not support the…",
+      "source": "The Guardian – Environment",
+      "kind": "media"
+    },
+    {
+      "id": "f94dc82481b48b01cef1",
+      "title": "Weltklimakonferenz in Antalya: Keine Abschlusserklärung, aber konkrete Fortschritte bei Umsetzung",
+      "url": "https://www.bundesumweltministerium.de/pressemitteilung/weltklimakonferenz-in-antalya-keine-abschlusserklaerung-aber-konkrete-fortschritte-bei-umsetzung",
+      "date": "2026-11-22T15:41:00Z",
+      "summary": "Die 31. Weltklimakonferenz in Antalya endet ohne gemeinsame Abschlusserklärung. Deutschland, die EU und weitere ambitionierter Staaten waren nicht bereit, die seitens der Präsidentschaften vorgelegten Textentwürfe zu akzeptieren.",
+      "source": "Bundesumweltministerium – Naturschutz",
+      "kind": "policy"
+    },
+    {
+      "id": "be4216e13a2d75b8ffea",
+      "title": "Briton swims length of strait of Hormuz to highlight environmental cost of war",
+      "url": "https://www.theguardian.com/world/2026/nov/22/briton-lewis-pugh-swims-strait-of-hormuz-environment-war",
+      "date": "2026-11-22T13:36:01Z",
+      "summary": "UN patron Lewis Pugh saw ships ablaze and fighter jets overhead during three-day swim as Iran conflict continues A British endurance swimmer has completed a three-day swim through the strait of Hormuz to highlight the environmental cost of the Iran…",
+      "source": "The Guardian – Environment",
+      "kind": "media"
+    },
+    {
+      "id": "83d9ad3014ecc740a48d",
+      "title": "New draft deal aims to avert collapse of talks at COP31 climate summit",
+      "url": "https://www.bbc.co.uk/news/articles/cq7827z2841zo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-22T06:54:06Z",
+      "summary": "The UN COP31 meeting in Turkey enters a second day of overtime as countries struggle to reach an agreement.",
+      "source": "BBC – Wissenschaft & Umwelt",
+      "kind": "media"
+    },
+    {
+      "id": "d5121bc9f384ac2221a9",
+      "title": "Artenschutz in der Region: Diese Hilfe brauchen gefährdete Vögel dringender als Körner - Schwarzwälder Bote",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQcUlQLTJYNUZ5MTRTaDh1c1VzelpYX0Vub0JYUEdMY1NMSE13OThidnJWSkhuXy1SMll0aURCSXRyT3ZTamUzWmp0bUlWckdYU185OTM0N01YcWZpZFo3Rll0OE0zOXk0TG52d3BDOHNJYXpfaHRGWGhVZ0FGWjN2QXVDU1J6WUVQWWl0X0tnS3hfR19UUXVIRm8zbW90ak1hRUgyUFhCRDVyWXZKZVE1bTBLeG1iQk0zbGlrVWxwVUYzMU1aSDdlSnBYazUxS3hsUkNlUmJKQ3VCRkxwb0szN25RZWNJX3pMTjZFdw?oc=5",
+      "date": "2026-11-22T05:05:00Z",
+      "summary": "Artenschutz in der Region: Diese Hilfe brauchen gefährdete Vögel dringender als Körner Schwarzwälder Bote",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "e03861efe077f26836c8",
+      "title": "Will COP31 end with a new global climate deal?",
+      "url": "https://www.bbc.co.uk/news/videos/cqn0dwrewrwxo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-21T22:44:52Z",
+      "summary": "BBC Climate editor Justin Rowlatt reports from the COP 31 UN climate summit in Antalya, Turkey.",
+      "source": "BBC – Wissenschaft & Umwelt",
+      "kind": "media"
+    },
+    {
+      "id": "0f075ba79a2fc8f37bb7",
+      "title": "Fight over fossil fuels leaves COP31 climate talks in deadlock",
+      "url": "https://www.bbc.co.uk/news/articles/c6ly5w40eg07o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-21T22:19:43Z",
+      "summary": "Countries from nearly 200 countries are in a deadlock to try and get a new global climate agreement.",
+      "source": "BBC – Wissenschaft & Umwelt",
+      "kind": "media"
+    },
+    {
+      "id": "9c3bf8e87c521fcaa201",
+      "title": "Hormuz swim highlights environmental cost of war",
+      "url": "https://www.bbc.co.uk/news/articles/c95y1gr27xplo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-21T16:12:31Z",
+      "summary": "Ocean campaigner Lewis Pugh completes Hormuz challenge and warns of lasting environmental damage.",
+      "source": "BBC – Wissenschaft & Umwelt",
+      "kind": "media"
+    },
+    {
+      "id": "a3a127a4c2655aeed1c8",
+      "title": "‘Hell dorm’: Florida prisoners testify about 119F heat indexes and walls that sweat",
+      "url": "https://www.theguardian.com/us-news/2026/nov/21/florida-prisoner-lawsuit-extreme-heat",
+      "date": "2026-11-21T14:38:58Z",
+      "summary": "Temperatures in a concrete facility contributed to one man’s death after he struggled to breathe, prisoners allege On Tuesday afternoon Dwayne Wilson, 69, a thin Black man dressed in a light gray prison uniform, testified about the stifling heat he…",
+      "source": "The Guardian – Environment",
+      "kind": "media"
+    },
+    {
+      "id": "b33808a31864ea9520d8",
+      "title": "How red squirrels made island their home",
+      "url": "https://www.bbc.co.uk/news/articles/c61k9mwxmplxo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-21T12:18:55Z",
+      "summary": "Conservationists say that, with red squirrels dwindling in the UK, Jersey is an \"important refuge\".",
+      "source": "BBC – Wissenschaft & Umwelt",
+      "kind": "media"
+    },
+    {
+      "id": "25b8187d8a6c4ed49df3",
+      "title": "‘Legally, they don’t exist’: the hybrid crabs puzzling biologists and fishers",
+      "url": "https://www.theguardian.com/environment/2026/nov/21/alaska-bering-sea-heatwave-snow-tanner-hybrid-crabs-fishing-quotas",
+      "date": "2026-11-21T11:00:57Z",
+      "summary": "A heatwave in the Bering Sea that killed 10bn snow crabs has led to a new hybrid emerging that has no fishing quotas Somewhere out on the Bering Sea, hundreds of miles off the coast of Alaska, a group of researchers onboard the trawler Alaska Knight…",
+      "source": "The Guardian – Environment",
+      "kind": "media"
+    },
+    {
+      "id": "eef0dfa244a7462bda08",
+      "title": "The British island that made a deal with nature",
+      "url": "https://news.mongabay.com/video/2026/11/the-british-island-that-made-a-deal-with-nature/",
+      "date": "2026-11-21T09:10:37Z",
+      "summary": "LUNDY ISLAND — United Kingdom. Out in the Bristol Channel, nestled between Wales and England, the rugged island of Lundy is one of the UK’s most pioneering conservation stories. From the return of thousands of seabirds to thriving marine life…",
+      "source": "Mongabay – Conservation News",
+      "kind": "media"
+    },
+    {
+      "id": "e2afe720fd225339567f",
+      "title": "Birds killed in blaze at one of the largest foie gras farms in the US",
+      "url": "https://www.bbc.co.uk/news/articles/cq4gn0dg9194o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-20T22:57:26Z",
+      "summary": "Hundreds of young birds were also rescued from the fire, which comes as foie gras is under renewed scrutiny over animal welfare concerns.",
+      "source": "BBC – Wissenschaft & Umwelt",
+      "kind": "media"
+    },
+    {
+      "id": "68cd764eddf744cbf907",
+      "title": "Renovated BUGarium in the US aims to connect people and insects",
+      "url": "https://news.mongabay.com/short-article/2026/11/renovated-bugarium-in-the-us-aims-to-connect-people-and-insects/",
+      "date": "2026-11-20T19:59:10Z",
+      "summary": "For many people a trip to the zoo is an opportunity to see favorite animals like gorillas, giraffes and lions. But in Alburquerque, New Mexico, U.S., visitors can add spiders, scorpions and ants to their must-see list at the ABQ BioPark BUGarium.…",
+      "source": "Mongabay – Conservation News",
+      "kind": "media"
+    },
+    {
+      "id": "ea6eebaea84175ebd976",
+      "title": "What to know about the US permitting bill, from datacenters to Trump’s arch",
+      "url": "https://www.theguardian.com/us-news/2026/nov/20/what-to-know-permitting-bill-energy-passed",
+      "date": "2026-11-20T18:26:08Z",
+      "summary": "Environmental groups are aghast, but supporters say bill might be only chance to speed up clean energy projects The US Senate has passed a bill to fast-track energy and datacenter projects by removing environmental and legal guardrails. The…",
+      "source": "The Guardian – Environment",
+      "kind": "media"
+    },
+    {
+      "id": "5ff66ea091226c9cb8a6",
+      "title": "Where family foundations can help marine conservation",
+      "url": "https://news.mongabay.com/2026/11/where-family-foundations-can-help-marine-conservation/",
+      "date": "2026-11-20T17:48:02Z",
+      "summary": "COP17 ended in Armenia amid disappointment over the lack of concrete measures to reduce biodiversity loss by 2030. Finance was a sore point. Philanthropy is only a small part of that picture, but foundations can take risks that public agencies often…",
+      "source": "Mongabay – Conservation News",
+      "kind": "media"
+    },
+    {
+      "id": "361ca564df7ac7342443",
+      "title": "Could a short tail mean a new monkey species in Laos? Some scientists think so",
+      "url": "https://news.mongabay.com/2026/11/could-a-short-tail-mean-a-new-monkey-species-in-laos-some-scientists-think-so/",
+      "date": "2026-11-20T17:30:56Z",
+      "summary": "There is no body. No genetic evidence — yet. There are just photos, but some scientists say those photos show a distinct enough primate to declare it a new species: the short-tailed langur, or Trachypithecus brevicaudus. The proposed species was…",
+      "source": "Mongabay – Conservation News",
+      "kind": "media"
+    },
+    {
+      "id": "9c887c39b3bb5d9ea3c7",
+      "title": "UN climate talks slammed by activists, leaders as fossil fuels go unmentioned in draft agreement",
+      "url": "https://news.mongabay.com/short-article/2026/11/un-climate-talks-slammed-by-activists-leaders-as-fossil-fuels-go-unmentioned-in-draft-agreement/",
+      "date": "2026-11-20T17:07:44Z",
+      "summary": "ANTALYA, Turkey (AP) — Negotiators are still seeking concrete commitments for nations to transition away from fossil fuels, as this year’s U.N. climate summit reaches its final day. Friday marks the official end of this year’s two-week summit, known…",
+      "source": "Mongabay – Conservation News",
+      "kind": "media"
+    },
+    {
+      "id": "c5dbf4528ca614e14967",
+      "title": "Floating wind is building ‘A lot of momentum’ toward commercialization",
+      "url": "https://news.mongabay.com/2026/11/floating-wind-is-building-a-lot-of-momentum-toward-commercialization/",
+      "date": "2026-11-20T15:18:42Z",
+      "summary": "It’s a little-known, nascent sustainable technology on the verge of commercialization: Floating wind turbines deployed across deep ocean waters could unlock vast amounts of renewable energy in the coming decades. For some countries (including China,…",
+      "source": "Mongabay – Conservation News",
+      "kind": "media"
+    },
+    {
+      "id": "7e5fe61c0a2e2ffa7edb",
+      "title": "US Senate approves bill to speed up permitting reviews for energy projects and datacenters",
+      "url": "https://www.theguardian.com/us-news/2026/nov/20/senate-energy-datacenters-review-bill",
+      "date": "2026-11-20T15:09:09Z",
+      "summary": "Bipartisan legislation now goes to the House amid concerns by some Democrats and environmental groups The Senate approved bipartisan legislation on Thursday aimed at speeding up permitting reviews to build power plants, transmission lines and other…",
+      "source": "The Guardian – Environment",
+      "kind": "media"
+    },
+    {
+      "id": "f21bb3e058a31feca787",
+      "title": "Media advisory - Agriculture and Fisheries Council of 23 November 2026",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/media-advisory-agriculture-and-fisheries-council-of-23-november-2026/",
+      "date": "2026-11-20T14:30:00Z",
+      "summary": "Main agenda items, approximate timing, public sessions and press opportunities.",
+      "source": "EU-Rat – Pressemitteilungen",
+      "kind": "policy"
+    },
+    {
+      "id": "f10acf8616337e68ccee",
+      "title": "These US fishers see offshore wind as a ‘godsend’. Trump wants to shut it down",
+      "url": "https://www.theguardian.com/environment/2026/nov/20/offshore-wind-farms-trump-fishers",
+      "date": "2026-11-20T14:00:31Z",
+      "summary": "Despite the president’s attacks, Sea Services is training New England fishers in offshore wind construction and providing them with a second income stream On a rainy September morning, the Pamela Ann, a rusty, 86ft (26-metre) scallop boat, docked in…",
+      "source": "The Guardian – Environment",
+      "kind": "media"
+    },
+    {
+      "id": "da3d31f8cf5c5bfa4223",
+      "title": "Last Javan rhino habitat caught between mining plans and relocation debate",
+      "url": "https://news.mongabay.com/2026/11/last-javan-rhino-habitat-caught-between-mining-plans-and-relocation-debate/",
+      "date": "2026-11-20T12:30:07Z",
+      "summary": "JAKARTA — Indonesian lawmakers and environmental groups are urging the government to revoke a mining map covering part of the waters around Ujung Kulon National Park, home to the world’s last surviving Javan rhinos. The calls were in response to a…",
+      "source": "Mongabay – Conservation News",
+      "kind": "media"
+    },
+    {
+      "id": "f746d0294f562e6a8629",
+      "title": "How the war in Iran turned the Gulf into a climate catastrophe – video explainer",
+      "url": "https://www.theguardian.com/world/video/2026/nov/20/how-the-war-in-iran-turned-the-gulf-into-a-climate-catastrophe-video-explainer",
+      "date": "2026-11-20T12:00:38Z",
+      "summary": "The war between the US, Israel and Iran has turned the strait of Hormuz, one of the world’s busiest oil shipping routes, into a battlefield, but also the centre of a deepening environmental disaster. Tankers struck by missiles or sea mines are…",
+      "source": "The Guardian – Environment",
+      "kind": "media"
+    },
+    {
+      "id": "14a5fcfad233c3448e19",
+      "title": "One in four land reptiles depends on rock habitats. Lack of protection leaves them in a hard place",
+      "url": "https://news.mongabay.com/short-article/2026/11/one-in-four-land-reptiles-depends-on-rock-habitats-lack-of-protection-leaves-them-in-a-hard-place/",
+      "date": "2026-11-20T11:04:15Z",
+      "summary": "More than a quarter of the world’s land reptiles depend on rocky habitats, yet these areas are often overlooked in conservation efforts, according to a recent study. For cold-blooded lizards, snakes, and worm lizards (legless lizards), rocks often…",
+      "source": "Mongabay – Conservation News",
+      "kind": "media"
+    },
+    {
+      "id": "9f324d1d0187871b65c1",
+      "title": "Fossil fuels’ role in Africa’s energy transition contested as UN climate conference closes",
+      "url": "https://news.mongabay.com/2026/11/fossil-fuels-role-in-africas-energy-transition-contested-as-un-climate-conference-closes/",
+      "date": "2026-11-20T10:59:38Z",
+      "summary": "As the 2026 edition of the annual U.N. Climate Change Conference reaches its conclusion in Antalya, Türkiye, on Nov. 20, African governments are arguing for increased financial and technical support to respond to climate change. Top priorities…",
+      "source": "Mongabay – Conservation News",
+      "kind": "media"
+    },
+    {
+      "id": "8b184c7bb8a9adb525a5",
+      "title": "Nickel linked to deforestation in Indonesia traded on London Metal Exchange, says report",
+      "url": "https://news.mongabay.com/short-article/2026/11/nickel-linked-to-deforestation-in-indonesia-traded-on-london-metal-exchange-says-report/",
+      "date": "2026-11-20T10:51:23Z",
+      "summary": "Two companies approved for trading nickel on the London Metal Exchange (LME) could be linked to supply chains that have cleared primary rainforest in Indonesia, according to a report published by the NGO Environmental Investigation Agency (EIA). The…",
+      "source": "Mongabay – Conservation News",
+      "kind": "media"
+    },
+    {
+      "id": "bf963e5b855f92a30d8c",
+      "title": "Week in wildlife: Christmas crabs, a shy possum and baboons taking liberties",
+      "url": "https://www.theguardian.com/environment/gallery/2026/nov/20/week-in-wildlife-christmas-crabs-a-shy-possum-and-baboons-taking-liberties",
+      "date": "2026-11-20T08:00:25Z",
+      "summary": "This week’s best wildlife photographs from around the world Continue reading...",
+      "source": "The Guardian – Environment",
+      "kind": "media"
+    },
+    {
+      "id": "135958d97ef2d0026cea",
+      "title": "Wildlife conservation cash targets ex-colliery sites",
+      "url": "https://www.bbc.co.uk/news/articles/cmx2785nzpw2o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-20T06:21:50Z",
+      "summary": "The project aims to create and restore habitats for amphibians and lizards at sites in Yorkshire.",
+      "source": "BBC – Wissenschaft & Umwelt",
+      "kind": "media"
+    },
+    {
+      "id": "ff8688aec32b4bd6b93e",
+      "title": "As Nepal celebrates the crow, urban sprawl and waste drive strain",
+      "url": "https://news.mongabay.com/short-article/2026/11/as-nepal-celebrates-the-crow-urban-sprawl-and-waste-drive-strain/",
+      "date": "2026-11-20T05:33:03Z",
+      "summary": "Every year around the Hindu festival of Diwali, or Deepavali, residents in Nepal observe Kaag Tihar, an annual festival day dedicated to worshipping house crows as divine messengers. However, in the country’s capital, rapid urban sprawl, habitat…",
+      "source": "Mongabay – Conservation News",
+      "kind": "media"
+    },
+    {
+      "id": "d894ebc9548ea39d26e6",
+      "title": "More climate money for Africa? Europe says use what's already pledged",
+      "url": "https://www.bbc.co.uk/news/articles/c6074k5jjrzko?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-20T05:03:43Z",
+      "summary": "African countries at the UN climate summit in Turkey are demanding more funding from developed nations to help them cope with climate change.",
+      "source": "BBC – Wissenschaft & Umwelt",
+      "kind": "media"
+    },
+    {
+      "id": "3f9c061561d295ed54df",
+      "title": "The long reach of El Niño impacts on Southeast Asia’s primates",
+      "url": "https://news.mongabay.com/2026/11/the-long-reach-of-el-nino-impacts-on-southeast-asias-primates/",
+      "date": "2026-11-19T21:25:02Z",
+      "summary": "As Indonesia’s El-Niño driven fires spark a race to save endangered orangutans and other wildlife, a recent review paper, published in the journal Oryx, is raising concerns about both the short- and long-term impacts on primates of such climatic…",
+      "source": "Mongabay – Conservation News",
+      "kind": "media"
+    },
+    {
+      "id": "a5d978efc289c5e551bd",
+      "title": "Catching more plastic than fish in Sierra Leone’s coastal Mahera",
+      "url": "https://news.mongabay.com/2026/11/catching-more-plastic-than-fish-in-sierra-leones-coastal-mahera/",
+      "date": "2026-11-19T19:22:12Z",
+      "summary": "PORT LOKO, Sierra Leone — On a rainy Saturday morning, 57-year-old fisher Sheriff Kamara sat among other community members inside a wooden makeshift shelter in Sierra Leone’s Mahera Beach, waiting for the weather to improve. Along the shoreline,…",
+      "source": "Mongabay – Conservation News",
+      "kind": "media"
+    },
+    {
+      "id": "4a0f8760d46d7688c4c2",
+      "title": "Peruvian officials reportedly increase tally to more than 12,000 tarantulas in recent seizure",
+      "url": "https://news.mongabay.com/short-article/2026/11/peruvian-officials-reportedly-increase-tally-to-more-than-12000-tarantulas-in-recent-seizure/",
+      "date": "2026-11-19T19:11:03Z",
+      "summary": "Peruvian authorities have updated the number of tarantulas seized in a recent wildlife trafficking case from 3,000 to more than 12,000, according to South American media reports. The final count of 12,796 seized spiders was reportedly announced by…",
+      "source": "Mongabay – Conservation News",
+      "kind": "media"
+    },
+    {
+      "id": "4b9d4fd45470ff8e6779",
+      "title": "In Sri Lanka, human actions are driving wild animals into cities and suburbs",
+      "url": "https://news.mongabay.com/2026/11/in-sri-lanka-human-actions-are-driving-wild-animals-into-cities-and-suburbs/",
+      "date": "2026-11-19T18:18:34Z",
+      "summary": "COLOMBO – It was a surprise for Mohamed Fareed, a resident of Jawatte, an upscale neighborhood in Sri Lanka’s commercial capital Colombo, to find a peacock near his house back in 2020. Today, there are at least 12 peacocks, including peahens roaming…",
+      "source": "Mongabay – Conservation News",
+      "kind": "media"
+    },
+    {
+      "id": "74251a68229531374113",
+      "title": "Geopolitical tensions hamper efforts to curb overfishing in waters near Europe",
+      "url": "https://news.mongabay.com/2026/11/geopolitical-tensions-hamper-efforts-to-curb-overfishing-in-waters-near-europe/",
+      "date": "2026-11-19T15:13:44Z",
+      "summary": "LONDON — On Nov. 10, Mongabay went to the site of the annual meeting of the body that regulates fishing in the northeastern Atlantic, where a little-known geopolitical dispute over marine resources was playing out behind closed doors. The North-East…",
+      "source": "Mongabay – Conservation News",
+      "kind": "media"
+    },
+    {
+      "id": "0c2830f0fe7918b816eb",
+      "title": "Wading bird called Phil tracked in epic migration to Siberia and back",
+      "url": "https://www.bbc.co.uk/news/articles/c6qj5dl29zqro?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-19T13:35:29Z",
+      "summary": "A bird has astonished conservationists by completing a 6,800-mile round trip to Siberia and back.",
+      "source": "BBC – Wissenschaft & Umwelt",
+      "kind": "media"
+    },
+    {
+      "id": "a343fc84804a22f2ee09",
+      "title": "How one tiny island made conservation work",
+      "url": "https://news.mongabay.com/short-article/2026/11/how-one-tiny-island-made-conservation-work/",
+      "date": "2026-11-19T12:34:42Z",
+      "summary": "Out in the Bristol Channel, nestled between Wales and England, the rugged island of Lundy is one of the UK’s most pioneering conservation stories. Watch the full story.",
+      "source": "Mongabay – Conservation News",
+      "kind": "media"
+    },
+    {
+      "id": "e3f5a72ed02a2a73080a",
+      "title": "Race to replant five South African baobabs after export blocked",
+      "url": "https://www.theguardian.com/environment/2026/nov/19/baobab-five-trees-south-africa-dug-up-export-blocked-georgia-aoe",
+      "date": "2026-11-19T11:03:24Z",
+      "summary": "The trees, intended for an unnamed buyer in Georgia, were reportedly dug up without the necessary permits Environmentalists in South Africa are racing to replant five centuries-old baobabs after the 20-tonne trees were dug up by an exporter, who…",
+      "source": "The Guardian – Environment",
+      "kind": "media"
+    },
+    {
+      "id": "1db137d22d5e89537c35",
+      "title": "Race to replant five South African baobabs after export blocked | Illegal wildlife trade - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQeWU4MWdRRzJGLWdJeS1KYzN5c3hEUVMxS19maXJDM2JySHZ0Y1NYTGJOQkh1cVBZS0RmVlA2eWhjSF9JTjI2RVA4dTZjU3F0b0JydEdVNG5ZYzJsZEdUM0o4VmdVUUxiUXdRZzNMMVk0V2ZfZHVsRFZXank4Ri0wRnU4bUtyTncxZGZRSmx5M0lKb0RTT3M4VTdOZEd3ZjZsRlZXSVVQMVBYNXg4enJFQUlkVEVPbU0?oc=5",
+      "date": "2026-11-19T11:03:00Z",
+      "summary": "Race to replant five South African baobabs after export blocked | Illegal wildlife trade The Guardian",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "3a46ad92ec71c5b4fd10",
+      "title": "Threatened species make up half of shark catches at Indonesian fishing port, study finds",
+      "url": "https://news.mongabay.com/2026/11/threatened-species-make-up-half-of-shark-catches-at-indonesian-fishing-port-study-finds/",
+      "date": "2026-11-19T10:57:05Z",
+      "summary": "JAKARTA — In Muncar, a busy fishing port on the southeastern coast of Indonesia’s East Java province, sharks can fetch as much as 1.5 million rupiah each, or about $82. However, their value to fishing communities comes at a cost to conservation:…",
+      "source": "Mongabay – Conservation News",
+      "kind": "media"
+    },
+    {
+      "id": "ad529c47c983782701a4",
+      "title": "Council calls for action to empower young people in an evolving information environment",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/19/council-calls-for-action-to-empower-young-people-in-an-evolving-information-environment/",
+      "date": "2026-11-19T09:30:00Z",
+      "summary": "The Council has approved conclusions aimed at empowering young people in an evolving information environment.",
+      "source": "EU-Rat – Pressemitteilungen",
+      "kind": "policy"
+    },
+    {
+      "id": "7e9ea93b5c061aeab1b5",
+      "title": "Stadtjäger in Schwäbisch Hall quält einen Waschbären – Behörde kehrt den Fall unter den Tisch - Wildtierschutz Deutschland e.V.",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdl9xSE9NamR3TzMwMENGaExSWjhDSXQyTXNKMW13d1lfb1A5Wl9GVTBWOVFvQkFWM0Ryd05ibmJVdWM5THZhQW94UDhWOVFHbWJLSHRncDl6ZzU2SFRJbDJtTUMyRmM2b3JzSjRmOFdsQ3ZvdzgyYlFnM0tHVHVYdm9CSFRTcjBZMzd0c0xRLVBBRVFXZWwtejVYWGtIc2pOQVNpc1l1Yng0aVZ5Y3J6LQ?oc=5",
+      "date": "2026-11-18T17:47:15Z",
+      "summary": "Stadtjäger in Schwäbisch Hall quält einen Waschbären – Behörde kehrt den Fall unter den Tisch Wildtierschutz Deutschland e.V.",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "72efef3bae5c6c11dcde",
+      "title": "After 49 years, Nasa’s Voyager 1 is one light-day away from us. Can we save this ‘pale blue dot’? | Kim Heacox",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/18/nasa-voyager-1-pale-blue-dot",
+      "date": "2026-11-18T11:00:56Z",
+      "summary": "Since the spacecraft’s 1977 launch, our wonderful and terrible species has done great damage to our planet. Voyager has offered us a clear view of ourselves Imagine traveling nonstop for 49 years, alone in the dark with no destination in sight,…",
+      "source": "The Guardian – Environment",
+      "kind": "media"
+    },
+    {
+      "id": "3aaaf40778354a745f37",
+      "title": "Young artists to reimagine people & wildlife sharing the planet - International Fund for Animal Welfare | IFAW",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1mbVRLd2JPc3Q4TmV1dE1mVkJRRi00Q1JNQU5lQ19tdGF6ZEZtY3poMk14LXVLR05UQUJNNFE5UzhUdFZvLW9LR1pyWXdVNDJyMlV6ak9uXzVQMENqazJDMmJOazFMZjBDZmVkOGZ5Z2t6cDBwZmJvUEQwLTk?oc=5",
+      "date": "2026-11-18T10:22:56Z",
+      "summary": "Young artists to reimagine people & wildlife sharing the planet International Fund for Animal Welfare | IFAW",
+      "source": "IFAW – Berichterstattung (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "cf403857590b45eed359",
+      "title": "Wildlife trafficking persists in West, Central Africa despite crackdowns: Report - news - Mongabay",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSnZsMUFvS0ttMEo1aHpOYUpDZWkxWjdyc3FON2xvQlRBanBTRlhDRmwtamhUWGlLV3RSSGNUaEhDa3NzQ2ZTNjIxZUJVMWNGTGdwSmZqVnN0LWFYOWFfSFgxN2hfQnJKNVhINl92dncyMlNBMHZUUHd0b1JKSkluRWNmSGpXbVNQVkRjU1N1dF9MZ0Q1ejBBNVdFbDQxc0FsN2xYRWxzWlFHWW44aWUzWVA2RdIBuAFBVV95cUxOdmdtZVEydVEtczdfWmVib2lxOWpOZngzeEJmckFBSkd2VlRmdXB0c3BiTTZPWFZ3SEtDNWRDZFVVTmdjUzJuMEx6T0tDZzREVkIyVWRRVmR3U1ZoeVFVNUpsTGRkRUtGdFBJMWluVzRPSmJBNm55SHJUbUFqTlRPNF9LNzJsSGxYRjF3QUlvNzdYZ1lWbHNfQktaVHp3cXNpcjhyVlE2Nnl4VXVteWV2c2J5VzI0aEZf?oc=5",
+      "date": "2026-11-18T09:08:52Z",
+      "summary": "Wildlife trafficking persists in West, Central Africa despite crackdowns: Report news - Mongabay",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "9e615a83da2c07a78849",
+      "title": "Eleven animals rescued following bust for illegal wildlife trade - Algoa FM",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNnlESU9UbjhJR0NER3FqM2JrTU1wUHFreE5ReVR1MkNGZUROQkJjb0lEUk1jaXoySGJzRVFkdGs1RUstS21CUkR6U19abW9yM3RJVHl1N2Fva0FHb05yMkZxUE9WNUl6QXF0WFRiRndldzZLRVVaM3IwVTI0MVFwYnhaRWxZbldiNlBaTnZFWG9HOGd6S3hORHF2RDdMZTBu?oc=5",
+      "date": "2026-11-18T05:29:00Z",
+      "summary": "Eleven animals rescued following bust for illegal wildlife trade Algoa FM",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "24ae933dcbce21aba558",
+      "title": "Kim Min brings wildlife trafficking documentary to viewers after rising TV profile - Chosunbiz",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZG1DZEVnMjkzcklaaE81dEREN2tSZnNDVEd5dzhmRTV5Y0cyN0M4dTczVHZ3Y2xReC1PbWFWZXRmeHFBMGdmZnlUb3ZIU0RWdzA4c2Z3TjA5WmFUNzk0TnVLeXZERk5mbkt3b1JFcnRGWUdkc0FfT3lKNWNwS294NWNSOGczaVBo0gGcAUFVX3lxTE9mM2xmTW5WWTBWV2dfVGpBbTlQRXVvVWVNRkt1MFBRbmFCeV9xTmNkdmZmYnljRWZEVTA0bjVTeXVMYkk4MlVadFZpWjhUNDZaSHNzbjRoV3J0R0hQVm9yRDdsRks3SUtlRkhhZmhLQllhX2lDMlJjOXZBYWpDLVl2WFhoZ1dmbjZZdEZXcjJoaDQwZTgwVEstNi1COQ?oc=5",
+      "date": "2026-11-18T02:20:00Z",
+      "summary": "Kim Min brings wildlife trafficking documentary to viewers after rising TV profile Chosunbiz",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "95fd76beaefed5cc4be5",
+      "title": "Artenschutz in Gütersloh: Fledermaushäuser zeigen erste Wirkung - Die Glocke",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQbENKNE51N3hUTXljVHQ2M1ViQmhCN1hTajdQenM5RU1fOFdtZ0hmREhzd25aeHEtQnFZdVBCSWZhbFZrb2FaNEdGWnR6UllpY3lpMTRlSkpIZEtCUzRuQ0FOZ19YUk1qRWdYcXhfRjVadEJac1ZfXy1ILWR4T1ZvRlZaRmpFZjZEalc2ZDNMYkR0SUZlV2RQcmpwZ2x6MERmUE1vWXg3UzgzRkJ3NnJIZktvcUFORXR6VllVVUk0YTUwN2J6aVBJcHlOVWdCclpyTWpF?oc=5",
+      "date": "2026-11-17T23:00:00Z",
+      "summary": "Artenschutz in Gütersloh: Fledermaushäuser zeigen erste Wirkung Die Glocke",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "b34111e9ebde703da31e",
+      "title": "The Guardian view on climate and debt: a vicious cycle the world must break at Cop31 | Editorial",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/17/the-guardian-view-on-climate-debt-a-vicious-cycle-the-world-must-break-at-cop31",
+      "date": "2026-11-17T19:08:05Z",
+      "summary": "Poor countries are paying creditors instead of preparing for climate disasters. The international financial system must stop deepening their vulnerability The catastrophe that struck Nepal’s Himalayas in August began with a collapsing glacier. An…",
+      "source": "The Guardian – Environment",
+      "kind": "media"
+    },
+    {
+      "id": "a0e37d3f41dca227d34d",
+      "title": "Where do people want to see Britain’s climate action plan working? On their own doorstep | Miatta Fahnbulleh",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/17/britain-climate-action-plan-working-cop31-voters-jobs-home-prices",
+      "date": "2026-11-17T13:32:44Z",
+      "summary": "I am at Cop31 – concerned about the crisis around the world, but mindful that voters want jobs, warmer homes and cheaper prices Miatta Fahnbulleh is the UK secretary of state for energy security and net zero In this cold weather, it is easy to…",
+      "source": "The Guardian – Environment",
+      "kind": "media"
+    },
+    {
+      "id": "d99162bda34daa76cd6a",
+      "title": "Förderung für kommunale Biodiversitätsstrategien im Bundesprogramm Biologische Vielfalt",
+      "url": "https://www.bundesumweltministerium.de/pressemitteilung/foerderung-fuer-kommunale-biodiversitaetsstrategien-im-bundesprogramm-biologische-vielfalt",
+      "date": "2026-11-17T13:04:00Z",
+      "summary": "Städte und Gemeinden können Fördermittel für kommunale Biodiversitätsstrategien und beispielhafte Naturschutzmaßnahmen beantragen. Projektskizzen für neue Strategien müssen bis zum 1. März 2027 eingereicht werden.",
+      "source": "Bundesumweltministerium – Naturschutz",
+      "kind": "policy"
+    },
+    {
+      "id": "fffe335f1f4a210c23dc",
+      "title": "Sinsheim bewilligt 5000 Euro für Fuchsfallen - Wildtierschutz Deutschland e.V.",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQUVRpZkpKb3JpbkVZLUxHRFo0RE1sdTR0azhzTlNOa0tMQjNmMmVzaXpPOGxRYU11VV9hNTQyamdYeXdRZ3k1SlUtckVLak13WVhpVW1CNXdrdjViYnFtR3ZmNGdjaHZoa2FKS0MteU1Fa2tnLWZYQjFuaTJMQ01QTEFqNnc3Qjc0NDAwNkdn?oc=5",
+      "date": "2026-11-17T10:00:25Z",
+      "summary": "Sinsheim bewilligt 5000 Euro für Fuchsfallen Wildtierschutz Deutschland e.V.",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "2c4c6b6483697e8028c5",
+      "title": "Working in Cape Cod’s waters, he saw an unusual clam. It was the start of an invasion",
+      "url": "https://www.theguardian.com/environment/2026/nov/16/cape-cod-invasive-manila-clams",
+      "date": "2026-11-16T12:00:58Z",
+      "summary": "The unfamiliar mollusk first turned up in this harvester’s haul in 2023. He asked a scientist to identify it, and together they realized they were seeing a potentially harmful, non-native species Send us your climate questions for the next Stateside…",
+      "source": "The Guardian – Environment",
+      "kind": "media"
+    },
+    {
+      "id": "6030e13c3b79ef88ac1f",
+      "title": "2024 wurden die Pläne für das Artenschutz-Aquarium präsentiert. - Heute",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQU0pfcl9hYXZpWWU3Y242WDRhWlRXcndCZzZld3ZmY01XZnRYYl9vNFFjUkcyZVU0WEdlbk5XSncyMUhkRjBvRTY1TkgwTVRqVnNpM0JGSW4xVzNnVTNUQUFvN0djUldIdFg5eUNRSHZtelI1RVZLS05YZmYzb2Y4QUpvM0t3eU1WZnJRTm5YZGNRZDNhUFNqSEt5ZnJDT1ozb2c?oc=5",
+      "date": "2026-11-16T05:06:10Z",
+      "summary": "2024 wurden die Pläne für das Artenschutz-Aquarium präsentiert. Heute",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "ab32a2ef56134512631b",
+      "title": "Europe’s Wadden Sea is a natural wonder. So why might it join the world heritage in danger list?",
+      "url": "https://www.theguardian.com/environment/2026/nov/16/europes-wadden-sea-is-a-natural-wonder-so-why-might-it-join-the-world-heritage-in-danger-list",
+      "date": "2026-11-16T05:00:34Z",
+      "summary": "Along the coasts of the Netherlands, Germany and Denmark, its intertidal flats host a wealth of marine life and birds. But extraction industries, tourism and fishing are taking their toll Stand on the coastline at high tide and you look out over…",
+      "source": "The Guardian – Environment",
+      "kind": "media"
+    },
+    {
+      "id": "ea32354488f67c069685",
+      "title": "More Than 3,000 Tarantulas Were Found Hidden in Socks During a Major Wildlife Trafficking Bust at an Airport in Lima, Peru - Smithsonian Magazine",
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNanU3UGpmbGhtclRkUjRSZWUzenVRb01PYkQxb3pXaFUwSGNoM2lLMWthcHFEUm1UdDcyNHZITEZzMkZGaWdZZC1lN2VGcWJPVkJwZ01Ld0xYWFRZdU9LckV5aGlBbVRfQURwRW5jeGhEdlRKNnZKc2E0MzJLaE9nWTZ5WF9GZFNzMndyVHZndHJrc1M5V3J6VHpxS1FySWk1djUyd19KUll6LVpJSHNEdWdrT25nNWNMdm83QlJHUm9WdEhkLW1GcW1td1czRThITV9HaGxURW9CQlBXMlUyZi05NVBzWDM5QlVJTnhoaHczTU1DcVI0dldRNTBnTWMtbHpn?oc=5",
+      "date": "2026-11-13T08:00:00Z",
+      "summary": "More Than 3,000 Tarantulas Were Found Hidden in Socks During a Major Wildlife Trafficking Bust at an Airport in Lima, Peru Smithsonian Magazine",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "25a7aa9669cb2a0ff101",
+      "title": "First guidelines on attempts to manipulate the ocean put spotlight on geoengineering industry",
+      "url": "https://www.theguardian.com/environment/2026/nov/12/canada-climate-geoengineering-marine-carbon-credits-biology-ocean-alkalinity-enhancement",
+      "date": "2026-11-12T11:00:47Z",
+      "summary": "Proponents argue ocean carbon removal is necessary to counteract the effects of the climate crisis but critics say more research is needed A cluster of candy cane-striped smoke stacks dots the horizon of Tufts Cove in Nova Scotia, Canada. Deep in…",
+      "source": "The Guardian – Environment",
+      "kind": "media"
+    },
+    {
+      "id": "c955aded12c2b0002c83",
+      "title": "Beef industry quietly squashes part of its own science curriculum after ranchers protest",
+      "url": "https://www.theguardian.com/environment/2026/nov/08/beef-industry-climate-impact-education",
+      "date": "2026-11-08T15:00:43Z",
+      "summary": "Lesson for teenagers included how cattle’s methane emissions contribute to climate crisis, but it was then scrapped A beef industry-funded effort to teach teenagers about cattle’s climate impact was quietly scrapped following backlash from some…",
+      "source": "The Guardian – Environment",
+      "kind": "media"
+    },
+    {
+      "id": "8e3a0b9ecea0b11a3b90",
+      "title": "Abschluss der 17. Weltnaturkonferenz: Ehrliche Bestandsaufnahme – aber noch viele Hausaufgaben für den internationalen Naturschutz",
+      "url": "https://www.bundesumweltministerium.de/pressemitteilung/abschluss-der-17-weltnaturkonferenz-ehrliche-bestandsaufnahme-aber-noch-viele-hausaufgaben-fuer-den-internationalen-naturschutz",
+      "date": "2026-10-31T09:59:00Z",
+      "summary": "Die Weltnaturkonferenz in Eriwan erzielte Beschlüsse zu vielen wichtigen Themen wie der ersten globalen Überprüfung der Umsetzung des Biodiversitätsrahmens, der Finanzierung von Naturschutz und der Stärkung indigener Völker.",
+      "source": "Bundesumweltministerium – Naturschutz",
+      "kind": "policy"
+    },
+    {
+      "id": "856ae59d5fe26be8122b",
+      "title": "BBC Inside Science",
+      "url": "https://www.bbc.co.uk/sounds/play/w3ct978j?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-29T21:00:00Z",
+      "summary": "Time is running out for one of the most ambitious environmental pledges in history.",
+      "source": "BBC – Wissenschaft & Umwelt",
+      "kind": "media"
+    },
+    {
+      "id": "78a517ca971da497fd34",
+      "title": "Protecting Europe with stronger climate-resilience",
+      "url": "https://commission.europa.eu/news-and-media/news/protecting-europe-stronger-climate-resilience-2026-10-27_en",
+      "date": "2026-10-26T23:00:00Z",
+      "summary": "The EU's proactive and systemic risk management approach to protect Europeans and the EU economy from the impacts of climate change.",
+      "source": "EU-Kommission – Nachrichten",
+      "kind": "policy"
+    },
+    {
+      "id": "06bdf9ab755189ca5244",
+      "title": "‘It’s all God’s creation’: farmers continue a ‘Jewishly inspired’ agrarian tradition",
+      "url": "https://www.theguardian.com/world/ng-interactive/2026/oct/22/jewish-farmers-tradition-agriculture",
+      "date": "2026-10-22T19:18:11Z",
+      "summary": "In the US, a growing number of Jewish people are seeking purpose and community through farming Wendy Rhein is trying to round up the sheep hanging out among the hazelnut and walnut trees of her Chutzpah Hollow farm in Tryon, North Carolina. “Hi,…",
+      "source": "The Guardian – Environment",
+      "kind": "media"
+    },
+    {
+      "id": "096c7fdf17a1d39c368c",
+      "title": "SLOTHS Act aims to protect sloths from wildlife trade - International Fund for Animal Welfare | IFAW",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5qOHlyM1lWMEk2a0J6RkktdUxUWlpDN2Q2SHZfQUV3ZzhKa0RMcTRBazJJY055aGk4X0pJS0hvZEFCOGxQZjVuZlpPTWNqSlN2ZWtsU3ZLdlI2RUZFeWlaVkVhckxqSGhBTWo2MlgydUlVT2xi?oc=5",
+      "date": "2026-10-20T07:00:00Z",
+      "summary": "SLOTHS Act aims to protect sloths from wildlife trade International Fund for Animal Welfare | IFAW",
+      "source": "IFAW – Berichterstattung (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "36894a83ec87401aa9e7",
+      "title": "A long-term vision for a successful fisheries and aquaculture sector",
+      "url": "https://commission.europa.eu/news-and-media/news/long-term-vision-successful-fisheries-and-aquaculture-sector-2026-10-20_en",
+      "date": "2026-10-19T22:00:00Z",
+      "summary": "The European Commission has set out its vision for fisheries and aquaculture towards 2040 to support fishers, aquaculture producers and local communities.",
+      "source": "EU-Kommission – Nachrichten",
+      "kind": "policy"
+    },
+    {
+      "id": "b6d5bba63ebb2aecf277",
+      "title": "An EU strategy for a rapidly changing Arctic",
+      "url": "https://commission.europa.eu/news-and-media/news/eu-strategy-rapidly-changing-arctic-2026-10-20_en",
+      "date": "2026-10-19T22:00:00Z",
+      "summary": "The new strategy for the Arctic is a framework of cooperation that places people, security, climate and prosperity at its core",
+      "source": "EU-Kommission – Nachrichten",
+      "kind": "policy"
+    },
+    {
+      "id": "ba5c4a87c7279d82d555",
+      "title": "Weltnaturkonferenz: Erste globale Bilanz zur Umsetzung der Naturschutzziele bis 2030",
+      "url": "https://www.bundesumweltministerium.de/pressemitteilung/weltnaturkonferenz-erste-globale-bilanz-zur-umsetzung-der-naturschutzziele-bis-2030",
+      "date": "2026-10-19T05:27:00Z",
+      "summary": "Im Mittelpunkt der Weltnaturkonferenz steht die Frage, welche Fortschritte seit 2022 erreicht wurden und wie das Ziel, bis 2030 mindestens 30 Prozent der Land- und Meeresflächen zu schützen, noch erreicht werden kann.",
+      "source": "Bundesumweltministerium – Naturschutz",
+      "kind": "policy"
+    },
+    {
+      "id": "05fd40c64be2a7697eeb",
+      "title": "Beschleunigungspakt: Bundeskabinett beschließt Artenschutz-Vereinfachung für den Schienenausbau",
+      "url": "https://www.bundesumweltministerium.de/pressemitteilung/beschleunigungspakt-bundeskabinett-beschliesst-artenschutz-vereinfachung-fuer-den-schienenausbau",
+      "date": "2026-10-14T10:26:00Z",
+      "summary": "Künftig soll das europäische Artenschutzrecht bundesweit einheitlicher angewendet werden. So kann die Sanierung von Bahnstrecken zügiger, mit weniger Verwaltungsaufwand und kostengünstiger umgesetzt werden.",
+      "source": "Bundesumweltministerium – Naturschutz",
+      "kind": "policy"
+    },
+    {
+      "id": "8b1fa7a929c60967e86e",
+      "title": "Environment Council",
+      "url": "https://www.consilium.europa.eu/en/meetings/env/2026/10/12/",
+      "date": "2026-10-12T10:00:00Z",
+      "summary": "The Council discussed the proposed review of the EU’s emissions trading system. It also approved conclusions on the EU’s main negotiating positions ahead of the United Nations climate change (COP31) and biodiversity (COP17) summits.",
+      "source": "EU-Rat – Umweltrat",
+      "kind": "policy"
+    },
+    {
+      "id": "b4c99e61b84800e001e7",
+      "title": "Australia’s new eco police flexes muscles with major wildlife trafficking bust - news - Mongabay",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeEFpcU9YRHk1TnVMX1ZGT3FMWHQxaDlKV2c5Q3doZjdtVFJ5WnBYWnEtVDJDYmM2QmRFbE5mV0dVclpjWEN2Q19STHpmLTBVb001M01OcURxSGEtNjZfVENqOFV0dWRMM19RMEx3aWlWRlVJdDdwZzlydGxmTGw4d0UtMjVtVDlmb0I1N19aRkJpSmtiRzJnYkFiVThGRWtaYjVmZnphUE1UTjJzbkI2Zi16elVsTnpVc2c?oc=5",
+      "date": "2026-10-08T07:00:00Z",
+      "summary": "Australia’s new eco police flexes muscles with major wildlife trafficking bust news - Mongabay",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "4258f46c5061dfd2db81",
+      "title": "Schneider: Deutschland braucht neuen Umgang mit Wasser",
+      "url": "https://www.bundesumweltministerium.de/pressemitteilung/schneider-deutschland-braucht-neuen-umgang-mit-wasser",
+      "date": "2026-10-05T09:00:00Z",
+      "summary": "Bundesumweltminister Schneider hat beim Forum \"Zukunft Wasser\" zusammen mit EU-Umweltkommissarin Roswall seine wasserpolitischen Prioritäten skizziert. Zu den Kernaufgaben gehören Investitionen in Wasservorsorge und -qualität.",
+      "source": "Bundesumweltministerium – Naturschutz",
+      "kind": "policy"
+    },
+    {
+      "id": "c666d4bd38ed271af796",
+      "title": "Combating Wildlife Trafficking - FWS.gov",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBfWWtmcVNpbk12cU1pb21iR1ZXZkdxWmtoZnMxemstbWRmTk9nS1pyNzZYRDUzZWlRZ3BwM2Zxd0VtSWtiNHhScjdQRkExMFhmNkREUHd4bkFPYzA4Q2lmbUI3NjR4TlhwSk1r?oc=5",
+      "date": "2026-09-21T07:00:00Z",
+      "summary": "Combating Wildlife Trafficking FWS.gov",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "28101fea1af94511b9a5",
+      "title": "200 Millionen Euro für den klimaangepassten Waldumbau",
+      "url": "https://www.bundesumweltministerium.de/pressemitteilung/200-millionen-euro-fuer-den-klimaangepassten-waldumbau",
+      "date": "2026-09-17T14:11:00Z",
+      "summary": "Die Fördermittel für das Förderprogramm \"Klimaangepasstes Waldmanagement\" werden ab Januar 2027 auf 200 Millionen Euro jährlich aufgestockt. Waldbesitzende können ab dem 1. Oktober 2026 wieder Erstanträge stellen.",
+      "source": "Bundesumweltministerium – Naturschutz",
+      "kind": "policy"
+    },
+    {
+      "id": "b7f23ee48e1927c56781",
+      "title": "IFAW expands support as wildlife rescue centers remain under pressure in France - International Fund for Animal Welfare | IFAW",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQbWY1ZjNDVUd3VG9aazIzeVVxaENzZ2tEZXA4bTlsUE05d1JaZ3FOTi1Cd1ZOWEhPQkJkTDdhUkVTdnVJVE5uOXRaQXNCU2xIakFwQlFUd3FNQjJYUWt4eDdIaW96WjlVLTRZUzJWdU51REZDRkF6SWkwc2xaX0pHMWtVZEZjYjNHWHNxTVpqeGdrWVZ0SGc?oc=5",
+      "date": "2026-09-15T07:00:00Z",
+      "summary": "IFAW expands support as wildlife rescue centers remain under pressure in France International Fund for Animal Welfare | IFAW",
+      "source": "IFAW – Berichterstattung (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "02c8e0e239f2ccd962f6",
+      "title": "Löwenbabys im Dortmunder Zoo: Warum ein Influencer ihren Wert für den Artenschutz anzweifelt - WDR",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSFVCY256bkF4VjRWRGpPZkxtN2QxZjZUS3Q5RDhWempVck9KbTZSNEIyQWdCS3VzREQxY0ZxN0xDQm9qNlZ0TEZnMm1VN29oRFdXdkkzQU9pbkRsbFNZUERVd3k0UmY1aS0wZE9KYks4MnRjQWtvY05jX2I0UlJwSUhGVGVKaWxZN0E?oc=5",
+      "date": "2026-09-09T07:00:00Z",
+      "summary": "Löwenbabys im Dortmunder Zoo: Warum ein Influencer ihren Wert für den Artenschutz anzweifelt WDR",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "055e0d928d6c875ccb9b",
+      "title": "How cleaning up the air is speeding up global warming - and revealing a bigger problem",
+      "url": "https://www.bbc.co.uk/news/articles/c20917w25n4o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-09-08T23:11:52Z",
+      "summary": "A curious online row over this summer's heatwaves points to a wider - and worrying - shift in climate science.",
+      "source": "BBC – Wissenschaft & Umwelt",
+      "kind": "media"
+    },
+    {
+      "id": "ccd4f7fa9194ae336a38",
+      "title": "New digital portal empowers frontline investigators in the fight against wildlife cybercrime - International Fund for Animal Welfare | IFAW",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxONnlUTHhsQTBFWFZXY2tNU2psTGV6UGdFeDk2UzdXSWp5TEpXMkxyY2FQaklEWTlDbzFWQ3FLVmFyajcwTWpocDZyUUhlZmVlVF9JSlhaVmlaQmNHb1FndHdtRXpycHJ1YW5xSG1IckxPQTNJTkFzd2RXUUNYU3hKWFdaNGFJa0UzajZJTTdxdFdaeUJ1anhqZExXOUMtQQ?oc=5",
+      "date": "2026-08-26T07:00:00Z",
+      "summary": "New digital portal empowers frontline investigators in the fight against wildlife cybercrime International Fund for Animal Welfare | IFAW",
+      "source": "IFAW – Berichterstattung (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "ff6e18a2ed2fb8549fa3",
+      "title": "Global trends and impacts of the online illegal wildlife trade - Nature",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5wcGZKN29XOVoxOTFSZFd5T2UzRzViVEpGaGZUUjlaV0NsaV9tVkVsLURTWi1qNkZXanoxSEtGRzNFV1lkbnRSUzU2TE14ZXgtR09nTkhtVl8xR2J1UVpB?oc=5",
+      "date": "2026-08-24T07:00:00Z",
+      "summary": "Global trends and impacts of the online illegal wildlife trade Nature",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
+      "kind": "media"
+    }
+  ],
+  "sources": [
+    {
+      "name": "Bundesumweltministerium – Naturschutz",
+      "kind": "policy",
+      "count": 7,
+      "ok": true
+    },
+    {
+      "name": "EU-Kommission – Nachrichten",
+      "kind": "policy",
+      "count": 3,
+      "ok": true
+    },
+    {
+      "name": "EU-Rat – Pressemitteilungen",
+      "kind": "policy",
+      "count": 3,
+      "ok": true
+    },
+    {
+      "name": "EU-Rat – Umweltrat",
+      "kind": "policy",
+      "count": 1,
+      "ok": true
+    },
+    {
+      "name": "BBC – Wissenschaft & Umwelt",
+      "kind": "media",
+      "count": 21,
+      "ok": true
+    },
+    {
+      "name": "The Guardian – Environment",
+      "kind": "media",
+      "count": 22,
+      "ok": true
+    },
+    {
+      "name": "Mongabay – Conservation News",
+      "kind": "media",
+      "count": 19,
+      "ok": true
+    },
+    {
+      "name": "IFAW – öffentliche Meldungen (News-Aggregation)",
+      "kind": "ifaw",
+      "count": 1,
+      "ok": true
+    },
+    {
+      "name": "IFAW – Berichterstattung (News-Aggregation)",
+      "kind": "media",
+      "count": 4,
+      "ok": true
+    },
+    {
+      "name": "Wildtierhandel – Medien (News-Aggregation)",
+      "kind": "media",
+      "count": 9,
+      "ok": true
+    },
+    {
+      "name": "Deutschland – Wildtiere (News-Aggregation)",
+      "kind": "media",
+      "count": 8,
+      "ok": true
+    },
+    {
+      "name": "Crossref: wildlife trafficking",
+      "kind": "study",
+      "count": 9,
+      "ok": true
+    },
+    {
+      "name": "Crossref: human wildlife conflict",
+      "kind": "study",
+      "count": 1,
+      "ok": true
+    },
+    {
+      "name": "Crossref: marine mammal conservation",
+      "kind": "study",
+      "count": 12,
+      "ok": true
+    },
+    {
+      "name": "Crossref: elephant conservation",
+      "kind": "study",
+      "count": 0,
+      "ok": false
+    },
+    {
+      "name": "Crossref: wildlife rescue",
+      "kind": "study",
+      "count": 0,
+      "ok": false
+    },
+    {
+      "name": "Crossref: illegal wildlife trade",
+      "kind": "study",
+      "count": 0,
+      "ok": false
+    }
+  ],
+  "failures": [
+    {
+      "source": "Crossref: elephant conservation",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source": "Crossref: wildlife rescue",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source": "Crossref: illegal wildlife trade",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
   "events": [],
-  "notice": "Noch keine automatischen Quellenläufe. Dieser Datensatz enthält absichtlich keine erfundenen Artikel."
+  "notice": "Automatisierte Quellensammlung. Keine Vollständigkeits- oder unabhängige Faktenprüfungs-Garantie."
 }

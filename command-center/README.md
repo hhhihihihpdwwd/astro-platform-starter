@@ -1,14 +1,18 @@
 # Wildlife Command Center – unabhängiger Recherche-Prototyp
 
-**Aktuelle Web-Vorschau (23.11.2026):** https://festive-parcel-4gdig.ship.place/
+**Aktuelle verifizierte Web-Vorschau (23.11.2026):** https://global-caravan-3gpyi.ship.place/
 
 Dieses Projekt ist ein **nicht offiziell freigegebener, öffentlich erreichbarer Prototyp** zur Recherche von öffentlichen Wildtier-, Artenschutz-, Wissenschafts- und Politikmeldungen für IFAW-bezogene Themen. Keine offizielle IFAW-Webanwendung, kein Logo und keine internen Unternehmensdaten.
 
 ## Bedienung
 
-Laptopoptimiertes Dashboard mit Morning Briefing, Global News Radar, PR-Chancen, Medienmonitoring, Crisis Watch, Studien-Scout, Policy Tracker, IFAW-Wissen und Command Chatbot. Die letzte Funktion ist **eine lokale, regelbasierte Suche**, kein generatives KI-Modell. Bei keiner passenden Quelle wird keine Antwort erfunden. Quellen werden per Original-Link kenntlich gemacht.
+Laptopoptimierte, minimalistische Oberfläche **ohne Seitenleiste oder Chatbot** mit Morning Briefing, Global News Radar, PR-Chancen, Crisis Watch, Studien-Scout und Policy-Meldungen. Eine Hamburger Uhr und vier Weltuhren zeigen sekundengenau die Ortszeit für Hamburg, Washington, Cape Cod, London und Sydney. Der Sonnenstand wird mit einer NOAA-Näherungsformel aus Datum, Uhrzeit und den Koordinaten Hamburgs berechnet.
 
-**To-dos und alle Microsoft-Verbindungen sind ab v0.3 vollständig entfernt.**
+**To-dos, Microsoft-Verbindungen und der Chatbot sind entfernt.**
+
+## Tägliche Studie
+
+Der stündliche Quellenlauf versucht, aus öffentlichen Europe-PMC-Abstracts relevante Tier- und Artenschutzpublikationen mit DOI zu übernehmen. Bei API-Ausfällen stehen **sieben anhand der Originalpublikationen geprüfte Fachartikel** bereit, die täglich wechseln können. Die Entscheidung für den aktuellen Hamburger Kalendertag wird separat gespeichert und bleibt während des Tages stabil. Themenbeschreibungen sind bewusst zurückhaltend formuliert; keine behauptete LLM-Faktenprüfung oder erfundene Forschungsergebnisse. Veröffentlichungsdaten werden angezeigt; die Rubrik beansprucht nicht, dass eine ältere Studie neu erschienen sei.
 
 ## Bilder & Gestaltung
 
@@ -24,10 +28,10 @@ Die moderne Schrift nutzt die lokal verfügbaren Systemfonts, also **keine exter
 ## Aufbau und Null-Euro-Betrieb
 
 - Statische HTML/CSS/JS-Anwendung ohne kostenpflichtige KI-API.
-- GitHub Actions sammelt alle sechs Stunden öffentlich zugängliche RSS-/Atom- und Crossref-Metadaten.
+- GitHub Actions versucht **stündlich** öffentlich zugängliche RSS-/Atom-, Crossref- und Europe-PMC-Metadaten zu sammeln. Läufe können sich verzögern oder bei Quellenausfällen fehlschlagen. Der Browser fragt die Daten ebenfalls spätestens stündlich neu ab; die Sekunden-Uhren laufen ohne Netzwerkanfrage.
 - Website wird durch `.github/workflows/ifaw-publish-free.yml` auf einen kostenlosen statischen Host veröffentlicht. Dort werden HTML/CSS/JS/News-JSON und **drei lokale JPEG-Bilddateien** auf gültige HTTP-200-Antworten geprüft.
 - Die neuesten öffentlichen JSON-Meldungen lädt der Browser aus diesem GitHub-Repository, mit lokalem Snapshot als Fallback.
-- Es werden **keine Besucherdaten oder Chatfragen in eine Datenbank dieser Anwendung** geschrieben; der Hoster und GitHub verarbeiten allerdings technische Verbindungsdaten.
+- Es werden **keine Besucherdaten oder Chatfragen in eine Datenbank dieser Anwendung** geschrieben (es gibt keinen Chatbot). Eine freiwillige Merkliste verbleibt im Browser; Hoster und GitHub verarbeiten technische Verbindungsdaten.
 
 **Wichtig:** Anonyme kostenlose `ship.page`-Webseiten laufen laut Betreiber nach **sieben Tagen ab**. Jede neue Veröffentlichung erzeugt eine **neue URL**. Für dauerhaft stabile, kostenlose Veröffentlichung muss GitHub Pages im eigenen Repository freigeschaltet werden; das ist aktuell nicht erfolgt.
 

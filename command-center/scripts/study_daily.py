@@ -50,6 +50,42 @@ def summary(title,abstract):
     method=next((phrase for keys,phrase in methods if any(k in a for k in keys)),'')
     return ('Die Veröffentlichung behandelt '+area+'. '+(method+' ' if method else '')+
             ('Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.' if abstract else 'Nur bibliografische Angaben vorhanden; die Ergebnisse wurden nicht geprüft.'))
+
+# Verifizierbare Forschung aus öffentlich zugänglichen Originalpublikationen.
+# Reservequelle bei API-Ausfall: keine generierten Titel, DOIs oder Ergebnisse.
+CURATED=[
+    ('Reducing whale-vessel strikes through multiobjective vessel traffic routing',
+     '10.1111/cobi.70388','Conservation Biology','2026-10-29',
+     'Die Veröffentlichung untersucht, wie sich Schifffahrtsrouten unter mehreren Zielgrößen so planen lassen, dass Kollisionen mit Walen reduziert werden können.'),
+    ('An expanding human footprint drives escalating human–elephant conflict across a transboundary African landscape through 2085',
+     '10.1093/pnasnexus/pgag205','PNAS Nexus','2026-07-07',
+     'Die Arbeit modelliert mögliche künftige Mensch-Elefant-Konflikte in einer grenzüberschreitenden afrikanischen Landschaft unter veränderten Landnutzungsbedingungen.'),
+    ('Ship strikes of fin whales in the north-east atlantic: identifying hotspots and simulating mitigation measures',
+     '10.1007/s10531-026-03262-7','Biodiversity and Conservation','2026-03-02',
+     'Die Studie untersucht Kollisionsrisiken für Finnwale im Nordostatlantik und simuliert unterschiedliche Möglichkeiten, diese Risiken zu verringern.'),
+    ('Two decades of changes in the global network of illegal wildlife trade',
+     '10.1111/cobi.70196','Conservation Biology','2025-12-13',
+     'Die Studie analysiert Veränderungen im internationalen illegalen Wildtierhandel zwischen 2000 und 2022 und nutzt dafür Handelsdaten sowie Netzwerkanalysen.'),
+    ('Promoting human–elephant coexistence through integration of AI, real-time alerts, and rapid response',
+     '10.1111/csp2.70186','Conservation Science and Practice','2025-11-11',
+     'Die Veröffentlichung beschreibt einen Ansatz zur Verringerung von Mensch-Elefant-Konflikten, der automatisierte Warnungen mit schnellen Einsätzen vor Ort kombiniert.'),
+    ('A multi-model analysis of global pangolin trade from CITES records (1977–2024): Implications for species conservation',
+     '10.1016/j.gecco.2026.e04117','Global Ecology and Conservation',None,
+     'Die Arbeit wertet internationale CITES-Handelsdaten über Schuppentiere von 1977 bis 2024 aus, um Trends und Handelsmuster zu untersuchen.'),
+    ('Pangolin hunting in southeast Nigeria is motivated more by local meat consumption than international demand for scales',
+     '10.1038/s41559-025-02734-3','Nature Ecology & Evolution',None,
+     'Die Studie untersucht Motive der Schuppentierjagd im Südosten Nigerias und die Rolle lokaler Nachfrage sowie des internationalen Handels.')
+]
+def curated_studies():
+    out=[]
+    for title,doi,journal,date,desc in CURATED:
+        href='https://doi.org/'+doi
+        uid=hashlib.sha256((href+'|'+title.casefold()).encode()).hexdigest()[:20]
+        out.append({'id':uid,'title':title,'date':date+'T00:00:00Z' if date else None,
+                    'url':href,'source':journal,'kind':'study','study_source':'Kuratiertes Fachliteraturarchiv',
+                    'abstract_available':True,'summary':desc+' Zur wissenschaftlichen Bewertung bitte die Originalveröffentlichung heranziehen.'})
+    return out
+
 def get_europe_pmc(now, fetch=None):
     if fetch is None:
         def fetch(u):
@@ -88,10 +124,12 @@ def choose(items, previous, now):
     if not studies:return None
     if isinstance(previous,dict) and previous.get('date')==today and any(a['id']==previous.get('id') for a in studies):
         return previous
-    studies.sort(key=lambda a:(not a.get('abstract_available',False),a.get('date') or ''),reverse=False)
-    # Prefer studies with abstracts, then most recent; retain pick all day.
     studies.sort(key=lambda a:(bool(a.get('abstract_available')),a.get('date') or ''),reverse=True)
-    return {'date':today,'id':studies[0]['id']}
+    # Eine täglich wechselnde, echte Veröffentlichung – niemals einen erfundenen Eintrag.
+    # Die ersten 12 aktuellen oder kuratierten Publikationen bilden den Auswahlpool.
+    pool=studies[:12]
+    choice=pool[now.astimezone(ZoneInfo('Europe/Berlin')).date().toordinal()%len(pool)]
+    return {'date':today,'id':choice['id']}
 def run(now=None, fetch=None):
     now=now or datetime.now(timezone.utc)
     feed=json.loads(FEED.read_text('utf8'))
@@ -106,6 +144,7 @@ def run(now=None, fetch=None):
     except Exception as exc:
         feed.setdefault('failures',[]).append({'source':'Europe PMC','error':str(exc)[:140]})
         print('Europe PMC temporarily unavailable:',str(exc)[:140])
+    feed['articles']=merge_studies(feed.get('articles',[]),curated_studies())
     selected=choose(feed.get('articles',[]),prior,now)
     feed['daily_study']=selected
     feed['schema_version']=2

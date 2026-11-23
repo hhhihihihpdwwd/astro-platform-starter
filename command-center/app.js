@@ -26,7 +26,7 @@ function itemsFor(view){
   if(view==='news')list=list.filter(x=>x.kind!=='study');
   if(view==='pr')list=list.filter(x=>A.isOpportunity(x));
   if(view==='crisis')list=list.filter(x=>A.isCrisis(x));
-  if(view==='studies')list=list.filter(x=>x.kind==='study');
+  if(view==='studies')list=list.filter(x=>x.kind==='study'&&worthyStudy(x));
   if(view==='policy')list=list.filter(x=>x.kind==='policy'||x.topics.includes('Politik & Recht'));
   if(view==='ifaw')list=list.filter(x=>x.kind==='ifaw');
   if(state.onlySaved)list=list.filter(x=>state.saved.has(x.id));
@@ -97,9 +97,10 @@ function feature(a,i){
 }
 function worthyStudy(x){
   const title=String(x.title||'').toLowerCase();
-  const allow=['wildlife','elephant','whale','rhino','pangolin','poaching','animal welfare','human-wildlife','human wildlife','marine mammal','endangered species','wild animal','biodiversity','wildlife trade','habitat restoration','habitat loss','wild mammal','animal conservation','wildlife conservation'];
-  const deny=['vaccine','epitope','protein','hla-binding','arabidopsis','iron deficiency response','gene regulation'];
-  return allow.some(s=>title.includes(s))&&!deny.some(s=>title.includes(s));
+  const strong=['wildlife','elephant','whale','rhino','pangolin','poaching','animal welfare','human-wildlife','human wildlife','marine mammal','endangered species','wild animal','wildlife trade','wild mammal','animal conservation','wildlife conservation'];
+  const deny=['vaccine','epitope','protein','hla-binding','arabidopsis','iron deficiency response','gene regulation','frozen elephant trunk','tevar','aortic','surgery','dextrocardia','cardiac','livestock farming','honeybee abundance','microbial treasure','actinobacteria'];
+  if(deny.some(s=>title.includes(s)))return false;
+  return strong.some(s=>title.includes(s))||('biodiversity'===title.slice(0,12)||title.includes('biodiversity'))&&['wildlife','forest','habitat','ecosystem','land-use','landscape','conservation','restoration','tropical'].some(s=>title.includes(s));
 }
 function studyPick(){
   const studies=byDate(articles().filter(x=>x.kind==='study'&&x.url.startsWith('https://doi.org/')&&worthyStudy(x)));

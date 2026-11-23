@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-23T15:21:46.925025Z",
+  "generated_at": "2026-11-23T15:34:01.257497Z",
   "articles": [
     {
       "id": "36c70ce5114dac6e9fd9",
@@ -612,11 +612,11 @@
       "summary": "Die Veröffentlichung behandelt bedrohte Groß- und Wildtiere. Der Abstract nennt eine Modellierung. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
       "abstract_excerpt": "This study focuses on the quantification of spatio-temporal thermal characteristics associated with linear transportation infrastructure (railways and roadways) within the ecologically fragile corridor of Dharamjaigarh forest range, Chhattisgarh. Conventional assessments of infrastructure-driven thermal landscape modifications are often limited by the coarse spatial and temporal resolution of satellite-derived land surface temperature (LST). To overcome this, the study employed a random forest-based downscaling algorithm to generate synthetic 10 m LST data, integrating it with diurnal surface energy balance modelling for r",
       "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
-      "title_de": "Thermisches Mikroklima linearer Infrastruktur in Wildtierkorridoren: Hochauflösende Modellierung von Eisenbahn- und Straßenwärmesystemen für die Bewertung des Lebensraums von Elefanten.",
-      "translation_status": "maschinell",
-      "translated_at": "2026-11-23T15:14:40.744055+00:00",
+      "title_de": "Thermisches Mikroklima linearer Infrastruktur in Wildtierkorridoren: Hochauflösende Modellierung von Eisenbahn- und Straßenwärmesystemen zur Bewertung des Lebensraums von Elefanten.",
       "summary_de": "Die Veröffentlichung behandelt bedrohte Groß- und Wildtiere. Der Abstract nennt eine Modellierung. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
-      "abstract_excerpt_de": "Diese Studie konzentriert sich auf die Quantifizierung der räumlich-zeitlichen thermischen Eigenschaften, die mit der linearen Transportinfrastruktur (Eisenbahnen und Straßen) innerhalb des ökologisch fragilen Korridors der Dharamjaigarh-Waldkette, Chhattisgarh, verbunden sind. Herkömmliche Bewertungen von infrastrukturbedingten thermischen Landschaftsmodifikationen sind oft durch die grobe räumliche und zeitliche Auflösung der von Satelliten abgeleiteten Landoberflächentemperatur (LST) begrenzt. Um dies zu überwinden, verwendete die Studie einen zufälligen waldbasierten Downskalierungsalgorithmus, um synthetische 10-m-LST-Daten zu erzeugen und mit der täglichen Oberflächenenergiebilanzmodellierung für r zu integrieren."
+      "abstract_excerpt_de": "Diese Studie konzentriert sich auf die Quantifizierung der räumlich-zeitlichen thermischen Eigenschaften, die mit der linearen Verkehrsinfrastruktur (Eisenbahnen und Straßen) innerhalb des ökologisch fragilen Korridors der Dharamjaigarh-Waldkette, Chhattisgarh, verbunden sind. Herkömmliche Bewertungen von infrastrukturbedingten thermischen Landschaftsmodifikationen sind oft durch die grobe räumliche und zeitliche Auflösung der von Satelliten abgeleiteten Landoberflächentemperatur (LST) begrenzt. Um dies zu überwinden, verwendete die Studie einen zufälligen waldbasierten Downskalierungsalgorithmus, um synthetische 10-m-LST-Daten zu erzeugen und mit der täglichen Oberflächenenergiebilanzmodellierung für r zu integrieren.",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:35:41.526592+00:00"
     },
     {
       "id": "fc62581c7a31865751c6",
@@ -630,11 +630,11 @@
       "summary": "Die Veröffentlichung behandelt bedrohte Groß- und Wildtiere. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
       "abstract_excerpt": "Conservation Action Plans (CAPs) are generally developed as policy documents for systematic conservation practices conducted at the species level over a given period. The Government of Nepal has extensively invested in producing CAPs for four flagship species: Bengal tiger (Panthera tigris tigris), one-horned rhinoceros (Rhinoceros unicornis), Asian elephant (Elephas maximus), and snow leopard (Panthera uncia) since 90 s. The current CAPs of these species review the completion status of previous plans and comprise various actions related to species conservation for specific time periods. Here, we assessed the actions assoc",
       "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
-      "title_de": "Bewertung der Aktionspläne zum Artenschutz zur Bekämpfung der Wildtierkriminalität und CITES-Umsetzung für vier Flaggschiff-Tierarten in Nepal.",
-      "translation_status": "maschinell",
-      "translated_at": "2026-11-23T15:14:42.943901+00:00",
+      "title_de": "Bewertung der Aktionspläne zum Artenschutz für die Bekämpfung der Wildtierkriminalität und CITES-Umsetzung für vier Flaggschiff-Tierarten in Nepal.",
       "summary_de": "Die Veröffentlichung behandelt bedrohte Groß- und Wildtiere. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
-      "abstract_excerpt_de": "Naturschutzaktionspläne (CAPs) werden im Allgemeinen als politische Dokumente für systematische Erhaltungspraktiken entwickelt, die auf Artenebene über einen bestimmten Zeitraum durchgeführt werden. Die Regierung Nepals hat umfassend in die Herstellung von CAPs für vier Flaggschiffarten investiert: Bengalischer Tiger (Panthera tigris tigris), Einhornnashorn (Rhinoceros unicornis), asiatischer Elefant (Elephas maximus) und Schneeleopard (Panthera uncia) seit 90 Jahren. Die derzeitigen GAPs für diese Arten überprüfen den Abschlussstatus früherer Pläne und umfassen verschiedene Maßnahmen zum Artenschutz für bestimmte Zeiträume. Hier bewerteten wir die Aktionen assoc"
+      "abstract_excerpt_de": "Naturschutzaktionspläne (CAPs) werden im Allgemeinen als politische Dokumente für systematische Erhaltungspraktiken entwickelt, die auf Artenebene über einen bestimmten Zeitraum durchgeführt werden. Die Regierung Nepals hat umfassend in die Herstellung von CAPs für vier Flaggschiffarten investiert: Bengalischer Tiger (Panthera tigris tigris), Einhornnashorn (Rhinoceros unicornis), asiatischer Elefant (Elephas maximus) und Schneeleopard (Panthera uncia) seit 90 Jahren. Die derzeitigen GAPs für diese Arten überprüfen den Abschlussstatus früherer Pläne und umfassen verschiedene Maßnahmen zum Artenschutz für bestimmte Zeiträume. Hier bewerteten wir die Aktionen assoc",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:35:44.122374+00:00"
     },
     {
       "id": "3f9c061561d295ed54df",
@@ -831,10 +831,10 @@
       "abstract_excerpt": "Mammalian species differ in the biochemical composition of their tissues and fluids-subtle but statistically discriminable variation that vibrational spectroscopy can detect and machine learning can decode for applications spanning forensic investigation, conservation monitoring, and physiological assessment. This review critically examines machine learning applications across near-infrared (NIR), mid-infrared (MIR/FTIR), and Raman spectroscopy specifically for mammalian wildlife samples. We examine unsupervised and supervised learning methods, from principal component analysis and hierarchical clustering to partial least ",
       "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
       "title_de": "Machine Learning-Enhanced Vibrationsspektroskopie für Säugetiere: Eine kritische Überprüfung der Erhaltung und forensische Anwendungen.",
-      "translation_status": "maschinell",
-      "translated_at": "2026-11-23T15:14:53.830218+00:00",
       "summary_de": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
-      "abstract_excerpt_de": "Säugetierarten unterscheiden sich in der biochemischen Zusammensetzung ihrer Gewebe und Flüssigkeiten - subtile, aber statistisch unterscheidbare Variationen, die die Vibrationsspektroskopie erkennen und maschinelles Lernen für Anwendungen dekodieren kann, die forensische Untersuchungen, Konservierungsüberwachung und physiologische Bewertung umfassen. Diese Überprüfung untersucht Anwendungen für maschinelles Lernen in Nahinfrarot (NIR), Mittelinfrarot (MIR/FTIR) und Raman-Spektroskopie speziell für Säugetierproben. Wir untersuchen unüberwachte und überwachte Lernmethoden, von der Hauptkomponentenanalyse und dem hierarchischen Clustering bis hin zu teilweisen"
+      "abstract_excerpt_de": "Säugetierarten unterscheiden sich in der biochemischen Zusammensetzung ihrer Gewebe und Flüssigkeiten - subtile, aber statistisch unterscheidbare Variationen, die die Vibrationsspektroskopie erkennen und maschinelles Lernen für Anwendungen dekodieren kann, die forensische Untersuchungen, Konservierungsüberwachung und physiologische Bewertung umfassen. Diese Überprüfung untersucht Anwendungen für maschinelles Lernen in Nahinfrarot (NIR), Mittelinfrarot (MIR/FTIR) und Raman-Spektroskopie speziell für Säugetierproben. Wir untersuchen unüberwachte und überwachte Lernmethoden, von der Hauptkomponentenanalyse und dem hierarchischen Clustering bis hin zu teilweisen",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:35:46.548755+00:00"
     },
     {
       "id": "290e98b191cd3d5bfc36",
@@ -849,10 +849,10 @@
       "abstract_excerpt": "Extraction sites are often considered sources of environmental damage. However, in intensively used and nutrient-enriched landscapes they may also provide exceptional secondary habitats, shaped by disturbance and nutrient depletion. Their contribution to biodiversity across taxonomic groups remains insufficiently understood, and integrated guidelines for managing biodiversity during active extraction are needed. We examined terrestrial and aquatic biodiversity across twelve active German extraction sites of limestone, gypsum, sand and gravel. Data on vascular plants, soil parameters and six insect groups were collected via",
       "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
       "title_de": "Treiber der biologischen Vielfalt in Mineralgewinnungsstätten - eine steuerübergreifende Analyse mit Auswirkungen auf Management und Wiederherstellung.",
-      "translation_status": "maschinell",
-      "translated_at": "2026-11-23T15:14:55.451424+00:00",
       "summary_de": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
-      "abstract_excerpt_de": "Extraktionsstätten werden oft als Quellen von Umweltschäden betrachtet. In intensiv genutzten und nährstoffangereicherten Landschaften können sie jedoch auch außergewöhnliche sekundäre Lebensräume bieten, die durch Störungen und Nährstoffmangel geprägt sind. Ihr Beitrag zur biologischen Vielfalt in taxonomischen Gruppen ist nach wie vor unzureichend verstanden, und es sind integrierte Leitlinien für das Management der biologischen Vielfalt während der aktiven Extraktion erforderlich. Wir untersuchten die terrestrische und aquatische Biodiversität an zwölf aktiven deutschen Extraktionsstätten von Kalkstein, Gips, Sand und Kies. Daten zu Gefäßpflanzen, Bodenparametern und sechs Insektengruppen wurden über"
+      "abstract_excerpt_de": "Extraktionsstätten werden oft als Quellen für Umweltschäden angesehen. In intensiv genutzten und nährstoffangereicherten Landschaften können sie jedoch auch außergewöhnliche sekundäre Lebensräume bieten, die durch Störungen und Nährstoffmangel geprägt sind. Ihr Beitrag zur biologischen Vielfalt in taxonomischen Gruppen ist nach wie vor unzureichend verstanden, und es sind integrierte Leitlinien für das Management der biologischen Vielfalt während der aktiven Extraktion erforderlich. Wir untersuchten die terrestrische und aquatische Biodiversität an zwölf aktiven deutschen Extraktionsstätten von Kalkstein, Gips, Sand und Kies. Daten zu Gefäßpflanzen, Bodenparametern und sechs Insektengruppen wurden über",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:35:48.570736+00:00"
     },
     {
       "id": "7e9ea93b5c061aeab1b5",
@@ -984,10 +984,10 @@
       "abstract_excerpt": "Tropical land-use intensification threatens global biodiversity, yet most assessments of tropical agricultural landscapes focus on local-scale biodiversity, overlooking how land use restructures biodiversity across space and multiple taxa. Here we provide an ecosystem-wide assessment of 24 taxonomic groups across all domains of life-encompassing 40,049 species-along a land-use intensification gradient from lowland forests to intensively managed smallholder cash-crop monocultures in Indonesian landscapes. Despite widespread losses of landscape and local multidiversity 1 in monocultures (approximately 78% and 50%, respective",
       "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
       "title_de": "Intensivierung der tropischen Landnutzung restrukturiert die Biodiversität.",
-      "translation_status": "maschinell",
-      "translated_at": "2026-11-23T15:15:00.444920+00:00",
       "summary_de": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
-      "abstract_excerpt_de": "Tropical land-use intensification threatens global biodiversity, yet most assessments of tropical agricultural landscapes focus on local-scale biodiversity, overlooking how land use restructures biodiversity across space and multiple taxa. Here we provide an ecosystem-wide assessment of 24 taxonomic groups across all domains of life-encompassing 40,049 species-along a land-use intensification gradient from lowland forests to intensively managed smallholder cash-crop monocultures in Indonesian landscapes. Despite widespread losses of landscape and local multidiversity 1 in monocultures (approximately 78% and 50%, respective"
+      "abstract_excerpt_de": "Tropical land-use intensification threatens global biodiversity, yet most assessments of tropical agricultural landscapes focus on local-scale biodiversity, overlooking how land use restructures biodiversity across space and multiple taxa. Here we provide an ecosystem-wide assessment of 24 taxonomic groups across all domains of life-encompassing 40,049 species-along a land-use intensification gradient from lowland forests to intensively managed smallholder cash-crop monocultures in Indonesian landscapes. Despite widespread losses of landscape and local multidiversity 1 in monocultures (approximately 78% and 50%, respective",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:35:50.866921+00:00"
     },
     {
       "id": "95fd76beaefed5cc4be5",
@@ -1119,10 +1119,10 @@
       "abstract_excerpt": "Land-use change profoundly affects carbon (C) stocks and sequestration potential, yet integrated assessments across natural forests, plantations, fallows, degraded forests, and agricultural fields remain scarce in the Indo-Burma Biodiversity Hotspot. We quantified C stocks (biomass and SOC) and sequestration-related processes (litter dynamics, NPP, and carbon turnover) in five contrasting land-use systems (e.g., pine plantation, PP; community-managed watershed, CMWs; fallow land, FL; degraded forest, DF, and paddy field, PF) in Manipur, Northeast India. Total vegetation C stock was highest in PP (124.51 Mg C ha⁻¹) and CMWs",
       "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
       "title_de": "Ökosysteme Kohlenstoffpools und -ströme unter kontrastierenden Landnutzungssystemen im indisch-burmesischen Biodiversitäts-Hotspot im Nordosten Indiens: Verbesserung naturbasierter Lösungen (NbS).",
-      "translation_status": "maschinell",
-      "translated_at": "2026-11-23T15:15:06.281229+00:00",
       "summary_de": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
-      "abstract_excerpt_de": "Land-use change profoundly affects carbon (C) stocks and sequestration potential, yet integrated assessments across natural forests, plantations, fallows, degraded forests, and agricultural fields remain scarce in the Indo-Burma Biodiversity Hotspot. We quantified C stocks (biomass and SOC) and sequestration-related processes (litter dynamics, NPP, and carbon turnover) in five contrasting land-use systems (e.g., pine plantation, PP; community-managed watershed, CMWs; fallow land, FL; degraded forest, DF, and paddy field, PF) in Manipur, Northeast India. Total vegetation C stock was highest in PP (124.51 Mg C ha⁻¹) and CMWs"
+      "abstract_excerpt_de": "Land-use change profoundly affects carbon (C) stocks and sequestration potential, yet integrated assessments across natural forests, plantations, fallows, degraded forests, and agricultural fields remain scarce in the Indo-Burma Biodiversity Hotspot. We quantified C stocks (biomass and SOC) and sequestration-related processes (litter dynamics, NPP, and carbon turnover) in five contrasting land-use systems (e.g., pine plantation, PP; community-managed watershed, CMWs; fallow land, FL; degraded forest, DF, and paddy field, PF) in Manipur, Northeast India. Total vegetation C stock was highest in PP (124.51 Mg C ha⁻¹) and CMWs",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:35:54.022506+00:00"
     },
     {
       "id": "0236b8747d6f702c1867",
@@ -1137,10 +1137,10 @@
       "abstract_excerpt": "Systematic conservation planning (SCP) provides a rigorous framework for addressing conservation prioritization by combining explicit objectives, conservation features, representation targets, costs, and implementation constraints. In this article, we advocate incorporating multidimensional indices into the determination of planning-unit weights or soft penalties. Rather than directly treating the spatial patterns of multidimensional biodiversity as features within the SCP framework, this approach ensures that areas with high local genetic, phylogenetic, or functional diversity values are explicitly favored among solutions",
       "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
       "title_de": "Von multidimensionalen Biodiversitätsmustern bis hin zu Erhaltungsmerkmalen in der systematischen Erhaltungsplanung.",
-      "translation_status": "maschinell",
-      "translated_at": "2026-11-23T15:15:08.048633+00:00",
       "summary_de": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
-      "abstract_excerpt_de": "Systematische Konservierungsplanung (SCP) bietet einen strengen Rahmen für die Priorisierung von Konservierung, indem explizite Ziele, Konservierungsmerkmale, Repräsentationsziele, Kosten und Implementierungsbeschränkungen kombiniert werden. In diesem Artikel befürworten wir die Einbeziehung multidimensionaler Indizes in die Bestimmung von Gewichten von Planungseinheiten oder sanften Strafen. Anstatt die räumlichen Muster der multidimensionalen Biodiversität direkt als Merkmale innerhalb des SCP-Rahmens zu behandeln, stellt dieser Ansatz sicher, dass Bereiche mit hohen lokalen genetischen, phylogenetischen oder funktionellen Diversitätswerten explizit unter den Lösungen bevorzugt werden."
+      "abstract_excerpt_de": "Systematische Konservierungsplanung (SCP) bietet einen strengen Rahmen für die Priorisierung von Konservierung, indem explizite Ziele, Konservierungsmerkmale, Repräsentationsziele, Kosten und Implementierungsbeschränkungen kombiniert werden. In diesem Artikel befürworten wir die Einbeziehung multidimensionaler Indizes in die Bestimmung von Gewichten von Planungseinheiten oder sanften Strafen. Anstatt die räumlichen Muster der multidimensionalen Biodiversität direkt als Merkmale innerhalb des SCP-Rahmens zu behandeln, stellt dieser Ansatz sicher, dass Bereiche mit hohen lokalen genetischen, phylogenetischen oder funktionellen Diversitätswerten explizit unter den Lösungen bevorzugt werden.",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:35:56.182340+00:00"
     },
     {
       "id": "ea32354488f67c069685",
@@ -1167,11 +1167,11 @@
       "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Der Abstract nennt eine Befragung. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
       "abstract_excerpt": "Wildfire is an escalating threat to forest ecosystem health, yet post-fire management still lacks the timely and systematic consideration of biodiversity loss and biotic disruption. Here, we present an integrative eDNA-satellite-AI monitoring framework that combines environmental DNA (eDNA) metabarcoding, satellite-derived burn-severity mapping, and explainable AI (XAI) to quantify post-fire ecosystem changes. Using Sentinel-2 imagery, we first quantitatively assessed the wildfire severity at study sites differentiated by the extent of fire damage (control, damaged, and extremely damaged). eDNA was then collected from wate",
       "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
-      "title_de": "Überwachung der biologischen Vielfalt und Interaktion von Ökosystemen nach Waldbränden: Ein Rahmenwerk für die Modellierung von künstlicher Intelligenz mit DNA-Daten.",
-      "translation_status": "maschinell",
-      "translated_at": "2026-11-23T15:15:11.210309+00:00",
+      "title_de": "Überwachung der biologischen Vielfalt und Interaktion von Ökosystemen nach Waldbränden: Ein Rahmenwerk für die Modellierung künstlicher Intelligenz mit DNA-Satelliten.",
       "summary_de": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Der Abstract nennt eine Befragung. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
-      "abstract_excerpt_de": "Waldbrände stellen eine eskalierende Bedrohung für die Gesundheit der Waldökosysteme dar, aber dem Post-Brand-Management fehlt es immer noch an der rechtzeitigen und systematischen Berücksichtigung des Verlusts der biologischen Vielfalt und der biotischen Störungen. Hier stellen wir ein integratives eDNA-Satelliten-AI-Monitoring-Framework vor, das Umwelt-DNA (eDNA) Metabarcoding, satellitengestützte Verbrennungsschwerekartierung und erklärbare KI (XAI) kombiniert, um Veränderungen des Ökosystems nach einem Brand zu quantifizieren. Mithilfe von Sentinel-2-Bildern haben wir zunächst den Schweregrad von Waldbränden an Untersuchungsstandorten quantitativ bewertet, differenziert nach dem Ausmaß des Brandschadens (Kontrolle, beschädigt und extrem beschädigt). eDNA wurde dann von wate gesammelt"
+      "abstract_excerpt_de": "Waldbrände stellen eine eskalierende Bedrohung für die Gesundheit der Waldökosysteme dar, aber dem Post-Brand-Management fehlt es immer noch an der rechtzeitigen und systematischen Berücksichtigung des Verlusts der biologischen Vielfalt und der biotischen Störungen. Hier stellen wir ein integratives eDNA-Satelliten-AI-Monitoring-Framework vor, das Umwelt-DNA (eDNA) Metabarcoding, satellitenabgeleitetes Brennen-Schweregrad-Mapping und erklärbare KI (XAI) kombiniert, um Veränderungen des Ökosystems nach einem Brand zu quantifizieren. Mithilfe von Sentinel-2-Bildern haben wir zunächst den Schweregrad von Waldbränden an Untersuchungsstandorten quantitativ bewertet, differenziert nach dem Ausmaß des Brandschadens (Kontrolle, beschädigt und extrem beschädigt). eDNA wurde dann von wate gesammelt",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:35:59.103280+00:00"
     },
     {
       "id": "d98531e9b7f0f734391c",
@@ -1186,10 +1186,10 @@
       "abstract_excerpt": "The Culicidae exhibits broad taxonomic diversity and significant ecological importance, especially in phytotelm habitats provided by bromeliads. This study investigated the diversity of mosquitoes associated with bromeliads in two Atlantic Forest fragments in Sergipe State, northeastern Brazil: the Morro do Urubu Environmental Protection Area (Morro do Urubu APA), a more disturbed site, and the Mata do Crasto Private Natural Heritage Reserve (Mata do Crasto RPPN), a more preserved area. Collections were carried out during the rainy season and included 26 groups of epiphytic and terrestrial bromeliads. A total of 2,400 spec",
       "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
       "title_de": "Biodiversität der Moskitofauna (Diptera: Culicidae), assoziiert mit Bromelien in Fragmenten des Atlantischen Waldes im Bundesstaat Sergipe, Brasilien.",
-      "translation_status": "maschinell",
-      "translated_at": "2026-11-23T15:15:13.381690+00:00",
       "summary_de": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
-      "abstract_excerpt_de": "The Culicidae exhibits broad taxonomic diversity and significant ecological importance, especially in phytotelm habitats provided by bromeliads. This study investigated the diversity of mosquitoes associated with bromeliads in two Atlantic Forest fragments in Sergipe State, northeastern Brazil: the Morro do Urubu Environmental Protection Area (Morro do Urubu APA), a more disturbed site, and the Mata do Crasto Private Natural Heritage Reserve (Mata do Crasto RPPN), a more preserved area. Collections were carried out during the rainy season and included 26 groups of epiphytic and terrestrial bromeliads. A total of 2,400 spec"
+      "abstract_excerpt_de": "The Culicidae exhibits broad taxonomic diversity and significant ecological importance, especially in phytotelm habitats provided by bromeliads. This study investigated the diversity of mosquitoes associated with bromeliads in two Atlantic Forest fragments in Sergipe State, northeastern Brazil: the Morro do Urubu Environmental Protection Area (Morro do Urubu APA), a more disturbed site, and the Mata do Crasto Private Natural Heritage Reserve (Mata do Crasto RPPN), a more preserved area. Collections were carried out during the rainy season and included 26 groups of epiphytic and terrestrial bromeliads. A total of 2,400 spec",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:36:01.861086+00:00"
     },
     {
       "id": "25a7aa9669cb2a0ff101",
@@ -1230,10 +1230,10 @@
       "abstract_excerpt": "Agricultural expansion threatens tropical ecosystems worldwide. Oil palm is cultivated primarily in Southeast Asia, but production in West Africa (its native range) is increasing rapidly. Here, oil palm is cultivated under traditional and industrial management, and the impacts on native West African ecosystems are poorly understood. Working within the framework of the Sustainable Oil Palm in West Africa (SOPWA) Project in Sinoe County, Liberia, we derived bird occurrence data using point count surveys across 54 plots in January-February 2023, spanning rainforest ('forest'), traditionally managed oil palm ('country palm'), ",
       "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
       "title_de": "Auswirkungen traditioneller und industrieller Ansätze für den Ölpalmenanbau auf die Artenvielfalt und den Schutz der Vögel in einer westafrikanischen Regenwaldlandschaft.",
-      "translation_status": "maschinell",
-      "translated_at": "2026-11-23T15:15:16.336677+00:00",
       "summary_de": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Der Abstract nennt eine Befragung. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
-      "abstract_excerpt_de": "Die landwirtschaftliche Expansion bedroht tropische Ökosysteme weltweit. Ölpalme wird hauptsächlich in Südostasien angebaut, aber die Produktion in Westafrika (seinem heimischen Sortiment) nimmt schnell zu. Hier wird Ölpalme unter traditionellem und industriellem Management angebaut, und die Auswirkungen auf die einheimischen westafrikanischen Ökosysteme sind schlecht verstanden. Im Rahmen des Projekts \"Sustainable Oil Palm in West Africa\" (SOPWA) in Sinoe County, Liberia, haben wir anhand von Punktzahlerhebungen in 54 Parzellen im Januar bis Februar 2023 Daten zum Vorkommen von Vögeln abgeleitet, die den Regenwald (\"Wald\") und die traditionell bewirtschaftete Ölpalme (\"Landpalme\") umfassen."
+      "abstract_excerpt_de": "Die landwirtschaftliche Expansion bedroht tropische Ökosysteme weltweit. Ölpalme wird hauptsächlich in Südostasien angebaut, aber die Produktion in Westafrika (seinem heimischen Sortiment) nimmt schnell zu. Hier wird Ölpalme unter traditionellem und industriellem Management angebaut, und die Auswirkungen auf die einheimischen westafrikanischen Ökosysteme sind schlecht verstanden. Im Rahmen des Projekts \"Sustainable Oil Palm in West Africa\" (SOPWA) in Sinoe County, Liberia, haben wir anhand von Punktzahlerhebungen in 54 Parzellen im Januar-Februar 2023 Daten zum Vorkommen von Vögeln abgeleitet, die den Regenwald (\"Wald\") und die traditionell bewirtschaftete Ölpalme (\"Landpalme\") umfassen.",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:36:04.435425+00:00"
     },
     {
       "id": "e7c46ca46e0f38927534",
@@ -1248,10 +1248,10 @@
       "abstract_excerpt": "Wild boar (Sus scrofa) intrusions in agricultural environments cause severe crop damage and economic losses and have become an increasingly prominent human-wildlife conflict. Effective wildlife monitoring is therefore essential for sustainable agricultural ecosystem management. However, wild boar detection in real-world scenarios remains challenging due to frequent occlusion and complex backgrounds. Meanwhile, edge devices deployed in farmland environments typically have limited computational resources, imposing strict requirements on lightweight model design and inference efficiency. To address these challenges, this stud",
       "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
       "title_de": "Ein leichtes Edge-basiertes Wildschweinerkennungs-Framework für Wildtierüberwachung und Entscheidungsunterstützung in Agrarökosystemen.",
-      "translation_status": "maschinell",
-      "translated_at": "2026-11-23T15:15:18.235503+00:00",
       "summary_de": "Die Veröffentlichung behandelt Konflikte zwischen Menschen und Wildtieren. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
-      "abstract_excerpt_de": "Eindringlinge von Wildschweinen (Sus scrofa) in landwirtschaftliche Umgebungen verursachen schwere Ernteschäden und wirtschaftliche Verluste und sind zu einem zunehmend prominenten Konflikt zwischen Mensch und Tier geworden. Eine effektive Überwachung von Wildtieren ist daher für ein nachhaltiges Management landwirtschaftlicher Ökosysteme unerlässlich. Die Erkennung von Wildschweinen in realen Szenarien bleibt jedoch aufgrund häufiger Okklusionen und komplexer Hintergründe eine Herausforderung. Inzwischen verfügen Edge-Geräte, die in landwirtschaftlichen Umgebungen eingesetzt werden, typischerweise über begrenzte Rechenressourcen, die strenge Anforderungen an das leichte Modelldesign und die Inferenzeffizienz stellen. Um diese Herausforderungen anzugehen, ist dieses Gestüt"
+      "abstract_excerpt_de": "Eindringlinge von Wildschweinen (Sus scrofa) in landwirtschaftliche Umgebungen verursachen schwere Ernteschäden und wirtschaftliche Verluste und sind zu einem zunehmend prominenten Konflikt zwischen Mensch und Tier geworden. Eine effektive Überwachung von Wildtieren ist daher für ein nachhaltiges Management landwirtschaftlicher Ökosysteme unerlässlich. Die Erkennung von Wildschweinen in realen Szenarien bleibt jedoch aufgrund häufiger Okklusionen und komplexer Hintergründe eine Herausforderung. Inzwischen verfügen Edge-Geräte, die in landwirtschaftlichen Umgebungen eingesetzt werden, typischerweise über begrenzte Rechenressourcen, die strenge Anforderungen an das leichte Modelldesign und die Inferenzeffizienz stellen. Um diese Herausforderungen anzugehen, ist dieses Gestänge",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:36:06.753746+00:00"
     },
     {
       "id": "a6ee0eaa5091671684d0",
@@ -1266,10 +1266,10 @@
       "abstract_excerpt": "Crevices and overhangs are characteristic features of historic masonry in coastal structures including seawalls, harbours and breakwaters. By providing shelter from heat and desiccation, these features may act as important refuges for colonising wildlife during prolonged periods of aerial exposure. However, unlike natural rock and modern coastal infrastructure, the thermal characteristics of historic masonry structures and their associated microhabitats have not been quantitatively assessed. Temperature logging and infrared thermography were used to compare external (exposed surface) and internal (crevice) thermal regimes ",
       "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
       "title_de": "Alt, aber cool: Historische Mauerwerksmauern bieten thermische Vorteile für Meerestiere entlang urbanisierter Küsten.",
-      "translation_status": "maschinell",
-      "translated_at": "2026-11-23T15:15:20.131730+00:00",
       "summary_de": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
-      "abstract_excerpt_de": "Spalten und Überhänge sind charakteristische Merkmale des historischen Mauerwerks in Küstenstrukturen wie Meeresmauern, Häfen und Wellenbrechern. Durch die Bereitstellung von Schutz vor Hitze und Austrocknung können diese Merkmale als wichtige Zufluchtsorte für die Besiedlung von Wildtieren während längerer Exposition aus der Luft dienen. Im Gegensatz zu natürlichem Gestein und moderner Küsteninfrastruktur wurden die thermischen Eigenschaften historischer Mauerwerksstrukturen und der damit verbundenen Mikrohabitate jedoch nicht quantitativ bewertet. Temperaturprotokollierung und Infrarot-Thermographie wurden verwendet, um externe (exponierte Oberfläche) und interne thermische Regime zu vergleichen."
+      "abstract_excerpt_de": "Risse und Überhänge sind charakteristische Merkmale des historischen Mauerwerks in Küstenstrukturen wie Meeresmauern, Häfen und Wellenbrechern. Durch die Bereitstellung von Schutz vor Hitze und Austrocknung können diese Merkmale als wichtige Zufluchtsorte für die Besiedlung von Wildtieren während längerer Exposition aus der Luft dienen. Im Gegensatz zu natürlichem Gestein und moderner Küsteninfrastruktur wurden die thermischen Eigenschaften historischer Mauerwerksstrukturen und der damit verbundenen Mikrohabitate jedoch nicht quantitativ bewertet. Temperaturprotokollierung und Infrarot-Thermographie wurden verwendet, um externe (exponierte Oberfläche) und interne thermische Regime zu vergleichen.",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:36:09.049023+00:00"
     },
     {
       "id": "f8f75f8e7795852e5ecd",
@@ -1284,10 +1284,10 @@
       "abstract_excerpt": "Background Crimean-Congo hemorrhagic fever (CCHF) is caused by an arthropod-borne virus, Crimean-Congo hemorrhagic fever virus (CCHFV), which can infect a wide range of species, including humans, and is endemic in domestic and wild animals in Africa. Materials and methods Sera were collected from livestock (cattle n = 423, goats n = 167), companion animals (dogs n = 152), and wild animals (impala antelope n = 182) in the Mnisi community (Mpumalanga Province, South Africa), an area characterized by frequent interactions between humans and animals susceptible to CCHFV infection. The presence of CCHFV-specifc antibodies was d",
       "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
       "title_de": "Circulation of Crimean-Congo Hemorrhagic Fever Virus at the Domestic-Wildlife Interface of the Mnisi Community, Mpumalanga Province, Südafrika.",
-      "translation_status": "maschinell",
-      "translated_at": "2026-11-23T15:15:22.691009+00:00",
       "summary_de": "Die Veröffentlichung behandelt Wildtier- und Naturschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
-      "abstract_excerpt_de": "Das Krim-Kongo-hämorrhagische Fieber (CCHF) wird durch ein durch Arthropoden übertragenes Virus, das Krim-Kongo-hämorrhagische Fiebervirus (CCHFV), verursacht, das eine Vielzahl von Arten, einschließlich Menschen, infizieren kann und bei Haustieren und Wildtieren in Afrika endemisch ist. Materialien und Methoden Sera wurden von Nutztieren (Rinder n = 423, Ziegen n = 167), Haustieren (Hunde n = 152) und Wildtieren (Impala-Antilope n = 182) in der Mnisi-Gemeinschaft (Provinz Mpumalanga, Südafrika) gesammelt, einem Gebiet, das durch häufige Interaktionen zwischen Menschen und Tieren gekennzeichnet ist, die für CCHFV-Infektionen anfällig sind. Das Vorhandensein von CCHFV-spezifischen Antikörpern war d"
+      "abstract_excerpt_de": "Das Krim-Kongo-hämorrhagische Fieber (CCHF) wird durch ein durch Arthropoden übertragenes Virus, das Krim-Kongo-hämorrhagische Fiebervirus (CCHFV), verursacht, das eine Vielzahl von Arten, einschließlich Menschen, infizieren kann und bei Haustieren und Wildtieren in Afrika endemisch ist. Materialien und Methoden Sera wurden von Nutztieren (Rinder n = 423, Ziegen n = 167), Haustieren (Hunde n = 152) und Wildtieren (Imala Antilope n = 182) in der Mnisi-Gemeinschaft (Provinz Mpumalanga, Südafrika) gesammelt, einem Gebiet, das durch häufige Interaktionen zwischen Menschen und Tieren gekennzeichnet ist, die für CCHFV-Infektionen anfällig sind. Die Anwesenheit von CCHFV-spezifischen Antikörpern war d",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:36:12.221965+00:00"
     },
     {
       "id": "f3806b0b37f295674dd7",
@@ -1302,10 +1302,10 @@
       "abstract_excerpt": "Plastic pollution is a defining feature of the Anthropocene 1 , and microplastics are dispersed by air and water into even remote terrestrial habitats 2-7 , yet the ecological and landscape-level processes that shape microplastic accumulation in terrestrial ecosystems remain poorly understood. Human land-use change is rapidly transforming landscapes worldwide, but the influence of this expanding human footprint on the microplastic burdens in wildlife remains largely unknown. This knowledge gap is particularly pressing in regions that are facing escalating environmental pressures, such as Brazil. Here we pair in vivo microp",
       "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
       "title_de": "Menschliche Landnutzung treibt Mikroplastik Fülle in terrestrischen Wildtieren.",
-      "translation_status": "maschinell",
-      "translated_at": "2026-11-23T15:15:24.587738+00:00",
       "summary_de": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
-      "abstract_excerpt_de": "Die Verschmutzung durch Plastik ist ein bestimmendes Merkmal des Anthropozäns 1 , und Mikroplastik wird durch Luft und Wasser in sogar abgelegene terrestrische Lebensräume 2-7 dispergiert, doch die ökologischen und landschaftlichen Prozesse, die die Anhäufung von Mikroplastik in terrestrischen Ökosystemen prägen, sind nach wie vor schlecht verstanden. Menschliche Landnutzungsänderungen verändern Landschaften weltweit rasant, aber der Einfluss dieses wachsenden menschlichen Fußabdrucks auf die Mikroplastikbelastungen in der Tierwelt ist weitgehend unbekannt. Diese Wissenslücke ist besonders in Regionen, die mit zunehmenden Umweltbelastungen konfrontiert sind, wie Brasilien, dringend. Hier paaren wir in vivo microp"
+      "abstract_excerpt_de": "Die Verschmutzung durch Plastik ist ein bestimmendes Merkmal des Anthropozäns 1 , und Mikroplastik wird durch Luft und Wasser in sogar abgelegene terrestrische Lebensräume 2-7 dispergiert, doch die ökologischen und landschaftlichen Prozesse, die die Anhäufung von Mikroplastik in terrestrischen Ökosystemen prägen, sind nach wie vor schlecht verstanden. Menschliche Landnutzungsänderungen verändern Landschaften weltweit rapide, aber der Einfluss dieses wachsenden menschlichen Fußabdrucks auf die Mikroplastikbelastungen in der Tierwelt ist weitgehend unbekannt. Diese Wissenslücke ist besonders in Regionen, die mit zunehmenden Umweltbelastungen konfrontiert sind, wie Brasilien, dringend. Hier paaren wir in vivo microp",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:36:14.557442+00:00"
     },
     {
       "id": "fa2600c3d794ade906cf",
@@ -1320,10 +1320,10 @@
       "abstract_excerpt": "Elephant poaching remains a major threat to African forest elephants (Loxodonta cyclotis) in the Congo Basin, driven by transnational factors such as accessibility, conflict, and weak governance. We developed a basin-wide spatial model of poaching risk using six standardized predictors: human population density, poverty, armed conflict intensity, travel time to cities, elevation, and forest canopy height. Model performance was evaluated using Proportion of Illegally Killed Elephants (PIKE) data from ten (Monitoring the Illegal Killing of Elephants) MIKE sites: Dzanga-Sangha, Bangassou, Garamba, Okapi, Salonga, Virunga, Nou",
       "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
       "title_de": "Kartierung des Wildereirisikos afrikanischer Waldelefanten im gesamten Kongobecken: Auswirkungen auf die grenzüberschreitende Naturschutzplanung.",
-      "translation_status": "maschinell",
-      "translated_at": "2026-11-23T15:15:26.810853+00:00",
       "summary_de": "Die Veröffentlichung behandelt Wildtierhandel und Wilderei. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
-      "abstract_excerpt_de": "Elefantenwilderei ist nach wie vor eine große Bedrohung für afrikanische Waldelefanten (Loxodonta cyclotis) im Kongobecken, angetrieben von transnationalen Faktoren wie Zugänglichkeit, Konflikten und schwacher Regierungsführung. Wir entwickelten ein beckenweites räumliches Modell des Wildereirisikos unter Verwendung von sechs standardisierten Prädiktoren: Bevölkerungsdichte, Armut, Intensität bewaffneter Konflikte, Reisezeit in die Städte, Höhe und Baumkronenhöhe. Die Modellleistung wurde anhand der Daten des Anteils illegal getöteter Elefanten (PIKE) von zehn MIKE-Standorten (Monitoring the Illegal Killing of Elephants) bewertet: Dzanga-Sangha, Bangassou, Garamba, Okapi, Salonga, Virunga, Nou"
+      "abstract_excerpt_de": "Elefantenwilderei ist nach wie vor eine große Bedrohung für afrikanische Waldelefanten (Loxodonta cyclotis) im Kongobecken, angetrieben von transnationalen Faktoren wie Zugänglichkeit, Konflikten und schwacher Regierungsführung. Wir entwickelten ein beckenweites räumliches Modell des Wildereirisikos unter Verwendung von sechs standardisierten Prädiktoren: Bevölkerungsdichte, Armut, Intensität bewaffneter Konflikte, Reisezeit in die Städte, Höhe und Baumkronenhöhe. Die Modellleistung wurde anhand der Daten des Anteils illegal getöteter Elefanten (PIKE) von zehn MIKE-Standorten (Monitoring the Illegal Killing of Elephants) bewertet: Dzanga-Sangha, Bangassou, Garamba, Okapi, Salonga, Virunga, Nou",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:36:17.817141+00:00"
     },
     {
       "id": "413f9924adbc50fe00cc",
@@ -1350,11 +1350,11 @@
       "summary": "Die Veröffentlichung behandelt Wildtier- und Naturschutz. Der Abstract nennt eine Befragung. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
       "abstract_excerpt": "Biosecurity is widely recognized as a cornerstone of disease prevention and animal health management. Organic, extensive and small-scale farming systems face several challenges related to biosecurity that are different to more conventional farming settings. This study investigates how farmers, veterinarians and advisors across six European countries view standard biosecurity measures, their effectiveness and their relationship with animal welfare in alternative farms. On the basis of survey data from 243 respondents, we found high awareness of biosecurity but significant concerns about the practicality and suitability of s",
       "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
-      "title_de": "Leben wert leben oder gesundes Leben? Die Interessenträger sind der Ansicht, dass Biosicherheit und Tierschutz in ökologischen, extensiven und kleinen Schweine- und Geflügelhaltungssystemen der EU gelten.",
-      "translation_status": "maschinell",
-      "translated_at": "2026-11-23T15:15:29.184994+00:00",
+      "title_de": "Lebenswert leben oder gesund leben? Ansichten der Interessenträger zu Biosicherheit und Tierschutz in ökologischen, extensiven und kleinen Schweine- und Geflügelhaltungssystemen der EU.",
       "summary_de": "Die Veröffentlichung behandelt Wildtier- und Naturschutz. Der Abstract nennt eine Befragung. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
-      "abstract_excerpt_de": "Biosicherheit ist weithin als Eckpfeiler der Krankheitsprävention und des Tiergesundheitsmanagements anerkannt. Ökologische, extensive und kleine landwirtschaftliche Systeme stehen vor mehreren Herausforderungen im Zusammenhang mit der Biosicherheit, die sich von konventionelleren Anbauumgebungen unterscheiden. Diese Studie untersucht, wie Landwirte, Tierärzte und Berater in sechs europäischen Ländern Standard-Biosicherheitsmaßnahmen, ihre Wirksamkeit und ihre Beziehung zum Tierschutz in alternativen Betrieben sehen. Auf der Grundlage von Umfragedaten von 243 Befragten fanden wir ein hohes Bewusstsein für Biosicherheit, aber erhebliche Bedenken hinsichtlich der Praktikabilität und Eignung von s"
+      "abstract_excerpt_de": "Biosicherheit ist weithin als Eckpfeiler der Krankheitsprävention und des Tiergesundheitsmanagements anerkannt. Ökologische, extensive und kleine landwirtschaftliche Systeme stehen vor mehreren Herausforderungen im Zusammenhang mit der Biosicherheit, die sich von konventionelleren Anbauumgebungen unterscheiden. Diese Studie untersucht, wie Landwirte, Tierärzte und Berater in sechs europäischen Ländern Standard-Biosicherheitsmaßnahmen, ihre Wirksamkeit und ihre Beziehung zum Tierschutz in alternativen Betrieben sehen. Auf der Grundlage von Umfragedaten von 243 Befragten fanden wir ein hohes Bewusstsein für Biosicherheit, aber erhebliche Bedenken hinsichtlich der Praktikabilität und Eignung von s",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:36:20.095974+00:00"
     },
     {
       "id": "655a12309d216d4cf37e",
@@ -1369,10 +1369,10 @@
       "abstract_excerpt": "Zoonotic tuberculosis (zTB), caused by animal-adapted members of the Mycobacterium tuberculosis complex (MTBC), is classically attributed to M. bovis but is increasingly linked to M. orygis across South Asia. Species-level MTBC identification is rarely performed in low- and middle-income countries (LMICs), leaving the zTB burden poorly defined. Bangladesh has endemic bovine tuberculosis, a growing dairy sector, unpasteurised-milk consumption, and expanding captive wildlife collections, yet the evidence has not been synthesised by diagnostic reliability. This systematic evidence map aimed to collate the evidence on zTB in B",
       "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
       "title_de": "Zoonotische Tuberkulose an der Schnittstelle zwischen Vieh und Mensch in Gefangenschaft in Bangladesch: Eine systematische Evidenzkarte.",
-      "translation_status": "maschinell",
-      "translated_at": "2026-11-23T15:15:31.357631+00:00",
       "summary_de": "Die Veröffentlichung behandelt Wildtier- und Naturschutz. Die Autorinnen und Autoren werten laut Abstract vorhandene Forschung aus. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
-      "abstract_excerpt_de": "Zoonotische Tuberkulose (zTB), verursacht durch tieradaptierte Mitglieder des Mycobacterium tuberculosis complex (MTBC), wird klassisch M. bovis zugeschrieben, wird aber zunehmend mit M. orygis in Südasien in Verbindung gebracht. MTBC-Identifizierung auf Artenebene wird in Ländern mit niedrigem und mittlerem Einkommen (LMICs) selten durchgeführt, so dass die Belastung durch zTB schlecht definiert ist. Bangladesch hat endemische Rindertuberkulose, einen wachsenden Milchsektor, den Verbrauch von nicht pasteurisierter Milch und die Ausweitung der Sammlungen in Gefangenschaft, aber die Beweise wurden nicht durch diagnostische Zuverlässigkeit synthetisiert. Diese systematische Evidenzkarte zielte darauf ab, die Beweise für zTB in B zu sammeln"
+      "abstract_excerpt_de": "Zoonotische Tuberkulose (zTB), verursacht durch tieradaptierte Mitglieder des Mycobacterium tuberculosis complex (MTBC), wird klassisch M. bovis zugeschrieben, wird aber zunehmend mit M. orygis in ganz Südasien in Verbindung gebracht. MTBC-Identifizierung auf Artenebene wird in Ländern mit niedrigem und mittlerem Einkommen (LMICs) selten durchgeführt, so dass die zTB-Belastung schlecht definiert ist. Bangladesch hat endemische Rindertuberkulose, einen wachsenden Milchsektor, nicht pasteurisierten Milchkonsum und wachsende Sammlungen in Gefangenschaft, aber die Beweise wurden nicht durch diagnostische Zuverlässigkeit synthetisiert. Diese systematische Evidenzkarte zielte darauf ab, die Beweise für zTB in B zu sammeln",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:36:22.771151+00:00"
     },
     {
       "id": "c8f05c6f6ffa6693b589",
@@ -1400,10 +1400,10 @@
       "abstract_excerpt": "Assisted reproductive technologies (ART) provide opportunities for conservation of endangered wildlife, but their use is still limited by species-specific reproductive physiology, variable gamete competence, cryoinjury, and lack of validation of new approaches. This narrative review covers ART, biobanking, somatic cell nuclear transfer (SCNT), induced pluripotent stem cells (iPSCs), in vitro gametogenesis (IVG) and conservation genomics in vertebrates. Key molecular barriers include oxidative and mitochondrial damage, aberrant embryonic genome activation, incomplete epigenetic reprogramming, nuclear-mitochondrial incompati",
       "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
       "title_de": "Integrating Assisted Reproductive Technologies, Biobanking und Genomic Rescue for Endangered Wildlife: A Vertebrate-Focused Review.",
-      "translation_status": "maschinell",
-      "translated_at": "2026-11-23T15:15:33.487143+00:00",
       "summary_de": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
-      "abstract_excerpt_de": "Assistierte Reproduktionstechnologien (ART) bieten Möglichkeiten zur Erhaltung gefährdeter Wildtiere, aber ihre Verwendung ist immer noch durch artspezifische Reproduktionsphysiologie, variable Gametenkompetenz, Kryoinjury und mangelnde Validierung neuer Ansätze begrenzt. Diese Erzählung umfasst ART, Biobanking, somatischen Zellkerntransfer (SCNT), induzierte pluripotente Stammzellen (iPSC), In-vitro-Gametogenese (IVG) und Erhaltungsgenomik bei Wirbeltieren. Zu den wichtigsten molekularen Barrieren gehören oxidative und mitochondriale Schäden, abnorme embryonale Genomaktivierung, unvollständige epigenetische Reprogrammierung, nuklear-mitochondriale Inkompati"
+      "abstract_excerpt_de": "Assistierte Reproduktionstechnologien (ART) bieten Möglichkeiten zur Erhaltung gefährdeter Wildtiere, aber ihre Verwendung ist immer noch durch artspezifische Reproduktionsphysiologie, variable Gametenkompetenz, Kryoinjury und mangelnde Validierung neuer Ansätze begrenzt. Diese Erzählung umfasst ART, Biobanking, somatischen Zellkerntransfer (SCNT), induzierte pluripotente Stammzellen (iPSC), In-vitro-Gametogenese (IVG) und Erhaltungsgenomik bei Wirbeltieren. Zu den wichtigsten molekularen Barrieren gehören oxidative und mitochondriale Schäden, abnorme embryonale Genomaktivierung, unvollständige epigenetische Reprogrammierung, nuklear-mitochondriale Inkompati",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:36:25.424041+00:00"
     },
     {
       "id": "4b5ae3c8810b32f3c087",
@@ -1418,10 +1418,10 @@
       "abstract_excerpt": "Wildlife-vehicle collisions (WVCs) represent a global challenge for human safety and biodiversity conservation. This study investigates the environmental and road characteristics that influence WVC risk, using the province of Parma (Northern Italy) as a representative case study. We analysed 693 collision events recorded between 2013 and 2018, most of which involving roe deer (Capreolus capreolus, 86%) and wild boar (Sus scrofa, 10%). Spatial and temporal analysis revealed how collisions are not randomly distributed, peaking on busy major roads where high average speeds coincide with fragmented landscapes. Higher collision",
       "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
       "title_de": "Sollten wir Kollisions-Hotspots von Wildtieren und Fahrzeugen anhand von Straßen- und Landschaftsmerkmalen vorhersagen?",
-      "translation_status": "maschinell",
-      "translated_at": "2026-11-23T15:15:35.559606+00:00",
       "summary_de": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
-      "abstract_excerpt_de": "Kollisionen von Wildtieren mit Fahrzeugen (WVC) stellen eine globale Herausforderung für die Sicherheit des Menschen und den Erhalt der biologischen Vielfalt dar. Diese Studie untersucht die Umwelt- und Straßenmerkmale, die das WVC-Risiko beeinflussen, und verwendet die Provinz Parma (Norditalien) als repräsentative Fallstudie. Wir analysierten 693 Kollisionsereignisse, die zwischen 2013 und 2018 aufgezeichnet wurden, von denen die meisten Rogen (Capreolus capreolus, 86%) und Wildschweine (Sus scrofa, 10%) betrafen. Die räumliche und zeitliche Analyse ergab, dass Kollisionen nicht zufällig verteilt sind und ihren Höhepunkt auf stark frequentierten Hauptstraßen erreichen, wo hohe Durchschnittsgeschwindigkeiten mit fragmentierten Landschaften übereinstimmen. Höhere Kollision"
+      "abstract_excerpt_de": "Kollisionen von Wildtieren mit Fahrzeugen (WVC) stellen eine globale Herausforderung für die Sicherheit des Menschen und den Erhalt der biologischen Vielfalt dar. Diese Studie untersucht die Umwelt- und Straßenmerkmale, die das WVC-Risiko beeinflussen, und verwendet die Provinz Parma (Norditalien) als repräsentative Fallstudie. Wir analysierten 693 Kollisionsereignisse, die zwischen 2013 und 2018 aufgezeichnet wurden, von denen die meisten Rogen (Capreolus capreolus, 86%) und Wildschweine (Sus scrofa, 10%) betrafen. Die räumliche und zeitliche Analyse ergab, dass Kollisionen nicht zufällig verteilt sind und ihren Höhepunkt auf stark frequentierten Hauptstraßen erreichen, wo hohe Durchschnittsgeschwindigkeiten mit fragmentierten Landschaften übereinstimmen. Höhere Kollision",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:36:27.943207+00:00"
     },
     {
       "id": "c955aded12c2b0002c83",
@@ -1449,10 +1449,10 @@
       "abstract_excerpt": "Despite extensive bushmeat consumption in Ghana, data on tick-borne zoonotic risks remain limited. This study investigated ticks collected from wildlife carcasses at the Atwemonom Bushmeat Market in Kumasi from April 2020 to April 2021 to assess the presence of zoonotic pathogens. Ticks were morphologically identified using standard taxonomic keys and screened for selected bacterial pathogens using PCR and Sanger sequencing. A total of 211 ticks were recovered from the 46 wildlife carcasses, with Ixodes aulacodi (49.76%) as the predominant species. Ticks were pooled (total pools = 94) by species and host; pool sizes ranged",
       "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
       "title_de": "Molecular Detection of Spotted Fever Group <i>Rickettsia</i> in Ticks, die von Wildtierkadavern auf einem Buschfleischmarkt in Ghana gesammelt wurden.",
-      "translation_status": "maschinell",
-      "translated_at": "2026-11-23T15:15:38.929151+00:00",
       "summary_de": "Die Veröffentlichung behandelt Wildtier- und Naturschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
-      "abstract_excerpt_de": "Despite extensive bushmeat consumption in Ghana, data on tick-borne zoonotic risks remain limited. This study investigated ticks collected from wildlife carcasses at the Atwemonom Bushmeat Market in Kumasi from April 2020 to April 2021 to assess the presence of zoonotic pathogens. Ticks were morphologically identified using standard taxonomic keys and screened for selected bacterial pathogens using PCR and Sanger sequencing. A total of 211 ticks were recovered from the 46 wildlife carcasses, with Ixodes aulacodi (49.76%) as the predominant species. Ticks were pooled (total pools = 94) by species and host; pool sizes ranged"
+      "abstract_excerpt_de": "Despite extensive bushmeat consumption in Ghana, data on tick-borne zoonotic risks remain limited. This study investigated ticks collected from wildlife carcasses at the Atwemonom Bushmeat Market in Kumasi from April 2020 to April 2021 to assess the presence of zoonotic pathogens. Ticks were morphologically identified using standard taxonomic keys and screened for selected bacterial pathogens using PCR and Sanger sequencing. A total of 211 ticks were recovered from the 46 wildlife carcasses, with Ixodes aulacodi (49.76%) as the predominant species. Ticks were pooled (total pools = 94) by species and host; pool sizes ranged",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:36:30.999776+00:00"
     },
     {
       "id": "de28ab3e40f9e008a4a4",
@@ -1467,10 +1467,10 @@
       "abstract_excerpt": "As systematic reviews on the effects of anthropogenic noise on wildlife increasingly inform policy, a critical evaluation of this secondary evidence is essential. We assessed the scope, quality, and policy attention of existing syntheses in this field. Following a preregistered protocol, we conducted a systematic search in Scopus, Web of Science, and Google Scholar, identifying 50 syntheses (systematic reviews, maps, and meta-analyses). We included all 50 syntheses in the systematic map, critical appraisal, and policy-attention analysis, and found that 23 had received policy citations. We included 47 syntheses in the bibli",
       "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
       "title_de": "Eine systematische Karte von Synthesen über anthropogene Lärmauswirkungen auf Wildtiere: Evidenzlücken, politische Aufmerksamkeit und Qualitätsbewertung.",
-      "translation_status": "maschinell",
-      "translated_at": "2026-11-23T15:15:40.922677+00:00",
       "summary_de": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Autorinnen und Autoren werten laut Abstract vorhandene Forschung aus. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
-      "abstract_excerpt_de": "Da systematische Überprüfungen der Auswirkungen von anthropogenem Lärm auf Wildtiere zunehmend die Politik informieren, ist eine kritische Bewertung dieser sekundären Beweise unerlässlich. Wir haben den Umfang, die Qualität und die politische Aufmerksamkeit bestehender Synthesen in diesem Bereich bewertet. Nach einem vorregistrierten Protokoll führten wir eine systematische Suche in Scopus, Web of Science und Google Scholar durch und identifizierten 50 Synthesen (systematische Reviews, Karten und Meta-Analysen). Wir haben alle 50 Synthesen in die systematische Karte, kritische Bewertung und politische Aufmerksamkeitsanalyse aufgenommen und festgestellt, dass 23 politische Zitate erhalten hatten. Wir haben 47 Synthesen in das bibli aufgenommen"
+      "abstract_excerpt_de": "Da systematische Überprüfungen der Auswirkungen von anthropogenem Lärm auf Wildtiere zunehmend die Politik informieren, ist eine kritische Bewertung dieser sekundären Beweise unerlässlich. Wir haben den Umfang, die Qualität und die politische Aufmerksamkeit bestehender Synthesen in diesem Bereich bewertet. Nach einem vorregistrierten Protokoll führten wir eine systematische Suche in Scopus, Web of Science und Google Scholar durch und identifizierten 50 Synthesen (systematische Reviews, Karten und Meta-Analysen). Wir haben alle 50 Synthesen in die systematische Karte, kritische Bewertung und politische Aufmerksamkeitsanalyse aufgenommen und festgestellt, dass 23 politische Zitate erhalten hatten. Wir haben 47 Synthesen in das bibli aufgenommen",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:36:33.450314+00:00"
     },
     {
       "id": "5d6775e0a5f442c08fa4",
@@ -1524,10 +1524,10 @@
       "abstract_excerpt": "Mounting evidence of nature degradation has led governmental and non-governmental actors to put pressure on companies to address their impact on biodiversity, as their economic value creation contributes directly or indirectly to biodiversity loss. However, designing effective mitigation measures requires acknowledging the complex interplay of political, social, and economic constraints that shape corporate decision-making. We elucidate how a paradox perspective provides a productive way of understanding corporate biodiversity engagement, or the absence thereof. Specifically, we illuminate how corporate biodiversity engage",
       "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
       "title_de": "Verschachtelte Paradoxien darüber, wie Biodiversität das Geschäft einschränkt: Warum Biodiversitätsschutz paradoxes Denken erfordert.",
-      "translation_status": "maschinell",
-      "translated_at": "2026-11-23T15:15:43.653360+00:00",
       "summary_de": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
-      "abstract_excerpt_de": "Zunehmende Beweise für Naturzerstörung haben staatliche und nichtstaatliche Akteure dazu veranlasst, Druck auf Unternehmen auszuüben, um ihre Auswirkungen auf die biologische Vielfalt anzugehen, da ihre wirtschaftliche Wertschöpfung direkt oder indirekt zum Verlust der biologischen Vielfalt beiträgt. Um wirksame Minderungsmaßnahmen zu entwickeln, muss jedoch das komplexe Zusammenspiel politischer, sozialer und wirtschaftlicher Zwänge anerkannt werden, die die Entscheidungsfindung von Unternehmen beeinflussen. Wir erklären, wie eine paradoxe Perspektive eine produktive Möglichkeit bietet, das Engagement von Unternehmen für Biodiversität oder deren Abwesenheit zu verstehen. Konkret beleuchten wir, wie sich die Biodiversität von Unternehmen engagiert"
+      "abstract_excerpt_de": "Zunehmende Beweise für Naturzerstörung haben staatliche und nichtstaatliche Akteure dazu veranlasst, Druck auf Unternehmen auszuüben, um ihre Auswirkungen auf die biologische Vielfalt anzugehen, da ihre wirtschaftliche Wertschöpfung direkt oder indirekt zum Verlust der biologischen Vielfalt beiträgt. Um jedoch wirksame Minderungsmaßnahmen zu entwickeln, muss das komplexe Zusammenspiel politischer, sozialer und wirtschaftlicher Zwänge, die die Entscheidungsfindung von Unternehmen prägen, anerkannt werden. Wir erklären, wie eine paradoxe Perspektive eine produktive Möglichkeit bietet, das Engagement von Unternehmen für Biodiversität oder deren Abwesenheit zu verstehen. Konkret beleuchten wir, wie sich die Biodiversität von Unternehmen engagiert",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:36:35.537282+00:00"
     },
     {
       "id": "393e2c76c279093a8c6e",
@@ -1542,10 +1542,10 @@
       "abstract_excerpt": "Understanding how prey dynamics influence the spatial ecology of vulnerable marine predators is crucial for conservation management, particularly for highly selective species with narrow trophic niches. The Rice's whale (Balaenoptera ricei) is listed as Critically Endangered on the IUCN Red List of Threatened Species and Endangered under the US Endangered Species Act. It is the only baleen whale species endemic to the Gulf of America with its known habitat restricted to the outer continental shelf and shelf-break waters. Although the distribution of Rice's whales has been linked to abiotic conditions, the influence of prey",
       "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
       "title_de": "Einfluss der Beutedynamik auf die räumliche Verteilung eines Ballenwals (Balaenoptera ricei) in einem oligotrophen marinen Ökosystem.",
-      "translation_status": "maschinell",
-      "translated_at": "2026-11-23T15:15:45.726788+00:00",
       "summary_de": "Die Veröffentlichung behandelt Meeressäuger und ihren Schutz. Der Abstract nennt eine Befragung. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
-      "abstract_excerpt_de": "Zu verstehen, wie die Beutedynamik die räumliche Ökologie empfindlicher Meeresräuber beeinflusst, ist für das Naturschutzmanagement von entscheidender Bedeutung, insbesondere für hochselektive Arten mit engen trophischen Nischen. Der Reiswal (Balaenoptera ricei) ist auf der Roten Liste der bedrohten Arten der IUCN als kritisch gefährdet aufgeführt und nach dem US Endangered Species Act gefährdet. Es ist die einzige im Golf von Amerika endemische Bartenwalart, deren bekannter Lebensraum auf das äußere Festlandsockel und die schelfbrechenden Gewässer beschränkt ist. Obwohl die Verteilung von Reiswalen mit abiotischen Bedingungen verbunden ist, ist der Einfluss der Beute"
+      "abstract_excerpt_de": "Zu verstehen, wie die Beutedynamik die räumliche Ökologie empfindlicher Meeresräuber beeinflusst, ist für das Naturschutzmanagement von entscheidender Bedeutung, insbesondere für hochselektive Arten mit engen trophischen Nischen. Der Reiswal (Balaenoptera ricei) ist auf der Roten Liste der bedrohten Arten der IUCN als kritisch gefährdet aufgeführt und nach dem US Endangered Species Act gefährdet. Es ist die einzige im Golf von Amerika endemische Bartenwalart mit ihrem bekannten Lebensraum, der auf das äußere Festlandsockel und die schellfbrechenden Gewässer beschränkt ist. Obwohl die Verteilung von Reiswalen mit abiotischen Bedingungen verbunden ist, ist der Einfluss der Beute",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:36:38.112182+00:00"
     },
     {
       "id": "879b7b9b9fae2d94e43b",
@@ -1559,11 +1559,11 @@
       "summary": "Die Veröffentlichung behandelt Wildtier- und Naturschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
       "abstract_excerpt": "Interfaces among humans, wildlife and domestic animals represent critical hotspots for the emergence and spread of infectious agents. The gray wolf ( Canis lupus ) and the golden jackal ( Canis aureus ) are expanding wild canid populations in Italy, whose increasing overlap with anthropized environments may facilitate pathogen transmission. This study investigated mammalian orthoreovirus (MRV), rotavirus A (RVA), canine coronavirus (CCoV), canine parvovirus (CPV2) and feline parvovirus (FPV) in wild canids from north-eastern Italy. The 101 carcasses (83 gray wolves and 18 golden jackals) obtained through passive wildlife s",
       "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
-      "title_de": "Wildlife Surveillance in North-Eastern Italy: Diagnostische Einblicke und Viral Detection in Grauen Wölfen und Goldenen Schakalen.",
-      "translation_status": "maschinell",
-      "translated_at": "2026-11-23T15:15:48.000337+00:00",
+      "title_de": "Wildtierüberwachung in Nordostitalien: Diagnostische Einblicke und Viral Detection bei Grauen Wölfen und Goldenen Schakalen.",
       "summary_de": "Die Veröffentlichung behandelt Wildtier- und Naturschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
-      "abstract_excerpt_de": "Schnittstellen zwischen Menschen, Wildtieren und Haustieren stellen kritische Hotspots für die Entstehung und Verbreitung von Infektionserregern dar. Der graue Wolf (Canis lupus) und der goldene Schakal (Canis aureus) erweitern wilde Canidenpopulationen in Italien, deren zunehmende Überlappung mit anthropisierten Umgebungen die Übertragung von Krankheitserregern erleichtern kann. Diese Studie untersuchte Säugetierorthoreovirus (MRV), Rotavirus A (RVA), Canine Coronavirus (CCoV), Canine Parvovirus (CPV2) und Feline Parvovirus (FPV) in Wildkaninen aus Nordostitalien. Die 101 Kadaver (83 graue Wölfe und 18 goldene Schakale) wurden durch passive Wildtiere gewonnen"
+      "abstract_excerpt_de": "Schnittstellen zwischen Menschen, Wildtieren und Haustieren stellen kritische Hotspots für die Entstehung und Verbreitung von Infektionserregern dar. Der graue Wolf (Canis lupus) und der goldene Schakal (Canis aureus) expandieren in Italien wilde Canidenpopulationen, deren zunehmende Überlappung mit anthropisierten Umgebungen die Übertragung von Krankheitserregern erleichtern kann. In dieser Studie wurden Orthoreovirus (MRV), Rotavirus A (RVA), Canine Coronavirus (CCoV), Canine Parvovirus (CPV2) und Feline Parvovirus (FPV) in Wildkaninen aus Nordostitalien untersucht. Die 101 Kadaver (83 graue Wölfe und 18 goldene Schakale) wurden durch passive Wildtiere gewonnen",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:36:40.900301+00:00"
     },
     {
       "id": "217cba64d2809538d4ed",
@@ -1591,10 +1591,10 @@
       "abstract_excerpt": "Pangolins are among the world's most trafficked and endangered mammals, yet their exposure to emerging organic contaminants (EOCs) remains largely uncharacterized. Their keratinous scales represent an untapped matrix for potentially non-invasive biomonitoring. This study developed and validated a modified QuEChERS-based extraction coupled with liquid chromatography-quadrupole time-of-flight mass spectrometry (LC-QTOF/MS) for suspect screening and targeted quantification of EOCs in pangolin scales. The workflow was applied to scales collected from 18 deceased wild Formosan pangolins (Manis pentadactyla pentadactyla) with an",
       "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
       "title_de": "Pangolin skaliert als potenzielle retrospektive Biomonitoring-Matrix für umwelt- und rettungsbedingte chemische Expositionen in gefährdeten Wildtieren.",
-      "translation_status": "maschinell",
-      "translated_at": "2026-11-23T15:15:50.445166+00:00",
       "summary_de": "Die Veröffentlichung behandelt bedrohte Groß- und Wildtiere. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
-      "abstract_excerpt_de": "Pangolinen gehören zu den am häufigsten gehandelten und vom Aussterben bedrohten Säugetieren der Welt, doch ihre Exposition gegenüber neu auftretenden organischen Kontaminanten (EOC) bleibt weitgehend unbekannt. Ihre Keratin-Skalen stellen eine unerschlossene Matrix für potenziell nicht-invasives Biomonitoring dar. Diese Studie entwickelte und validierte eine modifizierte QuEChERS-basierte Extraktion in Verbindung mit Flüssigchromatographie-Quadrupol-Zeit-of-Flugmassenspektrometrie (LC-QTOF/MS) für das verdächtige Screening und die gezielte Quantifizierung von EOC im Pangolin-Skala. Der Workflow wurde auf Waagen angewendet, die von 18 verstorbenen wilden Formosanpangolinen (Manis pentadactyla pentadactyla) mit einem"
+      "abstract_excerpt_de": "Pangoline gehören zu den am häufigsten gehandelten und vom Aussterben bedrohten Säugetieren der Welt, doch ihre Exposition gegenüber neu auftretenden organischen Verunreinigungen (EOCs) bleibt weitgehend unbekannt. Ihre Keratin-Skalen stellen eine unerschlossene Matrix für potenziell nicht-invasives Biomonitoring dar. Diese Studie entwickelte und validierte eine modifizierte QuEChERS-basierte Extraktion in Verbindung mit Flüssigchromatographie-Quadrupol-Zeit-of-Flugmassenspektrometrie (LC-QTOF/MS) für das verdächtige Screening und die gezielte Quantifizierung von EOC im Pangolin-Skala. Der Workflow wurde auf Waagen angewendet, die von 18 verstorbenen wilden Formosan-Pangolinen (Manis pentadactyla pentadactyla) mit einem",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:36:43.850921+00:00"
     },
     {
       "id": "392813e0ed69c00d4f80",
@@ -1687,10 +1687,10 @@
       "abstract_excerpt": "The Current Biology primer on Human-wildlife conflict by Kaitlyn Gaynor and Jennifer Green 1 has many strengths. We agree with much of the content but highlight omissions of some important alternative hypotheses and worldviews. We call attention to a worldview that individual non-humans deserve consideration neglected in the primer. Also, we call attention to omissions of alternative hypotheses and fore-grounding a non-leading hypothesis about tolerance for wildlife. The improvements to the primer we suggest would enhance the inclusivity of work on human-wildlife conflicts and also recognize the plurality of the scientific",
       "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
       "title_de": "Primer auf Mensch-Wildtier-Konflikt verfehlt das volle Bild.",
-      "translation_status": "maschinell",
-      "translated_at": "2026-11-23T15:15:54.308160+00:00",
       "summary_de": "Die Veröffentlichung behandelt Konflikte zwischen Menschen und Wildtieren. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
-      "abstract_excerpt_de": "Die aktuelle Biologie-Primer auf Mensch-Wildtier-Konflikt von Kaitlyn Gaynor und Jennifer Green 1 hat viele Stärken. Wir stimmen einem Großteil des Inhalts zu, heben jedoch Auslassungen einiger wichtiger alternativer Hypothesen und Weltanschauungen hervor. Wir machen auf eine Weltanschauung aufmerksam, dass einzelne Nicht-Menschen es verdienen, in der Grundierung vernachlässigt zu werden. Außerdem machen wir auf Auslassungen alternativer Hypothesen aufmerksam und stellen eine nicht führende Hypothese über die Toleranz gegenüber Wildtieren in den Vordergrund. Die von uns vorgeschlagenen Verbesserungen der Grundierung würden die Inklusivität der Arbeit zu Konflikten zwischen Mensch und Tierwelt verbessern und auch die Pluralität der wissenschaftlichen"
+      "abstract_excerpt_de": "Die aktuelle Biologie-Primer auf Mensch-Wildtier-Konflikt von Kaitlyn Gaynor und Jennifer Green 1 hat viele Stärken. Wir stimmen einem Großteil des Inhalts zu, heben jedoch Auslassungen einiger wichtiger alternativer Hypothesen und Weltanschauungen hervor. Wir machen auf eine Weltanschauung aufmerksam, dass einzelne Nicht-Menschen es verdienen, in der Grundierung vernachlässigt zu werden. Wir machen auch auf Auslassungen alternativer Hypothesen aufmerksam und stellen eine nicht führende Hypothese über die Toleranz gegenüber Wildtieren in den Vordergrund. Die von uns vorgeschlagenen Verbesserungen der Grundierung würden die Inklusivität der Arbeit an Konflikten zwischen Mensch und Tierwelt verbessern und auch die Pluralität der wissenschaftlichen",
+      "translation_status": "maschinell",
+      "translated_at": "2026-11-23T15:36:46.233926+00:00"
     },
     {
       "id": "3bc0759c528697540625",
@@ -1708,7 +1708,7 @@
       "summary_de": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
       "abstract_excerpt_de": "Die Wiederherstellung degradierter Ökosysteme ist entscheidend, um den Klimawandel einzudämmen und den Verlust der biologischen Vielfalt umzukehren. Je nach primärem Ziel - wie der Maximierung der Kohlenstoffbindung oder dem Schutz bedrohter Arten - und innerhalb der Grenzen der Haushaltsbeschränkungen wurden unterschiedliche räumliche Prioritäten auf globaler und regionaler Ebene identifiziert. Finanzierungsmechanismen zur Unterstützung solcher Arbeiten umfassen öffentliche Quellen, Philanthropie und den privaten Sektor, einschließlich des Verkaufs von Kohlenstoff- und Biodiversitätsgutschriften. Effektive Erkundung von Kompromissen zwischen Wiederherstellungszielen und Schätzung des Preises für Biodiversität und Kohlenhydrate",
       "translation_status": "maschinell",
-      "translated_at": "2026-11-23T15:23:17.883194+00:00"
+      "translated_at": "2026-11-23T15:36:48.183695+00:00"
     },
     {
       "id": "7b9f97e584bdf4f3ccce",
@@ -1726,7 +1726,7 @@
       "summary_de": "Die Veröffentlichung behandelt Wildtier- und Naturschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
       "abstract_excerpt_de": "Cryptosporidium spp. und Giardia duodenalis sind wichtige parasitäre Protozoen, die Menschen und eine Vielzahl von Tierarten infizieren. Einige Arten und Zusammenstellungen haben zoonotisches Potenzial und stellen Gesundheitsrisiken für Mensch und Tier dar. Ziele Diese Studie zielte darauf ab, Cryptosporidium spp. und G. duodenalis molekular zu erkennen und zu charakterisieren und ihr zoonotisches Potenzial bei Schweinen, Rindern, Katzen und Wildtieren zu bewerten. Materialien und Methoden Verschachtelte PCR- und Sequenzanalysen des Gens der kleinen Untereinheit ribosomaler RNA (ssu rRNA) für Cryptosporidium spp. und ssu rRNA, β-Giardin (bg), Glutamatdehydrogenase (gdh) und Triosephospha",
       "translation_status": "maschinell",
-      "translated_at": "2026-11-23T15:23:21.489786+00:00"
+      "translated_at": "2026-11-23T15:36:51.275380+00:00"
     },
     {
       "id": "8e3a0b9ecea0b11a3b90",
@@ -1737,9 +1737,9 @@
       "source": "Bundesumweltministerium – Naturschutz",
       "kind": "policy",
       "title_de": "Abschluss der 17. Weltnaturkonferenz: Ehrliche Bestandsaufnahme – aber noch viele Hausaufgaben für den internationalen Naturschutz",
-      "summary_de": "Die Weltnaturkonferenz in Eriwan erzielte Beschlüsse zu vielen wichtigen Themen wie der ersten globalen Überprüfung der Umsetzung des Biodiversitätsrahmens, der Finanzierung von Naturschutz und der Stärkung indigener Völker.",
+      "translated_at": "2026-11-23T15:23:21.489810+00:00",
       "translation_status": "original",
-      "translated_at": "2026-11-23T15:23:21.489810+00:00"
+      "summary_de": "Die Weltnaturkonferenz in Eriwan erzielte Beschlüsse zu vielen wichtigen Themen wie der ersten globalen Überprüfung der Umsetzung des Biodiversitätsrahmens, der Finanzierung von Naturschutz und der Stärkung indigener Völker."
     },
     {
       "id": "3acbb4ec018dcba4a088",
@@ -1783,7 +1783,7 @@
       "summary_de": "Die Veröffentlichung behandelt bedrohte Groß- und Wildtiere. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
       "abstract_excerpt_de": "Steatocystoma Multiplex ist durch hautfarbene Papeln und Knötchen an verschiedenen Körperteilen gekennzeichnet. Hidradenitis suppurativa ist eine chronisch entzündliche Erkrankung, die durch Knötchen, Ableitungen von Nebenhöhlen und Narbenbildung gekennzeichnet ist. Aquagene Keratodermie ist durch eine verdickte Haut von Palmen und Sohlen mit weißen durchsichtigen Papeln gekennzeichnet, die bei Wassereinwirkung zunimmt. Ein 28-jähriger Mann präsentierte sich 10 Jahre lang mit zunehmenden asymptomatischen gelblichen Papeln und Knötchen ohne Punktum oder Entladung über seinem Gesicht. Er entwickelte auch wiederkehrende schmerzhafte Knötchen mit Entladung Nebenhöhlen und Kräuseln der Haut über Bilater",
       "translation_status": "maschinell",
-      "translated_at": "2026-11-23T15:23:24.600168+00:00"
+      "translated_at": "2026-11-23T15:36:54.359618+00:00"
     },
     {
       "id": "856ae59d5fe26be8122b",
@@ -1794,9 +1794,9 @@
       "source": "BBC – Wissenschaft & Umwelt",
       "kind": "media",
       "title_de": "BBC in der Wissenschaft",
-      "summary_de": "Die Zeit läuft ab für eines der ehrgeizigsten Umweltversprechen der Geschichte.",
+      "translated_at": "2026-11-23T15:36:54.650116+00:00",
       "translation_status": "maschinell",
-      "translated_at": "2026-11-23T15:23:24.885115+00:00"
+      "summary_de": "Die Zeit läuft ab für eines der ehrgeizigsten Umweltversprechen der Geschichte."
     },
     {
       "id": "c76384f13c60b3571baf",
@@ -1842,7 +1842,7 @@
       "title_de": "Reduzierung von Walfangangriffen durch multiobjektive Schiffsverkehrsführung",
       "summary_de": "Die Veröffentlichung untersucht, wie sich Schifffahrtsrouten unter mehreren Zielgrößen so plan lassen, dass Kollisionen mit Walen reduziert werden können. Zur wissenschaftlichen Bewertung bitte die Originalveröffentlichung heranziehen.",
       "translation_status": "maschinell",
-      "translated_at": "2026-11-23T15:23:26.094176+00:00"
+      "translated_at": "2026-11-23T15:36:55.379051+00:00"
     },
     {
       "id": "06d4f55556b12a2dafdd",
@@ -1918,9 +1918,9 @@
       "source": "EU-Kommission – Nachrichten",
       "kind": "policy",
       "title_de": "Europa mit stärkerer Klimaresistenz schützen",
-      "summary_de": "Der proaktive und systemische Ansatz der EU zum Schutz der Europäer und der EU-Wirtschaft vor den Auswirkungen des Klimawandels.",
+      "translated_at": "2026-11-23T15:23:29.173772+00:00",
       "translation_status": "maschinell",
-      "translated_at": "2026-11-23T15:23:29.173772+00:00"
+      "summary_de": "Der proaktive und systemische Ansatz der EU zum Schutz der Europäer und der EU-Wirtschaft vor den Auswirkungen des Klimawandels."
     },
     {
       "id": "bbe4f9f2a49d03ae0939",
@@ -2022,9 +2022,9 @@
       "source": "IFAW – Berichterstattung (News-Aggregation)",
       "kind": "media",
       "title_de": "SLOTHS Act zielt darauf ab, Faultiere vor dem Handel mit Wildtieren zu schützen - Internationaler Tierschutzfonds | IFAW",
-      "summary_de": "SLOTHS Act zielt darauf ab, Faultiere vor Wildtierhandel zu schützen Internationaler Fonds für Tierschutz | IFAW",
+      "translated_at": "2026-11-23T15:23:31.996850+00:00",
       "translation_status": "maschinell",
-      "translated_at": "2026-11-23T15:23:31.996850+00:00"
+      "summary_de": "SLOTHS Act zielt darauf ab, Faultiere vor Wildtierhandel zu schützen Internationaler Fonds für Tierschutz | IFAW"
     },
     {
       "id": "36894a83ec87401aa9e7",
@@ -2035,9 +2035,9 @@
       "source": "EU-Kommission – Nachrichten",
       "kind": "policy",
       "title_de": "Eine langfristige Vision für einen erfolgreichen Fischerei- und Aquakultursektor",
-      "summary_de": "Die Europäische Kommission hat ihre Vision für Fischerei und Aquakultur bis 2040 dargelegt, um Fischer, Aquakulturproduzenten und lokale Gemeinschaften zu unterstützen.",
+      "translated_at": "2026-11-23T15:23:32.482323+00:00",
       "translation_status": "maschinell",
-      "translated_at": "2026-11-23T15:23:32.482323+00:00"
+      "summary_de": "Die Europäische Kommission hat ihre Vision für Fischerei und Aquakultur bis 2040 dargelegt, um Fischer, Aquakulturproduzenten und lokale Gemeinschaften zu unterstützen."
     },
     {
       "id": "b6d5bba63ebb2aecf277",
@@ -2048,9 +2048,9 @@
       "source": "EU-Kommission – Nachrichten",
       "kind": "policy",
       "title_de": "Eine EU-Strategie für eine sich schnell verändernde Arktis",
-      "summary_de": "Die neue Strategie für die Arktis ist ein Kooperationsrahmen, der Menschen, Sicherheit, Klima und Wohlstand in den Mittelpunkt stellt",
+      "translated_at": "2026-11-23T15:23:32.932094+00:00",
       "translation_status": "maschinell",
-      "translated_at": "2026-11-23T15:23:32.932094+00:00"
+      "summary_de": "Die neue Strategie für die Arktis ist ein Kooperationsrahmen, der Menschen, Sicherheit, Klima und Wohlstand in den Mittelpunkt stellt"
     },
     {
       "id": "0261ddc7cb7e97b05b95",
@@ -2087,9 +2087,9 @@
       "source": "Bundesumweltministerium – Naturschutz",
       "kind": "policy",
       "title_de": "Weltnaturkonferenz: Erste globale Bilanz zur Umsetzung der Naturschutzziele bis 2030",
-      "summary_de": "Im Mittelpunkt der Weltnaturkonferenz steht die Frage, welche Fortschritte seit 2022 erreicht wurden und wie das Ziel, bis 2030 mindestens 30 Prozent der Land- und Meeresflächen zu schützen, noch erreicht werden kann.",
+      "translated_at": "2026-11-23T15:23:32.932126+00:00",
       "translation_status": "original",
-      "translated_at": "2026-11-23T15:23:32.932126+00:00"
+      "summary_de": "Im Mittelpunkt der Weltnaturkonferenz steht die Frage, welche Fortschritte seit 2022 erreicht wurden und wie das Ziel, bis 2030 mindestens 30 Prozent der Land- und Meeresflächen zu schützen, noch erreicht werden kann."
     },
     {
       "id": "c2ca8ce6b5b41bc004d5",
@@ -2126,9 +2126,9 @@
       "source": "Bundesumweltministerium – Naturschutz",
       "kind": "policy",
       "title_de": "Beschleunigungspakt: Bundeskabinett beschließt Artenschutz-Vereinfachung für den Schienenausbau",
-      "summary_de": "Künftig soll das europäische Artenschutzrecht bundesweit einheitlicher angewendet werden. So kann die Sanierung von Bahnstrecken zügiger, mit weniger Verwaltungsaufwand und kostengünstiger umgesetzt werden.",
+      "translated_at": "2026-11-23T15:23:34.386196+00:00",
       "translation_status": "original",
-      "translated_at": "2026-11-23T15:23:34.386196+00:00"
+      "summary_de": "Künftig soll das europäische Artenschutzrecht bundesweit einheitlicher angewendet werden. So kann die Sanierung von Bahnstrecken zügiger, mit weniger Verwaltungsaufwand und kostengünstiger umgesetzt werden."
     },
     {
       "id": "ecf7121714d4704c28a0",
@@ -2204,9 +2204,9 @@
       "source": "EU-Rat – Umweltrat",
       "kind": "policy",
       "title_de": "Umweltrat",
-      "summary_de": "Der Rat erörterte die vorgeschlagene Überarbeitung des Emissionshandelssystems der EU. Sie billigte auch Schlussfolgerungen zu den wichtigsten Verhandlungspositionen der EU im Vorfeld der Gipfeltreffen der Vereinten Nationen zum Klimawandel (COP31) und zur Biodiversität (COP17).",
+      "translated_at": "2026-11-23T15:23:36.740850+00:00",
       "translation_status": "maschinell",
-      "translated_at": "2026-11-23T15:23:36.740850+00:00"
+      "summary_de": "Der Rat erörterte die vorgeschlagene Überarbeitung des Emissionshandelssystems der EU. Sie billigte auch Schlussfolgerungen zu den wichtigsten Verhandlungspositionen der EU im Vorfeld der Gipfeltreffen der Vereinten Nationen zum Klimawandel (COP31) und zur Biodiversität (COP17)."
     },
     {
       "id": "fab6b0bd6db069c0d99b",
@@ -2237,7 +2237,7 @@
       "summary_de": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Der Abstract nennt eine Befragung. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
       "abstract_excerpt_de": "In Anbetracht des bedeutenden Beitrags der Landwirtschaft zur Umweltkrise spielen Landwirte eine entscheidende Rolle beim Naturschutz. Es ist daher wichtig, die Treiber zu untersuchen, die sie zu nachhaltigen Praktiken motivieren. Die Zusammenarbeit zwischen Landwirten und Wissenschaftlern ist ein vielversprechendes Instrument zur Förderung umweltfreundlicher Praktiken, doch empirische Beweise für die Ergebnisse solcher Kooperationen sind nach wie vor spärlich. In dieser Studie wollen wir den Zusammenhang zwischen einer langfristigen Zusammenarbeit zwischen Wissenschaftlern und Landwirten und den Einstellungen und Verhaltensweisen der Landwirte gegenüber der Naturschutzwissenschaft und der Umwelt bewerten. Verwendung von drei aufeinanderfolgenden jährlichen Erhebungen und einem longitudinalen s",
       "translation_status": "maschinell",
-      "translated_at": "2026-11-23T15:23:39.614078+00:00"
+      "translated_at": "2026-11-23T15:36:57.608883+00:00"
     },
     {
       "id": "2ebfa5b83f88ccf21ef6",
@@ -2274,9 +2274,9 @@
       "source": "Wildtierhandel – Medien (News-Aggregation)",
       "kind": "media",
       "title_de": "Australiens neue Öko-Polizei beugt Muskeln mit großen Wildtier-Handels-Büste - Nachrichten - Mongabay",
-      "summary_de": "Australiens neue Öko-Polizei beugt Muskeln mit großen Wildtier-Handel Büste Nachrichten - Mongabay",
+      "translated_at": "2026-11-23T15:23:40.283886+00:00",
       "translation_status": "maschinell",
-      "translated_at": "2026-11-23T15:23:40.283886+00:00"
+      "summary_de": "Australiens neue Öko-Polizei beugt Muskeln mit großen Wildtier-Handel Büste Nachrichten - Mongabay"
     },
     {
       "id": "eb95cf7355b276dd18f9",
@@ -2430,9 +2430,9 @@
       "source": "Wildtierhandel – Medien (News-Aggregation)",
       "kind": "media",
       "title_de": "Bekämpfung des Wildtierhandels - FWS.gov",
-      "summary_de": "Bekämpfung des Wildtierhandels FWS.gov",
+      "translated_at": "2026-11-23T15:23:44.282265+00:00",
       "translation_status": "maschinell",
-      "translated_at": "2026-11-23T15:23:44.282265+00:00"
+      "summary_de": "Bekämpfung des Wildtierhandels FWS.gov"
     },
     {
       "id": "bd144b2b4a37f90595d8",
@@ -2508,9 +2508,9 @@
       "source": "IFAW – Berichterstattung (News-Aggregation)",
       "kind": "media",
       "title_de": "IFAW erweitert Unterstützung, da Wildtierrettungszentren in Frankreich weiterhin unter Druck stehen - Internationaler Tierschutzfonds | IFAW",
-      "summary_de": "IFAW erweitert Unterstützung, da Wildtierrettungszentren in Frankreich weiterhin unter Druck stehen Internationaler Tierschutzfonds",
+      "translated_at": "2026-11-23T15:23:46.325532+00:00",
       "translation_status": "maschinell",
-      "translated_at": "2026-11-23T15:23:46.325532+00:00"
+      "summary_de": "IFAW erweitert Unterstützung, da Wildtierrettungszentren in Frankreich weiterhin unter Druck stehen Internationaler Tierschutzfonds"
     },
     {
       "id": "8bd5007690a16c19e4d0",
@@ -2625,9 +2625,9 @@
       "source": "Deutschland – Wildtiere (News-Aggregation)",
       "kind": "media",
       "title_de": "Löwenbabys im Dortmunder Zoo: Warum ein Influencer ihren Wert für den Artenschutz anzweifelt - WDR",
-      "summary_de": "Löwenbabys im Dortmunder Zoo: Warum ein Influencer ihren Wert für den Artenschutz anzweifelt WDR",
+      "translated_at": "2026-11-23T15:23:48.112248+00:00",
       "translation_status": "original",
-      "translated_at": "2026-11-23T15:23:48.112248+00:00"
+      "summary_de": "Löwenbabys im Dortmunder Zoo: Warum ein Influencer ihren Wert für den Artenschutz anzweifelt WDR"
     },
     {
       "id": "4446b92e575b27b622da",
@@ -2664,9 +2664,9 @@
       "source": "BBC – Wissenschaft & Umwelt",
       "kind": "media",
       "title_de": "Wie die Reinigung der Luft die globale Erwärmung beschleunigt - und ein größeres Problem aufdeckt",
-      "summary_de": "Eine neugierige Online-Runde über die Hitzewellen dieses Sommers deutet auf eine breitere - und beunruhigende - Verschiebung in der Klimawissenschaft hin.",
+      "translated_at": "2026-11-23T15:23:48.676071+00:00",
       "translation_status": "maschinell",
-      "translated_at": "2026-11-23T15:23:48.676071+00:00"
+      "summary_de": "Eine neugierige Online-Runde über die Hitzewellen dieses Sommers deutet auf eine breitere - und beunruhigende - Verschiebung in der Klimawissenschaft hin."
     },
     {
       "id": "381d3d5b579b6a0b6e70",
@@ -2781,9 +2781,9 @@
       "source": "IFAW – Berichterstattung (News-Aggregation)",
       "kind": "media",
       "title_de": "Neues digitales Portal stärkt Ermittler an vorderster Front im Kampf gegen Wildtier-Cyberkriminalität - Internationaler Tierschutzfonds | IFAW",
-      "summary_de": "Neues digitales Portal stärkt Ermittler an vorderster Front im Kampf gegen Wildtier-Cyberkriminalität Internationaler Fonds für Tierschutz",
+      "translated_at": "2026-11-23T15:23:53.096745+00:00",
       "translation_status": "maschinell",
-      "translated_at": "2026-11-23T15:23:53.096745+00:00"
+      "summary_de": "Neues digitales Portal stärkt Ermittler an vorderster Front im Kampf gegen Wildtier-Cyberkriminalität Internationaler Fonds für Tierschutz"
     },
     {
       "id": "e69442c585ccc8ad5e49",
@@ -2885,9 +2885,9 @@
       "source": "Wildtierhandel – Medien (News-Aggregation)",
       "kind": "media",
       "title_de": "Globale Trends und Auswirkungen des illegalen Online-Wildtierhandels - Natur",
-      "summary_de": "Globale Trends und Auswirkungen des illegalen Online-Wildtierhandels Natur",
+      "translated_at": "2026-11-23T15:23:57.193996+00:00",
       "translation_status": "maschinell",
-      "translated_at": "2026-11-23T15:23:57.193996+00:00"
+      "summary_de": "Globale Trends und Auswirkungen des illegalen Online-Wildtierhandels Natur"
     },
     {
       "id": "2c4666f375defe235477",
@@ -2933,7 +2933,7 @@
       "title_de": "Ein wachsender menschlicher Fußabdruck treibt den eskalierenden Mensch-Elefant-Konflikt durch eine grenzüberschreitende afrikanische Landschaft bis 2085",
       "summary_de": "Die Arbeit modelliert mögliche künftige Mensch-Elefant-Konflikte in einer grenzüberschreitenden afrikanischen Landschaft unter veränderten Landnutzungsbedingungen. Zur wissenschaftlichen Bewertung bitte die Originalveröffentlichung heranziehen.",
       "translation_status": "maschinell",
-      "translated_at": "2026-11-23T15:23:59.127514+00:00"
+      "translated_at": "2026-11-23T15:36:58.522312+00:00"
     },
     {
       "id": "5e6a2eb15c9412692a28",
@@ -2953,7 +2953,7 @@
       "title_de": "Schiffsstreiks von Finnwalen im Nordostatlantik: Identifizierung von Hotspots und Simulation von Minderungsmaßnahmen",
       "summary_de": "Die Studie untersucht Kollisionsrisiken für Finnwale im Nordostatlantik und simuliert unterschiedliche Möglichkeiten, diese Risiken zu verringern. Zur wissenschaftlichen Bewertung bitte die Originalveröffentlichung heranziehen.",
       "translation_status": "maschinell",
-      "translated_at": "2026-11-23T15:23:59.934023+00:00"
+      "translated_at": "2026-11-23T15:36:59.328578+00:00"
     },
     {
       "id": "8ee99df671227bd8b0ba",
@@ -2973,7 +2973,7 @@
       "title_de": "Zwei Jahrzehnte Veränderungen im globalen Netzwerk des illegalen Wildtierhandels",
       "summary_de": "Die Studie analysiert Veränderungen im internationalen illegalen Wildtierhandel zwischen 2000 und 2022 und führt zu Handelsdaten und Netzwerkanalysen. Zur wissenschaftlichen Bewertung bitte die Originalveröffentlichung heranziehen.",
       "translation_status": "maschinell",
-      "translated_at": "2026-11-23T15:24:00.559185+00:00"
+      "translated_at": "2026-11-23T15:36:59.949783+00:00"
     },
     {
       "id": "5d44d0a1f12529db7c01",
@@ -2993,7 +2993,7 @@
       "title_de": "Förderung der Koexistenz von Mensch und Elefant durch Integration von KI, Echtzeit-Warnungen und schnelle Reaktion",
       "summary_de": "Die Veröffentlichung beschreibt einen Ansatz zur Verringerung von Mensch-Elefant-Konflikten, der automatisierten Warnungen mit schnellen Einsätzen vor Ort kombiniert. Zur wissenschaftlichen Bewertung bitte die Originalveröffentlichung heranziehen.",
       "translation_status": "maschinell",
-      "translated_at": "2026-11-23T15:24:01.433688+00:00"
+      "translated_at": "2026-11-23T15:37:00.831361+00:00"
     },
     {
       "id": "bb0591d4b410e25441cc",
@@ -3013,7 +3013,7 @@
       "title_de": "Eine Multimodellanalyse des globalen Pangolin-Handels aus CITES-Aufzeichnungen (1977-2024): Auswirkungen auf den Artenschutz",
       "summary_de": "Die Arbeit wertet internationale CITES-Handeldaten über Schuppentiere von 1977 bis 2024 aus, um Trends und Handelsmuster zu untersuchen. Zur wissenschaftlichen Bewertung bitte die Originalveröffentlichung heranziehen.",
       "translation_status": "maschinell",
-      "translated_at": "2026-11-23T15:24:02.356464+00:00"
+      "translated_at": "2026-11-23T15:37:01.736718+00:00"
     },
     {
       "id": "45cacc46c76cf86e8e6d",
@@ -3033,7 +3033,7 @@
       "title_de": "Pangolinenjagd im Südosten Nigerias wird mehr durch den lokalen Fleischkonsum als durch die internationale Nachfrage nach Waagen motiviert",
       "summary_de": "Die Studie untersucht Motive der Schuppentierjagd im Südosten Nigerias und die Rolle lokale Nachfrage sowie des internationalen Handels. Zur wissenschaftlichen Bewertung bitte die Originalveröffentlichung heranziehen.",
       "translation_status": "maschinell",
-      "translated_at": "2026-11-23T15:24:03.205885+00:00"
+      "translated_at": "2026-11-23T15:37:02.573671+00:00"
     }
   ],
   "sources": [
@@ -3124,20 +3124,20 @@
     {
       "name": "Crossref: elephant conservation",
       "kind": "study",
-      "count": 0,
-      "ok": false
+      "count": 12,
+      "ok": true
     },
     {
       "name": "Crossref: wildlife rescue",
       "kind": "study",
-      "count": 5,
-      "ok": true
+      "count": 0,
+      "ok": false
     },
     {
       "name": "Crossref: illegal wildlife trade",
       "kind": "study",
-      "count": 0,
-      "ok": false
+      "count": 1,
+      "ok": true
     },
     {
       "name": "Europe PMC – Studien & Abstracts",
@@ -3152,11 +3152,7 @@
       "error": "HTTP Error 429: Too Many Requests"
     },
     {
-      "source": "Crossref: elephant conservation",
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "source": "Crossref: illegal wildlife trade",
+      "source": "Crossref: wildlife rescue",
       "error": "HTTP Error 429: Too Many Requests"
     }
   ],
@@ -3166,5 +3162,5 @@
     "date": "2026-11-23",
     "id": "8ee99df671227bd8b0ba"
   },
-  "translation_updated_at": "2026-11-23T15:24:03.205902+00:00"
+  "translation_updated_at": "2026-11-23T15:37:02.573688+00:00"
 }

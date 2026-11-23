@@ -41,7 +41,12 @@ RSS_SOURCES = [
     {"name": "Deutschland – Wildtiere (News-Aggregation)", "kind": "media", "url": "https://news.google.com/rss/search?"+urlencode({"q":"Wildtierschutz OR Artenschutz OR Wildtierhandel","hl":"de","gl":"DE","ceid":"DE:de"})},
 ]
 STUDY_TERMS = ["wildlife trafficking", "human wildlife conflict", "marine mammal conservation", "elephant conservation", "wildlife rescue", "illegal wildlife trade"]
-RELEVANT = ["wildlife", "animal", "conserv", "biodivers", "specie", "elephant", "rhino", "whale", "marine", "wildtier", "artenschutz", "naturschutz", "habitat", "cites", "climate", "ocean", "fisher", "ecolog", "wilderness", "environment", "poach", "endangered", "wilderei", "tier", "wal", "nashorn", "elefant", "ozean", "meeres"]
+RELEVANT = ["wildlife", "animal", "conserv", "biodivers", "specie", "elephant", "rhino", "whale", "marine", "wildtier", "artenschutz", "naturschutz", "habitat", "cites", "climate", "ocean", "fisher", "ecolog", "wilderness", "environment", "poach", "endangered", "wilderei", "wildtier", "tierschutz", "tierwohl", "tierhandel", "tiertransport", "tierart", "haustier", "wale", "walen", "walarten", "walfang", "waljagd", "nashorn", "elefant", "ozean", "meeres"]
+
+def related_to_wildlife(text: str) -> bool:
+    """Thematischer Vorfilter ohne unsichere Teilstrings (z. B. „wal“ in „withdrawal“)."""
+    value = (text or '').lower()
+    return any(term in value for term in RELEVANT) or bool(re.search(r'(?<![a-zäöüß])(?:wal|tier)(?![a-zäöüß])', value))
 
 class PlainText(HTMLParser):
     def __init__(self): super().__init__(); self.parts=[]; self.blocked=0
@@ -115,7 +120,7 @@ def parse_feed(payload:bytes,source:dict,now:datetime|None=None)->list[dict]:
         summary=strip_html(childtext(entry,'description','{http://www.w3.org/2005/Atom}summary','{http://www.w3.org/2005/Atom}content','{http://purl.org/rss/1.0/modules/content/}encoded'),250)
         # Weiche Filter für breite Feeds. IFAW, spezielle Such-Feeds und Fachmedien immer aufnehmen.
         searchable=(title+' '+summary).lower()
-        if source['kind'] != 'ifaw' and not any(t in searchable for t in RELEVANT):continue
+        if source['kind'] != 'ifaw' and not related_to_wildlife(searchable):continue
         result.append({'id':make_id(link,title),'title':title,'url':link,'date':date,'summary':summary,'source':source['name'],'kind':source['kind']})
     return result
 
@@ -150,6 +155,8 @@ def merge(current:list[dict],new:list[dict],now:datetime)->list[dict]:
     combined={}
     for a in current+new:
         if not isinstance(a,dict) or not a.get('title') or not canonical_link(a.get('url','')):continue
+        if a.get('kind') != 'ifaw' and not related_to_wildlife(str(a.get('title', '')) + ' ' + str(a.get('summary', ''))):
+            continue
         date=a.get('date')
         if date:
             try:

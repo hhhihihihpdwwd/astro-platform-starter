@@ -167,7 +167,16 @@ def get_europe_pmc(now, fetch=None):
     return items[:30]
 def merge_studies(articles, new_studies):
     items={a.get('url'):a for a in articles if a.get('url')}
-    for a in new_studies:items[a['url']]=a
+    for a in new_studies:
+        prev=items.get(a['url'])
+        if prev and prev.get('title')==a.get('title'):
+            for key in ('title_de','translation_status','translated_at'):
+                if prev.get(key):a[key]=prev[key]
+            if prev.get('summary')==a.get('summary') and prev.get('summary_de') is not None:
+                a['summary_de']=prev['summary_de']
+            if prev.get('abstract_excerpt')==a.get('abstract_excerpt') and prev.get('abstract_excerpt_de'):
+                a['abstract_excerpt_de']=prev['abstract_excerpt_de']
+        items[a['url']]=a
     return sorted(items.values(),key=lambda a:a.get('date') or '',reverse=True)[:650]
 def choose(items, previous, now):
     today=now.astimezone(ZoneInfo('Europe/Berlin')).date().isoformat()

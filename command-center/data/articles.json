@@ -1,7 +1,16 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-23T12:01:11.738315Z",
+  "generated_at": "2026-11-23T12:09:15.194592Z",
   "articles": [
+    {
+      "id": "b07b6aea5251ab1df2ef",
+      "title": "Warming seas threaten South Korea’s iconic squid fishery with collapse by 2040s",
+      "url": "https://news.mongabay.com/short-article/2026/11/warming-seas-threaten-south-koreas-iconic-squid-fishery-with-collapse-by-2040s/",
+      "date": "2026-11-23T12:02:44Z",
+      "summary": "Rapidly warming sea temperatures and marine heat waves could eliminate South Korea’s domestic catch of the Pacific flying squid by the 2040s, according to a recent study, reports contributor Kelly Kasulis Cho for Mongabay. The Pacific flying squid…",
+      "source": "Mongabay – Conservation News",
+      "kind": "media"
+    },
     {
       "id": "13cb6011f103cd869671",
       "title": "How a tiny rare frog became an ecological warning sign for Madagascar",
@@ -390,6 +399,15 @@
       "kind": "media"
     },
     {
+      "id": "3a2713035b2968a39d8a",
+      "title": "CITES SC81 outcomes and the future of wildlife protection - International Fund for Animal Welfare | IFAW",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOX19BSFBNT29hOGRGSC02bDI1RUppSUNvSjZZakZiSGpfeDVNbGRNbTUxZlVsWTM4V1QxaGt0TDVPZUlCMmEyakFKWURoTHpWYUhFcGlzS1BvZTVXMkxSd1p2SG5KWm9pdHNTaFZuU0lYVWdSLTJZRzJXNDctZ2tYSUtpOUUzUGtvM0JXTFVn?oc=5",
+      "date": "2026-11-19T18:19:49Z",
+      "summary": "CITES SC81 outcomes and the future of wildlife protection International Fund for Animal Welfare | IFAW",
+      "source": "IFAW – Berichterstattung (News-Aggregation)",
+      "kind": "media"
+    },
+    {
       "id": "4b9d4fd45470ff8e6779",
       "title": "In Sri Lanka, human actions are driving wild animals into cities and suburbs",
       "url": "https://news.mongabay.com/2026/11/in-sri-lanka-human-actions-are-driving-wild-animals-into-cities-and-suburbs/",
@@ -460,6 +478,24 @@
       "summary": "The Council has approved conclusions aimed at empowering young people in an evolving information environment.",
       "source": "EU-Rat – Pressemitteilungen",
       "kind": "policy"
+    },
+    {
+      "id": "9a88fddfe9aba2a4008e",
+      "title": "IFAW: 25 countries backed wildlife declaration at COP31 - Denkstrom",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQUjFmUy1WYnh3UE5fN2NXZ0J3X1dTbVNYOUVCWHlEbXN1NWwxWjJQQjdHa0hVbk9FOHU2ejVpSkdQUnJpM2dNY2VPcnQwTnRDTENZTzRhc3ZialFtOHMxX3YyNWhMR3piMDRUbFJ5Yy1zSzR2dXQyVmNreXRUR0h2MmJhNm5rQm9tRlBmQ2FXR0tlbjQ?oc=5",
+      "date": "2026-11-19T08:00:00Z",
+      "summary": "IFAW: 25 countries backed wildlife declaration at COP31 Denkstrom",
+      "source": "IFAW – Berichterstattung (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "475b911f2db379b20e01",
+      "title": "UAE shuts down 600,000 websites in wildlife trafficking crackdown - Gulf News",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbE5mU0JreHZsUnkydE9raEdzdXZhVGJQMFUwOHRWemZYck1sRXdabmJQZFhQWG5wam01Tk5KOTB4UGpFYWRoSW8xWUpiT19KWjNGWEFVWFBIRGZGbkQ1VWZqQ1RmN0FyMmpQeC1OeHV3UnV6cmQ2eDNOQ21LMFIyN2EwU21zbXhyVzlCbXlsZ3pKdTNRUllfUFVGc3BmX3pVa21v0gGzAUFVX3lxTE1McFJiWTdWekVBM3JINjJVUXVzRXBhN3JKenZPdXdLTU1rSXNvc2VuTVFXYlZLeUMtQVJZNjVCcWMwZlZmR0VZWk96YndWeFk1dG9OaFlhdy1vTXVDM0V6REJNWnNjRDBocGNxTnlvZkoya3NQT3FGcmljczZ5aTlFdzY1N0otYTBOVFp6cU9faGlhLVNCRTYzZmxBelRBbEdhcFlqUndYTWRtS2R3bEdDUHAw?oc=5",
+      "date": "2026-11-19T04:50:10Z",
+      "summary": "UAE shuts down 600,000 websites in wildlife trafficking crackdown Gulf News",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
+      "kind": "media"
     },
     {
       "id": "7e9ea93b5c061aeab1b5",
@@ -651,12 +687,39 @@
       "kind": "media"
     },
     {
+      "id": "8c8b795bdb2d0d117a84",
+      "title": "Montana bighorn sheep case shows why wildlife trafficking laws matter - Nonstop Local News Montana",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPbFl5QjcxYlBPcUFRQ3pBLWRUS214VDloa0NENVlQLVRxbVRkMWpkRXJ3dDFIZ2pENWJRVV9FdU9QTmdodzNWUkxpcUZnOGM5a1liZkN0NU5BNDJWdHAxc0hJNHZLbVJnU25fZXN5XzB6c1A4NE1MUW8xVEJ6ZnBaTm1jWmMwOTFYblhUbGRYMjJ0WUxwQ3pRdm5LNVROcnpnYWcya0ZHek5tS0NRQ25zN2tYTDZES1A2d3I5NC1wRU9pLS1qOEV6RHF5TmI5aFRLT3lCNlhkWGhNVUdxNlo3d2NLQW5RampKZGtZc0tLcw?oc=5",
+      "date": "2026-11-05T08:00:00Z",
+      "summary": "Montana bighorn sheep case shows why wildlife trafficking laws matter Nonstop Local News Montana",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
+      "kind": "media"
+    },
+    {
       "id": "217cba64d2809538d4ed",
       "title": "Artenschutz - UNO-Biodiversitätskonferenz in Eriwan beendet; Ecuador nächster Austragungsort - Deutschlandfunk",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZGw5aTBWS3Z6bHBJd1JFQk41X0xaRjBnNm1RNVF1R3JiN2RDYjQ4dndMbVhvc2s3WndNMWdEdERsT1JYZDBzeVktT1hDb2ZxNkVZTXAxdy01Z1d6NWd0NHA5MHRBak1QU0hWNG9MbDAxRUM3eFZnU3ktOFlIeXlHTGFrVnBLVlhHVlNtd0xlY1pteHEyRGZCZlY5cW11WmdRX2dnWl9YWTdrem1BSFRWbFhhZXBKMUhoMFZv?oc=5",
       "date": "2026-11-04T08:00:00Z",
       "summary": "Artenschutz - UNO-Biodiversitätskonferenz in Eriwan beendet; Ecuador nächster Austragungsort Deutschlandfunk",
       "source": "Deutschland – Wildtiere (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "392813e0ed69c00d4f80",
+      "title": "Montana man fined $20,000 in wildlife trafficking case involving bighorn sheep - NBC Montana",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQQ3JDQ3Y5a2s0OGFMaWRNS1hsbWt0VTVUSS1zdEM1T2hsU0c1ekM0OEdmNjZBdzlxSm5jUVBPOV9Lb1JSTlpCS2FTd0h0LW05QVBJRV91TElNU2hzcGVDcW5BSmdSQnlwMVhfLVMxeTU5VkEzNzlzQUp0WDFVNUQ5YTd3bkxaajFMWlEtLTBUZm1kSnJxcGwtOFl1VjVITkI1MVpDcEVTNHBnLWQ1MmVN?oc=5",
+      "date": "2026-11-03T08:00:00Z",
+      "summary": "Montana man fined $20,000 in wildlife trafficking case involving bighorn sheep NBC Montana",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "498f1dc6971c0ba4395a",
+      "title": "Hidden in plain sight: the role of women in the illegal wildlife trade - United Nations Office on Drugs and Crime",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTUJQWjduWXVyUS1KcEowTjVCRXNxbXZWQXhuRmV6SFpuejE3SlRZNFRMc1dwNDgyNXlENlpYdjJwZGsxbzFPbjltRFdWSU9MRHAzOG9xeDU5eHVSLU5uQkc3Qzg0cTAyYkpEcG44Y0VIQ3FBNmtVMU5fa0RsQ0otRU1lbkVpeFhGY3dYYTZzcGpNSmNEUGdOUzdfYnVZbS14OFpsS3R2LUltRThYemdOMXFGRm9kYWJLV1B2MnZCeVdWOGc?oc=5",
+      "date": "2026-11-02T18:42:25Z",
+      "summary": "Hidden in plain sight: the role of women in the illegal wildlife trade United Nations Office on Drugs and Crime",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
       "kind": "media"
     },
     {
@@ -675,6 +738,15 @@
       "date": "2026-11-02T08:00:00Z",
       "summary": "Fortschritte beim Artenschutz, Nachfrage nach E-Autos Good News Magazin",
       "source": "Deutschland – Wildtiere (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "47940d2ec7b92375ea9f",
+      "title": "Brazil Wildlife Trafficking Exposes the Ugly Price of the Perfect Exotic Pet - LatinAmerican Post",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObmlfLXM0dV9GajdHVW50blc4ejVDM3N6RXR6S01JbVlmbS1yb3QxZUd4ZDVwVjNyY1NhXzBNV1AwTmZPM1UtYVJEYnVQTTRvcmdkd1gxWm5jVENNeURHMlZneG5TSDVaVXNKVU14YnNycHl6SHlSQUw3eGJMS1k4X3JSRHhPdGlYNzZKYXppVDFYZ3Jad0s4ZzRwMkRJakp3MlI3MVY2WTMzN1hNb0F5a09aSEpsSnc?oc=5",
+      "date": "2026-11-01T16:22:44Z",
+      "summary": "Brazil Wildlife Trafficking Exposes the Ugly Price of the Perfect Exotic Pet LatinAmerican Post",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
       "kind": "media"
     },
     {
@@ -714,6 +786,15 @@
       "kind": "media"
     },
     {
+      "id": "c76384f13c60b3571baf",
+      "title": "Costa Rica strengthens judicial capacity to fight wildlife trafficking - Humane World for Animals",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPTjdxaGM2SWN0bV9Fbm5SR085WEQ4OGhUcXE4RHprQlhLbnZHSGFLTGhrcFk1XzRzRC13RUU0WkRnVXFMUTJzWmk5SzdWbWp2VllmQUJLMk9YYnFFR2FWbHE4ZWJCTEE3Uk94TW4xQXBlcXBSR0pqUzdaX2hpSlJVVUFxcw?oc=5",
+      "date": "2026-10-29T07:00:00Z",
+      "summary": "Costa Rica strengthens judicial capacity to fight wildlife trafficking Humane World for Animals",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
+      "kind": "media"
+    },
+    {
       "id": "cc6dd7a578f8995f65cc",
       "title": "Vorschau: Unkraut • Artenspürhunde – Schnüffeln für den Artenschutz - ARD Mediathek",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5aeENCdzRBUHp2cEZuRUt3dFA2N1NQUlVtNWhpOV85V1VQQTlNbXpFdDFUZnJ4cUhreFNwdTV2UThNSW5hVlZ6ekxnanYyRU9FVl9vTVJ3UjFKbzU0ZVFtb0JLNFhjUHZBMzVVTkZuMWpKQQ?oc=5",
@@ -729,6 +810,33 @@
       "date": "2026-10-27T09:51:30Z",
       "summary": "500 Apfelbäume für den Klima- und Artenschutz Kreis Warendorf",
       "source": "Deutschland – Wildtiere (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "3e583fb6ca8179fa7119",
+      "title": "Malawi and IFAW renew partnership to protect wildlife and support communities - International Fund for Animal Welfare | IFAW",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOcXVManpFenU4MUhvcWpnOEJ6Q1k0WGZLRFNoTUFCZWMzSllkZXRZak8yTmpITnpxVy04MHB2ZEhzbV96X3NEMW1GNF9HLVFKWlpoTjV6TndDZXdlU0tyRm9KWnZVV3lHSDR6QkN6ZnphUDVkbkJOWXd5M3NQZkc2SHl3WnViQmZGNV85cDViRVJuTVhiSmJpME5MVThBbUlpLTdCUGRuQ3BwMWhXaDA0cjB6cnE2UmM?oc=5",
+      "date": "2026-10-27T07:00:00Z",
+      "summary": "Malawi and IFAW renew partnership to protect wildlife and support communities International Fund for Animal Welfare | IFAW",
+      "source": "IFAW – Berichterstattung (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "63968554b02c2ea1f7e3",
+      "title": "The International Fund for Animal Welfare Continues Work Across Two Pillars - A-Z Animals",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZHNkR3FYYnM4NXJEbm1pSXdXWXNSRDFxaG10WU53Rl9KN19IOWpvN3VIUkhhMnlyTEtYNUphOFV4UWRUVEdpUFhlWkVxNl9ad2NQSjFUc2hiZnFPekNISld4dHB0RkU4aGExZWlGU1hFeWlXbFJ5UTRqRnhFLTRIMXVRWEtZdWRFX3Vpc2tqU2dVcThXYmNtLU50ODdORlludWR6TVczOUk?oc=5",
+      "date": "2026-10-27T07:00:00Z",
+      "summary": "The International Fund for Animal Welfare Continues Work Across Two Pillars A-Z Animals",
+      "source": "IFAW – Berichterstattung (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "f036fb77d0fad9893d68",
+      "title": "Baby orangutans in India expose illegal wildlife trade as experts question a billionaire’s zoo - Aurora Sentinel",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQZkdNRGZzSS05cEdDTkNkbUVEX3NQZE9IZ3BWMkZjR1l2OTBRdjBvLWRaRTR0S0wxNl9UZWdpQU83cm96eWFVWFNqMUJFcFZJdGhIZ213OVhyTll2OWE2OXR1TTdoLTJqckdlQWlCaC05emt3dWJHalBRQ1JldE55eUNnVVZiVmVtMlhSc3puVGpYR1FDMVNlLVVTdjQ4a05wM1hEUm9qVGh5aGZHNUp6VTZRZjYyZTNTT0ZCZUMzWkhpbmlkaERPam9NMkRvZXVHWEhr?oc=5",
+      "date": "2026-10-27T07:00:00Z",
+      "summary": "Baby orangutans in India expose illegal wildlife trade as experts question a billionaire’s zoo Aurora Sentinel",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
       "kind": "media"
     },
     {
@@ -756,6 +864,33 @@
       "date": "2026-10-23T07:00:00Z",
       "summary": "Artenschutz auf dem Acker: 53 Hektar für den Feldhamster angesät Mynewsdesk",
       "source": "Deutschland – Wildtiere (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "0c934ad0a890ee6e3b5c",
+      "title": "Uncovering “hidden highways” of wildlife trafficking in Mexico - The Wildlife Society",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPWjJRSHFhQWk5TU5RUDdiVTE5YXVUM2c5Y3pkY194b1FEYkZzU1gtS1RoSURRcWY3YW9YcXQ0OFZZeUxpbkkzcWF1aHhTRjNrN01YbGkwNEpOSThIbmNjRWVubktKUFdrbzlHbldUOG9lTFU4OWstaWVMc1dCeVpjZGw2V0R2VkltZGc?oc=5",
+      "date": "2026-10-22T07:00:00Z",
+      "summary": "Uncovering “hidden highways” of wildlife trafficking in Mexico The Wildlife Society",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "1c09d01a2fd76e641d06",
+      "title": "Wildlife trafficking: 377 animals intercepted on the way to Malta - Eurogroup for Animals",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRDgtbWE1cUlIcnZGdzlaWE1XZmMxX05JZ3Z3NEFQSXlWLUl2Y2hJRlpGNkFBNFd3a2FSYkhVQzZXRWdfVWl1aVQ0MVFMQkI0WVZ6Rmo0Q0xIYS1kVHRseTNxQmU4bVVURGdxcTRIOC1Nd29qclFpcFdWMXdjZHJ2eS1Ta0FsLTFlck9RazNKOGsyT3dhU0NocXVkYw?oc=5",
+      "date": "2026-10-22T07:00:00Z",
+      "summary": "Wildlife trafficking: 377 animals intercepted on the way to Malta Eurogroup for Animals",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "52768e38e37352ad5a26",
+      "title": "Chinese social media used to facilitate illegal wildlife trade in Laos - Eco-Business",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORVV1QWpKLW1ZOGhRNlJ0Y1ZYMzhoSzhYV1hBOEt0cGRUUVVXUXgtUkxZaFFzRUdGZU9wTXNBaFVpNVZXSEVGRkF6VnloOXkwcEZIeUNNSUF1Z0JhRTZjRXA2dmdob1F3N2U3T09pcTA1ZUFVVXFGRU1fQVd6NU9hWFVWb1IybDZsYjREb1lpUFpVOU9rLVhvbkJQc2d0cFhhLUdCUWRYaXk?oc=5",
+      "date": "2026-10-22T07:00:00Z",
+      "summary": "Chinese social media used to facilitate illegal wildlife trade in Laos Eco-Business",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
       "kind": "media"
     },
     {
@@ -822,6 +957,15 @@
       "kind": "policy"
     },
     {
+      "id": "c2ca8ce6b5b41bc004d5",
+      "title": "Animal heroes from around the world honored at the IFAW Animal Action Awards - International Fund for Animal Welfare | IFAW",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQd1FnUHhIRnRQUHpmbHVOcGtJTzJDeGtCNHR1SV9heEV0Vm9LRXNDX09ZS2lVaGxHdV83TlBVdnNGcHRRRS1wdzhUUV9IOS1rZ2xGSW1nZFZpWUEtSjZ2NzdHYnZkNWRHZ0JzQVRrQ0ZHSVlvaVRRT2M3UTM0OVpCWEdLYW9IeUZEZXNOM0VFblFCQQ?oc=5",
+      "date": "2026-10-16T07:00:00Z",
+      "summary": "Animal heroes from around the world honored at the IFAW Animal Action Awards International Fund for Animal Welfare | IFAW",
+      "source": "IFAW – Berichterstattung (News-Aggregation)",
+      "kind": "media"
+    },
+    {
       "id": "05fd40c64be2a7697eeb",
       "title": "Beschleunigungspakt: Bundeskabinett beschließt Artenschutz-Vereinfachung für den Schienenausbau",
       "url": "https://www.bundesumweltministerium.de/pressemitteilung/beschleunigungspakt-bundeskabinett-beschliesst-artenschutz-vereinfachung-fuer-den-schienenausbau",
@@ -849,6 +993,24 @@
       "kind": "media"
     },
     {
+      "id": "f844942fab7912e0f752",
+      "title": "Chinese social media used to promote illegal wildlife trade in Laos - news - Mongabay",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdXVFelo0MVpPWDRVLXdNNzhqNGIzRXp4d2s5dlNNNk5iZVZrMnAza1duS3RDY0JXbWtJeUVNdURwamE1RXB4RFRxSWZDZm5lYmVQSWs1dklmNkRlLWxodmRCczVrT0V1bUlvb0luZ2toSEFyRGNZaGVqYm1kNkVlNHVFNmZrRmUtUHhuaDBTVWlGaEE0S0V0OVpCVHJ6VlRMYi0yQtIBqgFBVV95cUxNWVl6S0hieHhncG1UYVg4anRoSFhGYS1PZXdseHlkYXc2aEhYcExCZ0ZjaDR0VXJ0ZjJlTHJsOUw4cVJSRzFEMGJMYVBEeWtvSGNiV3lzaEItQlJSaFNFMnNndDBKX2w5TmlQS3dMTy1yczc0QjdrNV9NeTZBbW9tY29yVjc2ei05SlUwNWRiWERmOXVIb0NrWnV2NDhCWEt2SjhiVHFVcXFuUQ?oc=5",
+      "date": "2026-10-14T07:00:00Z",
+      "summary": "Chinese social media used to promote illegal wildlife trade in Laos news - Mongabay",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "dd6c0e2196434247ffb0",
+      "title": "Interpol crackdown on illegal mining, logging and wildlife trafficking leads to 233 arrests - Daily Hampshire Gazette",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcl9WS3NfdTVQVjNEZFNoc0VFVzc5N2NtSWV3dDVNcWdRV3pOX01OaHNYRmRRRUxkWEwyclI2OG83dG1FQjJtODNsYnc2cVYwSFFGUG9wOWg3WTF5eXhQT09mLTl0ZWRqZmVwQXI1dWpULXRfUWNZcU9RYUFFbWtxNFduYTlOOTQxaS0yc2Z4dWRlOGFLanRPS0w3bWp3Tk1vVHpGU1NuYVUxbEM0R3l4a2tpTEtKYnY3TjJxWi1XM3JsZjQ?oc=5",
+      "date": "2026-10-13T07:00:00Z",
+      "summary": "Interpol crackdown on illegal mining, logging and wildlife trafficking leads to 233 arrests Daily Hampshire Gazette",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
+      "kind": "media"
+    },
+    {
       "id": "8b1fa7a929c60967e86e",
       "title": "Environment Council",
       "url": "https://www.consilium.europa.eu/en/meetings/env/2026/10/12/",
@@ -856,6 +1018,15 @@
       "summary": "The Council discussed the proposed review of the EU’s emissions trading system. It also approved conclusions on the EU’s main negotiating positions ahead of the United Nations climate change (COP31) and biodiversity (COP17) summits.",
       "source": "EU-Rat – Umweltrat",
       "kind": "policy"
+    },
+    {
+      "id": "fab6b0bd6db069c0d99b",
+      "title": "Spider monkeys rescued from wildlife trafficking welcomed to Utah’s Hogle Zoo - ABC4 Utah",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNQlZidm0tQVRVcnJ5OVp0WjVUTHgwRXZrcjFfa1NCbGllUHJRYm1ESEpsZnQ4bzVEZmFCYXZtNGs4VnJYa2Y1OTF5Vm1XcEw0RzVYdEFQUVF1VmcyYnV4MTV4aHR2cy1leDhucnlicmZfRXNyMXhQdXJSVHVrNzczT01ZWER4dzTSAYwBQVVfeXFMT0ZEVndONjR0ckc5cGtPUThENlN1b1d2SlRFRnpINjQycUExak5lbVExMW1CM1hUVTNWQjh6NkJTTnFtNm1uZ21qaVN5SERrdVpSVEJoTmZRTlVGV09RdHU2RW5LQUlnMHlRc1NDcVFvakkta1FTYVg1ZkJoRDFRRm8wdkpBWlNRU0xtWHU?oc=5",
+      "date": "2026-10-12T07:00:00Z",
+      "summary": "Spider monkeys rescued from wildlife trafficking welcomed to Utah’s Hogle Zoo ABC4 Utah",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
+      "kind": "media"
     },
     {
       "id": "2ebfa5b83f88ccf21ef6",
@@ -912,6 +1083,15 @@
       "kind": "media"
     },
     {
+      "id": "5eb5f3f84d7282d39340",
+      "title": "CDFW News | 10 Years of AB 96 in Action: Ivory and Rhino Horn Ban Gave CDFW the Might to Fight Wildlife Trafficking in California, Around the World - California Department of Fish and Wildlife (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNbG56TzFmalppSEx5dG55dlk4elVnb2FVUHlWN2NXV3Z0YXlEblk2cF9wb3F2dXFwM0VIZzA4ejd4dkhFYmV4NWNBU2pWdUgyb1NuVkY1SXkyek1YWjdPZy03WHkxNVo2Q1lDSW5WU1hVWUNYcWxpckZaNFJ1djBjVDNFekd5eV9jcGV6YXJGR0FiTzdfeXZXWVB6SVJrU055LUxnTU1RZFZpNDBXaTRxdHlHcWNaVjdMYTJqX20yQU9oVGp3NTVFSDJUcG9kQ1pBSk5NMVpTdk0yekJNdFhLdmVFcmI1X0FUVG54dzVvdF9ETzdQeW9mc21lZWNHcDA?oc=5",
+      "date": "2026-10-02T07:00:00Z",
+      "summary": "CDFW News | 10 Years of AB 96 in Action: Ivory and Rhino Horn Ban Gave CDFW the Might to Fight Wildlife Trafficking in California, Around the World California Department of Fish and Wildlife (.gov)",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
+      "kind": "media"
+    },
+    {
       "id": "cca2832aebaf37e4f882",
       "title": "Artenschutz: Unverzichtbar fürs Ökosystem - KI hilft bei Fledermausschutz - DIE ZEIT",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcEV4TmpIU1FtTkhCODA1VTM5QWE2bjY1Nmd5WGpyMmVXVzZ6V0x4cU9LUEZ4Y19mRFVHRUtubTAzdW4zRXhtV0lJVjhrcTN1Qk5tOC1DQmg1Nnhkb1NlaTRyeUlJbzdpcDA1THgwT3E5TC04SmRoRDNtUG14NTlpcENSWVZLbExsa1U4NXF5RDFhRi1MVFlIZndyeGk?oc=5",
@@ -930,6 +1110,15 @@
       "kind": "media"
     },
     {
+      "id": "7e8ff895e866ca67c1b7",
+      "title": "Reptiles, gold and money: How Australia is cracking down on wildlife trafficking - news - Mongabay",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSHRJLTR2MmxkRF9kTS1NeTBQR1BYbnVJZjhkWTV6MEx4VkVwYXlNdktZajRHc2U2bVFVVFpVMFNzTDRROG9nUmhxVUZULV9iMWJYbGhidnJwZXVfV01Ud2VXZ1haV1FHaEY4dEMyeTZ2ZWxyX3NBVDBXSzFrX3RDT0Z6N3ZUemNuMVJUS2RhYzMtajlqRHpyX3lnX3Y3NnZfTjY1T280b3dxWnVuSFBwYWpaVdIBuAFBVV95cUxPNGxFNW5EbGZLWFpGWGdhTVozU0k0WXVhdDJYRnFZMk9fUWtUTnB5LVVuTE9oVFBLT3ctWV9zaE9KamtkelFCa015c1pNQlA1UFVyd1FRZkFkTGp4ZzdLWlA1YWM2ZDZoVEJiZktsMXV3T0FJam9xT3RWb3BSLVhDQng2VkxJWE0xUlFaRmU4WHc4U3N1bkNNN2JtQkFfTUF5ZXY3ME1jVFUzUDhqVzFBek53Y19uNlJ0?oc=5",
+      "date": "2026-09-23T07:00:00Z",
+      "summary": "Reptiles, gold and money: How Australia is cracking down on wildlife trafficking news - Mongabay",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
+      "kind": "media"
+    },
+    {
       "id": "9f8209d26578ed2f835e",
       "title": "„Artenschutz ist Menschenschutz“ – Großer Artenschutztag auf der Burg Falkenberg - Oberpfalz TV",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVjUxNk1ockRKemROd1I3OWJYcW5GeFg1RXlIOERYV1NnM05CQmdvay1OT1FOU0Y4OEMzVndxOEZtdklfWm8xRnpwaktnV0ZOZDVHcks4bkdGRXMxM1BlZVlVaGxGd0dQQVlPcEFLWWlneDA4dHI0YXNEUjZNdWJPdXpRVXd3amdkbGc0V09rQkRodnM?oc=5",
@@ -944,6 +1133,33 @@
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBfWWtmcVNpbk12cU1pb21iR1ZXZkdxWmtoZnMxemstbWRmTk9nS1pyNzZYRDUzZWlRZ3BwM2Zxd0VtSWtiNHhScjdQRkExMFhmNkREUHd4bkFPYzA4Q2lmbUI3NjR4TlhwSk1r?oc=5",
       "date": "2026-09-21T07:00:00Z",
       "summary": "Combating Wildlife Trafficking FWS.gov",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "bd144b2b4a37f90595d8",
+      "title": "Why the Illegal Wildlife Trade is Flocking to Facebook - ASIS International",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONi1VbElDMVdnT1FTQ052S1hoNVJxcy1aMTkxOW5XYzhiNHV5YnJ4aUl0ZW5UNERSR2xhelhqbEk4TmhCX0pDNmo5d0FERkRnMFM1clBXRnFodE9qQVlXanJFV0dZZndDZHVnVjJib29WVlVlNDlOcFFJXzFXQTNHYU5jZlVxMDFOc0V6UFdXMklLSmpwVW5CYXI2UlU1WmVCdks4?oc=5",
+      "date": "2026-09-21T07:00:00Z",
+      "summary": "Why the Illegal Wildlife Trade is Flocking to Facebook ASIS International",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "5ce810a0e1ce40becc2a",
+      "title": "Cross-border enforcement cooperates to target illegal wildlife trafficking - Traffic.org",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNR2tPamxUSGV2QWpRR0VjSi1YMWlkSHhTVUF1am44SXRQOEc3c1N1ZXViamoyVDBqa1NkQkpaVDFSbWJpeDJhQmN5TGd1c2t0LUNvQk9BMG1TbE1LZGotT0R1NnVpVEF3WXRkTVBCZVlMQTVYSGFZdWZEbUlGazYwRHZ4ZzZCNHpaV1FBQVhfYnEzNDFXZFRhMXJDdFpndUdQcWJid0duQQ?oc=5",
+      "date": "2026-09-21T07:00:00Z",
+      "summary": "Cross-border enforcement cooperates to target illegal wildlife trafficking Traffic.org",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "6d6ca6f44dc5577f7cb2",
+      "title": "Crime Convergence: Why Transnational Crime Organizations Are Embracing the Illegal Wildlife Trade - ASIS International",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQN21QS2lzWnZ5bFgza0MwT1V1a3JRd05FbTR2N1llUEVlbVpYU0ZQazQya20zYjhjNklwc0E2NFFNWDNUYnlmNDFyS2lHUGZJeFQwYWkwaG9aSG9xWFJsMnN2VkxpdENtWDlQMEY1YTZkRG1taDE0T2doOGtWRlNmQ1NmZGtRMGNPajZGN1ltX1pYRXVrQ19RbnY3RFNpbDlIenVldnloODMza2xm?oc=5",
+      "date": "2026-09-21T07:00:00Z",
+      "summary": "Crime Convergence: Why Transnational Crime Organizations Are Embracing the Illegal Wildlife Trade ASIS International",
       "source": "Wildtierhandel – Medien (News-Aggregation)",
       "kind": "media"
     },
@@ -972,6 +1188,15 @@
       "date": "2026-09-15T07:00:00Z",
       "summary": "IFAW expands support as wildlife rescue centers remain under pressure in France International Fund for Animal Welfare | IFAW",
       "source": "IFAW – Berichterstattung (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "8bd5007690a16c19e4d0",
+      "title": "Global Reptile & Amphibian Pet Trade Is Fueling Wildlife Trafficking & Threatening Species With Extinction - World Animal News",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQdmFRVnZfNG1JTl9tRVViNTlFdEI1VHZwVk9WWElncHJoSlFPQ0FYd19KYWtkTXFaU0hzNk83NlVPczZCMXVpQWN2MkVodHZROWJFNjFuTEVvelQtcEtrWW9UcmxNeU5ZdElJc20zLTVhUlg4Yi05QTEzQnJzTnRueThCNkRSeTlYa2dTX1dud0VJT1dzcnRTZUgwLUd0Uk9zSTRJTUltYl80QnRtYndMbVNvZzJ6MWwzYTB1ZWtrUF9hcU9jNFNoblRWbGJNdVZRdDF5aVpsWXh0UQ?oc=5",
+      "date": "2026-09-15T07:00:00Z",
+      "summary": "Global Reptile & Amphibian Pet Trade Is Fueling Wildlife Trafficking & Threatening Species With Extinction World Animal News",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
       "kind": "media"
     },
     {
@@ -1056,6 +1281,15 @@
       "kind": "media"
     },
     {
+      "id": "381d3d5b579b6a0b6e70",
+      "title": "TRAFFIC innovations showcased in new podcast episode on tech and wildlife trafficking - Traffic.org",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNLVd1dlphRkFGZm5wYWN3a1NFZkI2cFdEUDRhc0c2RlBQUFBIdFZvQXotQmIwc3p6V3dLZ1BQSmdsV3VmVlRXbWlPVlJENWFtQndTakJaOWNmX3VDSzdVSG9IZURQb0p0VHpfdXlRbW44YzBBUlptbmo3RUFwUXNZczNIRnI5SmY1d0RpQTRmWlRjczczNnFseXNjUGtNOHMxOURyT21RVERrZUYwMHgyV3d1SWwwUQ?oc=5",
+      "date": "2026-09-04T07:00:00Z",
+      "summary": "TRAFFIC innovations showcased in new podcast episode on tech and wildlife trafficking Traffic.org",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
+      "kind": "media"
+    },
+    {
       "id": "baffbeac7445b049cd62",
       "title": "Artenschutzkonferenz 2026 - Umwelt NRW",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9Wam1xUHFfekJMaXNUWk1haVMwV1J6R2s1RTVsMFdZUkVmVHRIRTl5ZkdXbHk5a1ZpNnBQT2hQVUpINnQxZGZZSkJ6d2lwNnpxSWQ4QlczeGVUSzU1bXdENQ?oc=5",
@@ -1074,6 +1308,24 @@
       "kind": "media"
     },
     {
+      "id": "6eaab003f75b0ace14ff",
+      "title": "Turtles rescued from illegal wildlife trade get second chance at Salina zoo - KWCH",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOR3ZaUzlILWk2a0dPQkJiNG00VXI1c0tXOENVMElpMXdxQ1NuM1RoeTdJV1lUa0RfcDVfdlV5MXQwRHVkZmIwWERZOVhZRUtFUFphbGlPZ3c5LXRfSGM1bjFXa3VPRGozX3QzVmJMck1XSFFmWENzcTNQUFVzY0lFN09BMklHNzFQM0tSWlgzeGx5dklRUXZtcHVuNzhRYzRXNEHSAbYBQVVfeXFMTURWU29ZdG5MZ1gwd3lFS3Y2bWJ5X09Gam8wYWE0cGJuVjZDTGtQbVJUUDNEZkpSdlNpd0ktbEtpdkIzN2lSV3VvMFJBb3FXWV85bFljeHJ3NExfZVQ5ZXpLVHRlVTF3MTg2ZEVBTDJaTjJwT21kM2lOS3J2aUgwQ2RYeklnUkl2RFFBVFRQQkcwMjFqM01oelk5YkVxbUVHZG5SRml1bV90T3d4djY2bC1NbXctekE?oc=5",
+      "date": "2026-08-27T07:00:00Z",
+      "summary": "Turtles rescued from illegal wildlife trade get second chance at Salina zoo KWCH",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "6c77029ce3220f8ecf37",
+      "title": "Kansas Turtles Rescued from Wildlife Trafficking - Ad Astra Radio",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdDVhdEVlMllzTUhKWnJRR21sOHFrR0FUQVdKZ3RGSlVaOWRZVnI4RDd5dE95TlZmbjU4YUtYb1EtWGVOc1RzQ1FxTHU2aHptNkpXcWctT01SMVVZSkszUGwzMzBfNVRjemVOVGZ3ZnNHbzhLZW0zLTJ4NXFxcDhWT3pDbjRUd195cVFzVnJEV3lZUWQxb0E?oc=5",
+      "date": "2026-08-27T07:00:00Z",
+      "summary": "Kansas Turtles Rescued from Wildlife Trafficking Ad Astra Radio",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
+      "kind": "media"
+    },
+    {
       "id": "ccd4f7fa9194ae336a38",
       "title": "New digital portal empowers frontline investigators in the fight against wildlife cybercrime - International Fund for Animal Welfare | IFAW",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxONnlUTHhsQTBFWFZXY2tNU2psTGV6UGdFeDk2UzdXSWp5TEpXMkxyY2FQaklEWTlDbzFWQ3FLVmFyajcwTWpocDZyUUhlZmVlVF9JSlhaVmlaQmNHb1FndHdtRXpycHJ1YW5xSG1IckxPQTNJTkFzd2RXUUNYU3hKWFdaNGFJa0UzajZJTTdxdFdaeUJ1anhqZExXOUMtQQ?oc=5",
@@ -1083,11 +1335,56 @@
       "kind": "media"
     },
     {
+      "id": "e69442c585ccc8ad5e49",
+      "title": "New Study: Critically Endangered Maleo Bird Threatened by International Wildlife Trafficking - Center for Biological Diversity",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNR3dRX3dRUFdrTDc3VWxPbnBUbWVhVEN6VjI0Q1BxbVJJYW9BRFREWUV0NDl2cXY1ZGsxWVNQVW93Zm5obWtwQXFlLXg5Mk5ORkJDcHFCNkp4Qm55TXQzaXVoY0xFX2d1ME5pbHYyQUdiMkt4bWN4RW14RXZQUDBhTUY3V0tFMmVXbVRYT2pVb29JdDVYdEZLU2h0TnVEbXpIOTFReDdkSjR1UFhxLWZPWUJVSlk5RDNtTkJOVEtXRnAzbHoyT3JnYWdiWkZFVXAyQXhPVlVfcmN1YVJseVd3LXdLZ1dxUmNRZEpVS29B?oc=5",
+      "date": "2026-08-26T07:00:00Z",
+      "summary": "New Study: Critically Endangered Maleo Bird Threatened by International Wildlife Trafficking Center for Biological Diversity",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "611a383753ad3f69fcf9",
+      "title": "Wildlife trafficking spreads across social media, putting thousands of species at risk - Science X",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOaUxuRENGbTgzaGNSdnN6QWtoQkhOV2MyRW42VGZlLXdIMUMyMXUwcEh5TWxJcmFqQnVjTXFHY0Nxcm9Ubm5HSk42NjBnNG16Wl9HNkpjdlFNd1BPMzhjaUVvcVNKWXFGdUQtNThmTnZBTFQ1Y2lXSnZNeW9CU1l5UzRFNi1xU3BfWnh5bXRHONIBjwFBVV95cUxOaUxuRENGbTgzaGNSdnN6QWtoQkhOV2MyRW42VGZlLXdIMUMyMXUwcEh5TWxJcmFqQnVjTXFHY0Nxcm9Ubm5HSk42NjBnNG16Wl9HNkpjdlFNd1BPMzhjaUVvcVNKWXFGdUQtNThmTnZBTFQ1Y2lXSnZNeW9CU1l5UzRFNi1xU3BfWnh5bXRHOA?oc=5",
+      "date": "2026-08-25T15:33:51Z",
+      "summary": "Wildlife trafficking spreads across social media, putting thousands of species at risk Science X",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "efb38d663dbbf1c645c5",
+      "title": "Mapping the shadows: scientists predict the ‘hidden highways’ of Mexico’s illegal wildlife trade - The Australian National University",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOaHlMWHJqTnBqY01HaXRhd2JqYTdTVjN0YlRqWFItN1hwcExRTDRjS181S2t2T0pmMzVQSjdIaWZwaEJwZ3BBX0htWGxWc3ZsMk1ucU9kWllYaVZWamZHb0tsb3ZIVmtkLUxObDZJSUNFV1RtNDFOajJEVW1PRDRLN0FtaHJHb2tfSHZnVEVlbGZDOGFkMlkySHh6RW0wZjItWnR2TTFGMWYybHpkanYtblUyR1pad2J1NUlyZTlpRlNORmx4ZWJhRQ?oc=5",
+      "date": "2026-08-25T07:00:00Z",
+      "summary": "Mapping the shadows: scientists predict the ‘hidden highways’ of Mexico’s illegal wildlife trade The Australian National University",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
+      "kind": "media"
+    },
+    {
       "id": "ff6e18a2ed2fb8549fa3",
       "title": "Global trends and impacts of the online illegal wildlife trade - Nature",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5wcGZKN29XOVoxOTFSZFd5T2UzRzViVEpGaGZUUjlaV0NsaV9tVkVsLURTWi1qNkZXanoxSEtGRzNFV1lkbnRSUzU2TE14ZXgtR09nTkhtVl8xR2J1UVpB?oc=5",
       "date": "2026-08-24T07:00:00Z",
       "summary": "Global trends and impacts of the online illegal wildlife trade Nature",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "2c4666f375defe235477",
+      "title": "Wildlife trafficking spreads across social media, putting thousands of species at risk - Phys.org",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPcG8tREJmQU9LWFJMWXFLMkxCMWYxam9XZHJCVi11VUs3dGk4eUZfdVVNMWZ2ZzRZNkZncWlOS3poLUN1RUowRWY1VW5wOWFEcWhTMkJGOHA0LWdKQnF6emRNcEZqT1ZKZk9sN2xVc1NxVXhDVDlrUmw0RERrNmstYU5MV0U?oc=5",
+      "date": "2026-08-24T07:00:00Z",
+      "summary": "Wildlife trafficking spreads across social media, putting thousands of species at risk Phys.org",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "54f37640517c913a5832",
+      "title": "Mapping the 'hidden highways' of Mexico's illegal wildlife trade - Phys.org",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5fVVpNSG53N2ZHYi1lQ1F0VGpsSVVYdURsWkFOWExTTGxuMllpX0JlS0wzUVR6Q0VRNEdHLXItYUNNSjhwamY3dzNvZzV4THl2dVh4enlNYmR4c1ctbi1vb3cwVVlrV2lEN0JLdHFURF95ckxTQzYweEh5OHlxVE0?oc=5",
+      "date": "2026-08-24T07:00:00Z",
+      "summary": "Mapping the 'hidden highways' of Mexico's illegal wildlife trade Phys.org",
       "source": "Wildtierhandel – Medien (News-Aggregation)",
       "kind": "media"
     }
@@ -1132,7 +1429,7 @@
     {
       "name": "Mongabay – Conservation News",
       "kind": "media",
-      "count": 18,
+      "count": 19,
       "ok": true
     },
     {
@@ -1144,13 +1441,13 @@
     {
       "name": "IFAW – Berichterstattung (News-Aggregation)",
       "kind": "media",
-      "count": 4,
+      "count": 9,
       "ok": true
     },
     {
       "name": "Wildtierhandel – Medien (News-Aggregation)",
       "kind": "media",
-      "count": 9,
+      "count": 35,
       "ok": true
     },
     {
@@ -1186,8 +1483,8 @@
     {
       "name": "Crossref: wildlife rescue",
       "kind": "study",
-      "count": 0,
-      "ok": false
+      "count": 5,
+      "ok": true
     },
     {
       "name": "Crossref: illegal wildlife trade",
@@ -1203,10 +1500,6 @@
     },
     {
       "source": "Crossref: marine mammal conservation",
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "source": "Crossref: wildlife rescue",
       "error": "HTTP Error 429: Too Many Requests"
     },
     {

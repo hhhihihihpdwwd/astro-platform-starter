@@ -3,13 +3,13 @@
   'use strict';
   const TOPICS = [
     {name:'Wildtierhandel', key:'wildtierhandel', terms:['wildlife trade','illegal wildlife','wild animal trade','wildtierhandel','poaching','poacher','wildlife trafficking','cites','ivory','elfenbein','exotic pet','exotische haustier','wildtierkriminal','illegal hunting','schmuggel','wildlife crime']},
-    {name:'Meeresschutz',key:'meeresschutz',terms:['whale','wal','dolphin','delphin','seal','robbe','marine','ocean','meeresschutz','ship strike','schiffsverkehr','fishing gear','beifang','right whale','shark','hai','sea turtle','ozean','coral']},
+    {name:'Meeresschutz',key:'meeresschutz',terms:['whale','wale','walen','walfang','waljagd','dolphin','delphin','seal','robbe','marine','ocean','meeresschutz','ship strike','schiffsverkehr','fishing gear','beifang','right whale','shark','hai','sea turtle','ozean','coral']},
     {name:'Wildtierrettung',key:'rettung',terms:['animal rescue','wildlife rescue','wildtierrettung','rescue operation','animal disaster','wildfire','waldbrand','überschwemmung','flood','drought','dürre','wildlife emergency','earthquake','rehabilitation','rehabilitierung']},
     {name:'Elefanten & Großwild',key:'elefanten',terms:['elephant','elefant','rhino','nashorn','lion','löwe','big cat','großkatze','tiger','pangolin','schuppentier','giraffe','giraff']},
     {name:'Biodiversität',key:'biodiversitaet',terms:['biodivers','species','artenschutz','naturschutz','wildlife','habitat','ecosystem','ökosystem','conservation','wildtier','endangered','bedrohte arten','rewilding','invasive alien']},
     {name:'Politik & Recht',key:'politik',terms:['cites','treaty','agreement','regulation','directive','parliament','commission','gesetz','verordnung','konvention','ratifikation','united nations','europäische union','environment council','policy','minister','recht','resolution','protection act']}
   ];
-  const STRONG=['ifaw','wildlife trade','wildtierhandel','wildlife trafficking','cites','poaching','elephant','elefant','rhino','nashorn','whale','wal','animal rescue','wildtierrettung','exotic pet'];
+  const STRONG=['ifaw','wildlife trade','wildtierhandel','wildlife trafficking','cites','poaching','elephant','elefant','rhino','nashorn','whale','wale','walen','walfang','animal rescue','wildtierrettung','exotic pet'];
   const CRISIS=['wildfire','waldbrand','flood','überschwemmung','oil spill','ölpest','strandung','stranding','mass die-off','mass mortality','disease outbreak','seuche','poaching','wildlife trafficking','wilderei','drought','dürre','disaster','emergency','animal cruelty','tierquälerei'];
   const STOP=new Set(['und','oder','für','eine','einen','einem','einer','der','die','das','den','dem','von','mit','auf','bei','über','zur','zum','was','gibt','neues','aktuelle','aktuellen','aktuell','neue','neuen','sind','wie','hat','ist','sich','ich','the','and','for','from','with','what','about','recent','news','show','me','please','im','ifaw','mich','meine','welche','welcher','welches','today','heute','dieser','dieses']);
   const fold=(s)=>String(s||'').toLocaleLowerCase('de-DE').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/ß/g,'ss');

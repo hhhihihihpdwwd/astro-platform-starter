@@ -13,7 +13,13 @@ import json, re, hashlib
 ROOT=Path(__file__).resolve().parents[1]
 FEED=ROOT/'data/articles.json'
 PICK=ROOT/'data/daily_study.json'
-TERMS=('elephant','whale','wildlife','biodivers','conserv','habitat','poach','marine mammal','human-wildlife','rhino','species','pangolin','ecolog','animal')
+TITLE_TERMS=('wildlife','elephant','whale','rhino','pangolin','poaching','animal welfare','human-wildlife',
+             'human wildlife','marine mammal','endangered species','wild animal','biodiversity','wildlife trade',
+             'habitat restoration','habitat loss','wild mammal','animal conservation','wildlife conservation')
+EXCLUDE=('vaccine','epitope','protein','hla-binding','arabidopsis','iron deficiency response','gene regulation')
+def relevant_title(title):
+    value=(title or '').casefold()
+    return any(t in value for t in TITLE_TERMS) and not any(t in value for t in EXCLUDE)
 def text_only(raw):
     class Parser(HTMLParser):
         def __init__(self):super().__init__();self.p=[]
@@ -50,7 +56,7 @@ def get_europe_pmc(now, fetch=None):
             request=Request(u,headers={'User-Agent':'WildlifeCommandCenter/0.4 (public metadata-only research monitor)','Accept':'application/json'})
             with urlopen(request,timeout=22) as r:return r.read(3_000_000)
     since=(now-timedelta(days=45)).date().isoformat()
-    qry='(elephant OR whale OR wildlife OR biodiversity OR poaching OR conservation) AND FIRST_PDATE:['+since+' TO '+now.date().isoformat()+']'
+    qry='(TITLE:elephant OR TITLE:wildlife OR TITLE:whale OR TITLE:rhino OR TITLE:poaching OR TITLE:biodiversity OR TITLE:"animal welfare") AND FIRST_PDATE:['+since+' TO '+now.date().isoformat()+']'
     query=urlencode({'query':qry,'format':'json','resultType':'core','pageSize':70,'sort':'P_PDATE_D desc'})
     raw=json.loads(fetch('https://www.ebi.ac.uk/europepmc/webservices/rest/search?'+query))
     items=[]
@@ -58,7 +64,7 @@ def get_europe_pmc(now, fetch=None):
         title=text_only(work.get('title',''))[:230]
         abstract=text_only(work.get('abstractText',''))
         doi=str(work.get('doi') or '').strip()
-        if not title or not doi or not abstract or not any(t in title.casefold() for t in TERMS):continue
+        if not title or not doi or not abstract or not relevant_title(title):continue
         date=str(work.get('firstPublicationDate') or work.get('firstIndexDate') or '')[:10]
         if not re.fullmatch(r'\d{4}-\d{2}-\d{2}',date):continue
         try:
@@ -78,7 +84,7 @@ def merge_studies(articles, new_studies):
     return sorted(items.values(),key=lambda a:a.get('date') or '',reverse=True)[:650]
 def choose(items, previous, now):
     today=now.astimezone(ZoneInfo('Europe/Berlin')).date().isoformat()
-    studies=[a for a in items if a.get('kind')=='study' and a.get('url','').startswith('https://doi.org/')]
+    studies=[a for a in items if a.get('kind')=='study' and a.get('url','').startswith('https://doi.org/') and relevant_title(a.get('title',''))]
     if not studies:return None
     if isinstance(previous,dict) and previous.get('date')==today and any(a['id']==previous.get('id') for a in studies):
         return previous
@@ -89,6 +95,8 @@ def choose(items, previous, now):
 def run(now=None, fetch=None):
     now=now or datetime.now(timezone.utc)
     feed=json.loads(FEED.read_text('utf8'))
+    # Remove previously captured unrelated molecular/plant papers from this source.
+    feed['articles']=[a for a in feed.get('articles',[]) if a.get('study_source')!='Europe PMC' or relevant_title(a.get('title',''))]
     prior=json.loads(PICK.read_text('utf8')) if PICK.exists() else None
     try:
         found=get_europe_pmc(now,fetch)

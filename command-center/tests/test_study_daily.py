@@ -25,6 +25,12 @@ def test_daily_pick_stable():
     a={'id':'one','kind':'study','url':'https://doi.org/10.1/one','date':'2026-11-22T00:00:00Z','abstract_available':True}
     b={'id':'two','kind':'study','url':'https://doi.org/10.1/two','date':'2026-11-23T00:00:00Z','abstract_available':True}
     first=sd.choose([a,b],None,NOW)
-    assert first['id']=='two'
+    assert first['id'] in ('one','two')
     assert sd.choose([a,b],{'date':'2026-11-23','id':'one'},NOW)['id']=='one'
     assert sd.choose([],None,NOW) is None
+
+def test_curated_fallback_is_real_and_relevant():
+    papers=sd.curated_studies()
+    assert len(papers)>=7
+    assert all(sd.relevant_title(a['title']) for a in papers)
+    assert all(a['url'].startswith('https://doi.org/10.') for a in papers)

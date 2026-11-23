@@ -14,12 +14,20 @@ ROOT=Path(__file__).resolve().parents[1]
 FEED=ROOT/'data/articles.json'
 PICK=ROOT/'data/daily_study.json'
 TITLE_TERMS=('wildlife','elephant','whale','rhino','pangolin','poaching','animal welfare','human-wildlife',
-             'human wildlife','marine mammal','endangered species','wild animal','biodiversity','wildlife trade',
-             'habitat restoration','habitat loss','wild mammal','animal conservation','wildlife conservation')
-EXCLUDE=('vaccine','epitope','protein','hla-binding','arabidopsis','iron deficiency response','gene regulation')
+             'human wildlife','marine mammal','endangered species','wild animal','wildlife trade',
+             'wild mammal','animal conservation','wildlife conservation')
+EXCLUDE=('vaccine','epitope','protein','hla-binding','arabidopsis','iron deficiency response','gene regulation',
+         'frozen elephant trunk','tevar','aortic','surgery','dextrocardia','cardiac',
+         'livestock farming','honeybee abundance','microbial treasure','actinobacteria')
+def strong_title(title):
+    value=(title or '').casefold()
+    return any(t in value for t in TITLE_TERMS)
 def relevant_title(title):
     value=(title or '').casefold()
-    return any(t in value for t in TITLE_TERMS) and not any(t in value for t in EXCLUDE)
+    if any(t in value for t in EXCLUDE):return False
+    if strong_title(title):return True
+    return 'biodiversity' in value and any(
+        t in value for t in ('wildlife','forest','habitat','ecosystem','land-use','landscape','conservation','restoration','tropical'))
 def text_only(raw):
     class Parser(HTMLParser):
         def __init__(self):super().__init__();self.p=[]
@@ -122,8 +130,10 @@ def choose(items, previous, now):
     today=now.astimezone(ZoneInfo('Europe/Berlin')).date().isoformat()
     studies=[a for a in items if a.get('kind')=='study' and a.get('url','').startswith('https://doi.org/') and relevant_title(a.get('title',''))]
     if not studies:return None
-    if isinstance(previous,dict) and previous.get('date')==today and any(a['id']==previous.get('id') for a in studies):
+    if isinstance(previous,dict) and previous.get('date')==today and any(a['id']==previous.get('id') and strong_title(a.get('title','')) for a in studies):
         return previous
+    strong=[a for a in studies if strong_title(a.get('title',''))]
+    if strong:studies=strong
     studies.sort(key=lambda a:(bool(a.get('abstract_available')),a.get('date') or ''),reverse=True)
     # Eine täglich wechselnde, echte Veröffentlichung – niemals einen erfundenen Eintrag.
     # Die ersten 12 aktuellen oder kuratierten Publikationen bilden den Auswahlpool.

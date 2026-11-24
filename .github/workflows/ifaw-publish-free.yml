@@ -31,6 +31,23 @@ jobs:
           node command-center/tests/test_study_ai.cjs
           node command-center/tests/test_live_news.cjs
           python -m py_compile command-center/scripts/collect.py command-center/scripts/study_daily.py command-center/scripts/enrich_studies.py
+      - name: Direkten Live-Medienindex auf Verfügbarkeit prüfen
+        run: |
+          python - <<'PY'
+          from urllib.request import Request,urlopen
+          from urllib.parse import urlencode
+          import json
+          params=urlencode({'query':'"wildlife conservation"','mode':'artlist','format':'json','maxrecords':'3','timespan':'1d','sort':'datedesc'})
+          url='https://api.gdeltproject.org/api/v2/doc/doc?'+params
+          try:
+              req=Request(url,headers={'User-Agent':'Mozilla/5.0 (WildlifeCommandCenter Diagnostics)','Accept':'application/json'})
+              with urlopen(req,timeout=15) as res:
+                  body=res.read(500000)
+                  data=json.loads(body)
+                  print('GDELT_PROBE_OK status='+str(res.status)+' entries='+str(len(data.get('articles',[])))+' CORS='+str(res.headers.get('Access-Control-Allow-Origin')))
+          except Exception as error:
+              print('GDELT_PROBE_WARNING: '+str(error)[:240])
+          PY
       - name: Drei lizenzierte Symbolfotos lokal in die Seite integrieren
         run: |
           mkdir -p command-center/assets

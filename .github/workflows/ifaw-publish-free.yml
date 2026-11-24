@@ -49,7 +49,7 @@ jobs:
               print('GDELT_PROBE_WARNING: '+str(error)[:240])
           try:
               rss='https://api.rss2json.com/v1/api.json?'+urlencode({'rss_url':'https://news.mongabay.com/feed/'})
-              request=Request(rss,headers={'User-Agent':'Mozilla/5.0 (WildlifeCommandCenter Diagnostics)','Accept':'application/json'})
+              request=Request(rss,headers={'User-Agent':'Mozilla/5.0 (WildlifeCommandCenter Diagnostics)','Accept':'application/json','Origin':'https://shell-moose-jdp4m.ship.place'})
               with urlopen(request,timeout=15) as res:
                   body=res.read(500000)
                   response=json.loads(body)

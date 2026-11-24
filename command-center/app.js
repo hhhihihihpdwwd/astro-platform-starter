@@ -13,7 +13,7 @@ const link=(item,label)=>'<a href="'+esc(safeUrl(item.url))+'" target="_blank" r
 const NAV=[['dashboard','Übersicht'],['news','Global News'],['pr','PR-Chancen'],['crisis','Crisis Watch'],['studies','Studien'],['policy','Politik'],['ifaw','IFAW-News'],['sources','Quellen']];
 let saved=new Set();
 try{saved=new Set(JSON.parse(localStorage.getItem('wc_saved_v4')||'[]'))}catch{}
-const state={view:'dashboard',search:'',feed:{articles:[],sources:[],failures:[],generated_at:null},fetchError:'',fetching:false,lastFetchAt:0,archiveCheckedAt:null,liveArticles:[],liveCheckedAt:null,liveError:'',saved,onlySaved:false,studyAI:null};
+const state={view:'dashboard',search:'',feed:{articles:[],sources:[],failures:[],generated_at:null},fetchError:'',fetching:false,lastFetchAt:0,archiveCheckedAt:null,liveArticles:[],liveCheckedAt:null,liveProvider:null,liveError:'',saved,onlySaved:false,studyAI:null};
 let toastTimer;
 function toast(message){const node=$('#toast');if(!node)return;node.textContent=message;node.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>node.classList.remove('show'),3300)}
 function storeSaved(){try{localStorage.setItem('wc_saved_v4',JSON.stringify([...state.saved]))}catch{toast('Merkliste konnte nicht gespeichert werden.')}} 
@@ -105,7 +105,7 @@ function status(){
   let label='Noch keine Quellen geladen',level='warn';
   if(state.fetching){label='Prüfe Archiv und Live-Meldungen …';level=''}
   else if(Number.isFinite(liveAge)&&liveAge<=75){
-    label='Live-Suche geprüft · '+state.liveArticles.length+' Treffer · '+fmtTime(state.liveCheckedAt);
+    label=(state.liveProvider||'Live-Suche')+' geprüft · '+state.liveArticles.length+' Treffer · '+fmtTime(state.liveCheckedAt);
     level='';
   }else if(Number.isFinite(archiveAge)){
     label='Archiv: '+(archiveAge<60?archiveAge+' Min.':Math.round(archiveAge/60)+' Std.')+' alt';
@@ -244,13 +244,13 @@ function sourcesView(){
     '<div class="notice">Die Seite ist öffentlich zugänglich und <strong>kein offizielles IFAW-Angebot</strong>. Keine vertraulichen IFAW-Daten eingeben. Es gibt keine Anmeldung, keine Aufgaben- oder Chatfunktion und keine kostenpflichtige KI-API.</div>'+
     '<div class="dashboard-grid"><div class="column"><section class="panel"><div class="panel-inner">'+panelTop('◎','Aktualität der Quellen')+
     '<p class="muted">Öffentliches Archiv (GitHub): <strong>'+esc(fmtTime(state.feed.generated_at))+'</strong>. Zuletzt auf eine neue Archivdatei geprüft: <strong>'+esc(fmtTime(state.archiveCheckedAt))+'</strong>.</p>'+
-    '<p class="muted">Direkte Live-Suche (GDELT): <strong>'+esc(state.liveCheckedAt?fmtTime(state.liveCheckedAt):'noch kein erfolgreicher Abruf')+'</strong>. Aktuell '+state.liveArticles.length+' gefilterte Meldungen in dieser Sitzung. '+esc(state.liveError?'Letzter Fehler: '+state.liveError:'Die Live-Suche hat geantwortet oder wird noch geprüft.')+'</p>'+
+    '<p class="muted">Direkte Live-Suche ('+esc(state.liveProvider||'GDELT / Mongabay RSS')+'): <strong>'+esc(state.liveCheckedAt?fmtTime(state.liveCheckedAt):'noch kein erfolgreicher Abruf')+'</strong>. Aktuell '+state.liveArticles.length+' gefilterte Meldungen in dieser Sitzung. '+esc(state.liveError?'Letzter Fehler: '+state.liveError:'Die Live-Suche hat geantwortet oder wird noch geprüft.')+'</p>'+
     '<p class="muted">Der Browser fragt beim Öffnen, auf Knopfdruck und spätestens stündlich beide Quellen erneut ab. Der automatische GitHub-Lauf kann sich verzögern. Ein erneuter Abruf ist nicht automatisch eine neue Veröffentlichung.</p>'+
-    '<p class="muted">GDELT ist ein kostenloser, öffentlicher Medienindex. Live-Meldungen enthalten nur Originaltitel, Metadaten und Links, keine unabhängig bestätigten Artikelinhalte. Quelle: <a href="https://www.gdeltproject.org/" target="_blank" rel="noopener noreferrer">The GDELT Project</a>.</p>'+
+    '<p class="muted">GDELT ist ein öffentlicher Medienindex; als Ausfallsicherung nutzen wir öffentliche Mongabay-RSS-Titel über rss2json.com (kostenloses, begrenztes Kontingent). Live-Meldungen enthalten nur Originaltitel, Metadaten und Links, keine unabhängig bestätigten Artikelinhalte. Quelle: <a href="https://www.gdeltproject.org/" target="_blank" rel="noopener noreferrer">The GDELT Project</a> · <a href="https://news.mongabay.com/" target="_blank" rel="noopener noreferrer">Mongabay</a> · <a href="https://rss2json.com/" target="_blank" rel="noopener noreferrer">rss2json</a>.</p>'+
     (fails.length?'<div class="notice warn">'+fails.length+' Quellen lieferten zuletzt Fehler. Der Bestand kann unvollständig sein.</div>':'')+
     sources.map(s=>'<div class="source-row"><strong>'+esc(s.name)+'</strong><span>'+esc(s.ok?String(s.count)+' Treffer':'Abruf fehlgeschlagen')+'</span></div>').join('')+
     '</div></section></div><div class="column"><section class="panel"><div class="panel-inner">'+panelTop('ⓘ','Datenschutz & Einordnung')+
-    '<p class="muted">Die App speichert eine freiwillige Merkliste nur im lokalen Browser. Externe Netzwerkzugriffe erfolgen zum Webhost, zu den öffentlichen JSON-Daten auf GitHub und direkt zum GDELT-Medienindex. Diese Anbieter können technische Zugriffsdaten verarbeiten.</p>'+
+    '<p class="muted">Die App speichert eine freiwillige Merkliste nur im lokalen Browser. Externe Netzwerkzugriffe erfolgen zum Webhost, zu GitHub sowie bei direkter Live-Suche zu GDELT und rss2json.com. Diese Anbieter können technische Zugriffsdaten verarbeiten.</p>'+
     '<p class="muted">Vor einem offiziellen oder produktiven Einsatz: Freigabe durch eure IT, Marken- und Bildrechte, Quellen-Nutzungsbedingungen, Impressum und Datenschutzhinweise klären.</p>'+
     '<p class="muted">Bildnachweise (Symbolbilder, keine Ereignisfotos): <a href="https://unsplash.com/photos/an-elephant-walks-through-dry-grass-in-savanna-giucwGEgRsE" target="_blank" rel="noopener noreferrer">Elefant – Eric Dekker</a>, <a href="https://unsplash.com/photos/whale-tail-in-the-middle-of-ocean-larQY4lhbT4" target="_blank" rel="noopener noreferrer">Wal – Mike Doherty</a>, <a href="https://unsplash.com/photos/a-lush-green-forest-filled-with-lots-of-trees-GlNSjGRugTE" target="_blank" rel="noopener noreferrer">Wald – Maximus Beaumont</a> (<a href="https://unsplash.com/license" target="_blank" rel="noopener noreferrer">Lizenz</a>).</p>'+
     '<button type="button" class="small-button" id="clearSaved">Gespeicherte Artikel löschen</button></div></section></div></div>';
@@ -326,6 +326,7 @@ async function fetchLive(){
     const data=await Live.load();
     state.liveArticles=data.articles;
     state.liveCheckedAt=data.checkedAt;
+    state.liveProvider=data.provider;
     state.liveError='';
     return {ok:true,count:data.articles.length};
   }catch(err){

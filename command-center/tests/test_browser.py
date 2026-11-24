@@ -59,14 +59,45 @@ def test_desktop_dashboard():
             })
           };
         }""")
-        page.evaluate('(feed)=>{window.fetch=async()=>({ok:true,json:async()=>feed})}',FIXTURE)
+        page.evaluate("""(feed)=>{
+          window._calls={archive:0,live:0};
+          window._liveResponse={articles:[
+            {title:'Elephant wildlife conservation rescue after floods',
+             url:'https://news.example.org/elephant',
+             seendate:new Date().toISOString().replace(/[-:]/g,'').slice(0,15)+'Z'}
+          ]};
+          window.fetch=async(u)=>{
+            if(String(u).includes('api.gdeltproject.org')){
+              window._calls.live++;
+              return {ok:true,status:200,json:async()=>window._liveResponse};
+            }
+            window._calls.archive++;
+            return {ok:true,status:200,json:async()=>feed};
+          };
+        }""",FIXTURE)
         page.add_script_tag(path=str(ROOT/'lib'/'analysis.js'))
         page.add_script_tag(path=str(ROOT/'lib'/'clock.js'))
         page.add_script_tag(path=str(ROOT/'lib'/'study-ai.js'))
+        page.add_script_tag(path=str(ROOT/'lib'/'live-news.js'))
         page.add_script_tag(path=str(ROOT/'app.js'))
         page.get_by_text('New protections for whales').first.wait_for()
         assert page.get_by_text('BAD GERMAN TRANSLATION').count()==0
         assert page.get_by_text('BAD MACHINE TEASER').count()==0
+        page.wait_for_function('window._calls.live>=1 && window._calls.archive>=1')
+        assert 'Live-Suche geprüft' in page.locator('#topStatus').inner_text()
+        assert 'Elephant wildlife conservation rescue after floods' in page.locator('main').inner_text()
+        page.locator('#refreshBtn').click()
+        page.wait_for_function('window._calls.live>=2')
+        assert 'Keine neueren Meldungen' in page.locator('#toast').inner_text()
+        page.evaluate("""() => window._liveResponse.articles.unshift({
+          title:'Wildlife trafficking authorities launch protection drive',
+          url:'https://news.example.org/wildlife-new',
+          seendate:new Date().toISOString().replace(/[-:]/g,'').slice(0,15)+'Z'
+        })""")
+        page.locator('#refreshBtn').click()
+        page.wait_for_function('window._calls.live>=3')
+        assert 'zusätzliche Meldungen' in page.locator('#toast').inner_text()
+
         assert re.match(r'Guten (Morgen|Tag|Abend), Luca\.',page.locator('#greeting').inner_text())
         assert re.match(r'\d\d:\d\d:\d\d',page.locator('#clock-hamburg').inner_text())
         assert page.locator('.world-clock').count()==3

@@ -9,7 +9,7 @@ on:
       - 'command-center/scripts/enrich_studies.py'
       - '.github/workflows/ifaw-command-center.yml'
   schedule:
-    - cron: '17 * * * *'
+    - cron: '11,41 * * * *'
 permissions:
   contents: write
 concurrency:

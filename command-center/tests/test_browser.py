@@ -84,7 +84,7 @@ def test_desktop_dashboard():
         assert page.get_by_text('BAD GERMAN TRANSLATION').count()==0
         assert page.get_by_text('BAD MACHINE TEASER').count()==0
         page.wait_for_function('window._calls.live>=1 && window._calls.archive>=1')
-        assert 'Live-Suche geprüft' in page.locator('#topStatus').inner_text()
+        assert 'GDELT geprüft' in page.locator('#topStatus').inner_text()
         assert 'Elephant wildlife conservation rescue after floods' in page.locator('main').inner_text()
         page.locator('#refreshBtn').click()
         page.wait_for_function('window._calls.live>=2')

@@ -1,7 +1,52 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-24T02:12:53.403159Z",
+  "generated_at": "2026-11-24T08:28:19.679701Z",
   "articles": [
+    {
+      "id": "ab1d91c9b09c63755c7d",
+      "title": "Campaigners urge Albanese government to reject ‘climate bomb’ coalmine expansion after Cop31",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/24/campaigners-urge-albanese-government-to-reject-climate-bomb-coalmine-expansion-after-cop31",
+      "date": "2026-11-24T07:42:57Z",
+      "summary": "Hunter Valley Operations expansion in New South Wales would allow additional 430m tonnes of coal to be extracted and burned Sign up for climate and environment editor Adam Morton’s free Clear Air newsletter here Climate campaigners are urging the…",
+      "source": "The Guardian – Environment",
+      "kind": "media"
+    },
+    {
+      "id": "c088402998844d619898",
+      "title": "Lion cubs sold for up to $10,000 as illegal wildlife trade spreads online in Türkiye - Türkiye Today",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPRWNZS0c4ZGd5UWpPX2NYN1RfMU9aMzlHZGR1NlBDUlY1azNUcXdQTzRLWXZSN0lMSEhvVTcyN0JhSXNvekVYODdCWUl1ZERYMGEyTlgzZVgwOFBqMEdyUjg5WW51bm9BNWplV2NjX0dOb3VCWTFqSEhQTlNvU0xvaW5pR3JaQUhNd3REZm9yT2RKaHNUUHRUY1ZDMWlEWFdDSWJ5SFNaY1JIU2RWMTQ0NDY5aXZrZ0J3cFFJSVhHbWFvbHUx?oc=5",
+      "date": "2026-11-24T07:35:37Z",
+      "summary": "Lion cubs sold for up to $10,000 as illegal wildlife trade spreads online in Türkiye Türkiye Today",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "e62d65fc0f7ff0c59d0c",
+      "title": "Delia Smith joins opponents of £1.2bn data centre",
+      "url": "https://www.bbc.co.uk/news/articles/c678200xklgzo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-24T06:36:26Z",
+      "summary": "The TV cook and author is worried about the proposed Keswick facility's environmental impact.",
+      "source": "BBC – Wissenschaft & Umwelt",
+      "kind": "media"
+    },
+    {
+      "id": "10bae59e4f41f6461c0f",
+      "title": "A year of deadly floods and fires – and yet Cop31 still collapsed. When will our leaders grasp the scale of this crisis? | Bill McGuire",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/24/deadly-floods-fires-cop31-collapsed-climate-crisis",
+      "date": "2026-11-24T06:00:08Z",
+      "summary": "Fossil fuel producers are choking off progress while we reap the whirlwind of our inaction. This is what sleepwalking to disaster looks like It’s sometimes said that we are sleepwalking into climate catastrophe. But the reality is that we are…",
+      "source": "The Guardian – Environment",
+      "kind": "media"
+    },
+    {
+      "id": "e40a6c393887b818af52",
+      "title": "Timor-Leste issues guidelines for whale-watching, but malpractice is rife as industry booms",
+      "url": "https://news.mongabay.com/2026/11/timor-leste-issues-guidelines-for-whale-watching-but-malpractice-is-rife-as-industry-booms/",
+      "date": "2026-11-24T04:56:04Z",
+      "summary": "DILI, Timor-Leste — As the annual whale migration gets into full swing in Timor-Leste, conservationists are raising concerns about increasingly aggressive tourist encounters with the world’s largest animals, despite new guidelines designed to…",
+      "source": "Mongabay – Conservation News",
+      "kind": "media"
+    },
     {
       "id": "f70b649af6df82267de2",
       "title": "Robert Macfarlane says trust in Cop to deliver change on climate is ‘misplaced’",
@@ -9,6 +54,15 @@
       "date": "2026-11-24T00:01:00Z",
       "summary": "Nature writer reveals in his first Reith lecture that he finds ‘much more hope’ in emerging alliances We are “misplacing our trust” in the Cop climate summits and their “capacity to deliver consequential change”, according to Robert Macfarlane in…",
       "source": "The Guardian – Environment",
+      "kind": "media"
+    },
+    {
+      "id": "a7c81883ae3b50222eb6",
+      "title": "Lion And Tiger Cubs Rescued In South Africa Wildlife Trafficking Investigation; Three Arrested - World Animal News",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQ2RMY1lBbWRrWTFJc3FBeXQySW1CVjRJM2V2STgxUGNtOWRFSmZkQjFzeUh3cGplZkdjY2c2aDY1STQyWUFab3FWdzFnZmlNRXFzWDNrN05tdTBpa3JUWlhyV29iQWltM1ZmSHoyMGhzZllYZVpSQjhsd1dXY2lHMXI0bE1CaEo3dzUzN0lRTlpuaTF4dmE5a18yRWRTRVZIaTliUVRpU3lYMzFFaWF1UExmTHZoTlJfMGxjZkpaWk9adw?oc=5",
+      "date": "2026-11-23T22:41:00Z",
+      "summary": "Lion And Tiger Cubs Rescued In South Africa Wildlife Trafficking Investigation; Three Arrested World Animal News",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
       "kind": "media"
     },
     {
@@ -45,6 +99,15 @@
       "date": "2026-11-23T17:24:25Z",
       "summary": "Interests of oil-producing countries, a US boycott and a dispute over finance may have torpedoed climate talks.",
       "source": "BBC – Wissenschaft & Umwelt",
+      "kind": "media"
+    },
+    {
+      "id": "d15420792a5c3d1ddc50",
+      "title": "Customs warns against illegal wildlife trade, as Ogun I hands over seized Pangolins - Nigerian NewsDirect",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNT1JpbEQ0dGZpVXlNVlp6ZFZGTnhhNmJMeTZyMVdjQkFxUmNFa08tdkl6aXA2NkEyM0tvb1k5ZC1EdWNJT0pPbE5reUdGRktmZDZScnRiaUl1eWJBZkV1RkJUSXE3TEplNks4eG93LU96cnozSG4xSkJwY2xYVkpOUnJRX19RUmV1SWFyTUh5UlloOXRSQ01kUFVwLVpyaFFiV1ctTTROQWM0aDJCWVZaOUk5dzk?oc=5",
+      "date": "2026-11-23T16:35:28Z",
+      "summary": "Customs warns against illegal wildlife trade, as Ogun I hands over seized Pangolins Nigerian NewsDirect",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
       "kind": "media"
     },
     {
@@ -704,11 +767,11 @@
       "kind": "media"
     },
     {
-      "id": "c89f41e9f27d1e8c908d",
-      "title": "Young artists to reimagine people & wildlife sharing the planet - International Fund for Animal Welfare | IFAW",
+      "id": "ac7fc3e45666b4dac846",
+      "title": "Young artists invited to reimagine how people and wildlife share the planet - International Fund for Animal Welfare | IFAW",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUG9zb2FsSFRRbHpzSVZqLWl3WXUyeHFoQjRuWmNTbV9XMG0zWFh2dEs3bnB2M2cyRXZiNEh1b3BHenJuTnpRd2l1ZDJJek5pcnl2NDJNYS1FUWctS2lnSXFiZHdmRGEtQ3dXd1hURDk5Z0hBR3VBOTdwV2F0MkFNVXllUUNHNHRiMEZn?oc=5",
       "date": "2026-11-18T09:36:32Z",
-      "summary": "Young artists to reimagine people & wildlife sharing the planet International Fund for Animal Welfare | IFAW",
+      "summary": "Young artists invited to reimagine how people and wildlife share the planet International Fund for Animal Welfare | IFAW",
       "source": "IFAW – Berichterstattung (News-Aggregation)",
       "kind": "media"
     },
@@ -1132,6 +1195,15 @@
       "kind": "media"
     },
     {
+      "id": "053a4f093306ece67688",
+      "title": "Montana bighorn sheep case shows why wildlife trafficking laws matter - The Mountaineer",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPT1ZaOExYWlhvWVlEQUVfTmYzbXBHSXFWbHNGLXY1OUZEYXNKX0hhcG50aHVJM01iYm0wSkFwRFRyTkd4RmhRYjl3UVFNdzk0OVBKUTh2X19MYzV0NElDdFdlQ0hIWWhWS1NZU3VZQUVJMGUxY3QzM1BaOU1MOF9SZTFOVmdlZEFBOHhrYWxEY0lWMWFEeUVQV1Nhc1QtYk81RW9JYmNvQ00yUUZQclE0N0RwY1VLMGdyWnRFYi02c2NpMFAzQ2dSTGJPQTBoSjB6cmdrVmRwUGF6U3d0Tmt6bTlnV2F5OHdtQV9GbGRtOUx3Ri0wUEgw?oc=5",
+      "date": "2026-11-05T23:21:00Z",
+      "summary": "Montana bighorn sheep case shows why wildlife trafficking laws matter The Mountaineer",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
+      "kind": "media"
+    },
+    {
       "id": "8c8b795bdb2d0d117a84",
       "title": "Montana bighorn sheep case shows why wildlife trafficking laws matter - Nonstop Local News Montana",
       "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPbFl5QjcxYlBPcUFRQ3pBLWRUS214VDloa0NENVlQLVRxbVRkMWpkRXJ3dDFIZ2pENWJRVV9FdU9QTmdodzNWUkxpcUZnOGM5a1liZkN0NU5BNDJWdHAxc0hJNHZLbVJnU25fZXN5XzB6c1A4NE1MUW8xVEJ6ZnBaTm1jWmMwOTFYblhUbGRYMjJ0WUxwQ3pRdm5LNVROcnpnYWcya0ZHek5tS0NRQ25zN2tYTDZES1A2d3I5NC1wRU9pLS1qOEV6RHF5TmI5aFRLT3lCNlhkWGhNVUdxNlo3d2NLQW5RampKZGtZc0tLcw?oc=5",
@@ -1199,7 +1271,9 @@
       "abstract_available": true,
       "summary": "Die Veröffentlichung behandelt bedrohte Groß- und Wildtiere. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
       "abstract_excerpt": "Pangolins are among the world's most trafficked and endangered mammals, yet their exposure to emerging organic contaminants (EOCs) remains largely uncharacterized. Their keratinous scales represent an untapped matrix for potentially non-invasive biomonitoring. This study developed and validated a modified QuEChERS-based extraction coupled with liquid chromatography-quadrupole time-of-flight mass spectrometry (LC-QTOF/MS) for suspect screening and targeted quantification of EOCs in pangolin scales. The workflow was applied to scales collected from 18 deceased wild Formosan pangolins (Manis pentadactyla pentadactyla) with an",
-      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung."
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "abstract_source_text": "Pangolins are among the world's most trafficked and endangered mammals, yet their exposure to emerging organic contaminants (EOCs) remains largely uncharacterized. Their keratinous scales represent an untapped matrix for potentially non-invasive biomonitoring. This study developed and validated a modified QuEChERS-based extraction coupled with liquid chromatography–quadrupole time-of-flight mass spectrometry (LC-QTOF/MS) for suspect screening and targeted quantification of EOCs in pangolin scales. The workflow was applied to scales collected from 18 deceased wild Formosan pangolins ( Manis pentadactyla pentadactyla ) with and without documented rescue histories. A total of 57 EOCs spanning six chemical classes were tentatively identified, reflecting environmental contamination and rescue-associated pharmaceutical exposure. Eight EOCs were further selected and confirmed as targets. The method achieved recoveries of 70–120%, relative standard deviations ≤20%, and method detection limits ranging from 0.1 to 2.0 µg kg −1 . Target EOC concentrations spanned nearly four orders of magnitude, from 0.84 µg kg −1 (isoxaflutole) to 15,400 µg kg −1 (enrofloxacin). Compositional and quantitative EOC patterns showed substantial inter-individual variation and rescue-associated pharmaceutical signatures. This study provides the first report of multiple EOC residues in pangolin scales, supporting their further evaluation as a potential retrospective biomonitoring matrix for wildlife conservation across the family Manidae .",
+      "abstract_origin": "OpenAlex DOI abstract"
     },
     {
       "id": "392813e0ed69c00d4f80",
@@ -1281,7 +1355,9 @@
       "abstract_available": true,
       "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
       "abstract_excerpt": "The restoration of degraded ecosystems is critical for mitigating climate change and reversing biodiversity loss. Depending on the primary objective-such as maximizing carbon sequestration or protecting threatened species-and within the boundaries of budget limitations, different spatial priorities have been identified at global and regional scales. Funding mechanisms to support such work comprise public sources, philanthropy, and the private sector, including the sale of carbon and biodiversity credits. However, effectively exploring trade-offs among restoration objectives and estimating the price of biodiversity and carb",
-      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung."
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "abstract_source_text": "The restoration of degraded ecosystems is critical for mitigating climate change and reversing biodiversity loss. Depending on the primary objective-such as maximizing carbon sequestration or protecting threatened species-and within the boundaries of budget limitations, different spatial priorities have been identified at global and regional scales. Funding mechanisms to support such work comprise public sources, philanthropy, and the private sector, including the sale of carbon and biodiversity credits. However, effectively exploring trade-offs among restoration objectives and estimating the price of biodiversity and carbon credits to design financially viable projects remains scientifically challenging. Here we harness the power of artificial intelligence implemented in the software CAPTAIN to identify spatial priorities for ecological restoration that maximize multiple objectives at once and to allow a robust evaluation of biodiversity and climate outcomes. We find through a series of simulations that even low-to-moderate consideration of biodiversity in the design of restoration projects leads to the selection of restored areas that disproportionately improve the conservation of threatened species, while the carbon captured is only slightly reduced. We propose the bundling of biodiversity and carbon credits to support restoration efforts even in areas previously excluded for economic reasons. Applying our methodology to plant diversity in the Atlantic Forest of eastern South America, one of the most biodiverse and threatened ecosystems globally, we demonstrate its potential to guide restoration and to quantify trade-offs between multiple optimization scenarios. Our study provides a robust, scalable method to maximize the joint benefits of ecological restoration for climate and nature.",
+      "abstract_origin": "OpenAlex DOI abstract"
     },
     {
       "id": "7b9f97e584bdf4f3ccce",
@@ -1294,7 +1370,9 @@
       "abstract_available": true,
       "summary": "Die Veröffentlichung behandelt Wildtier- und Naturschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
       "abstract_excerpt": "Background Cryptosporidium spp. and Giardia duodenalis are important parasitic protozoa infecting humans and a wide range of animal species. Some species and assemblages have zoonotic potential and pose health risks to both humans and animals. Objectives This study aimed to molecularly detect and characterize Cryptosporidium spp. and G. duodenalis and assess their zoonotic potential in pigs, cattle, cats and wildlife. Materials and methods Nested PCR and sequence analyses of the small subunit ribosomal RNA (ssu rRNA) gene for Cryptosporidium spp. and ssu rRNA, β-giardin (bg), glutamate dehydrogenase (gdh) and triosephospha",
-      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung."
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "abstract_source_text": "BACKGROUND: Cryptosporidium spp. and Giardia duodenalis are important parasitic protozoa infecting humans and a wide range of animal species. Some species and assemblages have zoonotic potential and pose health risks to both humans and animals. OBJECTIVES: This study aimed to molecularly detect and characterize Cryptosporidium spp. and G. duodenalis and assess their zoonotic potential in pigs, cattle, cats and wildlife. MATERIALS AND METHODS: Nested PCR and sequence analyses of the small subunit ribosomal RNA (ssu rRNA) gene for Cryptosporidium spp. and ssu rRNA, β-giardin (bg), glutamate dehydrogenase (gdh) and triosephosphate isomerase (tpi) genes for G. duodenalis were used for molecular detection and characterization. RESULTS: The PCR positivity rate for Cryptosporidium was 17.9% (12/67) in pigs, whereas the corresponding rates for G. duodenalis were 6.0% (4/67) in pigs and 2.5% (2/80) in cats. Neither parasite was detected in cattle (0/61) or wildlife (0/144). Cryptosporidium scrofarum, a potentially zoonotic species, was the only Cryptosporidium species identified. Among the four Giardia-positive pig samples, assemblages B and E were each identified in two samples. Co-infection with C. scrofarum and assemblage E was detected in one pig. Feline-associated assemblage F was identified in two cat samples. CONCLUSIONS: Potentially zoonotic C. scrofarum and zoonotic G. duodenalis assemblage B were detected in pigs, together with livestock-associated assemblage E. Feline-associated assemblage F was identified in cats. These findings provide historical, sample-specific molecular data on the animals examined.",
+      "abstract_origin": "OpenAlex DOI abstract"
     },
     {
       "id": "8e3a0b9ecea0b11a3b90",
@@ -1393,6 +1471,15 @@
       "kind": "media"
     },
     {
+      "id": "99b6f927765b02634346",
+      "title": "IFAW and KAZA Celebrate Shared Vision For Connected Conservation Across Southern Africa - pan african visions",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNTDd2ejhLSW1vWldRNTFnSXUzX3FHTS1XdVc0TDh3NEs2R2lRcko5WENQUVN4MmxVZ3cyQ3lvVWxqbUhxYXMtYXdWLUtfTERBT3dZemlEMVR4UkwzQ0UtdVE1UGpfSEVUMHgtVUVNbnhROTBnOVpkWHZCNmNzS2ZKVG5QWVhPVnZJZ3VhNTZEYkVNN3lRX0FEWkdNRWltTmsxUFBwTk9HMkdSNTdsa2dRcWY1SnZJWUY0engyZDZsY3hjU0Ix?oc=5",
+      "date": "2026-10-28T07:00:00Z",
+      "summary": "IFAW and KAZA Celebrate Shared Vision For Connected Conservation Across Southern Africa pan african visions",
+      "source": "IFAW – Berichterstattung (News-Aggregation)",
+      "kind": "media"
+    },
+    {
       "id": "9fae7168ae7fa1f4b3b1",
       "title": "500 Apfelbäume für den Klima- und Artenschutz - Kreis Warendorf",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSWV6WXdaZGZmTllsUDZfcnROUDhCZVZkczZka3VpRFRPdjJZZmxpZVBFaEFpLXlHZnliTWRzU0o1QXM0U1pfZmRHSDZyV0ZLTlp6VWFwcmowOUpTYlBUa0llVEFkdDNBRWZJZ01zaU4tX3JzQUJwM19XM2pBSkR4QXFKOXJBUjA?oc=5",
@@ -1481,6 +1568,15 @@
       "summary": "Chinese social media used to facilitate illegal wildlife trade in Laos Eco-Business",
       "source": "Wildtierhandel – Medien (News-Aggregation)",
       "kind": "media"
+    },
+    {
+      "id": "d79d17f5a32e8cba4cb9",
+      "title": "Renewed flooding in Nepal leaves communities and animals facing further challenges - International Fund for Animal Welfare | IFAW",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8yWDQ5enQtV0ZRQy1VcEdPbmJVU2N2Z3BsNnJnWjVxYWRfeUtfSk9wdkJtM3BXNHgtejdUTjl1WEFraFRXbmZWbU42SVpDc1FCamhEYVl4ZU9JMGJQc1FJYktsbXNRMS1lOW5mclk5T2I?oc=5",
+      "date": "2026-10-22T07:00:00Z",
+      "summary": "Renewed flooding in Nepal leaves communities and animals facing further challenges International Fund for Animal Welfare | IFAW",
+      "source": "IFAW – öffentliche Meldungen (News-Aggregation)",
+      "kind": "ifaw"
     },
     {
       "id": "c09a491681f2de38f776",
@@ -1714,6 +1810,15 @@
       "kind": "media"
     },
     {
+      "id": "381856517a18a7a537be",
+      "title": "12 animals that help people and the planet - International Fund for Animal Welfare | IFAW",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5QUFlUd0VoWGNpdkh4NmxiMkRXWUZ4eVFpQmk0dlVtRm9pVW1sRi1ZYXJnc0hXdUh3cUk3SVU5aUlhd2l1QWZiRkdOd2JBem9BWm9iY2RjNWtyc0E4bnh2WFRhUzFyY25OaHdR?oc=5",
+      "date": "2026-10-04T07:00:00Z",
+      "summary": "12 animals that help people and the planet International Fund for Animal Welfare | IFAW",
+      "source": "IFAW – Berichterstattung (News-Aggregation)",
+      "kind": "media"
+    },
+    {
       "id": "5eb5f3f84d7282d39340",
       "title": "CDFW News | 10 Years of AB 96 in Action: Ivory and Rhino Horn Ban Gave CDFW the Might to Fight Wildlife Trafficking in California, Around the World - California Department of Fish and Wildlife (.gov)",
       "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNbG56TzFmalppSEx5dG55dlk4elVnb2FVUHlWN2NXV3Z0YXlEblk2cF9wb3F2dXFwM0VIZzA4ejd4dkhFYmV4NWNBU2pWdUgyb1NuVkY1SXkyek1YWjdPZy03WHkxNVo2Q1lDSW5WU1hVWUNYcWxpckZaNFJ1djBjVDNFekd5eV9jcGV6YXJGR0FiTzdfeXZXWVB6SVJrU055LUxnTU1RZFZpNDBXaTRxdHlHcWNaVjdMYTJqX20yQU9oVGp3NTVFSDJUcG9kQ1pBSk5NMVpTdk0yekJNdFhLdmVFcmI1X0FUVG54dzVvdF9ETzdQeW9mc21lZWNHcDA?oc=5",
@@ -1819,6 +1924,15 @@
       "date": "2026-09-21T07:00:00Z",
       "summary": "Crime Convergence: Why Transnational Crime Organizations Are Embracing the Illegal Wildlife Trade ASIS International",
       "source": "Wildtierhandel – Medien (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "e5381851e64119ca2965",
+      "title": "Pangolins & other wildlife reveal wider toll of Indonesia’s fires - International Fund for Animal Welfare | IFAW",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxORDA5S0pDaTQ5Q0RNTDBvVmpHbF9jLXJzdm1jYnk0QmtDZ0JwTnBlOHp0Z0dHR1FuMGtJMHhkYTRHLWZHdHpMX3hpUUJCeHVVWngxLTZWSTZ6MmZBUjhZUTFFVnVyM191OHJSZGFKdEthM3BqWERjajd6MEplNGxzLQ?oc=5",
+      "date": "2026-09-18T07:00:00Z",
+      "summary": "Pangolins & other wildlife reveal wider toll of Indonesia’s fires International Fund for Animal Welfare | IFAW",
+      "source": "IFAW – Berichterstattung (News-Aggregation)",
       "kind": "media"
     },
     {
@@ -2101,33 +2215,6 @@
       "kind": "media"
     },
     {
-      "id": "ff6e18a2ed2fb8549fa3",
-      "title": "Global trends and impacts of the online illegal wildlife trade - Nature",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5wcGZKN29XOVoxOTFSZFd5T2UzRzViVEpGaGZUUjlaV0NsaV9tVkVsLURTWi1qNkZXanoxSEtGRzNFV1lkbnRSUzU2TE14ZXgtR09nTkhtVl8xR2J1UVpB?oc=5",
-      "date": "2026-08-24T07:00:00Z",
-      "summary": "Global trends and impacts of the online illegal wildlife trade Nature",
-      "source": "Wildtierhandel – Medien (News-Aggregation)",
-      "kind": "media"
-    },
-    {
-      "id": "2c4666f375defe235477",
-      "title": "Wildlife trafficking spreads across social media, putting thousands of species at risk - Phys.org",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPcG8tREJmQU9LWFJMWXFLMkxCMWYxam9XZHJCVi11VUs3dGk4eUZfdVVNMWZ2ZzRZNkZncWlOS3poLUN1RUowRWY1VW5wOWFEcWhTMkJGOHA0LWdKQnF6emRNcEZqT1ZKZk9sN2xVc1NxVXhDVDlrUmw0RERrNmstYU5MV0U?oc=5",
-      "date": "2026-08-24T07:00:00Z",
-      "summary": "Wildlife trafficking spreads across social media, putting thousands of species at risk Phys.org",
-      "source": "Wildtierhandel – Medien (News-Aggregation)",
-      "kind": "media"
-    },
-    {
-      "id": "54f37640517c913a5832",
-      "title": "Mapping the 'hidden highways' of Mexico's illegal wildlife trade - Phys.org",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5fVVpNSG53N2ZHYi1lQ1F0VGpsSVVYdURsWkFOWExTTGxuMllpX0JlS0wzUVR6Q0VRNEdHLXItYUNNSjhwamY3dzNvZzV4THl2dVh4enlNYmR4c1ctbi1vb3cwVVlrV2lEN0JLdHFURF95ckxTQzYweEh5OHlxVE0?oc=5",
-      "date": "2026-08-24T07:00:00Z",
-      "summary": "Mapping the 'hidden highways' of Mexico's illegal wildlife trade Phys.org",
-      "source": "Wildtierhandel – Medien (News-Aggregation)",
-      "kind": "media"
-    },
-    {
       "id": "470d5290e0403ffd1302",
       "title": "An expanding human footprint drives escalating human–elephant conflict across a transboundary African landscape through 2085",
       "date": "2026-07-07T00:00:00Z",
@@ -2276,32 +2363,32 @@
     {
       "name": "Mongabay – Conservation News",
       "kind": "media",
-      "count": 16,
+      "count": 13,
       "ok": true
     },
     {
       "name": "IFAW – öffentliche Meldungen (News-Aggregation)",
       "kind": "ifaw",
-      "count": 0,
-      "ok": false
+      "count": 2,
+      "ok": true
     },
     {
       "name": "IFAW – Berichterstattung (News-Aggregation)",
       "kind": "media",
-      "count": 0,
-      "ok": false
+      "count": 12,
+      "ok": true
     },
     {
       "name": "Wildtierhandel – Medien (News-Aggregation)",
       "kind": "media",
-      "count": 0,
-      "ok": false
+      "count": 13,
+      "ok": true
     },
     {
       "name": "Deutschland – Wildtiere (News-Aggregation)",
       "kind": "media",
-      "count": 0,
-      "ok": false
+      "count": 8,
+      "ok": true
     },
     {
       "name": "Crossref: wildlife trafficking",
@@ -2330,39 +2417,17 @@
     {
       "name": "Crossref: wildlife rescue",
       "kind": "study",
-      "count": 5,
-      "ok": true
-    },
-    {
-      "name": "Crossref: illegal wildlife trade",
-      "kind": "study",
       "count": 0,
       "ok": false
     },
     {
-      "name": "Europe PMC – Studien & Abstracts",
+      "name": "Crossref: illegal wildlife trade",
       "kind": "study",
-      "count": 30,
+      "count": 1,
       "ok": true
     }
   ],
   "failures": [
-    {
-      "source": "IFAW – öffentliche Meldungen (News-Aggregation)",
-      "error": "HTTP Error 503: Service Unavailable"
-    },
-    {
-      "source": "IFAW – Berichterstattung (News-Aggregation)",
-      "error": "HTTP Error 503: Service Unavailable"
-    },
-    {
-      "source": "Wildtierhandel – Medien (News-Aggregation)",
-      "error": "HTTP Error 503: Service Unavailable"
-    },
-    {
-      "source": "Deutschland – Wildtiere (News-Aggregation)",
-      "error": "HTTP Error 503: Service Unavailable"
-    },
     {
       "source": "Crossref: marine mammal conservation",
       "error": "HTTP Error 429: Too Many Requests"
@@ -2372,8 +2437,12 @@
       "error": "HTTP Error 429: Too Many Requests"
     },
     {
-      "source": "Crossref: illegal wildlife trade",
+      "source": "Crossref: wildlife rescue",
       "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source": "Europe PMC",
+      "error": "The read operation timed out"
     }
   ],
   "events": [],

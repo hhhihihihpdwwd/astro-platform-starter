@@ -30,10 +30,11 @@ Die moderne Schrift nutzt die lokal verfügbaren Systemfonts, also **keine exter
 ## Aufbau und Null-Euro-Betrieb
 
 - Statische HTML/CSS/JS-Anwendung ohne kostenpflichtige KI-API.
-- GitHub Actions versucht **stündlich** öffentlich zugängliche RSS-/Atom-, Crossref- und Europe-PMC-Metadaten zu sammeln. Läufe können sich verzögern oder bei Quellenausfällen fehlschlagen. Der Browser fragt die Daten ebenfalls spätestens stündlich neu ab; die Sekunden-Uhren laufen ohne Netzwerkanfrage.
+- **Aktuelles Refresh-System (24.11.2026):** Die Website fragt beim Öffnen, spätestens stündlich und per Aktualisieren-Button **zwei unabhängige Quellen parallel** ab: (1) das gespeicherte GitHub-Archiv und (2) die aktuelle öffentliche GDELT-Nachrichtensuche direkt über die Browser-CORS-API. Die Live-Suche zeigt ausschließlich Originaltitel, Veröffentlichungsdaten und Links, niemals erfundene Artikeltexte. Der Button unterscheidet neue Meldungen, unveränderte Ergebnisse und Verbindungsfehler.
+- GitHub Actions hat **zwei geplante Versuche pro Stunde** (11 und 41 Minuten nach UTC-Stundenbeginn), um RSS-/Atom-, Crossref- und Europe-PMC-Metadaten zu sammeln. GitHub garantiert weder punktgenaue Ausführung noch vollständige Quellenabdeckung. Fehlt ein Scheduler-Lauf, bleibt die direkte Live-Suche trotzdem nutzbar, soweit GDELT erreichbar ist.
 - Website wird durch `.github/workflows/ifaw-publish-free.yml` auf einen kostenlosen statischen Host veröffentlicht. Dort werden HTML/CSS/JS/News-JSON und **drei lokale JPEG-Bilddateien** auf gültige HTTP-200-Antworten geprüft.
-- Die neuesten öffentlichen JSON-Meldungen lädt der Browser aus diesem GitHub-Repository, mit lokalem Snapshot als Fallback.
-- Es werden **keine Besucherdaten oder Chatfragen in eine Datenbank dieser Anwendung** geschrieben (es gibt keinen Chatbot). Eine freiwillige Merkliste verbleibt im Browser; Hoster und GitHub verarbeiten technische Verbindungsdaten.
+- Die archivierten öffentlichen JSON-Meldungen lädt der Browser aus GitHub, mit lokalem Snapshot als Fallback. Eine erfolgreiche Dateiabfrage bedeutet nicht automatisch neue Nachrichten. Live-Abfrage und Archivstand sind getrennt ausgewiesen.
+- Es werden **keine Besucherdaten oder Chatfragen in eine Datenbank dieser Anwendung** geschrieben (es gibt keinen Chatbot). Eine freiwillige Merkliste verbleibt im Browser. Beim Live-Abruf sendet der Browser Netzwerkzugriffe direkt an GDELT. Hoster, GitHub und GDELT können technische Zugriffsdaten verarbeiten.
 
 ## Originalmeldungen und KI-Studienanalyse
 

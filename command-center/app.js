@@ -243,11 +243,14 @@ function sourcesView(){
   return heading('Quellen & Transparenz','Datenherkunft, Aktualität und Hinweise zur Nutzung des öffentlichen Prototyps.')+
     '<div class="notice">Die Seite ist öffentlich zugänglich und <strong>kein offizielles IFAW-Angebot</strong>. Keine vertraulichen IFAW-Daten eingeben. Es gibt keine Anmeldung, keine Aufgaben- oder Chatfunktion und keine kostenpflichtige KI-API.</div>'+
     '<div class="dashboard-grid"><div class="column"><section class="panel"><div class="panel-inner">'+panelTop('◎','Aktualität der Quellen')+
-    '<p class="muted">Letzter erfolgreicher Datensatz: <strong>'+esc(fmtDate(state.feed.generated_at,{hour:'2-digit',minute:'2-digit'}))+'</strong>. Der Browser prüft stündlich auf neuere Daten. GitHub Actions versucht, öffentliche Quellen etwa stündlich abzurufen; geplante Läufe können sich verzögern.</p>'+
+    '<p class="muted">Öffentliches Archiv (GitHub): <strong>'+esc(fmtTime(state.feed.generated_at))+'</strong>. Zuletzt auf eine neue Archivdatei geprüft: <strong>'+esc(fmtTime(state.archiveCheckedAt))+'</strong>.</p>'+
+    '<p class="muted">Direkte Live-Suche (GDELT): <strong>'+esc(state.liveCheckedAt?fmtTime(state.liveCheckedAt):'noch kein erfolgreicher Abruf')+'</strong>. Aktuell '+state.liveArticles.length+' gefilterte Meldungen in dieser Sitzung. '+esc(state.liveError?'Letzter Fehler: '+state.liveError:'Die Live-Suche hat geantwortet oder wird noch geprüft.')+'</p>'+
+    '<p class="muted">Der Browser fragt beim Öffnen, auf Knopfdruck und spätestens stündlich beide Quellen erneut ab. Der automatische GitHub-Lauf kann sich verzögern. Ein erneuter Abruf ist nicht automatisch eine neue Veröffentlichung.</p>'+
+    '<p class="muted">GDELT ist ein kostenloser, öffentlicher Medienindex. Live-Meldungen enthalten nur Originaltitel, Metadaten und Links, keine unabhängig bestätigten Artikelinhalte. Quelle: <a href="https://www.gdeltproject.org/" target="_blank" rel="noopener noreferrer">The GDELT Project</a>.</p>'+
     (fails.length?'<div class="notice warn">'+fails.length+' Quellen lieferten zuletzt Fehler. Der Bestand kann unvollständig sein.</div>':'')+
     sources.map(s=>'<div class="source-row"><strong>'+esc(s.name)+'</strong><span>'+esc(s.ok?String(s.count)+' Treffer':'Abruf fehlgeschlagen')+'</span></div>').join('')+
     '</div></section></div><div class="column"><section class="panel"><div class="panel-inner">'+panelTop('ⓘ','Datenschutz & Einordnung')+
-    '<p class="muted">Die App speichert eine freiwillige Merkliste nur im lokalen Browser. Externe Netzwerkzugriffe erfolgen zum Webhost und zu den öffentlichen JSON-Daten auf GitHub; diese Dienstleister verarbeiten technisch notwendige Zugriffsdaten.</p>'+
+    '<p class="muted">Die App speichert eine freiwillige Merkliste nur im lokalen Browser. Externe Netzwerkzugriffe erfolgen zum Webhost, zu den öffentlichen JSON-Daten auf GitHub und direkt zum GDELT-Medienindex. Diese Anbieter können technische Zugriffsdaten verarbeiten.</p>'+
     '<p class="muted">Vor einem offiziellen oder produktiven Einsatz: Freigabe durch eure IT, Marken- und Bildrechte, Quellen-Nutzungsbedingungen, Impressum und Datenschutzhinweise klären.</p>'+
     '<p class="muted">Bildnachweise (Symbolbilder, keine Ereignisfotos): <a href="https://unsplash.com/photos/an-elephant-walks-through-dry-grass-in-savanna-giucwGEgRsE" target="_blank" rel="noopener noreferrer">Elefant – Eric Dekker</a>, <a href="https://unsplash.com/photos/whale-tail-in-the-middle-of-ocean-larQY4lhbT4" target="_blank" rel="noopener noreferrer">Wal – Mike Doherty</a>, <a href="https://unsplash.com/photos/a-lush-green-forest-filled-with-lots-of-trees-GlNSjGRugTE" target="_blank" rel="noopener noreferrer">Wald – Maximus Beaumont</a> (<a href="https://unsplash.com/license" target="_blank" rel="noopener noreferrer">Lizenz</a>).</p>'+
     '<button type="button" class="small-button" id="clearSaved">Gespeicherte Artikel löschen</button></div></section></div></div>';
@@ -289,26 +292,63 @@ function bindEvents(){
   $('#globalSearch').addEventListener('input',event=>{state.search=event.target.value.trim();render()});
   $('#refreshBtn').addEventListener('click',()=>loadFeed(true));
 }
-async function loadFeed(manual=false){
-  if(state.fetching)return;
-  state.fetching=true;state.lastFetchAt=Date.now();status();
-  let failure='';
-  const urls=['https://raw.githubusercontent.com/hhhihihpdwwd/astro-platform-starter/main/command-center/data/articles.json?refresh='+Date.now(),'data/articles.json?refresh='+Date.now()];
+async function fetchArchive(){
+  let lastError='';
+  const urls=[
+    'https://raw.githubusercontent.com/hhhihihihpdwwd/astro-platform-starter/main/command-center/data/articles.json?refresh='+Date.now(),
+    'data/articles.json?refresh='+Date.now()
+  ];
   for(const u of urls){
     try{
-      const ctrl=new AbortController(),timeout=setTimeout(()=>ctrl.abort(),15000);
+      const ctrl=new AbortController(),timeout=setTimeout(()=>ctrl.abort(),14000);
       let response;
       try{response=await fetch(u,{cache:'no-store',signal:ctrl.signal})}finally{clearTimeout(timeout)}
       if(!response.ok)throw Error('HTTP '+response.status);
       const data=await response.json();
-      if(!Array.isArray(data.articles)||!Array.isArray(data.sources))throw Error('Ungültiges Datenformat');
-      state.feed=data;failure='';break;
-    }catch(err){failure=String(err?.message||err)}
+      if(!data||!Array.isArray(data.articles)||!Array.isArray(data.sources))throw Error('Ungültiges JSON-Datenformat');
+      const oldTime=Date.parse(state.feed.generated_at||''),newTime=Date.parse(data.generated_at||'');
+      if(!Number.isFinite(newTime))throw Error('Archiv hat keinen gültigen Aktualisierungszeitpunkt');
+      state.archiveCheckedAt=new Date().toISOString();
+      // A stale static snapshot must never overwrite a newer GitHub copy.
+      if(!Number.isFinite(oldTime)||newTime>=oldTime){
+        const changed=state.feed.generated_at!==data.generated_at;
+        state.feed=data;state.fetchError='';return {ok:true,changed};
+      }
+      state.fetchError='';return {ok:true,changed:false,olderSnapshot:true};
+    }catch(err){lastError=String(err?.message||err)}
   }
-  state.fetchError=failure;
+  state.fetchError=lastError||'Abruf fehlgeschlagen';
+  return {ok:false,changed:false};
+}
+async function fetchLive(){
+  try{
+    if(!Live)throw Error('Live-Suchmodul nicht geladen');
+    const data=await Live.load();
+    state.liveArticles=data.articles;
+    state.liveCheckedAt=data.checkedAt;
+    state.liveError='';
+    return {ok:true,count:data.articles.length};
+  }catch(err){
+    state.liveError=String(err?.message||err);
+    return {ok:false,count:0};
+  }
+}
+async function loadFeed(manual=false){
+  if(state.fetching)return;
+  const previousUrls=new Set(articles().map(a=>a.url));
+  state.fetching=true;state.lastFetchAt=Date.now();status();
+  // Both sources run independently: a delayed GitHub schedule cannot block live search.
+  const [arch,live]=await Promise.all([fetchArchive(),fetchLive()]);
   state.fetching=false;
+  if(!arch.ok&&!live.ok)state.lastFetchAt=Date.now()-55*60000; // retry on return in ~5 minutes
+  const newCount=articles().filter(a=>!previousUrls.has(a.url)).length;
   render();
-  if(manual)toast(failure?'Aktualisierung nicht verfügbar.':'Quellen geprüft und aktualisiert.');
+  if(manual){
+    if(newCount>0)toast(newCount+' zusätzliche Meldungen geladen · Live-Quellen geprüft.');
+    else if(live.ok)toast('Live-Suche geprüft: '+live.count+' Treffer. Keine neueren Meldungen gefunden.');
+    else if(arch.changed)toast('Archiv aktualisiert. Live-Suche ist derzeit nicht erreichbar.');
+    else toast('Keine neuen Daten: Live-Suche nicht erreichbar. Das Archiv bleibt unverändert.');
+  }
 }
 function maybeRefresh(){
   updateClocks();

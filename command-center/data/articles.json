@@ -1,7 +1,52 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-23T15:40:41.453276Z",
+  "generated_at": "2026-11-24T02:12:53.403159Z",
   "articles": [
+    {
+      "id": "f70b649af6df82267de2",
+      "title": "Robert Macfarlane says trust in Cop to deliver change on climate is ‘misplaced’",
+      "url": "https://www.theguardian.com/environment/2026/nov/24/robert-macfarlane-trust-cop-climate-summit-deliver-change-misplaced",
+      "date": "2026-11-24T00:01:00Z",
+      "summary": "Nature writer reveals in his first Reith lecture that he finds ‘much more hope’ in emerging alliances We are “misplacing our trust” in the Cop climate summits and their “capacity to deliver consequential change”, according to Robert Macfarlane in…",
+      "source": "The Guardian – Environment",
+      "kind": "media"
+    },
+    {
+      "id": "3348d995332f23d10ed2",
+      "title": "China’s mangroves have bounced back. Birds have returned too",
+      "url": "https://news.mongabay.com/short-article/2026/11/chinas-mangroves-have-bounced-back-birds-have-returned-too/",
+      "date": "2026-11-23T18:57:25Z",
+      "summary": "Between 1998 and 2020, mangrove cover in China more than doubled, while the number of bird species recorded in those areas rose from 148 to 397, according to findings published in The Innovation. The recovery follows decades of steep decline: China…",
+      "source": "Mongabay – Conservation News",
+      "kind": "media"
+    },
+    {
+      "id": "ab2ef8517682dc14746a",
+      "title": "The Guardian view on Cop31: a just transition needs more than fine words | Editorial",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/23/the-guardian-view-on-cop31-a-just-transition-needs-more-than-fine-words",
+      "date": "2026-11-23T18:29:05Z",
+      "summary": "Petrostates blocked ambition while wealthy nations withheld cash support. The climate crisis demands the next UN summit turns promises into action In a negotiation the maxim is usually that no deal is better than a bad deal. But the failure of Cop31…",
+      "source": "The Guardian – Environment",
+      "kind": "media"
+    },
+    {
+      "id": "580c50aedb31f6ff0773",
+      "title": "Analysis: The collapse of UN climate talks, over fossil fuels, was years in the making",
+      "url": "https://news.mongabay.com/short-article/2026/11/analysis-the-collapse-of-un-climate-talks-over-fossil-fuels-was-years-in-the-making/",
+      "date": "2026-11-23T17:34:45Z",
+      "summary": "NEW YORK (AP) — Going into this year’s U.N. climate talks in Turkey, expectations were notably low. Still, the outcome was even worse than expected—a failure to reach an overall agreement at a time of frequent extreme weather events fueled by…",
+      "source": "Mongabay – Conservation News",
+      "kind": "media"
+    },
+    {
+      "id": "02693e9b2cfb49a1f4c2",
+      "title": "What failure of COP31 reveals about a divided world",
+      "url": "https://www.bbc.co.uk/news/articles/cky970n83rvjo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-23T17:24:25Z",
+      "summary": "Interests of oil-producing countries, a US boycott and a dispute over finance may have torpedoed climate talks.",
+      "source": "BBC – Wissenschaft & Umwelt",
+      "kind": "media"
+    },
     {
       "id": "36c70ce5114dac6e9fd9",
       "title": "Karlsruhe Multiple: Hundert Papageienfiguren für den Artenschutz - Baden TV",
@@ -192,6 +237,21 @@
       "kind": "media"
     },
     {
+      "id": "a8dc2bbe87448c42eda3",
+      "title": "Why and where human-wildlife conflicts emerge: Explainable AI reveals species-specific drivers in the southern Western Ghats.",
+      "date": "2026-11-22T00:00:00Z",
+      "url": "https://doi.org/10.1016/j.jenvman.2026.131426",
+      "source": "Europe PMC",
+      "kind": "study",
+      "study_source": "Europe PMC",
+      "abstract_available": true,
+      "summary": "Die Veröffentlichung behandelt Konflikte zwischen Menschen und Wildtieren. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt": "Human-wildlife conflict (HWC) is a critical challenge for biodiversity conservation and livelihoods in landscapes affected by habitat fragmentation, anthropogenic pressures, and climate change. We integrated Random Forest (RF) and SHapley Additive exPlanations (SHAP) to model and interpret conflict susceptibility for elephants, large carnivores, wild boars, and monkeys in Wayanad District, India. Separate models combined conflict records with bioclimatic, landscape, and anthropogenic predictors. All models showed robust discrimination between recorded conflict and pseudo-absence locations, with area under the receiver oper",
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "abstract_source_text": "Human-wildlife conflict (HWC) is a critical challenge for biodiversity conservation and livelihoods in landscapes affected by habitat fragmentation, anthropogenic pressures, and climate change. We integrated Random Forest (RF) and SHapley Additive exPlanations (SHAP) to model and interpret conflict susceptibility for elephants, large carnivores, wild boars, and monkeys in Wayanad District, India. Separate models combined conflict records with bioclimatic, landscape, and anthropogenic predictors. All models showed robust discrimination between recorded conflict and pseudo-absence locations, with area under the receiver oper",
+      "abstract_origin": "Europe PMC abstract excerpt"
+    },
+    {
       "id": "e03861efe077f26836c8",
       "title": "Will COP31 end with a new global climate deal?",
       "url": "https://www.bbc.co.uk/news/videos/cqn0dwrewrwxo?at_medium=RSS&at_campaign=rss",
@@ -244,6 +304,19 @@
       "summary": "LUNDY ISLAND — United Kingdom. Out in the Bristol Channel, nestled between Wales and England, the rugged island of Lundy is one of the UK’s most pioneering conservation stories. From the return of thousands of seabirds to thriving marine life…",
       "source": "Mongabay – Conservation News",
       "kind": "media"
+    },
+    {
+      "id": "4f87b529b60104c71cd5",
+      "title": "Life cycle assessment of marine biodiversity restoration: Case study of European flat oyster (Ostrea edulis) in Nora Lagoon.",
+      "date": "2026-11-21T00:00:00Z",
+      "url": "https://doi.org/10.1016/j.jenvman.2026.131407",
+      "source": "Europe PMC",
+      "kind": "study",
+      "study_source": "Europe PMC",
+      "abstract_available": true,
+      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt": "Marine ecosystem restoration is increasingly recognized as a key strategy to reverse biodiversity loss and support the recovery of ecosystem services. However, the environmental burdens generated by restoration activities are rarely quantified. This study investigates whether Life Cycle Assessment (LCA) can support the design and management of environmentally sustainable marine restoration interventions. Using the restoration of the European flat oyster (Ostrea edulis) in the Nora Lagoon (Italy) as a case study, a cradle-to-deployment LCA was performed, including adult collection, hatchery stage at laboratory scale, transp",
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung."
     },
     {
       "id": "e2afe720fd225339567f",
@@ -1193,7 +1266,9 @@
       "abstract_available": true,
       "summary": "Die Veröffentlichung behandelt Konflikte zwischen Menschen und Wildtieren. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
       "abstract_excerpt": "The Current Biology primer on Human-wildlife conflict by Kaitlyn Gaynor and Jennifer Green 1 has many strengths. We agree with much of the content but highlight omissions of some important alternative hypotheses and worldviews. We call attention to a worldview that individual non-humans deserve consideration neglected in the primer. Also, we call attention to omissions of alternative hypotheses and fore-grounding a non-leading hypothesis about tolerance for wildlife. The improvements to the primer we suggest would enhance the inclusivity of work on human-wildlife conflicts and also recognize the plurality of the scientific",
-      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung."
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "abstract_source_text": "The Current Biology primer on Human-wildlife conflict by Kaitlyn Gaynor and Jennifer Green 1 has many strengths. We agree with much of the content but highlight omissions of some important alternative hypotheses and worldviews. We call attention to a worldview that individual non-humans deserve consideration neglected in the primer. Also, we call attention to omissions of alternative hypotheses and fore-grounding a non-leading hypothesis about tolerance for wildlife. The improvements to the primer we suggest would enhance the inclusivity of work on human-wildlife conflicts and also recognize the plurality of the scientific",
+      "abstract_origin": "Europe PMC abstract excerpt"
     },
     {
       "id": "3bc0759c528697540625",
@@ -1259,7 +1334,9 @@
       "abstract_available": true,
       "summary": "Die Veröffentlichung behandelt bedrohte Groß- und Wildtiere. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
       "abstract_excerpt": "Steatocystoma multiplex is characterised by skin-coloured papules and nodules over various parts of body. Hidradenitis suppurativa is a chronic inflammatory disorder characterised by nodules, discharging sinuses and scarring. Aquagenic keratoderma is characterised by thickened skin of palms and soles with white translucent papules which increases on water exposure. A 28-year-old male presented with progressively increasing asymptomatic yellowish papules and nodules without punctum or discharge over his face for 10 years. He also developed recurrent painful nodules with discharging sinuses and puckering of skin over bilater",
-      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung."
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "abstract_source_text": "Steatocystoma multiplex is characterised by skin-coloured papules and nodules over various parts of body. Hidradenitis suppurativa is a chronic inflammatory disorder characterised by nodules, discharging sinuses and scarring. Aquagenic keratoderma is characterised by thickened skin of palms and soles with white translucent papules which increases on water exposure. A 28-year-old male presented with progressively increasing asymptomatic yellowish papules and nodules without punctum or discharge over his face for 10 years. He also developed recurrent painful nodules with discharging sinuses and puckering of skin over bilateral axillae, groin, trunk, and buttocks for the last 2 years, with thickening of skin over the dorsal aspect of bilateral hands and feet for 1 year, which got accentuated on water exposure. Skin biopsies were done from lesions over the face, axillae, and hands, and histopathology findings were consistent with steatocystoma, hidradenitis suppurativa, and keratoderma, respectively. The patient was started on oral isotretinoin 0.5 mg/kg daily, topical clindamycin twice daily over axillae and urea-based emollient twice daily over hands and feet. There was complete resolution in nodules and sinuses and mild improvement in steatocystoma and keratoderma lesions after 6 months. We present this case due to the rarity of coexistence of the three conditions in a single patient, the unusual location of steatocystoma and aquagenic keratoderma, and possibly a new impending follicular occlusion pentad considering the addition of steatocystoma to the existing tetrad.",
+      "abstract_origin": "OpenAlex DOI abstract"
     },
     {
       "id": "856ae59d5fe26be8122b",
@@ -2199,32 +2276,32 @@
     {
       "name": "Mongabay – Conservation News",
       "kind": "media",
-      "count": 18,
+      "count": 16,
       "ok": true
     },
     {
       "name": "IFAW – öffentliche Meldungen (News-Aggregation)",
       "kind": "ifaw",
-      "count": 1,
-      "ok": true
+      "count": 0,
+      "ok": false
     },
     {
       "name": "IFAW – Berichterstattung (News-Aggregation)",
       "kind": "media",
-      "count": 5,
-      "ok": true
+      "count": 0,
+      "ok": false
     },
     {
       "name": "Wildtierhandel – Medien (News-Aggregation)",
       "kind": "media",
-      "count": 11,
-      "ok": true
+      "count": 0,
+      "ok": false
     },
     {
       "name": "Deutschland – Wildtiere (News-Aggregation)",
       "kind": "media",
-      "count": 9,
-      "ok": true
+      "count": 0,
+      "ok": false
     },
     {
       "name": "Crossref: wildlife trafficking",
@@ -2235,26 +2312,26 @@
     {
       "name": "Crossref: human wildlife conflict",
       "kind": "study",
-      "count": 0,
-      "ok": false
+      "count": 1,
+      "ok": true
     },
     {
       "name": "Crossref: marine mammal conservation",
       "kind": "study",
-      "count": 12,
-      "ok": true
+      "count": 0,
+      "ok": false
     },
     {
       "name": "Crossref: elephant conservation",
       "kind": "study",
-      "count": 12,
-      "ok": true
+      "count": 0,
+      "ok": false
     },
     {
       "name": "Crossref: wildlife rescue",
       "kind": "study",
-      "count": 0,
-      "ok": false
+      "count": 5,
+      "ok": true
     },
     {
       "name": "Crossref: illegal wildlife trade",
@@ -2271,11 +2348,27 @@
   ],
   "failures": [
     {
-      "source": "Crossref: human wildlife conflict",
+      "source": "IFAW – öffentliche Meldungen (News-Aggregation)",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "source": "IFAW – Berichterstattung (News-Aggregation)",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "source": "Crossref: marine mammal conservation",
       "error": "HTTP Error 429: Too Many Requests"
     },
     {
-      "source": "Crossref: wildlife rescue",
+      "source": "Crossref: elephant conservation",
       "error": "HTTP Error 429: Too Many Requests"
     },
     {
@@ -2286,7 +2379,7 @@
   "events": [],
   "notice": "Automatisierte Quellensammlung. Keine Vollständigkeits- oder unabhängige Faktenprüfungs-Garantie.",
   "daily_study": {
-    "date": "2026-11-23",
-    "id": "8ee99df671227bd8b0ba"
+    "date": "2026-11-24",
+    "id": "a8dc2bbe87448c42eda3"
   }
 }

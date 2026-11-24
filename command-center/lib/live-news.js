@@ -6,7 +6,7 @@
   const ENDPOINT='https://api.gdeltproject.org/api/v2/doc/doc';
   const QUERY='("wildlife conservation" OR "wildlife trafficking" OR "wildlife trade" OR poaching OR "whale conservation" OR "elephant conservation" OR "human wildlife conflict" OR "endangered species" OR biodiversity OR "animal rescue")';
   const TERMS=/wildlife|poach|whale|dolphin|elephant|rhino|pangolin|biodivers|conserv|endangered|wild.?animal|tier.?schutz|arten.?schutz|wildtier|wal(?:e|en)?\b|elefant/i;
-  const BAD=/\b(?:stock market|cryptocurrency|vaccine|gaming|football|soccer|hollywood)\b/i;
+  const BAD=/\b(?:stock market|cryptocurrency|vaccine|gaming|sports|football|soccer|hollywood)\b/i;
   const RSS_ENDPOINT='https://api.rss2json.com/v1/api.json?'+new URLSearchParams({rss_url:'https://news.mongabay.com/feed/'});
 
   function endpoint(){

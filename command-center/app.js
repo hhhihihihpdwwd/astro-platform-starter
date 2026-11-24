@@ -3,6 +3,7 @@
 const A=window.CenterAnalysis;
 const Clock=window.CenterClock;
 const StudyAI=window.CenterStudyAI;
+const Live=window.CenterLiveNews;
 const $=(q)=>document.querySelector(q);
 const esc=(value)=>String(value??'').replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
 const safeUrl=(value)=>{try{const u=new URL(value);return u.protocol==='https:'||u.protocol==='http:'?u.href:'#'}catch{return '#'}};
@@ -12,12 +13,19 @@ const link=(item,label)=>'<a href="'+esc(safeUrl(item.url))+'" target="_blank" r
 const NAV=[['dashboard','Übersicht'],['news','Global News'],['pr','PR-Chancen'],['crisis','Crisis Watch'],['studies','Studien'],['policy','Politik'],['ifaw','IFAW-News'],['sources','Quellen']];
 let saved=new Set();
 try{saved=new Set(JSON.parse(localStorage.getItem('wc_saved_v4')||'[]'))}catch{}
-const state={view:'dashboard',search:'',feed:{articles:[],sources:[],failures:[],generated_at:null},fetchError:'',fetching:false,lastFetchAt:0,saved,onlySaved:false,studyAI:null};
+const state={view:'dashboard',search:'',feed:{articles:[],sources:[],failures:[],generated_at:null},fetchError:'',fetching:false,lastFetchAt:0,archiveCheckedAt:null,liveArticles:[],liveCheckedAt:null,liveError:'',saved,onlySaved:false,studyAI:null};
 let toastTimer;
 function toast(message){const node=$('#toast');if(!node)return;node.textContent=message;node.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>node.classList.remove('show'),3300)}
 function storeSaved(){try{localStorage.setItem('wc_saved_v4',JSON.stringify([...state.saved]))}catch{toast('Merkliste konnte nicht gespeichert werden.')}} 
 function articles(){
-  return (state.feed.articles||[]).filter(x=>x&&x.title&&safeUrl(x.url)!=='#').map(x=>({...x,topics:A.tagsFor(x),displayTitle:x.title,displaySummary:x.summary}));
+  const byUrl=new Map();
+  for(const a of [...(state.feed.articles||[]),...state.liveArticles]){
+    if(!a?.title||safeUrl(a.url)==='#')continue;
+    const normalized=a.url.replace(/^https?:\/\//,'').replace(/\/$/,'').toLowerCase();
+    // Prefer already-indexed news with a sourced RSS excerpt over sparse live headlines.
+    if(!byUrl.has(normalized))byUrl.set(normalized,a);
+  }
+  return [...byUrl.values()].map(x=>({...x,topics:A.tagsFor(x),displayTitle:x.title,displaySummary:x.summary}));
 }
 function byDate(list){return [...list].sort((x,y)=>(Date.parse(y.date)||0)-(Date.parse(x.date)||0))}
 function byRelevance(list){return [...list].sort((x,y)=>A.score(y)-A.score(x)||(Date.parse(y.date)||0)-(Date.parse(x.date)||0))}
@@ -91,17 +99,24 @@ function go(view){
 }
 function ageMinutes(value){const t=Date.parse(value||'');return Number.isFinite(t)?Math.max(0,Math.round((Date.now()-t)/60000)):Infinity}
 function status(){
-  const host=$('#topStatus'),pulse=host.querySelector('.status-pulse');
-  const age=ageMinutes(state.feed.generated_at);
+  const host=$('#topStatus');
+  const archiveAge=ageMinutes(state.feed.generated_at);
+  const liveAge=ageMinutes(state.liveCheckedAt);
   let label='Noch keine Quellen geladen',level='warn';
-  if(state.fetching){label='Prüfe aktuelle Quellen …';level=''}
-  else if(state.fetchError&&!state.feed.generated_at){label='Quellen nicht erreichbar';level='error'}
-  else if(Number.isFinite(age)){label='Quellenstand: '+(age<60?age+' Min.':Math.round(age/60)+' Std.')+' alt';level=age>150?'warn':''}
-  if(state.fetchError&&state.feed.generated_at)label+=' · Ersatzdaten';
+  if(state.fetching){label='Prüfe Archiv und Live-Meldungen …';level=''}
+  else if(Number.isFinite(liveAge)&&liveAge<=75){
+    label='Live-Suche geprüft · '+state.liveArticles.length+' Treffer · '+fmtTime(state.liveCheckedAt);
+    level='';
+  }else if(Number.isFinite(archiveAge)){
+    label='Archiv: '+(archiveAge<60?archiveAge+' Min.':Math.round(archiveAge/60)+' Std.')+' alt';
+    if(state.liveError)label+=' · Live-Suche fehlgeschlagen';
+    level=archiveAge>150?'warn':'';
+  }else if(state.liveError||state.fetchError){label='Datenabruf derzeit nicht erreichbar';level='error'}
   host.innerHTML='<span class="status-pulse '+level+'"></span><span>'+esc(label)+'</span>';
 }
 function empty(title,sub){return '<div class="empty"><strong>'+esc(title)+'</strong>'+esc(sub||'')+'</div>'}
-function heading(title,sub){return '<div class="dashboard-header"><div><h2 class="page-heading">'+esc(title)+'</h2><p class="page-subtitle">'+esc(sub||'')+'</p></div><div class="update-note">Datenstand: '+esc(fmtDate(state.feed.generated_at,{hour:'2-digit',minute:'2-digit'}))+'</div></div>'}
+function fmtTime(value){return fmtDate(value,{hour:'2-digit',minute:'2-digit'})}
+function heading(title,sub){const recentlyChecked=ageMinutes(state.liveCheckedAt)<75;return '<div class="dashboard-header"><div><h2 class="page-heading">'+esc(title)+'</h2><p class="page-subtitle">'+esc(sub||'')+'</p></div><div class="update-note">'+(recentlyChecked?'Live geprüft: '+esc(fmtTime(state.liveCheckedAt))+' · ':'')+'Archiv: '+esc(fmtTime(state.feed.generated_at))+'</div></div>'}
 function panelTop(icon,title,destination){
   return '<div class="panel-top"><h3 class="panel-title"><span class="picon" aria-hidden="true">'+icon+'</span>'+esc(title)+'</h3>'+(destination?'<button class="soft-link" data-view="'+destination+'">Alle ansehen ↗</button>':'')+'</div>';
 }
@@ -178,9 +193,9 @@ function dashboard(){
   const pr=byRelevance(all.filter(x=>A.isOpportunity(x))).slice(0,2);
   const policy=byDate(all.filter(x=>x.kind==='policy'||x.topics.includes('Politik & Recht'))).slice(0,2);
   const brief=top.slice(0,4);
-  const hasWarn=ageMinutes(state.feed.generated_at)>150;
+  const hasWarn=ageMinutes(state.feed.generated_at)>150&&ageMinutes(state.liveCheckedAt)>75;
   return heading('Dein Überblick','Wichtige Meldungen, Beobachtungen und Forschung – automatisch aus öffentlichen Quellen zusammengestellt.')+
-    (hasWarn?'<div class="notice warn">Der Nachrichtenbestand ist älter als geplant. Der stündliche Quellenabruf kann verzögert sein oder ausfallen. Bitte prüfe Veröffentlichungsdaten und Originalquellen.</div>':'')+
+    (hasWarn?'<div class="notice warn">Der Archivbestand ist älter als geplant und die direkte Live-Suche war nicht erfolgreich. Die stündliche GitHub-Aktualisierung kann verzögert sein. Bitte prüfe die Originalquellen.</div>':'')+
     '<div class="dashboard-grid"><div class="column">'+
     '<section class="panel"><div class="panel-inner">'+panelTop('☀','Morning Briefing','news')+
     (brief.length?'<ul class="brief-lines">'+brief.map(a=>'<li><span class="dot"></span><div>'+link(a,truncated(a.displayTitle,115))+'<div class="muted">'+esc(truncated(a.displaySummary||'',135))+'</div></div></li>').join('')+'</ul>':empty('Noch kein Briefing verfügbar','Neue Nachrichten erscheinen nach einem erfolgreichen Quellenabruf.'))+

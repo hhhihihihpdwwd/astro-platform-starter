@@ -1,7 +1,79 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-25T13:28:42.304967Z",
+  "generated_at": "2026-11-25T22:44:03.945298Z",
   "articles": [
+    {
+      "id": "eedadf2cd55311736e6f",
+      "title": "Kopfgeld auf Waschbären in der Gemeinde Selters stoppen - Wildtierschutz Deutschland e.V.",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNcjZmYmowUzNFOGJ2ZVhPT1dSSGVDS2VVbmtvM3VDb2ZLdEd3Y2s0c0xSTTlONWRPQ3VBZ3ZkczR5NEk4TVgzSnRGemM5X0FzWU4tSU1Bcy1jaEYxb2FwcVBlTlN5c0FPV0ExWU9jM0F6RmNvSlIybkJWQU81bFA4RnN1cTRMSTVpMGc?oc=5",
+      "date": "2026-11-25T21:11:11Z",
+      "summary": "Kopfgeld auf Waschbären in der Gemeinde Selters stoppen Wildtierschutz Deutschland e.V.",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "a3696bf31cd70982d093",
+      "title": "Cloud of smoke seen after US army detonates bomb-making chemicals in Iowa – video",
+      "url": "https://www.theguardian.com/us-news/video/2026/nov/25/cloud-of-smoke-seen-after-us-army-detonates-bomb-making-chemicals-in-iowa-video",
+      "date": "2026-11-25T18:30:56Z",
+      "summary": "A large cloud of smoke was seen in Middleton, Iowa, after the army detonated the nation’s entire stockpile of lead azide used for making bombs on Wednesday morning, despite an outpouring of public concern about potential health and environmental…",
+      "source": "The Guardian – Environment",
+      "kind": "media"
+    },
+    {
+      "id": "f8e057d473a5a2e3f146",
+      "title": "Nations hail new shark finning rules in the Atlantic. Conservationists say Japan blocked better ones",
+      "url": "https://news.mongabay.com/2026/11/nations-hail-new-shark-finning-rules-in-the-atlantic-conservationists-say-japan-blocked-better-ones/",
+      "date": "2026-11-25T17:52:18Z",
+      "summary": "VILAMOURA, Portugal — Shark finning entails slashing fins off sharks and dumping the bodies into the sea, often while they’re still alive. In the Atlantic Ocean, the practice has been banned on paper since 2004, yet some Japanese and Chinese vessels…",
+      "source": "Mongabay – Conservation News",
+      "kind": "media"
+    },
+    {
+      "id": "f7e1779312283d046bdf",
+      "title": "10 unglaubliche Zahlen aus Natur und Artenschutz - Verbandsbüro",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBiNklNX2Z3XzhvVWVYU2JDVkl3eDhtT0wwMUNVZFl3bTc1TEpNMkllVzJXM251WjVKSkJNMHRUYnZ3VEhTUDZYemhZT2lxa0VhUE82a3NrVzlURUg3d3FJa3dmUE8?oc=5",
+      "date": "2026-11-25T17:30:00Z",
+      "summary": "10 unglaubliche Zahlen aus Natur und Artenschutz Verbandsbüro",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "fbbef8d4dfc5c075b6e9",
+      "title": "A ‘stunning,’ colorful bird losing ground to deforestation and climate change: Study",
+      "url": "https://news.mongabay.com/2026/11/a-stunning-colorful-bird-losing-ground-to-deforestation-and-climate-change-study/",
+      "date": "2026-11-25T16:00:59Z",
+      "summary": "Resplendent quetzals — a strikingly beautiful bird — are iconic denizens of cloud forests from Panama to Mexico. Held in high regard and considered sacred by the Mayans and Aztecs, the quetzal, which also lends its name to Guatemala’s currency,…",
+      "source": "Mongabay – Conservation News",
+      "kind": "media"
+    },
+    {
+      "id": "6066ec1564ced2163bdc",
+      "title": "Report Traces a Wildlife Trafficking Network Linked to Up to 77,000 Pangolins - Nature World News",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNUWgxcVlVaWp3MDBGT191QzE0LXdXNEZnR3JYS1Y1YWhHcnZFZ1IxSVAza0MyTFAwVk1FQlNXMU42cnVCcl9YbWMyNVBzcEdHQXd5TFZyZ012RjZ5eGtQaXZkdU5HMGlsQUNlc0o3QzNrNXdMYS1vQUtubzJBZFVzM1JIWmMwdF9rQmNYLXJ5Sm5JeGxlTWt0d0xkME5INkZCdGc3eUo4LUNOaGVHLVZoaXBkLTBQSlBOdjljbWdFU0h3TmM?oc=5",
+      "date": "2026-11-25T15:46:56Z",
+      "summary": "Report Traces a Wildlife Trafficking Network Linked to Up to 77,000 Pangolins Nature World News",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "4781272e552f0a1bc7d9",
+      "title": "EU-Parlament feuert Breitseite auf Natur- und Artenschutz - WWF Deutschland",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOWFNTSENBRFQyOTNNbzN0eXl2a0RsTjRjTk9aS2VtSVV2SFN1aUtmY3YzX1o1Zk5GRU01NFkwdWhCMzBYOV9Fejg0ejlTQldzYTEtR2poeDlwS0xWYXl6Ym1UbDl0eHZfRDhuMm5QR21VZFpZZnVha29adTlFTWV0ZFJTOWF2bXNHUFBRMzNXSmJtSmc?oc=5",
+      "date": "2026-11-25T15:10:31Z",
+      "summary": "EU-Parlament feuert Breitseite auf Natur- und Artenschutz WWF Deutschland",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "d0e396c218095aa86fb7",
+      "title": "Swiss tourist killed and British and Americans injured by elephants in Cameroon",
+      "url": "https://www.theguardian.com/environment/2026/nov/25/swiss-tourist-killed-british-americans-injured-elephants-cameroon",
+      "date": "2026-11-25T14:03:18Z",
+      "summary": "Alain Throo, insurance executive based in London, reportedly gored and later died on hike near Mount Cameroon national park A Swiss tourist has been killed and British and American tourists have been injured when a group of hikers encountered a herd…",
+      "source": "The Guardian – Environment",
+      "kind": "media"
+    },
     {
       "id": "c60a1c7d93722a893326",
       "title": "Nigeria’s ivory and pangolin trade exposes gaps in wildlife crime prosecutions",
@@ -54,6 +126,15 @@
       "date": "2026-11-25T07:00:09Z",
       "summary": "Don’t take the bait offered up by ‘conservation’ charities. Fishing is about as good for our ecosystems as tobacco is for our health Drumroll please. I am about to unveil the species of fish that’s best to eat if you want to protect the living seas.…",
       "source": "The Guardian – Environment",
+      "kind": "media"
+    },
+    {
+      "id": "1af7f2382229a35675ed",
+      "title": "Stopping wildlife trafficking through Ethiopia’s busiest airport - International Fund for Animal Welfare | IFAW",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSk9Hd0U1TkF6bUg3NUR2MDFhcXhZNzVKNm9yb09xVGZyT0FXeTFhNGE5UDZsZHctOGlPYU5RbUM1V3Fzc1pUX0d2SnFFQjJRQ0cwa3FpcC1RMlh2R3ZoZTB4MU8xc3A4Tll2c3VqS0RnaUVDSU9reTVOVXdhbWJYaWJkOXN4TXNuTEwxYTNFbi02MkdfZ0Jr?oc=5",
+      "date": "2026-11-25T05:35:01Z",
+      "summary": "Stopping wildlife trafficking through Ethiopia’s busiest airport International Fund for Animal Welfare | IFAW",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
       "kind": "media"
     },
     {
@@ -135,15 +216,6 @@
       "date": "2026-11-24T18:28:21Z",
       "summary": "Kammerjäger Kirchheim unter Teck: Artenschutz am Albtrauf und Pflicht auf dem Grundstück businessportal24",
       "source": "Deutschland – Wildtiere (News-Aggregation)",
-      "kind": "media"
-    },
-    {
-      "id": "2fc0a49a236c6b1c7189",
-      "title": "Stopping wildlife trafficking through Ethiopia’s busiest airport - International Fund for Animal Welfare | IFAW",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOT2ZCUlFOM0dvb0FXdDU0SDBuMFFIMk1NYUM5am5pNXpveDVpQkpFUTdmOEdKQkxBVERhbWpVNENMelRzNktfR1c2ZDVKQmtDT0l2Si12Z2lISzZIVXR3eXBGclZvUk0zZFE5aUNnS2xxQk1HbkFOc1lOd3NvSnJGWVFtclFjbFFMbWpfcVRtblB6M3h5cEhZMVNXQVRUM2RuWDBhdUVWaGZFQQ?oc=5",
-      "date": "2026-11-24T18:07:16Z",
-      "summary": "Stopping wildlife trafficking through Ethiopia’s busiest airport International Fund for Animal Welfare | IFAW",
-      "source": "Wildtierhandel – Medien (News-Aggregation)",
       "kind": "media"
     },
     {
@@ -1396,7 +1468,9 @@
       "abstract_available": true,
       "summary": "Die Veröffentlichung behandelt Wildtier- und Naturschutz. Der Abstract nennt eine Befragung. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
       "abstract_excerpt": "Biosecurity is widely recognized as a cornerstone of disease prevention and animal health management. Organic, extensive and small-scale farming systems face several challenges related to biosecurity that are different to more conventional farming settings. This study investigates how farmers, veterinarians and advisors across six European countries view standard biosecurity measures, their effectiveness and their relationship with animal welfare in alternative farms. On the basis of survey data from 243 respondents, we found high awareness of biosecurity but significant concerns about the practicality and suitability of s",
-      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung."
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "abstract_source_text": "Biosecurity is widely recognized as a cornerstone of disease prevention and animal health management. Organic, extensive and small-scale farming systems face several challenges related to biosecurity that are different to more conventional farming settings. This study investigates how farmers, veterinarians and advisors across six European countries view standard biosecurity measures, their effectiveness and their relationship with animal welfare in alternative farms. On the basis of survey data from 243 respondents, we found high awareness of biosecurity but significant concerns about the practicality and suitability of standardized measures in non-intensive settings. Alternative farmers prioritized natural behaviours and outdoor access, whereas veterinarians emphasized disease prevention, revealing different understandings of welfare-health interactions. Consistently, farmers attributed significantly greater importance to welfare dimensions related to natural living, freedom of movement and species-specific behaviours than veterinarians and advisors did. The respondents also expressed concerns about restrictive control measures, including bans on outdoor farming and compulsory culling, which they viewed as potentially undermining their values and the overall farming resilience. These findings highlight the need for policy frameworks that are both scientifically robust and adaptable to diverse farming realities.",
+      "abstract_origin": "OpenAlex DOI abstract"
     },
     {
       "id": "655a12309d216d4cf37e",
@@ -1409,7 +1483,9 @@
       "abstract_available": true,
       "summary": "Die Veröffentlichung behandelt Wildtier- und Naturschutz. Die Autorinnen und Autoren werten laut Abstract vorhandene Forschung aus. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
       "abstract_excerpt": "Zoonotic tuberculosis (zTB), caused by animal-adapted members of the Mycobacterium tuberculosis complex (MTBC), is classically attributed to M. bovis but is increasingly linked to M. orygis across South Asia. Species-level MTBC identification is rarely performed in low- and middle-income countries (LMICs), leaving the zTB burden poorly defined. Bangladesh has endemic bovine tuberculosis, a growing dairy sector, unpasteurised-milk consumption, and expanding captive wildlife collections, yet the evidence has not been synthesised by diagnostic reliability. This systematic evidence map aimed to collate the evidence on zTB in B",
-      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung."
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "abstract_source_text": "Zoonotic tuberculosis (zTB), caused by animal-adapted members of the Mycobacterium tuberculosis complex (MTBC), is classically attributed to M. bovis but is increasingly linked to M. orygis across South Asia. Species-level MTBC identification is rarely performed in low- and middle-income countries (LMICs), leaving the zTB burden poorly defined. Bangladesh has endemic bovine tuberculosis, a growing dairy sector, unpasteurised-milk consumption, and expanding captive wildlife collections, yet the evidence has not been synthesised by diagnostic reliability. This systematic evidence map aimed to collate the evidence on zTB in Bangladesh and to review the diagnostic methods used to identify animal-adapted MTBC species, particularly M. bovis and M. orygis, in livestock, wildlife, and humans. Following PRISMA 2020, we searched PubMed, Google Scholar, and BanglaJOL from the 1970s to June 2026; CAB Abstracts, Scopus, and Web of Science were not accessible. Two reviewers independently screened and appraised studies using the JBI checklist, assigning each to a five-level diagnostic evidence hierarchy (Level 1: WGS, phylogeny, RD typing, spoligotyping, or MLVA; Level 5: tuberculin skin test or serology only). These non-comparable tests precluded meta-analysis; therefore, findings are presented as an evidence map. Thirty-five studies met the inclusion criteria: 24 on prevalence in cattle/buffaloes, 10 on molecular diagnosis and characterisation in cattle, captive wildlife, and humans, and 1 specifically on molecular diagnosis and characterisation in humans. Most livestock studies used non-discriminatory tests (tuberculin skin tests, ELISA, or untyped PCR) and reported non-comparable reactor proportions of 1.2% to 33.7%. The few studies using species-level methods (Levels 1-2) confirmed M. orygis in cattle and in at least seven captive wildlife species, including monkeys, using marker-based molecular assays. Several historical reports of M. bovis were based on non-discriminatory PCR or serology, which cannot reliably distinguish among MTBC members. Human evidence was limited to three studies, including one WGS-confirmed M. orygis case identified through tuberculosis surveillance. In published reports from Bangladesh, M. orygis is the only animal-adapted MTBC member molecularly confirmed at the cattle-wildlife-human interface; existing M. bovis claims lack discriminatory support and require cautious reinterpretation. zTB surveillance should therefore move beyond an M. bovis-only framework and integrate species-level MTBC identification into a staged, resource-appropriate One Health strategy across animal, wildlife, and human health.",
+      "abstract_origin": "OpenAlex DOI abstract"
     },
     {
       "id": "c8f05c6f6ffa6693b589",
@@ -2291,9 +2367,9 @@
       "kind": "media"
     },
     {
-      "id": "b7f23ee48e1927c56781",
+      "id": "bec8dce7d93e5859fe84",
       "title": "IFAW expands support as wildlife rescue centers remain under pressure in France - International Fund for Animal Welfare | IFAW",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQbWY1ZjNDVUd3VG9aazIzeVVxaENzZ2tEZXA4bTlsUE05d1JaZ3FOTi1Cd1ZOWEhPQkJkTDdhUkVTdnVJVE5uOXRaQXNCU2xIakFwQlFUd3FNQjJYUWt4eDdIaW96WjlVLTRZUzJWdU51REZDRkF6SWkwc2xaX0pHMWtVZEZjYjNHWHNxTVpqeGdrWVZ0SGc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNb1dGbEZHMmk1WnlGMDF6aGdsZW5MaWlteXVpbUFfcVktc1lIVXU1OE82dmpOYnAydHM1TVJYaHI0YktXeWczSmRQVm1ZU3dyTXFiQTlzZExOY3FCYW56X2ZPRWhnVm5vd0RWd21FRk5TMGVMa0hWcDRONHlURHlGaHFsRzl0a3JVbTJhNnZ6dFNCTU5xamY3MjRZS1FQbnhMRWtzaldPbTc?oc=5",
       "date": "2026-09-15T07:00:00Z",
       "summary": "IFAW expands support as wildlife rescue centers remain under pressure in France International Fund for Animal Welfare | IFAW",
       "source": "IFAW – Berichterstattung (News-Aggregation)",
@@ -2516,15 +2592,6 @@
       "kind": "media"
     },
     {
-      "id": "611a383753ad3f69fcf9",
-      "title": "Wildlife trafficking spreads across social media, putting thousands of species at risk - Science X",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOaUxuRENGbTgzaGNSdnN6QWtoQkhOV2MyRW42VGZlLXdIMUMyMXUwcEh5TWxJcmFqQnVjTXFHY0Nxcm9Ubm5HSk42NjBnNG16Wl9HNkpjdlFNd1BPMzhjaUVvcVNKWXFGdUQtNThmTnZBTFQ1Y2lXSnZNeW9CU1l5UzRFNi1xU3BfWnh5bXRHONIBjwFBVV95cUxOaUxuRENGbTgzaGNSdnN6QWtoQkhOV2MyRW42VGZlLXdIMUMyMXUwcEh5TWxJcmFqQnVjTXFHY0Nxcm9Ubm5HSk42NjBnNG16Wl9HNkpjdlFNd1BPMzhjaUVvcVNKWXFGdUQtNThmTnZBTFQ1Y2lXSnZNeW9CU1l5UzRFNi1xU3BfWnh5bXRHOA?oc=5",
-      "date": "2026-08-25T15:33:51Z",
-      "summary": "Wildlife trafficking spreads across social media, putting thousands of species at risk Science X",
-      "source": "Wildtierhandel – Medien (News-Aggregation)",
-      "kind": "media"
-    },
-    {
       "id": "470d5290e0403ffd1302",
       "title": "An expanding human footprint drives escalating human–elephant conflict across a transboundary African landscape through 2085",
       "date": "2026-07-07T00:00:00Z",
@@ -2539,7 +2606,7 @@
         "Vorgehen: Die Autorinnen und Autoren verknüpfen Konfliktaufzeichnungen aus einer grenzüberschreitenden Landschaft im südlichen Afrika mit räumlichen Daten und Zukunftsszenarien.",
         "Einordnung: Laut Studie spielen unter anderem die Ausweitung von Ackerflächen, Bevölkerungswachstum und zunehmende Trockenheit eine wichtige Rolle. Die Projektionen sind keine Vorhersage einzelner Konflikte."
       ],
-      "abstract_source_text": "). However, the underlying drivers of human-elephant conflict (HEC) are often inferred but not causally identified, and forecasting under future scenarios is limited, restricting our ability to anticipate where and why conflict will intensify. Using a dataset on conflict events from 2004 to 2020 across a transboundary landscape in Southern Africa, we integrate causal inference (panel data regressions) and machine learning (point process models) to link mechanisms with spatial forecasts. We find that human population growth, cropland expansion, and climate-driven aridity in core elephant-protected areas drive conflict risk. Furthermore, we show that landscape features such as wildlife fences and roads constrain elephant movement in ways that drive HEC. Applying these models to projected land use, population, and climate under future coupled climate-development scenarios, we find that the area at high risk of HEC increases by 33 to 100% by 2085 with corresponding rises in event frequency. Aggressive human land-use expansion leads to the most dramatic increases in conflict, with climate impacts playing a significant but smaller role. These results identify emerging conflict hotspots decades in advance, offering actionable foresight for land-use planning and mitigation in a region critical to elephant conservation.",
+      "abstract_source_text": "Rapid land-use change is compressing the space between people and wildlife at an unprecedented pace, elevating concerns of conflict between people and keystone megafauna such as the African savanna elephant (Loxodonta africana). However, the underlying drivers of human-elephant conflict (HEC) are often inferred but not causally identified, and forecasting under future scenarios is limited, restricting our ability to anticipate where and why conflict will intensify. Using a dataset on conflict events from 2004 to 2020 across a transboundary landscape in Southern Africa, we integrate causal inference (panel data regressions) and machine learning (point process models) to link mechanisms with spatial forecasts. We find that human population growth, cropland expansion, and climate-driven aridity in core elephant-protected areas drive conflict risk. Furthermore, we show that landscape features such as wildlife fences and roads constrain elephant movement in ways that drive HEC. Applying these models to projected land use, population, and climate under future coupled climate-development scenarios, we find that the area at high risk of HEC increases by 33 to 100% by 2085 with corresponding rises in event frequency. Aggressive human land-use expansion leads to the most dramatic increases in conflict, with climate impacts playing a significant but smaller role. These results identify emerging conflict hotspots decades in advance, offering actionable foresight for land-use planning and mitigation in a region critical to elephant conservation.",
       "abstract_origin": "OpenAlex DOI abstract"
     },
     {
@@ -2649,7 +2716,7 @@
     {
       "name": "EU-Rat – Pressemitteilungen",
       "kind": "policy",
-      "count": 1,
+      "count": 0,
       "ok": true
     },
     {
@@ -2661,7 +2728,7 @@
     {
       "name": "BBC – Wissenschaft & Umwelt",
       "kind": "media",
-      "count": 14,
+      "count": 11,
       "ok": true
     },
     {
@@ -2673,7 +2740,7 @@
     {
       "name": "Mongabay – Conservation News",
       "kind": "media",
-      "count": 17,
+      "count": 15,
       "ok": true
     },
     {
@@ -2685,19 +2752,19 @@
     {
       "name": "IFAW – Berichterstattung (News-Aggregation)",
       "kind": "media",
-      "count": 5,
+      "count": 4,
       "ok": true
     },
     {
       "name": "Wildtierhandel – Medien (News-Aggregation)",
       "kind": "media",
-      "count": 16,
+      "count": 37,
       "ok": true
     },
     {
       "name": "Deutschland – Wildtiere (News-Aggregation)",
       "kind": "media",
-      "count": 8,
+      "count": 7,
       "ok": true
     },
     {
@@ -2715,14 +2782,14 @@
     {
       "name": "Crossref: marine mammal conservation",
       "kind": "study",
-      "count": 12,
-      "ok": true
+      "count": 0,
+      "ok": false
     },
     {
       "name": "Crossref: elephant conservation",
       "kind": "study",
-      "count": 12,
-      "ok": true
+      "count": 0,
+      "ok": false
     },
     {
       "name": "Crossref: wildlife rescue",
@@ -2733,8 +2800,8 @@
     {
       "name": "Crossref: illegal wildlife trade",
       "kind": "study",
-      "count": 1,
-      "ok": true
+      "count": 0,
+      "ok": false
     },
     {
       "name": "Europe PMC – Studien & Abstracts",
@@ -2743,7 +2810,20 @@
       "ok": true
     }
   ],
-  "failures": [],
+  "failures": [
+    {
+      "source": "Crossref: marine mammal conservation",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source": "Crossref: elephant conservation",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source": "Crossref: illegal wildlife trade",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
   "events": [],
   "notice": "Automatisierte Quellensammlung. Keine Vollständigkeits- oder unabhängige Faktenprüfungs-Garantie.",
   "daily_study": {

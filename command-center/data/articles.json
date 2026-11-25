@@ -1,7 +1,70 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-25T03:31:26.163964Z",
+  "generated_at": "2026-11-25T13:28:42.304967Z",
   "articles": [
+    {
+      "id": "c60a1c7d93722a893326",
+      "title": "Nigeria’s ivory and pangolin trade exposes gaps in wildlife crime prosecutions",
+      "url": "https://news.mongabay.com/short-article/2026/11/nigerias-ivory-and-pangolin-trade-exposes-gaps-in-wildlife-crime-prosecutions/",
+      "date": "2026-11-25T11:09:20Z",
+      "summary": "Illegal wildlife trafficking continues to thrive across West and Central Africa despite recent increases in regional law enforcement operations, according to a recent report by the Environmental Investigation Agency (EIA). Nigeria remains the…",
+      "source": "Mongabay – Conservation News",
+      "kind": "media"
+    },
+    {
+      "id": "f9714e3381d2df952d17",
+      "title": "Bill McKibben: 2027 may be the year Americans turn on fossil fuels – Stateside with Kai and Carter",
+      "url": "https://www.theguardian.com/us-news/video/2026/nov/25/bill-mckibben-americans-fossil-fuels-climate-emergency-stateside-podcast",
+      "date": "2026-11-25T11:00:45Z",
+      "summary": "It’s been another year in which the climate emergency has encroached on the lives of Americans across the country. From gigantic waves battering the California coastline to heat domes driving triple-digit temperatures in the southwest, we are…",
+      "source": "The Guardian – Environment",
+      "kind": "media"
+    },
+    {
+      "id": "c5b62f304320da7bd31d",
+      "title": "Photos: Elephants maintain an essential role in conservation in Nepal despite shifting norms",
+      "url": "https://news.mongabay.com/2026/11/photos-elephants-maintain-an-essential-role-in-conservation-in-nepal-despite-shifting-norms/",
+      "date": "2026-11-25T10:42:48Z",
+      "summary": "CHITWAN NATIONAL PARK, Nepal — Perched some 3 meters off the ground, or about 10 feet, on the back of Asian elephants, workers traverse Nepal’s dense jungles and grasslands to complete wildlife counts, rescue distressed animals, and manage wildlife…",
+      "source": "Mongabay – Conservation News",
+      "kind": "media"
+    },
+    {
+      "id": "0d916afd85a46eb56ef1",
+      "title": "Otters raise hope for Kuala Lumpur’s river",
+      "url": "https://news.mongabay.com/short-article/2026/11/otters-raise-hope-for-kuala-lumpurs-river/",
+      "date": "2026-11-25T09:03:10Z",
+      "summary": "Smooth-coated otters are increasingly being spotted along Kuala Lumpur’s Klang River, raising hopes that years of clean-up efforts are improving water quality and restoring urban wildlife habitats. However, their growing presence is not without…",
+      "source": "Mongabay – Conservation News",
+      "kind": "media"
+    },
+    {
+      "id": "ff7bd2ede325f3e2b04c",
+      "title": "MP High Court Lets CBI Join Wildlife Trafficking Case, Grants State Leave To Appeal Against Acquittals - LawBeat",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQN090WlZwT3VUMHMtSTNMSGp3ZHMtdEM2UXYwZlJxMmRwWUhDVmQ4czFDWXlTNTRTemNqX2RMNWhkdFNIMlh1cTlobWVEUHA3WUtUZ2NUV2NDY3dZSGJFS2NzUnJuRG5uS1hPcUhRYUFlT1lXb0RJdkx5WE5rbHFVeE84cHh4VFZtdEtTcGxWczBIb2NLdHUtZ0hINmVGNmlMZmVaMVdVLVJuSDhvMjNFR0FjMnhGSkNZeXJ1Tl9ZTEhvTmdSQnFDSXY0eDB4LV9HLXlqSVBFcknSAd4BQVVfeXFMUEdCbWVoSmJHanB2R2Y3VFRoVGV1ZzNwNkxTWHY3eDJjeXI1NnpUdEpWUGNHWm9MTTlsa3h5TFU2di1OdmdSeFd5c0VzRVRHYnZyT0pyVnJscFRVdzI0MGtCN21Wb3YxZEpKZXFjbDlUZ29pLUI3RkJLTk5CUVplMlJXQmNFZGpDdkN2SVRTMVVEUEJpNVBGYXZMQThSWVRTMDA2eHlkZjdjVnE0TTVsOHJqNi1tbkZwVDhuNE5UcmF1YkZFUVYyNzU1OTR6Ti1peWJ6ZDRrNWRkNUxlZVpn?oc=5",
+      "date": "2026-11-25T07:03:29Z",
+      "summary": "MP High Court Lets CBI Join Wildlife Trafficking Case, Grants State Leave To Appeal Against Acquittals LawBeat",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "a5ebe6179a7a05c3836b",
+      "title": "What’s the most sustainable way to eat fish? Forget it. There isn’t one | George Monbiot",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/25/sustainable-fishing-conservation-charities-ecosystems-health",
+      "date": "2026-11-25T07:00:09Z",
+      "summary": "Don’t take the bait offered up by ‘conservation’ charities. Fishing is about as good for our ecosystems as tobacco is for our health Drumroll please. I am about to unveil the species of fish that’s best to eat if you want to protect the living seas.…",
+      "source": "The Guardian – Environment",
+      "kind": "media"
+    },
+    {
+      "id": "705953bfe9fda6179a24",
+      "title": "White tiger cub rescued from illegal wildlife trafficking calls San Diego home - cbs8.com",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNNzdZZnA4TzRnUlB5NmFtVnAzRXZvZEFQMDRWRFpMYVZGWS1uU0ZzR1E2MVhDYUc2QTUweEc1dTJHNENlLWVIZjg4aGpZcFJoSHkxRFFseGMxa2FFbVE1SE1rZGxVNG9FUHU5WGxyWThEVGRTSFBENmJvVTVwWEdlcWREbjRLeEJQVEVCT2dBSHVueDc2ZEE1emRUUWlXc3FIb29GTExRc1A0QWVSOG05enpRQy0wSm5CZjZCcncyR3VRLTVOSmdQWDNUbnZ1dzhfMDR3ZUFMOE5seWQxWk43cE16dGVRUVBrYlZPUmlR?oc=5",
+      "date": "2026-11-25T03:33:00Z",
+      "summary": "White tiger cub rescued from illegal wildlife trafficking calls San Diego home cbs8.com",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
+      "kind": "media"
+    },
     {
       "id": "369e4c9f4a1f82a21f04",
       "title": "White tiger cub finds home in Alpine after being rescued from illegal wildlife trafficking operation - cbs8.com",
@@ -21,11 +84,11 @@
       "kind": "media"
     },
     {
-      "id": "2b928eed94efd7039888",
-      "title": "New Investigation Exposes Wildlife Trafficking Network Linked To Scales From Up To 77,000 Pangolins - World Animal News",
+      "id": "c4dbce87fe3639bee44f",
+      "title": "New Report Exposes Wildlife Trafficking Network Linked To Scales From Up To 77,000 Pangolins - World Animal News",
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPVWdqS0h0NnJzbzZFNklpN1NkRmlwd1Z3Z2ZSODdISnZDY0dGRUJ0UjFRVjFQN3R3WGR6cHV1WEp3VkRqSFlyV0tDTW0zQVNVXzl3OFlxTjFtdjJxOW1pVHZqSFVBX3hQbXV5LVZDNjg1SWVMcFVJVXNQektiVW9sb19OclRDUlJGYk1UNEJvZmR0czV6Wl9xbF92UURnQzFzQkREMXYzVWlXUVo3RS1MLWgyLUFRRE00WGFxYzV5Yjd6MkFsUmhQVDdrVlVHVk5nWHEtMg?oc=5",
       "date": "2026-11-25T00:06:03Z",
-      "summary": "New Investigation Exposes Wildlife Trafficking Network Linked To Scales From Up To 77,000 Pangolins World Animal News",
+      "summary": "New Report Exposes Wildlife Trafficking Network Linked To Scales From Up To 77,000 Pangolins World Animal News",
       "source": "Wildtierhandel – Medien (News-Aggregation)",
       "kind": "media"
     },
@@ -115,7 +178,7 @@
       "title": "Indigenous peoples leave collapsed climate talks with promises on hold",
       "url": "https://news.mongabay.com/2026/11/indigenous-peoples-leave-collapsed-climate-talks-with-promises-on-hold/",
       "date": "2026-11-24T14:24:04Z",
-      "summary": "ANATALYA, Türkiye — A year ago, a record number of Indigenous people attended the United Nations climate summit in Belém, Brazil. Although there as observers, without a seat at the negotiating table, they left with promises: recognition of their…",
+      "summary": "ANTALYA, Türkiye — A year ago, a record number of Indigenous people attended the United Nations climate summit in Belém, Brazil. Although there as observers, without a seat at the negotiating table, they left with promises: recognition of their…",
       "source": "Mongabay – Conservation News",
       "kind": "media"
     },
@@ -262,6 +325,19 @@
       "summary": "Nature writer reveals in his first Reith lecture that he finds ‘much more hope’ in emerging alliances We are “misplacing our trust” in the Cop climate summits and their “capacity to deliver consequential change”, according to Robert Macfarlane in…",
       "source": "The Guardian – Environment",
       "kind": "media"
+    },
+    {
+      "id": "db03c4028614d5ef57fa",
+      "title": "Rapid time-based surveys provide scalable biodiversity monitoring for tropical agricultural landscapes.",
+      "date": "2026-11-24T00:00:00Z",
+      "url": "https://doi.org/10.1016/j.jenvman.2026.131416",
+      "source": "Europe PMC",
+      "kind": "study",
+      "study_source": "Europe PMC",
+      "abstract_available": true,
+      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Der Abstract nennt eine Befragung. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt": "The need to evaluate the ecological state of biodiversity within agricultural certification frameworks has increased substantially, yet scalable and field-applicable monitoring approaches remain limited. Birds are widely recognised as sensitive ecological indicators of environmental change, but existing conventional surveys are often too resource-intensive for a large-scale biodiversity monitoring. Here, we assessed the capacity of a rapid Time-Based Survey (TBS) approach to recover ecologically interpretable patterns in avian richness across 90 sampling sites (450 observations) covering oil palm plantations, rubber tree p",
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung."
     },
     {
       "id": "a7c81883ae3b50222eb6",
@@ -453,7 +529,7 @@
       "study_source": "Europe PMC",
       "abstract_available": true,
       "summary": "Die Veröffentlichung behandelt Wildtier- und Naturschutz. Der Abstract nennt eine Befragung. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
-      "abstract_excerpt": "Estimating population sizes is crucial for wildlife management, but conventional crewed aerial surveys are expensive and pose safety risks. Drone platforms offer a effective alternative, yet optimal survey designs remain unclear. This simulation study examined the influence of survey design, camera configuration, and moose (Alces alces Linnaeus, 1758) density on the accuracy, precision and efficiency of drone surveys (fixed-wing and quadcopter) compared to helicopter surveys, using line-transect distance sampling with density surface models. Simulations used existing moose survey data from five wildlife management units in",
+      "abstract_excerpt": "Estimating population sizes is crucial for wildlife management, but conventional crewed aerial surveys are expensive and pose safety risks. Drone platforms offer a effective alternative, yet optimal survey designs remain unclear. This simulation study examined the influence of survey design, camera configuration, and moose ( Alces alces Linnaeus, 1758) density on the accuracy, precision and efficiency of drone surveys (fixed-wing and quadcopter) compared to helicopter surveys, using line-transect distance sampling with density surface models. Simulations used existing moose survey data from five wildlife management units i",
       "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung."
     },
     {
@@ -996,11 +1072,11 @@
       "kind": "media"
     },
     {
-      "id": "ac7fc3e45666b4dac846",
-      "title": "Young artists invited to reimagine how people and wildlife share the planet - International Fund for Animal Welfare | IFAW",
+      "id": "c89f41e9f27d1e8c908d",
+      "title": "Young artists to reimagine people & wildlife sharing the planet - International Fund for Animal Welfare | IFAW",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUG9zb2FsSFRRbHpzSVZqLWl3WXUyeHFoQjRuWmNTbV9XMG0zWFh2dEs3bnB2M2cyRXZiNEh1b3BHenJuTnpRd2l1ZDJJek5pcnl2NDJNYS1FUWctS2lnSXFiZHdmRGEtQ3dXd1hURDk5Z0hBR3VBOTdwV2F0MkFNVXllUUNHNHRiMEZn?oc=5",
       "date": "2026-11-18T09:36:32Z",
-      "summary": "Young artists invited to reimagine how people and wildlife share the planet International Fund for Animal Welfare | IFAW",
+      "summary": "Young artists to reimagine people & wildlife sharing the planet International Fund for Animal Welfare | IFAW",
       "source": "IFAW – Berichterstattung (News-Aggregation)",
       "kind": "media"
     },
@@ -1355,7 +1431,9 @@
       "abstract_available": true,
       "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
       "abstract_excerpt": "Assisted reproductive technologies (ART) provide opportunities for conservation of endangered wildlife, but their use is still limited by species-specific reproductive physiology, variable gamete competence, cryoinjury, and lack of validation of new approaches. This narrative review covers ART, biobanking, somatic cell nuclear transfer (SCNT), induced pluripotent stem cells (iPSCs), in vitro gametogenesis (IVG) and conservation genomics in vertebrates. Key molecular barriers include oxidative and mitochondrial damage, aberrant embryonic genome activation, incomplete epigenetic reprogramming, nuclear-mitochondrial incompati",
-      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung."
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "abstract_source_text": "Assisted reproductive technologies (ART) provide opportunities for conservation of endangered wildlife, but their use is still limited by species-specific reproductive physiology, variable gamete competence, cryoinjury, and lack of validation of new approaches. This narrative review covers ART, biobanking, somatic cell nuclear transfer (SCNT), induced pluripotent stem cells (iPSCs), in vitro gametogenesis (IVG) and conservation genomics in vertebrates. Key molecular barriers include oxidative and mitochondrial damage, aberrant embryonic genome activation, incomplete epigenetic reprogramming, nuclear-mitochondrial incompatibility and defective germ-cell differentiation. Technological readiness is used to evaluate the evidence and separate demonstrated reproductive outcomes from experimental proof of concept, and indirect findings from domestic or laboratory models. Semen cryopreservation and artificial insemination are established in selected species, while embryo-based interventions remain species-dependent and stem-cell-derived reproductive approaches require functional validation. We propose an integrated decision framework linking reproductive diagnosis, biobanking, genomic donor selection, technological readiness, animal welfare, and resource allocation with reproductive and population-level outcomes. Importantly, laboratory milestones alone cannot demonstrate conservation success without sustained genetic contribution across multiple subsequent generations. Successful translation depends on species-specific protocols, standardized endpoints, and evidence of genetically valuable offspring survival, reproduction, and contribution to long-term population viability.",
+      "abstract_origin": "OpenAlex DOI abstract"
     },
     {
       "id": "4b5ae3c8810b32f3c087",
@@ -1368,7 +1446,9 @@
       "abstract_available": true,
       "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
       "abstract_excerpt": "Wildlife-vehicle collisions (WVCs) represent a global challenge for human safety and biodiversity conservation. This study investigates the environmental and road characteristics that influence WVC risk, using the province of Parma (Northern Italy) as a representative case study. We analysed 693 collision events recorded between 2013 and 2018, most of which involving roe deer (Capreolus capreolus, 86%) and wild boar (Sus scrofa, 10%). Spatial and temporal analysis revealed how collisions are not randomly distributed, peaking on busy major roads where high average speeds coincide with fragmented landscapes. Higher collision",
-      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung."
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "abstract_source_text": "Wildlife-vehicle collisions (WVCs) represent a global challenge for human safety and biodiversity conservation. This study investigates the environmental and road characteristics that influence WVC risk, using the province of Parma (Northern Italy) as a representative case study. We analysed 693 collision events recorded between 2013 and 2018, most of which involving roe deer (Capreolus capreolus, 86%) and wild boar (Sus scrofa, 10%). Spatial and temporal analysis revealed how collisions are not randomly distributed, peaking on busy major roads where high average speeds coincide with fragmented landscapes. Higher collision frequency was observed near croplands and riparian corridors, particularly at the peri-urban interface. Temporal patterns confirm that most WVCs occur during crepuscular and nocturnal hours, aligning with peak ungulate activity. Our research identifies critical road segments from environmental predictors, providing a robust spatial baseline to identify priority locations for mitigation measures, such as wildlife underpasses and road signage, to enhance both habitat permeability and drivers' safety.",
+      "abstract_origin": "OpenAlex DOI abstract"
     },
     {
       "id": "c955aded12c2b0002c83",
@@ -2189,8 +2269,8 @@
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxORDA5S0pDaTQ5Q0RNTDBvVmpHbF9jLXJzdm1jYnk0QmtDZ0JwTnBlOHp0Z0dHR1FuMGtJMHhkYTRHLWZHdHpMX3hpUUJCeHVVWngxLTZWSTZ6MmZBUjhZUTFFVnVyM191OHJSZGFKdEthM3BqWERjajd6MEplNGxzLQ?oc=5",
       "date": "2026-09-18T07:00:00Z",
       "summary": "Pangolins & other wildlife reveal wider toll of Indonesia’s fires International Fund for Animal Welfare | IFAW",
-      "source": "IFAW – öffentliche Meldungen (News-Aggregation)",
-      "kind": "ifaw"
+      "source": "IFAW – Berichterstattung (News-Aggregation)",
+      "kind": "media"
     },
     {
       "id": "626823e33a6d22d55814",
@@ -2445,33 +2525,6 @@
       "kind": "media"
     },
     {
-      "id": "efb38d663dbbf1c645c5",
-      "title": "Mapping the shadows: scientists predict the ‘hidden highways’ of Mexico’s illegal wildlife trade - The Australian National University",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOaHlMWHJqTnBqY01HaXRhd2JqYTdTVjN0YlRqWFItN1hwcExRTDRjS181S2t2T0pmMzVQSjdIaWZwaEJwZ3BBX0htWGxWc3ZsMk1ucU9kWllYaVZWamZHb0tsb3ZIVmtkLUxObDZJSUNFV1RtNDFOajJEVW1PRDRLN0FtaHJHb2tfSHZnVEVlbGZDOGFkMlkySHh6RW0wZjItWnR2TTFGMWYybHpkanYtblUyR1pad2J1NUlyZTlpRlNORmx4ZWJhRQ?oc=5",
-      "date": "2026-08-25T07:00:00Z",
-      "summary": "Mapping the shadows: scientists predict the ‘hidden highways’ of Mexico’s illegal wildlife trade The Australian National University",
-      "source": "Wildtierhandel – Medien (News-Aggregation)",
-      "kind": "media"
-    },
-    {
-      "id": "03ddb161a1504c1b87f3",
-      "title": "Online illegal wildlife trade poses risks to biodiversity: study - Daily Finland",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQamFXYzA3c3JvQU8xd0ljRy1GMm1PYTc2bVhaNDhRUWFPM29jMlNSdWRFd2tHemI0MndxRHlUUHhSekJIVERpcV9faTY1WmRYMzl0WlhGRkdkTy0ydEdqVXdwbmllN3pHZVhlN1c3ZER2eEdSVnBwQ3dZaEd0dzRCSzFzeEhnckNJazRBZUowdmZseW1jeVgtaTJPLXB5QVpHV1otWEJWNWJQQQ?oc=5",
-      "date": "2026-08-25T07:00:00Z",
-      "summary": "Online illegal wildlife trade poses risks to biodiversity: study Daily Finland",
-      "source": "Wildtierhandel – Medien (News-Aggregation)",
-      "kind": "media"
-    },
-    {
-      "id": "0d58ece2738ebca765d9",
-      "title": "Landmark Study Shows How Digital Platforms Fuel Wildlife Trafficking - 2oceansvibe News",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZjJqWUlJaklkOFZ6T1R3aVl6VVFSMGw1UTU2ejFBQkxqSlRtdlN2VEN2c3ZwUkkzcTVHVWs2RVJuNjF2LU52OUlYV1ZDVzFEMElXSEdZQ29KZmRIcTY2cGxRdUY5U1NqQko2QWo5LWpiQWtGWjU2V2EzbG5xVTRDNXEwa0lLVGhGckNrdW1tMmtseF81ai1mMmRiMDFGbERKRjZfVnJB?oc=5",
-      "date": "2026-08-25T07:00:00Z",
-      "summary": "Landmark Study Shows How Digital Platforms Fuel Wildlife Trafficking 2oceansvibe News",
-      "source": "Wildtierhandel – Medien (News-Aggregation)",
-      "kind": "media"
-    },
-    {
       "id": "470d5290e0403ffd1302",
       "title": "An expanding human footprint drives escalating human–elephant conflict across a transboundary African landscape through 2085",
       "date": "2026-07-07T00:00:00Z",
@@ -2590,7 +2643,7 @@
     {
       "name": "EU-Kommission – Nachrichten",
       "kind": "policy",
-      "count": 3,
+      "count": 2,
       "ok": true
     },
     {
@@ -2608,43 +2661,43 @@
     {
       "name": "BBC – Wissenschaft & Umwelt",
       "kind": "media",
-      "count": 17,
+      "count": 14,
       "ok": true
     },
     {
       "name": "The Guardian – Environment",
       "kind": "media",
-      "count": 18,
+      "count": 16,
       "ok": true
     },
     {
       "name": "Mongabay – Conservation News",
       "kind": "media",
-      "count": 16,
+      "count": 17,
       "ok": true
     },
     {
       "name": "IFAW – öffentliche Meldungen (News-Aggregation)",
       "kind": "ifaw",
-      "count": 2,
+      "count": 1,
       "ok": true
     },
     {
       "name": "IFAW – Berichterstattung (News-Aggregation)",
       "kind": "media",
-      "count": 4,
+      "count": 5,
       "ok": true
     },
     {
       "name": "Wildtierhandel – Medien (News-Aggregation)",
       "kind": "media",
-      "count": 54,
+      "count": 16,
       "ok": true
     },
     {
       "name": "Deutschland – Wildtiere (News-Aggregation)",
       "kind": "media",
-      "count": 9,
+      "count": 8,
       "ok": true
     },
     {
@@ -2656,8 +2709,8 @@
     {
       "name": "Crossref: human wildlife conflict",
       "kind": "study",
-      "count": 0,
-      "ok": false
+      "count": 1,
+      "ok": true
     },
     {
       "name": "Crossref: marine mammal conservation",
@@ -2668,8 +2721,8 @@
     {
       "name": "Crossref: elephant conservation",
       "kind": "study",
-      "count": 0,
-      "ok": false
+      "count": 12,
+      "ok": true
     },
     {
       "name": "Crossref: wildlife rescue",
@@ -2682,22 +2735,15 @@
       "kind": "study",
       "count": 1,
       "ok": true
-    }
-  ],
-  "failures": [
-    {
-      "source": "Crossref: human wildlife conflict",
-      "error": "HTTP Error 429: Too Many Requests"
     },
     {
-      "source": "Crossref: elephant conservation",
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "source": "Europe PMC",
-      "error": "The read operation timed out"
+      "name": "Europe PMC – Studien & Abstracts",
+      "kind": "study",
+      "count": 30,
+      "ok": true
     }
   ],
+  "failures": [],
   "events": [],
   "notice": "Automatisierte Quellensammlung. Keine Vollständigkeits- oder unabhängige Faktenprüfungs-Garantie.",
   "daily_study": {

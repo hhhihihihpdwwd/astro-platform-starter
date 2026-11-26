@@ -40,7 +40,7 @@ def test_query_format_and_retention(tmp_path):
     assert q['ceid'][0]=='US:en'
     path=tmp_path/'media.json'
     def get(url):
-        if 'ceid=DE' in url:return xml(('Andreas Dinkelmeyer im Interview - Lokale Zeitung','Lokale Zeitung'))
+        if 'ceid=DE' in url:return xml(('Andreas Dinkelmeyer im Interview - Lokale Zeitung','Lokale Zeitung')).replace(b'/test0',b'/team0')
         return xml(('IFAW launches coastal protection - World News','World News'))
     data=M.run(path,get,NOW)
     assert len(data['articles'])==2

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-26T11:03:24.787350Z",
+  "generated_at": "2026-11-26T11:07:29.621386Z",
   "articles": [
     {
       "id": "ba0b2a9b720953cd5473",
@@ -1414,7 +1414,9 @@
       "abstract_available": true,
       "summary": "Die Veröffentlichung behandelt bedrohte Groß- und Wildtiere. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
       "abstract_excerpt": "Background and Objective: Rhino-cerebral mucormycosis (RCM) is an invasive fungal infection characterized by rapid progression and high mortality. We evaluated the association of routine inflammatory and nutritional indices, obtained before the otorhinolaryngology consultation prompted by sinonasal symptoms, with RCM in immunosuppressed patients. Materials and Methods: This retrospective, two-center, matched case-control study included 35 patients with RCM, defined by histopathologically identified hyphae consistent with Mucorales in debrided tissue (invasion or tissue damage documented in 12), and 79 immunosuppressed cont",
-      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung."
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "abstract_source_text": "Background and Objective: Rhino-cerebral mucormycosis (RCM) is an invasive fungal infection characterized by rapid progression and high mortality. We evaluated the association of routine inflammatory and nutritional indices, obtained before the otorhinolaryngology consultation prompted by sinonasal symptoms, with RCM in immunosuppressed patients. Materials and Methods: This retrospective, two-center, matched case–control study included 35 patients with RCM, defined by histopathologically identified hyphae consistent with Mucorales in debrided tissue (invasion or tissue damage documented in 12), and 79 immunosuppressed controls (2013–2026). Laboratory values were obtained a median of 10 days before this consultation. The neutrophil–lymphocyte ratio (NLR), systemic immune–inflammation index (SII), prognostic nutritional index (PNI), and C-reactive protein/albumin ratio (CAR) were evaluated using ROC analysis and conditional and penalized logistic regression. Results: NLR and SII did not differ between groups. The AUC was 0.846 (95% CI: 0.759–0.905) for CAR and 0.832 (95% CI: 0.731–0.900) for PNI; CRP alone performed similarly (AUC 0.833), and CAR added no information beyond CRP. In conditional analysis adjusted for neutropenia, both log2(CAR) (OR 1.85 per doubling; 95% CI: 1.15–2.99) and PNI (OR 0.88 per unit; 95% CI: 0.80–0.98) remained associated with RCM; in penalized models, the association of PNI was of borderline significance (p = 0.052–0.069). Conclusions: Elevated CAR measured before this consultation, largely reflecting CRP, was consistently associated with RCM; the association of low PNI was suggestive but model-dependent. These exploratory findings cannot be used to rule out RCM and require prospective validation.",
+      "abstract_origin": "OpenAlex DOI abstract"
     },
     {
       "id": "81387b9f83ce0d5acc6e",
@@ -1427,7 +1429,9 @@
       "abstract_available": true,
       "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
       "abstract_excerpt": "Land-use change profoundly affects carbon (C) stocks and sequestration potential, yet integrated assessments across natural forests, plantations, fallows, degraded forests, and agricultural fields remain scarce in the Indo-Burma Biodiversity Hotspot. We quantified C stocks (biomass and SOC) and sequestration-related processes (litter dynamics, NPP, and carbon turnover) in five contrasting land-use systems (e.g., pine plantation, PP; community-managed watershed, CMWs; fallow land, FL; degraded forest, DF, and paddy field, PF) in Manipur, Northeast India. Total vegetation C stock was highest in PP (124.51 Mg C ha⁻¹) and CMWs",
-      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung."
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "abstract_source_text": "Land-use change profoundly affects carbon (C) stocks and sequestration potential, yet integrated assessments across natural forests, plantations, fallows, degraded forests, and agricultural fields remain scarce in the Indo-Burma Biodiversity Hotspot. We quantified C stocks (biomass and SOC) and sequestration-related processes (litter dynamics, NPP, and carbon turnover) in five contrasting land-use systems (e.g., pine plantation, PP; community-managed watershed, CMWs; fallow land, FL; degraded forest, DF, and paddy field, PF) in Manipur, Northeast India. Total vegetation C stock was highest in PP (124.51 Mg C ha⁻¹) and CMWs",
+      "abstract_origin": "Europe PMC abstract excerpt"
     },
     {
       "id": "0236b8747d6f702c1867",
@@ -1440,7 +1444,9 @@
       "abstract_available": true,
       "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
       "abstract_excerpt": "Systematic conservation planning (SCP) provides a rigorous framework for addressing conservation prioritization by combining explicit objectives, conservation features, representation targets, costs, and implementation constraints. In this article, we advocate incorporating multidimensional indices into the determination of planning-unit weights or soft penalties. Rather than directly treating the spatial patterns of multidimensional biodiversity as features within the SCP framework, this approach ensures that areas with high local genetic, phylogenetic, or functional diversity values are explicitly favored among solutions",
-      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung."
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "abstract_source_text": "Systematic conservation planning (SCP) provides a rigorous framework for addressing conservation prioritization by combining explicit objectives, conservation features, representation targets, costs, and implementation constraints. In this article, we advocate incorporating multidimensional indices into the determination of planning-unit weights or soft penalties. Rather than directly treating the spatial patterns of multidimensional biodiversity as features within the SCP framework, this approach ensures that areas with high local genetic, phylogenetic, or functional diversity values are explicitly favored among solutions achieving comparable species targets.",
+      "abstract_origin": "OpenAlex DOI abstract"
     },
     {
       "id": "ea32354488f67c069685",
@@ -2887,7 +2893,7 @@
     {
       "name": "IFAW – öffentliche Meldungen (News-Aggregation)",
       "kind": "ifaw",
-      "count": 1,
+      "count": 2,
       "ok": true
     },
     {
@@ -2899,13 +2905,13 @@
     {
       "name": "Wildtierhandel – Medien (News-Aggregation)",
       "kind": "media",
-      "count": 21,
+      "count": 35,
       "ok": true
     },
     {
       "name": "Deutschland – Wildtiere (News-Aggregation)",
       "kind": "media",
-      "count": 6,
+      "count": 43,
       "ok": true
     },
     {

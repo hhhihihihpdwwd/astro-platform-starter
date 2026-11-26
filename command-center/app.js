@@ -131,7 +131,7 @@ function empty(title,sub){return '<div class="empty"><strong>'+esc(title)+'</str
 function fmtTime(value){return fmtDate(value,{hour:'2-digit',minute:'2-digit'})}
 function fullDate(value){return fmtDate(value,{hour:'2-digit',minute:'2-digit'})}
 function dateLabel(a){
-  const prefix=a.date_type==='aggregator'?'Google News-Zeit: ':a.date_type==='seen'||a.live?'Im Medienindex gesehen: ':'Datum laut Quelle: ';
+  const prefix=a.date_type==='aggregator'||String(a.source||'').includes('News-Aggregation')?'Google News-Zeit: ':a.date_type==='seen'||a.live?'Im Medienindex gesehen: ':'Datum laut Quelle: ';
   return prefix+fullDate(a.date);
 }
 function sectionAge(a){

@@ -16,7 +16,7 @@
     'deutschlandfunk','ndr','wdr','rbb','swr','mdr','br24','bayerischer rundfunk','frankfurter allgemeine',
     'frankfurter rundschau','faz','die welt','welt','bild','focus online','rtl','stern','t-online',
     'n-tv','deutsche presse-agentur','dpa','hamburger abendblatt','berliner morgenpost','tagesspiegel',
-    'geo','petbook','kölner stadt-anzeiger','koelner stadt-anzeiger','watson.de','bunte',
+    'petbook','kölner stadt-anzeiger','koelner stadt-anzeiger','watson.de','bunte',
     'morgenpost','abendzeitung','redaktionsnetzwerk deutschland','lokale zeitung'];
   const simplified=text=>String(text||'').replace(/\s+/g,' ').trim().toLocaleLowerCase('de-DE');
   function matches(title){
@@ -62,7 +62,7 @@
         const a={...input,profiles,kind:'monitor',
           origin:owner?'IFAW-eigene Meldung':'Externe Berichterstattung',
           market:owner?'International · IFAW':'Deutschland'};
-        const key=normalizeUrl(url),existing=map.get(key);
+        const key=owner?'ifaw-official:'+simplified(a.title):normalizeUrl(url),existing=map.get(key);
         if(!existing||Date.parse(a.date||'')>Date.parse(existing.date||'')||a.collected_via==='Google News RSS')map.set(key,a);
       }
     }

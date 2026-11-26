@@ -6,15 +6,15 @@ Dieses Projekt ist ein **nicht offiziell freigegebener, öffentlich erreichbarer
 
 ## Bedienung
 
-Schlanke Startseite mit **genau vier Bereichen**: Global News Radar, PR-Chancen, Crisis Watch und Medienbeobachtung. Die Startseite zeigt drei redaktionell getrennte Nachrichtenspalten und eine einklappbare Studie des Tages. Politik- und Wissenschaftsmeldungen bleiben über News Radar und die Studie verfügbar; es gibt keine eigenen Navigationspunkte dafür. Weltuhren und grafischer Hamburger Sonnenstand sind in ein aufklappbares Element ausgelagert. Keine Aufgabenverwaltung, kein Chatbot.
+Schlanke Startseite mit **genau vier Bereichen**: Global News Radar, PR-Chancen, Crisis Watch und Medienbeobachtung. Die Startseite zeigt News Radar, PR-Chancen und Crisis Watch; die Studie des Tages ist vollständig aus der Website entfernt. Politik- und Wissenschaftsmeldungen bleiben über News Radar und die Studie verfügbar; es gibt keine eigenen Navigationspunkte dafür. Weltuhren und grafischer Hamburger Sonnenstand stehen dauerhaft sichtbar unter einem Foto-Banner mit dem bestehenden Elefanten-Symbolbild. Keine Aufgabenverwaltung, kein Chatbot.
 
 **Alle Artikel werden absteigend nach ihrem Datumsfeld sortiert**, auch im PR- und Krisenbereich. Die Oberfläche zeigt explizit *Datum laut Quelle*, *Google-News-Zeit* oder *im Medienindex gesehen*, je nach Quellenart. Ältere Artikel bleiben unten oder unter einer eigenen Datumsgruppe. Der Website-Datenabruf, die Aktualisierung der Datenbank und das jüngste Veröffentlichungsdatum sind bewusst getrennte Angaben. Ein neuer Abruf heißt nicht, dass neue Artikel vorliegen.
 
 ## Medienbeobachtung
 
-Der Bereich **Medienbeobachtung** zeigt öffentlich indexierte Treffer zu IFAW und Mitarbeitenden, darunter die Organisationen **IFAW**, **International Fund for Animal Welfare**, **IFAW Deutschland / Internationaler Tierschutz-Fonds** sowie offiziell öffentlich gelistete Mitarbeitende **Andreas Dinkelmeyer**, **Robert Kless**, **Azzedine Downes**, **Matt Collis** und **Ilaria Di Silvestre**. Grundlage der Personenprofile ist die [öffentliche IFAW-Teamseite](https://www.ifaw.org/de/menschen/team).
+Der Bereich **Medienbeobachtung** zeigt **externe IFAW-Erwähnungen aus deutschen Medien** und daneben **internationale offizielle Veröffentlichungen von IFAW**. Suchprofile umfassen die Organisationen **IFAW**, **International Fund for Animal Welfare**, **IFAW Deutschland / Internationaler Tierschutz-Fonds** sowie offiziell öffentlich gelistete Mitarbeitende **Andreas Dinkelmeyer**, **Robert Kless**, **Azzedine Downes**, **Matt Collis** und **Ilaria Di Silvestre**. Grundlage der Personenprofile ist die [öffentliche IFAW-Teamseite](https://www.ifaw.org/de/menschen/team).
 
-Die Datensammlung führt Google News RSS-Suchen mit Originaltitel, Link, Quelle und Google-News-Zeitstempel zusammen und entfernt Dubletten. Es gibt Filter pro Suchprofil, externe Medienberichte versus IFAW-eigene Veröffentlichungen sowie Zeitgruppen (heute, gestern, letzte sieben Tage, ältere Meldungen). Ein Browser-Liveabruf über den begrenzten kostenlosen RSS2JSON-Dienst wird ergänzend versucht.
+Die Datensammlung führt Google News RSS-Suchen mit Originaltitel, Link, Verlag und Google-News-Zeitstempel zusammen. Internationale Fremdberichte sind ausgeschlossen; nur Quellen aus dem deutschen Medienmarkt und offizielle IFAW-Veröffentlichungen weltweit werden behalten. Eigene IFAW-Meldungen mit gleichem Titel werden zusammengeführt. Es gibt Filter pro Suchprofil, externe Medienberichte versus IFAW-eigene Veröffentlichungen sowie Zeitgruppen (heute, gestern, letzte sieben Tage, ältere Meldungen). Ein Browser-Liveabruf über den begrenzten kostenlosen RSS2JSON-Dienst wird ergänzend versucht.
 
 **Wichtige Grenze:** Das ist *kein vollständiger Mediendatenbank-Dienst* und kann keine vollständige Abdeckung aller Zeitungen, Fachartikel, Bezahlmedien, TV-Archive, Veröffentlichungen mit reinem Volltext-Namensnennungen oder sämtlicher IFAW-Kollegen leisten. Treffer können fehlen, Index-Zeitstempel können vom tatsächlichen Veröffentlichungsdatum abweichen, und einzelne Nachnamen können mehrdeutig sein. Kein automatisches Abrufen oder Weiterveröffentlichen vollständiger Artikel.
 
@@ -22,7 +22,7 @@ Die Datensammlung führt Google News RSS-Suchen mit Originaltitel, Link, Quelle 
 
 Der stündliche Quellenlauf versucht, aus öffentlichen Europe-PMC-Abstracts relevante Tier- und Artenschutzpublikationen mit DOI zu übernehmen. Bei API-Ausfällen stehen **sieben anhand der Originalpublikationen geprüfte Fachartikel** bereit, die täglich wechseln können. Die Entscheidung für den aktuellen Hamburger Kalendertag wird separat gespeichert und bleibt während des Tages stabil. Themenbeschreibungen sind bewusst zurückhaltend formuliert; keine behauptete LLM-Faktenprüfung oder erfundene Forschungsergebnisse. Veröffentlichungsdaten werden angezeigt; die Rubrik beansprucht nicht, dass eine ältere Studie neu erschienen sei.
 
-Die **Studie des Tages** ist jetzt auf der Global-News-Startseite einklappbar. Die KI-Analyse lässt sich per Button auf Grundlage des hinterlegten Original-Abstracts starten, wenn das Gerät eine lokale Browser-KI unterstützt. Die Originalquelle bleibt verlinkt.
+Die **Studie des Tages** wurde auf Wunsch aus dem Dashboard entfernt. Wissenschaftliche Hintergrundmeldungen können weiterhin im allgemeinen Nachrichtenbestand vorkommen.
 
 ## Bilder & Gestaltung
 

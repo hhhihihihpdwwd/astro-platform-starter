@@ -36,12 +36,12 @@ def test_parse_dates_publisher_and_false_hits():
 
 def test_query_format_and_retention(tmp_path):
     q=parse_qs(urlparse(M.google_url(M.SEARCHES[0])).query)
-    assert 'when:14d' in q['q'][0]
+    assert 'when:30d' in q['q'][0]
     assert q['ceid'][0]=='US:en'
     path=tmp_path/'media.json'
     def get(url):
         if 'ceid=DE' in url:return xml(('Andreas Dinkelmeyer im Interview - Lokale Zeitung','Lokale Zeitung')).replace(b'/test0',b'/team0')
-        return xml(('IFAW launches coastal protection - World News','World News'))
+        return xml(('IFAW launches coastal protection - IFAW','IFAW'))
     data=M.run(path,get,NOW)
     assert len(data['articles'])==2
     assert len(data['profiles'])>=7
@@ -52,7 +52,26 @@ def test_query_format_and_retention(tmp_path):
     assert len(data2['failures'])==len(M.SEARCHES)
 
 def test_merge_by_url_not_keyword():
-    a={'title':'IFAW rescues whale','url':'https://news.google.com/rss/articles/one',
+    a={'title':'IFAW rescues whale','source':'Die Zeit','url':'https://news.google.com/rss/articles/one',
        'date':'2026-11-26T08:00:00Z','profiles':['ifaw']}
     b=dict(a);b['profiles']=['germany']
     assert len(M.merge([a],[b],NOW))==1
+
+def test_german_market_only_external_but_global_ifaw_official():
+    assert M.official_ifaw('International Fund for Animal Welfare | IFAW','https://www.ifaw.org/international/news')
+    assert M.german_publisher('Die Zeit','https://www.zeit.de/wissen/umwelt')
+    assert not M.german_publisher('A-Z Animals','https://a-z-animals.com')
+    assert not M.german_publisher('Herald.co.zw','https://www.herald.co.zw')
+    rows=M.parse_monitor_rss(xml(
+        ('IFAW calls for action - A-Z Animals','A-Z Animals'),
+        ('IFAW calls for action - Die Zeit','Die Zeit'),
+        ('IFAW calls for action - IFAW','IFAW')
+    ),NOW,scope='germany')
+    assert len(rows)==2
+    assert {a['market'] for a in rows}=={'Deutschland','International · IFAW'}
+    world=M.parse_monitor_rss(xml(
+        ('IFAW rescue statement - A-Z Animals','A-Z Animals'),
+        ('IFAW wildlife statement - IFAW','IFAW')
+    ),NOW,scope='official')
+    assert len(world)==1 and world[0]['origin']=='IFAW-eigene Meldung'
+    assert all(a['source']!='A-Z Animals' for a in M.merge([],rows,NOW))

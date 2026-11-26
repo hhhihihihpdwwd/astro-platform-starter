@@ -36,12 +36,12 @@ FEED={
 MONITOR={
   'schema_version':1,'checked_at':TS,'last_successful_at':TS,
   'articles':[
-    {'id':'ifaw-old','title':'IFAW helps whales around the world - News Desk',
-     'url':'https://example.org/ifaw-old','date':WEEK_AGO,'source':'News Desk',
+    {'id':'ifaw-old','title':'IFAW helps whales around the world - A-Z Animals',
+     'url':'https://example.org/ifaw-old','date':WEEK_AGO,'source':'A-Z Animals',
      'kind':'monitor','profiles':['ifaw'],'origin':'Externe Berichterstattung',
      'collected_via':'Google News RSS','date_type':'aggregator'},
     {'id':'andreas','title':'Andreas Dinkelmeyer on illegal wildlife trade - Die Zeitung',
-     'url':'https://example.org/andreas','date':TS,'source':'Die Zeitung',
+     'url':'https://example.org/andreas','date':TS,'source':'Die Zeit',
      'kind':'monitor','profiles':['andreas'],'origin':'Externe Berichterstattung',
      'collected_via':'Google News RSS','date_type':'aggregator'},
     {'id':'robert','title':'Robert Kless discusses conservation - IFAW',
@@ -70,12 +70,6 @@ def test_newsroom_desktop():
             getItem:k=>values[k]??null,setItem:(k,v)=>{values[k]=String(v)}
           }});
           window.history.replaceState=()=>{};
-          window.Summarizer={create:async()=>({
-            async summarize(text){
-              if(!text.includes('original scientific abstract'))throw Error('Abstract not used');
-              return 'NEUE KI-ANALYSE: Das Abstract betrachtet Mensch-Elefant-Konflikte.';
-            },destroy(){}
-          })};
         }""")
         page.evaluate("""(input)=>{
           window._calls={archive:0,mediaArchive:0,live:0,mediaLive:0};
@@ -97,13 +91,18 @@ def test_newsroom_desktop():
             window._calls.archive++;return {ok:true,json:async()=>input.feed};
           };
         }""",{'feed':FEED,'media':MONITOR})
-        for script in ['analysis','clock','study-ai','live-news','monitoring']:
+        for script in ['analysis','clock','live-news','monitoring']:
             page.add_script_tag(path=str(ROOT/'lib'/(script+'.js')))
         page.add_script_tag(path=str(ROOT/'app.js'))
         page.wait_for_function("window._calls.live>=1 && window._calls.mediaArchive>=1 && !document.querySelector('#topStatus').textContent.includes('werden geprüft')")
         assert page.locator('.nav-link').count()==4
         assert page.locator('.sidebar').count()==0
         assert page.locator('.clock-drawer').count()==1
+        assert page.locator('details.clock-drawer').count()==0
+        assert page.locator('#worldClocks').is_visible()
+        assert page.locator('#sunGraphic').is_visible()
+        assert page.locator('.photo-credit').is_visible()
+        assert 'elephant.jpg' in page.locator('.welcome-band').evaluate('(el)=>getComputedStyle(el).backgroundImage')
         assert re.match(r'Guten (Morgen|Tag|Abend), Luca\.',page.locator('#greeting').inner_text())
         assert re.match(r'\d\d:\d\d:\d\d',page.locator('#clock-hamburg').inner_text())
         assert page.locator('.world-clock').count()==3
@@ -120,6 +119,7 @@ def test_newsroom_desktop():
         page.locator('[data-view="monitor"]').first.click()
         assert page.locator('[data-monitor-profile]').count()==9
         assert 'Andreas Dinkelmeyer' in page.locator('main').inner_text()
+        assert 'IFAW helps whales around the world - A-Z Animals' not in page.locator('main').inner_text()
         assert 'Robert Kless' in page.locator('main').inner_text()
         assert 'Google News-Zeit' in page.locator('main').inner_text()
         assert page.evaluate("""() => itemsFor('monitor').every((a,i,list)=>!i||Date.parse(list[i-1].date)>=Date.parse(a.date))""")
@@ -138,10 +138,10 @@ def test_newsroom_desktop():
         page.locator('[data-view="crisis"]').first.click()
         assert 'Crisis Watch' in page.locator('.page-heading').inner_text()
         page.locator('[data-view="news"]').first.click()
-        page.locator('.research-drawer summary').click()
-        page.locator('#summarizeStudy').click()
-        page.get_by_text('NEUE KI-ANALYSE',exact=False).wait_for()
-        assert page.locator('#studyAIResult').count()==1
+        assert page.locator('.research-drawer').count()==0
+        assert page.locator('#dailyStudy').count()==0
+        assert page.locator('#summarizeStudy').count()==0
+        assert 'Studie des Tages' not in page.locator('main').inner_text()
         page.locator('#globalSearch').fill('whales')
         assert 'New protections for whales' in page.locator('main').inner_text()
         page.locator('#globalSearch').fill('unbekannteswort')
@@ -154,5 +154,5 @@ def test_newsroom_desktop():
         assert not errors,errors
         page.locator('[data-view="news"]').first.click()
         page.screenshot(path=str(ROOT/'tests'/'screenshot-dashboard.png'),full_page=True)
-        print('Browser OK: four views, genuine dates, IFAW staff profiles, live refresh, study AI, XSS and mobile-friendly layout')
+        print('Browser OK: four views, Germany-only mentions, global IFAW releases, visible clocks, elephant hero, removed study')
         browser.close()

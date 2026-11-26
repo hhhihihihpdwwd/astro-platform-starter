@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-26T11:12:44.802411Z",
+  "generated_at": "2026-11-26T11:14:20.809703Z",
   "articles": [
     {
       "id": "ba0b2a9b720953cd5473",
@@ -512,7 +512,9 @@
       "abstract_available": true,
       "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Der Abstract nennt eine Befragung. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
       "abstract_excerpt": "The need to evaluate the ecological state of biodiversity within agricultural certification frameworks has increased substantially, yet scalable and field-applicable monitoring approaches remain limited. Birds are widely recognised as sensitive ecological indicators of environmental change, but existing conventional surveys are often too resource-intensive for a large-scale biodiversity monitoring. Here, we assessed the capacity of a rapid Time-Based Survey (TBS) approach to recover ecologically interpretable patterns in avian richness across 90 sampling sites (450 observations) covering oil palm plantations, rubber tree p",
-      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung."
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "abstract_source_text": "The need to evaluate the ecological state of biodiversity within agricultural certification frameworks has increased substantially, yet scalable and field-applicable monitoring approaches remain limited. Birds are widely recognised as sensitive ecological indicators of environmental change, but existing conventional surveys are often too resource-intensive for a large-scale biodiversity monitoring. Here, we assessed the capacity of a rapid Time-Based Survey (TBS) approach to recover ecologically interpretable patterns in avian richness across 90 sampling sites (450 observations) covering oil palm plantations, rubber tree p",
+      "abstract_origin": "Europe PMC abstract excerpt"
     },
     {
       "id": "a7c81883ae3b50222eb6",
@@ -705,7 +707,9 @@
       "abstract_available": true,
       "summary": "Die Veröffentlichung behandelt Wildtier- und Naturschutz. Der Abstract nennt eine Befragung. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
       "abstract_excerpt": "Estimating population sizes is crucial for wildlife management, but conventional crewed aerial surveys are expensive and pose safety risks. Drone platforms offer a effective alternative, yet optimal survey designs remain unclear. This simulation study examined the influence of survey design, camera configuration, and moose ( Alces alces Linnaeus, 1758) density on the accuracy, precision and efficiency of drone surveys (fixed-wing and quadcopter) compared to helicopter surveys, using line-transect distance sampling with density surface models. Simulations used existing moose survey data from five wildlife management units i",
-      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung."
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "abstract_source_text": "Estimating population sizes is crucial for wildlife management, but conventional crewed aerial surveys are expensive and pose safety risks. Drone platforms offer a effective alternative, yet optimal survey designs remain unclear. This simulation study examined the influence of survey design, camera configuration, and moose (Alces alces Linnaeus, 1758) density on the accuracy, precision and efficiency of drone surveys (fixed‐wing and quadcopter) compared to helicopter surveys, using line‐transect distance sampling with density surface models. Simulations used existing moose survey data from five wildlife management units in Alberta, Canada (2132–12,034 km 2). Systematic, zigzag and segmented grid transects for fixed‐wing drones and systematic transects for quadcopters were compared to the helicopter's segmented grid design at equal survey effort. All simulated designs produced unbiased density estimates. Precision depended mainly on the assumed camera configuration rather than on the platform or the area covered: drones with a gimbal‐mounted camera covered about 40% of each area but matched the precision of the helicopter, which covered 88% (coefficient of variation 0.07–0.08 vs. 0.08), whereas the narrow two‐camera and nadir configurations increased the coefficient of variation by 60%–90%. Survey design influenced efficiency but not accuracy: zigzag designs achieved the highest proportion of on‐transect flight (95%), and concentrating effort in subplots performed as well as spreading it across the whole area. Quadcopters were limited by low efficiency and the logistics of surveying many small subplots rather than by accuracy. These results are conditional on the simulated designs and assumed detection functions, and suggest that, if comparable drone detection is achieved in the field, fixed‐wing drones with wide‐swath cameras could provide an alternative to helicopter surveys. Field validation of drone detection for moose is needed, as canopy cover, snow, temperature and animal movement, which were not simulated, may affect real‐world performance.",
+      "abstract_origin": "OpenAlex DOI abstract"
     },
     {
       "id": "d4cd0a47d7fda1402c05",
@@ -850,7 +854,9 @@
       "abstract_available": true,
       "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
       "abstract_excerpt": "Marine ecosystem restoration is increasingly recognized as a key strategy to reverse biodiversity loss and support the recovery of ecosystem services. However, the environmental burdens generated by restoration activities are rarely quantified. This study investigates whether Life Cycle Assessment (LCA) can support the design and management of environmentally sustainable marine restoration interventions. Using the restoration of the European flat oyster (Ostrea edulis) in the Nora Lagoon (Italy) as a case study, a cradle-to-deployment LCA was performed, including adult collection, hatchery stage at laboratory scale, transp",
-      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung."
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "abstract_source_text": "Marine ecosystem restoration is increasingly recognized as a key strategy to reverse biodiversity loss and support the recovery of ecosystem services. However, the environmental burdens generated by restoration activities are rarely quantified. This study investigates whether Life Cycle Assessment (LCA) can support the design and management of environmentally sustainable marine restoration interventions. Using the restoration of the European flat oyster (Ostrea edulis) in the Nora Lagoon (Italy) as a case study, a cradle-to-deployment LCA was performed, including adult collection, hatchery stage at laboratory scale, transportation, and field deployment. Environmental impacts were assessed and complemented by LCA-based biodiversity indicators, sensitivity analyses, and an evaluation of shell-based carbon sequestration potential. Results showed that the deployment phase was the main contributor to global warming potential, marine eutrophication, and biodiversity impacts, whereas hatchery stage dominated cumulative energy demand and water use. The nursery stage of laboratory rearing and the use of imported commercial feed emerged as major hotspots. Alternative scenarios based on renewable electricity and modified transport logistics reduced several impact categories, with local feed production providing potentially the most balanced improvements. Although restored oysters stored biogenic carbon, sequestration remained negligible compared with project emissions over a 10-year period. The study demonstrates that LCA is an effective decision-support tool for identifying environmental hotspots, optimizing restoration strategies, and integrating sustainability considerations into marine biodiversity restoration planning.",
+      "abstract_origin": "OpenAlex DOI abstract"
     },
     {
       "id": "e2afe720fd225339567f",
@@ -2918,19 +2924,19 @@
     {
       "name": "IFAW – Berichterstattung (News-Aggregation)",
       "kind": "media",
-      "count": 7,
+      "count": 3,
       "ok": true
     },
     {
       "name": "Wildtierhandel – Medien (News-Aggregation)",
       "kind": "media",
-      "count": 21,
+      "count": 35,
       "ok": true
     },
     {
       "name": "Deutschland – Wildtiere (News-Aggregation)",
       "kind": "media",
-      "count": 43,
+      "count": 6,
       "ok": true
     },
     {
@@ -2960,14 +2966,14 @@
     {
       "name": "Crossref: wildlife rescue",
       "kind": "study",
-      "count": 0,
-      "ok": false
+      "count": 5,
+      "ok": true
     },
     {
       "name": "Crossref: illegal wildlife trade",
       "kind": "study",
-      "count": 0,
-      "ok": false
+      "count": 1,
+      "ok": true
     }
   ],
   "failures": [
@@ -2977,14 +2983,6 @@
     },
     {
       "source": "Crossref: elephant conservation",
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "source": "Crossref: wildlife rescue",
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "source": "Crossref: illegal wildlife trade",
       "error": "HTTP Error 429: Too Many Requests"
     },
     {

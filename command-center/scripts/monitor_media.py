@@ -36,15 +36,42 @@ PUBLIC_PROFILES=[
 ]
 # Queries intentionally grouped to reduce free-provider pressure.
 SEARCHES=[
-    {'name':'IFAW · internationales Presseecho','locale':'en','region':'US',
-     'query':'("International Fund for Animal Welfare" OR IFAW) when:14d'},
-    {'name':'IFAW · Deutschland','locale':'de','region':'DE',
-     'query':'("IFAW Deutschland" OR "Internationaler Tierschutz-Fonds" OR IFAW) when:14d'},
-    {'name':'IFAW · deutsches Team','locale':'de','region':'DE',
-     'query':'("Andreas Dinkelmeyer" OR "Robert Kless") when:30d'},
-    {'name':'IFAW · internationales Team','locale':'en','region':'US',
-     'query':'("Azzedine Downes" OR "Matt Collis" OR "Ilaria Di Silvestre") when:30d'},
+    {'name':'IFAW · internationale offizielle Pressemitteilungen','locale':'en','region':'US',
+     'scope':'official','query':'site:ifaw.org ("International Fund for Animal Welfare" OR IFAW) when:30d'},
+    {'name':'IFAW · deutscher Medienmarkt','locale':'de','region':'DE',
+     'scope':'germany','query':'("IFAW" OR "International Fund for Animal Welfare" OR "Internationaler Tierschutz-Fonds") when:30d'},
+    {'name':'IFAW · deutsches Team in deutschen Medien','locale':'de','region':'DE',
+     'scope':'germany','query':'("Andreas Dinkelmeyer" OR "Robert Kless") when:30d'},
+    {'name':'IFAW · internationales Team in deutschen Medien','locale':'de','region':'DE',
+     'scope':'germany','query':'("Azzedine Downes" OR "Matt Collis" OR "Ilaria Di Silvestre") when:30d'},
 ]
+# Strict source restrictions: a German search locale alone does not prove
+# that an outlet belongs to the German media market.
+DE_PUBLISHER_HINTS=(
+    'die zeit','zeit online','spiegel','süddeutsche','sueddeutsche','tagesschau','ard','zdf',
+    'deutschlandfunk','nd r','ndr','wdr','rbb','swr','mdr','br24','bayerischer rundfunk',
+    'faz','frankfurter allgemeine','frankfurter rundschau','welt','bild','focus online',
+    'rtl','stern','t-online','n-tv','ntv','dpa','deutsche presse-agentur',
+    'hamburger abendblatt','berliner morgenpost','tagesspiegel','geo','petbook',
+    'kölner stadt-anzeiger','koelner stadt-anzeiger','watson.de','die presse',
+    'bunte','morgenpost','abendzeitung','redaktionsnetzwerk deutschland','rnd',
+    'westdeutsche zeitung','lokale zeitung'
+)
+def official_ifaw(publisher:str,source_url:str='')->bool:
+    from urllib.parse import urlsplit
+    host=urlsplit(source_url).hostname or ''
+    if host=='ifaw.org' or host.endswith('.ifaw.org'):return True
+    p=normalized(publisher)
+    return p=='ifaw' or p.startswith('international fund for animal welfare') or p.startswith('internationaler tierschutz-fonds')
+
+def german_publisher(publisher:str,source_url:str='')->bool:
+    from urllib.parse import urlsplit
+    host=(urlsplit(source_url).hostname or '').lower()
+    if host.endswith('.de'):return True
+    if host.endswith(('.faz.net','.t-online.com','.spiegel.de','.welt.de','.tagesschau.de')):return True
+    p=normalized(publisher)
+    return any(hint in p for hint in DE_PUBLISHER_HINTS)
+
 def normalized(s:str)->str:
     return re.sub(r'\s+',' ',(s or '')).casefold().strip()
 
@@ -66,7 +93,7 @@ def google_url(profile:dict)->str:
     params=urlencode({'q':profile['query'],'hl':hl,'gl':gl,'ceid':gl+':'+hl})
     return 'https://news.google.com/rss/search?'+params
 
-def parse_monitor_rss(payload:bytes,now:datetime)->list[dict]:
+def parse_monitor_rss(payload:bytes,now:datetime,scope:str='germany')->list[dict]:
     root=ET.fromstring(payload)
     out=[]
     for row in root.findall('.//item')[:100]:
@@ -78,14 +105,22 @@ def parse_monitor_rss(payload:bytes,now:datetime)->list[dict]:
         if (now-pub).total_seconds()>MAX_DAYS*86400 or pub>now+timedelta(hours=2):continue
         matches=matched_profiles(title)
         if not matches:continue
-        publisher=strip_html(row.findtext('source') or '',95)
+        node=row.find('source')
+        publisher=strip_html(node.text if node is not None else '',95)
+        source_url=canonical_link(node.get('url','')) if node is not None else None
         if not publisher:
             publisher=title.rsplit(' - ',1)[-1] if ' - ' in title else 'Google News'
-        owner=bool(re.search(r'(?i)\bIFAW\b|ifaw\.org',publisher))
+        owner=official_ifaw(publisher,source_url or '')
+        german=not owner and german_publisher(publisher,source_url or '')
+        if scope=='official' and not owner:continue
+        if scope=='germany' and not (german or owner):continue
         record={
             'id':make_id(url,title),'title':title,'url':url,'date':date,
             'date_type':'aggregator','source':publisher,'kind':'monitor',
-            'profiles':matches,'origin':'IFAW-eigene Meldung' if owner else 'Externe Berichterstattung',
+            'profiles':matches,
+            'origin':'IFAW-eigene Meldung' if owner else 'Externe Berichterstattung',
+            'market':'International · IFAW' if owner else 'Deutschland',
+            'publisher_url':source_url or '',
             'summary':'','collected_via':'Google News RSS'
         }
         out.append(record)
@@ -102,7 +137,11 @@ def merge(current:list[dict],fresh:list[dict],now:datetime)->list[dict]:
         except (TypeError,AttributeError,ValueError):continue
         matches=matched_profiles(a['title'])
         if not matches:continue
-        a={**a,'profiles':matches,'date_type':'aggregator'}
+        owner=official_ifaw(a.get('source',''),a.get('publisher_url',''))
+        if not owner and not german_publisher(a.get('source',''),a.get('publisher_url','')):continue
+        a={**a,'profiles':matches,'date_type':'aggregator',
+           'origin':'IFAW-eigene Meldung' if owner else 'Externe Berichterstattung',
+           'market':'International · IFAW' if owner else 'Deutschland'}
         # Use original article address as primary key, not search query.
         key=a['url'].lower().split('#')[0].rstrip('/')
         prev=merged.get(key)
@@ -116,7 +155,7 @@ def run(output:Path=DEST,get=request,now:datetime|None=None)->dict:
     fresh=[];sources=[];errors=[];successes=0
     for item in SEARCHES:
         try:
-            matches=parse_monitor_rss(get(google_url(item)),now)
+            matches=parse_monitor_rss(get(google_url(item)),now,item['scope'])
             fresh.extend(matches)
             sources.append({'name':item['name'],'ok':True,'count':len(matches)})
             successes+=1
@@ -128,7 +167,7 @@ def run(output:Path=DEST,get=request,now:datetime|None=None)->dict:
     data={'schema_version':1,'checked_at':now.isoformat().replace('+00:00','Z'),
           'last_successful_at':now.isoformat().replace('+00:00','Z') if successes else old.get('last_successful_at'),
           'articles':rows,'profiles':PUBLIC_PROFILES,'sources':sources,'failures':errors,
-          'notice':'Ausschnitt aus öffentlich indexierten Treffern; keine vollständige Medienabdeckung, kein Volltextzugriff. Google-News-Zeitstempel können von der Originalveröffentlichung abweichen.'}
+          'notice':'Deutsche Medienberichte zu IFAW und öffentlich zuordenbare internationale IFAW-Eigenmeldungen. Marktzuordnung über bekannte deutsche Medienhäuser / Publisher-URLs; Treffer können fehlen. Nur Google-News-Zeitstempel, kein Volltext, keine vollständige Medienabdeckung.'}
     output.parent.mkdir(parents=True,exist_ok=True)
     output.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
     LOG.info('Monitoring %s Artikel, %s Feed(s) erfolgreich, %s Fehler',len(rows),successes,len(errors))

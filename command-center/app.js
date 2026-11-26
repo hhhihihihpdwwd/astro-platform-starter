@@ -174,6 +174,14 @@ function feature(a,i){
     '<img loading="lazy" class="photo" src="'+imageFor(a,i)+'" alt="Symbolbild aus der Tier- und Naturwelt">'+
     '<h3>'+esc(truncated(a.displayTitle,91))+'</h3></a><div class="byline">'+esc(truncated(a.source,29))+' · '+esc(fmtDate(a.date))+'</div><div class="symbol-note">Symbolbild, nicht vom berichteten Ereignis</div></article>';
 }
+function newsListMini(items,limit=5){
+  return items.length?items.slice(0,limit).map(a=>
+    '<article class="news-row"><div class="news-row-top"><span class="news-row-date">'+esc(dateLabel(a))+'</span>'+
+    (sectionAge(a)==='heute'?'<span class="badge news-new">HEUTE</span>':'')+'</div>'+
+    '<div class="news-row-title">'+link(a,truncated(a.title,145))+'</div>'+
+    '<div class="news-row-origin">'+esc(a.source||'Originalquelle')+'</div></article>'
+  ).join(''):empty('Keine passenden Meldungen','Der Abruf kann derzeit unvollständig sein.');
+}
 function dashboard(){
   const all=itemsFor('news');
   const pr=itemsFor('pr'),crisis=itemsFor('crisis');

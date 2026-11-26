@@ -195,7 +195,7 @@ function dashboard(){
     '<p class="panel-note">Hinweise aus Meldungen, keine amtlichen Alarmmeldungen.</p>'+
     newsListMini(crisis,3)+'</div></section>'+
     '<section class="panel"><div class="panel-inner">'+panelTop('◈','IFAW in den Medien','monitor')+
-    '<p class="panel-note">Deutsche Medienberichte und internationale IFAW-Meldungen.</p>'+
+    '<p class="panel-note">Deutsche Medienberichte und internationale IFAW-Veröffentlichungen.</p>'+
     newsListMini(mediaItems(),3)+'</div></section></div></div>'+
     '<p class="mini-note section-spacer">Politik, Artenschutz und Wissenschaft bleiben im News Radar enthalten. Quelle und Datum vor externer Verwendung prüfen.</p>';
 }
@@ -252,14 +252,14 @@ function monitorView(){
   const show=all.slice(0,state.mediaVisible||70);
   const recorded=state.mediaFeed.last_successful_at;
   const published=mediaItems()[0]?.date;
-  return heading('Medienbeobachtung','Deutsche Medienberichte über IFAW sowie offizielle internationale IFAW-Pressemeldungen.',true)+
+  return heading('Medienbeobachtung','Deutsche Medienberichte über IFAW sowie internationale offizielle IFAW-Veröffentlichungen.',true)+
     '<div class="monitor-facts"><span>Neuester Treffer: <strong>'+esc(fullDate(published))+'</strong></span>'+
     '<span>Medienarchiv geprüft: <strong>'+esc(fmtTime(recorded))+'</strong></span>'+
     '<span>Gefundene Artikel: <strong>'+mediaItems().length+'</strong></span></div>'+
-    '<div class="notice">Externe Artikel werden auf deutsche Medienanbieter begrenzt. Internationale offizielle IFAW-Pressemeldungen bleiben erhalten. Die Abdeckung ist unvollständig; Google-News-Zeitstempel können vom Verlagsdatum abweichen.</div>'+
+    '<div class="notice">Externe Artikel werden auf deutsche Medienanbieter begrenzt. Offizielle IFAW-Veröffentlichungen aus aller Welt bleiben erhalten. Die Abdeckung ist unvollständig; Google-News-Zeitstempel können vom Verlagsdatum abweichen.</div>'+
     '<div class="monitor-layout">'+profileList()+'<section class="monitor-results">'+
     '<div class="monitor-toolbar"><div class="seg-tabs">'+
-    [['all','Alle'],['external','Deutsche Medienberichte'],['owned','IFAW-Pressemeldungen weltweit']].map(([key,label])=>
+    [['all','Alle'],['external','Deutsche Medienberichte'],['owned','IFAW-Veröffentlichungen weltweit']].map(([key,label])=>
       '<button type="button" data-monitor-scope="'+key+'" class="'+(state.monitorScope===key?'selected':'')+'">'+label+'</button>'
     ).join('')+'</div><span class="muted">'+all.length+' Treffer · neueste zuerst</span></div>'+
     (show.length?dateGroup(show):empty('Keine Treffer für diese Auswahl','Wenn eine Suche keine Treffer liefert, heißt das nicht, dass es keine Berichterstattung gab.'))+

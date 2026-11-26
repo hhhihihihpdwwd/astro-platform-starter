@@ -423,31 +423,67 @@ async function fetchLive(){
   try{
     if(!Live)throw Error('Live-Suchmodul nicht geladen');
     const data=await Live.load();
-    state.liveArticles=data.articles;
-    state.liveCheckedAt=data.checkedAt;
-    state.liveProvider=data.provider;
-    state.liveError='';
+    state.liveArticles=data.articles;state.liveCheckedAt=data.checkedAt;
+    state.liveProvider=data.provider;state.liveError='';
     return {ok:true,count:data.articles.length};
   }catch(err){
     state.liveError=String(err?.message||err);
     return {ok:false,count:0};
   }
 }
+async function fetchMediaArchive(){
+  let error='';
+  const urls=[
+    'https://raw.githubusercontent.com/hhhihihpdwwd/astro-platform-starter/main/command-center/data/monitoring.json?t='+Date.now(),
+    'data/monitoring.json?t='+Date.now()
+  ];
+  for(const url of urls){
+    const ctrl=new AbortController(),timer=setTimeout(()=>ctrl.abort(),14000);
+    try{
+      let response;
+      try{response=await fetch(url,{cache:'no-store',signal:ctrl.signal})}finally{clearTimeout(timer)}
+      if(!response.ok)throw Error('HTTP '+response.status);
+      const data=await response.json();
+      if(!data||!Array.isArray(data.articles)||!Array.isArray(data.sources))throw Error('Medien-Daten ungültig');
+      const old=Date.parse(state.mediaFeed.checked_at||''),next=Date.parse(data.checked_at||'');
+      state.mediaCheckedAt=new Date().toISOString();
+      if(!Number.isFinite(old)||Number.isFinite(next)&&next>=old){
+        const changed=state.mediaFeed.checked_at!==data.checked_at;
+        state.mediaFeed=data;state.mediaError='';return {ok:true,changed};
+      }
+      state.mediaError='';return {ok:true,changed:false};
+    }catch(ex){clearTimeout(timer);error=String(ex.message||ex)}
+  }
+  state.mediaError=error;return {ok:false,changed:false};
+}
+async function fetchMediaLive(){
+  try{
+    if(!Monitor)throw Error('Medienmonitor fehlt');
+    const result=await Monitor.loadLive();
+    state.mediaLive=result.articles;
+    state.mediaLiveCheckedAt=result.checked_at;
+    state.mediaLiveError='';
+    return {ok:true,count:result.articles.length};
+  }catch(err){state.mediaLiveError=String(err?.message||err);return {ok:false,count:0}}
+}
 async function loadFeed(manual=false){
   if(state.fetching)return;
-  const previousUrls=new Set(articles().map(a=>a.url));
+  const knownNews=new Set(articles().map(a=>a.url));
+  const knownMedia=new Set(mediaItems().map(a=>a.url));
   state.fetching=true;state.lastFetchAt=Date.now();status();
-  // Both sources run independently: a delayed GitHub schedule cannot block live search.
-  const [arch,live]=await Promise.all([fetchArchive(),fetchLive()]);
+  // Each feed is independent; failure in one does not block the others.
+  const [archive,live,mediaArchive,mediaLive]=await Promise.all([
+    fetchArchive(),fetchLive(),fetchMediaArchive(),fetchMediaLive()
+  ]);
   state.fetching=false;
-  if(!arch.ok&&!live.ok)state.lastFetchAt=Date.now()-55*60000; // retry on return in ~5 minutes
-  const newCount=articles().filter(a=>!previousUrls.has(a.url)).length;
+  if(!archive.ok&&!live.ok&&!mediaArchive.ok&&!mediaLive.ok)state.lastFetchAt=Date.now()-55*60000;
+  const newerNews=articles().filter(a=>!knownNews.has(a.url)).length;
+  const newerMedia=mediaItems().filter(a=>!knownMedia.has(a.url)).length;
   render();
   if(manual){
-    if(newCount>0)toast(newCount+' zusätzliche Meldungen geladen · Live-Quellen geprüft.');
-    else if(live.ok)toast('Live-Suche geprüft: '+live.count+' Treffer. Keine neueren Meldungen gefunden.');
-    else if(arch.changed)toast('Archiv aktualisiert. Live-Suche ist derzeit nicht erreichbar.');
-    else toast('Keine neuen Daten: Live-Suche nicht erreichbar. Das Archiv bleibt unverändert.');
+    if(newerNews||newerMedia)toast(newerNews+' neue Radar-Meldungen · '+newerMedia+' neue Medientreffer geladen.');
+    else if(live.ok||mediaLive.ok||archive.ok||mediaArchive.ok)toast('Alle verfügbaren Quellen geprüft. Keine zusätzlichen Meldungen gefunden.');
+    else toast('Alle Abrufe fehlgeschlagen. Der bisherige Datenbestand bleibt sichtbar.');
   }
 }
 function maybeRefresh(){

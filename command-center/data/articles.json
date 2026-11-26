@@ -1,7 +1,106 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-26T15:04:22.795091Z",
+  "generated_at": "2026-11-26T23:47:51.818789Z",
   "articles": [
+    {
+      "id": "570a2aedc56d695a04da",
+      "title": "Floating nature islands installed in parks as Glasgow Games legacy",
+      "url": "https://www.bbc.co.uk/news/articles/cwe9kxdm1k4lo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-26T22:54:18Z",
+      "summary": "The islands, being planted in five Glasgow parks, are designed to encourage wildlife and help clean the water.",
+      "source": "BBC – Wissenschaft & Umwelt",
+      "kind": "media"
+    },
+    {
+      "id": "d9919b8b663dd8fc6bf5",
+      "title": "Community forests offer hope for conservation in DRC, but major hurdles remain",
+      "url": "https://news.mongabay.com/2026/11/community-forests-offer-hope-for-conservation-in-drc-but-major-hurdles-remain/",
+      "date": "2026-11-26T21:30:06Z",
+      "summary": "LUBUMBASHI, Democratic Republic of Congo — In the Democratic Republic of Congo, an initiative is underway to award community-based forestry land titles to 7.1 million hectares of land, or about 17.5 million acres — an area the size of Ireland. This…",
+      "source": "Mongabay – Conservation News",
+      "kind": "media"
+    },
+    {
+      "id": "191a01cb40d43b13b165",
+      "title": "Second court defeat for Trump's deep-sea mining ambitions",
+      "url": "https://www.bbc.co.uk/news/articles/c6y4jyx2m172o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-26T18:22:28Z",
+      "summary": "Second judge rules against Trump administration's plans to lease areas of ocean floor and survey for mining.",
+      "source": "BBC – Wissenschaft & Umwelt",
+      "kind": "media"
+    },
+    {
+      "id": "9b70fec6cad043d3390c",
+      "title": "Artenschutz spricht gegen Deponie bei Heiningen - swp.de",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPQjBNZDdXVU5COUZISzNDRGVKRV9Jc0lVUmQtSUVldWFDMWx4cmhMNG9XaWlZMHgzT1RHd05RN0RqUFZyYk9OanQ2QzVXdTN3OUlqeGNrdUx2ajc3ZVQ4NGluY3hDT3RId1pFX0NjTURjTlhtOEJORnBFdlRqOE0wOXA5QUJaS2J2LXdXNTBwUUw3Z0pLTEZrQ1Qwd3NWdXFPRzFJQlM2eUJLdE9fVUtLajNZOVB3cTR3TU43eEpn?oc=5",
+      "date": "2026-11-26T18:01:00Z",
+      "summary": "Artenschutz spricht gegen Deponie bei Heiningen swp.de",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "7b8f9d0a337205daaccd",
+      "title": "US bill to speed up clean energy projects could also fast-track fossil fuels",
+      "url": "https://news.mongabay.com/short-article/2026/11/us-bill-to-speed-up-clean-energy-projects-could-also-fast-track-fossil-fuels/",
+      "date": "2026-11-26T17:58:01Z",
+      "summary": "On Nov. 19, the U.S. Senate passed a bill that aims to speed up permitting for energy infrastructure projects. The 62-33 vote on the Bipartisan American Affordability and Jobs Act (BAAJA) included support from pro-environment Democratic senators…",
+      "source": "Mongabay – Conservation News",
+      "kind": "media"
+    },
+    {
+      "id": "c68d98fd06444a93fa65",
+      "title": "Manipur: Forest department, WTI hold inter-agency meeting to combat wildlife trafficking - NE NOW",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNOVFINVVSSUtoeHhjMGg5MXEwOFVwa244WkJSTTlIc1czRUFZUlNnZ0ZXTXNSdzMtMU9iMDhSTWlPY0dOVmtEczdHeGNjanM1RHpncmxDa3FQSXlZSk1IUndlZmtmZDVubUFSVGRyYmxpNlBUSHh6NmRUNWs3Y0M3T0RLODVNQ1lNci1lT3JzbDNtMEJPR21xbFJ2ZHFPM2ptbllQa05YQTl5dDFJdGVweDJObEhZY3FEa2tjRkUzNndwQkJzek9tOWhNY2HSAcwBQVVfeXFMUFpyZy1fcFZUSFd6dFo2b0hsT1BKWUFzU0IwdEQ1SVViVTg5TU5jYnh4SDV0UjVlamFIMzlfV3RteW9TeVdDLUI1WG9iNzhPX1BfRi01VzkwOUF5VUxfcDBCSW5lSUNZRWxjV29jNkY5bGgxUk9CVEZfMG1mU09rOEFURlNaUExmcVpYTDVsUjdQVUd5OF8xVERwaEJiQmdIRFFLbFFzRzNWY1c3aXpmM0h4aFYtbFhXVy1CWWU2c2R0MkdYN2VYV01xX1Za?oc=5",
+      "date": "2026-11-26T17:46:04Z",
+      "summary": "Manipur: Forest department, WTI hold inter-agency meeting to combat wildlife trafficking NE NOW",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "1897ef40b5ecc771bdb4",
+      "title": "A new AI tool could help fight online wildlife trafficking - Earth.com",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSnlwcERpQ2RlY3pvMFBEc3FoRlhnb2hTNC1FVmNUR3ptR2JXZ1Ztc1lOb3lJaE5odFVFcEJEaWE2RGZ3X19zLWtBMG9JemxBYVp3MEJwTFdDeWRJMlRCY0VfazE2Qlk5VTQtdDRPYmVxNDhaMTh1bTZ1dTdPSHpRWWQ5dE5wcDAydFlsWnQ5ZG9QWUk?oc=5",
+      "date": "2026-11-26T16:10:55Z",
+      "summary": "A new AI tool could help fight online wildlife trafficking Earth.com",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "2b0f24d7e9405aa7b51f",
+      "title": "Moreh border emerges as key focus in Manipur’s fight against wildlife trafficking - Hub News",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQanNOS1g4bnZ4V3lhSnp2b2NPSkRpQ3hKck1PNDNUaGpkWmNNNUJsaGZwbEZzcmRYWWNYUjBST0V5anR4czlzQU9SMk5MUEVjTmFaaDZpNU5HLWZ4NVJRVUo3Rk8tcWw1ZlNsLUtYTDlqVVBFRm9yVmp6U0pwMVlzRHA1NHA0N0JSV2sxS3hQeElpUEtrWnAtUE5LbGJFa3RNY1lCbFZR?oc=5",
+      "date": "2026-11-26T15:51:18Z",
+      "summary": "Moreh border emerges as key focus in Manipur’s fight against wildlife trafficking Hub News",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "79fd4952d20b0e3c45d8",
+      "title": "Manipur agencies join hands to combat cross-border wildlife trafficking in Moreh - Northeast News",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPX1FONmdLXzRRZjZGNl9rNHV0ZGRHdFRWNERjOVpUUjFQMEtMbTh6T09Jd01aUTh1U0VUSG5sTEYtNGxjc2UzTTZ0dVZjYUI4YlJvR21WMUYtU3licWNDdW1oYWNqajdGdlZSUGEwSUR4VjU3SHhmR1RSV2UxUVZCS3NvWnBPQWl3Z2pzVlVMZHVlTHQwT3hOLWJNR3llREQ2UEZfNmVQX2FOTzZfVzhXMTJRNA?oc=5",
+      "date": "2026-11-26T15:24:06Z",
+      "summary": "Manipur agencies join hands to combat cross-border wildlife trafficking in Moreh Northeast News",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "3290c18452bf0813fab7",
+      "title": "Manipur forest department, WTI hold inter-agency meeting to combat wildlife trafficking along Indo-Myanmar border - India Today NE",
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQbHFiNVQ5Q0gtTGlSSFBrYVgxcFBxQkkzSkFDc1R3Z180LU5zNjI3Q1NEdHNiVjhLVWo0M1ZjakllSFdLM25taXNwTm9rbG9kNG5ZT195dDBCbXFJdTVtR0ZtdUtfcDNvcWUzTklUZjNXN083ZUlRZnVkQWloT0N5TTMtWFBwaUxWc0RGakVMTkN0M3RqTEVWbTFIQzVQN0tZQkRNRHJ0SFpIWGxwX2JPajA5RkFKdzg1MzN0bWtaU2h6MTcwUnBBblluTFlLd2FQQ1BtaFRJUUhqdkFuRDFPUi1lanVqZFFDdkI0WXhpWWNSb0RaZVdpSXFBR0xUNy1QLWlj0gGIAkFVX3lxTE9hT2xaOWxmMEFWTzJPVHJvTjV3bTkzWkN5YUQ4aXd2ZTF6dU5jcGxONmE0QUZ2TWpJRU8tUERrSkQxNFBqSG9hT0h6Y3dNVkxoZ3BCOHRkSUtDMnZNX096U2NLSmc5UVFhQ0hGYmNSaC1vbC15U3lCRFVPNWZWbkUxSFU3UEN1MVhQaERxRXpLMHR3czFRSC1pb0FRTGtaLVUwSi0xbVBYMlJHWmh5VVRzZVR4RE0wMGFENWJGam43QnNYLU5MVzlCYXZJZF9oQVFlQ0VlWlp6czdzOHgtTjhBN0ZEb1VaMW42Wk53bTJJQW94WFl4dGlvUWswcGdIR1BEdlJBcW96ZQ?oc=5",
+      "date": "2026-11-26T15:23:51Z",
+      "summary": "Manipur forest department, WTI hold inter-agency meeting to combat wildlife trafficking along Indo-Myanmar border India Today NE",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "7fa1c5daffd0bc793f0d",
+      "title": "I helped organise the letter from Labour MPs urging Andy Burnham to reject Rosebank. This is why | Catherine Fookes",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/26/labour-mp-letter-andy-burnham-rosebank-oil-climate-crisis",
+      "date": "2026-11-26T15:00:37Z",
+      "summary": "Approval would be celebrated by the oil giants, but it wouldn’t help our constituents who worry about the climate crisis, and their bills Catherine Fookes is Labour MP for Monmouthshire Labour split over Rosebank oilfield exposed by letter from…",
+      "source": "The Guardian – Environment",
+      "kind": "media"
+    },
     {
       "id": "a24c3c01f306b5efa833",
       "title": "Ministers have ‘failed to make the case’ for Heathrow third runway, MPs says",
@@ -18,6 +117,15 @@
       "date": "2026-11-26T12:53:19Z",
       "summary": "PNP arrests 7, rescues 31 animals in nationwide crackdown on illegal wildlife trade thechronicle.com.ph",
       "source": "Wildtierhandel – Medien (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "0652f1fb6d58974130a2",
+      "title": "Young innovators develop technology to tackle human-wildlife conflict - Herald.co.zw",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNDBJLXhhRHExYU9tRDRZTVB0QW1UR2RCZkd4QkJ0SjVvS2ZndjdmdVlLRjAwTHhtS1BMbW5iM0NvYlRBSWJZU2phVS1MVVdoTGMwMkJnaExmd3RRWmVfWHJsR08zM0ZVUG1rVlFCSkQyRkZmZEttS3FORmlWZHlyaGhXMVZ0cjgtWWxsQVV3RmJhSFVwMEJhYXNrLTFsQWl4R21J?oc=5",
+      "date": "2026-11-26T12:22:19Z",
+      "summary": "Young innovators develop technology to tackle human-wildlife conflict Herald.co.zw",
+      "source": "IFAW – Berichterstattung (News-Aggregation)",
       "kind": "media"
     },
     {
@@ -277,6 +385,47 @@
       "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
       "abstract_source_text": "Aquatic animal welfare is increasingly recognised as essential to sustainable aquaculture in Latin America and the Caribbean (LAC). This study identified the principal welfare challenges perceived by scientists, Competent National Authority staff, and industry professionals during a three-day online workshop. Latent Dirichlet Allocation was used to analyse responses concerning nutrition, environment, health, and behaviour across developmental stages, production systems, transport, slaughter, and species-specific issues. Major concerns included animal-based assessments, feeding strategies, and sanitary conditions. Across de",
       "abstract_origin": "Europe PMC abstract excerpt"
+    },
+    {
+      "id": "4bd3a391f91c694dd114",
+      "title": "Development of a sensitive and rapid on-site detection method for avian influenza virus in wildlife using reverse transcription loop-mediated isothermal amplification.",
+      "date": "2026-11-25T00:00:00Z",
+      "url": "https://doi.org/10.1292/jvms.26-0403",
+      "source": "Europe PMC",
+      "kind": "study",
+      "study_source": "Europe PMC",
+      "abstract_available": true,
+      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt": "The global spread of H5 high pathogenicity avian influenza virus (HPAIV) severely threatens wildlife, posing a critical challenge for conservation medicine. Although immunochromatographic (IC) kits are commonly used for on-site diagnosis of wildlife samples, their low sensitivity often results in false negatives. Highly sensitive molecular methods, such as reverse transcription quantitative polymerase chain reaction (RT-qPCR), are often impractical for field use because of the need for sophisticated equipment. Therefore, a sensitive and affordable on-site diagnostic tool is essential for early detection of HPAIV in wildlif",
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung."
+    },
+    {
+      "id": "8420e4a03c98bd6b6fd1",
+      "title": "Toxoplasma gondii and Neospora caninum in wild boars: evaluating diagnostic tools for parasitic wildlife surveillance.",
+      "date": "2026-11-25T00:00:00Z",
+      "url": "https://doi.org/10.1016/j.parint.2026.103417",
+      "source": "Europe PMC",
+      "kind": "study",
+      "study_source": "Europe PMC",
+      "abstract_available": true,
+      "summary": "Die Veröffentlichung behandelt Wildtier- und Naturschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt": "The invasive wild boar (Sus scrofa) is commonly hunted for human consumption and meat marketing in both native and introduced ranges worldwide. Due to its foraging behavior, potential ingestion of Toxoplasma gondii and Neospora caninum parasites is highly likely, making it an ideal sentinel species for parasitic surveillance. This study evaluated the presence and prevalence of T. gondii and N. caninum in wild boars introduced in Northern Patagonia, Argentina, using molecular and multiple serological methods. Samples were collected from 71 wild boars (69 brains, 71 liver, heart, and lung samples; 46 sera). Molecular analysi",
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung."
+    },
+    {
+      "id": "9413abe928abf2377d9c",
+      "title": "Klebsiella pneumoniae ST268 in Saffron Finches Seized from an Illegal Bird Fighting: Linking Antimicrobial Resistance, Environmental Violations, and Animal Welfare.",
+      "date": "2026-11-25T00:00:00Z",
+      "url": "https://doi.org/10.1007/s00284-026-05236-y",
+      "source": "Europe PMC",
+      "kind": "study",
+      "study_source": "Europe PMC",
+      "abstract_available": true,
+      "summary": "Die Veröffentlichung behandelt Wildtierhandel und Wilderei. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt": "Illegal wildlife trade (IWT) is often associated with the neglect of sanitary protocols, and proper animal handling, which may play a significant role in the evolution of bacteria harboring antimicrobial resistance mechanisms. The present study aimed to detect enteropathogens of global public health concern colonizing saffron finches (Sicalis flaveola) recovered from an illegal bird fighting activity. A total of 101 fecal samples were collected from saffron finches, from which 96 bacterial isolates were recovered and characterized. The Escherichia coli and Klebsiella spp. isolates were submitted to antimicrobial susceptibi",
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "abstract_source_text": "Illegal wildlife trade (IWT) is often associated with the neglect of sanitary protocols, and proper animal handling, which may play a significant role in the evolution of bacteria harboring antimicrobial resistance mechanisms. The present study aimed to detect enteropathogens of global public health concern colonizing saffron finches (Sicalis flaveola) recovered from an illegal bird fighting activity. A total of 101 fecal samples were collected from saffron finches, from which 96 bacterial isolates were recovered and characterized. The Escherichia coli and Klebsiella spp. isolates were submitted to antimicrobial susceptibility testing (n = 61), and among them, only those belonging to the Klebsiella pneumoniae complex (n = 44) showed antimicrobial resistance (13/44; 29.5%). Nine Klebsiella pneumoniae complex was identified as extended-spectrum β-lactamase producers, and four displayed the hypermucoviscous phenotype. Four isolates of interest were sequenced based on phenotypic and molecular evidence of ESBL production, antimicrobial resistance profiles, the hypermucoviscous phenotype, given its potential association with hypervirulence in K. pneumoniae; and the saffron finch subspecies from which each isolate was obtained. Whole-genome sequencing revealed two lineages (ST268-KL20 and ST1876-KL127) carrying the pandemic variant bla CTX−M−15. The ST268 K. pneumoniae strains displayed the hypermucoviscous phenotype, despite the absence of genes associated with this phenotype, such as the rmpA/A2. These findings were observed in individuals from both endemic and exotic subspecies of S. flaveola sampled in the study, and have previously been reported in human, domestic animals, and environmental samples. Finally, this is the first known report of ST268 and ST1876 clones colonizing wild birds. Conditions associated with IWT and bird fighting may be linked to the emergence of multidrug-resistant lineages in these birds, revealing the need for antimicrobial resistance surveillance strategies across One Health sector. Furthermore, the detection of epidemiologically relevant bacterial clones already reported in other regions of the world reinforces the multifactorial nature of AMR and highlights the role of IWT in its global potential dissemination.",
+      "abstract_origin": "OpenAlex DOI abstract"
     },
     {
       "id": "a4fb754ae97be1404540",
@@ -1098,6 +1247,19 @@
       "abstract_origin": "OpenAlex DOI abstract"
     },
     {
+      "id": "59909c8bc50d8b4471c2",
+      "title": "Between Public Service and Animal Welfare: The Legal Protection of Working Dogs in Polish Customs and Tax Service.",
+      "date": "2026-11-20T00:00:00Z",
+      "url": "https://doi.org/10.3390/ani16223691",
+      "source": "Europe PMC",
+      "kind": "study",
+      "study_source": "Europe PMC",
+      "abstract_available": true,
+      "summary": "Die Veröffentlichung behandelt Wildtier- und Naturschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt": "Working dogs employed by the Polish Customs and Tax Service perform specialized tasks in customs control and fiscal enforcement, including the detection of prohibited and undeclared goods. Their public-service role raises important questions concerning the adequacy of the legal framework governing their welfare. This study examines the legal protection of working dogs in the Polish Customs and Tax Service and assesses whether applicable regulations provide comprehensive safeguards throughout their service life. The analysis is based on a doctrinal examination of Polish legislation concerning animal protection, the organiza",
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung."
+    },
+    {
       "id": "3f9c061561d295ed54df",
       "title": "The long reach of El Niño impacts on Southeast Asia’s primates",
       "url": "https://news.mongabay.com/2026/11/the-long-reach-of-el-nino-impacts-on-southeast-asias-primates/",
@@ -1329,7 +1491,7 @@
       "id": "4e03d1f144e3699dd53d",
       "title": "Police arrest three suspects linked to illegal wildlife trafficking in Pretoria - SABC News",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWkZMSEZNYWJDbU5RaGhuaW5wNWJvbGc1dmp0SG5Ic3k2UzBlZ3cwamxNZ09zN2t6dUJVcERtLTBFaE54XzcxMmFXay1Hb3VGazBzelFXeXhUMkZlLTBDRkhMdVl2UTE2OFR6NjN0MW10MXZsYk0tcHdlNWZ1V0dETnZzbkpGRlhiUUlZa2ZrS25FNWFIX1hBVVNvRFVzQ203ZmVpOFRkdGVZZlRnT29VUVNMRnA?oc=5",
-      "date": "2026-11-18T08:20:40Z",
+      "date": "2026-11-18T08:00:00Z",
       "summary": "Police arrest three suspects linked to illegal wildlife trafficking in Pretoria SABC News",
       "source": "Wildtierhandel – Medien (News-Aggregation)",
       "kind": "media"
@@ -1542,6 +1704,28 @@
       "abstract_origin": "OpenAlex DOI abstract"
     },
     {
+      "id": "778837c1d56f83b352fa",
+      "title": "Exploring Text-Guided Wildlife Counting in Aerial Imagery Without Additional Training.",
+      "date": "2026-11-13T00:00:00Z",
+      "url": "https://doi.org/10.3390/ani16223596",
+      "source": "Europe PMC",
+      "kind": "study",
+      "study_source": "Europe PMC",
+      "abstract_available": true,
+      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Der Abstract nennt eine Befragung. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt": "Reliable wildlife counts support population assessment and conservation planning, while aerial imagery enables surveys over large or inaccessible areas. Most automated counting systems are developed for predefined animal categories and require retraining when targets change. Text-guided zero-shot counting offers a flexible alternative by specifying the target through language without category-specific retraining, but how such methods transfer to aerial wildlife imagery remains underexplored. Existing aerial animal datasets vary widely in tasks, categories, environments, resolution, and acquisition conditions, making consis",
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung."
+    },
+    {
+      "id": "c80c6e00d535316b4f5b",
+      "title": "BBC Inside Science",
+      "url": "https://www.bbc.co.uk/sounds/play/w3ct978l?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T21:00:00Z",
+      "summary": "China: climate saviour or global villain?",
+      "source": "BBC – Wissenschaft & Umwelt",
+      "kind": "media"
+    },
+    {
       "id": "25a7aa9669cb2a0ff101",
       "title": "First guidelines on attempts to manipulate the ocean put spotlight on geoengineering industry",
       "url": "https://www.theguardian.com/environment/2026/nov/12/canada-climate-geoengineering-marine-carbon-credits-biology-ocean-alkalinity-enhancement",
@@ -1648,6 +1832,21 @@
       "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
       "abstract_source_text": "Elephant poaching remains a major threat to African forest elephants (Loxodonta cyclotis) in the Congo Basin, driven by transnational factors such as accessibility, conflict, and weak governance. We developed a basin-wide spatial model of poaching risk using six standardized predictors: human population density, poverty, armed conflict intensity, travel time to cities, elevation, and forest canopy height. Model performance was evaluated using Proportion of Illegally Killed Elephants (PIKE) data from ten (Monitoring the Illegal Killing of Elephants) MIKE sites: Dzanga-Sangha, Bangassou, Garamba, Okapi, Salonga, Virunga, Nou",
       "abstract_origin": "Europe PMC abstract excerpt"
+    },
+    {
+      "id": "65831d501178cd2f236e",
+      "title": "Administrative Records and Animal Welfare Accountability in Bull-Related Events in Spain.",
+      "date": "2026-11-11T00:00:00Z",
+      "url": "https://doi.org/10.3390/ani16223557",
+      "source": "Europe PMC",
+      "kind": "study",
+      "study_source": "Europe PMC",
+      "abstract_available": true,
+      "summary": "Die Veröffentlichung behandelt Wildtier- und Naturschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt": "Event-level documentary scrutiny of animal welfare requires matching each claim to the correct administrative record and linking related records. This study asks how far selected published Spanish records support such scrutiny for bull-related events. We developed a five-step audit: define the claim; identify the required object; determine whether the link applies; classify the evidence; and state the permissible conclusion. It was applied to 20 supplied claim-source units drawn from Ministry of Culture series recording 20,466 professional events in 2012-2025; two Castilla-La Mancha register extracts; and purposively selec",
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "abstract_source_text": "Event-level documentary scrutiny of animal welfare requires matching each claim to the correct administrative record and linking related records. This study asks how far selected published Spanish records support such scrutiny for bull-related events. We developed a five-step audit: define the claim; identify the required object; determine whether the link applies; classify the evidence; and state the permissible conclusion. It was applied to 20 supplied claim-source units drawn from Ministry of Culture series recording 20,466 professional events in 2012–2025; two Castilla-La Mancha register extracts; and purposively selected documents. Worked examples illustrate four potential misreadings: settlement annotations read as incomplete registrations; a net gain of coded rows read as an equal gain of registration codes; grant provisions and call ceilings read as payments; and schedules or general rules read as evidence of occurrence or compliance. Applicable rules prescribe veterinary examinations and event records. For one bull run, selected sources supported reported occurrence and animal disposition; event-specific authorisation and veterinary links were not assessed. Because permit, veterinary and payment files were not collected, the incomplete chain in the assembled corpus follows from the collection design and does not establish that such records are absent. Candidate linkage fields are proposed for pilot testing.",
+      "abstract_origin": "OpenAlex DOI abstract"
     },
     {
       "id": "413f9924adbc50fe00cc",
@@ -2029,15 +2228,6 @@
       "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
       "abstract_source_text": "Steatocystoma multiplex is characterised by skin-coloured papules and nodules over various parts of body. Hidradenitis suppurativa is a chronic inflammatory disorder characterised by nodules, discharging sinuses and scarring. Aquagenic keratoderma is characterised by thickened skin of palms and soles with white translucent papules which increases on water exposure. A 28-year-old male presented with progressively increasing asymptomatic yellowish papules and nodules without punctum or discharge over his face for 10 years. He also developed recurrent painful nodules with discharging sinuses and puckering of skin over bilateral axillae, groin, trunk, and buttocks for the last 2 years, with thickening of skin over the dorsal aspect of bilateral hands and feet for 1 year, which got accentuated on water exposure. Skin biopsies were done from lesions over the face, axillae, and hands, and histopathology findings were consistent with steatocystoma, hidradenitis suppurativa, and keratoderma, respectively. The patient was started on oral isotretinoin 0.5 mg/kg daily, topical clindamycin twice daily over axillae and urea-based emollient twice daily over hands and feet. There was complete resolution in nodules and sinuses and mild improvement in steatocystoma and keratoderma lesions after 6 months. We present this case due to the rarity of coexistence of the three conditions in a single patient, the unusual location of steatocystoma and aquagenic keratoderma, and possibly a new impending follicular occlusion pentad considering the addition of steatocystoma to the existing tetrad.",
       "abstract_origin": "OpenAlex DOI abstract"
-    },
-    {
-      "id": "856ae59d5fe26be8122b",
-      "title": "BBC Inside Science",
-      "url": "https://www.bbc.co.uk/sounds/play/w3ct978j?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-29T21:00:00Z",
-      "summary": "Time is running out for one of the most ambitious environmental pledges in history.",
-      "source": "BBC – Wissenschaft & Umwelt",
-      "kind": "media"
     },
     {
       "id": "c76384f13c60b3571baf",
@@ -2920,7 +3110,7 @@
     {
       "name": "BBC – Wissenschaft & Umwelt",
       "kind": "media",
-      "count": 10,
+      "count": 11,
       "ok": true
     },
     {
@@ -2932,31 +3122,31 @@
     {
       "name": "Mongabay – Conservation News",
       "kind": "media",
-      "count": 17,
+      "count": 16,
       "ok": true
     },
     {
       "name": "IFAW – öffentliche Meldungen (News-Aggregation)",
       "kind": "ifaw",
-      "count": 1,
+      "count": 2,
       "ok": true
     },
     {
       "name": "IFAW – Berichterstattung (News-Aggregation)",
       "kind": "media",
-      "count": 7,
+      "count": 5,
       "ok": true
     },
     {
       "name": "Wildtierhandel – Medien (News-Aggregation)",
       "kind": "media",
-      "count": 20,
+      "count": 24,
       "ok": true
     },
     {
       "name": "Deutschland – Wildtiere (News-Aggregation)",
       "kind": "media",
-      "count": 43,
+      "count": 7,
       "ok": true
     },
     {
@@ -2974,8 +3164,8 @@
     {
       "name": "Crossref: marine mammal conservation",
       "kind": "study",
-      "count": 0,
-      "ok": false
+      "count": 12,
+      "ok": true
     },
     {
       "name": "Crossref: elephant conservation",
@@ -2986,14 +3176,20 @@
     {
       "name": "Crossref: wildlife rescue",
       "kind": "study",
-      "count": 5,
-      "ok": true
+      "count": 0,
+      "ok": false
     },
     {
       "name": "Crossref: illegal wildlife trade",
       "kind": "study",
       "count": 0,
       "ok": false
+    },
+    {
+      "name": "Europe PMC – Studien & Abstracts",
+      "kind": "study",
+      "count": 30,
+      "ok": true
     }
   ],
   "failures": [
@@ -3002,26 +3198,22 @@
       "error": "HTTP Error 429: Too Many Requests"
     },
     {
-      "source": "Crossref: marine mammal conservation",
+      "source": "Crossref: elephant conservation",
       "error": "HTTP Error 429: Too Many Requests"
     },
     {
-      "source": "Crossref: elephant conservation",
+      "source": "Crossref: wildlife rescue",
       "error": "HTTP Error 429: Too Many Requests"
     },
     {
       "source": "Crossref: illegal wildlife trade",
       "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "source": "Europe PMC",
-      "error": "The read operation timed out"
     }
   ],
   "events": [],
   "notice": "Automatisierte Quellensammlung. Keine Vollständigkeits- oder unabhängige Faktenprüfungs-Garantie.",
   "daily_study": {
-    "date": "2026-11-26",
-    "id": "a8dc2bbe87448c42eda3"
+    "date": "2026-11-27",
+    "id": "9413abe928abf2377d9c"
   }
 }

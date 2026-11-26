@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-26T15:04:51.288100Z",
-  "last_successful_at": "2026-11-26T15:04:51.288100Z",
+  "checked_at": "2026-11-26T23:48:08.601345Z",
+  "last_successful_at": "2026-11-26T23:48:08.601345Z",
   "articles": [
     {
       "id": "cc13196ab002295f053c",
@@ -449,6 +449,24 @@
       "collected_via": "Google News RSS"
     },
     {
+      "id": "a83349b6fe1611ad5116",
+      "title": "3000 Vogelspinnen in Socken mit Ziel Deutschland: Beamte in Peru stoppen illegalen Tierhandel - STERN.de",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPYk56cFRRRnlRTkpnZUp6aTNNSXlZWGJWQWZCakx3U3hQbGdFZF8wQ001ZjJlX2tJT2NqeE01b0lGbW4yQVZqVXp4WC1BRWo0cEtxWGFFQno5VXJKd1FJeUhNQVlLM3k4U1h3NDNScVl5a0duZ21fS3NpbXJLamtGYTFKeFpXY2xPM2htSWxoZTJHN25uZEhoQVU2RzBvajZUaFpwdjJJMDg5MFh4b094ZWV2S3ZweTR4eUxWRlFnX0M5Qk93SDg2ZENwY2plQQ?oc=5",
+      "date": "2026-11-06T08:00:00Z",
+      "date_type": "aggregator",
+      "source": "STERN.de",
+      "kind": "monitor",
+      "profiles": [
+        "ifaw"
+      ],
+      "origin": "Externe Berichterstattung",
+      "market": "Deutschland",
+      "match_type": "Suchindex-Treffer",
+      "publisher_url": "https://www.stern.de",
+      "summary": "",
+      "collected_via": "Google News RSS"
+    },
+    {
       "id": "f24119f822e251166e31",
       "title": "A rescued rhino calf grows stronger in India - International Fund for Animal Welfare | IFAW",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1WajVPMHlhZVlLbnptZGxmSVhqZVM3aG9mWC1XTHI2S3k5SGpEYmhQN2NQQWhyS0JBSmFHamVQdUVKX05vMUtjaU1paDZ5YmhtSmVfYi1KeWdZOExBUXNrTkhaQUlQMWdsY0RQYmJSNjBtcUhtUUpSVTdCWUFLMFE?oc=5",
@@ -608,12 +626,12 @@
     {
       "name": "IFAW · internationale offizielle Pressemitteilungen",
       "ok": true,
-      "count": 25
+      "count": 24
     },
     {
       "name": "IFAW · deutscher Medienmarkt",
       "ok": true,
-      "count": 2
+      "count": 3
     },
     {
       "name": "IFAW · Elfenbein/Artenschutz im deutschen Medienmarkt",

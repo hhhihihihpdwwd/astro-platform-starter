@@ -14,7 +14,7 @@ const link=(item,label)=>'<a href="'+esc(safeUrl(item.url))+'" target="_blank" r
 const NAV=[['news','Global News Radar'],['pr','PR-Chancen'],['crisis','Crisis Watch'],['monitor','Medienbeobachtung']];
 let saved=new Set();
 try{saved=new Set(JSON.parse(localStorage.getItem('wc_saved_v4')||'[]'))}catch{}
-const state={view:'news',search:'',feed:{articles:[],sources:[],failures:[],generated_at:null},mediaFeed:{articles:[],sources:[],failures:[],checked_at:null,last_successful_at:null},fetchError:'',fetching:false,lastFetchAt:0,archiveCheckedAt:null,mediaCheckedAt:null,mediaError:'',mediaLiveCheckedAt:null,mediaLive:[],mediaLiveError:'',liveArticles:[],liveCheckedAt:null,liveProvider:null,liveError:'',saved,onlySaved:false,monitorProfile:'all',monitorScope:'all',studyAI:null};
+const state={view:'news',search:'',feed:{articles:[],sources:[],failures:[],generated_at:null},mediaFeed:{articles:[],sources:[],failures:[],checked_at:null,last_successful_at:null},fetchError:'',fetching:false,lastFetchAt:0,archiveCheckedAt:null,mediaCheckedAt:null,mediaError:'',mediaLiveCheckedAt:null,mediaLive:[],mediaLiveError:'',liveArticles:[],liveCheckedAt:null,liveProvider:null,liveError:'',saved,onlySaved:false,monitorProfile:'all',monitorScope:'all',newsExpanded:false,mediaVisible:70,studyOpen:false,studyAI:null};
 let toastTimer;
 function toast(message){const node=$('#toast');if(!node)return;node.textContent=message;node.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>node.classList.remove('show'),3300)}
 function storeSaved(){try{localStorage.setItem('wc_saved_v4',JSON.stringify([...state.saved]))}catch{toast('Merkliste konnte nicht gespeichert werden.')}} 
@@ -255,7 +255,7 @@ function dashboard(){
     '<section class="panel"><div class="panel-inner">'+panelTop('◈','IFAW in den Medien','monitor')+
     '<p class="panel-note">Öffentliche Artikel und Erwähnungen im Monitoring.</p>'+
     newsListMini(mediaItems(),3)+'</div></section></div></div>'+
-    '<details class="research-drawer"><summary>◈ Wissenschaftliche Studie des Tages <span>mit KI-Analyse öffnen ⌄</span></summary>'+dailyStudy()+'</details>'+
+    '<details class="research-drawer" '+(state.studyOpen?'open':'')+'><summary>◈ Wissenschaftliche Studie des Tages <span>mit KI-Analyse öffnen ⌄</span></summary>'+dailyStudy()+'</details>'+
     '<p class="mini-note section-spacer">Politische Entwicklungen, Naturschutzstudien und Medienhinweise sind in den vier Kernbereichen integriert. Auswahl automatisch; Quellenangaben und Datumsstempel vor externer Nutzung prüfen.</p>';
 }
 function articleCard(a,compact=false){
@@ -344,8 +344,11 @@ function sourcesView(){
 }
 function render(){
   renderNav();status();
-  const view=state.search?'search':state.view;
-  $('#main').innerHTML=view==='dashboard'?dashboard():view==='sources'?sourcesView():view==='search'?heading('Suchergebnisse','Passende Artikel aus dem vorhandenen Nachrichtenbestand.')+'<div class="list-view">'+(A.search(articles(),state.search).slice(0,90).map(articleCard).join('')||empty('Keine passenden Quellen','Bitte Suchbegriff ändern.'))+'</div>':archiveView(view);
+  const view=state.view;
+  $('#main').innerHTML=view==='sources'?sourcesView():view==='monitor'?monitorView():
+    view==='news'&&!state.search?dashboard():
+    view==='news'?heading('Global News Radar','Suchergebnisse nach Datum, neueste zuerst')+dateGroup(itemsFor('news').slice(0,80)):
+    archiveView(view);
 }
 async function createStudySummary(){
   const study=studyPick();
@@ -373,9 +376,18 @@ function bindEvents(){
     const mark=event.target.closest('[data-bookmark]');
     if(mark){const id=mark.dataset.bookmark;state.saved.has(id)?state.saved.delete(id):state.saved.add(id);storeSaved();render();return}
     if(event.target.closest('#summarizeStudy')){createStudySummary();return}
+    if(event.target.closest('#toggleAllNews')){state.newsExpanded=!state.newsExpanded;render();return}
+    if(event.target.closest('#moreMonitor')){state.mediaVisible+=70;render();return}
+    const profile=event.target.closest('[data-monitor-profile]');
+    if(profile){state.monitorProfile=profile.dataset.monitorProfile;state.mediaVisible=70;render();return}
+    const scope=event.target.closest('[data-monitor-scope]');
+    if(scope){state.monitorScope=scope.dataset.monitorScope;state.mediaVisible=70;render();return}
     if(event.target.closest('#filterSaved')){state.onlySaved=!state.onlySaved;render();return}
     if(event.target.closest('#clearSaved')){if(confirm('Gesamte Merkliste löschen?')){state.saved.clear();storeSaved();render()}return}
   });
+  document.addEventListener('toggle',event=>{
+    if(event.target?.classList?.contains('research-drawer'))state.studyOpen=event.target.open;
+  },true);
   $('#globalSearch').addEventListener('input',event=>{state.search=event.target.value.trim();render()});
   $('#refreshBtn').addEventListener('click',()=>loadFeed(true));
 }

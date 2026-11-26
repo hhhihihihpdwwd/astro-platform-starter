@@ -72,6 +72,7 @@ def german_publisher(publisher:str,source_url:str='')->bool:
     if host.endswith('.de'):return True
     if host.endswith(('.faz.net','.t-online.com','.spiegel.de','.welt.de','.tagesschau.de')):return True
     p=normalized(publisher)
+    if re.search(r'(?<![a-z0-9])[a-z0-9-]+\.de\b',p):return True
     return any(hint in p for hint in DE_PUBLISHER_HINTS)
 
 def normalized(s:str)->str:

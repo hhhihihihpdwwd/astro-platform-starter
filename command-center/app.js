@@ -2,7 +2,6 @@
 /* Public-source-only newsroom: no paid AI API, private accounts, geolocation or task/chat storage. */
 const A=window.CenterAnalysis;
 const Clock=window.CenterClock;
-const StudyAI=window.CenterStudyAI;
 const Live=window.CenterLiveNews;
 const Monitor=window.CenterMonitoring;
 const $=(q)=>document.querySelector(q);
@@ -14,7 +13,7 @@ const link=(item,label)=>'<a href="'+esc(safeUrl(item.url))+'" target="_blank" r
 const NAV=[['news','Global News Radar'],['pr','PR-Chancen'],['crisis','Crisis Watch'],['monitor','Medienbeobachtung']];
 let saved=new Set();
 try{saved=new Set(JSON.parse(localStorage.getItem('wc_saved_v4')||'[]'))}catch{}
-const state={view:'news',search:'',feed:{articles:[],sources:[],failures:[],generated_at:null},mediaFeed:{articles:[],sources:[],failures:[],checked_at:null,last_successful_at:null},fetchError:'',fetching:false,lastFetchAt:0,archiveCheckedAt:null,mediaCheckedAt:null,mediaError:'',mediaLiveCheckedAt:null,mediaLive:[],mediaLiveError:'',liveArticles:[],liveCheckedAt:null,liveProvider:null,liveError:'',saved,onlySaved:false,monitorProfile:'all',monitorScope:'all',newsExpanded:false,mediaVisible:70,studyOpen:false,studyAI:null};
+const state={view:'news',search:'',feed:{articles:[],sources:[],failures:[],generated_at:null},mediaFeed:{articles:[],sources:[],failures:[],checked_at:null,last_successful_at:null},fetchError:'',fetching:false,lastFetchAt:0,archiveCheckedAt:null,mediaCheckedAt:null,mediaError:'',mediaLiveCheckedAt:null,mediaLive:[],mediaLiveError:'',liveArticles:[],liveCheckedAt:null,liveProvider:null,liveError:'',saved,onlySaved:false,monitorProfile:'all',monitorScope:'all',newsExpanded:false,mediaVisible:70};
 let toastTimer;
 function toast(message){const node=$('#toast');if(!node)return;node.textContent=message;node.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>node.classList.remove('show'),3300)}
 function storeSaved(){try{localStorage.setItem('wc_saved_v4',JSON.stringify([...state.saved]))}catch{toast('Merkliste konnte nicht gespeichert werden.')}} 
@@ -175,63 +174,6 @@ function feature(a,i){
     '<img loading="lazy" class="photo" src="'+imageFor(a,i)+'" alt="Symbolbild aus der Tier- und Naturwelt">'+
     '<h3>'+esc(truncated(a.displayTitle,91))+'</h3></a><div class="byline">'+esc(truncated(a.source,29))+' · '+esc(fmtDate(a.date))+'</div><div class="symbol-note">Symbolbild, nicht vom berichteten Ereignis</div></article>';
 }
-function worthyStudy(x){
-  const title=String(x.title||'').toLowerCase();
-  const strong=['wildlife','elephant','whale','rhino','pangolin','poaching','animal welfare','human-wildlife','human wildlife','marine mammal','endangered species','wild animal','wildlife trade','wild mammal','animal conservation','wildlife conservation'];
-  const deny=['vaccine','epitope','protein','hla-binding','arabidopsis','iron deficiency response','gene regulation','frozen elephant trunk','tevar','aortic','surgery','dextrocardia','cardiac','livestock farming','honeybee abundance','microbial treasure','actinobacteria'];
-  if(deny.some(s=>title.includes(s)))return false;
-  return strong.some(s=>title.includes(s))||('biodiversity'===title.slice(0,12)||title.includes('biodiversity'))&&['wildlife','forest','habitat','ecosystem','land-use','landscape','conservation','restoration','tropical'].some(s=>title.includes(s));
-}
-function studyPick(){
-  const studies=byDate(articles().filter(x=>x.kind==='study'&&x.url.startsWith('https://doi.org/')&&worthyStudy(x)));
-  if(!studies.length)return null;
-  const berlinDate=Clock.cityTime(new Date(),'Europe/Berlin').day;
-  const declared=state.feed.daily_study;
-  if(declared?.date===berlinDate){
-    const item=studies.find(x=>x.id===declared.id);
-    if(item)return item;
-  }
-  return studies.find(x=>x.abstract_available)||studies[0];
-}
-function studyAIView(study){
-  const result=state.studyAI?.id===study.id?state.studyAI:null;
-  if(!result)return '<p class="mini-note">Die KI erzeugt erst nach deinem Klick eine neue Zusammenfassung – soweit ein wissenschaftliches Abstract verfügbar ist. Keine vorausgefüllten Textbausteine.</p>';
-  const message=result.message||'';
-  const label=result.status==='ok'?'Neue KI-Zusammenfassung':result.status==='loading'?'KI arbeitet …':'Lokale KI nicht verfügbar';
-  return '<div class="study-ai-response" id="studyAIResult" aria-live="polite">'+
-    '<h4>'+esc(label)+'</h4>'+
-    (result.status==='ok'?'<div class="ai-generated-text">'+esc(result.text||'')+'</div>':'<p>'+esc(message)+'</p>')+
-    (result.status==='ok'?'<p class="mini-note">Quelle: '+esc(result.basis||'Original-Abstract')+'. Automatisch erzeugt, nicht unabhängig überprüft. Für Zahlen, Resultate und Zitate bitte die DOI-Originalstudie prüfen.</p>':'')+
-    '</div>';
-}
-function dailyStudy(){
-  const study=studyPick();
-  if(!study)return '<section class="daily-study" id="dailyStudy"><div><p class="eyebrow">STUDIE DES TAGES</p><h3 class="study-title">Heute keine belegte Studie verfügbar</h3><p class="study-summary">Keine geeignete Studie mit DOI im aktuellen Quellenbestand. Es werden keine Forschungsdaten erfunden.</p></div></section>';
-  const hasEvidence=StudyAI.evidence(study).length>=220;
-  const aiBusy=state.studyAI?.id===study.id&&state.studyAI?.status==='loading';
-  const method=hasEvidence?'Wissenschaftliches Abstract als KI-Quelle':study.extended_summary?.length?'Kuratiertes Fachliteraturarchiv':'Nur Metadaten verfügbar';
-  return '<section class="daily-study" id="dailyStudy"><div><p class="eyebrow">STUDIE DES TAGES · '+esc(fmtDate(new Date()))+'</p>'+
-    '<h3 class="study-title">'+esc(study.title)+'</h3>'+
-    '<p class="study-summary">'+esc(study.summary||'Nur bibliografische Angaben verfügbar; Ergebnisse nicht geprüft.')+'</p>'+
-    '<div class="study-actions"><button id="summarizeStudy" type="button" class="small-button study-toggle" '+(aiBusy?'disabled':'')+'>'+
-    (aiBusy?'KI wird ausgeführt …':'✦ Mit KI zusammenfassen')+'</button>'+
-    '<a class="small-button" href="'+esc(StudyAI.chatGPTLink(study))+'" target="_blank" rel="noopener noreferrer">In ChatGPT analysieren ↗</a>'+
-    '<a class="small-button secondary" href="'+esc(safeUrl(study.url))+'" target="_blank" rel="noopener noreferrer">Originalstudie ↗</a></div>'+
-    '<p class="mini-note">Lokale KI: kostenlos im unterstützten Chrome/Edge, möglicherweise erst nach einem Modelldownload. ChatGPT öffnet eine separate Seite und kann eine Anmeldung erfordern.</p>'+
-    '</div>'+
-    '<aside class="study-aside"><span class="meta-label">Journal / Quelle</span><span class="meta-value">'+esc(study.source||'Fachpublikation')+'</span>'+
-    '<span class="meta-label">Veröffentlicht</span><span class="meta-value">'+esc(fmtDate(study.date))+'</span>'+
-    '<span class="badge">'+esc(method)+'</span><span class="mini-note">Die Einordnung ist von der eigentlichen, auf Knopfdruck generierten KI-Ausgabe getrennt.</span></aside>'+
-    studyAIView(study)+'</section>';
-}
-function newsListMini(items,limit=5){
-  return items.length?items.slice(0,limit).map(a=>
-    '<article class="news-row"><div class="news-row-top"><span class="news-row-date">'+esc(dateLabel(a))+'</span>'+
-    (sectionAge(a)==='heute'?'<span class="badge news-new">HEUTE</span>':'')+'</div>'+
-    '<div class="news-row-title">'+link(a,truncated(a.title,145))+'</div>'+
-    '<div class="news-row-origin">'+esc(a.source||'Originalquelle')+'</div></article>'
-  ).join(''):empty('Keine passenden Meldungen','Der Abruf kann derzeit unvollständig sein.');
-}
 function dashboard(){
   const all=itemsFor('news');
   const pr=itemsFor('pr'),crisis=itemsFor('crisis');
@@ -253,10 +195,9 @@ function dashboard(){
     '<p class="panel-note">Hinweise aus Meldungen, keine amtlichen Alarmmeldungen.</p>'+
     newsListMini(crisis,3)+'</div></section>'+
     '<section class="panel"><div class="panel-inner">'+panelTop('◈','IFAW in den Medien','monitor')+
-    '<p class="panel-note">Öffentliche Artikel und Erwähnungen im Monitoring.</p>'+
+    '<p class="panel-note">Deutsche Medienberichte und internationale IFAW-Meldungen.</p>'+
     newsListMini(mediaItems(),3)+'</div></section></div></div>'+
-    '<details class="research-drawer" '+(state.studyOpen?'open':'')+'><summary>◈ Wissenschaftliche Studie des Tages <span>mit KI-Analyse öffnen ⌄</span></summary>'+dailyStudy()+'</details>'+
-    '<p class="mini-note section-spacer">Politische Entwicklungen, Naturschutzstudien und Medienhinweise sind in den vier Kernbereichen integriert. Auswahl automatisch; Quellenangaben und Datumsstempel vor externer Nutzung prüfen.</p>';
+    '<p class="mini-note section-spacer">Politik, Artenschutz und Wissenschaft bleiben im News Radar enthalten. Quelle und Datum vor externer Verwendung prüfen.</p>';
 }
 function articleCard(a,compact=false){
   const bookmarked=state.saved.has(a.id);
@@ -311,14 +252,14 @@ function monitorView(){
   const show=all.slice(0,state.mediaVisible||70);
   const recorded=state.mediaFeed.last_successful_at;
   const published=mediaItems()[0]?.date;
-  return heading('Medienbeobachtung','IFAW und öffentlich genannte Mitarbeitende – veröffentlichte Treffer aus kostenlosen Nachrichtenquellen.',true)+
+  return heading('Medienbeobachtung','Deutsche Medienberichte über IFAW sowie offizielle internationale IFAW-Pressemeldungen.',true)+
     '<div class="monitor-facts"><span>Neuester Treffer: <strong>'+esc(fullDate(published))+'</strong></span>'+
     '<span>Medienarchiv geprüft: <strong>'+esc(fmtTime(recorded))+'</strong></span>'+
     '<span>Gefundene Artikel: <strong>'+mediaItems().length+'</strong></span></div>'+
-    '<div class="notice">Erfasst werden öffentlich auffindbare Treffer, nicht sämtliche Veröffentlichungen. Bei Google News ist das angezeigte Datum der Zeitstempel des Nachrichtenindex und kann vom Verlagsdatum abweichen. Eigene IFAW-Meldungen sind gekennzeichnet.</div>'+
+    '<div class="notice">Externe Artikel werden auf deutsche Medienanbieter begrenzt. Internationale offizielle IFAW-Pressemeldungen bleiben erhalten. Die Abdeckung ist unvollständig; Google-News-Zeitstempel können vom Verlagsdatum abweichen.</div>'+
     '<div class="monitor-layout">'+profileList()+'<section class="monitor-results">'+
     '<div class="monitor-toolbar"><div class="seg-tabs">'+
-    [['all','Alle'],['external','Medienberichte'],['owned','IFAW-eigene Meldungen']].map(([key,label])=>
+    [['all','Alle'],['external','Deutsche Medienberichte'],['owned','IFAW-Pressemeldungen weltweit']].map(([key,label])=>
       '<button type="button" data-monitor-scope="'+key+'" class="'+(state.monitorScope===key?'selected':'')+'">'+label+'</button>'
     ).join('')+'</div><span class="muted">'+all.length+' Treffer · neueste zuerst</span></div>'+
     (show.length?dateGroup(show):empty('Keine Treffer für diese Auswahl','Wenn eine Suche keine Treffer liefert, heißt das nicht, dass es keine Berichterstattung gab.'))+
@@ -353,32 +294,12 @@ function render(){
     view==='news'?heading('Global News Radar','Suchergebnisse nach Datum, neueste zuerst')+dateGroup(itemsFor('news').slice(0,80)):
     archiveView(view);
 }
-async function createStudySummary(){
-  const study=studyPick();
-  if(!study||state.studyAI?.status==='loading')return;
-  if(typeof window.Summarizer?.create!=='function'||!StudyAI.evidence(study)){
-    // Keep a true single-click path when the free local AI or a sufficient abstract is missing.
-    window.open(StudyAI.chatGPTLink(study),'_blank','noopener,noreferrer');
-    state.studyAI={id:study.id,status:'unsupported',message:'Die lokale KI oder ein ausreichend langer DOI-Abstract ist nicht verfügbar. ChatGPT wurde mit dem Studienauftrag in einem neuen Tab geöffnet. Du musst die Anfrage dort gegebenenfalls noch absenden.'};
-    render();return;
-  }
-  state.studyAI={id:study.id,status:'loading',message:'Die lokale KI wird vorbereitet …'};
-  render();
-  const outcome=await StudyAI.summarize(study,{onProgress(message){
-    if(state.studyAI?.id!==study.id)return;
-    state.studyAI.message=message;
-    const el=$('#studyAIResult p');if(el)el.textContent=message;
-  }});
-  state.studyAI={id:study.id,...outcome};
-  render();
-}
 function bindEvents(){
   document.addEventListener('click',event=>{
     const nav=event.target.closest('[data-view]');
     if(nav){event.preventDefault();go(nav.dataset.view);return}
     const mark=event.target.closest('[data-bookmark]');
     if(mark){const id=mark.dataset.bookmark;state.saved.has(id)?state.saved.delete(id):state.saved.add(id);storeSaved();render();return}
-    if(event.target.closest('#summarizeStudy')){createStudySummary();return}
     if(event.target.closest('#toggleAllNews')){state.newsExpanded=!state.newsExpanded;render();return}
     if(event.target.closest('#moreMonitor')){state.mediaVisible+=70;render();return}
     const profile=event.target.closest('[data-monitor-profile]');
@@ -388,9 +309,6 @@ function bindEvents(){
     if(event.target.closest('#filterSaved')){state.onlySaved=!state.onlySaved;render();return}
     if(event.target.closest('#clearSaved')){if(confirm('Gesamte Merkliste löschen?')){state.saved.clear();storeSaved();render()}return}
   });
-  document.addEventListener('toggle',event=>{
-    if(event.target?.classList?.contains('research-drawer'))state.studyOpen=event.target.open;
-  },true);
   $('#globalSearch').addEventListener('input',event=>{state.search=event.target.value.trim();render()});
   $('#refreshBtn').addEventListener('click',()=>loadFeed(true));
 }

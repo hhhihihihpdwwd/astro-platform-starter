@@ -1,10 +1,381 @@
 {
   "schema_version": 1,
-  "checked_at": null,
-  "last_successful_at": null,
-  "articles": [],
-  "profiles": [],
-  "sources": [],
+  "checked_at": "2026-11-26T10:50:08.841694Z",
+  "last_successful_at": "2026-11-26T10:50:08.841694Z",
+  "articles": [
+    {
+      "id": "cc13196ab002295f053c",
+      "title": "Pangolins & other wildlife reveal wider toll of Indonesia’s fires - International Fund for Animal Welfare | IFAW",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1sOHAxRWIza2I4UmxIS05CRUdDTW1LaWFUcFFsNFNyTkdKcWE5Z016ZEttVXd6alRldWdrc0NqdUlfVzYyVzg4YTBMOWJQZnd2emEybnB1aVVObEZYWm0zUGZNMGhNOTJJM0xiTlpB?oc=5",
+      "date": "2026-11-26T02:08:30Z",
+      "date_type": "aggregator",
+      "source": "International Fund for Animal Welfare | IFAW",
+      "kind": "monitor",
+      "profiles": [
+        "ifaw",
+        "full"
+      ],
+      "origin": "IFAW-eigene Meldung",
+      "summary": "",
+      "collected_via": "Google News RSS"
+    },
+    {
+      "id": "729373cf266ed821dedc",
+      "title": "Ships off Sri Lanka keep striking blue whales that never migrate away. IFAW surveys say the fix is measured in nautical miles - A-Z Animals",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPMjlRZkVxV2RFdWhwSGoxejBrdlJxRGlzTXRiUjdEWmN6R3NCUHB4Vmx3ODB4T215OVF2MW5xdjJHUG0zMk82UnoyUnFsSTYwYkxXaGxoYnYyX1Z5NDhWa3VlM0dpTmFIdjQwUTdtbTR0SERzSlZmc1pzUXdqOC0takRoVDZJdS1tcGVodVJubHVCYXR1SWpBRFEwTUxIdlF3QzVEQW82ak1zWlA3M1A0QXBnU0RkXzkydlhpVzBGMzRMZlhSdnpGQWJmQWVoZE5lUUFPdEg4UC1hcHpkTzhhVmVmQjZIOXJwTUE?oc=5",
+      "date": "2026-11-25T16:46:00Z",
+      "date_type": "aggregator",
+      "source": "A-Z Animals",
+      "kind": "monitor",
+      "profiles": [
+        "ifaw"
+      ],
+      "origin": "Externe Berichterstattung",
+      "summary": "",
+      "collected_via": "Google News RSS"
+    },
+    {
+      "id": "1af7f2382229a35675ed",
+      "title": "Stopping wildlife trafficking through Ethiopia’s busiest airport - International Fund for Animal Welfare | IFAW",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSk9Hd0U1TkF6bUg3NUR2MDFhcXhZNzVKNm9yb09xVGZyT0FXeTFhNGE5UDZsZHctOGlPYU5RbUM1V3Fzc1pUX0d2SnFFQjJRQ0cwa3FpcC1RMlh2R3ZoZTB4MU8xc3A4Tll2c3VqS0RnaUVDSU9reTVOVXdhbWJYaWJkOXN4TXNuTEwxYTNFbi02MkdfZ0Jr?oc=5",
+      "date": "2026-11-25T05:35:01Z",
+      "date_type": "aggregator",
+      "source": "International Fund for Animal Welfare | IFAW",
+      "kind": "monitor",
+      "profiles": [
+        "ifaw",
+        "full"
+      ],
+      "origin": "IFAW-eigene Meldung",
+      "summary": "",
+      "collected_via": "Google News RSS"
+    },
+    {
+      "id": "cddc39de0fdb49f3ef02",
+      "title": "Most ivory offered online in the European Union lacks evidence of legality - International Fund for Animal Welfare | IFAW",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdEdmN1g0TjY2YkJqNDhMRkYwYlRhLXpMLUhFRFlYQmd4YXZDQ3d3Wm5TLWx1c2hvLTlrNW53dmFvcEo2Y1RWSWZ5bk03V1NMaUVkZGhwSVVQSy1ST2xTS1hLcGdGSUpRRTRYUGVIc3lCVGY3d3BVLTRDY202blo3M2V6UlpNb3ZfU29mRlNYVk92S3EzNHc?oc=5",
+      "date": "2026-11-24T11:48:53Z",
+      "date_type": "aggregator",
+      "source": "International Fund for Animal Welfare | IFAW",
+      "kind": "monitor",
+      "profiles": [
+        "ifaw",
+        "full"
+      ],
+      "origin": "IFAW-eigene Meldung",
+      "summary": "",
+      "collected_via": "Google News RSS"
+    },
+    {
+      "id": "41769b3858e29b3de2eb",
+      "title": "Coexistence and Resilience: IFAW and \"All Access hosted by Andy Garcia\" Detail the Future of Habitat Protection - StreetInsider",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0yWEpoZFJFUDh1QVIxRU9OZnNrMEhsUkVfVWNrOWIxVjQxX1I2aW5KUGtJd2J3NURPR3VjSmNTVWpRdEJFeU5jeEVuYlJ2cW04QUdiakg0YVJRaGlDUS0ySFlTaw?oc=5",
+      "date": "2026-11-24T08:22:04Z",
+      "date_type": "aggregator",
+      "source": "StreetInsider",
+      "kind": "monitor",
+      "profiles": [
+        "ifaw"
+      ],
+      "origin": "Externe Berichterstattung",
+      "summary": "",
+      "collected_via": "Google News RSS"
+    },
+    {
+      "id": "649fb2cefb0ba1d890ad",
+      "title": "Coexistence and Resilience: IFAW and \"All Access hosted by Andy Garcia\" Detail the Future of Habitat Protection - PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQanJwTmlLc0hNSUJIZkYzQlBISUdEZGg2SllPdG94STVUaGdaX3RVOVJ6d2VLUTluRlFyQ2c5OWtrSGM4WmVDb3puS0RqSnJselVrbE03UHpFM05OTDZaMDRmc3pHSmxkSS1mQl96c2VZa09CWDB3bmM3Nk85c29tbGQxaWdEX1BEZ3pIaU5UWTFKTjdPMmVjandGSFVjNm9wY05FOWxscVNreklQd3NlOGlWMF92cVJmYm1sbTBhblZzTW5hdVhoRnliekR0RnQzMldOZVRmd0dvZGR4Z0dLR0p3ZUxVVkdqbGQtb19wX1prTXBfMTRF?oc=5",
+      "date": "2026-11-24T08:00:37Z",
+      "date_type": "aggregator",
+      "source": "PR Newswire",
+      "kind": "monitor",
+      "profiles": [
+        "ifaw"
+      ],
+      "origin": "Externe Berichterstattung",
+      "summary": "",
+      "collected_via": "Google News RSS"
+    },
+    {
+      "id": "3a2713035b2968a39d8a",
+      "title": "CITES SC81 outcomes and the future of wildlife protection - International Fund for Animal Welfare | IFAW",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOX19BSFBNT29hOGRGSC02bDI1RUppSUNvSjZZakZiSGpfeDVNbGRNbTUxZlVsWTM4V1QxaGt0TDVPZUlCMmEyakFKWURoTHpWYUhFcGlzS1BvZTVXMkxSd1p2SG5KWm9pdHNTaFZuU0lYVWdSLTJZRzJXNDctZ2tYSUtpOUUzUGtvM0JXTFVn?oc=5",
+      "date": "2026-11-19T18:19:49Z",
+      "date_type": "aggregator",
+      "source": "International Fund for Animal Welfare | IFAW",
+      "kind": "monitor",
+      "profiles": [
+        "ifaw",
+        "full"
+      ],
+      "origin": "IFAW-eigene Meldung",
+      "summary": "",
+      "collected_via": "Google News RSS"
+    },
+    {
+      "id": "a4875f8083128d499d7f",
+      "title": "25 countries put wildlife on the global climate agenda at COP31 - International Fund for Animal Welfare | IFAW",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxON2pYc2IwNVU1anJmQmtxYUFnUEwtNURXMDN1cnFOMmtGd0JzRHoxbHpVbkN0UDMzdnlCbmM0YkJxTWtMM0RfX3BlX1dzaXc3ZmROQ1RvQXRSYzJXVnVEdHhuTXR0anFtLUZUY3dvZVJPNTZ0dnRuX0wxTHNjWDlrYlYtZ1RkWTV5RVVDdkdLRklwTnVI?oc=5",
+      "date": "2026-11-19T02:22:29Z",
+      "date_type": "aggregator",
+      "source": "International Fund for Animal Welfare | IFAW",
+      "kind": "monitor",
+      "profiles": [
+        "ifaw",
+        "full"
+      ],
+      "origin": "IFAW-eigene Meldung",
+      "summary": "",
+      "collected_via": "Google News RSS"
+    },
+    {
+      "id": "c89f41e9f27d1e8c908d",
+      "title": "Young artists to reimagine people & wildlife sharing the planet - International Fund for Animal Welfare | IFAW",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUG9zb2FsSFRRbHpzSVZqLWl3WXUyeHFoQjRuWmNTbV9XMG0zWFh2dEs3bnB2M2cyRXZiNEh1b3BHenJuTnpRd2l1ZDJJek5pcnl2NDJNYS1FUWctS2lnSXFiZHdmRGEtQ3dXd1hURDk5Z0hBR3VBOTdwV2F0MkFNVXllUUNHNHRiMEZn?oc=5",
+      "date": "2026-11-18T09:36:32Z",
+      "date_type": "aggregator",
+      "source": "International Fund for Animal Welfare | IFAW",
+      "kind": "monitor",
+      "profiles": [
+        "ifaw",
+        "full"
+      ],
+      "origin": "IFAW-eigene Meldung",
+      "summary": "",
+      "collected_via": "Google News RSS"
+    },
+    {
+      "id": "64dc5b7607d3dfe27fbd",
+      "title": "25 countries back Wildlife for Climate Declaration at COP31 - International Fund for Animal Welfare | IFAW",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBDRjV4cDhva1psbmlOc0VIWHlDZWR3VVNEUzJPSFhIWUxObEhrZUQ0dzVtajVORmxfcW9pTTl6T1B3dFpxaTBfc0E5T2FuRWlBMVBkeXphRGEwSzd6UVhRbWQxRDhXXzlERWN0ZEd2aW9TdFNNbWlHUUZ1MnhXZw?oc=5",
+      "date": "2026-11-17T11:46:42Z",
+      "date_type": "aggregator",
+      "source": "International Fund for Animal Welfare | IFAW",
+      "kind": "monitor",
+      "profiles": [
+        "ifaw",
+        "full"
+      ],
+      "origin": "IFAW-eigene Meldung",
+      "summary": "",
+      "collected_via": "Google News RSS"
+    },
+    {
+      "id": "039d8a9285117aaeeac5",
+      "title": "What is GivingTuesday? - International Fund for Animal Welfare | IFAW",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE45UTgwNmZOcmQwLTNobHhZalZuNHBwUUZKYWdBS1JGQTBiWndLRExNaHFvbnZtakF5dG9mZXFVZ3hESEJOam9HT3FxSDNTc19XdHBxS2xFYVNtT0RVN0ZHNw?oc=5",
+      "date": "2026-11-17T08:00:00Z",
+      "date_type": "aggregator",
+      "source": "International Fund for Animal Welfare | IFAW",
+      "kind": "monitor",
+      "profiles": [
+        "ifaw",
+        "full"
+      ],
+      "origin": "IFAW-eigene Meldung",
+      "summary": "",
+      "collected_via": "Google News RSS"
+    },
+    {
+      "id": "1f4e33c1a8f0261232f9",
+      "title": "IFAW statement on the capture & confinement of Cape Town baboons - International Fund for Animal Welfare | IFAW",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPV0JDaGsyNFZsdzdtTHZ3cHp3dEtwWjBmOFJTZXdvcWVtQ1B4RXhray05VTRmdVdVeERRNURDcWpxMnZ0Y0RaVVdmMW43RzQ5b2o4aXZ0WE52YVNEaE5nMU0xWTZhaTdhcEhHWmZMVmp4NWVRMy1PTWl2NHRSWDVob3FtS1ZpdGFxRHlJ?oc=5",
+      "date": "2026-11-17T08:00:00Z",
+      "date_type": "aggregator",
+      "source": "International Fund for Animal Welfare | IFAW",
+      "kind": "monitor",
+      "profiles": [
+        "ifaw",
+        "full"
+      ],
+      "origin": "IFAW-eigene Meldung",
+      "summary": "",
+      "collected_via": "Google News RSS"
+    },
+    {
+      "id": "6e37feceda5fbbcfc4fe",
+      "title": "ZimParks, IFAW strengthen protection of Hwange wildlife - Herald.co.zw",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaUNDS2p5S0ZDUGViX1d3c2tzUkhDdjNycHh2TUlmbERjRDNPVHFDYm44OUNxTk0wRVJQMHZmOFVVY3ZrbzNTWVFtUVBySXpDcnlEeFY0bzFORmZDWEhpRWFHSjRleDJta3NuMXcxVi02SEVSTi14enEzV3lYMktPSGRZVTVXVFlKR3g3NDJUZw?oc=5",
+      "date": "2026-11-16T22:02:41Z",
+      "date_type": "aggregator",
+      "source": "Herald.co.zw",
+      "kind": "monitor",
+      "profiles": [
+        "ifaw"
+      ],
+      "origin": "Externe Berichterstattung",
+      "summary": "",
+      "collected_via": "Google News RSS"
+    },
+    {
+      "id": "ac95d73c0c7fb1f6c0c5",
+      "title": "North Atlantic right whale population dips slightly as conservation efforts remain critical - International Fund for Animal Welfare | IFAW",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbzg2ZzB1bEdJTTVsWTlLTVIxaGZXNmk3S2pYMWp3aDMtT1AySmc2ZDRLU3RuRDVpVlozNllzbGZIdWlEUlEzcTE0Q3ZwelczcENnYjY2WEcxT1hNdUdxWTJnb25oMTNxYjFHajlieWpWajYzUWt0Wm1BclU4V2RCbWpvVng?oc=5",
+      "date": "2026-11-16T08:00:00Z",
+      "date_type": "aggregator",
+      "source": "International Fund for Animal Welfare | IFAW",
+      "kind": "monitor",
+      "profiles": [
+        "ifaw",
+        "full"
+      ],
+      "origin": "IFAW-eigene Meldung",
+      "summary": "",
+      "collected_via": "Google News RSS"
+    },
+    {
+      "id": "7841f7f7593c8a915191",
+      "title": "Who gets to be a conservationist? - International Fund for Animal Welfare | IFAW",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQelFKNmxQWjlsQzI2V0ZreExwVmlrOF9lTURDZVBhQzFIS3ZIVEVoWHMtVk5tczZxUk5LdjExN2lBSHY4VENwYjJWOFVheUh0RmtsWW5uOGFDNVNOUEdtUnFRMFVsNUtiM25Bb0dkeGs1elBvQUVCS2NMMjhGeWQwRw?oc=5",
+      "date": "2026-11-12T18:00:13Z",
+      "date_type": "aggregator",
+      "source": "International Fund for Animal Welfare | IFAW",
+      "kind": "monitor",
+      "profiles": [
+        "ifaw",
+        "full"
+      ],
+      "origin": "IFAW-eigene Meldung",
+      "summary": "",
+      "collected_via": "Google News RSS"
+    },
+    {
+      "id": "66612fa53a828a8e354d",
+      "title": "IFAW, ZimParks seal US$50m deal - Herald.co.zw",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0xVmE5VktrN3M5MkpPLUU1LTU5ZGxOY3IxaEQzeU41Z3htT1RsR2RHOE5rRVpEMlRyUEU4Nzc0QlMtVFVMZjE1U2NpR1RVQVJpMDlqM2N0SW53c0RiUlhubnFnUWswZkt0b3RHV2xB?oc=5",
+      "date": "2026-11-12T08:00:00Z",
+      "date_type": "aggregator",
+      "source": "Herald.co.zw",
+      "kind": "monitor",
+      "profiles": [
+        "ifaw"
+      ],
+      "origin": "Externe Berichterstattung",
+      "summary": "",
+      "collected_via": "Google News RSS"
+    },
+    {
+      "id": "f38d58ec8c0e7cbd88eb",
+      "title": "African traditional leaders sign Lusaka declaration - International Fund for Animal Welfare | IFAW",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVXZTbVd2aTVCWVJybVRpQU16QXBVUlNUakpnbzV2Y0pjdGo1RmZQTVVVUFAzakpGUlNLdjdyRUtqazJuOWt6bXJaa01LWEt2N2dUZllFNkFYVkwxR0JEdjRkb2dmTmQ5X2RJcWt6T3lvVFBJRHMweC1JM1pJXzI2cWRrOHlOZmNsRmFJZUZnYTJSbXFsdTJhZ3Uzek9xWjRyZnFNUUd1MnEtRm5Ic3c?oc=5",
+      "date": "2026-10-30T07:00:00Z",
+      "date_type": "aggregator",
+      "source": "International Fund for Animal Welfare | IFAW",
+      "kind": "monitor",
+      "profiles": [
+        "ifaw",
+        "full"
+      ],
+      "origin": "IFAW-eigene Meldung",
+      "summary": "",
+      "collected_via": "Google News RSS"
+    },
+    {
+      "id": "4bf90da08b8cbd351aca",
+      "title": "African traditional leaders unite to strengthen wildlife conservation - International Fund for Animal Welfare | IFAW",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNVhjQUFaMy1saUxFT1NOWnJMZ1JRaGswM2d2S3lQMTRaNm04YnZzTVh6T0tkUzlWV1VKVWdCSWlIV2NFU2dDZmdDQjVSanRZamVkbXFpSEgzVXQxU004eTBiejNhX19SNHNSTFRHcmRVLXVpWEZqeGJJR1ByNjB0bWRYb3lOUjYyOEJmYm5HTzNpYjZQS0loQS1n?oc=5",
+      "date": "2026-10-28T07:00:00Z",
+      "date_type": "aggregator",
+      "source": "International Fund for Animal Welfare | IFAW",
+      "kind": "monitor",
+      "profiles": [
+        "ifaw",
+        "full"
+      ],
+      "origin": "IFAW-eigene Meldung",
+      "summary": "",
+      "collected_via": "Google News RSS"
+    }
+  ],
+  "profiles": [
+    {
+      "id": "ifaw",
+      "label": "IFAW",
+      "category": "organization",
+      "terms": [
+        "IFAW"
+      ]
+    },
+    {
+      "id": "full",
+      "label": "International Fund for Animal Welfare",
+      "category": "organization",
+      "terms": [
+        "International Fund for Animal Welfare"
+      ]
+    },
+    {
+      "id": "germany",
+      "label": "IFAW Deutschland / Internationaler Tierschutz-Fonds",
+      "category": "organization",
+      "terms": [
+        "IFAW Deutschland",
+        "Internationaler Tierschutz-Fonds"
+      ]
+    },
+    {
+      "id": "andreas",
+      "label": "Andreas Dinkelmeyer",
+      "category": "public_team",
+      "terms": [
+        "Andreas Dinkelmeyer"
+      ]
+    },
+    {
+      "id": "robert",
+      "label": "Robert Kless",
+      "category": "public_team",
+      "terms": [
+        "Robert Kless"
+      ]
+    },
+    {
+      "id": "azzedine",
+      "label": "Azzedine Downes",
+      "category": "public_team",
+      "terms": [
+        "Azzedine Downes"
+      ]
+    },
+    {
+      "id": "matt",
+      "label": "Matt Collis",
+      "category": "public_team",
+      "terms": [
+        "Matt Collis"
+      ]
+    },
+    {
+      "id": "ilaria",
+      "label": "Ilaria Di Silvestre",
+      "category": "public_team",
+      "terms": [
+        "Ilaria Di Silvestre"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "name": "IFAW · internationales Presseecho",
+      "ok": true,
+      "count": 14
+    },
+    {
+      "name": "IFAW · Deutschland",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "name": "IFAW · deutsches Team",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "name": "IFAW · internationales Team",
+      "ok": true,
+      "count": 4
+    }
+  ],
   "failures": [],
-  "notice": "Noch kein erfolgreicher Monitoring-Datenlauf. Nachrichten erst nach erfolgreichem Abruf anzeigen."
+  "notice": "Ausschnitt aus öffentlich indexierten Treffern; keine vollständige Medienabdeckung, kein Volltextzugriff. Google-News-Zeitstempel können von der Originalveröffentlichung abweichen."
 }

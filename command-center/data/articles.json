@@ -1,7 +1,34 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-26T04:57:58.530846Z",
+  "generated_at": "2026-11-26T10:49:32.988294Z",
   "articles": [
+    {
+      "id": "ba0b2a9b720953cd5473",
+      "title": "Umweltprüfungen: WWF kritisiert EU-Parlamentsvotum zum Artenschutz - food-monitor",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPaWR3ZmNoMFM5RHB2TjFSTEE2WVlwN2hqUE9IZVlpLVdPQ1ZVYlJfNHUxUFpGWmNYaEhPeDV1UXpWTjg3d25xZ3F5ZU9ldGJFclhGdVJDN1M0eWNWLTh0OU1pZ2JpLWxoVzN0RW4wczF2RWY4R0Izc2Q3ZHB4bGlnRTFCR1Y4STRyTjJPQ0ljWms2WFgtaDg1Q3dDZDNBU09BX25ONVpB?oc=5",
+      "date": "2026-11-26T08:35:14Z",
+      "summary": "Umweltprüfungen: WWF kritisiert EU-Parlamentsvotum zum Artenschutz food-monitor",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "2140793d50fbdfb96ff6",
+      "title": "International marine biodiversity conference emphasizes the unsung and the unknown",
+      "url": "https://news.mongabay.com/2026/11/international-marine-biodiversity-conference-emphasizes-the-unsung-and-the-unknown/",
+      "date": "2026-11-26T08:01:34Z",
+      "summary": "BRUGES, Belgium — More than 800 people gathered for the 7th World Conference on Marine Biodiversity, held Nov. 17-20, in Bruges, Belgium. The conference took on topics as varied as deep-sea mining impacts, ocean-related art, citizen science, methods…",
+      "source": "Mongabay – Conservation News",
+      "kind": "media"
+    },
+    {
+      "id": "85d57be68c1adcf7a7b5",
+      "title": "How Uttarakhand’s women farmers are reviving endangered Himalayan medicinal plants",
+      "url": "https://news.mongabay.com/2026/11/how-uttarakhands-women-farmers-are-reviving-endangered-himalayan-medicinal-plants/",
+      "date": "2026-11-26T08:00:13Z",
+      "summary": "RAMNI, Uttarakhand, India — At state fairs across Uttarakhand, while most farmers set up stalls featuring local millet varieties, Guddi Devi and her fellow farmers showcase saplings of high-altitude medicinal plants. “In the past, people used to…",
+      "source": "Mongabay – Conservation News",
+      "kind": "media"
+    },
     {
       "id": "f9c59032c728a4eec77d",
       "title": "Rabat Zoo hosts conference on combating wildlife trafficking - Myanmar International TV",
@@ -9,6 +36,15 @@
       "date": "2026-11-26T03:21:48Z",
       "summary": "Rabat Zoo hosts conference on combating wildlife trafficking Myanmar International TV",
       "source": "Wildtierhandel – Medien (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "eedadf2cd55311736e6f",
+      "title": "Kopfgeld auf Waschbären in der Gemeinde Selters stoppen - Wildtierschutz Deutschland e.V.",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNcjZmYmowUzNFOGJ2ZVhPT1dSSGVDS2VVbmtvM3VDb2ZLdEd3Y2s0c0xSTTlONWRPQ3VBZ3ZkczR5NEk4TVgzSnRGemM5X0FzWU4tSU1Bcy1jaEYxb2FwcVBlTlN5c0FPV0ExWU9jM0F6RmNvSlIybkJWQU81bFA4RnN1cTRMSTVpMGc?oc=5",
+      "date": "2026-11-26T03:17:12Z",
+      "summary": "Kopfgeld auf Waschbären in der Gemeinde Selters stoppen Wildtierschutz Deutschland e.V.",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
       "kind": "media"
     },
     {
@@ -36,15 +72,6 @@
       "date": "2026-11-25T23:53:18Z",
       "summary": "Wildlife Trafficking Persists Across West and Central Africa Wisevoter",
       "source": "Wildtierhandel – Medien (News-Aggregation)",
-      "kind": "media"
-    },
-    {
-      "id": "eedadf2cd55311736e6f",
-      "title": "Kopfgeld auf Waschbären in der Gemeinde Selters stoppen - Wildtierschutz Deutschland e.V.",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNcjZmYmowUzNFOGJ2ZVhPT1dSSGVDS2VVbmtvM3VDb2ZLdEd3Y2s0c0xSTTlONWRPQ3VBZ3ZkczR5NEk4TVgzSnRGemM5X0FzWU4tSU1Bcy1jaEYxb2FwcVBlTlN5c0FPV0ExWU9jM0F6RmNvSlIybkJWQU81bFA4RnN1cTRMSTVpMGc?oc=5",
-      "date": "2026-11-25T21:17:12Z",
-      "summary": "Kopfgeld auf Waschbären in der Gemeinde Selters stoppen Wildtierschutz Deutschland e.V.",
-      "source": "Deutschland – Wildtiere (News-Aggregation)",
       "kind": "media"
     },
     {
@@ -1461,7 +1488,9 @@
       "abstract_available": true,
       "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Der Abstract nennt eine Befragung. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
       "abstract_excerpt": "Agricultural expansion threatens tropical ecosystems worldwide. Oil palm is cultivated primarily in Southeast Asia, but production in West Africa (its native range) is increasing rapidly. Here, oil palm is cultivated under traditional and industrial management, and the impacts on native West African ecosystems are poorly understood. Working within the framework of the Sustainable Oil Palm in West Africa (SOPWA) Project in Sinoe County, Liberia, we derived bird occurrence data using point count surveys across 54 plots in January-February 2023, spanning rainforest ('forest'), traditionally managed oil palm ('country palm'), ",
-      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung."
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "abstract_source_text": "Agricultural expansion threatens tropical ecosystems worldwide. Oil palm is cultivated primarily in Southeast Asia, but production in West Africa (its native range) is increasing rapidly. Here, oil palm is cultivated under traditional and industrial management, and the impacts on native West African ecosystems are poorly understood. Working within the framework of the Sustainable Oil Palm in West Africa (SOPWA) Project in Sinoe County, Liberia, we derived bird occurrence data using point count surveys across 54 plots in January-February 2023, spanning rainforest ('forest'), traditionally managed oil palm ('country palm'), and industrial oil palm systems, to investigate differences in bird species richness, community composition and community-level trait associations. Forest and country palm had comparable species richness, which was significantly higher than industrial oil palm. Taxonomic community composition differed across systems, with assemblages in country palm representing a mix of those in forest and industrial oil palm. Further, communities in forest and country palm were more associated with foraging in high strata, ant-associated behaviour, and an invertebrate diet. We detected four species of conservation concern in all systems, showing no consistent collective response to any specific system. Our findings show that country palm offers a promising option to preserve relatively high biodiversity as well as traditional cultivation practices in Liberia's managed landscape, although country palm is likely less productive than industrial oil palm. Oil palm systems are no replacement for rainforest ecosystems, and protection and designation of reserves and remnant forest patches are critical for wider bird conservation across West Africa.",
+      "abstract_origin": "OpenAlex DOI abstract"
     },
     {
       "id": "e7c46ca46e0f38927534",
@@ -1517,7 +1546,9 @@
       "abstract_available": true,
       "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
       "abstract_excerpt": "Plastic pollution is a defining feature of the Anthropocene 1 , and microplastics are dispersed by air and water into even remote terrestrial habitats 2-7 , yet the ecological and landscape-level processes that shape microplastic accumulation in terrestrial ecosystems remain poorly understood. Human land-use change is rapidly transforming landscapes worldwide, but the influence of this expanding human footprint on the microplastic burdens in wildlife remains largely unknown. This knowledge gap is particularly pressing in regions that are facing escalating environmental pressures, such as Brazil. Here we pair in vivo microp",
-      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung."
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "abstract_source_text": "Plastic pollution is a defining feature of the Anthropocene1, and microplastics are dispersed by air and water into even remote terrestrial habitats2-7, yet the ecological and landscape-level processes that shape microplastic accumulation in terrestrial ecosystems remain poorly understood. Human land-use change is rapidly transforming landscapes worldwide, but the influence of this expanding human footprint on the microplastic burdens in wildlife remains largely unknown. This knowledge gap is particularly pressing in regions that are facing escalating environmental pressures, such as Brazil. Here we pair in vivo microplastic measurements with high-resolution tracking data from lowland tapirs and giant anteaters across Brazil and show that the microplastic burdens carried by free-ranging mammals increase with both the magnitude of their human footprint exposure and their proximity to development and waste management infrastructure. Microplastics were also detected in the blood of individuals occupying seemingly pristine habitats far from development, suggesting that direct exposure to human-modified landscapes is unlikely to be the sole driver of systemic microplastic burdens. In a period of accelerating global land-use change, these findings reveal how individual habitat use and anthropogenic land-use change interact to shape wildlife exposure to microplastics and suggest that managing animals' proximity to development and waste management infrastructure may reduce the microplastic burdens carried by terrestrial wildlife.",
+      "abstract_origin": "OpenAlex DOI abstract"
     },
     {
       "id": "fa2600c3d794ade906cf",
@@ -1530,7 +1561,9 @@
       "abstract_available": true,
       "summary": "Die Veröffentlichung behandelt Wildtierhandel und Wilderei. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
       "abstract_excerpt": "Elephant poaching remains a major threat to African forest elephants (Loxodonta cyclotis) in the Congo Basin, driven by transnational factors such as accessibility, conflict, and weak governance. We developed a basin-wide spatial model of poaching risk using six standardized predictors: human population density, poverty, armed conflict intensity, travel time to cities, elevation, and forest canopy height. Model performance was evaluated using Proportion of Illegally Killed Elephants (PIKE) data from ten (Monitoring the Illegal Killing of Elephants) MIKE sites: Dzanga-Sangha, Bangassou, Garamba, Okapi, Salonga, Virunga, Nou",
-      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung."
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "abstract_source_text": "Elephant poaching remains a major threat to African forest elephants (Loxodonta cyclotis) in the Congo Basin, driven by transnational factors such as accessibility, conflict, and weak governance. We developed a basin-wide spatial model of poaching risk using six standardized predictors: human population density, poverty, armed conflict intensity, travel time to cities, elevation, and forest canopy height. Model performance was evaluated using Proportion of Illegally Killed Elephants (PIKE) data from ten (Monitoring the Illegal Killing of Elephants) MIKE sites: Dzanga-Sangha, Bangassou, Garamba, Okapi, Salonga, Virunga, Nou",
+      "abstract_origin": "Europe PMC abstract excerpt"
     },
     {
       "id": "413f9924adbc50fe00cc",
@@ -1674,6 +1707,15 @@
       "date": "2026-11-05T23:21:00Z",
       "summary": "Montana bighorn sheep case shows why wildlife trafficking laws matter The Mountaineer",
       "source": "Wildtierhandel – Medien (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "ec40ff053570db375a96",
+      "title": "Artenschutz an Gebäuden - NABU Baden-Württemberg",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNb2REVGlSbVRRRHNvVWJyS3NsTFcwQzgwbVVlVjBCUHRWOThEMGNBUFh4RWRzdEIwNTM3SGhZR3c4aXFtbVNwSzJUaExSalRXN2lJWUVuRHdpdmlaVk11Z2NZaDQ0Zm9yLW9lRmktVE1uMVh1T05sTTFEbXRKT1Y2alIxbWxVMnZCVi1zSGZ6RzdSLS1pcU5VNVE0WFJzWHVoNEhnajJXMFpiS3VYbkdueTRDYmE0S3hJVWlzNk10bzlZMTNLa2pKQkRBb04?oc=5",
+      "date": "2026-11-05T09:34:28Z",
+      "summary": "Artenschutz an Gebäuden NABU Baden-Württemberg",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
       "kind": "media"
     },
     {
@@ -1877,6 +1919,15 @@
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPb1B1UmV0aDltbTFsTWk4bW5FcTZ0eGtManhHTm4zQ0JCaFhhUURqY3d2UHZDSnpHU0JpZHZCUjg2SlVjMzFFNmU5dk9XeVhmaVRDZXJmd2hka1RpSzB3M3BodkduVkdpc201cmdVRzc0T1d3N0ZERjBRclJsckVsR2VGNDYtNmVCN3FBZ18wOXJ5VXVVSmNJVFBRTENBdFg5YVVpdnlQZGFPcWV3Y0E?oc=5",
       "date": "2026-10-31T07:00:00Z",
       "summary": "UN-Biodiversitätskonferenz COP17: 200 Staaten einigen sich auf Beschlüsse zum Artenschutz DIE ZEIT",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "c59999eaf724c1d57dc2",
+      "title": "Artenschutz-Meilenstein: Adler-Küken Beaky Junior schreibt Geschichte - Nordisch.info",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPLUZPT2p4UnZxMzh1WVhTc1RKU1huOS1YY1Z0LXFsLU1kYU1ycjRSajZWUkczZnZNeDdRWHRuZDZhMklsSnl0UkNTWVR4VVlNeHdqdXBRRndwSlhYa1dNQjBiNzI3MGd4VWtITWRyWnRyM1hoNWlZTjU0S0I1TFhsZmFsdG9LLVZ5UEpsa1FEdzEzWGdMU0hRdVBIcVY4OVhNTlZQMmgxX2dLMWxaMEJxWnBR?oc=5",
+      "date": "2026-10-31T07:00:00Z",
+      "summary": "Artenschutz-Meilenstein: Adler-Küken Beaky Junior schreibt Geschichte Nordisch.info",
       "source": "Deutschland – Wildtiere (News-Aggregation)",
       "kind": "media"
     },
@@ -2433,6 +2484,15 @@
       "kind": "media"
     },
     {
+      "id": "c18726c7a35c056196e0",
+      "title": "Endangered Species Act - US-Regierung ändert Artenschutz-Regelung - Deutschlandfunk",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVFdjNVJfQk8yUWl5ZXI4TFhJZVktRWdkdUowS2ZselVoNUlIZmVqTzlWUlByc1RPME8wcVNFNGNNQlVXeGZDOXpGa3FIcE1wd2lRTXlOczJxWWNTb1dRWERHVHBfR0RqcmYzbnJBWUJsMkFsaWpBZE04bTQxSGJ3YmVydkg5OVdm?oc=5",
+      "date": "2026-09-18T07:00:00Z",
+      "summary": "Endangered Species Act - US-Regierung ändert Artenschutz-Regelung Deutschlandfunk",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
+      "kind": "media"
+    },
+    {
       "id": "626823e33a6d22d55814",
       "title": "USA wollen Artenschutz lockern - STERN.de",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1GMWxfTmVTcTFpbUN0LTZZMlBFeGtXQU5hdnQwT3ZVVF9DRmhWWHhzLUdwQVFKaTAzMzdvcmhrMHFGLTNXZVpCRGNIbmQxd1Ztenh4dV9tMl8wTEtiWXF2dVFySXBNZ29XajM5Y3ZrWHdMNTJkR2dGS1VB?oc=5",
@@ -2496,10 +2556,10 @@
       "kind": "media"
     },
     {
-      "id": "84f92e67358b97159a32",
+      "id": "92ab28230e23373edba8",
       "title": "Ministerpräsident Rhein lobt Opel-Zoo als Partner für Artenschutz, Forschung und Bildung - HESSEN Landesregierung",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVjhnck1nQXVET0kyaTBCQ0hrTFFvZjNxSE95TmxLVTU3R1YxSFZpSEJtMHotLTdqdHBvM2pGd3AzWjRvV2tQb2V4LVJFdFNBUUJCVWlReTRFSXBHQkRQWnA5czdfUDRxOXZ4MUczOV9aNHFsZ1pjMlFwUEFaRkVuaDBkTnZNb1Npa3NjMGxqR2hyN3ZXOXlTcEZBM0VUVUcxNUk1VTVXSVpNVVdkYy03RXFQcw?oc=5",
-      "date": "2026-09-10T14:10:30Z",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOR2hMTktEUTNkS2F4MzZFQlJQbGhCV1B6RzVPTE9qZ2JwMnJUNGl2ZENiSnBMSEI2UGlnLVlKY1YybWZuOHNFcEZIUWgwekZrUFpJV2xkNF9zRGpzYTZDcVhGcjVxQ2FoQU9rTko0V2doaDYzZ3R1a0RSem1uQmFXNThEYmpPd1QtbURGNUh2OXNCNFJRNjQ1RmhtUjIwc3dFdktyYzZIZ0t6UFRLVUhmb0RoMUE?oc=5",
+      "date": "2026-09-10T07:00:00Z",
       "summary": "Ministerpräsident Rhein lobt Opel-Zoo als Partner für Artenschutz, Forschung und Bildung HESSEN Landesregierung",
       "source": "Deutschland – Wildtiere (News-Aggregation)",
       "kind": "media"
@@ -2636,42 +2696,6 @@
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNelNTV1UzeFA1SnVkbVBlNzJncHpKV0JIenlaajQ1Q1htV2xmZGJZN1pEeUxhdXVtSUlRYm5OVkxKLWtsQWF0N3J3TUFNRDZZOVRVZVRPbUx3U2xMS1liX0lpNXB1MzhwVW5RXzhFNzlkeXpFM2hZSEs5WGxuRDdxdjFQRXl6cWhRMGwzd0JJcFdmdE8tMHM1akdQbnR1R3BKbjRZ?oc=5",
       "date": "2026-08-27T07:00:00Z",
       "summary": "Crackdowns alone won’t stop online wildlife trafficking UCT News",
-      "source": "Wildtierhandel – Medien (News-Aggregation)",
-      "kind": "media"
-    },
-    {
-      "id": "ccd4f7fa9194ae336a38",
-      "title": "New digital portal empowers frontline investigators in the fight against wildlife cybercrime - International Fund for Animal Welfare | IFAW",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxONnlUTHhsQTBFWFZXY2tNU2psTGV6UGdFeDk2UzdXSWp5TEpXMkxyY2FQaklEWTlDbzFWQ3FLVmFyajcwTWpocDZyUUhlZmVlVF9JSlhaVmlaQmNHb1FndHdtRXpycHJ1YW5xSG1IckxPQTNJTkFzd2RXUUNYU3hKWFdaNGFJa0UzajZJTTdxdFdaeUJ1anhqZExXOUMtQQ?oc=5",
-      "date": "2026-08-26T07:00:00Z",
-      "summary": "New digital portal empowers frontline investigators in the fight against wildlife cybercrime International Fund for Animal Welfare | IFAW",
-      "source": "IFAW – Berichterstattung (News-Aggregation)",
-      "kind": "media"
-    },
-    {
-      "id": "e69442c585ccc8ad5e49",
-      "title": "New Study: Critically Endangered Maleo Bird Threatened by International Wildlife Trafficking - Center for Biological Diversity",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNR3dRX3dRUFdrTDc3VWxPbnBUbWVhVEN6VjI0Q1BxbVJJYW9BRFREWUV0NDl2cXY1ZGsxWVNQVW93Zm5obWtwQXFlLXg5Mk5ORkJDcHFCNkp4Qm55TXQzaXVoY0xFX2d1ME5pbHYyQUdiMkt4bWN4RW14RXZQUDBhTUY3V0tFMmVXbVRYT2pVb29JdDVYdEZLU2h0TnVEbXpIOTFReDdkSjR1UFhxLWZPWUJVSlk5RDNtTkJOVEtXRnAzbHoyT3JnYWdiWkZFVXAyQXhPVlVfcmN1YVJseVd3LXdLZ1dxUmNRZEpVS29B?oc=5",
-      "date": "2026-08-26T07:00:00Z",
-      "summary": "New Study: Critically Endangered Maleo Bird Threatened by International Wildlife Trafficking Center for Biological Diversity",
-      "source": "Wildtierhandel – Medien (News-Aggregation)",
-      "kind": "media"
-    },
-    {
-      "id": "6b3ddf6e09495031f736",
-      "title": "Hamad International Airport joins global fight against illegal wildlife trade - Cargo Airports & Airline Services",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUmdPczU4c0Vqd3V3MF9lc1kyWWlxV3FBZnBZanRZN2pfV2NjWTF2YVNyWklaZXFONUQxUVo2Z3Y0Wk1lWllZZmtwN1UwZm1mZ3UzbnZxQWRsVDNPWXR3Wkw3b2tHa3UwOEIyLVk0S2wteDNKM0VZVWRuQ2RWTC1FZnpZdVk3TlRiZVVPTjFSakdkdFp4bHRjWnlOS1dFeEU?oc=5",
-      "date": "2026-08-26T07:00:00Z",
-      "summary": "Hamad International Airport joins global fight against illegal wildlife trade Cargo Airports & Airline Services",
-      "source": "Wildtierhandel – Medien (News-Aggregation)",
-      "kind": "media"
-    },
-    {
-      "id": "777d7fd3e99e71ce599a",
-      "title": "Authorities arrest two men for wildlife trafficking - South African Government News Agency",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWXVPWmRRcElxSC1sSTVjd0xXb2hLVzhiX2RPREJud3U5Sk5ja08xN1FTcDNmQ3BBazhPVzhUdnMySzgtd0YzRVpwcF9UMVBGTm1hOGJzNEE3ZWJnTWM3YlZCUFlHV21ic2dVMTdkc21TZ3N6b3d5X21tYXNSakR3ODRlc3Foc0V0aVZybHpZOA?oc=5",
-      "date": "2026-08-26T07:00:00Z",
-      "summary": "Authorities arrest two men for wildlife trafficking South African Government News Agency",
       "source": "Wildtierhandel – Medien (News-Aggregation)",
       "kind": "media"
     },
@@ -2824,31 +2848,31 @@
     {
       "name": "Mongabay – Conservation News",
       "kind": "media",
-      "count": 16,
+      "count": 17,
       "ok": true
     },
     {
       "name": "IFAW – öffentliche Meldungen (News-Aggregation)",
       "kind": "ifaw",
-      "count": 1,
+      "count": 2,
       "ok": true
     },
     {
       "name": "IFAW – Berichterstattung (News-Aggregation)",
       "kind": "media",
-      "count": 4,
+      "count": 7,
       "ok": true
     },
     {
       "name": "Wildtierhandel – Medien (News-Aggregation)",
       "kind": "media",
-      "count": 21,
+      "count": 35,
       "ok": true
     },
     {
       "name": "Deutschland – Wildtiere (News-Aggregation)",
       "kind": "media",
-      "count": 7,
+      "count": 44,
       "ok": true
     },
     {
@@ -2860,14 +2884,14 @@
     {
       "name": "Crossref: human wildlife conflict",
       "kind": "study",
-      "count": 0,
-      "ok": false
+      "count": 1,
+      "ok": true
     },
     {
       "name": "Crossref: marine mammal conservation",
       "kind": "study",
-      "count": 0,
-      "ok": false
+      "count": 12,
+      "ok": true
     },
     {
       "name": "Crossref: elephant conservation",
@@ -2884,28 +2908,14 @@
     {
       "name": "Crossref: illegal wildlife trade",
       "kind": "study",
-      "count": 0,
-      "ok": false
-    },
-    {
-      "name": "Europe PMC – Studien & Abstracts",
-      "kind": "study",
-      "count": 30,
+      "count": 1,
       "ok": true
     }
   ],
   "failures": [
     {
-      "source": "Crossref: human wildlife conflict",
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "source": "Crossref: marine mammal conservation",
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "source": "Crossref: illegal wildlife trade",
-      "error": "HTTP Error 429: Too Many Requests"
+      "source": "Europe PMC",
+      "error": "The read operation timed out"
     }
   ],
   "events": [],

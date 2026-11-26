@@ -55,7 +55,10 @@
     const map=new Map();
     for(const source of lists){
       for(const input of Array.isArray(source)?source:[]){
-        const url=safeUrl(input?.url),profiles=matches(input?.title);
+        const url=safeUrl(input?.url);
+        const indexed=input?.match_type==='Suchindex-Treffer'&&String(input?.collected_via||'').startsWith('Google News RSS');
+        const profiles=matches(input?.title);
+        if(!profiles.length&&indexed&&isGermanMarket(input))profiles.push('ifaw');
         if(!url||!profiles.length)continue;
         const owner=isOfficial(input);
         if(!owner&&!isGermanMarket(input))continue;
@@ -77,12 +80,15 @@
       const raw=String(entry?.pubDate||'');
       const date=/^\d{4}-\d\d-\d\d \d\d:\d\d:\d\d$/.test(raw)?raw.replace(' ','T')+'Z':raw;
       const millis=Date.parse(date);
-      if(!title||!profiles.length||!url||!Number.isFinite(millis))continue;
+      if(!title||!url||!Number.isFinite(millis))continue;
       if(millis>now.getTime()+7200000||now.getTime()-millis>45*86400000)continue;
       const publisher=String(entry?.author||'').trim()||title.split(' - ').slice(-1)[0];
+      const searchHit=profiles.length===0;
+      if(searchHit)profiles.push('ifaw');
       result.push({id:'rss-'+String(entry.guid||url).slice(-60),title,url,date:new Date(millis).toISOString(),
         date_type:'aggregator',source:publisher,publisher_url:entry.publisher_url||'',
-        kind:'monitor',profiles,summary:'',collected_via:'Google News RSS (Live-Suche)'});
+        kind:'monitor',profiles,match_type:searchHit?'Suchindex-Treffer':'Schlagzeilen-Nennung',
+        summary:'',collected_via:'Google News RSS (Live-Suche)'});
     }
     return merge(result);
   }

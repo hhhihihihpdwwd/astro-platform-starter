@@ -37,7 +37,7 @@ PUBLIC_PROFILES=[
 # Queries intentionally grouped to reduce free-provider pressure.
 SEARCHES=[
     {'name':'IFAW · internationale offizielle Pressemitteilungen','locale':'en','region':'US',
-     'scope':'official','query':'site:ifaw.org ("International Fund for Animal Welfare" OR IFAW) when:30d'},
+     'scope':'official','query':'(site:ifaw.org/international/news OR site:ifaw.org/de/aktuelles) ("International Fund for Animal Welfare" OR IFAW) when:30d'},
     {'name':'IFAW · deutscher Medienmarkt','locale':'de','region':'DE',
      'scope':'germany','query':'("IFAW" OR "International Fund for Animal Welfare" OR "Internationaler Tierschutz-Fonds") when:30d'},
     {'name':'IFAW · deutsches Team in deutschen Medien','locale':'de','region':'DE',
@@ -49,11 +49,11 @@ SEARCHES=[
 # that an outlet belongs to the German media market.
 DE_PUBLISHER_HINTS=(
     'die zeit','zeit online','spiegel','süddeutsche','sueddeutsche','tagesschau','ard','zdf',
-    'deutschlandfunk','nd r','ndr','wdr','rbb','swr','mdr','br24','bayerischer rundfunk',
+    'deutschlandfunk','ndr','wdr','rbb','swr','mdr','br24','bayerischer rundfunk',
     'faz','frankfurter allgemeine','frankfurter rundschau','welt','bild','focus online',
     'rtl','stern','t-online','n-tv','ntv','dpa','deutsche presse-agentur',
-    'hamburger abendblatt','berliner morgenpost','tagesspiegel','geo','petbook',
-    'kölner stadt-anzeiger','koelner stadt-anzeiger','watson.de','die presse',
+    'hamburger abendblatt','berliner morgenpost','tagesspiegel','petbook',
+    'kölner stadt-anzeiger','koelner stadt-anzeiger','watson.de',
     'bunte','morgenpost','abendzeitung','redaktionsnetzwerk deutschland','rnd',
     'westdeutsche zeitung','lokale zeitung'
 )
@@ -143,7 +143,9 @@ def merge(current:list[dict],fresh:list[dict],now:datetime)->list[dict]:
            'origin':'IFAW-eigene Meldung' if owner else 'Externe Berichterstattung',
            'market':'International · IFAW' if owner else 'Deutschland'}
         # Use original article address as primary key, not search query.
-        key=a['url'].lower().split('#')[0].rstrip('/')
+        # IFAW's same official press release may be returned by multiple Google News searches.
+        # Collapse exact official headline duplicates; keep independent German outlets distinct.
+        key=('ifaw-official:'+normalized(a['title'])) if owner else a['url'].lower().split('#')[0].rstrip('/')
         prev=merged.get(key)
         if not prev or dt>datetime.fromisoformat(prev['date'].replace('Z','+00:00')):merged[key]=a
     return sorted(merged.values(),key=lambda a:a.get('date') or '',reverse=True)[:480]

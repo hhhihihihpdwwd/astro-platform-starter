@@ -1,20 +1,28 @@
 # Wildlife Command Center – unabhängiger Recherche-Prototyp
 
-**Aktuelle verifizierte Web-Vorschau (23.11.2026):** https://silver-equinox-qqr13.ship.place/
+**Aktuelle verifizierte Web-Vorschau (26.11.2026):** https://able-fanatic-l4410.ship.place/
 
 Dieses Projekt ist ein **nicht offiziell freigegebener, öffentlich erreichbarer Prototyp** zur Recherche von öffentlichen Wildtier-, Artenschutz-, Wissenschafts- und Politikmeldungen für IFAW-bezogene Themen. Keine offizielle IFAW-Webanwendung, kein Logo und keine internen Unternehmensdaten.
 
 ## Bedienung
 
-Laptopoptimierte, minimalistische Oberfläche **ohne Seitenleiste oder Chatbot** mit Morning Briefing, Global News Radar, PR-Chancen, Crisis Watch, Studien-Scout und Policy-Meldungen. Eine Hamburger Uhr und drei Weltuhren zeigen sekundengenau die Ortszeit für Washington, London und Sydney sowie jeweils eine Weltkarte mit Standortmarker (Natural Earth, gemeinfrei). Die Hamburger Uhr zeigt eine grafische, relativ skalierte Sonnenbahn (aus berechneter Sonnenhöhe), Näherungswerte für Sonnenstand sowie Auf- und Untergang.
+Schlanke Startseite mit **genau vier Bereichen**: Global News Radar, PR-Chancen, Crisis Watch und Medienbeobachtung. Die Startseite zeigt drei redaktionell getrennte Nachrichtenspalten und eine einklappbare Studie des Tages. Politik- und Wissenschaftsmeldungen bleiben über News Radar und die Studie verfügbar; es gibt keine eigenen Navigationspunkte dafür. Weltuhren und grafischer Hamburger Sonnenstand sind in ein aufklappbares Element ausgelagert. Keine Aufgabenverwaltung, kein Chatbot.
 
-**To-dos, Microsoft-Verbindungen und der Chatbot sind entfernt.**
+**Alle Artikel werden absteigend nach ihrem Datumsfeld sortiert**, auch im PR- und Krisenbereich. Die Oberfläche zeigt explizit *Datum laut Quelle*, *Google-News-Zeit* oder *im Medienindex gesehen*, je nach Quellenart. Ältere Artikel bleiben unten oder unter einer eigenen Datumsgruppe. Der Website-Datenabruf, die Aktualisierung der Datenbank und das jüngste Veröffentlichungsdatum sind bewusst getrennte Angaben. Ein neuer Abruf heißt nicht, dass neue Artikel vorliegen.
+
+## Medienbeobachtung
+
+Der Bereich **Medienbeobachtung** zeigt öffentlich indexierte Treffer zu IFAW und Mitarbeitenden, darunter die Organisationen **IFAW**, **International Fund for Animal Welfare**, **IFAW Deutschland / Internationaler Tierschutz-Fonds** sowie offiziell öffentlich gelistete Mitarbeitende **Andreas Dinkelmeyer**, **Robert Kless**, **Azzedine Downes**, **Matt Collis** und **Ilaria Di Silvestre**. Grundlage der Personenprofile ist die [öffentliche IFAW-Teamseite](https://www.ifaw.org/de/menschen/team).
+
+Die Datensammlung führt Google News RSS-Suchen mit Originaltitel, Link, Quelle und Google-News-Zeitstempel zusammen und entfernt Dubletten. Es gibt Filter pro Suchprofil, externe Medienberichte versus IFAW-eigene Veröffentlichungen sowie Zeitgruppen (heute, gestern, letzte sieben Tage, ältere Meldungen). Ein Browser-Liveabruf über den begrenzten kostenlosen RSS2JSON-Dienst wird ergänzend versucht.
+
+**Wichtige Grenze:** Das ist *kein vollständiger Mediendatenbank-Dienst* und kann keine vollständige Abdeckung aller Zeitungen, Fachartikel, Bezahlmedien, TV-Archive, Veröffentlichungen mit reinem Volltext-Namensnennungen oder sämtlicher IFAW-Kollegen leisten. Treffer können fehlen, Index-Zeitstempel können vom tatsächlichen Veröffentlichungsdatum abweichen, und einzelne Nachnamen können mehrdeutig sein. Kein automatisches Abrufen oder Weiterveröffentlichen vollständiger Artikel.
 
 ## Tägliche Studie
 
 Der stündliche Quellenlauf versucht, aus öffentlichen Europe-PMC-Abstracts relevante Tier- und Artenschutzpublikationen mit DOI zu übernehmen. Bei API-Ausfällen stehen **sieben anhand der Originalpublikationen geprüfte Fachartikel** bereit, die täglich wechseln können. Die Entscheidung für den aktuellen Hamburger Kalendertag wird separat gespeichert und bleibt während des Tages stabil. Themenbeschreibungen sind bewusst zurückhaltend formuliert; keine behauptete LLM-Faktenprüfung oder erfundene Forschungsergebnisse. Veröffentlichungsdaten werden angezeigt; die Rubrik beansprucht nicht, dass eine ältere Studie neu erschienen sei.
 
-Bei der **Studie des Tages** ist eine längere, ausklappbare Darstellung verfügbar: für kuratierte Arbeiten stehen an den Originalpublikationen orientierte Absätze zu Forschungsfrage, Vorgehen und Einordnung bereit; für andere Arbeiten erscheint eine klar als maschinell übersetzt gekennzeichnete Abstract-Passage, falls vorhanden. Keine frei erfundenen Studienergebnisse.
+Die **Studie des Tages** ist jetzt auf der Global-News-Startseite einklappbar. Die KI-Analyse lässt sich per Button auf Grundlage des hinterlegten Original-Abstracts starten, wenn das Gerät eine lokale Browser-KI unterstützt. Die Originalquelle bleibt verlinkt.
 
 ## Bilder & Gestaltung
 
@@ -34,7 +42,7 @@ Die moderne Schrift nutzt die lokal verfügbaren Systemfonts, also **keine exter
 - GitHub Actions hat **zwei geplante Versuche pro Stunde** (11 und 41 Minuten nach UTC-Stundenbeginn), um RSS-/Atom-, Crossref- und Europe-PMC-Metadaten zu sammeln. GitHub garantiert weder punktgenaue Ausführung noch vollständige Quellenabdeckung. Fehlt ein Scheduler-Lauf, bleibt die direkte Live-Suche trotzdem nutzbar, soweit GDELT erreichbar ist.
 - Website wird durch `.github/workflows/ifaw-publish-free.yml` auf einen kostenlosen statischen Host veröffentlicht. Dort werden HTML/CSS/JS/News-JSON und **drei lokale JPEG-Bilddateien** auf gültige HTTP-200-Antworten geprüft.
 - Die archivierten öffentlichen JSON-Meldungen lädt der Browser aus GitHub, mit lokalem Snapshot als Fallback. Eine erfolgreiche Dateiabfrage bedeutet nicht automatisch neue Nachrichten. Live-Abfrage und Archivstand sind getrennt ausgewiesen.
-- Es werden **keine Besucherdaten oder Chatfragen in eine Datenbank dieser Anwendung** geschrieben (es gibt keinen Chatbot). Eine freiwillige Merkliste verbleibt im Browser. Beim Live-Abruf sendet der Browser Netzwerkzugriffe direkt an GDELT sowie ggf. rss2json.com (Mongabay-RSS). Hoster, GitHub, GDELT und rss2json.com können technische Zugriffsdaten verarbeiten.
+- Es werden **keine Besucherdaten oder Chatfragen in eine Datenbank dieser Anwendung** geschrieben (es gibt keinen Chatbot). Eine freiwillige Merkliste verbleibt im Browser. Beim Live-Abruf sendet der Browser Netzwerkzugriffe direkt an GDELT sowie ggf. rss2json.com (Mongabay-RSS und IFAW-Medienmonitoring). Hoster, GitHub, GDELT und rss2json.com können technische Zugriffsdaten verarbeiten.
 
 ## Originalmeldungen und KI-Studienanalyse
 

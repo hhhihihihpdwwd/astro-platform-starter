@@ -112,23 +112,50 @@ function go(view){
 function ageMinutes(value){const t=Date.parse(value||'');return Number.isFinite(t)?Math.max(0,Math.round((Date.now()-t)/60000)):Infinity}
 function status(){
   const host=$('#topStatus');
-  const archiveAge=ageMinutes(state.feed.generated_at);
-  const liveAge=ageMinutes(state.liveCheckedAt);
-  let label='Noch keine Quellen geladen',level='warn';
-  if(state.fetching){label='Prüfe Archiv und Live-Meldungen …';level=''}
-  else if(Number.isFinite(liveAge)&&liveAge<=75){
-    label=(state.liveProvider||'Live-Suche')+' geprüft · '+state.liveArticles.length+' Treffer · '+fmtTime(state.liveCheckedAt);
-    level='';
-  }else if(Number.isFinite(archiveAge)){
-    label='Archiv: '+(archiveAge<60?archiveAge+' Min.':Math.round(archiveAge/60)+' Std.')+' alt';
-    if(state.liveError)label+=' · Live-Suche fehlgeschlagen';
-    level=archiveAge>150?'warn':'';
-  }else if(state.liveError||state.fetchError){label='Datenabruf derzeit nicht erreichbar';level='error'}
+  const archive=ageMinutes(state.feed.generated_at),live=ageMinutes(state.liveCheckedAt),
+        media=ageMinutes(state.mediaFeed.last_successful_at);
+  let label='Noch keine Quellen geprüft',level='warn';
+  if(state.fetching){label='Meldungen und Medienbeobachtung werden geprüft …';level=''}
+  else{
+    const latest=[state.liveCheckedAt,state.mediaLiveCheckedAt,state.archiveCheckedAt,state.mediaCheckedAt].filter(Boolean)
+      .sort((a,b)=>Date.parse(b)-Date.parse(a))[0];
+    if(latest){
+      label='Letzte Prüfung: '+new Intl.DateTimeFormat('de-DE',{timeZone:'Europe/Berlin',hour:'2-digit',minute:'2-digit'}).format(new Date(latest));
+      level=(archive>240&&live>90&&media>240)?'warn':'';
+    }else if(Number.isFinite(archive))label='Archivstand: '+fmtTime(state.feed.generated_at);
+    if(state.fetchError&&state.liveError&&state.mediaError&&state.mediaLiveError)level='error';
+  }
   host.innerHTML='<span class="status-pulse '+level+'"></span><span>'+esc(label)+'</span>';
 }
 function empty(title,sub){return '<div class="empty"><strong>'+esc(title)+'</strong>'+esc(sub||'')+'</div>'}
 function fmtTime(value){return fmtDate(value,{hour:'2-digit',minute:'2-digit'})}
-function heading(title,sub){const recentlyChecked=ageMinutes(state.liveCheckedAt)<75;return '<div class="dashboard-header"><div><h2 class="page-heading">'+esc(title)+'</h2><p class="page-subtitle">'+esc(sub||'')+'</p></div><div class="update-note">'+(recentlyChecked?'Live geprüft: '+esc(fmtTime(state.liveCheckedAt))+' · ':'')+'Archiv: '+esc(fmtTime(state.feed.generated_at))+'</div></div>'}
+function fullDate(value){return fmtDate(value,{hour:'2-digit',minute:'2-digit'})}
+function dateLabel(a){
+  const prefix=a.date_type==='aggregator'?'Google News-Zeit: ':a.date_type==='seen'||a.live?'Im Medienindex gesehen: ':'Datum laut Quelle: ';
+  return prefix+fullDate(a.date);
+}
+function sectionAge(a){
+  const stamp=Date.parse(a?.date||'');
+  if(!Number.isFinite(stamp))return 'ohne';
+  const day=Clock.cityTime(new Date(stamp),'Europe/Berlin').day;
+  const current=Clock.cityTime(new Date(),'Europe/Berlin').day;
+  const yesterday=Clock.cityTime(new Date(Date.now()-86400000),'Europe/Berlin').day;
+  if(day===current)return 'heute';
+  if(day===yesterday)return 'gestern';
+  if(Date.now()-stamp<=7*86400000)return 'woche';
+  return 'alt';
+}
+function heading(title,sub,monitor=false){
+  const list=monitor?mediaItems():articles().filter(a=>a.kind!=='study');
+  const latest=byDate(list)[0];
+  const archived=monitor?state.mediaFeed.last_successful_at:state.feed.generated_at;
+  const lastCheck=monitor?state.mediaLiveCheckedAt:state.liveCheckedAt;
+  return '<div class="dashboard-header"><div><h2 class="page-heading">'+esc(title)+'</h2>'+
+    '<p class="page-subtitle">'+esc(sub||'')+'</p></div>'+
+    '<div class="update-note"><span>Neueste erfasste Meldung: '+esc(latest?fullDate(latest.date):'keine')+'</span>'+
+    '<span>Archivstand: '+esc(fmtTime(archived))+'</span>'+
+    (lastCheck?'<span>Live-Prüfung: '+esc(fmtTime(lastCheck))+'</span>':'')+'</div></div>';
+}
 function panelTop(icon,title,destination){
   return '<div class="panel-top"><h3 class="panel-title"><span class="picon" aria-hidden="true">'+icon+'</span>'+esc(title)+'</h3>'+(destination?'<button class="soft-link" data-view="'+destination+'">Alle ansehen ↗</button>':'')+'</div>';
 }

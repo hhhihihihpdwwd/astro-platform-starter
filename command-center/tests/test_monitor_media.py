@@ -75,3 +75,17 @@ def test_german_market_only_external_but_global_ifaw_official():
     ),NOW,scope='official')
     assert len(world)==1 and world[0]['origin']=='IFAW-eigene Meldung'
     assert all(a['source']!='A-Z Animals' for a in M.merge([],rows,NOW))
+
+def test_german_full_text_index_hit_is_included_but_not_claimed_as_verified():
+    payload=xml(
+        ('Die Mär vom alten Elfenbein - taz.de','taz.de'),
+        ('Ivory scandal overseas - A-Z Animals','A-Z Animals')
+    )
+    records=M.parse_monitor_rss(payload,NOW,scope='germany',query_hint='brand')
+    assert len(records)==1
+    assert records[0]['profiles']==['ifaw']
+    assert records[0]['market']=='Deutschland'
+    assert records[0]['match_type']=='Suchindex-Treffer'
+    retained=M.merge([],records,NOW)
+    assert len(retained)==1 and retained[0]['match_type']=='Suchindex-Treffer'
+    assert M.parse_monitor_rss(payload,NOW,scope='germany',query_hint='')==[]

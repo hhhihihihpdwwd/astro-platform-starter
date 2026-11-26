@@ -3,16 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#0d302b">
-  <meta name="description" content="Unabhängiges Recherche-Dashboard für öffentliche Nachrichten zu Tier- und Artenschutz. Kein offizielles IFAW-Angebot.">
+  <meta name="theme-color" content="#123c32">
+  <meta name="description" content="Öffentliches Wildlife-Newsroom-Dashboard: neueste Meldungen, PR-Chancen, Crisis Watch und IFAW-Medienbeobachtung.">
   <meta name="referrer" content="strict-origin-when-cross-origin">
-  <title>Wildlife Command Center · Rechercheprototyp</title>
+  <title>Wildlife Command Center · Newsroom</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
   <script src="lib/analysis.js" defer></script>
   <script src="lib/clock.js" defer></script>
   <script src="lib/study-ai.js" defer></script>
   <script src="lib/live-news.js" defer></script>
+  <script src="lib/monitoring.js" defer></script>
   <script src="app.js" defer></script>
 </head>
 <body>
@@ -20,46 +21,50 @@
     <header class="topbar">
       <div class="brand-lockup"><span class="brand-icon" aria-hidden="true">◈</span><span class="brand-name">WILDLIFE <span>COMMAND CENTER</span></span></div>
       <div class="top-actions">
-        <div class="top-status" id="topStatus" role="status"><span class="status-pulse"></span><span>Lade öffentliche Quellen …</span></div>
-        <button type="button" id="refreshBtn" class="refresh-button" aria-label="Nachrichtendaten jetzt aktualisieren" title="Jetzt aktualisieren">↻ <span>Aktualisieren</span></button>
+        <div class="top-status" id="topStatus" role="status"><span class="status-pulse"></span><span>Quellen werden geprüft …</span></div>
+        <button type="button" id="refreshBtn" class="refresh-button" aria-label="Alle Nachrichten und die Medienbeobachtung aktualisieren" title="Jetzt abrufen">↻ <span>Aktualisieren</span></button>
       </div>
     </header>
     <div class="container">
-      <div class="hero">
-        <div class="hero-shade">
-          <p class="eyebrow light">DEIN WILDLIFE NEWSROOM</p>
-          <h1 id="greeting">Guten Tag, Luca.</h1>
-          <p>Aktuelle Entwicklungen in Tierschutz, Artenschutz, Wissenschaft und Politik – auf einen Blick.</p>
+      <section class="welcome-band">
+        <div><p class="eyebrow">DEIN WILDLIFE NEWSROOM</p><h1 id="greeting">Guten Tag, Luca.</h1>
+          <p>Wichtige Entwicklungen, PR-Chancen und IFAW-Erwähnungen – zeitlich geordnet.</p>
         </div>
-        <div class="hero-credit">Symbolbild · <a href="https://unsplash.com/photos/an-elephant-walks-through-dry-grass-in-savanna-giucwGEgRsE" target="_blank" rel="noopener noreferrer">Foto: Eric Dekker</a></div>
-      </div>
-      <section class="clock-deck" aria-label="Weltuhren und Sonnenstand">
-        <div class="clock-main">
-          <div class="clock-head"><span class="tiny-marker"></span> LOKALZEIT · HAMBURG <span class="city-pill">MEZ / MESZ</span></div>
-          <div class="hamburg-clock"><time id="clock-hamburg" class="clock-large" aria-label="Uhrzeit Hamburg">--:--:--</time><span id="sunStatus" class="sun-badge">Sonnenverlauf</span></div>
-          <div class="sun-chart">
-            <svg id="sunGraphic" viewBox="0 0 320 110" role="img" aria-label="Sonnenposition über Hamburg, berechneter Verlauf">
-              <defs><linearGradient id="skyTint" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#fcecc8"/><stop offset="1" stop-color="#ffffff"/></linearGradient></defs>
-              <path id="sunArea" d="M20 86 L300 86Z" fill="url(#skyTint)" opacity=".65"/>
-              <path id="sunPath" d="M20 86 L300 86" fill="none" stroke="#e8b569" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="4 5"/>
-              <path d="M9 86 H311" fill="none" stroke="#b7c9ba" stroke-width="1.3"/>
-              <circle cx="20" cy="86" r="3" fill="#a5b7a9"/><circle cx="300" cy="86" r="3" fill="#a5b7a9"/>
-              <g id="sunMarker"><circle id="sunHalo" cx="20" cy="86" r="12" fill="#f4c982" opacity=".3"/><circle id="sunDot" cx="20" cy="86" r="6.5" fill="#e4aa42" stroke="#fff" stroke-width="2"/></g>
-            </svg>
-            <div class="sun-times"><span>↑ <strong id="sunriseTime">--:--</strong> Sonnenaufgang</span><span>↓ <strong id="sunsetTime">--:--</strong> Sonnenuntergang</span></div>
-          </div>
-          <div id="sunLabel" class="sun-label">Sonnenstand wird berechnet …</div>
+        <div class="welcome-time">
+          <span class="time-place">HAMBURG</span>
+          <time id="clock-hamburg" aria-label="Uhrzeit Hamburg">--:--:--</time>
+          <span class="sun-badge" id="sunStatus">☀ Sonnenstand</span>
         </div>
-        <div class="world-clock-list" id="worldClocks" aria-label="Internationale Standorte"></div>
       </section>
+      <details class="clock-drawer" id="clockDrawer">
+        <summary><span><span aria-hidden="true">☀</span> Sonnenstand & Weltzeiten</span><span class="drawer-hint">Hamburg · Washington · London · Sydney <span aria-hidden="true">⌄</span></span></summary>
+        <section class="clock-deck" aria-label="Weltuhren und Sonnenstand">
+          <div class="clock-main">
+            <div class="clock-head"><span class="tiny-marker"></span> SONNENVERLAUF · HAMBURG</div>
+            <div class="sun-chart">
+              <svg id="sunGraphic" viewBox="0 0 320 110" role="img" aria-label="Näherungsweise Sonnenposition über Hamburg">
+                <defs><linearGradient id="skyTint" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#fcecc8"/><stop offset="1" stop-color="#ffffff"/></linearGradient></defs>
+                <path id="sunArea" d="M20 86 L300 86Z" fill="url(#skyTint)" opacity=".65"/>
+                <path id="sunPath" d="M20 86 L300 86" fill="none" stroke="#e8b569" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="4 5"/>
+                <path d="M9 86 H311" fill="none" stroke="#b7c9ba" stroke-width="1.3"/>
+                <circle cx="20" cy="86" r="3" fill="#a5b7a9"/><circle cx="300" cy="86" r="3" fill="#a5b7a9"/>
+                <g id="sunMarker"><circle id="sunHalo" cx="20" cy="86" r="12" fill="#f4c982" opacity=".3"/><circle id="sunDot" cx="20" cy="86" r="6.5" fill="#e4aa42" stroke="#fff" stroke-width="2"/></g>
+              </svg>
+              <div class="sun-times"><span>↑ <strong id="sunriseTime">--:--</strong> Aufgang</span><span>↓ <strong id="sunsetTime">--:--</strong> Untergang</span></div>
+            </div>
+            <div id="sunLabel" class="sun-label">Sonnenstand wird berechnet …</div>
+          </div>
+          <div class="world-clock-list" id="worldClocks" aria-label="Internationale Standorte"></div>
+        </section>
+      </details>
       <div class="navigation-bar">
-        <nav id="nav" aria-label="Themenbereiche"></nav>
-        <label class="search-field"><span aria-hidden="true">⌕</span><input type="search" id="globalSearch" placeholder="Thema oder Schlagwort suchen" aria-label="Nachrichten durchsuchen" autocomplete="off"></label>
+        <nav id="nav" aria-label="Newsroom-Bereiche"></nav>
+        <label class="search-field"><span aria-hidden="true">⌕</span><input type="search" id="globalSearch" placeholder="Artikel durchsuchen …" aria-label="Artikel durchsuchen" autocomplete="off"></label>
       </div>
-      <main id="main" tabindex="-1" aria-live="polite"><div class="loading">Lade aktuelle Informationen …</div></main>
+      <main id="main" tabindex="-1" aria-live="polite"><div class="loading">Öffentliche Quellen werden geladen …</div></main>
       <footer class="site-footer">
-        <span>Unabhängiger öffentlicher Recherche-Prototyp · Kein offizielles IFAW-Angebot</span>
-        <span>Keine interne Daten eingeben · <button type="button" data-view="sources">Quellen & Datenschutz</button></span>
+        <span>Unabhängiger öffentlicher Recherche-Prototyp · Kein offizielles IFAW-Angebot · Keine vollständige Medienabdeckung</span>
+        <span>Keine internen Daten eingeben · <button type="button" data-view="sources">Quellen & Transparenz</button></span>
       </footer>
     </div>
   </div>

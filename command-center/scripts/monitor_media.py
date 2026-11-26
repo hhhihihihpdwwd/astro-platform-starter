@@ -37,7 +37,7 @@ PUBLIC_PROFILES=[
 # Queries intentionally grouped to reduce free-provider pressure.
 SEARCHES=[
     {'name':'IFAW · internationale offizielle Pressemitteilungen','locale':'en','region':'US',
-     'scope':'official','query':'(site:ifaw.org/international/news OR site:ifaw.org/de/aktuelles) ("International Fund for Animal Welfare" OR IFAW) when:30d'},
+     'scope':'official','query':'site:ifaw.org ("International Fund for Animal Welfare" OR IFAW) when:30d'},
     {'name':'IFAW · deutscher Medienmarkt','locale':'de','region':'DE',
      'scope':'germany','query':'("IFAW" OR "International Fund for Animal Welfare" OR "Internationaler Tierschutz-Fonds") when:30d'},
     {'name':'IFAW · deutsches Team in deutschen Medien','locale':'de','region':'DE',

@@ -52,7 +52,7 @@ SEARCHES=[
 DE_PUBLISHER_HINTS=(
     'die zeit','zeit online','spiegel','süddeutsche','sueddeutsche','tagesschau','ard','zdf',
     'deutschlandfunk','ndr','wdr','rbb','swr','mdr','br24','bayerischer rundfunk',
-    'faz','frankfurter allgemeine','frankfurter rundschau','welt','bild','focus online',
+    'faz','frankfurter allgemeine','frankfurter rundschau','bild','focus online',
     'rtl','stern','t-online','n-tv','ntv','dpa','deutsche presse-agentur',
     'hamburger abendblatt','berliner morgenpost','tagesspiegel','petbook',
     'kölner stadt-anzeiger','koelner stadt-anzeiger','watson.de',

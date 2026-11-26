@@ -14,7 +14,7 @@
   ];
   const germanPublishers=['die zeit','zeit online','spiegel','süddeutsche','sueddeutsche','tagesschau',
     'deutschlandfunk','ndr','wdr','rbb','swr','mdr','br24','bayerischer rundfunk','frankfurter allgemeine',
-    'frankfurter rundschau','faz','die welt','welt','bild','focus online','rtl','stern','t-online',
+    'frankfurter rundschau','faz','die welt','bild','focus online','rtl','stern','t-online',
     'n-tv','deutsche presse-agentur','dpa','hamburger abendblatt','berliner morgenpost','tagesspiegel',
     'petbook','kölner stadt-anzeiger','koelner stadt-anzeiger','watson.de','bunte',
     'morgenpost','abendzeitung','redaktionsnetzwerk deutschland','lokale zeitung'];

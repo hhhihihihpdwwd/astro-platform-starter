@@ -7,6 +7,7 @@ on:
       - 'command-center/scripts/collect.py'
       - 'command-center/scripts/study_daily.py'
       - 'command-center/scripts/enrich_studies.py'
+      - 'command-center/scripts/monitor_media.py'
       - '.github/workflows/ifaw-command-center.yml'
   schedule:
     - cron: '11,41 * * * *'
@@ -31,12 +32,13 @@ jobs:
           python command-center/scripts/collect.py
           python command-center/scripts/study_daily.py
           python command-center/scripts/enrich_studies.py
+          python command-center/scripts/monitor_media.py
       - name: Öffentliche Metadaten aktualisieren
         run: |
-          if ! git diff --quiet -- command-center/data/articles.json command-center/data/daily_study.json; then
+          if ! git diff --quiet -- command-center/data/articles.json command-center/data/daily_study.json command-center/data/monitoring.json; then
             git config user.name 'github-actions[bot]'
             git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-            git add command-center/data/articles.json command-center/data/daily_study.json
+            git add command-center/data/articles.json command-center/data/daily_study.json command-center/data/monitoring.json
             git commit -m 'chore: refresh original wildlife news and DOI study abstracts [skip ci]'
             for attempt in 1 2 3; do
               git fetch origin main

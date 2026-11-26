@@ -214,7 +214,8 @@ function articleCard(a,compact=false){
   return '<article class="article-card '+(compact?'article-compact':'')+'">'+
     '<div class="article-main"><div class="article-date-line"><span>'+esc(dateLabel(a))+'</span>'+
     (sectionAge(a)==='heute'?'<span class="badge news-new">HEUTE</span>':'')+
-    '<span class="badge">'+esc(type)+'</span></div>'+
+    '<span class="badge">'+esc(type)+'</span>'+
+    (a.match_type==='Suchindex-Treffer'?'<span class="badge warn" title="Google-News-Suchtreffer; IFAW-Erwähnung im Volltext nicht unabhängig geprüft">Suchtreffer</span>':'')+'</div>'+
     '<h3>'+link(a)+'</h3>'+
     (description?'<p>'+esc(description)+'</p>':'')+
     '<div class="article-meta"><span>'+esc(a.source||'Originalquelle')+'</span>'+
@@ -264,7 +265,7 @@ function monitorView(){
     '<div class="monitor-facts"><span>Neuester Treffer: <strong>'+esc(fullDate(published))+'</strong></span>'+
     '<span>Medienarchiv geprüft: <strong>'+esc(fmtTime(recorded))+'</strong></span>'+
     '<span>Gefundene Artikel: <strong>'+mediaItems().length+'</strong></span></div>'+
-    '<div class="notice">Externe Artikel werden auf deutsche Medienanbieter begrenzt. Offizielle IFAW-Veröffentlichungen aus aller Welt bleiben erhalten. Die Abdeckung ist unvollständig; Google-News-Zeitstempel können vom Verlagsdatum abweichen.</div>'+
+    '<div class="notice">Externe Artikel werden auf deutsche Medienanbieter begrenzt. Offizielle IFAW-Veröffentlichungen aus aller Welt bleiben erhalten. Die Abdeckung ist unvollständig. Als »Suchtreffer« markierte Artikel wurden von Google News zu IFAW gefunden, ohne dass die Namensnennung im Volltext überprüft wurde. Google-News-Zeitstempel können vom Verlagsdatum abweichen.</div>'+
     '<div class="monitor-layout">'+profileList()+'<section class="monitor-results">'+
     '<div class="monitor-toolbar"><div class="seg-tabs">'+
     [['all','Alle'],['external','Deutsche Medienberichte'],['owned','IFAW-Veröffentlichungen weltweit']].map(([key,label])=>

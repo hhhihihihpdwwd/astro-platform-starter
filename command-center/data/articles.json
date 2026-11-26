@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-26T10:49:32.988294Z",
+  "generated_at": "2026-11-26T11:03:24.787350Z",
   "articles": [
     {
       "id": "ba0b2a9b720953cd5473",
@@ -436,6 +436,15 @@
       "date": "2026-11-24T09:10:43Z",
       "summary": "Tourism and outdated septic tanks are said to be adding to the ecological decline of Buttermere.",
       "source": "BBC – Wissenschaft & Umwelt",
+      "kind": "media"
+    },
+    {
+      "id": "86821170b61cfc3e49db",
+      "title": "Coexistence and Resilience: IFAW and \"All Access hosted by Andy Garcia\" Detail the Future of Habitat Protection - StreetInsider",
+      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQd21WQ2xtdDY0elUtNzhEZUFxSl9BblBLSW5ZN0pHSFZwNzhIWE5LWkE4ODZuZW91OWRTNnhhT3NQS0prSFRreWdnMWZkeDhLVldJNVhFSnljNTh6RUhpTzBSX1JuQWI0UXZteTVQUEZwcktPdWUtNFFlYWlWbVVNQmdyOVFnOWJwOE14WHAzck5aU3BzeFFySlN6ZnppbHBEb1N1ZERjUlJNZzNEdHg1aURSVHlQVElUeW9aNHdVMW91YXpUc0MxN1RNN0VkVmZMWVM3Tkt0djZIT2E3a0xMZDAyTGhubzBQT2xQcFBCLTdTM2dmR3FKTEZraVV1UU9MamNNSWYxcWs3eFVEcl81bWJ1T3NVMHNJ?oc=5",
+      "date": "2026-11-24T08:22:04Z",
+      "summary": "Coexistence and Resilience: IFAW and \"All Access hosted by Andy Garcia\" Detail the Future of Habitat Protection StreetInsider",
+      "source": "IFAW – Berichterstattung (News-Aggregation)",
       "kind": "media"
     },
     {
@@ -979,6 +988,15 @@
       "kind": "media"
     },
     {
+      "id": "a875abbffbef59a8b568",
+      "title": "Three Lion Cubs, Two Tiger Cubs and Other Protected Animals Seized in Suspected Wildlife Trafficking Operation - Central News South Africa",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNV0xadGtrb0Nza2VicUJhNFhhOVJVOTczUmR4UkVsbXlINldGYk16QmtDVGlqcUEwcTI1cXQxSWdjUjNZdUxMUGZnZWRhSnFxR3ZtbXYzdnhnaUxnNXJYNVZvTmJYdGM1UjZDMHZHaDl5YVJJa2RJTTN1a19PcmRkb1RWVDJWRjhpSVFfdUhoOGxMUWRobjkwYkl4ZHAtalBYZEgwTVh2LTFseElBbFZHcFFFbTVzRVBjYjVlN09pNDR4LTJLRHBKZWNTM1RDQmZOTkE?oc=5",
+      "date": "2026-11-20T10:00:15Z",
+      "summary": "Three Lion Cubs, Two Tiger Cubs and Other Protected Animals Seized in Suspected Wildlife Trafficking Operation Central News South Africa",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
+      "kind": "media"
+    },
+    {
       "id": "bf963e5b855f92a30d8c",
       "title": "Week in wildlife: Christmas crabs, a shy possum and baboons taking liberties",
       "url": "https://www.theguardian.com/environment/gallery/2026/nov/20/week-in-wildlife-christmas-crabs-a-shy-possum-and-baboons-taking-liberties",
@@ -1208,6 +1226,15 @@
       "date": "2026-11-18T15:25:02Z",
       "summary": "Wie schützt man Elefanten und die Ernte? deutschland.de",
       "source": "Deutschland – Wildtiere (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "c73dc8c5ea997e632b83",
+      "title": "Illegal wildlife trade: Three arrested, 11 animals seized in Pretoria - SAPeople",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZEZxVDdqT19LYlMySWU5S0p1NVZiWXd4NXRxSm1jVE5UVUQ0b2pGalhCVk9fNndWNlo4b09IT3BBY093WFlCSEo2TTNxME51NlBSS190Nm94QzJJNHppTGplTGpkQmNJd1k2ZElwNnVCMlZXRkxTbHZwcHJmZG5KNWVKUEhuQ1N6cUx5TE5GaS16MkRDX0d1VUZielZ4RUxy?oc=5",
+      "date": "2026-11-18T13:44:21Z",
+      "summary": "Illegal wildlife trade: Three arrested, 11 animals seized in Pretoria SAPeople",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
       "kind": "media"
     },
     {
@@ -1444,7 +1471,9 @@
       "abstract_available": true,
       "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Der Abstract nennt eine Befragung. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
       "abstract_excerpt": "Wildfire is an escalating threat to forest ecosystem health, yet post-fire management still lacks the timely and systematic consideration of biodiversity loss and biotic disruption. Here, we present an integrative eDNA-satellite-AI monitoring framework that combines environmental DNA (eDNA) metabarcoding, satellite-derived burn-severity mapping, and explainable AI (XAI) to quantify post-fire ecosystem changes. Using Sentinel-2 imagery, we first quantitatively assessed the wildfire severity at study sites differentiated by the extent of fire damage (control, damaged, and extremely damaged). eDNA was then collected from wate",
-      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung."
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "abstract_source_text": "Wildfire is an escalating threat to forest ecosystem health, yet post-fire management still lacks the timely and systematic consideration of biodiversity loss and biotic disruption. Here, we present an integrative eDNA-satellite-AI monitoring framework that combines environmental DNA (eDNA) metabarcoding, satellite-derived burn-severity mapping, and explainable AI (XAI) to quantify post-fire ecosystem changes. Using Sentinel-2 imagery, we first quantitatively assessed the wildfire severity at study sites differentiated by the extent of fire damage (control, damaged, and extremely damaged). eDNA was then collected from wate",
+      "abstract_origin": "Europe PMC abstract excerpt"
     },
     {
       "id": "d98531e9b7f0f734391c",
@@ -1457,7 +1486,9 @@
       "abstract_available": true,
       "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
       "abstract_excerpt": "The Culicidae exhibits broad taxonomic diversity and significant ecological importance, especially in phytotelm habitats provided by bromeliads. This study investigated the diversity of mosquitoes associated with bromeliads in two Atlantic Forest fragments in Sergipe State, northeastern Brazil: the Morro do Urubu Environmental Protection Area (Morro do Urubu APA), a more disturbed site, and the Mata do Crasto Private Natural Heritage Reserve (Mata do Crasto RPPN), a more preserved area. Collections were carried out during the rainy season and included 26 groups of epiphytic and terrestrial bromeliads. A total of 2,400 spec",
-      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung."
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "abstract_source_text": "The Culicidae exhibits broad taxonomic diversity and significant ecological importance, especially in phytotelm habitats provided by bromeliads. This study investigated the diversity of mosquitoes associated with bromeliads in two Atlantic Forest fragments in Sergipe State, northeastern Brazil: the Morro do Urubu Environmental Protection Area (Morro do Urubu APA), a more disturbed site, and the Mata do Crasto Private Natural Heritage Reserve (Mata do Crasto RPPN), a more preserved area. Collections were carried out during the rainy season and included 26 groups of epiphytic and terrestrial bromeliads. A total of 2,400 specimens belonging to 21 species were identified, of which 14 represent new records for Sergipe and three likely correspond to species new to science. The genus Culex was the most abundant, particularly the subgenus Microculex, which occurred prominently in both areas, indicating ecological plasticity. Anopheles (Kerteszia) bellator, a potential vector of bromeliad malaria, was recorded for the first time in the state. Sampling was considered sufficient in the APA, whereas the RPPN indicated potential for additional records. Temperature influenced species abundance and richness, highlighting the importance of environmental heterogeneity in structuring mosquito communities. The results indicate that the more disturbed site concentrated species adapted to altered environments, such as Culex pleuristriatus and Aedes albopictus. In contrast, the better-preserved site exhibited greater diversity, including rare and specialized species. These patterns demonstrate that anthropogenic disturbance negatively affects mosquito richness and diversity, favoring opportunistic species.",
+      "abstract_origin": "OpenAlex DOI abstract"
     },
     {
       "id": "25a7aa9669cb2a0ff101",
@@ -1503,7 +1534,9 @@
       "abstract_available": true,
       "summary": "Die Veröffentlichung behandelt Konflikte zwischen Menschen und Wildtieren. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
       "abstract_excerpt": "Wild boar (Sus scrofa) intrusions in agricultural environments cause severe crop damage and economic losses and have become an increasingly prominent human-wildlife conflict. Effective wildlife monitoring is therefore essential for sustainable agricultural ecosystem management. However, wild boar detection in real-world scenarios remains challenging due to frequent occlusion and complex backgrounds. Meanwhile, edge devices deployed in farmland environments typically have limited computational resources, imposing strict requirements on lightweight model design and inference efficiency. To address these challenges, this stud",
-      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung."
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "abstract_source_text": "Wild boar (Sus scrofa) intrusions in agricultural environments cause severe crop damage and economic losses and have become an increasingly prominent human-wildlife conflict. Effective wildlife monitoring is therefore essential for sustainable agricultural ecosystem management. However, wild boar detection in real-world scenarios remains challenging due to frequent occlusion and complex backgrounds. Meanwhile, edge devices deployed in farmland environments typically have limited computational resources, imposing strict requirements on lightweight model design and inference efficiency. To address these challenges, this stud",
+      "abstract_origin": "Europe PMC abstract excerpt"
     },
     {
       "id": "a6ee0eaa5091671684d0",
@@ -2854,25 +2887,25 @@
     {
       "name": "IFAW – öffentliche Meldungen (News-Aggregation)",
       "kind": "ifaw",
-      "count": 2,
+      "count": 1,
       "ok": true
     },
     {
       "name": "IFAW – Berichterstattung (News-Aggregation)",
       "kind": "media",
-      "count": 7,
+      "count": 10,
       "ok": true
     },
     {
       "name": "Wildtierhandel – Medien (News-Aggregation)",
       "kind": "media",
-      "count": 35,
+      "count": 21,
       "ok": true
     },
     {
       "name": "Deutschland – Wildtiere (News-Aggregation)",
       "kind": "media",
-      "count": 44,
+      "count": 6,
       "ok": true
     },
     {
@@ -2890,20 +2923,20 @@
     {
       "name": "Crossref: marine mammal conservation",
       "kind": "study",
-      "count": 12,
-      "ok": true
+      "count": 0,
+      "ok": false
     },
     {
       "name": "Crossref: elephant conservation",
       "kind": "study",
-      "count": 12,
-      "ok": true
+      "count": 0,
+      "ok": false
     },
     {
       "name": "Crossref: wildlife rescue",
       "kind": "study",
-      "count": 5,
-      "ok": true
+      "count": 0,
+      "ok": false
     },
     {
       "name": "Crossref: illegal wildlife trade",
@@ -2913,6 +2946,18 @@
     }
   ],
   "failures": [
+    {
+      "source": "Crossref: marine mammal conservation",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source": "Crossref: elephant conservation",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source": "Crossref: wildlife rescue",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
     {
       "source": "Europe PMC",
       "error": "The read operation timed out"

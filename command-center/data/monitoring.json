@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-26T11:14:51.963447Z",
-  "last_successful_at": "2026-11-26T11:14:51.963447Z",
+  "checked_at": "2026-11-26T11:15:54.027777Z",
+  "last_successful_at": "2026-11-26T11:15:54.027777Z",
   "articles": [
     {
       "id": "cc13196ab002295f053c",
@@ -606,7 +606,7 @@
     {
       "name": "IFAW · internationale offizielle Pressemitteilungen",
       "ok": true,
-      "count": 34
+      "count": 25
     },
     {
       "name": "IFAW · deutscher Medienmarkt",

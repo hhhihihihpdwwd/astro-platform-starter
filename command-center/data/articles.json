@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-26T11:14:20.809703Z",
+  "generated_at": "2026-11-26T11:15:22.569471Z",
   "articles": [
     {
       "id": "ba0b2a9b720953cd5473",
@@ -256,7 +256,9 @@
       "abstract_available": true,
       "summary": "Die Veröffentlichung behandelt Wildtier- und Naturschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
       "abstract_excerpt": "Aquatic animal welfare is increasingly recognised as essential to sustainable aquaculture in Latin America and the Caribbean (LAC). This study identified the principal welfare challenges perceived by scientists, Competent National Authority staff, and industry professionals during a three-day online workshop. Latent Dirichlet Allocation was used to analyse responses concerning nutrition, environment, health, and behaviour across developmental stages, production systems, transport, slaughter, and species-specific issues. Major concerns included animal-based assessments, feeding strategies, and sanitary conditions. Across de",
-      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung."
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "abstract_source_text": "Aquatic animal welfare is increasingly recognised as essential to sustainable aquaculture in Latin America and the Caribbean (LAC). This study identified the principal welfare challenges perceived by scientists, Competent National Authority staff, and industry professionals during a three-day online workshop. Latent Dirichlet Allocation was used to analyse responses concerning nutrition, environment, health, and behaviour across developmental stages, production systems, transport, slaughter, and species-specific issues. Major concerns included animal-based assessments, feeding strategies, and sanitary conditions. Across de",
+      "abstract_origin": "Europe PMC abstract excerpt"
     },
     {
       "id": "a4fb754ae97be1404540",
@@ -2918,7 +2920,7 @@
     {
       "name": "IFAW – öffentliche Meldungen (News-Aggregation)",
       "kind": "ifaw",
-      "count": 1,
+      "count": 2,
       "ok": true
     },
     {
@@ -2930,7 +2932,7 @@
     {
       "name": "Wildtierhandel – Medien (News-Aggregation)",
       "kind": "media",
-      "count": 35,
+      "count": 36,
       "ok": true
     },
     {
@@ -2948,14 +2950,14 @@
     {
       "name": "Crossref: human wildlife conflict",
       "kind": "study",
-      "count": 1,
-      "ok": true
+      "count": 0,
+      "ok": false
     },
     {
       "name": "Crossref: marine mammal conservation",
       "kind": "study",
-      "count": 0,
-      "ok": false
+      "count": 12,
+      "ok": true
     },
     {
       "name": "Crossref: elephant conservation",
@@ -2972,13 +2974,19 @@
     {
       "name": "Crossref: illegal wildlife trade",
       "kind": "study",
-      "count": 1,
+      "count": 0,
+      "ok": false
+    },
+    {
+      "name": "Europe PMC – Studien & Abstracts",
+      "kind": "study",
+      "count": 30,
       "ok": true
     }
   ],
   "failures": [
     {
-      "source": "Crossref: marine mammal conservation",
+      "source": "Crossref: human wildlife conflict",
       "error": "HTTP Error 429: Too Many Requests"
     },
     {
@@ -2986,8 +2994,8 @@
       "error": "HTTP Error 429: Too Many Requests"
     },
     {
-      "source": "Europe PMC",
-      "error": "The read operation timed out"
+      "source": "Crossref: illegal wildlife trade",
+      "error": "HTTP Error 429: Too Many Requests"
     }
   ],
   "events": [],

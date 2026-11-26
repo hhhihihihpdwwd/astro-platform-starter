@@ -1,7 +1,25 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-26T11:15:22.569471Z",
+  "generated_at": "2026-11-26T15:04:22.795091Z",
   "articles": [
+    {
+      "id": "a24c3c01f306b5efa833",
+      "title": "Ministers have ‘failed to make the case’ for Heathrow third runway, MPs says",
+      "url": "https://www.theguardian.com/environment/2026/nov/26/ministers-fail-to-make-case-for-heathrow-third-runway-mps-report-says",
+      "date": "2026-11-26T13:43:36Z",
+      "summary": "Transport committee says policy papers show expanding airport would fall short of pledges on economy and climate Ministers have “failed to make the case” for a third runway at Heathrow, according to a damning report by MPs. The Commons transport…",
+      "source": "The Guardian – Environment",
+      "kind": "media"
+    },
+    {
+      "id": "3fb97a71981be0565f5d",
+      "title": "PNP arrests 7, rescues 31 animals in nationwide crackdown on illegal wildlife trade - thechronicle.com.ph",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdzMxdFVSbUNXX0c3U3R1SWFxUzBLVnZiR0ozQjBINk9ZMENYUjZfN1Ffb0lBSEVTRV9uNWdKLXNVWEU5dk1NMlRCcENwdmVVaW95SUh1SXU0WnFXSmhWVHloTEJlZHVpb2hNM0JvZ2dwbHhvckNOaGJaUmtEMWNlYmpCOC1kcUpaelFSd3RtSWx0LTZLaWdaMDRtMDBteXpsXzZUQXJtSWhERWJ0ZmNERA?oc=5",
+      "date": "2026-11-26T12:53:19Z",
+      "summary": "PNP arrests 7, rescues 31 animals in nationwide crackdown on illegal wildlife trade thechronicle.com.ph",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
+      "kind": "media"
+    },
     {
       "id": "ba0b2a9b720953cd5473",
       "title": "Umweltprüfungen: WWF kritisiert EU-Parlamentsvotum zum Artenschutz - food-monitor",
@@ -2908,7 +2926,7 @@
     {
       "name": "The Guardian – Environment",
       "kind": "media",
-      "count": 16,
+      "count": 15,
       "ok": true
     },
     {
@@ -2920,25 +2938,25 @@
     {
       "name": "IFAW – öffentliche Meldungen (News-Aggregation)",
       "kind": "ifaw",
-      "count": 2,
+      "count": 1,
       "ok": true
     },
     {
       "name": "IFAW – Berichterstattung (News-Aggregation)",
       "kind": "media",
-      "count": 3,
+      "count": 7,
       "ok": true
     },
     {
       "name": "Wildtierhandel – Medien (News-Aggregation)",
       "kind": "media",
-      "count": 36,
+      "count": 20,
       "ok": true
     },
     {
       "name": "Deutschland – Wildtiere (News-Aggregation)",
       "kind": "media",
-      "count": 6,
+      "count": 43,
       "ok": true
     },
     {
@@ -2956,8 +2974,8 @@
     {
       "name": "Crossref: marine mammal conservation",
       "kind": "study",
-      "count": 12,
-      "ok": true
+      "count": 0,
+      "ok": false
     },
     {
       "name": "Crossref: elephant conservation",
@@ -2976,17 +2994,15 @@
       "kind": "study",
       "count": 0,
       "ok": false
-    },
-    {
-      "name": "Europe PMC – Studien & Abstracts",
-      "kind": "study",
-      "count": 30,
-      "ok": true
     }
   ],
   "failures": [
     {
       "source": "Crossref: human wildlife conflict",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source": "Crossref: marine mammal conservation",
       "error": "HTTP Error 429: Too Many Requests"
     },
     {
@@ -2996,6 +3012,10 @@
     {
       "source": "Crossref: illegal wildlife trade",
       "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source": "Europe PMC",
+      "error": "The read operation timed out"
     }
   ],
   "events": [],

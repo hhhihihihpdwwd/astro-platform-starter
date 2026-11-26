@@ -32,7 +32,7 @@ def test_parse_dates_publisher_and_false_hits():
     assert rows[0]['date_type']=='aggregator'
     assert rows[0]['source']=='Die Zeit'
     assert rows[1]['origin']=='IFAW-eigene Meldung'
-    assert rows[1]['profiles']==['andreas']
+    assert 'andreas' in rows[1]['profiles'] and 'ifaw' in rows[1]['profiles']
 
 def test_query_format_and_retention(tmp_path):
     q=parse_qs(urlparse(M.google_url(M.SEARCHES[0])).query)

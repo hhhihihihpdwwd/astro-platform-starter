@@ -86,7 +86,7 @@ jobs:
           from pathlib import Path
           from zipfile import ZipFile, ZIP_DEFLATED
           base=Path('command-center')
-          paths=['index.html','styles.css','app.js','favicon.svg','lib/analysis.js','lib/clock.js','lib/study-ai.js','lib/live-news.js','lib/monitoring.js','data/articles.json','data/monitoring.json','assets/elephant.jpg','assets/whale.jpg','assets/forest.jpg','assets/world-map.svg']
+          paths=['index.html','styles.css','app.js','favicon.svg','lib/analysis.js','lib/clock.js','lib/live-news.js','lib/monitoring.js','data/articles.json','data/monitoring.json','assets/elephant.jpg','assets/whale.jpg','assets/forest.jpg','assets/world-map.svg']
           with ZipFile('/tmp/ifaw-public-app.zip','w',ZIP_DEFLATED) as z:
               for rel in paths:
                   if not (base/rel).is_file(): raise SystemExit('Missing file: '+rel)
@@ -111,7 +111,7 @@ jobs:
           if host.scheme!='https' or not host.hostname or not host.hostname.endswith('.ship.place'):
               raise SystemExit('Unexpected hostname')
           url=url.rstrip('/')+'/'
-          for file,contains in [('',b'Wildlife Command Center'),('app.js',b'function dailyStudy'),('styles.css',b'.clock-deck'),('lib/clock.js',b'solarDay'),('assets/world-map.svg',b'<svg'),('app.js',b'function studyAIView'),('lib/study-ai.js',b'Summarizer'),('lib/live-news.js',b'GDELT'),('lib/monitoring.js',b'PROFILES'),('data/monitoring.json',b'"articles"'),('data/articles.json',b'"articles"')]:
+          for file,contains in [('',b'Wildlife Command Center'),('app.js',b'function dashboard'),('styles.css',b'.clock-deck'),('lib/clock.js',b'solarDay'),('assets/world-map.svg',b'<svg'),('app.js',b'function monitorView'),('app.js',b'function mediaItems'),('lib/live-news.js',b'GDELT'),('lib/monitoring.js',b'PROFILES'),('data/monitoring.json',b'"articles"'),('data/articles.json',b'"articles"')]:
               target=urllib.parse.urljoin(url,file)
               last_error=''
               for attempt in range(5):

@@ -94,7 +94,9 @@ def test_newsroom_desktop():
         for script in ['analysis','clock','live-news','monitoring']:
             page.add_script_tag(path=str(ROOT/'lib'/(script+'.js')))
         page.add_script_tag(path=str(ROOT/'app.js'))
-        page.wait_for_function("window._calls.live>=1 && window._calls.mediaArchive>=1 && !document.querySelector('#topStatus').textContent.includes('werden geprüft')")
+        page.wait_for_timeout(800)
+        snapshot=page.evaluate("() => ({calls:window._calls,status:document.querySelector('#topStatus')?.textContent,heading:document.querySelector('main')?.innerText?.slice(0,160)})")
+        assert snapshot['calls']['live']>=1 and snapshot['calls']['mediaArchive']>=1 and 'werden geprüft' not in snapshot['status'], (snapshot,errors)
         assert page.locator('.nav-link').count()==4
         assert page.locator('.sidebar').count()==0
         assert page.locator('.clock-drawer').count()==1

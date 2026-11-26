@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-26T11:08:54.960803Z",
+  "generated_at": "2026-11-26T11:12:44.802411Z",
   "articles": [
     {
       "id": "ba0b2a9b720953cd5473",
@@ -363,6 +363,15 @@
       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQUmVEN29JSFhMUlhBUVRrVjhtT2tRZUxGRkxudXdCZ0p0RWlBU1F5V3BFVE5KczVZWGpjQWdPZE8xNUl2MGhJSi1vYXRkWjMtWXRwZ1MwNjdPOXM4ak1PaXhoYkVhaW9FZE9PVnc4X3lyZng3b1ozV3ptdUJvWXpPUmY5alJhVlRiV19fbXlCVkFCYVR6UXROMnlNOEpXZW5Kb01UTUZOcGJ3ZEJrcDlOcmhxZWRJZ2lVUFE0SFBOZlFqdW9OU3Q4T0ZSOWJwNXk5RjcwWWtXbnJTMHE4dDV6Ng?oc=5",
       "date": "2026-11-24T13:14:37Z",
       "summary": "Wildlife Justice Commission Report Exposes Major Transnational Wildlife Trafficking Network Bergen Record",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "b628cd5254f42e629e4d",
+      "title": "Wildlife Justice Commission Report Exposes Major Transnational Wildlife Trafficking Network - The Courier-Journal",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQVTVjRzlJUVJLcnd3M1R1X0lWLVk2VUhDeXdaVWpnUTRLbzdNUDI3YXk2NWw1VU9Yelk4czQ2VVI0RzVFV0RQaVU5ZkdrRzFRN3Jnd1pCZUkzNzVONlktbmNoU1d2ekd6UklBMlZLRU9rdXFYNHNKQUR3c2tUS2lZc3B2ZGwzcHNjcWd1b0ltR3JuMFN4XzQzVHhCRWJnaVdkcG1xdjFEb1RPWm5sLU4zaGlDZmFYVE9WUlZ5VkdITEJNdU5fOUU2TE5LWVpNTkdDa3lTVGpndENaTWNsZTFSeGtsUzFEQQ?oc=5",
+      "date": "2026-11-24T13:07:14Z",
+      "summary": "Wildlife Justice Commission Report Exposes Major Transnational Wildlife Trafficking Network The Courier-Journal",
       "source": "Wildtierhandel – Medien (News-Aggregation)",
       "kind": "media"
     },
@@ -1043,7 +1052,9 @@
       "abstract_available": true,
       "summary": "Die Veröffentlichung behandelt bedrohte Groß- und Wildtiere. Der Abstract nennt eine Modellierung. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
       "abstract_excerpt": "This study focuses on the quantification of spatio-temporal thermal characteristics associated with linear transportation infrastructure (railways and roadways) within the ecologically fragile corridor of Dharamjaigarh forest range, Chhattisgarh. Conventional assessments of infrastructure-driven thermal landscape modifications are often limited by the coarse spatial and temporal resolution of satellite-derived land surface temperature (LST). To overcome this, the study employed a random forest-based downscaling algorithm to generate synthetic 10 m LST data, integrating it with diurnal surface energy balance modelling for r",
-      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung."
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "abstract_source_text": "This study focuses on the quantification of spatio-temporal thermal characteristics associated with linear transportation infrastructure (railways and roadways) within the ecologically fragile corridor of Dharamjaigarh forest range, Chhattisgarh. Conventional assessments of infrastructure-driven thermal landscape modifications are often limited by the coarse spatial and temporal resolution of satellite-derived land surface temperature (LST). To overcome this, the study employed a random forest-based downscaling algorithm to generate synthetic 10 m LST data, integrating it with diurnal surface energy balance modelling for r",
+      "abstract_origin": "Europe PMC abstract excerpt"
     },
     {
       "id": "fc62581c7a31865751c6",
@@ -1056,7 +1067,9 @@
       "abstract_available": true,
       "summary": "Die Veröffentlichung behandelt bedrohte Groß- und Wildtiere. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
       "abstract_excerpt": "Conservation Action Plans (CAPs) are generally developed as policy documents for systematic conservation practices conducted at the species level over a given period. The Government of Nepal has extensively invested in producing CAPs for four flagship species: Bengal tiger (Panthera tigris tigris), one-horned rhinoceros (Rhinoceros unicornis), Asian elephant (Elephas maximus), and snow leopard (Panthera uncia) since 90 s. The current CAPs of these species review the completion status of previous plans and comprise various actions related to species conservation for specific time periods. Here, we assessed the actions assoc",
-      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung."
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "abstract_source_text": "Conservation Action Plans (CAPs) are generally developed as policy documents for systematic conservation practices conducted at the species level over a given period. The Government of Nepal has extensively invested in producing CAPs for four flagship species: Bengal tiger (Panthera tigris tigris), one-horned rhinoceros (Rhinoceros unicornis), Asian elephant (Elephas maximus), and snow leopard (Panthera uncia) since 90 s. The current CAPs of these species review the completion status of previous plans and comprise various actions related to species conservation for specific time periods. Here, we assessed the actions associated with these four species. The specific objectives of this study are to 1) assess the completion of actions set for \"CITES implementation\" and \"law enforcement\" for national wildlife crime control and \"capacity building\" for law enforcement of the four species, and 2) investigate the proposed objectives and actions related to \"CITES implementation\" and \"law enforcement\" and \"capacity building\" for law enforcement in the CAPs for these species. For each species we reviewed the current CAPs and recorded conservation actions that were \"achieved\", \"partially achieved\", and \"not initiated\" from the past CAPs. We extracted, reviewed, and proposed actions supporting \"law enforcement\" for wildlife crime control and \"capacity building\" for law enforcement and CITES implementation from the current CAPs, deductively based on prior knowledge of the authors. After that, we developed a rule-based categorization framework inductively to categorize these actions into \"law enforcement\", \"CITES implementation, and \"capacity building\". We then used descriptive and inferential statistics to investigate the status of \"law enforcement\", \"capacity building\" and \"CITES implementation\" and found that they are not uniform across species; however, the distribution of the number of actions across different categories in the past and present CAPs is not different. Among the four species studied, the CAP of Asian elephant showed 100% reported completion, as all recommended actions were achieved. Although completion of overall actions as well as \"capacity building\" and \"law enforcement\" is higher for the one-horned rhinoceros, the status of completion of CITES implementing actions is slightly higher for the Bengal tiger. Most of the actions were completed for the snow leopard for \"capacity building\" and \"law enforcement\" but the completion rate of \"CITES implementation\" is the least for that species suggesting a need for greater emphasis on completion of \"CITES implementation\" actions in the current CAPs. Though completion of \"law enforcement\" and \"capacity building\" actions was better, the consistently low completion rate for \"CITES implementation\" actions for all these species suggests pitfalls in CITES implementation.",
+      "abstract_origin": "OpenAlex DOI abstract"
     },
     {
       "id": "3f9c061561d295ed54df",
@@ -1210,7 +1223,9 @@
       "abstract_available": true,
       "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
       "abstract_excerpt": "Extraction sites are often considered sources of environmental damage. However, in intensively used and nutrient-enriched landscapes they may also provide exceptional secondary habitats, shaped by disturbance and nutrient depletion. Their contribution to biodiversity across taxonomic groups remains insufficiently understood, and integrated guidelines for managing biodiversity during active extraction are needed. We examined terrestrial and aquatic biodiversity across twelve active German extraction sites of limestone, gypsum, sand and gravel. Data on vascular plants, soil parameters and six insect groups were collected via",
-      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung."
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "abstract_source_text": "Extraction sites are often considered sources of environmental damage. However, in intensively used and nutrient-enriched landscapes they may also provide exceptional secondary habitats, shaped by disturbance and nutrient depletion. Their contribution to biodiversity across taxonomic groups remains insufficiently understood, and integrated guidelines for managing biodiversity during active extraction are needed. We examined terrestrial and aquatic biodiversity across twelve active German extraction sites of limestone, gypsum, sand and gravel. Data on vascular plants, soil parameters and six insect groups were collected via vegetation relevés, soil samples, DNA metabarcoding from trap samples and transect walks on 103 terrestrial plots. Aquatic diversity (Amphibia and Odonata) was assessed at 75 water bodies using transect walks and eDNA metabarcoding. Across all sites, we recorded 2054 species, including 168 threatened in Germany. Species composition varied strongly across substrate types and between plots. Terrestrial insect diversity increased with plant species richness, while higher latitude, which was correlated with sampling year, and the proportion of shrubs had negative effects. The respective insect groups showed group-specific responses to plot age, the proportions of open soil, active extraction area and surrounding grassland. To maximise conservation value, particularly for terrestrial insects, site management should promote habitat heterogeneity and allow the formation of temporary habitats through natural succession. Increasing vascular plant richness boosts local insect diversity. Embedding biodiversity management into the regional context can create networks of valuable secondary habitats. Extraction sites thus bear a high but so far underused potential to advance restoration targets beyond existing protected areas.",
+      "abstract_origin": "OpenAlex DOI abstract"
     },
     {
       "id": "7e9ea93b5c061aeab1b5",
@@ -2861,8 +2876,8 @@
     {
       "name": "EU-Kommission – Nachrichten",
       "kind": "policy",
-      "count": 0,
-      "ok": false
+      "count": 2,
+      "ok": true
     },
     {
       "name": "EU-Rat – Pressemitteilungen",
@@ -2903,7 +2918,7 @@
     {
       "name": "IFAW – Berichterstattung (News-Aggregation)",
       "kind": "media",
-      "count": 3,
+      "count": 7,
       "ok": true
     },
     {
@@ -2933,38 +2948,48 @@
     {
       "name": "Crossref: marine mammal conservation",
       "kind": "study",
-      "count": 12,
-      "ok": true
+      "count": 0,
+      "ok": false
     },
     {
       "name": "Crossref: elephant conservation",
       "kind": "study",
-      "count": 12,
-      "ok": true
+      "count": 0,
+      "ok": false
     },
     {
       "name": "Crossref: wildlife rescue",
       "kind": "study",
-      "count": 5,
-      "ok": true
+      "count": 0,
+      "ok": false
     },
     {
       "name": "Crossref: illegal wildlife trade",
       "kind": "study",
-      "count": 1,
-      "ok": true
-    },
-    {
-      "name": "Europe PMC – Studien & Abstracts",
-      "kind": "study",
-      "count": 30,
-      "ok": true
+      "count": 0,
+      "ok": false
     }
   ],
   "failures": [
     {
-      "source": "EU-Kommission – Nachrichten",
+      "source": "Crossref: marine mammal conservation",
       "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source": "Crossref: elephant conservation",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source": "Crossref: wildlife rescue",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source": "Crossref: illegal wildlife trade",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source": "Europe PMC",
+      "error": "The read operation timed out"
     }
   ],
   "events": [],

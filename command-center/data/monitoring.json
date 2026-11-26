@@ -1,8 +1,26 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-26T11:09:19.907464Z",
-  "last_successful_at": "2026-11-26T11:09:19.907464Z",
+  "checked_at": "2026-11-26T11:13:15.707117Z",
+  "last_successful_at": "2026-11-26T11:13:15.707117Z",
   "articles": [
+    {
+      "id": "f98630fc773e4038b93f",
+      "title": "KI-App erkennt illegale Wildtierprodukte im Netz - TierWelt – Das Tier- und Naturmagazin",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNcHBxNHIzSFU3dDVBUWVGeHlPaEl1VjFuR1dWV2JGZnNUSTh3X3ZjYU1uRFZNUTNLemZybmpUN0ZnOWJlSVpuWEp0VWZVZlJlSjlLODk1TlBJdHVzU2xmOUxKRzcwSEtPdTRPRWZHUlFZRVpkUGxHanp4dkRBMGhQQVJJYTAtNGJRNW9SYnRFQ1I4d1NkOHZFNzk0eEI4ZEpwS2t5QVZ3VzU4dVRsMmQ0cXJkYml4QVl2eUJIUFduVGpFdGJQdHlzYk90eGh1UTVDXzZV?oc=5",
+      "date": "2026-11-26T11:00:00Z",
+      "date_type": "aggregator",
+      "source": "TierWelt – Das Tier- und Naturmagazin",
+      "kind": "monitor",
+      "profiles": [
+        "ifaw"
+      ],
+      "origin": "Externe Berichterstattung",
+      "market": "Deutschland",
+      "match_type": "Suchindex-Treffer",
+      "publisher_url": "https://www.tierwelt.ch",
+      "summary": "",
+      "collected_via": "Google News RSS"
+    },
     {
       "id": "cc13196ab002295f053c",
       "title": "Pangolins & other wildlife reveal wider toll of Indonesia’s fires - International Fund for Animal Welfare | IFAW",
@@ -181,6 +199,43 @@
       "collected_via": "Google News RSS"
     },
     {
+      "id": "228ca47d376dd25eb19e",
+      "title": "IFAW statement on the capture & confinement of Cape Town baboons - International Fund for Animal Welfare | IFAW",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZlJ0ZDhlMndUUXlOOEU2bXY0dWw4aEN1X1VZdVRkSmtOQ1RWNHU2QmJIanhqY3RiaXc4RTdXd2FERTNRZWFBNTRlTnpuTVJXUjJSVWJuZzY5NFBNTmF5ZzJhYnp0MDNpcXg5dUstOWJsQXF0Ri1jLVFMWXEzdk5YZ3h6MXIyU1ZBV3htbTJqamxxUVk?oc=5",
+      "date": "2026-11-18T17:35:57Z",
+      "date_type": "aggregator",
+      "source": "International Fund for Animal Welfare | IFAW",
+      "kind": "monitor",
+      "profiles": [
+        "ifaw",
+        "full"
+      ],
+      "origin": "IFAW-eigene Meldung",
+      "market": "International · IFAW",
+      "match_type": "Schlagzeilen-Nennung",
+      "publisher_url": "https://www.ifaw.org",
+      "summary": "",
+      "collected_via": "Google News RSS"
+    },
+    {
+      "id": "c8658c2793ead93b43f0",
+      "title": "Elefanten: Wie alt werden die Dickhäuter eigentlich? - WEB.DE",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5XeGh2cU1TZW4zRzR6dkxTa2RkNTN5ZXFwRFp0TlQ5b2preEVGSF9EODhXOEJ0SWlPcWx1NXRmd0I2OHJCaVRwcmY4eVJsZHY5RjJBNXpGYUZjcU1reTd0a3pqUDZIU3NiRjVSWVNHZlJKaXFqcC1ja2xXSQ?oc=5",
+      "date": "2026-11-18T14:22:42Z",
+      "date_type": "aggregator",
+      "source": "WEB.DE",
+      "kind": "monitor",
+      "profiles": [
+        "ifaw"
+      ],
+      "origin": "Externe Berichterstattung",
+      "market": "Deutschland",
+      "match_type": "Suchindex-Treffer",
+      "publisher_url": "https://web.de",
+      "summary": "",
+      "collected_via": "Google News RSS"
+    },
+    {
       "id": "c89f41e9f27d1e8c908d",
       "title": "Young artists to reimagine people & wildlife sharing the planet - International Fund for Animal Welfare | IFAW",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUG9zb2FsSFRRbHpzSVZqLWl3WXUyeHFoQjRuWmNTbV9XMG0zWFh2dEs3bnB2M2cyRXZiNEh1b3BHenJuTnpRd2l1ZDJJek5pcnl2NDJNYS1FUWctS2lnSXFiZHdmRGEtQ3dXd1hURDk5Z0hBR3VBOTdwV2F0MkFNVXllUUNHNHRiMEZn?oc=5",
@@ -250,21 +305,22 @@
       "market": "International · IFAW"
     },
     {
-      "id": "1f4e33c1a8f0261232f9",
-      "title": "IFAW statement on the capture & confinement of Cape Town baboons - International Fund for Animal Welfare | IFAW",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPV0JDaGsyNFZsdzdtTHZ3cHp3dEtwWjBmOFJTZXdvcWVtQ1B4RXhray05VTRmdVdVeERRNURDcWpxMnZ0Y0RaVVdmMW43RzQ5b2o4aXZ0WE52YVNEaE5nMU0xWTZhaTdhcEhHWmZMVmp4NWVRMy1PTWl2NHRSWDVob3FtS1ZpdGFxRHlJ?oc=5",
+      "id": "fa252c61ced78681804a",
+      "title": "Schutz von Wildtieren sollen Teil der Klimapläne werden - RiffReporter",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWGMteFJjdnNvN21oNUFwTU5XQlBYWnBmYW1aQWpGWmdPRzBJcG9KM3QtcFhoY1d6RUl2dkRfZG9qNlZ3dGRBa1YzQVhlRFRzcWhtRkJqWk1LWm5pZVV4UFZ1elNZMjdmbkV1VVgzYzQ5MkJkd1BBV19qLWF1UEs0TWczVW1SSDBKX3FlSg?oc=5",
       "date": "2026-11-17T08:00:00Z",
       "date_type": "aggregator",
-      "source": "International Fund for Animal Welfare | IFAW",
+      "source": "RiffReporter",
       "kind": "monitor",
       "profiles": [
-        "ifaw",
-        "full"
+        "ifaw"
       ],
-      "origin": "IFAW-eigene Meldung",
+      "origin": "Externe Berichterstattung",
+      "market": "Deutschland",
+      "match_type": "Suchindex-Treffer",
+      "publisher_url": "https://www.riffreporter.de",
       "summary": "",
-      "collected_via": "Google News RSS",
-      "market": "International · IFAW"
+      "collected_via": "Google News RSS"
     },
     {
       "id": "305adfc3939d24c8795a",
@@ -568,12 +624,17 @@
     {
       "name": "IFAW · internationale offizielle Pressemitteilungen",
       "ok": true,
-      "count": 24
+      "count": 34
     },
     {
       "name": "IFAW · deutscher Medienmarkt",
       "ok": true,
-      "count": 0
+      "count": 3
+    },
+    {
+      "name": "IFAW · Elfenbein/Artenschutz im deutschen Medienmarkt",
+      "ok": true,
+      "count": 2
     },
     {
       "name": "IFAW · deutsches Team in deutschen Medien",

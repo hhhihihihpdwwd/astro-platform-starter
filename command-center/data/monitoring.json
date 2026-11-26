@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-26T11:07:59.671995Z",
-  "last_successful_at": "2026-11-26T11:07:59.671995Z",
+  "checked_at": "2026-11-26T11:09:19.907464Z",
+  "last_successful_at": "2026-11-26T11:09:19.907464Z",
   "articles": [
     {
       "id": "cc13196ab002295f053c",
@@ -89,6 +89,24 @@
       "summary": "",
       "collected_via": "Google News RSS",
       "market": "International · IFAW"
+    },
+    {
+      "id": "0cb1b1d5db120cbcd3e3",
+      "title": "Most ivory offered online in the EU lacks evidence of legality - International Fund for Animal Welfare | IFAW",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcnpZT0s0WjRUZ0E2YkRPR0g1dHppSmliSzhXV3RFMmxKQ1Y5MmpIYVZDVXNwcTFsdVE0SU1fZGVyYkttWk01R1Q0aURYcDZRRkpTWTBwb09YNGhIbWpKTlhwVUJkVzJnOUdBdmVIYXllWlRJc2lEUzJiSkpwenZYLTJ3T0RZaGtXdkl4UG9XUXM0UQ?oc=5",
+      "date": "2026-11-24T06:25:55Z",
+      "date_type": "aggregator",
+      "source": "International Fund for Animal Welfare | IFAW",
+      "kind": "monitor",
+      "profiles": [
+        "ifaw",
+        "full"
+      ],
+      "origin": "IFAW-eigene Meldung",
+      "market": "International · IFAW",
+      "publisher_url": "https://www.ifaw.org",
+      "summary": "",
+      "collected_via": "Google News RSS"
     },
     {
       "id": "2872d56c3a0b9637ab0e",
@@ -550,7 +568,7 @@
     {
       "name": "IFAW · internationale offizielle Pressemitteilungen",
       "ok": true,
-      "count": 0
+      "count": 24
     },
     {
       "name": "IFAW · deutscher Medienmarkt",

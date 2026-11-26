@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-26T11:07:29.621386Z",
+  "generated_at": "2026-11-26T11:08:54.960803Z",
   "articles": [
     {
       "id": "ba0b2a9b720953cd5473",
@@ -1195,7 +1195,9 @@
       "abstract_available": true,
       "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
       "abstract_excerpt": "Mammalian species differ in the biochemical composition of their tissues and fluids-subtle but statistically discriminable variation that vibrational spectroscopy can detect and machine learning can decode for applications spanning forensic investigation, conservation monitoring, and physiological assessment. This review critically examines machine learning applications across near-infrared (NIR), mid-infrared (MIR/FTIR), and Raman spectroscopy specifically for mammalian wildlife samples. We examine unsupervised and supervised learning methods, from principal component analysis and hierarchical clustering to partial least ",
-      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung."
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "abstract_source_text": "Mammalian species differ in the biochemical composition of their tissues and fluids-subtle but statistically discriminable variation that vibrational spectroscopy can detect and machine learning can decode for applications spanning forensic investigation, conservation monitoring, and physiological assessment. This review critically examines machine learning applications across near-infrared (NIR), mid-infrared (MIR/FTIR), and Raman spectroscopy specifically for mammalian wildlife samples. We examine unsupervised and supervised learning methods, from principal component analysis and hierarchical clustering to partial least squares discriminant analysis, support vector machines, random forests, and deep learning architectures, alongside the preprocessing, validation, and performance assessment strategies essential for reliable deployment in wildlife contexts. Each approach is evaluated with theoretical grounding and specific mammalian case studies spanning blood species identification, live animal monitoring, tissue analysis, and fecal dietary profiling. Despite reported classification accuracies frequently exceeding 95%, the field remains fragmented by inconsistent validation practices, limited external testing across species and geographic populations, and a critical shortage of standardized mammalian spectral reference databases, constraints that limit reproducibility and translation from controlled laboratory conditions to operational conservation and forensic practice. By bridging these methodological gaps, this review provides wildlife researchers, conservation biologists, and forensic scientists with a critical synthesis and practical framework for implementing machine learning-enhanced spectroscopy in mammalian wildlife conservation and crime investigation.",
+      "abstract_origin": "OpenAlex DOI abstract"
     },
     {
       "id": "290e98b191cd3d5bfc36",
@@ -1320,7 +1322,9 @@
       "abstract_available": true,
       "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
       "abstract_excerpt": "Tropical land-use intensification threatens global biodiversity, yet most assessments of tropical agricultural landscapes focus on local-scale biodiversity, overlooking how land use restructures biodiversity across space and multiple taxa. Here we provide an ecosystem-wide assessment of 24 taxonomic groups across all domains of life-encompassing 40,049 species-along a land-use intensification gradient from lowland forests to intensively managed smallholder cash-crop monocultures in Indonesian landscapes. Despite widespread losses of landscape and local multidiversity 1 in monocultures (approximately 78% and 50%, respective",
-      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung."
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "abstract_source_text": "Tropical land-use intensification threatens global biodiversity, yet most assessments of tropical agricultural landscapes focus on local-scale biodiversity, overlooking how land use restructures biodiversity across space and multiple taxa. Here we provide an ecosystem-wide assessment of 24 taxonomic groups across all domains of life-encompassing 40,049 species-along a land-use intensification gradient from lowland forests to intensively managed smallholder cash-crop monocultures in Indonesian landscapes. Despite widespread losses of landscape and local multidiversity1 in monocultures (approximately 78% and 50%, respectively), we found no evidence for consistent community homogenization with land-use intensification. Instead, monocultures exhibit a systematic shift from turnover to nestedness for aboveground taxa. Such patterns of differentiation may mask trajectories towards biotic homogenization via early stages of assemblage simplification. Biotic differentiation has the potential to partly mitigate biodiversity losses by positively affecting γ-diversity. This opens management options, including the conservation of existing remnants of traditional agriculture and the implementation of sustainable management practices2-4. Our results demonstrate that tropical land-use intensification restructures biodiversity not only through species loss, but also via a pervasive reorganization of community composition across trophic levels. Conserving tropical biodiversity, therefore, requires a multi-taxon, landscape-scale perspective that explicitly integrates agricultural land uses with the protection of natural and semi-natural habitats to reconcile agricultural production and conservation.",
+      "abstract_origin": "OpenAlex DOI abstract"
     },
     {
       "id": "95fd76beaefed5cc4be5",
@@ -2857,8 +2861,8 @@
     {
       "name": "EU-Kommission – Nachrichten",
       "kind": "policy",
-      "count": 2,
-      "ok": true
+      "count": 0,
+      "ok": false
     },
     {
       "name": "EU-Rat – Pressemitteilungen",
@@ -2893,19 +2897,19 @@
     {
       "name": "IFAW – öffentliche Meldungen (News-Aggregation)",
       "kind": "ifaw",
-      "count": 2,
+      "count": 1,
       "ok": true
     },
     {
       "name": "IFAW – Berichterstattung (News-Aggregation)",
       "kind": "media",
-      "count": 10,
+      "count": 3,
       "ok": true
     },
     {
       "name": "Wildtierhandel – Medien (News-Aggregation)",
       "kind": "media",
-      "count": 35,
+      "count": 21,
       "ok": true
     },
     {
@@ -2929,44 +2933,38 @@
     {
       "name": "Crossref: marine mammal conservation",
       "kind": "study",
-      "count": 0,
-      "ok": false
+      "count": 12,
+      "ok": true
     },
     {
       "name": "Crossref: elephant conservation",
       "kind": "study",
-      "count": 0,
-      "ok": false
+      "count": 12,
+      "ok": true
     },
     {
       "name": "Crossref: wildlife rescue",
       "kind": "study",
-      "count": 0,
-      "ok": false
+      "count": 5,
+      "ok": true
     },
     {
       "name": "Crossref: illegal wildlife trade",
       "kind": "study",
       "count": 1,
       "ok": true
+    },
+    {
+      "name": "Europe PMC – Studien & Abstracts",
+      "kind": "study",
+      "count": 30,
+      "ok": true
     }
   ],
   "failures": [
     {
-      "source": "Crossref: marine mammal conservation",
+      "source": "EU-Kommission – Nachrichten",
       "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "source": "Crossref: elephant conservation",
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "source": "Crossref: wildlife rescue",
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "source": "Europe PMC",
-      "error": "The read operation timed out"
     }
   ],
   "events": [],

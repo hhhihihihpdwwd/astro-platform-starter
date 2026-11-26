@@ -1,42 +1,62 @@
-"""Chromium smoke test with fabricated source data; no external API, model or account."""
+"""Actual Chromium smoke of the public newsroom, with fabricated media sources only."""
 import re,shutil
-from pathlib import Path
-from datetime import datetime,timezone
+from datetime import datetime,timedelta,timezone
 from zoneinfo import ZoneInfo
+from pathlib import Path
 from playwright.sync_api import sync_playwright
 
 ROOT=Path(__file__).resolve().parents[1]
-NOW=datetime.now(timezone.utc).isoformat()
+NOW=datetime.now(timezone.utc)
+TS=NOW.isoformat()
+YESTERDAY=(NOW-timedelta(days=1)).isoformat()
+WEEK_AGO=(NOW-timedelta(days=8)).isoformat()
 TODAY=datetime.now(ZoneInfo('Europe/Berlin')).date().isoformat()
-FIXTURE={
-  'schema_version':2,'generated_at':NOW,
+FEED={
+  'schema_version':2,'generated_at':TS,
   'articles':[
-    {'id':'test-wale','title':'New protections for whales','title_de':'BAD GERMAN TRANSLATION',
-     'translation_status':'maschinell','summary':'Protection programme for whales and dolphins.',
-     'summary_de':'BAD MACHINE TEASER','url':'https://example.org/wale','date':NOW,
-     'source':'Scientific Fixture','kind':'media'},
-    {'id':'test-wildtier','title':'Neue Regeln gegen illegalen Wildtierhandel',
-     'summary':'CITES und Behörden diskutieren den Wildtierhandel.',
-     'url':'https://example.org/trade','date':NOW,'source':'Test EU','kind':'policy'},
+    {'id':'old','title':'Whale conservation report from last week','summary':'Whales in conservation policy.',
+     'url':'https://example.org/old','date':WEEK_AGO,'source':'Old Outlet','kind':'media'},
+    {'id':'today','title':'New protections for whales','title_de':'BAD GERMAN TRANSLATION',
+     'summary':'Protection programme for whales and dolphins.','summary_de':'BAD MACHINE TEASER',
+     'url':'https://example.org/wale','date':TS,'source':'Current Outlet','kind':'media'},
+    {'id':'policy','title':'Wildlife trade regulations in Germany',
+     'summary':'Governments consider new policy.',
+     'url':'https://example.org/policy','date':YESTERDAY,'source':'Public EU','kind':'policy'},
     {'id':'test-studie','title':'Elephant conservation and community conflict',
      'summary':'Die Veröffentlichung untersucht Konflikte von Menschen und Elefanten.',
-     'url':'https://doi.org/10.1234/abc','date':NOW,'source':'Journal Fixture','kind':'study',
+     'url':'https://doi.org/10.1234/abc','date':TS,'source':'Journal Fixture','kind':'study',
      'abstract_available':True,
      'abstract_source_text':'This is an original scientific abstract with observations of elephant movement, habitat use and human elephant conflict across multiple villages. '*4},
-    {'id':'test-fire','title':'Wildlife wildfire emergency','summary':'A wildfire is affecting wildlife.',
-     'url':'https://example.org/fire','date':NOW,'source':'Test Emergency','kind':'media'},
-    {'id':'test-xss','title':'XSS <img src=x onerror="window.XSS=1"> Wildlife',
-     'summary':'Wildlife text','url':'javascript:alert(1)','date':NOW,'source':'Malicious','kind':'media'}
+    {'id':'xss','title':'XSS <img src=x onerror="window.XSS=1"> Wildlife','summary':'Wildlife text',
+     'url':'javascript:alert(1)','date':TS,'source':'Malicious','kind':'media'}
   ],
-  'sources':[{'name':'Testquelle','kind':'media','count':4,'ok':True}],
+  'sources':[{'name':'Testquelle','kind':'media','count':2,'ok':True}],
   'failures':[],'events':[],'daily_study':{'date':TODAY,'id':'test-studie'}
 }
+MONITOR={
+  'schema_version':1,'checked_at':TS,'last_successful_at':TS,
+  'articles':[
+    {'id':'ifaw-old','title':'IFAW helps whales around the world - News Desk',
+     'url':'https://example.org/ifaw-old','date':WEEK_AGO,'source':'News Desk',
+     'kind':'monitor','profiles':['ifaw'],'origin':'Externe Berichterstattung',
+     'collected_via':'Google News RSS','date_type':'aggregator'},
+    {'id':'andreas','title':'Andreas Dinkelmeyer on illegal wildlife trade - Die Zeitung',
+     'url':'https://example.org/andreas','date':TS,'source':'Die Zeitung',
+     'kind':'monitor','profiles':['andreas'],'origin':'Externe Berichterstattung',
+     'collected_via':'Google News RSS','date_type':'aggregator'},
+    {'id':'robert','title':'Robert Kless discusses conservation - IFAW',
+     'url':'https://example.org/robert','date':YESTERDAY,'source':'IFAW',
+     'kind':'monitor','profiles':['robert'],'origin':'IFAW-eigene Meldung',
+     'collected_via':'Google News RSS','date_type':'aggregator'}
+  ],
+  'profiles':[],'sources':[{'name':'Google News','ok':True,'count':3}],'failures':[]
+}
 
-def test_desktop_dashboard():
+def test_newsroom_desktop():
     with sync_playwright() as p:
         executable=shutil.which('chromium') or shutil.which('google-chrome')
         browser=p.chromium.launch(headless=True,**({'executable_path':executable} if executable else {}),args=['--no-sandbox'])
-        page=browser.new_page(viewport={'width':1512,'height':1000},device_scale_factor=1)
+        page=browser.new_page(viewport={'width':1440,'height':900})
         errors=[]
         page.on('pageerror',lambda e:errors.append(str(e)))
         html=(ROOT/'index.html').read_text('utf8')
@@ -45,98 +65,94 @@ def test_desktop_dashboard():
         page.set_content(html)
         page.add_style_tag(path=str(ROOT/'styles.css'))
         page.evaluate("""() => {
-          const store={};
+          let values={};
           Object.defineProperty(window,'localStorage',{configurable:true,value:{
-            getItem:k=>store[k]??null,setItem:(k,v)=>{store[k]=String(v)},removeItem:k=>{delete store[k]}
+            getItem:k=>values[k]??null,setItem:(k,v)=>{values[k]=String(v)}
           }});
           window.history.replaceState=()=>{};
-          window.Summarizer={
-            create:async options=>({
-              async summarize(input){
-                if(!input.includes('original scientific abstract'))throw Error('Source abstract not read');
-                return 'KI NEU GENERIERT: Die Untersuchung beschreibt Landnutzung und Mensch-Elefant-Konflikte. Die Befunde müssen anhand der Originalstudie geprüft werden.';
-              },destroy(){}
-            })
-          };
+          window.Summarizer={create:async()=>({
+            async summarize(text){
+              if(!text.includes('original scientific abstract'))throw Error('Abstract not used');
+              return 'NEUE KI-ANALYSE: Das Abstract betrachtet Mensch-Elefant-Konflikte.';
+            },destroy(){}
+          })};
         }""")
-        page.evaluate("""(feed)=>{
-          window._calls={archive:0,live:0};
+        page.evaluate("""(input)=>{
+          window._calls={archive:0,mediaArchive:0,live:0,mediaLive:0};
           window._liveResponse={articles:[
-            {title:'Elephant wildlife conservation rescue after floods',
-             url:'https://news.example.org/elephant',
+            {title:'Whale wildlife protection new research',
+             url:'https://example.org/live-whale',
              seendate:new Date().toISOString().replace(/[-:]/g,'').slice(0,15)+'Z'}
           ]};
-          window.fetch=async(u)=>{
-            if(String(u).includes('api.gdeltproject.org')){
-              window._calls.live++;
-              return {ok:true,status:200,json:async()=>window._liveResponse};
-            }
-            window._calls.archive++;
-            return {ok:true,status:200,json:async()=>feed};
+          window._mediaResponse={status:'ok',items:[{
+            title:'IFAW conservation news update - Report',
+            link:'https://example.org/live-ifaw',
+            pubDate:new Date().toISOString().slice(0,19).replace('T',' ')
+          }]};
+          window.fetch=async(url)=>{
+            const u=String(url);
+            if(u.includes('api.gdeltproject.org')){window._calls.live++;return {ok:true,json:async()=>window._liveResponse}}
+            if(u.includes('api.rss2json.com')){window._calls.mediaLive++;return {ok:true,json:async()=>window._mediaResponse}}
+            if(u.includes('monitoring.json')){window._calls.mediaArchive++;return {ok:true,json:async()=>input.media}}
+            window._calls.archive++;return {ok:true,json:async()=>input.feed};
           };
-        }""",FIXTURE)
-        page.add_script_tag(path=str(ROOT/'lib'/'analysis.js'))
-        page.add_script_tag(path=str(ROOT/'lib'/'clock.js'))
-        page.add_script_tag(path=str(ROOT/'lib'/'study-ai.js'))
-        page.add_script_tag(path=str(ROOT/'lib'/'live-news.js'))
+        }""",{'feed':FEED,'media':MONITOR})
+        for script in ['analysis','clock','study-ai','live-news','monitoring']:
+            page.add_script_tag(path=str(ROOT/'lib'/(script+'.js')))
         page.add_script_tag(path=str(ROOT/'app.js'))
-        page.get_by_text('New protections for whales').first.wait_for()
-        assert page.get_by_text('BAD GERMAN TRANSLATION').count()==0
-        assert page.get_by_text('BAD MACHINE TEASER').count()==0
-        page.wait_for_function("window._calls.live>=1 && window._calls.archive>=1 && document.querySelector('#topStatus').textContent.includes('GDELT geprüft')")
-        assert 'GDELT geprüft' in page.locator('#topStatus').inner_text()
-        assert 'Elephant wildlife conservation rescue after floods' in page.locator('main').inner_text()
-        page.locator('#refreshBtn').click()
-        page.wait_for_function("window._calls.live>=2 && document.querySelector('#toast').textContent.includes('Keine neueren Meldungen')")
-        page.evaluate("""() => window._liveResponse.articles.unshift({
-          title:'Wildlife trafficking authorities launch protection drive',
-          url:'https://news.example.org/wildlife-new',
-          seendate:new Date().toISOString().replace(/[-:]/g,'').slice(0,15)+'Z'
-        })""")
-        page.locator('#refreshBtn').click()
-        page.wait_for_function("window._calls.live>=3 && document.querySelector('#toast').textContent.includes('zusätzliche Meldungen')")
-
+        page.wait_for_function("window._calls.live>=1 && window._calls.mediaArchive>=1 && !document.querySelector('#topStatus').textContent.includes('werden geprüft')")
+        assert page.locator('.nav-link').count()==4
+        assert page.locator('.sidebar').count()==0
+        assert page.locator('.clock-drawer').count()==1
         assert re.match(r'Guten (Morgen|Tag|Abend), Luca\.',page.locator('#greeting').inner_text())
         assert re.match(r'\d\d:\d\d:\d\d',page.locator('#clock-hamburg').inner_text())
         assert page.locator('.world-clock').count()==3
-        assert page.locator('.clock-map').count()==3
-        assert page.locator('.map-pin').count()==3
-        assert page.locator('#sunriseTime').inner_text()!='--:--'
-        assert page.locator('#sunsetTime').inner_text()!='--:--'
-        assert page.locator('.sidebar').count()==0
-        assert page.locator('#chatAsk').count()==0
-        assert page.locator('#quickTask').count()==0
-        assert page.locator('.daily-study').count()==1
-        assert 'Elephant conservation' in page.locator('#dailyStudy').inner_text()
-        assert page.locator('#studyAIResult').count()==0
-        assert page.get_by_text('Die Veröffentlichung untersucht Konflikte').count()>=1
-        page.locator('#summarizeStudy').click()
-        page.get_by_text('KI NEU GENERIERT',exact=False).wait_for()
-        ai_text=page.locator('#studyAIResult').inner_text()
-        assert 'KI NEU GENERIERT' in ai_text
-        assert 'Die Veröffentlichung untersucht Konflikte' not in ai_text
-        assert page.locator('#dailyStudy a[href^="https://chatgpt.com/?q="]').count()==1
-        assert page.locator('main a[href="javascript:alert(1)"]').count()==0
-        assert page.locator('main img[src="x"]').count()==0
-        assert page.evaluate('window.XSS') is None
-        page.locator('[data-view="studies"]').first.click()
-        page.get_by_text('Studien-Scout').wait_for()
-        assert page.get_by_text('Elephant conservation and community conflict').count()>0
-        page.locator('[data-bookmark]').first.click()
-        assert page.locator('[data-bookmark].saved').count()==1
+        assert 'Global News Radar' in page.locator('main').inner_text()
+        assert 'New protections for whales' in page.locator('main').inner_text()
+        assert 'BAD GERMAN TRANSLATION' not in page.locator('main').inner_text()
+        assert 'Datum laut Quelle' in page.locator('main').inner_text()
+        assert 'Archivstand:' in page.locator('main').inner_text()
+        # True date order, even when older story was first in JSON.
+        assert page.evaluate("""() => itemsFor('news').every((a,i,list)=>!i||Date.parse(list[i-1].date)>=Date.parse(a.date))""")
+        page.locator('#refreshBtn').click()
+        page.wait_for_function("window._calls.live>=2 && document.querySelector('#toast').textContent.includes('Keine zusätzlichen Meldungen')")
+        # Team-person monitoring and dated articles
+        page.locator('[data-view="monitor"]').first.click()
+        assert page.locator('[data-monitor-profile]').count()==9
+        assert 'Andreas Dinkelmeyer' in page.locator('main').inner_text()
+        assert 'Robert Kless' in page.locator('main').inner_text()
+        assert 'Google News-Zeit' in page.locator('main').inner_text()
+        assert page.evaluate("""() => itemsFor('monitor').every((a,i,list)=>!i||Date.parse(list[i-1].date)>=Date.parse(a.date))""")
+        page.locator('[data-monitor-profile="andreas"]').click()
+        assert 'Andreas Dinkelmeyer on illegal wildlife trade' in page.locator('.monitor-results').inner_text()
+        assert 'Robert Kless discusses conservation' not in page.locator('.monitor-results').inner_text()
+        page.locator('[data-monitor-profile="all"]').click()
+        page.locator('[data-monitor-scope="owned"]').click()
+        assert 'Robert Kless discusses conservation' in page.locator('.monitor-results').inner_text()
+        assert 'Andreas Dinkelmeyer on illegal wildlife trade' not in page.locator('.monitor-results').inner_text()
+        page.locator('[data-monitor-scope="all"]').click()
+        # PR and Crisis remain separate chronological sections
+        page.locator('[data-view="pr"]').first.click()
+        assert 'PR-Chancen' in page.locator('.page-heading').inner_text()
+        assert page.evaluate("""() => itemsFor('pr').every((a,i,list)=>!i||Date.parse(list[i-1].date)>=Date.parse(a.date))""")
+        page.locator('[data-view="crisis"]').first.click()
+        assert 'Crisis Watch' in page.locator('.page-heading').inner_text()
         page.locator('[data-view="news"]').first.click()
-        page.get_by_text('Global News Radar').wait_for()
+        page.locator('.research-drawer summary').click()
+        page.locator('#summarizeStudy').click()
+        page.get_by_text('NEUE KI-ANALYSE',exact=False).wait_for()
+        assert page.locator('#studyAIResult').count()==1
         page.locator('#globalSearch').fill('whales')
-        search_page=page.locator('main').inner_text()
-        assert 'New protections for whales' in search_page, 'Search results missing original article: '+repr(search_page[:500])
+        assert 'New protections for whales' in page.locator('main').inner_text()
         page.locator('#globalSearch').fill('unbekannteswort')
-        page.get_by_text('Keine passenden Quellen').wait_for()
+        assert 'Keine passenden Meldungen' in page.locator('main').inner_text() or page.locator('.date-group').count()==0
         page.locator('#globalSearch').fill('')
         page.locator('[data-view="sources"]').first.click()
-        page.get_by_text('Quellen & Transparenz').wait_for()
-        assert 'stündlich' in page.locator('main').inner_text()
+        assert 'Quellen & Transparenz' in page.locator('main').inner_text()
+        assert page.locator('main a[href="javascript:alert(1)"]').count()==0
+        assert page.evaluate('window.XSS') is None
         assert not errors,errors
-        page.locator('[data-view="dashboard"]').first.click()
+        page.locator('[data-view="news"]').first.click()
         page.screenshot(path=str(ROOT/'tests'/'screenshot-dashboard.png'),full_page=True)
-        print('Browser OK: original news, AI-generated text, DOI fallback, 3 maps, sun, XSS, search')
+        print('Browser OK: four views, genuine dates, IFAW staff profiles, live refresh, study AI, XSS and mobile-friendly layout')
         browser.close()

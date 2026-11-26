@@ -1,6 +1,6 @@
 # Wildlife Command Center – unabhängiger Recherche-Prototyp
 
-**Aktuelle verifizierte Web-Vorschau (26.11.2026):** https://able-fanatic-l4410.ship.place/
+**Aktuelle verifizierte Web-Vorschau (26.11.2026):** https://bloom-haze-sss72.ship.place/
 
 Dieses Projekt ist ein **nicht offiziell freigegebener, öffentlich erreichbarer Prototyp** zur Recherche von öffentlichen Wildtier-, Artenschutz-, Wissenschafts- und Politikmeldungen für IFAW-bezogene Themen. Keine offizielle IFAW-Webanwendung, kein Logo und keine internen Unternehmensdaten.
 

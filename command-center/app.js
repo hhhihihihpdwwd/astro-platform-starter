@@ -224,58 +224,106 @@ function dailyStudy(){
     '<span class="badge">'+esc(method)+'</span><span class="mini-note">Die Einordnung ist von der eigentlichen, auf Knopfdruck generierten KI-Ausgabe getrennt.</span></aside>'+
     studyAIView(study)+'</section>';
 }
+function newsListMini(items,limit=5){
+  return items.length?items.slice(0,limit).map(a=>
+    '<article class="news-row"><div class="news-row-top"><span class="news-row-date">'+esc(dateLabel(a))+'</span>'+
+    (sectionAge(a)==='heute'?'<span class="badge news-new">HEUTE</span>':'')+'</div>'+
+    '<div class="news-row-title">'+link(a,truncated(a.title,145))+'</div>'+
+    '<div class="news-row-origin">'+esc(a.source||'Originalquelle')+'</div></article>'
+  ).join(''):empty('Keine passenden Meldungen','Der Abruf kann derzeit unvollständig sein.');
+}
 function dashboard(){
-  const all=articles();
-  const top=byRelevance(fresh(all.filter(x=>x.kind!=='study'),20)).slice(0,5);
-  const pictures=top.length?top.slice(0,3):byRelevance(all.filter(x=>x.kind!=='study')).slice(0,3);
-  const crisis=byDate(all.filter(x=>A.isCrisis(x))).slice(0,2);
-  const pr=byRelevance(all.filter(x=>A.isOpportunity(x))).slice(0,2);
-  const policy=byDate(all.filter(x=>x.kind==='policy'||x.topics.includes('Politik & Recht'))).slice(0,2);
-  const brief=top.slice(0,4);
-  const hasWarn=ageMinutes(state.feed.generated_at)>150&&ageMinutes(state.liveCheckedAt)>75;
-  return heading('Dein Überblick','Wichtige Meldungen, Beobachtungen und Forschung – automatisch aus öffentlichen Quellen zusammengestellt.')+
-    (hasWarn?'<div class="notice warn">Der Archivbestand ist älter als geplant und die direkte Live-Suche war nicht erfolgreich. Die stündliche GitHub-Aktualisierung kann verzögert sein. Bitte prüfe die Originalquellen.</div>':'')+
-    '<div class="dashboard-grid"><div class="column">'+
-    '<section class="panel"><div class="panel-inner">'+panelTop('☀','Morning Briefing','news')+
-    (brief.length?'<ul class="brief-lines">'+brief.map(a=>'<li><span class="dot"></span><div>'+link(a,truncated(a.displayTitle,115))+'<div class="muted">'+esc(truncated(a.displaySummary||'',135))+'</div></div></li>').join('')+'</ul>':empty('Noch kein Briefing verfügbar','Neue Nachrichten erscheinen nach einem erfolgreichen Quellenabruf.'))+
-    '</div></section>'+
-    '<section class="panel"><div class="panel-inner">'+panelTop('◎','Global News Radar','news')+
-    (pictures.length?'<div class="feature-grid">'+pictures.map(feature).join('')+'</div>':empty('Keine Nachrichten vorhanden','Die App zeigt ausschließlich echte Quellen.'))+
+  const all=itemsFor('news');
+  const pr=itemsFor('pr'),crisis=itemsFor('crisis');
+  const latest=all.slice(0,state.newsExpanded?70:9);
+  const alert=ageMinutes(state.feed.generated_at)>240&&ageMinutes(state.liveCheckedAt)>120;
+  return heading('Global News Radar','Alle Meldungen chronologisch. Das Erscheinungsdatum ist wichtiger als der Relevanzwert.')+
+    (alert?'<div class="notice warn">Das GitHub-Archiv wurde seit mehreren Stunden nicht aktualisiert. Vorhandene Meldungen bleiben sichtbar; die Live-Suche wird unabhängig geprüft. Die Datumsangaben sind maßgeblich.</div>':'')+
+    '<div class="dashboard-grid newsroom-grid"><div class="column">'+
+    '<section class="panel"><div class="panel-inner">'+
+    '<div class="panel-top"><h3 class="panel-title">◎ Neueste Meldungen</h3><span class="result-count">'+all.length+' im Radar</span></div>'+
+    '<div class="chronology-hint">Sortiert: neuestes Quellen-Datum zuerst · ältere Beiträge bleiben weiter unten</div>'+
+    (latest.length?latest.map(a=>articleCard(a,true)).join(''):empty('Noch keine Meldungen','Die Originalquellen werden beim Laden geprüft.'))+
+    (all.length>9?'<button class="more-button" id="toggleAllNews">'+(state.newsExpanded?'Weniger anzeigen':'Weitere Meldungen anzeigen ('+(all.length-9)+')')+'</button>':'')+
     '</div></section></div><div class="column">'+
     '<section class="panel"><div class="panel-inner">'+panelTop('↗','PR-Chancen','pr')+
-    (pr.length?pr.map(a=>smallStory(a,false)).join('')+'<p class="mini-note">Regelbasierte Themenideen, keine bestätigten Pressechancen.</p>':empty('Keine neuen PR-Chancen erkannt','Keine geeigneten Quellen im aktuellen Bestand.'))+
-    '</div></section>'+
+    '<p class="panel-note">Automatisch gefilterte, noch nicht redaktionell geprüfte Themen.</p>'+
+    newsListMini(pr,3)+'</div></section>'+
     '<section class="panel alert-border"><div class="panel-inner">'+panelTop('△','Crisis Watch','crisis')+
-    (crisis.length?crisis.map(a=>smallStory(a,false)).join('')+'<p class="mini-note">Automatische Schlagwortsuche, keine behördliche Gefahrenwarnung.</p>':empty('Keine neuen Hinweise','Das ist keine Garantie, dass keine Krisen bestehen.'))+
-    '</div></section>'+
-    '<section class="panel"><div class="panel-inner">'+panelTop('⚖','Politik im Blick','policy')+
-    (policy.length?policy.map(a=>smallStory(a,false)).join(''):empty('Keine aktuellen Policy-Meldungen','Die verfügbaren Quellen sind möglicherweise unvollständig.'))+
-    '</div></section></div></div>'+
-    dailyStudy()+'<p class="mini-note section-spacer">Alle Meldungen sind automatisch gesammelt. Themengewichtung, Krisen- und PR-Kennzeichnungen sind regelbasierte Hinweise; keine unabhängige Faktenprüfung. Symbolbilder zeigen nicht die konkreten Ereignisse.</p>';
+    '<p class="panel-note">Hinweise aus Meldungen, keine amtlichen Alarmmeldungen.</p>'+
+    newsListMini(crisis,3)+'</div></section>'+
+    '<section class="panel"><div class="panel-inner">'+panelTop('◈','IFAW in den Medien','monitor')+
+    '<p class="panel-note">Öffentliche Artikel und Erwähnungen im Monitoring.</p>'+
+    newsListMini(mediaItems(),3)+'</div></section></div></div>'+
+    '<details class="research-drawer"><summary>◈ Wissenschaftliche Studie des Tages <span>mit KI-Analyse öffnen ⌄</span></summary>'+dailyStudy()+'</details>'+
+    '<p class="mini-note section-spacer">Politische Entwicklungen, Naturschutzstudien und Medienhinweise sind in den vier Kernbereichen integriert. Auswahl automatisch; Quellenangaben und Datumsstempel vor externer Nutzung prüfen.</p>';
 }
-function articleCard(a){
-  const saved=state.saved.has(a.id);
-  return '<article class="article-card"><div><span class="badge">'+esc(a.kind==='study'?'Studie':a.kind==='policy'?'Politik':a.kind==='ifaw'?'IFAW-News':'Meldung')+'</span>'+
-    '<h3>'+link(a)+'</h3><p>'+esc(truncated(a.displaySummary||'Kein Teaser verfügbar. Bitte die Originalquelle aufrufen.',360))+'</p>'+
-    '<div class="article-meta"><span>'+esc('Originalmeldung')+'</span><span>'+esc(a.source||'Quelle unbekannt')+'</span><span>'+esc(fmtDate(a.date))+'</span><span>'+esc(a.topics.slice(0,2).join(' · '))+'</span></div></div>'+
-    '<div class="article-actions"><button type="button" data-bookmark="'+esc(a.id)+'" class="bookmark '+(saved?'saved':'')+'">'+(saved?'✓ Gemerkt':'☆ Merken')+'</button>'+
-    '<a class="small-button" href="'+esc(safeUrl(a.url))+'" target="_blank" rel="noopener noreferrer">Quelle ↗</a></div></article>';
+function articleCard(a,compact=false){
+  const bookmarked=state.saved.has(a.id);
+  const type=a.kind==='study'?'Studie':a.kind==='policy'?'Politik':a.kind==='ifaw'?'IFAW':a.kind==='monitor'?'Medienbeobachtung':'News';
+  const description=compact?truncated(a.summary||'',165):truncated(a.summary||'',320);
+  return '<article class="article-card '+(compact?'article-compact':'')+'">'+
+    '<div class="article-main"><div class="article-date-line"><span>'+esc(dateLabel(a))+'</span>'+
+    (sectionAge(a)==='heute'?'<span class="badge news-new">HEUTE</span>':'')+
+    '<span class="badge">'+esc(type)+'</span></div>'+
+    '<h3>'+link(a)+'</h3>'+
+    (description?'<p>'+esc(description)+'</p>':'')+
+    '<div class="article-meta"><span>'+esc(a.source||'Originalquelle')+'</span>'+
+    (a.topics?.length?'<span>'+esc(a.topics.slice(0,2).join(' · '))+'</span>':'')+'</div></div>'+
+    '<div class="article-actions"><button type="button" data-bookmark="'+esc(a.id)+'" class="bookmark '+(bookmarked?'saved':'')+'">'+(bookmarked?'✓ Gespeichert':'☆ Merken')+'</button>'+
+    '<a class="small-button" href="'+esc(safeUrl(a.url))+'" target="_blank" rel="noopener noreferrer">Artikel ↗</a></div></article>';
+}
+function dateGroup(items){
+  const keys=[
+    ['heute','Heute'],['gestern','Gestern'],['woche','Letzte sieben Tage'],['alt','Ältere Meldungen'],['ohne','Ohne verlässliches Datum']
+  ];
+  return keys.map(([key,title])=>{
+    const group=items.filter(a=>sectionAge(a)===key);
+    return group.length?'<section class="date-group"><h3>'+title+' <span>'+group.length+'</span></h3>'+
+      '<div class="list-view">'+group.map(a=>articleCard(a)).join('')+'</div></section>':'';
+  }).join('');
 }
 function archiveView(view){
-  const descriptions={
-    news:['Global News Radar','Neue Meldungen aus internationalen Medien und öffentlichen Organisationen.'],
-    pr:['PR-Chancen','Nachrichtenthemen mit möglicher Relevanz für die deutsche Pressearbeit. Keine fertigen Pitches.'],
-    crisis:['Crisis Watch','Automatisch erkannte Meldungen mit möglichen Krisenbegriffen. Keine Echtzeit-Gefahrenwarnung.'],
-    studies:['Studien-Scout','Wissenschaftliche Quellen mit DOI, Metadaten und – soweit verfügbar – zurückhaltender Abstract-Einordnung.'],
-    policy:['Politik & Policy','Öffentliche Politik- und Regulierungsmeldungen mit Originalquellen.'],
-    ifaw:['IFAW weltweit','Öffentliche IFAW-Meldungen aus dem Nachrichtenbestand.']
-  };
-  const [title,description]=descriptions[view]||descriptions.news;
-  const list=itemsFor(view).slice(0,90);
-  const notice=view==='studies'?'<div class="notice">Ein bibliografischer Eintrag belegt nicht die Ergebnisse oder den Peer-Review-Status. Nur verlinkte DOI-Originalquellen verwenden.</div>':'';
-  return heading(title,description)+notice+
-    '<div class="filterbar"><button type="button" id="filterSaved" class="'+(state.onlySaved?'active':'')+'">'+(state.onlySaved?'✓ Merkliste':'☆ Nur Gemerkte')+'</button><span class="muted">'+list.length+' angezeigte Quellen · Neueste zuerst</span></div>'+
-    '<div class="list-view">'+(list.length?list.map(articleCard).join(''):empty('Keine passenden Quellen','Bitte später erneut prüfen oder nach anderen Begriffen suchen.'))+'</div>';
+  const description=view==='pr'
+    ?['PR-Chancen','Potenzielle Anknüpfungspunkte für deutsche Medien. Automatisch ausgewählt, keine bestätigten PR-Möglichkeiten.']
+    :['Crisis Watch','Mögliche Risiken und kritische Entwicklungen aus öffentlichen Meldungen. Kein behördlicher Warndienst.'];
+  const items=itemsFor(view).slice(0,150);
+  return heading(...description)+
+    '<div class="notice">Neue Meldungen zuerst · Quelle und Datum direkt an jedem Artikel. Die Einstufung erfolgt automatisch und kann Fehlalarme enthalten.</div>'+
+    '<div class="filterbar"><button type="button" id="filterSaved" class="'+(state.onlySaved?'active':'')+'">'+(state.onlySaved?'✓ Gemerkte':'☆ Nur Gemerkte')+'</button>'+
+    '<span class="muted">'+items.length+' Ergebnisse · chronologisch sortiert</span></div>'+
+    (items.length?dateGroup(items):empty('Keine passenden Meldungen','Die Quellenlage kann unvollständig sein.'));
+}
+function profileList(){
+  const items=mediaItems();
+  const groups=[['organization','Organisation'],['public_team','Öffentlich genannte Teammitglieder']];
+  return '<aside class="monitor-filters"><h3>Suchprofile</h3>'+
+    '<button type="button" data-monitor-profile="all" class="profile-option '+(state.monitorProfile==='all'?'selected':'')+'"><span>• Alle Treffer</span><span>'+items.length+'</span></button>'+
+    groups.map(([category,title])=>'<p class="profile-group-label">'+title+'</p>'+
+      Monitor.PROFILES.filter(p=>p.category===category).map(p=>
+        '<button type="button" data-monitor-profile="'+esc(p.id)+'" class="profile-option '+(state.monitorProfile===p.id?'selected':'')+'">'+
+        '<span>• '+esc(p.label)+'</span><span>'+items.filter(a=>a.profiles.includes(p.id)).length+'</span></button>'
+      ).join('')).join('')+
+    '<p class="mini-note">Öffentliche IFAW-Teamprofile als Ausgangspunkt; keine privaten Mitarbeiterdaten.</p></aside>';
+}
+function monitorView(){
+  const all=itemsFor('monitor');
+  const show=all.slice(0,state.mediaVisible||70);
+  const recorded=state.mediaFeed.last_successful_at;
+  const published=mediaItems()[0]?.date;
+  return heading('Medienbeobachtung','IFAW und öffentlich genannte Mitarbeitende – veröffentlichte Treffer aus kostenlosen Nachrichtenquellen.',true)+
+    '<div class="monitor-facts"><span>Neuester Treffer: <strong>'+esc(fullDate(published))+'</strong></span>'+
+    '<span>Medienarchiv geprüft: <strong>'+esc(fmtTime(recorded))+'</strong></span>'+
+    '<span>Gefundene Artikel: <strong>'+mediaItems().length+'</strong></span></div>'+
+    '<div class="notice">Erfasst werden öffentlich auffindbare Treffer, nicht sämtliche Veröffentlichungen. Bei Google News ist das angezeigte Datum der Zeitstempel des Nachrichtenindex und kann vom Verlagsdatum abweichen. Eigene IFAW-Meldungen sind gekennzeichnet.</div>'+
+    '<div class="monitor-layout">'+profileList()+'<section class="monitor-results">'+
+    '<div class="monitor-toolbar"><div class="seg-tabs">'+
+    [['all','Alle'],['external','Medienberichte'],['owned','IFAW-eigene Meldungen']].map(([key,label])=>
+      '<button type="button" data-monitor-scope="'+key+'" class="'+(state.monitorScope===key?'selected':'')+'">'+label+'</button>'
+    ).join('')+'</div><span class="muted">'+all.length+' Treffer · neueste zuerst</span></div>'+
+    (show.length?dateGroup(show):empty('Keine Treffer für diese Auswahl','Wenn eine Suche keine Treffer liefert, heißt das nicht, dass es keine Berichterstattung gab.'))+
+    (all.length>show.length?'<button type="button" id="moreMonitor" class="more-button">Weitere '+Math.min(70,all.length-show.length)+' Meldungen anzeigen</button>':'')+
+    '</section></div>';
 }
 function sourcesView(){
   const sources=state.feed.sources||[],fails=state.feed.failures||[];

@@ -1,14 +1,50 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-26T23:47:51.818789Z",
+  "generated_at": "2026-11-27T08:15:17.118849Z",
   "articles": [
+    {
+      "id": "f70ada277f62bc31a29d",
+      "title": "Week in wildlife: ‘polar bear jail’, baby penguins and the turkeys’ revenge",
+      "url": "https://www.theguardian.com/environment/gallery/2026/nov/27/week-in-wildlife-polar-bear-jail-baby-penguins-and-the-turkeys-revenge",
+      "date": "2026-11-27T08:00:58Z",
+      "summary": "This week’s best wildlife photographs from around the world Continue reading...",
+      "source": "The Guardian – Environment",
+      "kind": "media"
+    },
+    {
+      "id": "4707bd961311ae162cee",
+      "title": "Meet the few Liberian women rangers in a race to protect wildlife and forests",
+      "url": "https://news.mongabay.com/2026/11/meet-the-few-liberian-women-rangers-in-a-race-to-protect-wildlife-and-forests/",
+      "date": "2026-11-27T08:00:23Z",
+      "summary": "ZORTAPA, Liberia — Grace Kotee-Zansi is living a dream she had as a child: patrolling the East Nimba Nature Reserve (ENNR) as a biologist ranger to stop hunters from killing protected animals. Her job today brings relief from her childhood memories…",
+      "source": "Mongabay – Conservation News",
+      "kind": "media"
+    },
+    {
+      "id": "8b3a887288d1388ae421",
+      "title": "Patenschaften im Kieswerk Zschepplin: Ein Weihnachtsgeschenk für den Artenschutz - nordsachsen24.de",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQOEVyOUdnOWtfNkFtdXFvRXJyYU9JdEQ4U2JoSnlxVklnd2lISC1jbzB6aTdlM0hqQ0NMR2RDNWpwS3RNNnI0WGhYdkdOejlTZGEwWXRxdmZfVnZ3REtKRl91eERyVWNKQjZ1RlgtR1dvcWIxaHYtS0lzcGlTZmRfcWhzWkYyZ3hfWmEwTlo2U2VSNldtaUNYUEJkWmJjeWNNbnh4bFk0MGVJVW9DVGdZSXJ1Ny1sc2tuV0t0N2FVWlA3UzdCOTh1RXZRak51UkRUYkxHQlB1aThxTFEzbUZuWkFHRUFyTUhVSjc2OQ?oc=5",
+      "date": "2026-11-27T07:42:00Z",
+      "summary": "Patenschaften im Kieswerk Zschepplin: Ein Weihnachtsgeschenk für den Artenschutz nordsachsen24.de",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
+      "kind": "media"
+    },
     {
       "id": "570a2aedc56d695a04da",
       "title": "Floating nature islands installed in parks as Glasgow Games legacy",
       "url": "https://www.bbc.co.uk/news/articles/cwe9kxdm1k4lo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-26T22:54:18Z",
+      "date": "2026-11-27T06:19:13Z",
       "summary": "The islands, being planted in five Glasgow parks, are designed to encourage wildlife and help clean the water.",
       "source": "BBC – Wissenschaft & Umwelt",
+      "kind": "media"
+    },
+    {
+      "id": "ff5bf8851edaa92221f4",
+      "title": "Sri Lanka deploys ‘elephant army’ to protect rare tuskers, but experts urge caution",
+      "url": "https://news.mongabay.com/short-article/2026/11/sri-lanka-deploys-elephant-army-to-protect-rare-tuskers-but-experts-urge-caution/",
+      "date": "2026-11-27T04:43:37Z",
+      "summary": "A beloved male elephant named Kavantissa that frequented a rural village in Sri Lanka recently died from a gunshot injury, sparking public outrage. Environmentalists condemned authorities for what they called a “lack of care” for this iconic…",
+      "source": "Mongabay – Conservation News",
       "kind": "media"
     },
     {
@@ -1470,21 +1506,21 @@
       "kind": "media"
     },
     {
-      "id": "c89f41e9f27d1e8c908d",
-      "title": "Young artists to reimagine people & wildlife sharing the planet - International Fund for Animal Welfare | IFAW",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUG9zb2FsSFRRbHpzSVZqLWl3WXUyeHFoQjRuWmNTbV9XMG0zWFh2dEs3bnB2M2cyRXZiNEh1b3BHenJuTnpRd2l1ZDJJek5pcnl2NDJNYS1FUWctS2lnSXFiZHdmRGEtQ3dXd1hURDk5Z0hBR3VBOTdwV2F0MkFNVXllUUNHNHRiMEZn?oc=5",
-      "date": "2026-11-18T09:36:32Z",
-      "summary": "Young artists to reimagine people & wildlife sharing the planet International Fund for Animal Welfare | IFAW",
-      "source": "IFAW – Berichterstattung (News-Aggregation)",
-      "kind": "media"
-    },
-    {
       "id": "cf403857590b45eed359",
       "title": "Wildlife trafficking persists in West, Central Africa despite crackdowns: Report - news - Mongabay",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSnZsMUFvS0ttMEo1aHpOYUpDZWkxWjdyc3FON2xvQlRBanBTRlhDRmwtamhUWGlLV3RSSGNUaEhDa3NzQ2ZTNjIxZUJVMWNGTGdwSmZqVnN0LWFYOWFfSFgxN2hfQnJKNVhINl92dncyMlNBMHZUUHd0b1JKSkluRWNmSGpXbVNQVkRjU1N1dF9MZ0Q1ejBBNVdFbDQxc0FsN2xYRWxzWlFHWW44aWUzWVA2RdIBuAFBVV95cUxOdmdtZVEydVEtczdfWmVib2lxOWpOZngzeEJmckFBSkd2VlRmdXB0c3BiTTZPWFZ3SEtDNWRDZFVVTmdjUzJuMEx6T0tDZzREVkIyVWRRVmR3U1ZoeVFVNUpsTGRkRUtGdFBJMWluVzRPSmJBNm55SHJUbUFqTlRPNF9LNzJsSGxYRjF3QUlvNzdYZ1lWbHNfQktaVHp3cXNpcjhyVlE2Nnl4VXVteWV2c2J5VzI0aEZf?oc=5",
       "date": "2026-11-18T09:08:52Z",
       "summary": "Wildlife trafficking persists in West, Central Africa despite crackdowns: Report news - Mongabay",
       "source": "Wildtierhandel – Medien (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "ac7fc3e45666b4dac846",
+      "title": "Young artists invited to reimagine how people and wildlife share the planet - International Fund for Animal Welfare | IFAW",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUG9zb2FsSFRRbHpzSVZqLWl3WXUyeHFoQjRuWmNTbV9XMG0zWFh2dEs3bnB2M2cyRXZiNEh1b3BHenJuTnpRd2l1ZDJJek5pcnl2NDJNYS1FUWctS2lnSXFiZHdmRGEtQ3dXd1hURDk5Z0hBR3VBOTdwV2F0MkFNVXllUUNHNHRiMEZn?oc=5",
+      "date": "2026-11-18T08:00:00Z",
+      "summary": "Young artists invited to reimagine how people and wildlife share the planet International Fund for Animal Welfare | IFAW",
+      "source": "IFAW – Berichterstattung (News-Aggregation)",
       "kind": "media"
     },
     {
@@ -1774,6 +1810,19 @@
       "abstract_origin": "Europe PMC abstract excerpt"
     },
     {
+      "id": "4b6239d6940b3ce41dfc",
+      "title": "Exploring <i>Toxoplasma gondii</i> Allelic and Haplotypic Diversity in Wildlife from Panama Using the alt SAG2, GRA6, and Apico Markers.",
+      "date": "2026-11-12T00:00:00Z",
+      "url": "https://doi.org/10.3390/genes17111425",
+      "source": "Europe PMC",
+      "kind": "study",
+      "study_source": "Europe PMC",
+      "abstract_available": true,
+      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt": "Background: Panama is recognized as a global biodiversity hotspot; however, little is known about the genetic diversity patterns of Toxoplasma gondii in wildlife. This exploratory study evaluated the allelic and haplotypic diversity of the alt SAG2, GRA6, and Apico markers using wildlife tissue samples; additionally, it compared the genealogical relationships between the identified variants and a defined panel of reference sequences. Methods: Amplicons from each tissue sample and locus collected from 13 wild animals were analyzed using Sanger sequencing. The resulting sequences were then examined using NeighborNet networks",
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung."
+    },
+    {
       "id": "a6ee0eaa5091671684d0",
       "title": "Old but cool: Historic masonry seawalls provide thermal benefits for marine wildlife along urbanised coasts.",
       "date": "2026-11-11T00:00:00Z",
@@ -1849,6 +1898,19 @@
       "abstract_origin": "OpenAlex DOI abstract"
     },
     {
+      "id": "a35a86f4503719ecca32",
+      "title": "Distance- and Threshold-Conditioned Associations of Ecosystem Multifunctionality with Climate, Soil Moisture, and Biodiversity in Northwestern China's <i>Populus euphratica</i> Forests.",
+      "date": "2026-11-11T00:00:00Z",
+      "url": "https://doi.org/10.3390/plants15223512",
+      "source": "Europe PMC",
+      "kind": "study",
+      "study_source": "Europe PMC",
+      "abstract_available": true,
+      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Der Abstract nennt eine Modellierung. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt": "Dryland riparian forests depend on river-derived water in arid landscapes, but the relative associations of regional climate, local soil moisture, and biodiversity with ecosystem multifunctionality (EMF) remain uncertain. We analysed data from 516 plots in Populus euphratica forests across northwestern China. EMF was quantified from eight vegetation and soil attributes using averaging and multi-threshold approaches. We combined species richness, Rao's quadratic entropy, community-weighted trait axes, climate principal components, and soil principal components in mixed-effects models, hierarchical partitioning and partial l",
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung."
+    },
+    {
       "id": "413f9924adbc50fe00cc",
       "title": "More than 3,000 tarantulas seized at Peru airport in suspected wildlife trafficking operation - Getaway Magazine",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSkJud3k1S2JVOUpRMGNNei0xZWNZUkJmS1BncnpJb0hmRnFteTkweS1DS0tOaXJHSVRmUXNKeGhiMFZaUEhuRWo5MFJ5TmY4VUhNTXByUVcxdnhYandxSFRWMlg4RFdWNU1WYzEtZW4zbU9vN0xDcWh1M2NSbFBaSWxTRXhnV09lMjVFTDZGZ2ZIUW5WQ0tmc2xFcWJDTkZJNElDc0hielBoaWg3VGlTbS1qZnlqNmpub05Qd3RfWjR3Zw?oc=5",
@@ -1886,6 +1948,19 @@
       "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
       "abstract_source_text": "Zoonotic tuberculosis (zTB), caused by animal-adapted members of the Mycobacterium tuberculosis complex (MTBC), is classically attributed to M. bovis but is increasingly linked to M. orygis across South Asia. Species-level MTBC identification is rarely performed in low- and middle-income countries (LMICs), leaving the zTB burden poorly defined. Bangladesh has endemic bovine tuberculosis, a growing dairy sector, unpasteurised-milk consumption, and expanding captive wildlife collections, yet the evidence has not been synthesised by diagnostic reliability. This systematic evidence map aimed to collate the evidence on zTB in Bangladesh and to review the diagnostic methods used to identify animal-adapted MTBC species, particularly M. bovis and M. orygis, in livestock, wildlife, and humans. Following PRISMA 2020, we searched PubMed, Google Scholar, and BanglaJOL from the 1970s to June 2026; CAB Abstracts, Scopus, and Web of Science were not accessible. Two reviewers independently screened and appraised studies using the JBI checklist, assigning each to a five-level diagnostic evidence hierarchy (Level 1: WGS, phylogeny, RD typing, spoligotyping, or MLVA; Level 5: tuberculin skin test or serology only). These non-comparable tests precluded meta-analysis; therefore, findings are presented as an evidence map. Thirty-five studies met the inclusion criteria: 24 on prevalence in cattle/buffaloes, 10 on molecular diagnosis and characterisation in cattle, captive wildlife, and humans, and 1 specifically on molecular diagnosis and characterisation in humans. Most livestock studies used non-discriminatory tests (tuberculin skin tests, ELISA, or untyped PCR) and reported non-comparable reactor proportions of 1.2% to 33.7%. The few studies using species-level methods (Levels 1-2) confirmed M. orygis in cattle and in at least seven captive wildlife species, including monkeys, using marker-based molecular assays. Several historical reports of M. bovis were based on non-discriminatory PCR or serology, which cannot reliably distinguish among MTBC members. Human evidence was limited to three studies, including one WGS-confirmed M. orygis case identified through tuberculosis surveillance. In published reports from Bangladesh, M. orygis is the only animal-adapted MTBC member molecularly confirmed at the cattle-wildlife-human interface; existing M. bovis claims lack discriminatory support and require cautious reinterpretation. zTB surveillance should therefore move beyond an M. bovis-only framework and integrate species-level MTBC identification into a staged, resource-appropriate One Health strategy across animal, wildlife, and human health.",
       "abstract_origin": "OpenAlex DOI abstract"
+    },
+    {
+      "id": "b8f62a492c33d708f52f",
+      "title": "Surveillance for Peste Des Petits Ruminants Virus in Free-Ranging Wildlife of Russia Using an In-House ELISA Assay.",
+      "date": "2026-11-10T00:00:00Z",
+      "url": "https://doi.org/10.3390/v18111251",
+      "source": "Europe PMC",
+      "kind": "study",
+      "study_source": "Europe PMC",
+      "abstract_available": true,
+      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Der Abstract nennt eine Befragung. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt": "Peste des petits ruminants (PPR) is a highly contagious disease caused by the PPR virus (PPRV), a Morbillivirus , that affects small domestic ruminants and a range of wild ruminants. The disease is associated with significant socioeconomic losses and poses conservation threats due to its impact on susceptible wild ungulates. Wild species do not typically serve as independent reservoirs of PPRV. However, spillover from infected livestock at the wildlife-livestock interface is well documented. Therefore, understanding the role of wildlife in PPR epidemiology is important for the global campaign to eradicate the disease. This",
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung."
     },
     {
       "id": "c8f05c6f6ffa6693b589",
@@ -2056,6 +2131,20 @@
       "abstract_origin": "OpenAlex DOI abstract"
     },
     {
+      "id": "5a5a36cc2954c528392b",
+      "title": "Correction: Szyszko-Podgórska, K. The Mean Individual Biomass (MIB) of Ground Beetles (Carabidae): A Review of Its Application to Ecosystem Succession, Biodiversity, and Climate Change Research. <i>Insects</i> 2025, <i>16</i>, 119",
+      "date": "2026-11-05T00:00:00Z",
+      "url": "https://doi.org/10.3390/insects17111155",
+      "source": "Europe PMC",
+      "kind": "study",
+      "study_source": "Europe PMC",
+      "abstract_available": true,
+      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt": "Figure Legend [...].",
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "abstract_unavailable": true
+    },
+    {
       "id": "217cba64d2809538d4ed",
       "title": "Artenschutz - UNO-Biodiversitätskonferenz in Eriwan beendet; Ecuador nächster Austragungsort - Deutschlandfunk",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZGw5aTBWS3Z6bHBJd1JFQk41X0xaRjBnNm1RNVF1R3JiN2RDYjQ4dndMbVhvc2s3WndNMWdEdERsT1JYZDBzeVktT1hDb2ZxNkVZTXAxdy01Z1d6NWd0NHA5MHRBak1QU0hWNG9MbDAxRUM3eFZnU3ktOFlIeXlHTGFrVnBLVlhHVlNtd0xlY1pteHEyRGZCZlY5cW11WmdRX2dnWl9YWTdrem1BSFRWbFhhZXBKMUhoMFZv?oc=5",
@@ -2096,6 +2185,21 @@
       "summary": "ODPP warns wildlife trafficking is fuelling transnational organised crime Capital FM Africa",
       "source": "Wildtierhandel – Medien (News-Aggregation)",
       "kind": "media"
+    },
+    {
+      "id": "4da1a2cfb25f9ee7b625",
+      "title": "Microplastic exposure in whale shark feeding habitats of Djibouti.",
+      "date": "2026-11-03T00:00:00Z",
+      "url": "https://doi.org/10.1016/j.envpol.2026.129446",
+      "source": "Europe PMC",
+      "kind": "study",
+      "study_source": "Europe PMC",
+      "abstract_available": true,
+      "summary": "Die Veröffentlichung behandelt Meeressäuger und ihren Schutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt": "Microplastic exposure in filter-feeding megafauna is commonly assessed using seawater sampling, despite growing evidence that biological aggregation processes may strongly influence particle availability. This study quantified microplastics associated with bulk plankton-net samples collected in Djibouti, an important whale shark (Rhincodon typus) aggregation area in the western Indian Ocean. Using a multi-year dataset (2016 - 2025), microplastic abundance, spatial and temporal variability, and potential exposure for whale sharks were investigated. Mean microplastic abundance was 18.1 ± 21.9 MP m -3 , while concentrations e",
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "abstract_source_text": "Microplastic exposure in filter-feeding megafauna is commonly assessed using seawater sampling, despite growing evidence that biological aggregation processes may strongly influence particle availability. This study quantified microplastics associated with bulk plankton-net samples collected in Djibouti, an important whale shark (Rhincodon typus) aggregation area in the western Indian Ocean. Using a multi-year dataset (2016 - 2025), microplastic abundance, spatial and temporal variability, and potential exposure for whale sharks were investigated. Mean microplastic abundance was 18.1 ± 21.9 MP m-3, while concentrations expressed on a biomass basis ranged from 0.07 to 1.42 MP mg-1. Fibers accounted for 64.4% of all particles. Most fragments were <100 μm (90%), whereas fibers were mainly within the 100 - 500 μm range (59%). No significant spatial differences in microplastic concentrations were detected among sampling sites, indicating widespread distribution across the Gulf of Tadjoura. Microplastic abundance was strongly correlated with sample biomass (Spearman r = 0.756, p < 0.0001), indicating a close association between particle availability and biomass within the feeding habitat. Exploratory analyses revealed lower zooplankton biomass and whale shark abundance in more recent sampling years, suggesting that ecosystem productivity may influence both particle availability and the intensity of whale shark aggregations. By integrating microplastic concentrations with bulk plankton-net sample biomass and species-specific filtration rates, whale shark exposure was estimated at approximately 5900 MP h-1 (∼4 × 104 MPs day-1). These values fall within the range reported for large planktivorous vertebrates and suggest that seawater-based assessments could underestimate microplastic exposure in filter-feeding species by overlooking biologically mediated pathways.",
+      "abstract_origin": "OpenAlex DOI abstract"
     },
     {
       "id": "498f1dc6971c0ba4395a",
@@ -2938,42 +3042,6 @@
       "kind": "media"
     },
     {
-      "id": "6eaab003f75b0ace14ff",
-      "title": "Turtles rescued from illegal wildlife trade get second chance at Salina zoo - KWCH",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOR3ZaUzlILWk2a0dPQkJiNG00VXI1c0tXOENVMElpMXdxQ1NuM1RoeTdJV1lUa0RfcDVfdlV5MXQwRHVkZmIwWERZOVhZRUtFUFphbGlPZ3c5LXRfSGM1bjFXa3VPRGozX3QzVmJMck1XSFFmWENzcTNQUFVzY0lFN09BMklHNzFQM0tSWlgzeGx5dklRUXZtcHVuNzhRYzRXNEHSAbYBQVVfeXFMTURWU29ZdG5MZ1gwd3lFS3Y2bWJ5X09Gam8wYWE0cGJuVjZDTGtQbVJUUDNEZkpSdlNpd0ktbEtpdkIzN2lSV3VvMFJBb3FXWV85bFljeHJ3NExfZVQ5ZXpLVHRlVTF3MTg2ZEVBTDJaTjJwT21kM2lOS3J2aUgwQ2RYeklnUkl2RFFBVFRQQkcwMjFqM01oelk5YkVxbUVHZG5SRml1bV90T3d4djY2bC1NbXctekE?oc=5",
-      "date": "2026-08-27T07:00:00Z",
-      "summary": "Turtles rescued from illegal wildlife trade get second chance at Salina zoo KWCH",
-      "source": "Wildtierhandel – Medien (News-Aggregation)",
-      "kind": "media"
-    },
-    {
-      "id": "6c77029ce3220f8ecf37",
-      "title": "Kansas Turtles Rescued from Wildlife Trafficking - Ad Astra Radio",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdDVhdEVlMllzTUhKWnJRR21sOHFrR0FUQVdKZ3RGSlVaOWRZVnI4RDd5dE95TlZmbjU4YUtYb1EtWGVOc1RzQ1FxTHU2aHptNkpXcWctT01SMVVZSkszUGwzMzBfNVRjemVOVGZ3ZnNHbzhLZW0zLTJ4NXFxcDhWT3pDbjRUd195cVFzVnJEV3lZUWQxb0E?oc=5",
-      "date": "2026-08-27T07:00:00Z",
-      "summary": "Kansas Turtles Rescued from Wildlife Trafficking Ad Astra Radio",
-      "source": "Wildtierhandel – Medien (News-Aggregation)",
-      "kind": "media"
-    },
-    {
-      "id": "ca7b6c3b0f05104414ef",
-      "title": "U.S. Ambassador Giordano Focuses on Transnational Wildlife Trafficking Networks Driving Rhino Poaching - U.S. Embassy in Namibia (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQVWRtd1lUTkRuVTBHdjZ6Y3Bnb2VrZ3RNd0ZQNXBXTjFPT1gtYVdCNk1GWHFDQjNfQ0p6SHNjcUtuY2V5NnRvVkRNQkZUdjRqYzFJMUpEUFVnemNnVUVkSUZQVllnbGswWUt3WEZTUWlaUnVVUW9zX1ZORjQxV2FucXJodw?oc=5",
-      "date": "2026-08-27T07:00:00Z",
-      "summary": "U.S. Ambassador Giordano Focuses on Transnational Wildlife Trafficking Networks Driving Rhino Poaching U.S. Embassy in Namibia (.gov)",
-      "source": "Wildtierhandel – Medien (News-Aggregation)",
-      "kind": "media"
-    },
-    {
-      "id": "78521da20666fd58bd93",
-      "title": "Crackdowns alone won’t stop online wildlife trafficking - UCT News",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNelNTV1UzeFA1SnVkbVBlNzJncHpKV0JIenlaajQ1Q1htV2xmZGJZN1pEeUxhdXVtSUlRYm5OVkxKLWtsQWF0N3J3TUFNRDZZOVRVZVRPbUx3U2xMS1liX0lpNXB1MzhwVW5RXzhFNzlkeXpFM2hZSEs5WGxuRDdxdjFQRXl6cWhRMGwzd0JJcFdmdE8tMHM1akdQbnR1R3BKbjRZ?oc=5",
-      "date": "2026-08-27T07:00:00Z",
-      "summary": "Crackdowns alone won’t stop online wildlife trafficking UCT News",
-      "source": "Wildtierhandel – Medien (News-Aggregation)",
-      "kind": "media"
-    },
-    {
       "id": "470d5290e0403ffd1302",
       "title": "An expanding human footprint drives escalating human–elephant conflict across a transboundary African landscape through 2085",
       "date": "2026-07-07T00:00:00Z",
@@ -3122,14 +3190,14 @@
     {
       "name": "Mongabay – Conservation News",
       "kind": "media",
-      "count": 16,
+      "count": 15,
       "ok": true
     },
     {
       "name": "IFAW – öffentliche Meldungen (News-Aggregation)",
       "kind": "ifaw",
-      "count": 2,
-      "ok": true
+      "count": 0,
+      "ok": false
     },
     {
       "name": "IFAW – Berichterstattung (News-Aggregation)",
@@ -3140,13 +3208,13 @@
     {
       "name": "Wildtierhandel – Medien (News-Aggregation)",
       "kind": "media",
-      "count": 24,
+      "count": 13,
       "ok": true
     },
     {
       "name": "Deutschland – Wildtiere (News-Aggregation)",
       "kind": "media",
-      "count": 7,
+      "count": 6,
       "ok": true
     },
     {
@@ -3158,8 +3226,8 @@
     {
       "name": "Crossref: human wildlife conflict",
       "kind": "study",
-      "count": 0,
-      "ok": false
+      "count": 1,
+      "ok": true
     },
     {
       "name": "Crossref: marine mammal conservation",
@@ -3170,8 +3238,8 @@
     {
       "name": "Crossref: elephant conservation",
       "kind": "study",
-      "count": 0,
-      "ok": false
+      "count": 12,
+      "ok": true
     },
     {
       "name": "Crossref: wildlife rescue",
@@ -3194,11 +3262,7 @@
   ],
   "failures": [
     {
-      "source": "Crossref: human wildlife conflict",
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "source": "Crossref: elephant conservation",
+      "source": "IFAW – öffentliche Meldungen (News-Aggregation)",
       "error": "HTTP Error 429: Too Many Requests"
     },
     {

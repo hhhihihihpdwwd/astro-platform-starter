@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-27T08:15:46.617406Z",
-  "last_successful_at": "2026-11-27T08:15:46.617406Z",
+  "checked_at": "2026-11-27T18:26:52.764436Z",
+  "last_successful_at": "2026-11-27T18:26:52.764436Z",
   "articles": [
     {
-      "id": "cc13196ab002295f053c",
-      "title": "Pangolins & other wildlife reveal wider toll of Indonesia’s fires - International Fund for Animal Welfare | IFAW",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1sOHAxRWIza2I4UmxIS05CRUdDTW1LaWFUcFFsNFNyTkdKcWE5Z016ZEttVXd6alRldWdrc0NqdUlfVzYyVzg4YTBMOWJQZnd2emEybnB1aVVObEZYWm0zUGZNMGhNOTJJM0xiTlpB?oc=5",
-      "date": "2026-11-26T10:58:08Z",
+      "id": "bee8c0a8cd0d31992cc0",
+      "title": "Europe's exotic pet trade: New EU studies reveal scale - International Fund for Animal Welfare | IFAW",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNRUxIcmlYdGItOUNqTXplcklNVDRYNm1xcGxfRUtGUzVOYkVGdWFfWWZGRVhKamYtUEF4UWl3TXlJVnJRMFgwMERraS11TS1UNmtNZXBhQTBNYzlMdkYtajVfZmZnYzdkXzloMk84Nk1xYWhtVlBPUVMyRFhDWDYwdU1OS29FT0F2M2VfMGRBdl9qZlRrSUk2ajI1Yk5CZDExbHlYSG1oOFR5dUVCQU1pa1g2eEFtcFNjOTg3dlE0SGI4U00tMkE?oc=5",
+      "date": "2026-11-27T17:26:10Z",
       "date_type": "aggregator",
       "source": "International Fund for Animal Welfare | IFAW",
       "kind": "monitor",
@@ -26,7 +26,7 @@
       "id": "02125676d83f57fc3362",
       "title": "DOUBLE the impact for animals this Giving Tuesday >> - International Fund for Animal Welfare | IFAW",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE8weDZOamRKRmRORTdiRGs4d21LVS16QmpWelZPNlBUUmphYkkxX3o1NG5PNmZxZno0b2hxSGhvb2FIQ1lKMGlQcEt6YjJhUFVmcEEyc1VJUEgydWlTbWc?oc=5",
-      "date": "2026-11-25T21:33:52Z",
+      "date": "2026-11-27T08:09:02Z",
       "date_type": "aggregator",
       "source": "International Fund for Animal Welfare | IFAW",
       "kind": "monitor",
@@ -36,7 +36,27 @@
       ],
       "origin": "IFAW-eigene Meldung",
       "market": "International · IFAW",
+      "match_type": "Schlagzeilen-Nennung",
       "publisher_url": "https://give-uk.ifaw.org",
+      "summary": "",
+      "collected_via": "Google News RSS"
+    },
+    {
+      "id": "cc13196ab002295f053c",
+      "title": "Pangolins & other wildlife reveal wider toll of Indonesia’s fires - International Fund for Animal Welfare | IFAW",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1sOHAxRWIza2I4UmxIS05CRUdDTW1LaWFUcFFsNFNyTkdKcWE5Z016ZEttVXd6alRldWdrc0NqdUlfVzYyVzg4YTBMOWJQZnd2emEybnB1aVVObEZYWm0zUGZNMGhNOTJJM0xiTlpB?oc=5",
+      "date": "2026-11-26T10:58:08Z",
+      "date_type": "aggregator",
+      "source": "International Fund for Animal Welfare | IFAW",
+      "kind": "monitor",
+      "profiles": [
+        "ifaw",
+        "full"
+      ],
+      "origin": "IFAW-eigene Meldung",
+      "market": "International · IFAW",
+      "match_type": "Schlagzeilen-Nennung",
+      "publisher_url": "https://www.ifaw.org",
       "summary": "",
       "collected_via": "Google News RSS"
     },
@@ -93,6 +113,25 @@
       "market": "International · IFAW"
     },
     {
+      "id": "bdc55de93ebc6ed35192",
+      "title": "Elfenbein aus dem Internet: Oft fehlt die Legalität - International Fund for Animal Welfare | IFAW",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB1NE5TbnpHSzdrcUdpVE9hcmMyZjF6WTN4dXZHdjZsdFVTUWVQUm1hcUhObFN2eVd5MnBVZUZvV1pFdWRCNDNaMW9CVm9DbWNQdW9OcWliTlpSU1FHVVNfWHNvbGs1VElsSG1rYURqZGlKTGtfUGJ6YWJjMA?oc=5",
+      "date": "2026-11-24T09:58:53Z",
+      "date_type": "aggregator",
+      "source": "International Fund for Animal Welfare | IFAW",
+      "kind": "monitor",
+      "profiles": [
+        "ifaw",
+        "full"
+      ],
+      "origin": "IFAW-eigene Meldung",
+      "market": "International · IFAW",
+      "match_type": "Schlagzeilen-Nennung",
+      "publisher_url": "https://www.ifaw.org",
+      "summary": "",
+      "collected_via": "Google News RSS"
+    },
+    {
       "id": "0cb1b1d5db120cbcd3e3",
       "title": "Most ivory offered online in the EU lacks evidence of legality - International Fund for Animal Welfare | IFAW",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcnpZT0s0WjRUZ0E2YkRPR0g1dHppSmliSzhXV3RFMmxKQ1Y5MmpIYVZDVXNwcTFsdVE0SU1fZGVyYkttWk01R1Q0aURYcDZRRkpTWTBwb09YNGhIbWpKTlhwVUJkVzJnOUdBdmVIYXllWlRJc2lEUzJiSkpwenZYLTJ3T0RZaGtXdkl4UG9XUXM0UQ?oc=5",
@@ -143,6 +182,24 @@
       "origin": "IFAW-eigene Meldung",
       "market": "International · IFAW",
       "publisher_url": "https://www.ifaw.org",
+      "summary": "",
+      "collected_via": "Google News RSS"
+    },
+    {
+      "id": "c8658c2793ead93b43f0",
+      "title": "Elefanten: Wie alt werden die Dickhäuter eigentlich? - WEB.DE",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5XeGh2cU1TZW4zRzR6dkxTa2RkNTN5ZXFwRFp0TlQ5b2preEVGSF9EODhXOEJ0SWlPcWx1NXRmd0I2OHJCaVRwcmY4eVJsZHY5RjJBNXpGYUZjcU1reTd0a3pqUDZIU3NiRjVSWVNHZlJKaXFqcC1ja2xXSQ?oc=5",
+      "date": "2026-11-19T08:00:00Z",
+      "date_type": "aggregator",
+      "source": "WEB.DE",
+      "kind": "monitor",
+      "profiles": [
+        "ifaw"
+      ],
+      "origin": "Externe Berichterstattung",
+      "market": "Deutschland",
+      "match_type": "Suchindex-Treffer",
+      "publisher_url": "https://web.de",
       "summary": "",
       "collected_via": "Google News RSS"
     },
@@ -202,24 +259,6 @@
       "collected_via": "Google News RSS"
     },
     {
-      "id": "c8658c2793ead93b43f0",
-      "title": "Elefanten: Wie alt werden die Dickhäuter eigentlich? - WEB.DE",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5XeGh2cU1TZW4zRzR6dkxTa2RkNTN5ZXFwRFp0TlQ5b2preEVGSF9EODhXOEJ0SWlPcWx1NXRmd0I2OHJCaVRwcmY4eVJsZHY5RjJBNXpGYUZjcU1reTd0a3pqUDZIU3NiRjVSWVNHZlJKaXFqcC1ja2xXSQ?oc=5",
-      "date": "2026-11-18T14:22:42Z",
-      "date_type": "aggregator",
-      "source": "WEB.DE",
-      "kind": "monitor",
-      "profiles": [
-        "ifaw"
-      ],
-      "origin": "Externe Berichterstattung",
-      "market": "Deutschland",
-      "match_type": "Suchindex-Treffer",
-      "publisher_url": "https://web.de",
-      "summary": "",
-      "collected_via": "Google News RSS"
-    },
-    {
       "id": "c89f41e9f27d1e8c908d",
       "title": "Young artists to reimagine people & wildlife sharing the planet - International Fund for Animal Welfare | IFAW",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUG9zb2FsSFRRbHpzSVZqLWl3WXUyeHFoQjRuWmNTbV9XMG0zWFh2dEs3bnB2M2cyRXZiNEh1b3BHenJuTnpRd2l1ZDJJek5pcnl2NDJNYS1FUWctS2lnSXFiZHdmRGEtQ3dXd1hURDk5Z0hBR3VBOTdwV2F0MkFNVXllUUNHNHRiMEZn?oc=5",
@@ -269,6 +308,25 @@
       ],
       "origin": "IFAW-eigene Meldung",
       "market": "International · IFAW",
+      "publisher_url": "https://www.ifaw.org",
+      "summary": "",
+      "collected_via": "Google News RSS"
+    },
+    {
+      "id": "82897b904f9099a23081",
+      "title": "What is Giving Tuesday? - International Fund for Animal Welfare | IFAW",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9aSGtSQ2R0YVJwbndlbG5obmJPNXppUERka0FVd1hmeWR6NGJ5a0VwbGgxY0dZTEM4VHRQOHdrbVY4bEhJZVBWc1ZjclNnbEJPcjYwX2F6enNsNlRkbHNPYVlTNEg?oc=5",
+      "date": "2026-11-17T18:11:54Z",
+      "date_type": "aggregator",
+      "source": "International Fund for Animal Welfare | IFAW",
+      "kind": "monitor",
+      "profiles": [
+        "ifaw",
+        "full"
+      ],
+      "origin": "IFAW-eigene Meldung",
+      "market": "International · IFAW",
+      "match_type": "Schlagzeilen-Nennung",
       "publisher_url": "https://www.ifaw.org",
       "summary": "",
       "collected_via": "Google News RSS"
@@ -645,17 +703,17 @@
     {
       "name": "IFAW · internationale offizielle Pressemitteilungen",
       "ok": true,
-      "count": 26
+      "count": 31
     },
     {
       "name": "IFAW · deutscher Medienmarkt",
       "ok": true,
-      "count": 3
+      "count": 4
     },
     {
       "name": "IFAW · Elfenbein/Artenschutz im deutschen Medienmarkt",
       "ok": true,
-      "count": 1
+      "count": 2
     },
     {
       "name": "IFAW · deutsches Team in deutschen Medien",

@@ -1,7 +1,61 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-27T08:15:17.118849Z",
+  "generated_at": "2026-11-27T18:26:27.702274Z",
   "articles": [
+    {
+      "id": "493931f5e207928030ca",
+      "title": "Play about 12-year-old ecojustice influencer wins Shakespeare’s Globe prize",
+      "url": "https://www.theguardian.com/stage/2026/nov/27/play-12-year-old-ecojustice-influencer-wins-shakespeares-globe-prize",
+      "date": "2026-11-27T15:30:14Z",
+      "summary": "Timothy X Atack wrote Tiny Alarms after workshops with children, who felt theirs would be the last generation of humans Tiny, a 12-year-old schoolgirl, is an ecojustice influencer, whose funny and disconcerting takes on the climate crisis go viral.…",
+      "source": "The Guardian – Environment",
+      "kind": "media"
+    },
+    {
+      "id": "83ad09af98a019fb44c2",
+      "title": "Aerial photos show recovery of Florida Bay, US, as restoration sends Everglades water",
+      "url": "https://news.mongabay.com/custom-story/2026/11/aerial-photos-show-recovery-of-florida-bay-us-as-restoration-sends-everglades-water/",
+      "date": "2026-11-27T14:04:23Z",
+      "summary": "Freshwater flows into Florida Bay, significantly reduced by decades of Everglades drainage, are slowly increasing under the Comprehensive Everglades Restoration Plan. Helicopter surveys by avian ecologist Mark Ian Cook document returning wading…",
+      "source": "Mongabay – Conservation News",
+      "kind": "media"
+    },
+    {
+      "id": "f5300f6de5b19a6cef88",
+      "title": "Rare turtles found inside baggage at Amsterdam airport",
+      "url": "https://www.bbc.co.uk/news/articles/cm5y1380q3vgo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-27T13:38:07Z",
+      "summary": "The endangered reptiles were bound with duct tape to prevent them moving, officials say.",
+      "source": "BBC – Wissenschaft & Umwelt",
+      "kind": "media"
+    },
+    {
+      "id": "4c08df45cdbc8ce1281a",
+      "title": "A tiny deep-sea fish eaten 42 years ago has now been named a new species",
+      "url": "https://news.mongabay.com/short-article/2026/11/a-tiny-deep-sea-fish-eaten-42-years-ago-has-now-been-named-a-new-species/",
+      "date": "2026-11-27T12:40:25Z",
+      "summary": "A new-to-science species of deep-sea fish has been described from a single specimen found in the stomach contents of a predatory fish that ate it in 1984. The specimen sat in a Tokyo museum collection for 42 years until it was examined by museum…",
+      "source": "Mongabay – Conservation News",
+      "kind": "media"
+    },
+    {
+      "id": "faba88e29c05e29c4f97",
+      "title": "Online-Vortrag „Spechtlochsanierung und Artenschutz“ - muenchen.de",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMmtrY2E2ZGx5eDJLRzFYR2ktTTFZWGpKdHA4eVRXT1V3Z1lUWldtb1JROGJfMXFGZE90QUE0alJUaE5PVWd3X0hBVjdXalRGZVQwVUZlNnFQeWg0Y1NLOXlCYjdnRDdLeDV5YkxzbkJFWkpNSW1HOXkzWUFIRkFyYV94MVN4V3ZoV0tJeXVjanR0WUU?oc=5",
+      "date": "2026-11-27T11:48:26Z",
+      "summary": "Online-Vortrag „Spechtlochsanierung und Artenschutz“ muenchen.de",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "39f3a707d27897d72ac6",
+      "title": "Whales return to Patagonia, but face new threats in Argentina",
+      "url": "https://news.mongabay.com/2026/11/whales-return-to-patagonia-but-face-new-threats-in-argentina/",
+      "date": "2026-11-27T11:07:04Z",
+      "summary": "Whales are coming back to Argentina’s coast. Decades after commercial hunting decimated their populations, different species of cetaceans are once again repopulating parts of the Argentine Sea. Scientists are now monitoring this recovery through new…",
+      "source": "Mongabay – Conservation News",
+      "kind": "media"
+    },
     {
       "id": "f70ada277f62bc31a29d",
       "title": "Week in wildlife: ‘polar bear jail’, baby penguins and the turkeys’ revenge",
@@ -46,6 +100,19 @@
       "summary": "A beloved male elephant named Kavantissa that frequented a rural village in Sri Lanka recently died from a gunshot injury, sparking public outrage. Environmentalists condemned authorities for what they called a “lack of care” for this iconic…",
       "source": "Mongabay – Conservation News",
       "kind": "media"
+    },
+    {
+      "id": "b04097744e6b50447bb4",
+      "title": "Soil microbial biodiversity as a bioindicator for restoration success in heavy metal-contaminated agricultural landscapes.",
+      "date": "2026-11-27T00:00:00Z",
+      "url": "https://doi.org/10.1007/s11356-026-38444-x",
+      "source": "Europe PMC",
+      "kind": "study",
+      "study_source": "Europe PMC",
+      "abstract_available": true,
+      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt": "The insidious accumulation of persistent heavy metals in global agricultural soils represents a significant environmental challenge threatening both ecosystem integrity and food safety. Conventional physicochemical metrics have historically served as the exclusive evaluation criteria for soil remediation success. Relying strictly on chemical compliance, therefore, frequently generates an incomplete assessment of recovery, leaving agroecosystems fundamentally degraded and biologically impoverished. Bridging the gap between superficial chemical mitigation and true ecological rehabilitation demands a methodological advancemen",
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung."
     },
     {
       "id": "d9919b8b663dd8fc6bf5",
@@ -226,6 +293,58 @@
       "summary": "Changing seasons are affecting wildlife and leading some farmers to grow different crops.",
       "source": "BBC – Wissenschaft & Umwelt",
       "kind": "media"
+    },
+    {
+      "id": "ed14d0d6f93e8e7937a0",
+      "title": "Predators and wildlife management shape local-scale nutrient heterogeneity by altering carcass deposition rates.",
+      "date": "2026-11-26T00:00:00Z",
+      "url": "https://doi.org/10.1111/1365-2656.70400",
+      "source": "Europe PMC",
+      "kind": "study",
+      "study_source": "Europe PMC",
+      "abstract_available": true,
+      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt": "Large-mammal carcasses create spatially concentrated nutrient pulses that increase environmental heterogeneity and promote biodiversity. Both predators and humans can alter the rate of large-animal carcass availability through mortality events or offsite removal. However, it is not well understood how these processes interact with wildlife population dynamics to influence nutrient heterogeneity across scales. Here, we compiled data on the difference in concentration of nitrogen (N) and 15N-isotopes in plants growing on and off 201 large-mammal carcass sites as a proxy for how long nutrient signals persist after carcass dep",
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung."
+    },
+    {
+      "id": "c2ccae4ed9472f0228ee",
+      "title": "Forest monocultures, biodiversity loss, and ecosystem resilience under climate change: ecological mechanisms and management implications.",
+      "date": "2026-11-26T00:00:00Z",
+      "url": "https://doi.org/10.1016/j.jenvman.2026.131457",
+      "source": "Europe PMC",
+      "kind": "study",
+      "study_source": "Europe PMC",
+      "abstract_available": true,
+      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt": "Forest monocultures have contributed substantially to timber production and simplified forest management, but their ecological limitations may become increasingly important under accelerating environmental change. This review examines how ecological simplification associated with forest monocultures can influence biodiversity, ecosystem functioning, and forest resilience, with particular emphasis on the interacting effects of climate change and disturbance. Homogeneous stands may support a narrower range of species, functional traits, and ecological responses than more diverse and structurally heterogeneous forests, potent",
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung."
+    },
+    {
+      "id": "75f02f24dacc3a10fd81",
+      "title": "Integrating established and emerging tools to assess wildlife condition from the ground, up.",
+      "date": "2026-11-26T00:00:00Z",
+      "url": "https://doi.org/10.1126/science.aed3374",
+      "source": "Europe PMC",
+      "kind": "study",
+      "study_source": "Europe PMC",
+      "abstract_available": true,
+      "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt": "Metabolic energy links individual physiology to population-level dynamics, making wildlife body condition a cornerstone of conservation science. Emerging technologies, including unoccupied aircraft systems, make remote assessment of animal condition possible at unprecedented scales, and physiologically grounded validation is essential for strong inference. Here we examine the strengths and challenges of traditional and remote methods, using a comparative perspective that emphasizes both lipid and lean mass dynamics in evaluating wildlife health. We provide a framework that integrates complementary approaches to assess wild",
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung."
+    },
+    {
+      "id": "f96b5617d75ab0456273",
+      "title": "Harvest height of BRS Capiaçu elephant grass determines silage quality, feed efficiency, and growth performance of replacement dairy heifers.",
+      "date": "2026-11-26T00:00:00Z",
+      "url": "https://doi.org/10.1007/s11250-026-05479-8",
+      "source": "Europe PMC",
+      "kind": "study",
+      "study_source": "Europe PMC",
+      "abstract_available": true,
+      "summary": "Die Veröffentlichung behandelt bedrohte Groß- und Wildtiere. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
+      "abstract_excerpt": "Harvest maturity is a key driver of tropical grass silage quality, but few studies connect harvest management directly with animal performance. This study evaluated whether harvest height of BRS Capiaçu elephant grass could optimize silage conservation, nutritive value, and the biological performance of replacement dairy heifers. In Trial 1, forage was harvested at 1, 2, 3, or 4 m and ensiled for 60 d. Increasing harvest height reduced total dry matter losses from 6.41 to 2.48% (P = 0.008) and increased dry matter recovery from 93.59 to 97.52% (P = 0.008). Greater harvest height increased neutral detergent fiber from 593.8",
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung."
     },
     {
       "id": "b0f284de649364f37f00",
@@ -1377,15 +1496,6 @@
       "kind": "media"
     },
     {
-      "id": "1db137d22d5e89537c35",
-      "title": "Race to replant five South African baobabs after export blocked | Illegal wildlife trade - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQeWU4MWdRRzJGLWdJeS1KYzN5c3hEUVMxS19maXJDM2JySHZ0Y1NYTGJOQkh1cVBZS0RmVlA2eWhjSF9JTjI2RVA4dTZjU3F0b0JydEdVNG5ZYzJsZEdUM0o4VmdVUUxiUXdRZzNMMVk0V2ZfZHVsRFZXank4Ri0wRnU4bUtyTncxZGZRSmx5M0lKb0RTT3M4VTdOZEd3ZjZsRlZXSVVQMVBYNXg4enJFQUlkVEVPbU0?oc=5",
-      "date": "2026-11-19T11:03:00Z",
-      "summary": "Race to replant five South African baobabs after export blocked | Illegal wildlife trade The Guardian",
-      "source": "Wildtierhandel – Medien (News-Aggregation)",
-      "kind": "media"
-    },
-    {
       "id": "3a46ad92ec71c5b4fd10",
       "title": "Threatened species make up half of shark catches at Indonesian fishing port, study finds",
       "url": "https://news.mongabay.com/2026/11/threatened-species-make-up-half-of-shark-catches-at-indonesian-fishing-port-study-finds/",
@@ -1402,6 +1512,15 @@
       "summary": "The Council has approved conclusions aimed at empowering young people in an evolving information environment.",
       "source": "EU-Rat – Pressemitteilungen",
       "kind": "policy"
+    },
+    {
+      "id": "1db137d22d5e89537c35",
+      "title": "Race to replant five South African baobabs after export blocked | Illegal wildlife trade - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQeWU4MWdRRzJGLWdJeS1KYzN5c3hEUVMxS19maXJDM2JySHZ0Y1NYTGJOQkh1cVBZS0RmVlA2eWhjSF9JTjI2RVA4dTZjU3F0b0JydEdVNG5ZYzJsZEdUM0o4VmdVUUxiUXdRZzNMMVk0V2ZfZHVsRFZXank4Ri0wRnU4bUtyTncxZGZRSmx5M0lKb0RTT3M4VTdOZEd3ZjZsRlZXSVVQMVBYNXg4enJFQUlkVEVPbU0?oc=5",
+      "date": "2026-11-19T08:00:00Z",
+      "summary": "Race to replant five South African baobabs after export blocked | Illegal wildlife trade The Guardian",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
+      "kind": "media"
     },
     {
       "id": "9a88fddfe9aba2a4008e",
@@ -1509,7 +1628,7 @@
       "id": "cf403857590b45eed359",
       "title": "Wildlife trafficking persists in West, Central Africa despite crackdowns: Report - news - Mongabay",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSnZsMUFvS0ttMEo1aHpOYUpDZWkxWjdyc3FON2xvQlRBanBTRlhDRmwtamhUWGlLV3RSSGNUaEhDa3NzQ2ZTNjIxZUJVMWNGTGdwSmZqVnN0LWFYOWFfSFgxN2hfQnJKNVhINl92dncyMlNBMHZUUHd0b1JKSkluRWNmSGpXbVNQVkRjU1N1dF9MZ0Q1ejBBNVdFbDQxc0FsN2xYRWxzWlFHWW44aWUzWVA2RdIBuAFBVV95cUxOdmdtZVEydVEtczdfWmVib2lxOWpOZngzeEJmckFBSkd2VlRmdXB0c3BiTTZPWFZ3SEtDNWRDZFVVTmdjUzJuMEx6T0tDZzREVkIyVWRRVmR3U1ZoeVFVNUpsTGRkRUtGdFBJMWluVzRPSmJBNm55SHJUbUFqTlRPNF9LNzJsSGxYRjF3QUlvNzdYZ1lWbHNfQktaVHp3cXNpcjhyVlE2Nnl4VXVteWV2c2J5VzI0aEZf?oc=5",
-      "date": "2026-11-18T09:08:52Z",
+      "date": "2026-11-18T08:00:00Z",
       "summary": "Wildlife trafficking persists in West, Central Africa despite crackdowns: Report news - Mongabay",
       "source": "Wildtierhandel – Medien (News-Aggregation)",
       "kind": "media"
@@ -1908,7 +2027,9 @@
       "abstract_available": true,
       "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Der Abstract nennt eine Modellierung. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
       "abstract_excerpt": "Dryland riparian forests depend on river-derived water in arid landscapes, but the relative associations of regional climate, local soil moisture, and biodiversity with ecosystem multifunctionality (EMF) remain uncertain. We analysed data from 516 plots in Populus euphratica forests across northwestern China. EMF was quantified from eight vegetation and soil attributes using averaging and multi-threshold approaches. We combined species richness, Rao's quadratic entropy, community-weighted trait axes, climate principal components, and soil principal components in mixed-effects models, hierarchical partitioning and partial l",
-      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung."
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "abstract_source_text": "forests across northwestern China. EMF was quantified from eight vegetation and soil attributes using averaging and multi-threshold approaches. We combined species richness, Rao's quadratic entropy, community-weighted trait axes, climate principal components, and soil principal components in mixed-effects models, hierarchical partitioning and partial least-squares path models. EMF declined from near- to far-riparian plots, whereas soil water content did not differ significantly among distance bands. Hydroclimatic stress was negatively associated with EMF, especially in far-riparian plots and at higher thresholds, while soil moisture was positively associated mainly at low-to-intermediate thresholds. The relative explanatory contributions of biodiversity varied across riparian positions and predefined functional thresholds: RaoQ contributed most near rivers at lower thresholds, species richness was more important at intermediate and far positions, and community-weighted traits became prominent under selected high-threshold conditions. Species richness and community-weighted trait axes also changed with riparian distance, whereas RaoQ was comparatively stable. In the PLS-PMs, modelled direct abiotic associations were generally stronger than indirect associations involving biodiversity. Given the observational study design and correlational analyses, these findings indicate context-dependent associations among climate, soil moisture, biodiversity and ecosystem multifunctionality rather than causal relationships.",
+      "abstract_origin": "OpenAlex DOI abstract"
     },
     {
       "id": "413f9924adbc50fe00cc",
@@ -1960,7 +2081,9 @@
       "abstract_available": true,
       "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Der Abstract nennt eine Befragung. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
       "abstract_excerpt": "Peste des petits ruminants (PPR) is a highly contagious disease caused by the PPR virus (PPRV), a Morbillivirus , that affects small domestic ruminants and a range of wild ruminants. The disease is associated with significant socioeconomic losses and poses conservation threats due to its impact on susceptible wild ungulates. Wild species do not typically serve as independent reservoirs of PPRV. However, spillover from infected livestock at the wildlife-livestock interface is well documented. Therefore, understanding the role of wildlife in PPR epidemiology is important for the global campaign to eradicate the disease. This",
-      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung."
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "abstract_source_text": "Peste des petits ruminants (PPR) is a highly contagious disease caused by the PPR virus (PPRV), a Morbillivirus, that affects small domestic ruminants and a range of wild ruminants. The disease is associated with significant socioeconomic losses and poses conservation threats due to its impact on susceptible wild ungulates. Wild species do not typically serve as independent reservoirs of PPRV. However, spillover from infected livestock at the wildlife–livestock interface is well documented. Therefore, understanding the role of wildlife in PPR epidemiology is important for the global campaign to eradicate the disease. This is the first large-scale surveillance of wild ruminants conducted across the Russian Federation, which included many species that were not previously tested for PPRV. In total, 1709 samples were collected from 19 wild species over 7 years (2018–2024) across 54 regions. All samples were examined using the enzyme-linked immunosorbent assay (ELISA), real-time reverse transcription–polymerase chain reaction, and virus neutralization test (VNT). For the serological component of the study, an indirect ELISA was developed, based on recombinant nucleocapsid protein expressed in Escherichia coli, and was validated. The ELISA was validated against commercial competition ELISA and VNT. Results showed that the ELISA exhibited high performance with serum from multiple species, with a sensitivity of 97.5% and a specificity of 98% compared with the commercial kit, and with a sensitivity of 96.5% and a specificity of 99% versus VNT. All 1709 wildlife samples tested negative for PPRV antibodies and RNA, indicating no evidence of viral circulation in the surveyed populations. Although PPRV has been detected in goitered gazelle (Gazella subgutturosa), saiga (Saiga tatarica), and wild goat (Capra aegagrus) in neighboring countries, none of the Russian specimens—collected from several species, including Caspian red deer (Cervus elaphus maral) and Siberian musk deer (Moschus moschiferus)—tested positive. To the best of our knowledge, this is the first reported widescale PPR surveillance in wildlife species of its kind. This first comprehensive nationwide surveillance of PPRV in wild ruminants across Russia found no infection in the species or samples tested. The newly developed ELISA offers a rapid and reliable cost-effective alternative to VNT for large-scale screening. Our findings indicate that wild ruminants do not currently serve as a PPR reservoir in the surveyed regions and support the inclusion of wildlife monitoring in PPR control strategies for a better understanding of PPR epidemiology in wildlife.",
+      "abstract_origin": "OpenAlex DOI abstract"
     },
     {
       "id": "c8f05c6f6ffa6693b589",
@@ -2451,6 +2574,24 @@
       "kind": "media"
     },
     {
+      "id": "ab948f93cb210a855b18",
+      "title": "Baby orangutans in India expose illegal wildlife trade burgeoning in the country - Washington Times",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZ3MzYkNEUUkzcGE2dE5qWFJMeWpFdzlGNGpjQnRIdkpLX2c1TDBJejlvU3BzOEJSR19uRXcyaHZzczJqRnAwM0JkM1VhTUROaTBwQ2ZiMThDM0ZwS1pGaWNRN3NpWmlHTlVadmMwVGRZaVlMcmV3dDExLXp6MVlZeU1LLVdfQVBJS2FqQ0NqUF85X1I1UlZnU1ZYLXdZU2xfdEtKeHFkV2RFMWh1NFp3RWhn?oc=5",
+      "date": "2026-10-26T07:00:00Z",
+      "summary": "Baby orangutans in India expose illegal wildlife trade burgeoning in the country Washington Times",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "ce0dbb0c615d5b8e7058",
+      "title": "Baby orangutans in India expose illegal wildlife trade as experts question a billionaire’s zoo - Durango Herald",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQTTZ2WUNtRzIwU1REb1prM29VTzg2SE9XRTQ5bHdlQUlfazRxNXl6UzhUbm5oTWFxai11V2JGZVljS1JPRDY3MGRUX1cyZ0FFaTc5R1pmd1Zta2ROQ216bTRXdFA5NXRsWEgtNG9QLVdSdlZzZzc5cTJnbjdlU2t4RFZzT1R4MzhWOHo3ZjRKSWxhQjVPYnAzUmE1c3hLRzR2QnhjaUZIbGFBektpclQ4TnF3cVVkZUVrVVcxM1FSM1ZxZDltUy1FUkpnNU8wT216UnRXWUJZOWZJb25ZR3QwYUs1LTQ?oc=5",
+      "date": "2026-10-26T07:00:00Z",
+      "summary": "Baby orangutans in India expose illegal wildlife trade as experts question a billionaire’s zoo Durango Herald",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
+      "kind": "media"
+    },
+    {
       "id": "2bb9efbf525a2716fbdc",
       "title": "Artenschutz auf dem Acker: 53 Hektar für den Feldhamster angesät - Mynewsdesk",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOb2hhQWdRdVBiNHVDNTFKcHpKdDJpM3V2RUR0N25zSzdnVTVvamhvVDMwemlDOGFYQXpxNjZDWjVsZjQwamkxQ1ZMTUlvNWtkZFV0NEVzVFJWTFlCQW5lNTljT2pxNThKc0tTd01IY2hPYm9BQ29oNWI3UEktOUtvRjZjY3V1RXJUWEFVNDU5c2E3dWxaZGdHOE5yYW9oNzRwQ1oybWpMWC1lLXhjc1RqN3hseXNpaER2OE5CZ0ZSTUdycE5yVHln?oc=5",
@@ -2636,6 +2777,15 @@
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUFVlNVhDaVkwN3FNbnlDdkR0bVI0Z2lWMnNETng4S1pab2dxUGg3M2FqWE9JTGxxRjYzXzVaVGJxTkFnZnVLNGR1cWJCd0gtT1hDbWhLZGJiUGVaUjBuRW5BcjhrdktDa3hCaDhwODdsQ3ljVWVuTG4tQzNrWGdOMXlPWGJkS3k1OW1feVJWS0JFSTNS?oc=5",
       "date": "2026-10-13T07:00:00Z",
       "summary": "AI chatbots may be making the illegal wildlife trade easier Earth.com",
+      "source": "Wildtierhandel – Medien (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "1d11a354d517a758ddf3",
+      "title": "Interpol crackdown on illegal mining, logging and wildlife trafficking leads to 233 arrests - Greenfield Recorder",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcWVvYlltWkN0eWFlWWFXcnRnRk1uS3RnSlFKNFRHbHdtdnlwRFRNSUlzWTZ2MjVKWlRiYkF6NVV1QU5jUURrbHR5LVYxOHJfSlR0OXVpZThyNW5SSS1BbFBDa0JfYlcwOHhOT053ejFUYzZGaUo3elNGLWc4dW5ScHN1eGVaNDNTRHMxOHY1S0lGdTlRa2luS0RpNTRKaXRseEg4X1FCa196ZFVNSWNqTjB1bFNyN1BLMmVFRHEtbnc?oc=5",
+      "date": "2026-10-13T07:00:00Z",
+      "summary": "Interpol crackdown on illegal mining, logging and wildlife trafficking leads to 233 arrests Greenfield Recorder",
       "source": "Wildtierhandel – Medien (News-Aggregation)",
       "kind": "media"
     },
@@ -2894,8 +3044,8 @@
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNb1dGbEZHMmk1WnlGMDF6aGdsZW5MaWlteXVpbUFfcVktc1lIVXU1OE82dmpOYnAydHM1TVJYaHI0YktXeWczSmRQVm1ZU3dyTXFiQTlzZExOY3FCYW56X2ZPRWhnVm5vd0RWd21FRk5TMGVMa0hWcDRONHlURHlGaHFsRzl0a3JVbTJhNnZ6dFNCTU5xamY3MjRZS1FQbnhMRWtzaldPbTc?oc=5",
       "date": "2026-09-15T07:00:00Z",
       "summary": "IFAW expands support as wildlife rescue centers remain under pressure in France International Fund for Animal Welfare | IFAW",
-      "source": "IFAW – Berichterstattung (News-Aggregation)",
-      "kind": "media"
+      "source": "IFAW – öffentliche Meldungen (News-Aggregation)",
+      "kind": "ifaw"
     },
     {
       "id": "8bd5007690a16c19e4d0",
@@ -3160,7 +3310,7 @@
     {
       "name": "EU-Kommission – Nachrichten",
       "kind": "policy",
-      "count": 2,
+      "count": 1,
       "ok": true
     },
     {
@@ -3178,49 +3328,49 @@
     {
       "name": "BBC – Wissenschaft & Umwelt",
       "kind": "media",
-      "count": 11,
+      "count": 12,
       "ok": true
     },
     {
       "name": "The Guardian – Environment",
       "kind": "media",
-      "count": 15,
+      "count": 16,
       "ok": true
     },
     {
       "name": "Mongabay – Conservation News",
       "kind": "media",
-      "count": 15,
+      "count": 14,
       "ok": true
     },
     {
       "name": "IFAW – öffentliche Meldungen (News-Aggregation)",
       "kind": "ifaw",
-      "count": 0,
-      "ok": false
+      "count": 2,
+      "ok": true
     },
     {
       "name": "IFAW – Berichterstattung (News-Aggregation)",
       "kind": "media",
-      "count": 5,
-      "ok": true
+      "count": 0,
+      "ok": false
     },
     {
       "name": "Wildtierhandel – Medien (News-Aggregation)",
       "kind": "media",
-      "count": 13,
+      "count": 33,
       "ok": true
     },
     {
       "name": "Deutschland – Wildtiere (News-Aggregation)",
       "kind": "media",
-      "count": 6,
+      "count": 7,
       "ok": true
     },
     {
       "name": "Crossref: wildlife trafficking",
       "kind": "study",
-      "count": 9,
+      "count": 10,
       "ok": true
     },
     {
@@ -3238,14 +3388,14 @@
     {
       "name": "Crossref: elephant conservation",
       "kind": "study",
-      "count": 12,
-      "ok": true
+      "count": 0,
+      "ok": false
     },
     {
       "name": "Crossref: wildlife rescue",
       "kind": "study",
-      "count": 0,
-      "ok": false
+      "count": 7,
+      "ok": true
     },
     {
       "name": "Crossref: illegal wildlife trade",
@@ -3262,11 +3412,11 @@
   ],
   "failures": [
     {
-      "source": "IFAW – öffentliche Meldungen (News-Aggregation)",
+      "source": "IFAW – Berichterstattung (News-Aggregation)",
       "error": "HTTP Error 429: Too Many Requests"
     },
     {
-      "source": "Crossref: wildlife rescue",
+      "source": "Crossref: elephant conservation",
       "error": "HTTP Error 429: Too Many Requests"
     },
     {

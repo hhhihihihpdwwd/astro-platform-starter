@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-28T01:39:43.469477Z",
+  "generated_at": "2026-11-28T09:27:16.646321Z",
   "articles": [
     {
       "id": "493931f5e207928030ca",
@@ -9,6 +9,15 @@
       "date": "2026-11-27T15:30:14Z",
       "summary": "Timothy X Atack wrote Tiny Alarms after workshops with children, who felt theirs would be the last generation of humans Tiny, a 12-year-old schoolgirl, is an ecojustice influencer, whose funny and disconcerting takes on the climate crisis go viral.…",
       "source": "The Guardian – Environment",
+      "kind": "media"
+    },
+    {
+      "id": "170c66df2321dc6263b1",
+      "title": "Bilderstrecke: Bemerkenswerter Erfolg im Artenschutz: Grüne Meeresschildkröten sind nicht mehr gefährdet - Saarbrücker Zeitung",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNSHd3OTNhdWpPZU9RakpCZEpUVllFOUNVbGhGeDRZcFVlQ1QzR1R4LVZnb3F5TWIzY3p6UHFOZzY0OHpUUlVWcnJWQ1NtbHRPZUFOUUpyeVcwNnBKQXNkeVp3LUhncnJFTG4yOXZfd3BfcXl2cTFIdW9Tak5NSkN4M1FDM2tJekhrZGJZMy1QOVZXSlp5U0pxbjJZcWNDc3ZIY3V1QzZXWHZkVmpLZURNdnVrelZEdHR1cF9JYXdiT3FoajJqcWhlc3BoaXJpbWZQZTJKdmhuVzdJcDBmZVo5UWlxNDVuWnhKZTViVndneDFfYVJqLXc?oc=5",
+      "date": "2026-11-27T15:26:00Z",
+      "summary": "Bilderstrecke: Bemerkenswerter Erfolg im Artenschutz: Grüne Meeresschildkröten sind nicht mehr gefährdet Saarbrücker Zeitung",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
       "kind": "media"
     },
     {
@@ -39,9 +48,9 @@
       "kind": "media"
     },
     {
-      "id": "faba88e29c05e29c4f97",
+      "id": "fe746c7c83c25fbfff79",
       "title": "Online-Vortrag „Spechtlochsanierung und Artenschutz“ - muenchen.de",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMmtrY2E2ZGx5eDJLRzFYR2ktTTFZWGpKdHA4eVRXT1V3Z1lUWldtb1JROGJfMXFGZE90QUE0alJUaE5PVWd3X0hBVjdXalRGZVQwVUZlNnFQeWg0Y1NLOXlCYjdnRDdLeDV5YkxzbkJFWkpNSW1HOXkzWUFIRkFyYV94MVN4V3ZoV0tJeXVjanR0WUU?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQ1o3bkNTUDFZNENyVzF6WHhFVkVBRWxOSnFaSGRxU2hBVGNLeE9RSGVOZnF0emdkYmUybHQ0VkhQS3lIQjRfaHpEMzNlcmVvSnRZSFVmREtkMWlTd0lueDRDSlZWS3huX3ZReFJDalpaTWs5TUdBVDRsOUJhcjhkWU0ySEZRNWdPakNma2hKbTYwQQ?oc=5",
       "date": "2026-11-27T11:48:26Z",
       "summary": "Online-Vortrag „Spechtlochsanierung und Artenschutz“ muenchen.de",
       "source": "Deutschland – Wildtiere (News-Aggregation)",
@@ -1452,7 +1461,9 @@
       "abstract_available": true,
       "summary": "Die Veröffentlichung behandelt Wildtier- und Naturschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
       "abstract_excerpt": "Working dogs employed by the Polish Customs and Tax Service perform specialized tasks in customs control and fiscal enforcement, including the detection of prohibited and undeclared goods. Their public-service role raises important questions concerning the adequacy of the legal framework governing their welfare. This study examines the legal protection of working dogs in the Polish Customs and Tax Service and assesses whether applicable regulations provide comprehensive safeguards throughout their service life. The analysis is based on a doctrinal examination of Polish legislation concerning animal protection, the organiza",
-      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung."
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "abstract_source_text": "Working dogs employed by the Polish Customs and Tax Service perform specialized tasks in customs control and fiscal enforcement, including the detection of prohibited and undeclared goods. Their public-service role raises important questions concerning the adequacy of the legal framework governing their welfare. This study examines the legal protection of working dogs in the Polish Customs and Tax Service and assesses whether applicable regulations provide comprehensive safeguards throughout their service life. The analysis is based on a doctrinal examination of Polish legislation concerning animal protection, the organization and functioning of the Customs and Tax Service, and the status of service animals, supplemented by an assessment of relevant institutional and welfare standards. The study combines a legal-dogmatic analysis of Polish legislation and relevant animal welfare literature with empirical research based on information obtained from the Polish Customs and Tax Service under the Polish Act on Access to Public Information. The empirical data for the years 2025-February 2026, collected in 2026, are assessed against established animal welfare standards, including the Five Domains Model. The study identifies regulatory fragmentation concerning working conditions, workload, veterinary care, training, retirement, and post-service arrangements. Although Polish law establishes a general duty to protect animals from suffering and contains specific provisions concerning service animals, the existing framework remains primarily oriented toward the operational function of working dogs rather than their welfare. The findings indicate a need for greater coherence between animal-welfare legislation and sector-specific regulations. Clearer standards for working conditions, preventive veterinary care, rehabilitation, retirement, and post-service protection could strengthen the welfare-oriented regulation of public-service dogs.",
+      "abstract_origin": "OpenAlex DOI abstract"
     },
     {
       "id": "3f9c061561d295ed54df",
@@ -1909,7 +1920,9 @@
       "abstract_available": true,
       "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Der Abstract nennt eine Befragung. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
       "abstract_excerpt": "Reliable wildlife counts support population assessment and conservation planning, while aerial imagery enables surveys over large or inaccessible areas. Most automated counting systems are developed for predefined animal categories and require retraining when targets change. Text-guided zero-shot counting offers a flexible alternative by specifying the target through language without category-specific retraining, but how such methods transfer to aerial wildlife imagery remains underexplored. Existing aerial animal datasets vary widely in tasks, categories, environments, resolution, and acquisition conditions, making consis",
-      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung."
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "abstract_source_text": "Reliable wildlife counts support population assessment and conservation planning, while aerial imagery enables surveys over large or inaccessible areas. Most automated counting systems are developed for predefined animal categories and require retraining when targets change. Text-guided zero-shot counting offers a flexible alternative by specifying the target through language without category-specific retraining, but how such methods transfer to aerial wildlife imagery remains underexplored. Existing aerial animal datasets vary widely in tasks, categories, environments, resolution, and acquisition conditions, making consistent evaluation difficult. We therefore construct WZSC-5K by consolidating, cleaning, and harmonizing existing resources into a standardized 5000-image benchmark covering 28 animal categories. Existing zero-shot counters developed on natural images face challenges on the aerial wildlife imagery represented in WZSC-5K. Small targets and cluttered backgrounds complicate spatial localization, while top-down views can weaken the correspondence between generic text concepts and animal appearance. We therefore develop a training-free adaptation that uses spatial correspondence from a frozen vision foundation model to improve spatial coherence and incorporates aerial context to improve visual-text alignment. Without additional aerial-domain training, the proposed method reduces MAE and RMSE by 13.82% and 5.35% relative to the baseline model, demonstrating improved transfer under the standardized WZSC-5K evaluation setting.",
+      "abstract_origin": "OpenAlex DOI abstract"
     },
     {
       "id": "c80c6e00d535316b4f5b",
@@ -1979,7 +1992,9 @@
       "abstract_available": true,
       "summary": "Die Veröffentlichung behandelt Biodiversität und Lebensraumschutz. Die Einordnung basiert auf dem wissenschaftlichen Abstract. Konkrete Ergebnisse bitte in der Originalstudie prüfen.",
       "abstract_excerpt": "Background: Panama is recognized as a global biodiversity hotspot; however, little is known about the genetic diversity patterns of Toxoplasma gondii in wildlife. This exploratory study evaluated the allelic and haplotypic diversity of the alt SAG2, GRA6, and Apico markers using wildlife tissue samples; additionally, it compared the genealogical relationships between the identified variants and a defined panel of reference sequences. Methods: Amplicons from each tissue sample and locus collected from 13 wild animals were analyzed using Sanger sequencing. The resulting sequences were then examined using NeighborNet networks",
-      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung."
+      "abstract_note": "Maschinell übersetzter Abstract-Auszug; keine unabhängige Bewertung.",
+      "abstract_source_text": "Background: Panama is recognized as a global biodiversity hotspot; however, little is known about the genetic diversity patterns of Toxoplasma gondii in wildlife. This exploratory study evaluated the allelic and haplotypic diversity of the alt SAG2, GRA6, and Apico markers using wildlife tissue samples; additionally, it compared the genealogical relationships between the identified variants and a defined panel of reference sequences. Methods: Amplicons from each tissue sample and locus collected from 13 wild animals were analyzed using Sanger sequencing. The resulting sequences were then examined using NeighborNet networks and unrooted Neighbor-Joining trees. Results: A total of 162 sequences were generated for each locus. The alt SAG2 variants clustered with reference alleles associated with T. gondii types II and III, whereas GRA6 variants clustered with reference alleles associated with types I, II, and III. The Apico fragment did not separate the type I, II, and III reference sequences. Multiple sequence variants were recovered from several sets of clones derived from the same tissue. Conclusions: The genetic variation detected in Panamanian wildlife comprises a heterogeneous set of T. gondii sequence variants associated with archetypal clonal variants and with sequence variants described in geographically distant regions. These findings suggest that the allelic variation present in the analyzed wildlife is not restricted to the regional context but is part of a broader pattern of T. gondii diversity in the Neotropics.",
+      "abstract_origin": "OpenAlex DOI abstract"
     },
     {
       "id": "a6ee0eaa5091671684d0",
@@ -2347,6 +2362,15 @@
       "date": "2026-11-03T08:00:00Z",
       "summary": "ODPP warns wildlife trafficking is fuelling transnational organised crime Capital FM Africa",
       "source": "Wildtierhandel – Medien (News-Aggregation)",
+      "kind": "media"
+    },
+    {
+      "id": "3b25c8b06216a2ce8475",
+      "title": "Mehlschwalbe profitiert vom Artenschutz in Bielefeld - Radio Bielefeld",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWU01RnB0UkxWaFp2UEJfSlhSOFlDV0tSVGIwX04tY2dzeklnaFd5eG56VDJvYmNCUm5oVHFZSDh3c1dlZjlnRWpiV3pnQnkyc0E4b1JMTjBSelVibjZEMXVrWG4zaENpVkxhc0FvbmlLQWEtNUNuWEdOMWp1NVdsYk5YeGV2NDNmcExKcnVnZEt4WmtMS29kSkVfcFk4NVhNcXZleDUwTHlmRFIxWWk3a0pqaGQyNmQ5?oc=5",
+      "date": "2026-11-03T08:00:00Z",
+      "summary": "Mehlschwalbe profitiert vom Artenschutz in Bielefeld Radio Bielefeld",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
       "kind": "media"
     },
     {
@@ -2755,6 +2779,15 @@
       "kind": "media"
     },
     {
+      "id": "a1b21b95341337e25575",
+      "title": "Weltnaturkonferenz: Was tut Gastgeber Armenien für Artenschutz? - SWR",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUGU4dWRXY284S1Q5QVA1TFZOSnl6WTUxVG8ydTJNakQ1T0FDWTRKQk9LRzJSNW5zX18yWVdzTmctczZ4TG85TGpCcmNLYnUteW9ENUNWXzJmT2htYTBSZTk0bnFMcHFWN2JBbExRSHU5TUFxLTZmT3FQcU83dTB6NGt0QXBudkJIZ3ZKS0FGUGNBX0JKODZ0d2gyQ0hDTzB6QUREbzUyWkxTMzQ?oc=5",
+      "date": "2026-10-19T07:00:00Z",
+      "summary": "Weltnaturkonferenz: Was tut Gastgeber Armenien für Artenschutz? SWR",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
+      "kind": "media"
+    },
+    {
       "id": "ba5c4a87c7279d82d555",
       "title": "Weltnaturkonferenz: Erste globale Bilanz zur Umsetzung der Naturschutzziele bis 2030",
       "url": "https://www.bundesumweltministerium.de/pressemitteilung/weltnaturkonferenz-erste-globale-bilanz-zur-umsetzung-der-naturschutzziele-bis-2030",
@@ -2762,6 +2795,15 @@
       "summary": "Im Mittelpunkt der Weltnaturkonferenz steht die Frage, welche Fortschritte seit 2022 erreicht wurden und wie das Ziel, bis 2030 mindestens 30 Prozent der Land- und Meeresflächen zu schützen, noch erreicht werden kann.",
       "source": "Bundesumweltministerium – Naturschutz",
       "kind": "policy"
+    },
+    {
+      "id": "b5fa5f74d4c8205c2a63",
+      "title": "Gemischte Ergebnisse: UN-Biodiversitätskonferenz COP 17 in Armenien - WWF Deutschland",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMVY4eENvRldxekZfbk96eWczQmRNcFhmeGVBbl9wZXdvNGtNb0h5dXhyb0J0TEZtb0NsWXRnRHVyU1p6amFxeTUwYkt0bDN3N042T3B0MThFTjdoYkh3TTZwUm9GamNqbmhNT1lMRHBEQ1BQWUNNSnJpdE5wWnppZ0NCbGJIUXA3RlFwWkhXa0UxaDR4VXUzT25fWGxickdnVTlPYXNOcVpsMjNJWGVnaGJaNGVKb0k?oc=5",
+      "date": "2026-10-17T01:19:04Z",
+      "summary": "Gemischte Ergebnisse: UN-Biodiversitätskonferenz COP 17 in Armenien WWF Deutschland",
+      "source": "Deutschland – Wildtiere (News-Aggregation)",
+      "kind": "media"
     },
     {
       "id": "f899315977e656bce64f",
@@ -3389,19 +3431,19 @@
     {
       "name": "BBC – Wissenschaft & Umwelt",
       "kind": "media",
-      "count": 11,
+      "count": 9,
       "ok": true
     },
     {
       "name": "The Guardian – Environment",
       "kind": "media",
-      "count": 16,
+      "count": 15,
       "ok": true
     },
     {
       "name": "Mongabay – Conservation News",
       "kind": "media",
-      "count": 14,
+      "count": 13,
       "ok": true
     },
     {
@@ -3419,19 +3461,19 @@
     {
       "name": "Wildtierhandel – Medien (News-Aggregation)",
       "kind": "media",
-      "count": 18,
+      "count": 31,
       "ok": true
     },
     {
       "name": "Deutschland – Wildtiere (News-Aggregation)",
       "kind": "media",
-      "count": 7,
+      "count": 45,
       "ok": true
     },
     {
       "name": "Crossref: wildlife trafficking",
       "kind": "study",
-      "count": 10,
+      "count": 11,
       "ok": true
     },
     {
@@ -3443,46 +3485,36 @@
     {
       "name": "Crossref: marine mammal conservation",
       "kind": "study",
-      "count": 0,
-      "ok": false
+      "count": 12,
+      "ok": true
     },
     {
       "name": "Crossref: elephant conservation",
       "kind": "study",
-      "count": 0,
-      "ok": false
+      "count": 12,
+      "ok": true
     },
     {
       "name": "Crossref: wildlife rescue",
       "kind": "study",
-      "count": 0,
-      "ok": false
+      "count": 7,
+      "ok": true
     },
     {
       "name": "Crossref: illegal wildlife trade",
       "kind": "study",
-      "count": 1,
-      "ok": true
-    },
-    {
-      "name": "Europe PMC – Studien & Abstracts",
-      "kind": "study",
-      "count": 30,
-      "ok": true
+      "count": 0,
+      "ok": false
     }
   ],
   "failures": [
     {
-      "source": "Crossref: marine mammal conservation",
+      "source": "Crossref: illegal wildlife trade",
       "error": "HTTP Error 429: Too Many Requests"
     },
     {
-      "source": "Crossref: elephant conservation",
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "source": "Crossref: wildlife rescue",
-      "error": "HTTP Error 429: Too Many Requests"
+      "source": "Europe PMC",
+      "error": "The read operation timed out"
     }
   ],
   "events": [],

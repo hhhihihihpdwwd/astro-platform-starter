@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-28T01:39:53.861426Z",
-  "last_successful_at": "2026-11-28T01:39:53.861426Z",
+  "checked_at": "2026-11-28T09:27:49.380089Z",
+  "last_successful_at": "2026-11-28T09:27:49.380089Z",
   "articles": [
     {
       "id": "bee8c0a8cd0d31992cc0",
@@ -703,7 +703,7 @@
     {
       "name": "IFAW · internationale offizielle Pressemitteilungen",
       "ok": true,
-      "count": 28
+      "count": 25
     },
     {
       "name": "IFAW · deutscher Medienmarkt",
@@ -713,7 +713,7 @@
     {
       "name": "IFAW · Elfenbein/Artenschutz im deutschen Medienmarkt",
       "ok": true,
-      "count": 2
+      "count": 1
     },
     {
       "name": "IFAW · deutsches Team in deutschen Medien",
